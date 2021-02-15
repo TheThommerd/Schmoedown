@@ -1,0 +1,951 @@
+		document.getElementById("time001").style.visibility = "hidden";
+		document.getElementById("time001").style.display = "none";
+	    	message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
+		document.getElementById("q2").focus();
+		var cormusic = document.getElementById("myAudio"); 
+		var incmusic = document.getElementById("myAudio2"); 
+		document.getElementById("myAudio").volume = 0.1;
+		document.getElementById("myAudio2").volume = 0.05;
+	        document.getElementById("frame001").style.zoom="1.4";
+
+function load(){
+	if (document.getElementById("wins").value.length < 1)
+	{
+	document.getElementById("wins").value = 0;
+	}
+	if (document.getElementById("losses").value.length < 1)
+	{
+	document.getElementById("losses").value = 0;
+	}
+  	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
+  	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
+	var length = name.length;
+	var twittername = document.getElementById("twitt").value;
+	var twitter = twittername.substring(0, 13);
+	twitter001.innerHTML = twitter.replace(" ","");
+}
+var similarity1 = 0;
+var similarity2 = 0;
+var competitorlist = [
+{
+"id": "Bateman",
+"lowercase": "Ben Bateman",
+"twitter": "@benbatemanmedia",
+"record": "10-5",
+"faction": "HORSEMEN",
+"percentage": "82",
+},
+{
+"id": "Bibbiani",
+"lowercase": "William Bibbiani",
+"twitter": "@WilliamBibbiani",
+"record": "10-8",
+"faction": "SHAZAM!",
+"percentage": "84",
+},
+{
+"id": "Kalinowski",
+"lowercase": "Mike Kalinowski",
+"twitter": "@MikeKalinowski",
+"record": "7-6",
+"faction": "KORRUPTION",
+"percentage": "74",
+},
+{
+"id": "Murrell",
+"lowercase": "Dan Murrell",
+"twitter": "@MurrellDan",
+"record": "13-5",
+"faction": "HORSEMEN",
+"percentage": "85",
+},
+{
+"id": "Oyama",
+"lowercase": "Paul Oyama",
+"twitter": "@Paul_Oyama",
+"record": "6-1",
+"faction": "S.W.A.G.",
+"percentage": "78",
+},
+{
+"id": "Andreyko",
+"lowercase": "Marc Andreyko",
+"twitter": "@marcandreyko",
+"record": "6-6",
+"faction": "ROXSTARS",
+"percentage": "72",
+},
+{
+"id": "Cushing",
+"lowercase": "Rachel Cushing",
+"twitter": "@RachelJCushing",
+"record": "4-2",
+"faction": "SHIREWOLVES",
+"percentage": "88",
+},
+{
+"id": "Dagnino",
+"lowercase": "Tom Dagnino",
+"twitter": "@bobfinstock",
+"record": "1-4",
+"faction": "HORSEMEN",
+"percentage": "49",
+},
+{
+"id": "Ellison",
+"lowercase": "Chance Ellison",
+"twitter": "@chancewars_91",
+"record": "3-3",
+"faction": "KORRUPTION",
+"percentage": "79",
+},
+{
+"id": "Erwin",
+"lowercase": "Ethan Erwin",
+"twitter": "@MrEthanErwin",
+"record": "8-4",
+"faction": "USUAL SUSPECTS",
+"percentage": "86",
+},
+{
+"id": "Harris",
+"lowercase": "Lon Harris",
+"twitter": "@Lons",
+"record": "5-4",
+"faction": "S.W.A.G.",
+"percentage": "74",
+},
+{
+"id": "Howard",
+"lowercase": "Stacy Howard",
+"twitter": "@stacyohoward",
+"record": "6-5",
+"faction": "ROXSTARS",
+"percentage": "60",
+},
+{
+"id": "JTE",
+"lowercase": "JTE",
+"twitter": "@JTEmoviethinks",
+"record": "9-10",
+"faction": "ROXSTARS",
+"percentage": "69",
+},
+{
+"id": "Levine",
+"lowercase": "Samm Levine",
+"twitter": "@SammLevine",
+"record": "10-4",
+"faction": "USUAL SUSPECTS",
+"percentage": "80",
+},
+{
+"id": "Meyer",
+"lowercase": "Brendan Meyer",
+"twitter": "@BrendanKJMeyer",
+"record": "5-3",
+"faction": "SHAZAM",
+"percentage": "72",
+},
+{
+"id": "Macuga",
+"lowercase": "Josh Macuga",
+"twitter": "@JoshMacuga",
+"record": "8-11",
+"faction": "S.W.A.G.",
+"percentage": "52",
+},
+{
+"id": "Miller",
+"lowercase": "Liz Shannon Miller",
+"twitter": "@lizlet",
+"record": "4-2",
+"faction": "S.W.A.G.",
+"percentage": "75",
+},
+{
+"id": "Reilly",
+"lowercase": "Mark Reilly",
+"twitter": "@ReillyAround",
+"record": "10-7",
+"faction": "HORSEMEN",
+"percentage": "71",
+},
+{
+"id": "Sneider",
+"lowercase": "Jeff Sneider",
+"twitter": "@TheInSneider",
+"record": "9-6",
+"faction": "ROXSTARS",
+"percentage": "71",
+},
+{
+"id": "Wolfe",
+"lowercase": "Clarke Wolfe",
+"twitter": "@clarkewolfe",
+"record": "8-7",
+"faction": "SHIREWOLVES",
+"percentage": "72",
+},
+{
+"id": "Preston",
+"lowercase": "Paul Preston",
+"twitter": "@PPrestonLA",
+"record": "8-7",
+"faction": "THE DEN",
+"percentage": "75",
+},
+{
+"id": "Rocha",
+"lowercase": "John Rocha",
+"twitter": "@TheRochaSays",
+"record": "14-9",
+"faction": "HORSEMEN",
+"percentage": "79",
+}
+];
+
+
+var num = 0;
+var hastag = "#";
+
+var percentage = 0;
+var vraag = 0;
+
+function pregame(){
+	document.getElementById("time001").style.display = "initial";
+	message001.innerHTML = "Click Begin to start the match.";
+	message005.innerHTML = "<strong><font size=4>ROUND ONE</font><br/></br>30 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>YOU CAN ASK 3 TIMES DURING THE MATCH FOR A QUESTION TO BE REPEATED</br>THIS GIVES YOU AN ADDITIONAL 15 SECONDS TO ANSWER THE QUESTION</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSELS LET YOU KEEP YOUR CHALLENGE</strong>";
+	document.getElementById("message005").style.position = "relative";
+	document.getElementById("message005").style.top = "-200px";
+message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
+	document.getElementById("message003").style.top = "-200px";
+	message006.innerHTML =  "";
+	document.getElementById("message006").style.position = "relative";
+	document.getElementById("message006").style.top = "-200px";
+	message004.innerHTML = "";
+	document.getElementById("message004").style = "initial";
+	document.getElementById("message004").style.top = "-140px";
+}
+
+	var a = 0;
+        var r = 0;
+        r++;
+        var q = 0;
+        q++;
+        var b = 0;
+        var s = 0;
+        var u = 0;
+        var v = 0;
+	var j = 3;
+	j--;
+	var h = 2;
+	h--;
+	var minimum = 0;
+var number;
+
+function submitname () {
+	var name = document.getElementById("q2").value.toUpperCase();
+	var twitt = document.getElementById("twitt").value;
+	var naam = document.getElementById("naam").value.toUpperCase();
+	var length1 = name.length;
+	var twittername = document.getElementById("q3").value;
+	var length2 = twittername.length;
+	var twitter = twittername.substring(0, 15);
+	var twitter = twitter.replace(" ","");
+
+	if (length1 < 1){
+	player001.innerHTML = naam ;
+	} 
+	else if (length1 >= 1){
+	player001.innerHTML = name;
+	document.getElementById("naam").value = document.getElementById("q2").value;
+	}
+	if (length2 < 1){
+	twitter001.innerHTML = twitt ;
+	} 
+	else if (length2 >= 1){
+	twitter001.innerHTML = twitter;
+	document.getElementById("twitt").value = document.getElementById("q3").value;
+	}
+	if (document.getElementById("wins").value.length < 1)
+	{
+	document.getElementById("wins").value = 0;
+	}
+	if (document.getElementById("losses").value.length < 1)
+	{
+	document.getElementById("losses").value = 0;
+	}
+	var record = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
+  	record001.innerHTML = record;
+	document.getElementById("skip").style.visibility = "hidden";
+	document.getElementById("skip").style.display = "none";
+message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Cushing>Rachel Cushing</option><option value=Dagnino>Tom Dagnino</option><option value=Ellison>Chance Ellison</option><option value=Erwin>Ethan Erwin</option><option value=Harris>Lon Harris</option><option value=Howard>Stacy Howard</option><option value=JTE>JTE</option><option value=Kalinowski>Mike Kalinowski</option><option value=Levine>Samm Levine</option><option value=Macuga>Josh Macuga</option><option value=Meyer>Brendan Meyer</option><option value=Miller>Liz Shannon Miller</option><option value=Murrell>Dan Murrell</option><option value=Oyama>Paul Oyama</option><option value=Reilly>Mark Reilly</option><option value=Rocha>John Rocha</option><option value=Sneider>Jeff Sneider</option><option value=Wolfe>Clarke Wolfe</option><option value=Preston>Paul Preston</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+	message001.innerHTML = "Choose your opponent.";
+}
+
+function choosecomp() {
+  	var comp = document.getElementById("select").value;
+	document.getElementById("select").style.visibility = "hidden";
+	document.getElementById("choose").style.visibility = "hidden";
+	document.getElementById("select").style.display = "none";
+	document.getElementById("choose").style.display = "none";
+	competitorlist.forEach(function(item,i){
+	if(item.id == comp){
+	competitorlist.splice(i, 1);
+	competitorlist.unshift(item);
+	}
+	});
+ 	player002.innerHTML = competitorlist[0].id.toUpperCase();
+  	twitter002.innerHTML = competitorlist[0].twitter;
+  	faction002.innerHTML = competitorlist[0].faction;
+  	record002.innerHTML = competitorlist[0].record;
+	percentage = competitorlist[0].percentage;
+	percentage3 = competitorlist[0].percentage3;
+	percentage5 = competitorlist[0].percentage5;
+	message001.innerHTML = "Press Next to proceed.";
+	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
+	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>";
+};
+
+
+function skip () {
+	document.getElementById("skip").style.visibility = "hidden";
+	document.getElementById("skip").style.display = "none";
+message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Cushing>Rachel Cushing</option><option value=Dagnino>Tom Dagnino</option><option value=Ellison>Chance Ellison</option><option value=Erwin>Ethan Erwin</option><option value=Harris>Lon Harris</option><option value=Howard>Stacy Howard</option><option value=JTE>JTE</option><option value=Kalinowski>Mike Kalinowski</option><option value=Levine>Samm Levine</option><option value=Macuga>Josh Macuga</option><option value=Meyer>Brendan Meyer</option><option value=Miller>Liz Shannon Miller</option><option value=Murrell>Dan Murrell</option><option value=Oyama>Paul Oyama</option><option value=Reilly>Mark Reilly</option><option value=Rocha>John Rocha</option><option value=Sneider>Jeff Sneider</option><option value=Wolfe>Clarke Wolfe</option><option value=Preston>Paul Preston</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+	message001.innerHTML = "Choose your opponent.";
+}
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex ;
+  while (0 !== currentIndex) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
+}
+
+var chance = 0;
+var c;
+
+question001 = shuffle(question001); 
+
+function begin001() {
+    var Minutes = 60 * 4,
+        display = document.querySelector('#round002');
+    startTimer(Minutes, display);
+             c = 21;
+                time001.innerHTML = 20;
+                document.getElementById("round002").style.visibility = "visible";
+	    document.getElementById("time001").style.visibility = "visible";
+	    document.getElementById("message005").style.position = "relative";
+	    document.getElementById("message005").style.top = "-100px";
+	    document.getElementById("message006").style.position = "relative";
+	    document.getElementById("message006").style.top = "-100px";
+            message001.innerHTML = question001[0].ques;
+            message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+if (question001[0].ques.length > 125){
+		document.getElementById("message001").style.fontSize = "70%";
+	document.getElementById("player001").style.top = "27px";
+	document.getElementById("player002").style.top = "5px";
+	document.getElementById("score001").style.top = "-55px";
+	document.getElementById("score002").style.top = "-95px";
+	document.getElementById("twitter001").style.top = "-128px";
+	document.getElementById("twitter002").style.top = "-148px";
+	document.getElementById("faction001").style.top = "-166px";
+	document.getElementById("faction002").style.top = "-166px";
+	document.getElementById("record001").style.top = "-28px";
+	document.getElementById("record002").style.top = "-48px";
+	document.getElementById("round002").style.top = "-126px";
+	document.getElementById("time001").style.top = "-140px";
+}
+            message003.innerHTML = "";
+            message005.innerHTML = "";
+            message006.innerHTML = "";
+           a++;
+            qu001.innerHTML = "1 - " +question001[0].cat.toUpperCase();
+	    document.getElementById("q1").focus();
+        }
+
+
+function Challenge(){
+if (h == 1) {
+	    document.getElementById("chalacc").style.visibility = "visible";
+	    document.getElementById("chalden").style.visibility = "visible";
+	    }
+ else if (h < 1) {
+            message003.innerHTML = "No challenges left!";
+	    }
+}
+
+function ChallengeAccepted(){
+if (speed == 0) {
+            score001.innerHTML = b+=1;
+	    document.getElementById("chalacc").style.visibility = "hidden";
+	    document.getElementById("chalden").style.visibility = "hidden";
+	    document.getElementById("chal").style.visibility = "hidden";
+            message003.innerHTML = "Challenge won!";
+}
+if (speed != 0) {
+            score001.innerHTML = b+= 2;
+	    document.getElementById("chalacc").style.visibility = "hidden";
+	    document.getElementById("chalden").style.visibility = "hidden";
+	    document.getElementById("chal").style.visibility = "hidden";
+            message003.innerHTML = "Challenge won!";
+            message006.innerHTML = "<br>";
+	     }
+}
+
+function ChallengeDenied(){
+if (j == 2) {
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/fantasymts/Singles___NoChal.png')";
+	    h--;
+	    h--;
+	    document.getElementById("chalacc").style.visibility = "hidden";
+	    document.getElementById("chalden").style.visibility = "hidden";
+	    document.getElementById("chal").style.visibility = "hidden";
+            message003.innerHTML = "Challenge lost!";
+}
+else if (j == 1) {
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTE.png')";
+	    h--;
+	     h--;
+	    document.getElementById("chalacc").style.visibility = "hidden";
+	    document.getElementById("chalden").style.visibility = "hidden";
+	    document.getElementById("chal").style.visibility = "hidden";
+            message003.innerHTML = "Challenge lost!";
+	          }
+else if (j == 0) {
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTE.png')";
+	   h--;
+	     h--;
+	    document.getElementById("chalacc").style.visibility = "hidden";
+	    document.getElementById("chalden").style.visibility = "hidden";
+	    document.getElementById("chal").style.visibility = "hidden";
+            message003.innerHTML = "Challenge lost!";
+	          }
+ else if (j < 0) {
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTE.png')";
+	    h--;
+	     h--;
+	    document.getElementById("chalacc").style.visibility = "hidden";
+	    document.getElementById("chalden").style.visibility = "hidden";
+	    document.getElementById("chal").style.visibility = "hidden";
+            message003.innerHTML = "Challenge lost!";
+	      }
+}
+
+function myTrim(x) {
+  return x.replace(/^\s+|\s+$/gm,'');
+}
+
+
+function checker(){
+	document.getElementById("message003").style.top = "-190px";
+	document.getElementById("message004").style.top = "-190px";
+if (speed != 0)
+{
+checkerspeed();
+}
+else {
+	    var question01 = document.getElementById("q1").value.toUpperCase();
+	    var question1 = myTrim(question01);
+	    question1 = question1.replace(":"," ");
+	    question1 = question1.replace("!","");
+	    question1 = question1.replace("$","");
+	    question1 = question1.replace("?","");
+	    question1 = question1.replace(","," ");
+	    question1 = question1.replace("&","AND");
+	    question1 = question1.replace(".","");
+	    question1 = question1.replace("-"," ");
+	    question1 = question1.replace("   "," ");
+	    question1 = question1.replace("  "," ");
+	    question1 = question1.replace("É","E");
+	    question1 = question1.replace("Ó","O");
+	    question1 = question1.replace("Í","I");
+	    question1 = question1.replace("Á","A");
+	    question1 = question1.replace("Ñ","N");
+	    question1 = question1.replace("È","E");
+	    question1 = question1.replace("Ç","C");
+	    question1 = myTrim(question1);
+if (question1.length >= 1){
+similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
+if (typeof(question001[vraag].answ3) != 'undefined'){
+similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
+}
+}
+else if (question1.length < 1){
+similarity1 = 0;
+similarity2 = 0;
+}
+            window.clearInterval(update);
+            c = "-";
+	    document.getElementById("submit2").style.display = "none";
+	    document.getElementById("q1").disabled = true;
+	if ((question1 == question001[vraag].answ) || (question1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+            score001.innerHTML = b+=1;
+	    cormusic.play();
+            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}
+	     
+            else if (question1 != question001[vraag].answ)  {
+            message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
+	    message005.innerHTML = "";
+	    incmusic.play();
+            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+}
+    var correct = Math.random()*100;
+if (correct < competitorlist[0].percentage){
+score002.innerHTML = s+=1;
+}        	   
+}
+}
+
+function checkerspeed(){
+	    var speed01 = document.getElementById("q1").value.toUpperCase();
+	    var speed1 = myTrim(speed01);
+	    speed1 = speed1.replace(":"," ");
+	    speed1 = speed1.replace("!","");
+	    speed1 = speed1.replace("$","");
+	    speed1 = speed1.replace("?","");
+	    speed1 = speed1.replace(","," ");
+	    speed1 = speed1.replace("&","AND");
+	    speed1 = speed1.replace(".","");
+	    speed1 = speed1.replace("-"," ");
+	    speed1 = speed1.replace("   "," ");
+	    speed1 = speed1.replace("  "," ");
+	    speed1 = speed1.replace("É","E");
+	    speed1 = speed1.replace("Ó","O");
+	    speed1 = speed1.replace("Í","I");
+	    speed1 = speed1.replace("Á","A");
+	    speed1 = speed1.replace("Ñ","N");
+	    speed1 = speed1.replace("È","E");
+	    speed1 = speed1.replace("Ç","C");
+	    speed1 = myTrim(speed1);
+            window.clearInterval(update);
+		document.getElementById("submit2").style.display = "none";
+	    document.getElementById("q1").disabled = true;
+	if ((speed1 == question001[vraag].answ) || (speed1 == question001[vraag].answ3)) {
+            message003.innerHTML = "Correct!";
+            score001.innerHTML = b += 1;
+	    cormusic.play();
+            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	document.getElementById("message005").style.position = "relative";
+	document.getElementById("message005").style.top = "-100px";
+	document.getElementById("message004").style.position = "relative";
+	document.getElementById("message004").style.top = "-100px";
+
+	}
+        else if (speed1 != question001[vraag].answ)  {
+            message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
+	    message005.innerHTML = "";
+            score001.innerHTML = b -= 1;
+	    incmusic.play();
+            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	document.getElementById("message005").style.position = "relative";
+	document.getElementById("message005").style.top = "-100px";
+	document.getElementById("message004").style.position = "relative";
+	document.getElementById("message004").style.top = "-100px";
+	}
+ 	chance = 0 ;
+}
+
+
+
+function next001() {
+        display = document.querySelector('#round002');
+                    if (display.textContent == "02:00") {
+				finalround();
+        }
+else {
+  document.getElementById("message001").style.fontSize = "90%";
+	document.getElementById("player001").style.top = "15px";
+	document.getElementById("player002").style.top = "-7px";
+	document.getElementById("score001").style.top = "-67px";
+	document.getElementById("score002").style.top = "-107px";
+	document.getElementById("twitter001").style.top = "-140px";
+	document.getElementById("twitter002").style.top = "-160px";
+	document.getElementById("faction001").style.top = "-178px";
+	document.getElementById("faction002").style.top = "-178px";
+	document.getElementById("record001").style.top = "-40px";
+	document.getElementById("record002").style.top = "-60px";
+	document.getElementById("round002").style.top = "-138px";
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+	    document.getElementById("chalacc").style.display = "initial";
+	    document.getElementById("chalden").style.display = "initial";
+	    document.getElementById("message004").style.display = "initial";
+	    document.getElementById("message005").style.display = "initial";
+	document.getElementById("time001").style.top = "-150px";
+		vraag++;
+                update = setInterval("timer001()", 1000);
+                c = 20;
+                time001.innerHTML = 20;
+                message001.innerHTML = question001[vraag].ques;
+                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+if (question001[vraag].ques.length > 125){
+		document.getElementById("message001").style.fontSize = "70%";
+	document.getElementById("player001").style.top = "27px";
+	document.getElementById("player002").style.top = "5px";
+	document.getElementById("score001").style.top = "-55px";
+	document.getElementById("score002").style.top = "-95px";
+	document.getElementById("twitter001").style.top = "-128px";
+	document.getElementById("twitter002").style.top = "-148px";
+	document.getElementById("faction001").style.top = "-166px";
+	document.getElementById("faction002").style.top = "-166px";
+	document.getElementById("record001").style.top = "-28px";
+	document.getElementById("record002").style.top = "-48px";
+	document.getElementById("round002").style.top = "-126px";
+	document.getElementById("time001").style.top = "-140px";
+}
+	        document.getElementById("q1").focus();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                 a++;
+            	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+                if (c < 1) {
+                    window.clearInterval(update);
+                    message001.innerHTML = "Time's up";
+                    message002.innerHTML = "";
+                    message003.innerHTML = "";
+            	    message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+                }
+}
+}
+
+
+function timer001() {
+            c = c - 1;
+            if (c < 200) {
+                time001.innerHTML = c;
+            }
+            if (c < 1) {
+      		message003.innerHTML = "The correct answer is " + question001[vraag].answ2; 
+           	window.clearInterval(update);
+                time001.innerHTML = "Time's up!";
+		document.getElementById("time001").style.fontSize = "100%";
+		document.getElementById("time001").style.fontWeight = "normal";
+	    	incmusic.play();
+	    document.getElementById("q1").disabled = true;
+		document.getElementById("submit2").style.visibility = "hidden";
+	    	document.getElementById("submit2").style.display = "none";
+	    message006.innerHTML =  "";
+if (speed == 0){
+            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+var correct = Math.random() * 100;
+if (correct < competitorlist[0].percentage){
+score002.innerHTML = s+=1;
+}
+}
+else if (speed != 0 ){
+            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+            score001.innerHTML = b -= 1;
+	document.getElementById("message004").style.top = "-100px";
+}
+}
+}
+        update = setInterval("timer001()", 1000);
+      
+
+function repeat001() {
+            location.reload();
+        }
+
+$("#message002").keypress(function(event) { 
+         if (event.keyCode === 13){ 
+                 $("#submit").click(); 
+
+            } 
+});
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+ var tijd =   setInterval(function () {
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+        display = document.querySelector('#round002');
+                    if (display.textContent == "02:00") {
+                            window.clearInterval(tijd);
+                           display.textContent = "02:00";
+			
+        		}
+    }, 1000);
+}
+
+function startTimer2(duration, display) {
+    var timer = duration, minutes, seconds;
+ var tijd =   setInterval(function () {
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+        display = document.querySelector('#round002');
+                    if (display.textContent == "00:00") {
+                            window.clearInterval(tijd);
+                           display.textContent = "00:00";
+			
+        		}
+    }, 1000);
+}
+
+function next002(){
+       display = document.querySelector('#round002');
+                    if (display.textContent == "00:00") {
+				message001.innerHTML = "Time's Up";
+if (b -s > 0){
+win();
+}
+else if (b -s < 0){
+lose();
+}
+        }
+else {
+  document.getElementById("message001").style.fontSize = "90%";
+	document.getElementById("player001").style.top = "15px";
+	document.getElementById("player002").style.top = "-7px";
+	document.getElementById("score001").style.top = "-67px";
+	document.getElementById("score002").style.top = "-107px";
+	document.getElementById("twitter001").style.top = "-140px";
+	document.getElementById("twitter002").style.top = "-160px";
+	document.getElementById("faction001").style.top = "-178px";
+	document.getElementById("faction002").style.top = "-178px";
+	document.getElementById("record001").style.top = "-40px";
+	document.getElementById("record002").style.top = "-60px";
+	document.getElementById("round002").style.top = "-138px";
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+	    document.getElementById("time001").style.display = "initial";
+	    document.getElementById("time001").style.visibility = "visible";
+	document.getElementById("time001").style.top = "-150px";
+	    document.getElementById("chalacc").style.display = "initial";
+	    document.getElementById("chalden").style.display = "initial";
+	    document.getElementById("message004").style.display = "initial";
+	    document.getElementById("message005").style.display = "initial";
+		vraag++;    
+                message001.innerHTML = question001[vraag].ques;
+chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
+if (question001[vraag].ques.length < 50)
+{
+if (chance < 20){t = 15; nobody = 1}
+else if (chance < 25){t = 10; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 65){t = 3; nobody = 0}
+else if (chance < 100){t = 2; nobody = 0}
+}
+else if (question001[vraag].ques.length < 110)
+{
+if (chance < 20){t = 15; nobody = 1}
+else if (chance < 25){t = 10; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 80){t = 3; nobody = 0}
+else if (chance < 100){t = 2; nobody = 0}
+}
+else if (question001[vraag].ques.length >= 110)
+{
+if (chance < 20){t = 15; nobody = 1}
+else if (chance < 25){t = 10; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 60){t = 4; nobody = 0}
+else if (chance < 100){t = 3; nobody = 0}
+}
+update = setInterval("speedtimer001()", 1000);
+                message002.innerHTML = "";
+if (question001[vraag].ques.length > 125){
+		document.getElementById("message001").style.fontSize = "70%";
+	document.getElementById("player001").style.top = "27px";
+	document.getElementById("player002").style.top = "5px";
+	document.getElementById("score001").style.top = "-55px";
+	document.getElementById("score002").style.top = "-95px";
+	document.getElementById("twitter001").style.top = "-128px";
+	document.getElementById("twitter002").style.top = "-148px";
+	document.getElementById("faction001").style.top = "-166px";
+	document.getElementById("faction002").style.top = "-166px";
+	document.getElementById("record001").style.top = "-28px";
+	document.getElementById("record002").style.top = "-48px";
+	document.getElementById("round002").style.top = "-126px";
+	document.getElementById("time001").style.top = "-140px";
+}
+                message003.innerHTML = "<button class=buzzer onclick=speedquestions2()>Buzz</button>";
+                message005.innerHTML = "";
+                time001.innerHTML = "";
+                message006.innerHTML = "";
+                 a++;
+            	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+}
+}
+
+function speedquestions2() {	
+            document.getElementById("message001").style.fontSize = "90%";
+	document.getElementById("player001").style.top = "15px";
+	document.getElementById("player002").style.top = "-7px";
+	document.getElementById("score001").style.top = "-67px";
+	document.getElementById("score002").style.top = "-107px";
+	document.getElementById("twitter001").style.top = "-140px";
+	document.getElementById("twitter002").style.top = "-160px";
+	document.getElementById("faction001").style.top = "-178px";
+	document.getElementById("faction002").style.top = "-178px";
+	document.getElementById("record001").style.top = "-40px";
+	document.getElementById("record002").style.top = "-60px";
+	document.getElementById("round002").style.top = "-138px";
+	    document.getElementById("time001").style.display = "initial";
+	    document.getElementById("time001").style.visibility = "visible";
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+	document.getElementById("time001").style.top = "-150px";
+            window.clearInterval(update);
+                update = setInterval("timer001()", 1000);
+                c = 5;
+                time001.innerHTML = 5;
+	    document.getElementById("message004").style.display = "initial";
+	    document.getElementById("message005").style.display = "initial";
+                message001.innerHTML = question001[vraag].ques;
+                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+if (question001[vraag].ques.length > 125){
+		document.getElementById("message001").style.fontSize = "70%";
+	document.getElementById("player001").style.top = "27px";
+	document.getElementById("player002").style.top = "5px";
+	document.getElementById("score001").style.top = "-55px";
+	document.getElementById("score002").style.top = "-95px";
+	document.getElementById("twitter001").style.top = "-128px";
+	document.getElementById("twitter002").style.top = "-148px";
+	document.getElementById("faction001").style.top = "-166px";
+	document.getElementById("faction002").style.top = "-166px";
+	document.getElementById("record001").style.top = "-28px";
+	document.getElementById("record002").style.top = "-48px";
+	document.getElementById("round002").style.top = "-126px";
+	document.getElementById("time001").style.top = "-140px";
+}
+		document.getElementById("q1").focus();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+            	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+                if (c < 1) {
+                    window.clearInterval(update);
+                    message001.innerHTML = "Time's up";
+                    message002.innerHTML = "";
+                    message003.innerHTML = "";
+            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("chalacc").style.display = "initial";
+	    	document.getElementById("chalacc").style.display = "initial";
+		}
+}
+
+var speed = 0;
+var nobody = 0 ;
+
+function finalround(){
+	message001.innerHTML = "Click Next to proceed.";
+	message002.innerHTML = "";
+	message003.innerHTML = "";
+	message005.innerHTML = "<strong><font size=4>ROUND TWO</font><br/></br>2 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>BUZZER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>YOU CAN ASK 3 TIMES DURING THE MATCH FOR A QUESTION TO BE REPEATED</br>THIS GIVES YOU AN ADDITIONAL 15 SECONDS TO ANSWER THE QUESTION</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSELS LET YOU KEEP YOUR CHALLENGE</strong>";
+	document.getElementById("message005").style.position = "relative";
+	document.getElementById("message005").style.top = "-200px";
+	document.getElementById("message004").style.position = "relative";
+	document.getElementById("message004").style.top = "-200px";
+	    document.getElementById("time001").style.visibility = "hidden";
+            message004.innerHTML = "<button class=buttons002 onclick=start2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+speed++;
+}
+
+function speedtimer001() {
+            t = t - 1;
+            if (t < 1) {
+  	window.clearInterval(update);
+if (nobody == 0){
+		var correctchance = Math.random() * 100;
+	if (correctchance < competitorlist[0].percentage){
+		score002.innerHTML = s += 1;
+	    	message005.innerHTML = "";
+		message003.innerHTML = competitorlist[0].id + " hit the question.";
+                time001.innerHTML = "";
+                message002.innerHTML = "";
+		}
+	else if (correctchance >= competitorlist[0].percentage){
+		score002.innerHTML = s -= 1;
+	    	message005.innerHTML = "";
+		message003.innerHTML = competitorlist[0].id + " missed the question.";
+                time001.innerHTML = "";
+                message002.innerHTML = "";
+		}
+}
+else if (nobody == 1){
+		message003.innerHTML = "Nobody hit the question.";
+		nobody = 0;
+}
+
+            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            message006.innerHTML = "The correct answer is " + question001[vraag].answ2; 
+	document.getElementById("message004").style.top = "-100px";
+        }
+}
+
+function start2(){
+    var Minutes = 60 * 2,
+        display = document.querySelector('#round002');
+    startTimer2(Minutes, display);
+next002();
+    }
+
+
+function win(){
+                window.clearInterval(update);
+                c = "-";
+                message001.innerHTML = "End of Match";
+                time001.innerHTML = "";
+		document.getElementById("message002").style.fontSize = "200%";
+		document.getElementById("message002").style.fontWeight = "bold";
+		document.getElementById("message006").style.fontSize = "200%";
+		document.getElementById("message006").style.fontWeight = "bold";
+                message002.innerHTML = "And your winner...."
+		var winner = competitorlist[0].lowercase;
+                message006.innerHTML = player001.innerHTML;
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+		document.getElementById("wins").stepUp(1);
+		document.getElementById("save").click();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+}
+
+function lose(){
+                window.clearInterval(update);
+                c = "-";
+                message001.innerHTML = "End of Match";
+                time001.innerHTML = "";
+		document.getElementById("message002").style.fontSize = "200%";
+		document.getElementById("message002").style.fontWeight = "bold";
+		document.getElementById("message006").style.fontSize = "200%";
+		document.getElementById("message006").style.fontWeight = "bold";
+                message002.innerHTML = "And your winner...."
+		var winner = competitorlist[0].lowercase;
+		message006.innerHTML = winner.toUpperCase();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+		document.getElementById("losses").stepUp(1);
+		document.getElementById("save").click();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+}

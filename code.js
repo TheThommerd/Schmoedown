@@ -7,6 +7,7 @@
 		document.getElementById("time001").style.visibility = "hidden";
 		document.getElementById("time001").style.display = "none";
 		document.getElementById("q2").focus();
+                document.body.style.zoom="120%"
 
 function load(){
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();

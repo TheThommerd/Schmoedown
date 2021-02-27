@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
 <meta name="viewport" content="width=100%, height=100%, initial-scale=0.27, maximum-scale=1.0, user-scalable=no">
-    <title>Schmoedown Simulator</title>
 </head>
 <body onload="load()">
     <style>
@@ -288,6 +287,31 @@ background-position: center top;
   	width: 30%;
   	font-size: 16px;
 	}
+	    body:fullscreen {
+  overflow: scroll !important;
+}
+body:-ms-fullscreen {
+  overflow: scroll !important;
+}
+body:-webkit-full-screen {
+  overflow: scroll !important;
+   zoom: 0.4;
+}
+body:-moz-full-screen {
+  overflow: scroll !important;
+}
+ .goFS{
+   display : none;
+ }
+@media (max-width: 767px) {
+ .goFS{
+   display : block;
+   background-color: #A20714;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+ }
     </style>
 <audio id="myAudio">
   <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">
@@ -295,6 +319,7 @@ background-position: center top;
 <audio id="myAudio2">
   <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
+	<button id="goFS" class="goFS">Go fullscreen</button>
     <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name and twitter.</p><text id="player001">CHALLENGER</text><br><text id="player002">OPPONENT</text><br><text id="record001">0-0</text><br><text id="record002">0-0</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="twitter001">@Challenger</text><br><text id="twitter002">@Opponent</text><br><text id="round002">15:00<text id="round001"></text></text><br><text id="faction001">ROOKIE</text><text id="faction002">UNKNOWN</text><br><text><text id="time001"></text></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><br></div>
 <form id="save-later-form"><input value="0" type="number" name="1" id="wins" required hidden></input><input name="2" value="0" type="number" id="losses" required hidden></input><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input></form><button type="submit" id="save" hidden>Save</button></br></div>
 <script src="https://files.jcink.net/uploads2/fantasymts/Movie_Release_Dates___Iron.js" charset="utf-8"></script>

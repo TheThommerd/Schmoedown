@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<meta name="viewport" content="width=100%, height=100%, initial-scale=0.27, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, height=device-height">
 </head>
 <body onload="load()">
     <style>
@@ -364,6 +364,31 @@ display: none;
   	width: 30%;
   	font-size: 16px;
 	}
+	    	    body:fullscreen {
+  overflow: scroll !important;
+}
+body:-ms-fullscreen {
+  overflow: scroll !important;
+}
+body:-webkit-full-screen {
+  overflow: scroll !important;
+   zoom: 0.4;
+}
+body:-moz-full-screen {
+  overflow: scroll !important;
+}
+ .goFS{
+   display : none;
+ }
+@media (max-width: 767px) {
+ .goFS{
+   display : block;
+   background-color: #A20714;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+ }
 }
     </style>
 <audio id="myAudio">
@@ -372,6 +397,7 @@ display: none;
 <audio id="myAudio2">
   <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
+	<button id="goFS" class="goFS">Go fullscreen</button>
  <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name.</p><text id="player001">CHALLENGER</text><br><text  id="player002">OPPONENT1</text><br><text id="player003">OPPONENT2</text><br><text id="player004">OPPONENT3</text><br><text  id="player005">OPPONENT4</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="score003">0</text><br><text id="score004">0</text><br><text id="score005">0</text><br><text id="twitter001">@Challenger1</text><br><text id="twitter002">@Opponent2</text><br><text id="twitter003">@Opponent3</text><br><text id="twitter004">@Opponent4</text><br><text id="twitter005">@Opponent5</text><br><text id="round002">ROUND <text id="round001">1</text></text><br><text id="nummer1">#1</text><br><text id="nummer2">#2</text><br><text id="nummer3">#3</text><br><text id="nummer4">#4</text><br><text id="nummer5">#5</text><br><text><text id="time001"></text></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br>
 <p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p></div>
 <form id="save-later-form"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input></form><button type="submit" id="save" hidden>Save</button></br></div>

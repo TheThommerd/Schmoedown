@@ -30,8 +30,7 @@ message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
 	var twittername = document.getElementById("twitt").value;
 	var twitter = twittername.substring(0, 13);
-	var twitter = twitter.replace(" ","");
-	twitter001.innerHTML = twitter;
+	twitter001.innerHTML = twitter.replace(" ","");
 }
 var competitorlist = [
 {
@@ -1326,36 +1325,36 @@ else if (j == 2) {
   if (h == 1) {
 	    c = 16;
             j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTEChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___2JTEChal.png')";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___2JTE.png')";
 	    }
 }
 else if (j == 1) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTEChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___1JTEChal.png')";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	   document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTE.png')";
+	   document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___1JTE.png')";
 	    }
 }
 else if (j == 0) {
  if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTEChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoJTEChal.png')";
 	     }
  else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoJTE.png')";
 	    }
 }
 else if (j < 0) {
@@ -1450,7 +1449,7 @@ quescor++;
 function ChallengeDenied(){
 	    document.getElementById("message004").style.top = "-190px";
 if (j == 2) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoChal.png')";
 	    h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1459,7 +1458,7 @@ if (j == 2) {
             message003.innerHTML = "Challenge lost!";
 }
 else if (j == 1) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___2JTE.png')";
 	     h--;
 	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1468,7 +1467,7 @@ else if (j == 1) {
             message003.innerHTML = "Challenge lost!";
 	          }
 else if (j == 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___1JTE.png')";
 	    h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1477,7 +1476,7 @@ else if (j == 0) {
             message003.innerHTML = "Challenge lost!";
 	          }
  else if (j < 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoJTE.png')";
 	    h--;
 	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1743,13 +1742,13 @@ if (chance < percentage3){
 		message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){
-message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your first category is " + question001[8].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
 }
 else if ((usertwo == 1) && (userthree == 0)){
-message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){
-message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
 message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." ;
@@ -1768,13 +1767,13 @@ message003.innerHTML = "";
 message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){
-message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your first category is " + question001[8].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
 }
 else if ((usertwo == 1) && (userthree == 0)){
-message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){
-message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
 message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." ;
@@ -1804,13 +1803,13 @@ message003.innerHTML = "";
 message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){
-message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your first category is " + question001[8].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
 }
 else if ((usertwo == 1) && (userthree == 0)){
-message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){
-message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
 message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." ;
@@ -1829,13 +1828,13 @@ message003.innerHTML = "";
 message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){
-message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your first category is " + question001[8].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
 }
 else if ((usertwo == 1) && (userthree == 0)){
-message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){
-message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
 message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." ;
@@ -1865,20 +1864,31 @@ if (chance < percentage5){
 		message005.innterHTML = "";
 if (s - b > 0){
 if (usertwo == 0){
-message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your first category is " + question001[8].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
 }
 else if ((usertwo == 1) && (userthree == 0)){
-message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){
-message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;
 }
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
-message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>";
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer.";
 }
 }
 else if (b - s >= 0){
-message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>";
+if (usertwo == 0){
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
+}
+else if ((usertwo == 1) && (userthree == 0)){
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;
+}
+else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;
+}
+else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
+message006.innerHTML = competitorlist[0].id + " hit the 5 pointer.";
+}
 }
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 document.getElementById("chal").style.visibility = "hidden";
@@ -5734,6 +5744,19 @@ function bettinground() {
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
 		document.getElementById("qu002").style.display = "initial";
+	document.getElementById("message004").style.top = "-140px";
+        document.getElementById("message001").style.fontSize = "90%";
+	document.getElementById("player001").style.top = "15px";
+	document.getElementById("player002").style.top = "-7px";
+	document.getElementById("score001").style.top = "-67px";
+	document.getElementById("score002").style.top = "-107px";
+	document.getElementById("twitter001").style.top = "-140px";
+	document.getElementById("twitter002").style.top = "-160px";
+	document.getElementById("faction001").style.top = "-178px";
+	document.getElementById("faction002").style.top = "-178px";
+	document.getElementById("record001").style.top = "-40px";
+	document.getElementById("record002").style.top = "-60px";
+	document.getElementById("round002").style.top = "-138px";
 		round001.innerHTML = 2;
  		qu001.innerHTML = "";
                 message001.innerHTML = "Click Next to proceed.";
@@ -5744,7 +5767,6 @@ message005.innerHTML = "<strong><font size=4>ROUND THREE</font><br/></br>COMPETI
                 message006.innerHTML = "";
             	message003.innerHTML = "<button id=bet0 class=buttons002 onclick=bettinground2()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		document.getElementById("message003").style = "initial";
-		document.getElementById("message004").style = "initial";
 	    	document.getElementById("message006").style.top = "-140px";
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
@@ -5956,6 +5978,18 @@ function bettinground2() {
 	    	document.getElementById("time001").style.display = "none";
 	    	document.getElementById("message004").style.display = "none";
 	    	document.getElementById("message005").style.display = "none";
+        document.getElementById("message001").style.fontSize = "90%";
+	document.getElementById("player001").style.top = "15px";
+	document.getElementById("player002").style.top = "-7px";
+	document.getElementById("score001").style.top = "-67px";
+	document.getElementById("score002").style.top = "-107px";
+	document.getElementById("twitter001").style.top = "-140px";
+	document.getElementById("twitter002").style.top = "-160px";
+	document.getElementById("faction001").style.top = "-178px";
+	document.getElementById("faction002").style.top = "-178px";
+	document.getElementById("record001").style.top = "-40px";
+	document.getElementById("record002").style.top = "-60px";
+	document.getElementById("round002").style.top = "-138px";
 		round001.innerHTML = 3;
  		qu001.innerHTML = "";
                 message001.innerHTML = "Spin the Wheel.";

@@ -1325,36 +1325,36 @@ else if (j == 2) {
   if (h == 1) {
 	    c = 16;
             j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___2JTEChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTEChal.png')";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___2JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTE.png')";
 	    }
 }
 else if (j == 1) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___1JTEChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTEChal.png')";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	   document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___1JTE.png')";
+	   document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTE.png')";
 	    }
 }
 else if (j == 0) {
  if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoJTEChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTEChal.png')";
 	     }
  else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoJTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTE.png')";
 	    }
 }
 else if (j < 0) {
@@ -1449,7 +1449,7 @@ quescor++;
 function ChallengeDenied(){
 	    document.getElementById("message004").style.top = "-190px";
 if (j == 2) {
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoChal.png')";
 	    h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1458,7 +1458,7 @@ if (j == 2) {
             message003.innerHTML = "Challenge lost!";
 }
 else if (j == 1) {
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___2JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTE.png')";
 	     h--;
 	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1467,7 +1467,7 @@ else if (j == 1) {
             message003.innerHTML = "Challenge lost!";
 	          }
 else if (j == 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___1JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTE.png')";
 	    h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -1476,7 +1476,7 @@ else if (j == 0) {
             message003.innerHTML = "Challenge lost!";
 	          }
  else if (j < 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('uploads2/fantasymts/Singles___NoJTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTE.png')";
 	    h--;
 	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";

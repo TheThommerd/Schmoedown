@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head><meta name="viewport" content="width=device-width, height=device-height"></head> 
+<body onload="load()">
+    <style>
+.flash {
+   animation-name: flash;
+    animation-duration: 1.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes flash {
+    from {color: #fbfbfb;}
+    to {color: black;}
+}
+.row4{ 
+display: none;
+}
+.tableborder{
+display: none;
+}
+        #frame001 {
+	    margin: auto;
+	    background-image: url("uploads2/fantasymts/Singles_Background.png");
+ 	    background-repeat: no-repeat;
+            border-radius: 5px;
+            background-color: #fbfbfb;
+background-position: center top;
+            border: none;
+            height: 1500px;
+            width: 950px;
+        }
+        .buttons001 {
+            background-color: #A20714;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons003 {
+	    border-color: white;
+    	    border-width: 1px;
+            background-color: #232223;
+            color: white;
+	    font-weight: bold;
+            width: 500px;
+            height: 40px;
+        }
+        .buttons004 {
+            background-color: limegreen;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+ 	   visibility: hidden;
+        }
+        .buttons009 {
+            background-color: #A20714;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons005 {
+            background-color: #A20714;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+ 	   visibility: hidden;
+        }
+        .buttons007 {
+            background-color: #232223;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons008 {
+            background-color: #A20714;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons006 {
+            background-color: #A20714;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons002 {
+            background-color: #232223;
+            color: white;
+            width: 70px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #font001 {
+            text-align: center;
+            font-size: large;
+            color: black;
+        }
+        #player001 {
+	    position: relative;
+	    top : 15px;
+ 	    left: -265px;
+            font-size: 110%;
+	    font-weight: bold;
+            color: white;
+        }
+        #player002 {
+	    position: relative;
+	    top : -7px;
+ 	    left: 260px;
+            font-size: 110%;
+	    font-weight: bold;
+            color: white;
+        }
+        #score001 {
+	    position: relative;
+	    top : -67px;
+ 	    left: -115px;
+            font-size: 190%;
+	    font-weight: bold;
+            color: white;
+        }
+        #time001 {
+	   position: relative;
+	    top : -140px;
+            font-size: 200%;
+	    font-weight: bold;
+            color: black;
+        }
+       #message002{
+	   position: relative;
+	    top : -130px;
+        }
+        #message003{
+	   position: relative;
+	    top : -140px;
+        }
+        #message004{
+	   position: relative;
+	    top : -140px;
+        }
+        #message006{
+	   position: relative;
+	    top : -140px;
+        }
+        #JTE{
+	   position: relative;
+	    top : -130px;
+            background-color: #232223;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #score002 {
+	   position: relative;
+	    top : -107px;
+ 	    left: 110px;
+            font-size: 190%;
+	    font-weight: bold;
+            color: white;
+        }
+        #record001 {
+	    position: relative;
+	    top : -40px;
+ 	    left: -425px;
+            text-align: center;
+            font-size: 80%;
+            color: white;
+	    font-weight: bold;
+        }
+        #record002 {
+	    position: relative;
+	    top : -60px;
+ 	    left: 415px;
+            text-align: center;
+            font-size: 80%;
+            color: white;
+	    font-weight: bold;
+        }
+        #twitter001 {
+	    position: relative;
+	    top : -140px;
+ 	    left: -425px;
+            text-align: center;
+            font-size: 60%;
+            color: white;
+	    font-weight: bold;
+        }
+        #twitter002 {
+	    position: relative;
+	    top : -160px;
+ 	    left: 415px;
+            text-align: center;
+            font-size: 60%;
+            color: white;
+	    font-weight: bold;
+        }
+        #faction001 {
+	    position: relative;
+	    top : -178px;
+ 	    left: -390px;
+            text-align: center;
+            font-size: 65%;
+            color: white;
+	    font-weight: bold;
+        }
+        #faction002 {
+	    position: relative;
+	    top : -178px;
+ 	    left: 390px;
+            text-align: center;
+            font-size: 65%;
+            color: white;
+	    font-weight: bold;
+        }
+        #message005 {
+	   position: relative;
+	    top : -150px;
+            text-align: center;
+            font-size: 90%;
+            color: black;
+        }
+        #message001 {
+            text-align: center;
+            font-size: 90%;
+            color: white;
+        }
+        #qu001 {
+            text-align: center;
+            font-size: 100%;
+            color: white;
+	    font-weight: bold;
+        }
+        #qu002 {
+            text-align: center;
+            font-size: 100%;
+            color: white;
+	    font-weight: bold;
+        }
+        #round001 {
+	   position: relative;
+	    top : 0px;
+ 	    left: 0px;
+            text-align: center;
+            font-size: 100%;
+            color: white;
+	    font-weight: bold;
+        }
+        #round002 {
+	   position: relative;
+	    top : -138px;
+ 	    left: 0px;
+            font-size: 90%;
+            color: white;
+	    font-weight: bold;
+        }
+        #choose{
+	   position: relative;
+ 	    left: 0px;
+            background-color: #A20714;
+            color: white;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+        }
+	input {
+  	width: 30%;
+  	font-size: 16px;
+	}
+    #chart{
+        position:relative;
+        width:100px;
+        height:100px;
+        top:0;
+        left:275px;
+	font-weight: bold;
+  	font-size: 13px;
+    }
+      #checkboxes{
+        position:relative;
+        top:-1000px;
+        left:80px;
+    }
+    .checkbox2{
+        position: relative;
+        left:50px;
+    }
+    .checkbox-label{
+        position: relative;
+        left:150px;
+    }
+.checkboxer {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+    label.checkbox-label input[type=checkbox]{
+        position: relative;
+        vertical-align: middle;
+        left:30px;
+    }
+    label.checkbox2 input[type=checkbox]{
+        position: relative;
+        vertical-align: middle;
+        left:30px;
+    }
+ul.aligner  { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 250px; 
+  list-style: none; 
+              width: 700px;
+margin-block-end: 4em;
+font-size: 13px
+} 
+ul.aligner li input { 
+  margin-right: 1px;
+  text-align: left;
+   width: 10%;
+} 
+ul.aligner li { 
+  display:inline-block;
+   text-align: left; 
+   width: 350px;
+} 
+ul.aligner li label { 
+  margin-left: ; 
+  text-align: left;
+}
+body:fullscreen {
+  overflow: scroll !important;
+}
+body:-ms-fullscreen {
+  overflow: scroll !important;
+}
+body:-webkit-full-screen {
+  overflow: scroll !important;
+   zoom: 0.4;
+}
+body:-moz-full-screen {
+  overflow: scroll !important;
+}
+ .goFS{
+   display : none;
+ }
+@media (max-width: 767px) {
+ .goFS{
+   display : block;
+   background-color: #A20714;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+ }
+
+    </style>
+<audio id="myAudio">
+  <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio2">
+  <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
+</audio>
+	<button id="goFS" class="goFS">Go fullscreen</button>
+    <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><text id="player001">CHALLENGER</text><br><text id="player002">OPPONENT</text><br><text id="record001">0-0</text><br><text id="record002">0-0</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="twitter001">@Challenger</text><br><text id="twitter002">@Opponent</text><br><text id="round002">ROUND <text id="round001">1</text></text><br><text id="faction001">ROOKIE</text><text id="faction002">UNKNOWN</text><br><text><text id="time001"></text></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div></br></div>
+<form id="save-later-form"><input value="0" type="number" name="1" id="wins" required hidden></input><input name="2" value="0" type="number" id="losses" required hidden></input><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="5" value="wachtwoordR2" type="text" id="passwordsaver" required hidden></input></form><button type="submit" id="save" hidden>Save</button></br>
+</div><div id="checkboxes" class="checkboxer"></div></div></br>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/1__FantasyScifi.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/2__Comedy.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/3_pointer.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/3__Horror.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/4__ActionAdventure.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/5_Pointers.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/5__Animated.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/6__Oscar_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/7__80s.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/8__90s.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/9__Drama.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/10__Comic_Book_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/11__Holiday_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/12__Romcoms.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/13__Directors.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/14__Biopics.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/15__Coming_of_Age.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/16__Crime.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/17__Disney.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/18__Family_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/19_Famous_Actors_and_Actresses.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/20__Martin_Scorcese.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/21__70s.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/22__Movie_Release_Dates.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/23__Movie_Quotes.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/24__Movie_Taglines.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/25__Romance.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/25__Romance.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/26__Sly___Arnie.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/27__Spielberg.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/28__Pixar.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/29__Spy_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/30__Sports.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/31__Sandra_Bullock.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/32__Thrillers.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/33__Scores___Soundtracks.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/34__Tom_Hanks.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/35__War.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/36__Musicals.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/37__2010s.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/38__Classics.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/39__Westerns.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/40__Monster_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/41__2000s.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/42__Will_Smith.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/43__Quentin_Tarantino.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/44__Tim_Burton.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/45__Kevin_Smith.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/46__Tom_Cruise.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/47__Julia_Roberts.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/48__Denzel_Washington.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/49__Disaster_Movies.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/50__Dance.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/51__Scarlett_Johansson.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/52__Hitchcock.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/53__Stanley_Kubrick.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/54__Video_Games.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/55__Christopher_Nolan.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/56__Cameron_Diaz.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/57__Meryl_Streep.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/58__James_Bond.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/59__Matthew_McConaughey.js" charset="utf-8"></script>
+<script src="uploads2/fantasymts/Singles/60__Festival_Darlings.js" charset="utf-8"></script>
+<script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="Singles.js"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/new_record.js"></script>
+</body>
+</html>

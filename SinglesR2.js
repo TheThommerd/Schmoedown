@@ -497,15 +497,15 @@ wheelie = shuffle(wheelie);
 	document.getElementById("message004").style.top = "-140px";
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
-	document.getElementById("checkboxes").style.top = "-1000px";
+	document.getElementById("checkboxes").style.top = "-700px";
         $(this).prop('checked', false);
     }
     if ($('input[type=checkbox]:checked').length == 6) {
-	document.getElementById("checkboxes").style.top = "-1000px";
+	document.getElementById("checkboxes").style.top = "-700px";
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
     }
 else{
-	document.getElementById("checkboxes").style.top = "-1000px";
+	document.getElementById("checkboxes").style.top = "-700px";
 	message004.innerHTML = "";
 }
 });

@@ -7,12 +7,12 @@ message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><
       document.body.requestFullscreen();
   }, false);
 function load(){
-if (document.getElementById("passwordsaver").value != "ROUND"){
+if (document.getElementById("passwordsaverChampion").value != "REMEMBER THE TITANS"){
 message004.innerHTML = "<input id=password type=text maxlength=15 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
 message001.innerHTML = "Enter password.";
 		document.getElementById("password").focus();
 }
-else if (document.getElementById("passwordsaver").value == "ROUND"){
+else if (document.getElementById("passwordsaverChampion").value == "REMEMBER THE TITANS"){
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
@@ -579,8 +579,8 @@ message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</
 }
 function submitpassword() {
 var ww = document.getElementById("password").value.toUpperCase();
-document.getElementById("passwordsaver").value = document.getElementById("password").value.toUpperCase();
-if (ww == "ROUND")
+document.getElementById("passwordsaverChampion").value = document.getElementById("password").value.toUpperCase();
+if (ww == "REMEMBER THE TITANS")
 {
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";

@@ -554,6 +554,101 @@ var competitorlist = [
 "strengthpercentage3": "70",
 "strengthpercentage5": "70",
 },
+	{
+"id": "Dewberry",
+"lowercase": "Eliot Dewberry",
+"twitter": "@EliotETC",
+"record": "2-4",
+"faction": "KORRUPTION",
+"strength1" : "90s",
+"strength2" : "Sports",
+"strength3" : "Action/Adventure",
+"strength4" : "Tom Cruise",
+"strength5" : "Christopher Nolan",
+"strength6" : "Denzel Washington",
+"percentage": "62",
+"percentage3": "57",
+"percentage5": "57",
+"strengthpercentage": "72",
+"strengthpercentage3": "57",
+"strengthpercentage5": "57",
+},
+{
+"id": "Ghai",
+"lowercase": "Andrew Ghai",
+"twitter": "@AndrewGhai",
+"record": "10-5",
+"faction": "HORSEMEN",
+"strength1" : "Will Smith",
+"strength2" : "Thrillers",
+"strength3" : "Spy Movies",
+"strength4" : "Quentin Tarantino",
+"strength5" : "Christopher Nolan",
+"strength6" : "Sly & Arnie",
+"percentage": "61",
+"percentage3": "56",
+"percentage5": "56",
+"strengthpercentage": "71",
+"strengthpercentage3": "66",
+"strengthpercentage5": "66",
+},
+{
+"id": "McWeeny",
+"lowercase": "Drew McWeeny",
+"twitter": "@DrewMcWeeny",
+"record": "4-5",
+"faction": "USUAL SUSPECTS",
+"strength1" : "70s",
+"strength2" : "Classics",
+"strength3" : "Stanley Kubrick",
+"strength4" : "Tom Hanks",
+"strength5" : "Directors",
+"strength6" : "80s",
+"percentage": "82",
+"percentage3": "77",
+"percentage5": "77",
+"strengthpercentage": "92",
+"strengthpercentage3": "87",
+"strengthpercentage5": "87",
+},
+{
+"id": "Alba",
+"lowercase": "Greg Alba",
+"twitter": "@TheGregAlba",
+"record": "0-0",
+"faction": "QUIRKY MERCS",
+"strength1" : "Comic Book Movies",
+"strength2" : "Kevin Smith",
+"strength3" : "Tom Cruise",
+"strength4" : "Will Smith",
+"strength5" : "Christopher Nolan",
+"strength6" : "James Bond",
+"percentage": "60",
+"percentage3": "55",
+"percentage5": "55",
+"strengthpercentage": "70",
+"strengthpercentage3": "65",
+"strengthpercentage5": "65",
+},
+{
+"id": "Witt",
+"lowercase": "Adam Witt",
+"twitter": "@Adam_Witt",
+"record": "0-0",
+"faction": "DUNGEON",
+"strength1" : "Comic Book Movies",
+"strength2" : "80s",
+"strength3" : "Action/Adventure",
+"strength4" : "Sly & Arnie",
+"strength5" : "Tom Cruise",
+"strength6" : "Sports",
+"percentage": "60",
+"percentage3": "55",
+"percentage5": "55",
+"strengthpercentage": "70",
+"strengthpercentage3": "65",
+"strengthpercentage5": "65",
+},
 {
 "id": "Rocha",
 "lowercase": "John Rocha",
@@ -694,13 +789,13 @@ function submitname () {
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Dagnino>Tom Dagnino</option><option value=Jeannine>Jeannine</option><option value=Macuga>Josh Macuga</option><option value=Paramo>Jader Paramo</option><option value=Videodrew>VideoDrew</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<option value=Alba>Greg Alba</option><select id=select><option value=Dagnino>Tom Dagnino</option><option value=Dewberry>Eliot Dewberry</option><option value=Macuga>Josh Macuga</option><option value=Witt>Adam Witt</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Dagnino>Tom Dagnino</option><option value=Jeannine>Jeannine</option><option value=Macuga>Josh Macuga</option><option value=Paramo>Jader Paramo</option><option value=Videodrew>VideoDrew</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<option value=Alba>Greg Alba</option><select id=select><option value=Dagnino>Tom Dagnino</option><option value=Dewberry>Eliot Dewberry</option><option value=Macuga>Josh Macuga</option><option value=Witt>Adam Witt</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
  	var a = 0;

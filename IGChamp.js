@@ -1,4 +1,4 @@
-message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=35 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";	
+message004.innerHTML = "<input id=q2 type=text maxlength=35 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=35 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";	
 		document.getElementById("q2").focus();
 	        document.getElementById("frame001").style.zoom="1.4";
   var goFS = document.getElementById("goFS");
@@ -7,12 +7,12 @@ message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><
   }, false);
 function load(){
 if (document.getElementById("passwordsaverChamp").value != "DON'T TELL PETER"){
-message004.innerHTML = "<input id=password type=text maxlength=15 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
+message004.innerHTML = "<input id=password type=text maxlength=35 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
 message001.innerHTML = "Enter password.";
 		document.getElementById("password").focus();
 }
 else if (document.getElementById("passwordsaverChamp").value == "DON'T TELL PETER"){
-message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
+message004.innerHTML = "<input id=q2 type=text maxlength=35 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 		document.getElementById("q2").focus();

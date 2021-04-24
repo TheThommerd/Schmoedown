@@ -1410,6 +1410,11 @@ else if (j < 0) {
 }
 }
 function Challenge(){
+	     var question1 = document.getElementById("q1").value;
+if (question1.length < 1){
+            message003.innerHTML = "You can't challenge because you didn't submit an answer!";
+}
+if (question1.length >= 1){
 if (h == 1) {
 	    document.getElementById("chalacc").style.visibility = "visible";
 	    document.getElementById("chalden").style.visibility = "visible";
@@ -1417,6 +1422,7 @@ if (h == 1) {
  else if (h < 1) {
             message003.innerHTML = "No challenges left!";
 	    }
+}
 }
 var steal = 0;
 function ChallengeAccepted(){

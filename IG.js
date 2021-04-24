@@ -260,6 +260,38 @@ var competitorlist = [
 "strengthpercentage5": "70",
 },
 {
+"id": "Warfather",
+"lowercase": "Warfather",
+"twitter": "@ErikWBarnes",
+"record": "0-2",
+"faction": "DROOGS",
+"strength1" : "Wizarding World",
+"strength2" : "Marvel Movies",
+"strength3" : "DC Movies",
+"percentage": "50",
+"percentage3": "45",
+"percentage5": "45",
+"strengthpercentage": "60",
+"strengthpercentage3": "55",
+"strengthpercentage5": "55",
+},
+{
+"id": "Humphrey",
+"lowercase": "John Humphrey",
+"twitter": "@DatJohnHumphrey",
+"record": "0-2",
+"faction": "QUIRKY MERCS",
+"strength1" : "Wizarding World",
+"strength2" : "X-Men",
+"strength3" : "Planet of the Apes",
+"percentage": "52",
+"percentage3": "47",
+"percentage5": "47",
+"strengthpercentage": "62",
+"strengthpercentage3": "57",
+"strengthpercentage5": "57",
+},
+{
 "id": "Burnett",
 "lowercase": "Robert Meyer Burnett",
 "twitter": "@BurnettRM",
@@ -371,14 +403,14 @@ function submitname () {
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Burnett>Robert Meyer Burnett</option><option value=Cushing>Rachel Cushing</option><option value=Damon>Alex Damon</option><option value=Dhandapani>Chandru Dhandapani</option><option value=Donica>Mark Donica</option><option value=Ellison>Chance Ellison</option><option value=Hanna>Brandon Hanna</option><option value=Hlavac>Adam Hlavac</option><option value=Inman>Jason Inman</option><option value=Jacobson>Emily Rose Jacobson</option><option value=Kalinowski>Mike Kalinowski</option><option value=Knopic>Mara Knopic</option><option value=Navarro>Hector Navarro</option><option value=Parker>Robert Parker</option><option value=Smets>Kevin Smets</option><option value=Washington>Jay Washington</option><option value=Zipper>Eric Zipper</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+message004.innerHTML = "<select id=select><option value=Humphrey>John Humphrey</option><option value=Jacobson>Emily Rose Jacobson</option><option value=Warfather>Warfather</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
 	message001.innerHTML = "Choose your opponent.";
-message004.innerHTML = "<select id=select><option value=Burnett>Robert Meyer Burnett</option><option value=Cushing>Rachel Cushing</option><option value=Damon>Alex Damon</option><option value=Dhandapani>Chandru Dhandapani</option><option value=Donica>Mark Donica</option><option value=Ellison>Chance Ellison</option><option value=Hanna>Brandon Hanna</option><option value=Hlavac>Adam Hlavac</option><option value=Inman>Jason Inman</option><option value=Jacobson>Emily Rose Jacobson</option><option value=Kalinowski>Mike Kalinowski</option><option value=Knopic>Mara Knopic</option><option value=Navarro>Hector Navarro</option><option value=Parker>Robert Parker</option><option value=Smets>Kevin Smets</option><option value=Washington>Jay Washington</option><option value=Zipper>Eric Zipper</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+message004.innerHTML = "<select id=select><option value=Humphrey>John Humphrey</option><option value=Jacobson>Emily Rose Jacobson</option><option value=Warfather>Warfather</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
 }
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
@@ -1586,7 +1618,8 @@ function winKO(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+document.getElementById("passwordsaverR2").value = "TONY STARK";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Tony Stark' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";
@@ -1642,7 +1675,8 @@ function winTKO(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+document.getElementById("passwordsaverR2").value = "TONY STARK";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Tony Stark' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";
@@ -1698,7 +1732,8 @@ function win(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+document.getElementById("passwordsaverR2").value = "TONY STARK";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Tony Stark' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";

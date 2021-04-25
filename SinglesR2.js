@@ -1541,9 +1541,6 @@ if (mc == 0){
 }
 if (mc != 0){
 	    document.getElementById("message004").style.top = "-140px";
-	   quescount++;
-	   quescor++;
-	   posspoints+=1;
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -1669,8 +1666,6 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
 else if (mc != 0){
 	    document.getElementById("message004").style.top = "-140px";
-	   quescount++;
-	   posspoints+=1;
 if (mc == 1){
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);

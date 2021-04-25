@@ -909,7 +909,8 @@ else if (nobody == 1){
 
             message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + question001[vraag].answ2; 
-	document.getElementById("message004").style.top = "-100px";
+	document.getElementById("message004").style.top = "-190px";
+	document.getElementById("message006").style.top = "-190px";
         }
 }
 

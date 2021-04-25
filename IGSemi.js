@@ -465,12 +465,14 @@ function submitname () {
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Dhandapani>Chandru Dhandapani</option><option value=Knopic>Mara Knopic</option><option value=Parker>Robert Parker</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
 	message001.innerHTML = "Choose your opponent.";
+			document.getElementById("save").click();
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
 	message001.innerHTML = "Choose your opponent.";
 message004.innerHTML = "<select id=select><option value=Dhandapani>Chandru Dhandapani</option><option value=Knopic>Mara Knopic</option><option value=Parker>Robert Parker</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+		document.getElementById("save").click();
 }
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;

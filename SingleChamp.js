@@ -804,6 +804,7 @@ function submitname () {
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Collins>Adam Collins</option><option value=Murrell>Dan Murrell</option><option value=Rocha>John Rocha</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
+			document.getElementById("save").click();
 }
 function submitpassword() {
 var ww = document.getElementById("password").value.toUpperCase();
@@ -825,6 +826,7 @@ function skip () {
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Collins>Adam Collins</option><option value=Murrell>Dan Murrell</option><option value=Rocha>John Rocha</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
+			document.getElementById("save").click();
 }
  	var a = 0;
         a++;

@@ -5646,6 +5646,11 @@ $("#message002").keypress(function(event) {
                  $("#submit").click(); 
             } 
 });
+     	$("#message004").keypress(function(event) { 	
+         if (event.keyCode === 13){ 	
+                 $("#submit3").click(); 	
+            } 	
+});
      
 function next003() {
 	    document.getElementById("message004").style.top = "-140px";

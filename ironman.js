@@ -546,7 +546,7 @@ function checkerspeed(){
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-100px";
 	document.getElementById("message004").style.position = "relative";
-	document.getElementById("message004").style.top = "-100px";
+	document.getElementById("message004").style.top = "-190px";
 
 	}
         else if (speed1 != question001[vraag].answ)  {
@@ -558,7 +558,7 @@ function checkerspeed(){
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-100px";
 	document.getElementById("message004").style.position = "relative";
-	document.getElementById("message004").style.top = "-100px";
+	document.getElementById("message004").style.top = "-190px";
 	}
  	chance = 0 ;
 }
@@ -655,7 +655,7 @@ score002.innerHTML = s+=1;
 else if (speed != 0 ){
             message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
             score001.innerHTML = b -= 1;
-	document.getElementById("message004").style.top = "-100px";
+	document.getElementById("message004").style.top = "-190px";
 }
 }
 }

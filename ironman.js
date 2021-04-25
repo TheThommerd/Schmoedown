@@ -229,7 +229,7 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	document.getElementById("message006").style.top = "-200px";
 	message004.innerHTML = "";
 	document.getElementById("message004").style = "initial";
-	document.getElementById("message004").style.top = "-140px";
+	document.getElementById("message004").style.top = "-190px";
 }
 
 	var a = 0;

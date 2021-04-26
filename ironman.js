@@ -286,7 +286,6 @@ function submitname () {
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Cushing>Rachel Cushing</option><option value=Dagnino>Tom Dagnino</option><option value=Ellison>Chance Ellison</option><option value=Erwin>Ethan Erwin</option><option value=Harris>Lon Harris</option><option value=Howard>Stacy Howard</option><option value=JTE>JTE</option><option value=Kalinowski>Mike Kalinowski</option><option value=Levine>Samm Levine</option><option value=Macuga>Josh Macuga</option><option value=Meyer>Brendan Meyer</option><option value=Miller>Liz Shannon Miller</option><option value=Murrell>Dan Murrell</option><option value=Oyama>Paul Oyama</option><option value=Reilly>Mark Reilly</option><option value=Rocha>John Rocha</option><option value=Sneider>Jeff Sneider</option><option value=Wolfe>Clarke Wolfe</option><option value=Preston>Paul Preston</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
-			document.getElementById("save").click();
 }
 
 function choosecomp() {
@@ -319,7 +318,6 @@ function skip () {
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Cushing>Rachel Cushing</option><option value=Dagnino>Tom Dagnino</option><option value=Ellison>Chance Ellison</option><option value=Erwin>Ethan Erwin</option><option value=Harris>Lon Harris</option><option value=Howard>Stacy Howard</option><option value=JTE>JTE</option><option value=Kalinowski>Mike Kalinowski</option><option value=Levine>Samm Levine</option><option value=Macuga>Josh Macuga</option><option value=Meyer>Brendan Meyer</option><option value=Miller>Liz Shannon Miller</option><option value=Murrell>Dan Murrell</option><option value=Oyama>Paul Oyama</option><option value=Reilly>Mark Reilly</option><option value=Rocha>John Rocha</option><option value=Sneider>Jeff Sneider</option><option value=Wolfe>Clarke Wolfe</option><option value=Preston>Paul Preston</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
-			document.getElementById("save").click();
 }
 
 function shuffle(array) {

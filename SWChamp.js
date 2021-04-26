@@ -1,6 +1,4 @@
-message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";	
-		document.getElementById("q2").focus();
-	        document.getElementById("frame001").style.zoom="1.4";
+document.getElementById("frame001").style.zoom="1.4";
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
@@ -577,13 +575,13 @@ else if (wheelie[0] == chosen[4]) {picked = "5";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == chosen[5]) {picked = "7";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[0]) {picked = "8";
+else if (wheelie[0] == chosen[6]) {picked = "8";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[1]) {picked = "9";
+else if (wheelie[0] == chosen[7]) {picked = "9";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[2]) {picked = "10";
+else if (wheelie[0] == chosen2[0]) {picked = "10";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[3]) {picked = "11";
+else if (wheelie[0] == chosen2[1]) {picked = "11";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
           round2();
 }
@@ -641,17 +639,6 @@ else if (data[random] == r2Q9[0].cat){compcat = r2Q9;}
 else if (data[random] == r2Q10[0].cat){compcat = r2Q10;}
 else if (data[random] == r2Q11[0].cat){compcat = r2Q11;}
 else if (data[random] == r2Q12[0].cat){compcat = r2Q12;}
-else if (data[random] == r2Q13[0].cat){compcat = r2Q13;}
-else if (data[random] == r2Q14[0].cat){compcat = r2Q14;}
-else if (data[random] == r2Q15[0].cat){compcat = r2Q15;}
-else if (data[random] == r2Q16[0].cat){compcat = r2Q16;}
-else if (data[random] == r2Q17[0].cat){compcat = r2Q17;}
-else if (data[random] == r2Q18[0].cat){compcat = r2Q18;}
-else if (data[random] == r2Q19[0].cat){compcat = r2Q19;}
-else if (data[random] == r2Q20[0].cat){compcat = r2Q20;}
-else if (data[random] == r2Q21[0].cat){compcat = r2Q21;}
-else if (data[random] == r2Q22[0].cat){compcat = r2Q22;}
-else if (data[random] == r2Q23[0].cat){compcat = r2Q23;}
 compcat = shuffle(compcat);
 }
 var opponentspun = "0";
@@ -669,10 +656,10 @@ else if (wheelie[0] == chosen[2]) {random = "3";}
 else if (wheelie[0] == chosen[3]) {random = "4";}
 else if (wheelie[0] == chosen[4]) {random = "5";}
 else if (wheelie[0] == chosen[5]) {random = "7";}
-else if (wheelie[0] == chosen2[0]) {random = "8";}
-else if (wheelie[0] == chosen2[1]) {random = "9";}
-else if (wheelie[0] == chosen2[2]) {random = "10";}
-else if (wheelie[0] == chosen2[3]) {random = "11";}
+else if (wheelie[0] == chosen[6]) {random = "8";}
+else if (wheelie[0] == chosen[7]) {random = "9";}
+else if (wheelie[0] == chosen2[0]) {random = "10";}
+else if (wheelie[0] == chosen2[1]) {random = "11";}
 assigncompcat();}
 else if (data[picked] != wheelie[1]) {
 if (wheelie[1] == chosen[0]) {random = "1";}
@@ -681,10 +668,10 @@ else if (wheelie[1] == chosen[2]) {random = "3";}
 else if (wheelie[1] == chosen[3]) {random = "4";}
 else if (wheelie[1] == chosen[4]) {random = "5";}
 else if (wheelie[1] == chosen[5]) {random = "7";}
-else if (wheelie[1] == chosen2[0]) {random = "8";}
-else if (wheelie[1] == chosen2[1]) {random = "9";}
-else if (wheelie[1] == chosen2[2]) {random = "10";}
-else if (wheelie[1] == chosen2[3]) {random = "11";}
+else if (wheelie[1] == chosen[6]) {random = "8";}
+else if (wheelie[1] == chosen[7]) {random = "9";}
+else if (wheelie[1] == chosen2[0]) {random = "10";}
+else if (wheelie[1] == chosen2[1]) {random = "11";}
 assigncompcat();}
 else if (data[picked] != wheelie[2]) {
 if (wheelie[2] == chosen[0]) {random = "1";}
@@ -693,10 +680,10 @@ else if (wheelie[2] == chosen[2]) {random = "3";}
 else if (wheelie[2] == chosen[3]) {random = "4";}
 else if (wheelie[2] == chosen[4]) {random = "5";}
 else if (wheelie[2] == chosen[5]) {random = "7";}
-else if (wheelie[2] == chosen2[0]) {random = "8";}
-else if (wheelie[2] == chosen2[1]) {random = "9";}
-else if (wheelie[2] == chosen2[2]) {random = "10";}
-else if (wheelie[2] == chosen2[3]) {random = "11";}
+else if (wheelie[2] == chosen[6]) {random = "8";}
+else if (wheelie[2] == chosen[7]) {random = "9";}
+else if (wheelie[2] == chosen2[0]) {random = "10";}
+else if (wheelie[2] == chosen2[1]) {random = "11";}
 assigncompcat();}
 }
 if (data[random] == "Opponent's Choice"){opponentspun = "1";}
@@ -787,13 +774,13 @@ else if (wheelie[0] == chosen[4]) {picked = "5";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == chosen[5]) {picked = "7";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[0]) {picked = "8";
+else if (wheelie[0] == chosen[6]) {picked = "8";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[1]) {picked = "9";
+else if (wheelie[0] == chosen[7]) {picked = "9";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[2]) {picked = "10";
+else if (wheelie[0] == chosen2[0]) {picked = "10";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[3]) {picked = "11";
+else if (wheelie[0] == chosen2[1]) {picked = "11";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
           round2();
 }
@@ -833,17 +820,6 @@ else if (data[picked] == r2Q9[0].cat){r2question001 = r2Q9;}
 else if (data[picked] == r2Q10[0].cat){r2question001 = r2Q10;}
 else if (data[picked] == r2Q11[0].cat){r2question001 = r2Q11;}
 else if (data[picked] == r2Q12[0].cat){r2question001 = r2Q12;}
-else if (data[picked] == r2Q13[0].cat){r2question001 = r2Q13;}
-else if (data[picked] == r2Q14[0].cat){r2question001 = r2Q14;}
-else if (data[picked] == r2Q15[0].cat){r2question001 = r2Q15;}
-else if (data[picked] == r2Q16[0].cat){r2question001 = r2Q16;}
-else if (data[picked] == r2Q17[0].cat){r2question001 = r2Q17;}
-else if (data[picked] == r2Q18[0].cat){r2question001 = r2Q18;}
-else if (data[picked] == r2Q19[0].cat){r2question001 = r2Q19;}
-else if (data[picked] == r2Q20[0].cat){r2question001 = r2Q20;}
-else if (data[picked] == r2Q21[0].cat){r2question001 = r2Q21;}
-else if (data[picked] == r2Q22[0].cat){r2question001 = r2Q22;}
-else if (data[picked] == r2Q23[0].cat){r2question001 = r2Q23;}
 r2question001 = shuffle(r2question001);
 }
 function bettingspin(d){
@@ -906,13 +882,13 @@ else if (wheelie[0] == chosen[4]) {picked = "5";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
 else if (wheelie[0] == chosen[5]) {picked = "7";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == chosen2[0]) {picked = "8";
+else if (wheelie[0] == chosen[6]) {picked = "8";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == chosen2[1]) {picked = "9";
+else if (wheelie[0] == chosen[7]) {picked = "9";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == chosen2[2]) {picked = "10";
+else if (wheelie[0] == chosen2[0]) {picked = "10";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == chosen2[3]) {picked = "11";
+else if (wheelie[0] == chosen2[1]) {picked = "11";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
 if (b >= 3){
 message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; 
@@ -984,17 +960,6 @@ else if (data[picked] == r2Q9[0].cat){bettingquestion001 = r2Q9;}
 else if (data[picked] == r2Q10[0].cat){bettingquestion001 = r2Q10;}
 else if (data[picked] == r2Q11[0].cat){bettingquestion001 = r2Q11;}
 else if (data[picked] == r2Q12[0].cat){bettingquestion001 = r2Q12;}
-else if (data[picked] == r2Q13[0].cat){bettingquestion001 = r2Q13;}
-else if (data[picked] == r2Q14[0].cat){bettingquestion001 = r2Q14;}
-else if (data[picked] == r2Q15[0].cat){bettingquestion001 = r2Q15;}
-else if (data[picked] == r2Q16[0].cat){bettingquestion001 = r2Q16;}
-else if (data[picked] == r2Q17[0].cat){bettingquestion001 = r2Q17;}
-else if (data[picked] == r2Q18[0].cat){bettingquestion001 = r2Q18;}
-else if (data[picked] == r2Q19[0].cat){bettingquestion001 = r2Q19;}
-else if (data[picked] == r2Q20[0].cat){bettingquestion001 = r2Q20;}
-else if (data[picked] == r2Q21[0].cat){bettingquestion001 = r2Q21;}
-else if (data[picked] == r2Q22[0].cat){bettingquestion001 = r2Q22;}
-else if (data[picked] == r2Q23[0].cat){bettingquestion001 = r2Q23;}
 bettingquestion();
 }
 function begin001() {

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<head><meta name="viewport" content="width=device-width, height=device-height"></head> 
+<body onload="load()">
+    <style>
+.flash {
+   animation-name: flash;
+    animation-duration: 1.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes flash {
+    from {color: #fbfbfb;}
+    to {color: black;}
+}
+.row4{ 
+display: none;
+}
+.tableborder{
+display: none;
+}
+       body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #222;
+	margin:0px;
+	padding:0px;
+	background-color:#E1E1E1;
+	text-align:center;
+	}
+        #frame001 {
+	    margin: auto;
+	    background-image: url("https://files.jcink.net/uploads2/fantasymts/SW/SW_background.png");
+ 	    background-repeat: no-repeat;
+            border-radius: 5px;
+            background-color: #fbfbfb;
+	    background-position: center top;
+            border: none;
+            height: 1500px;
+            width: 950px;
+        }
+        .buttons001 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons003 {
+	    border-color: white;
+    	    border-width: 1px;
+            background-color: #232223;
+            color: white;
+	    font-weight: bold;
+            width: 500px;
+            height: 40px;
+        }
+        .buttons004 {
+            background-color: limegreen;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+ 	   visibility: hidden;
+        }
+        .buttons009 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons005 {
+            background-color: crimson;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+ 	   visibility: hidden;
+        }
+        .buttons007 {
+            background-color: #232223;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons008 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons006 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons002 {
+            background-color: #232223;
+            color: white;
+            width: 70px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #font001 {
+            text-align: center;
+            font-size: 18px;
+            color: black;
+        }
+        #player001 {
+	    position: relative;
+	    top : 20px;
+ 	    left: -265px;
+            font-size: 110%;
+	    font-weight: bold;
+            color: black;
+        }
+        #player002 {
+	    position: relative;
+	    top : -2px;
+ 	    left: 260px;
+            font-size: 110%;
+	    font-weight: bold;
+            color: black;
+        }
+        #score001 {
+	    position: relative;
+	    top : -65px;
+ 	    left: -115px;
+            font-size: 190%;
+	    font-weight: bold;
+            color: white;
+        }
+        #time001 {
+	   position: relative;
+	    top : -140px;
+            font-size: 200%;
+	    font-weight: bold;
+            color: black;
+        }
+        #message002{
+	   position: relative;
+	    top : -130px;
+        }
+        #message003{
+	   position: relative;
+	    top : -100px;
+        }
+        #message004{
+	   position: relative;
+	    top : -140px;
+        }
+        #message006{
+	   position: relative;
+	    top : -100px;
+        }
+        #JTE{
+	   position: relative;
+	    top : -130px;
+            background-color: #232223;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #score002 {
+	   position: relative;
+	    top : -102px;
+ 	    left: 110px;
+            font-size: 190%;
+	    font-weight: bold;
+            color: white;
+        }
+        .smaller {
+            text-align: center;
+            font-size: 80%;
+            color: black;
+        }
+     #record001 {
+	    position: relative;
+	    top : -40px;
+ 	    left: -425px;
+            text-align: center;
+            font-size: 80%;
+            color: black;
+	    font-weight: bold;
+        }
+        #record002 {
+	    position: relative;
+	    top : -60px;
+ 	    left: 415px;
+            text-align: center;
+            font-size: 80%;
+            color: black;
+	    font-weight: bold;
+        }
+        #twitter001 {
+	    position: relative;
+	    top : -135px;
+ 	    left: -425px;
+            text-align: center;
+            font-size: 60%;
+            color: black;
+	    font-weight: bold;
+        }
+        #twitter002 {
+	    position: relative;
+	    top : -157px;
+ 	    left: 415px;
+            text-align: center;
+            font-size: 60%;
+            color: black;
+	    font-weight: bold;
+        }
+        #faction001 {
+	    position: relative;
+	    top : -175px;
+ 	    left: -390px;
+            text-align: center;
+            font-size: 65%;
+            color: white;
+	    font-weight: bold;
+        }
+        #faction002 {
+	    position: relative;
+	    top : -175px;
+ 	    left: 390px;
+            text-align: center;
+            font-size: 65%;
+            color: white;
+	    font-weight: bold;
+        }
+        #message005 {
+	   position: relative;
+	    top : -150px;
+            text-align: center;
+            font-size: 90%;
+            color: black;
+        }
+        #message001 {
+            text-align: center;
+            font-size: 90%;
+            color: white;
+        }
+        #qu001 {
+            text-align: center;
+            font-size: 100%;
+            color: white;
+	    font-weight: bold;
+        }
+        #qu002 {
+            text-align: center;
+            font-size: 100%;
+            color: white;
+	    font-weight: bold;
+        }
+        #round001 {
+	   position: relative;
+	    top : 0px;
+ 	    left: 0px;
+            text-align: center;
+            font-size: 100%;
+            color: black;
+	    font-weight: bold;
+        }
+        #round002 {
+	   position: relative;
+	    top : -135px;
+ 	    left: -5px;
+            font-size: 90%;
+            color: black;
+	    font-weight: bold;
+        }
+        #choose{
+	   position: relative;
+ 	    left: 0px;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+        }
+	input {
+  	width: 30%;
+  	font-size: 16px;
+	}
+    #chart{
+        position:relative;
+        width:100px;
+        height:100px;
+        top:0;
+        left:275px;
+	font-weight: bold;
+  	font-size: 13px;
+    }
+ body:fullscreen {
+  overflow: scroll !important;
+}
+body:-ms-fullscreen {
+  overflow: scroll !important;
+}
+body:-webkit-full-screen {
+  overflow: scroll !important;
+   zoom: 0.4;
+}
+body:-moz-full-screen {
+  overflow: scroll !important;
+}
+ .goFS{
+   display : none;
+ }
+@media (max-width: 767px) {
+ .goFS{
+   display : block;
+   background-color: #A20714;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+ }
+    </style>
+<audio id="myAudio">
+  <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio2">
+  <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
+</audio>
+<button id="goFS" class="goFS">Go fullscreen</button>
+ <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name and twitter.</p><text id="player001">CHALLENGER</text><br><text id="player002">OPPONENT</text><br><text id="record001">0-0</text><br><text id="record002">0-0</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="twitter001">@Challenger</text><br><text id="twitter002">@Opponent</text><br><text id="round002">ROUND <text id="round001">1</text></text><br><text id="faction001">ROOKIE</text><text id="faction002">UNKNOWN</text><br><text><text id="time001"></text></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div><form id="save-later-form"><input value="0" type="number" name="1" id="wins" required hidden></input><input name="2" value="0" type="number" id="losses" required hidden></input><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChamp" required hidden></input></form><button type="submit" id="save" hidden>Save</button></div>
+    </div>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/1__Phantom_Menace.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/2__Attack_of_the_Clones.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/3_pointe.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/3__Revenge_of_the_Sith.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/4__A_New_Hope.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/5_pointer.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/5__Empire_Strikes_Back.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/6__Return_of_the_Jedi.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/7__Force_Awakens.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/8__Last_Jedi.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/9__Rogue_One.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/10__Solo.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/11__Who_said_it.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/12__Heroes___Villains.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/13__Vehicles___Weapons.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/14__Clone_Wars.js" charset="utf-8"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/SW/15__Rise_of_Skywalker.js" charset="utf-8"></script>
+<script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="SWSemi.js"></script>
+<script src="https://files.jcink.net/uploads2/fantasymts/new_recordSW.js"></script>
+</body>
+</html>

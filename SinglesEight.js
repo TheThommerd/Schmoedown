@@ -816,14 +816,12 @@ function submitname () {
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Barbarian>Barbarian</option><option value=Ellison>Chance Ellison</option><option value=Harris>Lon Harris</option><option value=Miller>Liz Shannon Miller</option><option value=McWeeny>Drew McWeeny</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
-			document.getElementById("save").click();
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
 message004.innerHTML = "<select id=select><option value=Barbarian>Barbarian</option><option value=Ellison>Chance Ellison</option><option value=Harris>Lon Harris</option><option value=Miller>Liz Shannon Miller</option><option value=McWeeny>Drew McWeeny</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
-			document.getElementById("save").click();
 }
  	var a = 0;
         a++;

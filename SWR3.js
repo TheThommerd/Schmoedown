@@ -281,8 +281,11 @@ function choosecomp() {
 	percentage5 = competitorlist[0].percentage5;
 	message001.innerHTML = "Click Next to proceed.";
 	message005.innerHTML = "You selected " +competitorlist[0].lowercase + ".";
+wheelie = [competitorlist[0].strength1, competitorlist[0].strength2, competitorlist[0].strength3];
+wheelie = shuffle(wheelie);
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 }
+var wheelie = [];
 function submitpassword() {
 var ww = document.getElementById("password").value.toUpperCase();
 document.getElementById("passwordsaverR3").value = document.getElementById("password").value.toUpperCase();
@@ -347,13 +350,13 @@ function submitname () {
   	record001.innerHTML = record;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=GoldLeader>Gold Leader</option><option value=Harper>Thomas Harper</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Harper>Thomas Harper</option><option value=GoldLeader>Gold Leader</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=GoldLeader>Gold Leader</option><option value=Harper>Thomas Harper</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Harper>Thomas Harper</option><option value=GoldLeader>Gold Leader</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function shuffle(array) {
@@ -404,31 +407,33 @@ question001[6] = roundone[6];
 question001[7] = roundone[7];
 question001[14] = roundone[8];
 question001[15] = roundone[9];
-question001[9] = roundthree[1];
+question001[9]  = roundone[10];
 question001[8] = roundthree[0];
-question001[10] = roundthree[2];
-question001[11] = roundthree[3];
-question001[12] = roundthree[4];
-question001[13] = roundthree[5];
-question001[16] = roundthree[6];
-question001[17] = roundthree[7];
-question001[18] = roundthree[8];
-question001[19] = roundthree[9];
-var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat];
-chosen= shuffle(chosen); 
+question001[10] = roundthree[1];
+question001[11] = roundthree[2];
+question001[12] = roundthree[3];
+question001[13] = roundthree[4];
+question001[16] = roundthree[5];
+question001[17] = roundthree[6];
+question001[18] = roundthree[7];
+question001[19] = roundthree[8];
+var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat];
+chosen = shuffle(chosen); 
+var chosen2 = [r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat];
+chosen2 = shuffle(chosen2); 
 var data = [];
-data[0] = chosen[0];
-data[1] = chosen[1];
-data[2] = chosen[2];
-data[3] = chosen[3];
-data[4] = chosen[4];
-data[5] = chosen[5];
-data[6] = chosen[6];
-data[7] = chosen[7];
-data[8] = chosen[8];
-data[9] = chosen[9];
-data[10] = chosen[10];
-data[11] = chosen[11];
+data[0] = "Spinner's Choice";
+data[1] = chosen[0];
+data[2] = chosen[1];
+data[3] = chosen[2];
+data[4] = chosen[3];
+data[5] = chosen[4];
+data[6] = "Opponent's Choice";
+data[7] = chosen[5];
+data[8] = chosen[6];
+data[9] = chosen[7];
+data[10] = chosen2[0];
+data[11] = chosen2[1];
 function unique2(){
 	if ((fivepointer001[0].cat == threepointer001[0].cat) || (fivepointer001[0].cat == question001[8].cat)) {
 	      fivepointer001 = shuffle(fivepointer001);   
@@ -509,7 +514,7 @@ return "white" ;
             .text( function(d, i) {
                 return data[i];
             });
-        function spin(d){
+    function spin(d){
             document.getElementById("spin").style.visibility = "hidden";
             container.on("click", null);
             var  ps       = 360/data.length,
@@ -520,20 +525,173 @@ return "white" ;
             
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
-                        console.log(picked+1);
+                       
             rotation += 90 - Math.round(ps/2);
             vis.transition()
                 .duration(3000)
                 .attrTween("transform", rotTween)
                 .each("end", function(){
-                    d3.select("#question h1")
                     oldrotation = rotation;
 message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
-			mess = picked+1;
-	    document.getElementById("nextbutton").style.visibility= "visible";        
+if (data[picked] == "Spinner's Choice"){
+message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-160px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[4];
+document.getElementById("box5").value = data[5];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[8];
+document.getElementById("box8").value = data[9];
+document.getElementById("box9").value = data[10];
+document.getElementById("box10").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 1) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 1) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 1) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}
+else if (data[picked] == "Opponent's Choice"){
+document.getElementById("respin").style.visibility = "hidden"; 
+document.getElementById("nextbutton").style.visibility= "visible"; 
+if (wheelie[0] == chosen[0]) {picked = "1";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[1]) {picked = "2";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[2]) {picked = "3";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[3]) {picked = "4";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[4]) {picked = "5";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[5]) {picked = "7";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[6]) {picked = "8";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[7]) {picked = "9";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen2[0]) {picked = "10";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen2[1]) {picked = "11";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+          round2();
+}
+else 
+{
+document.getElementById("nextbutton").style.visibility= "visible"; 
+round2();
+}
+			mess = picked+1;     
                 });
-                round2();
         }
+function confirm(){
+document.getElementById("message003").style.top= "-140px"; 
+message001.innerHTML = "Press Next to proceed";
+document.getElementById("message002").style.display= "none"; 
+document.getElementById("chart").style.visibility = "hidden";
+if (document.getElementById("box1").checked ){picked = 1;}
+if (document.getElementById("box2").checked ){picked = 2;}
+if (document.getElementById("box3").checked ){picked = 3;}
+if (document.getElementById("box4").checked ){picked = 4;}
+if (document.getElementById("box5").checked ){picked = 5;}
+if (document.getElementById("box6").checked ){picked = 7;}
+if (document.getElementById("box7").checked ){picked = 8;}
+if (document.getElementById("box8").checked ){picked = 9;}
+if (document.getElementById("box9").checked ){picked = 10;}
+if (document.getElementById("box10").checked ){picked = 11;}
+message003.innerHTML = "You selected " + data[picked] + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+round2();
+}
+function confirmopp(){
+document.getElementById("message003").style.visibility = "visible";
+if ((document.getElementById("box1").checked) && (document.getElementById("box1").disabled != true)){random = 1;}
+if ((document.getElementById("box2").checked) && (document.getElementById("box2").disabled != true)){random = 2;}
+if ((document.getElementById("box3").checked) && (document.getElementById("box3").disabled != true)){random = 3;}
+if ((document.getElementById("box4").checked) && (document.getElementById("box4").disabled != true)){random = 4;}
+if ((document.getElementById("box5").checked) && (document.getElementById("box5").disabled != true)){random = 5;}
+if ((document.getElementById("box6").checked) && (document.getElementById("box6").disabled != true)){random = 7;}
+if ((document.getElementById("box7").checked) && (document.getElementById("box7").disabled != true)){random = 8;}
+if ((document.getElementById("box8").checked) && (document.getElementById("box8").disabled != true)){random = 9;}
+if ((document.getElementById("box9").checked) && (document.getElementById("box9").disabled != true)){random = 10;}
+if ((document.getElementById("box10").checked) && (document.getElementById("box10").disabled != true)){random = 11;}
+message002.innerHTML = "You selected " + data[random] + "<br>" + "<button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+assigncompcat();
+}
+function assigncompcat(){
+if (data[random] == r2Q1[0].cat){compcat = r2Q1;}
+else if (data[random] == r2Q2[0].cat){compcat = r2Q2;}
+else if (data[random] == r2Q3[0].cat){compcat = r2Q3;}
+else if (data[random] == r2Q4[0].cat){compcat = r2Q4;}
+else if (data[random] == r2Q5[0].cat){compcat = r2Q5;}
+else if (data[random] == r2Q6[0].cat){compcat = r2Q6;}
+else if (data[random] == r2Q7[0].cat){compcat = r2Q7;}
+else if (data[random] == r2Q8[0].cat){compcat = r2Q8;}
+else if (data[random] == r2Q9[0].cat){compcat = r2Q9;}
+else if (data[random] == r2Q10[0].cat){compcat = r2Q10;}
+else if (data[random] == r2Q11[0].cat){compcat = r2Q11;}
+else if (data[random] == r2Q12[0].cat){compcat = r2Q12;}
+compcat = shuffle(compcat);
+}
+var opponentspun = "0";
+var random = 0;
+var spinners = "0";
+function simulatecomputerround2(){
+var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+random = Math.floor(Math.random() * numbers.length);
+if (data[random] == "Spinner's Choice"){
+spinners = "1";
+if (data[picked] != wheelie[0]) {
+if (wheelie[0] == chosen[0]) {random = "1";}
+else if (wheelie[0] == chosen[1]) {random = "2";}
+else if (wheelie[0] == chosen[2]) {random = "3";}
+else if (wheelie[0] == chosen[3]) {random = "4";}
+else if (wheelie[0] == chosen[4]) {random = "5";}
+else if (wheelie[0] == chosen[5]) {random = "7";}
+else if (wheelie[0] == chosen[6]) {random = "8";}
+else if (wheelie[0] == chosen[7]) {random = "9";}
+else if (wheelie[0] == chosen2[0]) {random = "10";}
+else if (wheelie[0] == chosen2[1]) {random = "11";}
+assigncompcat();}
+else if (data[picked] != wheelie[1]) {
+if (wheelie[1] == chosen[0]) {random = "1";}
+else if (wheelie[1] == chosen[1]) {random = "2";}
+else if (wheelie[1] == chosen[2]) {random = "3";}
+else if (wheelie[1] == chosen[3]) {random = "4";}
+else if (wheelie[1] == chosen[4]) {random = "5";}
+else if (wheelie[1] == chosen[5]) {random = "7";}
+else if (wheelie[1] == chosen[6]) {random = "8";}
+else if (wheelie[1] == chosen[7]) {random = "9";}
+else if (wheelie[1] == chosen2[0]) {random = "10";}
+else if (wheelie[1] == chosen2[1]) {random = "11";}
+assigncompcat();}
+else if (data[picked] != wheelie[2]) {
+if (wheelie[2] == chosen[0]) {random = "1";}
+else if (wheelie[2] == chosen[1]) {random = "2";}
+else if (wheelie[2] == chosen[2]) {random = "3";}
+else if (wheelie[2] == chosen[3]) {random = "4";}
+else if (wheelie[2] == chosen[4]) {random = "5";}
+else if (wheelie[2] == chosen[5]) {random = "7";}
+else if (wheelie[2] == chosen[6]) {random = "8";}
+else if (wheelie[2] == chosen[7]) {random = "9";}
+else if (wheelie[2] == chosen2[0]) {random = "10";}
+else if (wheelie[2] == chosen2[1]) {random = "11";}
+assigncompcat();}
+}
+if (data[random] == "Opponent's Choice"){opponentspun = "1";}
+if ((data[random] != "Spinner's Choice") && (data[random] != "Opponent's Choice") && (data[random] == data[picked])){
+simulatecomputerround2();}
+if ((data[random] != "Spinner's Choice") && (data[random] != "Opponent's Choice") && (data[random] != data[picked])){
+assigncompcat();
+}
+}
         svg.append("g")
             .attr("transform", "translate(" + (wid + padding.left + padding.right) + "," + ((hei/2)+padding.top) + ")")
             .append("path")
@@ -551,9 +709,9 @@ message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class
             return "rotate(" + io(t) + ")";
           };
         }
-        function spin2(d){
-document.getElementById("nextbutton").style.visibility = "hidden";  
-document.getElementById("message002").style.visibility = "hidden";  
+  	function spin2(d){
+		document.getElementById("nextbutton").style.visibility = "hidden";  
+		document.getElementById("message002").style.visibility = "hidden";  
         
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
@@ -563,23 +721,75 @@ document.getElementById("message002").style.visibility = "hidden";
             
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
-                        console.log(picked+1);
             rotation += 90 - Math.round(ps/2);
             vis.transition()
                 .duration(3000)
                 .attrTween("transform", rotTween)
                 .each("end", function(){
                     //populate question
-                    d3.select("#question h1")
                     oldrotation = rotation;
                 mess = picked+1;
-document.getElementById("message002").style.visibility = "visible";  
-message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
-document.getElementById("respin").style.visibility = "hidden";
-document.getElementById("nextbutton").style.visibility = "visible";  
+	document.getElementById("message002").style.visibility = "visible";  
+	message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
+	document.getElementById("respin").style.visibility = "visible"; 
+if (data[picked] == "Spinner's Choice"){
+message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-160px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[4];
+document.getElementById("box5").value = data[5];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[8];
+document.getElementById("box8").value = data[9];
+document.getElementById("box9").value = data[10];
+document.getElementById("box10").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 1) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 1) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 1) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}
+else if (data[picked] == "Opponent's Choice"){
+document.getElementById("respin").style.visibility = "hidden"; 
+document.getElementById("nextbutton").style.visibility= "visible"; 
+if (wheelie[0] == chosen[0]) {picked = "1";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[1]) {picked = "2";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[2]) {picked = "3";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[3]) {picked = "4";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[4]) {picked = "5";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[5]) {picked = "7";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[6]) {picked = "8";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen[7]) {picked = "9";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen2[0]) {picked = "10";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == chosen2[1]) {picked = "11";
+message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+          round2();
+}
+else {
+document.getElementById("respin").style.visibility = "hidden"; 
 document.getElementById("message003").style.top = "-230px"; 
+document.getElementById("nextbutton").style.visibility= "visible"; 
+round2();
+}
                 });
-                round2();
         }
         
         function getRandomNumbers(){
@@ -597,110 +807,19 @@ document.getElementById("message003").style.top = "-230px";
         }
 var compcat = [];  
 function round2(){
-if (data[picked] == r2Q1[0].cat){
-r2question001 = r2Q1;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q2[0].cat){
-r2question001 = r2Q2;
+if (data[picked] == r2Q1[0].cat){r2question001 = r2Q1;}
+else if (data[picked] == r2Q2[0].cat){r2question001 = r2Q2;}
+else if (data[picked] == r2Q3[0].cat){r2question001 = r2Q3;}
+else if (data[picked] == r2Q4[0].cat){r2question001 = r2Q4;}
+else if (data[picked] == r2Q5[0].cat){r2question001 = r2Q5;}
+else if (data[picked] == r2Q6[0].cat){r2question001 = r2Q6;}
+else if (data[picked] == r2Q7[0].cat){r2question001 = r2Q7;}
+else if (data[picked] == r2Q8[0].cat){r2question001 = r2Q8;}
+else if (data[picked] == r2Q9[0].cat){r2question001 = r2Q9;}
+else if (data[picked] == r2Q10[0].cat){r2question001 = r2Q10;}
+else if (data[picked] == r2Q11[0].cat){r2question001 = r2Q11;}
+else if (data[picked] == r2Q12[0].cat){r2question001 = r2Q12;}
 r2question001 = shuffle(r2question001);
-var sim = [r2Q1, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q3[0].cat){
-r2question001 = r2Q3;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q1, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q4[0].cat){
-r2question001 = r2Q4;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q1, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q5[0].cat){
-r2question001 = r2Q5;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q1, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q6[0].cat){
-r2question001 = r2Q6;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q1, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q7[0].cat){
-r2question001 = r2Q7;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q1, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q8[0].cat){
-r2question001 = r2Q8;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q1, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q9[0].cat){
-r2question001 = r2Q9;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q1, r2Q10, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q10[0].cat){
-r2question001 = r2Q10;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q1, r2Q11, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q11[0].cat){
-r2question001 = r2Q11;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q1, r2Q12, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q12[0].cat){
-r2question001 = r2Q12;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q1, r2Q13];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
-else if (data[picked] == r2Q13[0].cat){
-r2question001 = r2Q13;
-r2question001 = shuffle(r2question001); 
-var sim = [r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q1];
-sim = shuffle(sim);
-compcat= sim[0];
-compcat = shuffle(compcat);
-}
 }
 function begin001() {
 time001.innerHTML = 20;
@@ -3155,6 +3274,8 @@ document.getElementById("mc").style.display = "none";
 var input = "<input type=text id=q1 /><br />";
 var buttons = "<button id=sub class=buttons001 onclick=checker()>Submit Answer</button><br /><br /><button id=mc class=buttons007 onclick=setvis()>Multiple Choice</button>";
 function next001() {
+	document.getElementById("message002").style.top = "-130px";
+        document.getElementById("message002").style.display= "block";
 	    document.getElementById("message004").style.top = "-140px";
         document.getElementById("message001").style.fontSize = "90%";
 	document.getElementById("player001").style.top = "20px";
@@ -5378,6 +5499,11 @@ $("#message002").keypress(function(event) {
                  $("#submit").click(); 
             } 
 });
+     	$("#message004").keypress(function(event) { 	
+         if (event.keyCode === 13){ 	
+                 $("#submit3").click(); 	
+            } 	
+});
      
 function next003() {
 	    document.getElementById("message004").style.top = "-140px";
@@ -5494,20 +5620,22 @@ else if (b -s >= 0){
 }
 }
 function next004 () {
+simulatecomputerround2();
 	document.getElementById("qu002").style.display = "initial";
-	    document.getElementById("message004").style.top = "-140px";
+	document.getElementById("message006").style.top = "-140px";
+	document.getElementById("message004").style.top = "-140px";
         document.getElementById("message001").style.fontSize = "90%";
 	document.getElementById("player001").style.top = "20px";
-	document.getElementById("player002").style.top = "-2px";
-	document.getElementById("score001").style.top = "-65px";
-	document.getElementById("score002").style.top = "-102px";
+	document.getElementById("player002").style.top = "-3px";
+	document.getElementById("score001").style.top = "-60px";
+	document.getElementById("score002").style.top = "-97px";
 	document.getElementById("twitter001").style.top = "-135px";
-	document.getElementById("twitter002").style.top = "-157px";
-	document.getElementById("faction001").style.top = "-175px";
-	document.getElementById("faction002").style.top = "-175px";
-	document.getElementById("record001").style.top = "-40px";
-	document.getElementById("record002").style.top = "-60px";
-	document.getElementById("round002").style.top = "-135px";
+	document.getElementById("twitter002").style.top = "-155px";
+	document.getElementById("faction001").style.top = "-167px";
+	document.getElementById("faction002").style.top = "-167px";
+	document.getElementById("record001").style.top = "-37px";
+	document.getElementById("record002").style.top = "-57px";
+	document.getElementById("round002").style.top = "-132px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
@@ -5516,13 +5644,86 @@ function next004 () {
 		message002.innerHTML = "";
                 message004.innerHTML = "";
 		message005.innerHTML = "";
+if (spinners == "1"){
+	    	message006.innerHTML = competitorlist[0].id + " spun Spinner's Choice and chose " +compcat[0].cat;
+}
+if (opponentspun == "1"){
+	    	message006.innerHTML = "";
+message002.innerHTML = competitorlist[0].id + " spun Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
+document.getElementById("message003").style.visibility = "hidden";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[4];
+document.getElementById("box5").value = data[5];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[8];
+document.getElementById("box8").value = data[9];
+document.getElementById("box9").value = data[10];
+document.getElementById("box10").value = data[11];
+if (document.getElementById("box1").value == r2question001[0].cat) {
+document.getElementById("box1").checked = true;
+document.getElementById("box1").disabled = true;
+}
+if (document.getElementById("box2").value == r2question001[0].cat) {
+document.getElementById("box2").checked = true;
+document.getElementById("box2").disabled = true;
+}
+if (document.getElementById("box3").value == r2question001[0].cat) {
+document.getElementById("box3").checked = true;
+document.getElementById("box3").disabled = true;
+}
+if (document.getElementById("box4").value == r2question001[0].cat) {
+document.getElementById("box4").checked = true;
+document.getElementById("box4").disabled = true;
+}
+if (document.getElementById("box5").value == r2question001[0].cat) {
+document.getElementById("box5").checked = true;
+document.getElementById("box5").disabled = true;
+}
+if (document.getElementById("box6").value == r2question001[0].cat) {
+document.getElementById("box6").checked = true;
+document.getElementById("box6").disabled = true;
+}
+if (document.getElementById("box7").value == r2question001[0].cat) {
+document.getElementById("box7").checked = true;
+document.getElementById("box7").disabled = true;
+}
+if (document.getElementById("box8").value == r2question001[0].cat) {
+document.getElementById("box8").checked = true;
+document.getElementById("box8").disabled = true;
+}
+if (document.getElementById("box9").value == r2question001[0].cat) {
+document.getElementById("box9").checked = true;
+document.getElementById("box9").disabled = true;
+}
+if (document.getElementById("box10").value == r2question001[0].cat) {
+document.getElementById("box10").checked = true;
+document.getElementById("box10").disabled = true;
+}
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 2) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 2) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 2) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}
+if ((opponentspun != "1") && (spinners != "1")){
 	    	message006.innerHTML =  "Opponent spun category " +compcat[0].cat;
+		document.getElementById("message003").style = "initial";
+}
             	message003.innerHTML = "<button id=nextbutton class=buttons002 onclick=simulate()>Simulate</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
-		document.getElementById("message003").style = "initial";
 		document.getElementById("message004").style = "initial";
-	    	document.getElementById("message006").style.top = "-100px";
+	    	document.getElementById("message006").style.top = "-140px";
+	    	document.getElementById("message003").style.top = "-140px";
 }
 function simulatefinished () {
 	   	document.getElementById("chart").style.visibility = "hidden";
@@ -5541,14 +5742,14 @@ else if ((stealopp == 0) && (stealmc == 0)) {
 		message003.innerHTML = "One point steals available: " +stealmc;
 	    	message006.innerHTML =  "Two points steals available: " +stealopp;
 if (stealmc == 1) {
-message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].lowercase + "'s" + " multiple choice answer is marked red.";
+message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].id + "'s" + " multiple choice answer is marked red.";
 }
 if (stealmc > 1) {
-message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].lowercase + "'s" + " multiple choice answers are marked red.";
+message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].id + "'s" + " multiple choice answers are marked red.";
 }
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
-		document.getElementById("message004").style.top = "-100px";
+		document.getElementById("message004").style.top = "-140px";
 }
 function simulate(){
 simulateq1();

@@ -1322,7 +1322,8 @@ function winKO(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+document.getElementById("passwordsaverR2").value = "THREEPIO";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Threepio' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";
@@ -1378,7 +1379,8 @@ function winTKO(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+document.getElementById("passwordsaverR2").value = "THREEPIO";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Threepio' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";
@@ -1434,7 +1436,8 @@ function win(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+document.getElementById("passwordsaverR2").value = "THREEPIO";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Threepio' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";

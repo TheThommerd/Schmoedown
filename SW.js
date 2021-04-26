@@ -18,20 +18,6 @@ function load(){
 	var twitter = twittername.substring(0, 13);
 	twitter001.innerHTML = twitter.replace(" ","");
 }
-	if (document.getElementById("wins").value.length < 1)
-	{
-	document.getElementById("wins").value = 0;
-	}
-	if (document.getElementById("losses").value.length < 1)
-	{
-	document.getElementById("losses").value = 0;
-	}
-  	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
-  	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
-	var twittername = document.getElementById("twitt").value;
-	var twitter = twittername.substring(0, 13);
-	twitter001.innerHTML = twitter.replace(" ","");
-}
 var competitorlist = [
 {
 "id": "Cabrera",

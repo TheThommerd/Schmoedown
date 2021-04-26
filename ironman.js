@@ -36,104 +36,16 @@ var competitorlist = [
 "lowercase": "Ben Bateman",
 "twitter": "@benbatemanmedia",
 "record": "10-5",
-"faction": "HORSEMEN",
+"faction": "DUNGEON",
 "percentage": "82",
 },
 {
-"id": "Bibbiani",
-"lowercase": "William Bibbiani",
-"twitter": "@WilliamBibbiani",
-"record": "10-8",
-"faction": "SHAZAM!",
-"percentage": "84",
-},
-{
-"id": "Kalinowski",
-"lowercase": "Mike Kalinowski",
-"twitter": "@MikeKalinowski",
-"record": "7-6",
-"faction": "KORRUPTION",
-"percentage": "74",
-},
-{
-"id": "Murrell",
-"lowercase": "Dan Murrell",
-"twitter": "@MurrellDan",
-"record": "13-5",
-"faction": "HORSEMEN",
+"id": "Mantz",
+"lowercase": "Scott Mantz",
+"twitter": "@MovieMantz",
+"record": "2-5",
+"faction": "DROOGS",
 "percentage": "85",
-},
-{
-"id": "Oyama",
-"lowercase": "Paul Oyama",
-"twitter": "@Paul_Oyama",
-"record": "6-1",
-"faction": "S.W.A.G.",
-"percentage": "78",
-},
-{
-"id": "Andreyko",
-"lowercase": "Marc Andreyko",
-"twitter": "@marcandreyko",
-"record": "6-6",
-"faction": "ROXSTARS",
-"percentage": "72",
-},
-{
-"id": "Cushing",
-"lowercase": "Rachel Cushing",
-"twitter": "@RachelJCushing",
-"record": "4-2",
-"faction": "SHIREWOLVES",
-"percentage": "88",
-},
-{
-"id": "Dagnino",
-"lowercase": "Tom Dagnino",
-"twitter": "@bobfinstock",
-"record": "1-4",
-"faction": "HORSEMEN",
-"percentage": "49",
-},
-{
-"id": "Ellison",
-"lowercase": "Chance Ellison",
-"twitter": "@chancewars_91",
-"record": "3-3",
-"faction": "KORRUPTION",
-"percentage": "79",
-},
-{
-"id": "Erwin",
-"lowercase": "Ethan Erwin",
-"twitter": "@MrEthanErwin",
-"record": "8-4",
-"faction": "USUAL SUSPECTS",
-"percentage": "86",
-},
-{
-"id": "Harris",
-"lowercase": "Lon Harris",
-"twitter": "@Lons",
-"record": "5-4",
-"faction": "S.W.A.G.",
-"percentage": "74",
-},
-{
-"id": "Howard",
-"lowercase": "Stacy Howard",
-"twitter": "@stacyohoward",
-"record": "6-5",
-"faction": "ROXSTARS",
-"percentage": "60",
-},
-{
-"id": "JTE",
-"lowercase": "JTE",
-"twitter": "@JTEmoviethinks",
-"record": "9-10",
-"faction": "ROXSTARS",
-"percentage": "69",
 },
 {
 "id": "Levine",
@@ -144,78 +56,18 @@ var competitorlist = [
 "percentage": "80",
 },
 {
-"id": "Meyer",
-"lowercase": "Brendan Meyer",
-"twitter": "@BrendanKJMeyer",
-"record": "5-3",
-"faction": "SHAZAM",
-"percentage": "72",
-},
-{
-"id": "Macuga",
-"lowercase": "Josh Macuga",
-"twitter": "@JoshMacuga",
-"record": "8-11",
+"id": "Hlavac",
+"lowercase": "Adam Hlavac",
+"twitter": "@adamhlavac",
+"record": "3-5",
 "faction": "S.W.A.G.",
-"percentage": "52",
+"percentage": "73",
 },
-{
-"id": "Miller",
-"lowercase": "Liz Shannon Miller",
-"twitter": "@lizlet",
-"record": "4-2",
-"faction": "S.W.A.G.",
-"percentage": "75",
-},
-{
-"id": "Reilly",
-"lowercase": "Mark Reilly",
-"twitter": "@ReillyAround",
-"record": "10-7",
-"faction": "HORSEMEN",
-"percentage": "71",
-},
-{
-"id": "Sneider",
-"lowercase": "Jeff Sneider",
-"twitter": "@TheInSneider",
-"record": "9-6",
-"faction": "ROXSTARS",
-"percentage": "71",
-},
-{
-"id": "Wolfe",
-"lowercase": "Clarke Wolfe",
-"twitter": "@clarkewolfe",
-"record": "8-7",
-"faction": "SHIREWOLVES",
-"percentage": "72",
-},
-{
-"id": "Preston",
-"lowercase": "Paul Preston",
-"twitter": "@PPrestonLA",
-"record": "8-7",
-"faction": "THE DEN",
-"percentage": "75",
-},
-{
-"id": "Rocha",
-"lowercase": "John Rocha",
-"twitter": "@TheRochaSays",
-"record": "14-9",
-"faction": "HORSEMEN",
-"percentage": "79",
-}
 ];
-
-
 var num = 0;
 var hastag = "#";
-
 var percentage = 0;
 var vraag = 0;
-
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
@@ -284,7 +136,7 @@ function submitname () {
   	record001.innerHTML = record;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Cushing>Rachel Cushing</option><option value=Dagnino>Tom Dagnino</option><option value=Ellison>Chance Ellison</option><option value=Erwin>Ethan Erwin</option><option value=Harris>Lon Harris</option><option value=Howard>Stacy Howard</option><option value=JTE>JTE</option><option value=Kalinowski>Mike Kalinowski</option><option value=Levine>Samm Levine</option><option value=Macuga>Josh Macuga</option><option value=Meyer>Brendan Meyer</option><option value=Miller>Liz Shannon Miller</option><option value=Murrell>Dan Murrell</option><option value=Oyama>Paul Oyama</option><option value=Reilly>Mark Reilly</option><option value=Rocha>John Rocha</option><option value=Sneider>Jeff Sneider</option><option value=Wolfe>Clarke Wolfe</option><option value=Preston>Paul Preston</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Bateman>Ben Bateman</option><option value=Hlavac>Adam Hlavac</option><option value=Levine>Samm Levine</option><option value=Mantz>Scott Mantz</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 
@@ -316,7 +168,7 @@ function choosecomp() {
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Bateman>Ben Bateman</option><option value=Bibbiani>William Bibbiani</option><option value=Cushing>Rachel Cushing</option><option value=Dagnino>Tom Dagnino</option><option value=Ellison>Chance Ellison</option><option value=Erwin>Ethan Erwin</option><option value=Harris>Lon Harris</option><option value=Howard>Stacy Howard</option><option value=JTE>JTE</option><option value=Kalinowski>Mike Kalinowski</option><option value=Levine>Samm Levine</option><option value=Macuga>Josh Macuga</option><option value=Meyer>Brendan Meyer</option><option value=Miller>Liz Shannon Miller</option><option value=Murrell>Dan Murrell</option><option value=Oyama>Paul Oyama</option><option value=Reilly>Mark Reilly</option><option value=Rocha>John Rocha</option><option value=Sneider>Jeff Sneider</option><option value=Wolfe>Clarke Wolfe</option><option value=Preston>Paul Preston</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Bateman>Ben Bateman</option><option value=Hlavac>Adam Hlavac</option><option value=Levine>Samm Levine</option><option value=Mantz>Scott Mantz</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 
@@ -331,12 +183,9 @@ function shuffle(array) {
   }
   return array;
 }
-
 var chance = 0;
 var c;
-
 question001 = shuffle(question001); 
-
 function begin001() {
     var Minutes = 60 * 15,
         display = document.querySelector('#round002');
@@ -693,7 +542,6 @@ function startTimer(duration, display) {
         		}
     }, 1000);
 }
-
 function startTimer2(duration, display) {
     var timer = duration, minutes, seconds;
  var tijd =   setInterval(function () {
@@ -716,7 +564,6 @@ function startTimer2(duration, display) {
         		}
     }, 1000);
 }
-
 function next002(){
        display = document.querySelector('#round002');
                     if (display.textContent == "00:00") {
@@ -861,10 +708,8 @@ if (question001[vraag].ques.length > 125){
 	    	document.getElementById("chalacc").style.display = "initial";
 		}
 }
-
 var speed = 0;
 var nobody = 0 ;
-
 function finalround(){
 	message001.innerHTML = "Click Next to proceed.";
 	message002.innerHTML = "";
@@ -878,7 +723,6 @@ function finalround(){
             message004.innerHTML = "<button class=buttons002 onclick=start2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 speed++;
 }
-
 function speedtimer001() {
             t = t - 1;
             if (t < 1) {
@@ -911,15 +755,12 @@ else if (nobody == 1){
 	document.getElementById("message006").style.top = "-190px";
         }
 }
-
 function start2(){
     var Minutes = 60 * 2,
         display = document.querySelector('#round002');
     startTimer2(Minutes, display);
 next002();
     }
-
-
 function win(){
                 window.clearInterval(update);
                 c = "-";
@@ -938,7 +779,6 @@ function win(){
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
 }
-
 function lose(){
                 window.clearInterval(update);
                 c = "-";

@@ -257,13 +257,13 @@ function submitname () {
   	record001.innerHTML = record;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Cabrera>Andres Cabrera</option><option value=Damon>Alex Damon</option><option value=damon>Mollie Damon</option><option value=Dimalanta>Andrew Dimalanta</option><option value=Kelly>Laura Kelly</option><option value=Napzok>Ken Napzok</option><option value=Scrimshaw>Joseph Scrimshaw</option><option value=Sullivan>Sean Sullivan</option><option value=Witt>Adam Witt</option><option value=Witwer>Sam Witwer</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Sullivan>Sean Sullivan</option><option value=Witt>Adam Witt</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Cabrera>Andres Cabrera</option><option value=Damon>Alex Damon</option><option value=damon>Mollie Damon</option><option value=Dimalanta>Andrew Dimalanta</option><option value=Kelly>Laura Kelly</option><option value=Napzok>Ken Napzok</option><option value=Scrimshaw>Joseph Scrimshaw</option><option value=Sullivan>Sean Sullivan</option><option value=Witt>Adam Witt</option><option value=Witwer>Sam Witwer</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Sullivan>Sean Sullivan</option><option value=Witt>Adam Witt</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function shuffle(array) {

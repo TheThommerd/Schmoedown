@@ -1,4 +1,4 @@
-document.getElementById("frame001").style.zoom="1.4";
+	        document.getElementById("frame001").style.zoom="1.4";
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
@@ -6979,6 +6979,7 @@ if ((opponentspun != "1") && (spinners != "1")){
 	    	document.getElementById("chalden").style.display = "none";
 		document.getElementById("message004").style = "initial";
 	    	document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message003").style.top = "-140px";
 }
 function simulatefinished () {
 	   	document.getElementById("chart").style.visibility = "hidden";

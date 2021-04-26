@@ -6902,6 +6902,7 @@ simulatecomputerround2();
 		message005.innerHTML = "";
 if (spinners == "1"){
 	    	message006.innerHTML = competitorlist[0].id + " spun Spinner's Choice and chose " +compcat[0].cat;
+		document.getElementById("message003").style = "initial";
 }
 if (opponentspun == "1"){
 	    	message006.innerHTML = "";

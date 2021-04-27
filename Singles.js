@@ -1579,6 +1579,9 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 12){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[1].answ2 ;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -1598,6 +1601,9 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		} 
 	if (a == 13){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[2].answ2 ;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -1617,6 +1623,9 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 14){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[3].answ2;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -4757,6 +4766,9 @@ if (chance < percentage) {
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 11){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
             	message003.innerHTML = "The correct answer is " + r2question001[0].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -4807,6 +4819,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 12){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
             	message003.innerHTML = "The correct answer is " + r2question001[1].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -4857,6 +4872,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 13){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
             	message003.innerHTML = "The correct answer is " + r2question001[2].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -4907,6 +4925,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if ((a == 14) && (open == 0) && (mc == 0)){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " + r2question001[3].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();

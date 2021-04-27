@@ -1720,6 +1720,9 @@ else if (j == 0) {
 	      }
 }
          function qcor() {
+		document.getElementById("message003").style.top = "-150px";
+		document.getElementById("message004").style.top = "-150px";
+		document.getElementById("message006").style.top = "-150px";
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -1782,6 +1785,9 @@ if (mc == 4){
 }
 }
         function qinc() {
+		document.getElementById("message003").style.top = "-150px";
+		document.getElementById("message004").style.top = "-150px";
+		document.getElementById("message006").style.top = "-150px";
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
 	    incmusic.play();
@@ -2951,9 +2957,9 @@ console.log(quescount);
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
 quescor++;
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
@@ -2963,9 +2969,9 @@ quescor++;
 	    document.getElementById("mc").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[0].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
@@ -3012,9 +3018,9 @@ console.log(quescount);
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
 quescor++;
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    cormusic.play();
 	    message005.innerHTML = "";
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -3025,9 +3031,9 @@ quescor++;
 	    document.getElementById("mc").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[1].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
@@ -3072,9 +3078,9 @@ console.log(quescount);
 	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -3087,9 +3093,9 @@ quescor++;
 	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[2].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
@@ -3134,9 +3140,9 @@ console.log(quescount);
 	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -3149,9 +3155,9 @@ quescor++;
 	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[3].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
@@ -5112,6 +5118,9 @@ if (chance < percentage) {
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 11){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             	message003.innerHTML = "The correct answer is " + r2question001[0].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -5162,6 +5171,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 12){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             	message003.innerHTML = "The correct answer is " + r2question001[1].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -5212,6 +5224,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 13){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             	message003.innerHTML = "The correct answer is " + r2question001[2].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -5262,6 +5277,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if ((a == 14) && (open == 0) && (mc == 0)){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " + r2question001[3].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5490,6 +5508,9 @@ else if (a == 26){
 }
 else if (open == 1)
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[0].answ2;
@@ -5509,6 +5530,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (open == 2)
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[1].answ2;
@@ -5528,6 +5552,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (open == 3)
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[2].answ2;
@@ -5547,6 +5574,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (open == 4)
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[3].answ2;
@@ -5563,6 +5593,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if ((mc == 1) && (bettingbool == 0))
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " + compcat[4].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5606,6 +5639,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 2) && (bettingbool == 0))
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " +compcat[5].answ2 ;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5649,6 +5685,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 3) && (bettingbool == 0))
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " +compcat[6].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5692,6 +5731,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 4) && (bettingbool == 0))
 {
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " +compcat[7].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -7005,6 +7047,7 @@ else if (b -s >= 0){
 function next004 () {
 simulatecomputerround2();
 	document.getElementById("qu002").style.display = "initial";
+	document.getElementById("message003").style.top = "-140px";
 	document.getElementById("message006").style.top = "-140px";
 	document.getElementById("message004").style.top = "-140px";
             document.getElementById("message001").style.fontSize = "90%";
@@ -7213,9 +7256,9 @@ similarity2 = 0;
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -7235,9 +7278,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[0].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -7276,9 +7319,9 @@ similarity2 = 0;
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -7298,9 +7341,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[1].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -7339,9 +7382,9 @@ similarity2 = 0;
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -7361,9 +7404,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[2].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -7405,9 +7448,9 @@ similarity2 = 0;
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
 quescor++;
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    cormusic.play();
 stealopp--;
 if (stealmc > 0){
@@ -7422,9 +7465,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[3].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealmc > 0){

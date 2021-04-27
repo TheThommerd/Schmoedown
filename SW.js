@@ -5753,7 +5753,6 @@ if ((opponentspun != "1") && (spinners != "1")){
 	    	document.getElementById("chalden").style.display = "none";
 		document.getElementById("message004").style = "initial";
 	    	document.getElementById("message006").style.top = "-140px";
-	    	document.getElementById("message003").style.top = "-140px";
 }
 function simulatefinished () {
 	   	document.getElementById("chart").style.visibility = "hidden";

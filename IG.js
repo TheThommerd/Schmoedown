@@ -5881,7 +5881,7 @@ message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>
 }
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
-		document.getElementById("message004").style.top = "-100px";
+		document.getElementById("message004").style.top = "-140px";
 }
 function simulate(){
 simulateq1();

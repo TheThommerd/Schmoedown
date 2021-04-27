@@ -5590,10 +5590,11 @@ else if (b -s >= 0){
 }
 }
 function next004 () {
-simulatecomputerround2();
-	document.getElementById("qu002").style.display = "initial";
+		simulatecomputerround2();
+		document.getElementById("qu002").style.display = "initial";
 	    	document.getElementById("message006").style.top = "-140px";
-document.getElementById("message004").style.top = "-140px";
+		document.getElementById("message004").style.top = "-140px";
+	    	document.getElementById("message003").style.top = "-140px";
             document.getElementById("message001").style.fontSize = "90%";
 	document.getElementById("player001").style.top = "15px";
 	document.getElementById("player002").style.top = "-7px";
@@ -5687,7 +5688,6 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 if ((opponentspun != "1") && (spinners != "1")){
 	    	message006.innerHTML =  "Opponent spun category " +compcat[0].cat;
-		document.getElementById("message003").style = "initial";
 }
             	message003.innerHTML = "<button id=nextbutton class=buttons002 onclick=simulate()>Simulate</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	    	document.getElementById("chalacc").style.display = "none";

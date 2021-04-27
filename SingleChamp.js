@@ -5776,6 +5776,9 @@ document.getElementById("incop4").style.display = "none";
 }
 }
 if (bettingbool == 1){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
             message003.innerHTML = "The correct answer is " + bettingquestion001[8].answ2 + "<br/></br/>" + "You lost " + betpoints + " points.";
@@ -6227,9 +6230,9 @@ similarity2 = 0;
 quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 simulatebetting();
 	}
         else if (betting1 != bettingquestion001[8].answ)  {
@@ -6239,9 +6242,9 @@ simulatebetting();
             score001.innerHTML = b -= betpoints;
 	    incmusic.play();
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 simulatebetting();
 	}	   
 }

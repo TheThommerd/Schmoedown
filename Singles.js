@@ -5238,6 +5238,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (mc == 1)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " + compcat[4].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5281,6 +5284,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if (mc == 2)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " +compcat[5].answ2 ;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5324,6 +5330,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if (mc == 3)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " +compcat[6].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
@@ -5367,6 +5376,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if (mc == 4)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
            	message003.innerHTML = "The correct answer is " +compcat[7].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();

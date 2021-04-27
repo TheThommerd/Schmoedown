@@ -1733,6 +1733,7 @@ var usertwo = 0;
 var userthree = 0;
 var userfive = 0;
 function simulateq2(){
+document.getElementById("message004").style.top = "-190px";
 	   quescountopp++;
 	   posspointsopp+=2;
 if ((competitorlist[0].strength1 == question001[8].cat) || (competitorlist[0].strength2 == question001[8].cat) || (competitorlist[0].strength3 == question001[8].cat)){
@@ -1794,6 +1795,7 @@ document.getElementById("chal").style.visibility = "hidden";
 answeredtwo++;
 }
 function simulateq3(){
+document.getElementById("message004").style.top = "-190px";
 	   quescountopp++;
 	   posspointsopp+=3;
 if ((competitorlist[0].strength1 == threepointer001[1].cat) || (competitorlist[0].strength2 == threepointer001[1].cat) || (competitorlist[0].strength3 == threepointer001[1].cat)){
@@ -1855,6 +1857,7 @@ document.getElementById("chal").style.visibility = "hidden";
 answeredthree++;
 }
 function simulateq5(){
+document.getElementById("message004").style.top = "-190px";
 	   quescountopp++;
 	   posspointsopp+=5;
 if ((competitorlist[0].strength1 == fivepointer001[1].cat) || (competitorlist[0].strength2 == fivepointer001[1].cat) || (competitorlist[0].strength3 == fivepointer001[1].cat)){

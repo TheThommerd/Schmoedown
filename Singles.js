@@ -1025,7 +1025,7 @@ if ((document.getElementById("box7").checked) && (document.getElementById("box7"
 if ((document.getElementById("box8").checked) && (document.getElementById("box8").disabled != true)){random = 9;}
 if ((document.getElementById("box9").checked) && (document.getElementById("box9").disabled != true)){random = 10;}
 if ((document.getElementById("box10").checked) && (document.getElementById("box10").disabled != true)){random = 11;}
-message006.innerHTML = "You selected " + data[random] + "<br>" + "<button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message002.innerHTML = "You selected " + data[random] + "<br>" + "<button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 assigncompcat();
 }
 function assigncompcat(){

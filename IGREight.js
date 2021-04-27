@@ -6,12 +6,12 @@ document.getElementById("frame001").style.zoom="1.4";
       document.body.requestFullscreen();
   }, false);
 function load(){
-if (document.getElementById("passwordsaverR3").value != "KORG"){
+if (document.getElementById("passwordsaverEight").value != "GOLLUM"){
 message004.innerHTML = "<input id=password type=text maxlength=35 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
 message001.innerHTML = "Enter password.";
 		document.getElementById("password").focus();
 }
-else if (document.getElementById("passwordsaverR3").value == "KORG"){
+else if (document.getElementById("passwordsaverEight").value == "GOLLUM"){
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
@@ -337,6 +337,22 @@ var competitorlist = [
 "strengthpercentage5": "73",
 },
 {
+"id": "Barbarian",
+"lowercase": "The Barbarian",
+"twitter": "@BarbarianCraig",
+"record": "2-2",
+"faction": "EXCHANGE",
+"strength1" : "Jurassic Park",
+"strength2" : "X-Men",
+"strength3" : "Wizarding World",
+"percentage": "78",
+"percentage3": "73",
+"percentage5": "73",
+"strengthpercentage": "88",
+"strengthpercentage3": "83",
+"strengthpercentage5": "83",
+},
+{
 "id": "Smets",
 "lowercase": "Kevin Smets",
 "twitter": "@KevSmets",
@@ -400,8 +416,8 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 }
 function submitpassword() {
 var ww = document.getElementById("password").value.toUpperCase();
-document.getElementById("passwordsaverR3").value = document.getElementById("password").value.toUpperCase();
-if (ww == "KORG")
+document.getElementById("passwordsaverEight").value = document.getElementById("password").value.toUpperCase();
+if (ww == "GOLLUM")
 {
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";
@@ -447,14 +463,16 @@ function submitname () {
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Donica>Mark Donica</option><option value=Hanna>Brandon Hanna</option><option value=Zipper>Eric Zipper</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+message004.innerHTML = "<select id=select><option value=Barbarian>The Barbarian</option><option value=Burnett>Robert Meyer Burnett</option><option value=Navarro>Hector Navarro</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
 	message001.innerHTML = "Choose your opponent.";
+		
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
 	message001.innerHTML = "Choose your opponent.";
-message004.innerHTML = "<select id=select><option value=Donica>Mark Donica</option><option value=Hanna>Brandon Hanna</option><option value=Zipper>Eric Zipper</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+message004.innerHTML = "<select id=select><option value=Barbarian>The Barbarian</option><option value=Burnett>Robert Meyer Burnett</option><option value=Navarro>Hector Navarro</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+		
 }
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
@@ -1666,8 +1684,8 @@ function winKO(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-document.getElementById("passwordsaverEight").value = "GOLLUM";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Gollum' to enter.";
+document.getElementById("passwordsaverQuarter").value = "PENNYWORTH";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Pennyworth' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";
@@ -1723,8 +1741,8 @@ function winTKO(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-document.getElementById("passwordsaverEight").value = "GOLLUM";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Gollum' to enter.";
+document.getElementById("passwordsaverQuarter").value = "PENNYWORTH";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Pennyworth' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";
@@ -1780,8 +1798,8 @@ function win(){
                 message005.innerHTML = "";
 		document.getElementById("wins").stepUp(1);
 		document.getElementById("save").click();
-document.getElementById("passwordsaverEight").value = "GOLLUM";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Gollum' to enter.";
+document.getElementById("passwordsaverQuarter").value = "PENNYWORTH";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br></br>" + "You have unlocked the next round. Use the password 'Pennyworth' to enter.";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";

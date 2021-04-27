@@ -5153,6 +5153,9 @@ else if (a == 26){
 }
 else if (open == 1)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[0].answ2;
@@ -5172,6 +5175,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (open == 2)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[1].answ2;
@@ -5191,6 +5197,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (open == 3)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[2].answ2;
@@ -5210,6 +5219,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 else if (open == 4)
 {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[3].answ2;
@@ -5778,9 +5790,9 @@ similarity2 = 0;
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -5800,9 +5812,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[0].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -5838,9 +5850,9 @@ similarity2 = 0;
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
 quescor++;
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    cormusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -5858,9 +5870,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[1].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -5896,9 +5908,9 @@ similarity2 = 0;
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
 quescor++;
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    cormusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -5916,9 +5928,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[2].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealopp > 0){
@@ -5954,9 +5966,9 @@ similarity2 = 0;
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
 quescor++;
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    cormusic.play();
 stealopp--;
 if (stealmc > 0){
@@ -5971,9 +5983,9 @@ else if ((stealmc == 0) && (stealopp == 0)){
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[3].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
-		document.getElementById("message003").style.top = "-150px";
-		document.getElementById("message004").style.top = "-150px";
-		document.getElementById("message006").style.top = "-150px";
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 	    incmusic.play();
 stealopp--;
 if (stealmc > 0){

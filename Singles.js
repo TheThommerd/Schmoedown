@@ -1491,6 +1491,9 @@ else if (j == 0) {
 	      }
 }
         function qcor() {
+		document.getElementById("message003").style.top = "-150px";
+		document.getElementById("message004").style.top = "-150px";
+		document.getElementById("message006").style.top = "-150px";
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -1552,6 +1555,9 @@ if (mc == 4){
 }
 }
         function qinc() {
+		document.getElementById("message003").style.top = "-150px";
+		document.getElementById("message004").style.top = "-150px";
+		document.getElementById("message006").style.top = "-150px";
 	   quescount++;
 	   posspoints+=1;
 	    document.getElementById("JTE").style.visibility = "hidden";

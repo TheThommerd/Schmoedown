@@ -5794,6 +5794,9 @@ if (bettingbool == 1){
 	    simulatebetting();
 }
 if (speed == 2){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
@@ -5805,6 +5808,9 @@ if (speed == 2){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 3){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
@@ -5816,6 +5822,9 @@ if (speed == 3){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 4){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
@@ -5827,6 +5836,9 @@ if (speed == 4){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 5){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
@@ -5838,6 +5850,9 @@ if (speed == 5){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 6){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
+		document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
@@ -5860,9 +5875,6 @@ if (speed == 6){
 function speedtimer001() {
             t = t - 1;
             if (t < 1) {
-		document.getElementById("message003").style.top = "-190px";
-		document.getElementById("message004").style.top = "-190px";
-		document.getElementById("message006").style.top = "-190px";
 if (nobody == 0){
 		var chance = Math.random() * 100;
 		percentage = competitorlist[0].percentage + 5;

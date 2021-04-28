@@ -5846,6 +5846,9 @@ if (bettingbool == 1){
 	    simulatebetting();
 }
 if (speed == 2){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
@@ -5857,6 +5860,9 @@ if (speed == 2){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 3){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
@@ -5868,6 +5874,9 @@ if (speed == 3){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 4){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
@@ -5879,6 +5888,9 @@ if (speed == 4){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 5){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
@@ -5890,6 +5902,9 @@ if (speed == 5){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 6){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
@@ -6284,6 +6299,7 @@ if (speed == 1){
                 time001.innerHTML = 5;
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+document.getElementById("message002").style.top = "-170px";
                 message001.innerHTML = speedquestion001[0].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[0].ques.length > 125){
@@ -6329,6 +6345,7 @@ else if (speed == 2){
                 time001.innerHTML = 5;
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+document.getElementById("message002").style.top = "-170px";
                 message001.innerHTML = speedquestion001[1].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[1].ques.length > 125){
@@ -6374,6 +6391,7 @@ else if (speed == 3){
                 time001.innerHTML = 5;
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+document.getElementById("message002").style.top = "-170px";
                 message001.innerHTML = speedquestion001[2].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[2].ques.length > 125){
@@ -6419,6 +6437,7 @@ else if (speed == 4){
                 time001.innerHTML = 5;
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+document.getElementById("message002").style.top = "-170px";
                 message001.innerHTML = speedquestion001[3].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[3].ques.length > 125){
@@ -6464,6 +6483,7 @@ else if (speed == 5){
                 time001.innerHTML = 5;
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+document.getElementById("message002").style.top = "-170px";
                 message001.innerHTML = speedquestion001[4].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[4].ques.length > 125){
@@ -6698,6 +6718,8 @@ if (speedquestion001[4].ques.length > 125){
 }
 }
 function checkerspeed(){
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
 if (speed == 2){
 	    var speed01 = document.getElementById("q1").value.toUpperCase();
 	    var speed1 = myTrim(speed01);

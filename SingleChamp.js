@@ -6315,8 +6315,6 @@ if (speed == 1){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-170px";
-		document.getElementById("message003").style.top = "-190px";
-		document.getElementById("message004").style.top = "-190px";
                 message001.innerHTML = speedquestion001[0].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[0].ques.length > 125){
@@ -6363,8 +6361,6 @@ else if (speed == 2){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-170px";
-		document.getElementById("message003").style.top = "-190px";
-		document.getElementById("message004").style.top = "-190px";
                 message001.innerHTML = speedquestion001[1].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[1].ques.length > 125){
@@ -6411,8 +6407,6 @@ else if (speed == 3){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-170px";
-		document.getElementById("message003").style.top = "-190px";
-		document.getElementById("message004").style.top = "-190px";
                 message001.innerHTML = speedquestion001[2].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[2].ques.length > 125){
@@ -6459,8 +6453,6 @@ else if (speed == 4){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-170px";
-		document.getElementById("message003").style.top = "-190px";
-		document.getElementById("message004").style.top = "-190px";
                 message001.innerHTML = speedquestion001[3].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[3].ques.length > 125){
@@ -6507,8 +6499,6 @@ else if (speed == 5){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-170px";
-		document.getElementById("message003").style.top = "-190px";
-		document.getElementById("message004").style.top = "-190px";
                 message001.innerHTML = speedquestion001[4].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speedquestion001[4].ques.length > 125){
@@ -6744,6 +6734,8 @@ if (speedquestion001[4].ques.length > 125){
 }
 
 function checkerspeed(){
+		document.getElementById("message003").style.top = "-190px";
+		document.getElementById("message004").style.top = "-190px";
 if (speed == 2){
 	    var speed01 = document.getElementById("q1").value.toUpperCase();
 	    var speed1 = myTrim(speed01);

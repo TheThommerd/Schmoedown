@@ -5837,6 +5837,9 @@ document.getElementById("message006").style.top = "-190px";
 function speedtimer001() {
             t = t - 1;
             if (t < 1) {
+document.getElementById("message003").style.top = "-190px";
+document.getElementById("message004").style.top = "-190px";
+document.getElementById("message006").style.top = "-190px";
 if (nobody == 0){
 		var chance = Math.random() * 100;
 		percentage = competitorlist[0].percentage + 5;

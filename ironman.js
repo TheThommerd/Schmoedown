@@ -762,7 +762,6 @@ function start2(){
 next002();
     }
 function win(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -790,7 +789,6 @@ function win(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";

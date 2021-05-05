@@ -314,7 +314,7 @@ var competitorlist2 = [
 "percentage": "66",
 },
 {
-"id": "Zalfertinflouse",
+"id": "Flouse",
 "lowercase": "Zaflertinflouse",
 "twitter": "@misterwiggly",
 "percentage": "30",

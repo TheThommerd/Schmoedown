@@ -385,12 +385,13 @@ if ((eliminate2 == 0) && (eliminate3 == 0) && (eliminate4 == 0) && (eliminate5 =
 if (remain == 0){
 if ((b > s) && (s == t) && (t == u)  && (u == v)){ 
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
@@ -835,12 +836,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > t) && (t == u) && (u == v) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < t) && (b < u) && (b < v) ){
@@ -977,12 +979,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > s) && (s == u) && (u == v) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < s) && (b < u) && (b < v) ){
@@ -1119,12 +1122,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > s) && (s == t) && (t == v) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < v) ){
@@ -1259,12 +1263,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > s) && (s == t) && (t == u) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < u) ){
@@ -1398,12 +1403,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > u) && (u == v)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < u) && (b < v) ){
@@ -1465,12 +1471,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > t) && (t == v)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < t) && (b < v) ){
@@ -1532,12 +1539,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > t) && (t == u)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < t) && (b < u) ){
@@ -1598,12 +1606,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > s) && (s == v)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < s) && (b < v) ){
@@ -1664,12 +1673,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > s) && (s == u)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < s) && (b < u) ){
@@ -1730,12 +1740,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > s) && (s == t)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < s) && (b < t) ){
@@ -1795,12 +1806,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > v){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < v){
@@ -1818,12 +1830,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > u){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < u){
@@ -1842,12 +1855,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > t){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < t){
@@ -1865,12 +1879,13 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > s){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < s){
@@ -1882,12 +1897,13 @@ message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again<
 
 else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminate5 == 1)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message006").style.fontSize = "200%";
-		document.getElementById("message006").style.fontWeight = "bold";
+		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-450px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }

@@ -2255,17 +2255,17 @@ if (question001[0].ques.length > 125){
 	document.getElementById("score003").style.top = "-140px";
 	document.getElementById("score004").style.top = "-180px";
 	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
+	document.getElementById("nummer1").style.top = "-356px";
+	document.getElementById("nummer2").style.top = "-377px";
+	document.getElementById("nummer3").style.top = "-397px";
+	document.getElementById("nummer4").style.top = "-419px";
+	document.getElementById("nummer5").style.top = "-439px";
+	document.getElementById("twitter001").style.top = "-211px";
+	document.getElementById("twitter002").style.top = "-233px";
+	document.getElementById("twitter003").style.top = "-253px";
+	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter005").style.top = "-295px";
+	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
 }
 
@@ -2457,7 +2457,7 @@ function next001() {
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-		document.getElementById("player001").style.top = "35px";
+document.getElementById("player001").style.top = "35px";
 	document.getElementById("player002").style.top = "15px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
@@ -2467,17 +2467,17 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("score003").style.top = "-140px";
 	document.getElementById("score004").style.top = "-180px";
 	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
+	document.getElementById("nummer1").style.top = "-356px";
+	document.getElementById("nummer2").style.top = "-377px";
+	document.getElementById("nummer3").style.top = "-397px";
+	document.getElementById("nummer4").style.top = "-419px";
+	document.getElementById("nummer5").style.top = "-439px";
+	document.getElementById("twitter001").style.top = "-211px";
+	document.getElementById("twitter002").style.top = "-233px";
+	document.getElementById("twitter003").style.top = "-253px";
+	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter005").style.top = "-295px";
+	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
@@ -2507,7 +2507,7 @@ if (question001[vraag].ques.length > 125){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-		document.getElementById("player001").style.top = "35px";
+document.getElementById("player001").style.top = "35px";
 	document.getElementById("player002").style.top = "15px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
@@ -2517,17 +2517,17 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("score003").style.top = "-140px";
 	document.getElementById("score004").style.top = "-180px";
 	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
+	document.getElementById("nummer1").style.top = "-356px";
+	document.getElementById("nummer2").style.top = "-377px";
+	document.getElementById("nummer3").style.top = "-397px";
+	document.getElementById("nummer4").style.top = "-419px";
+	document.getElementById("nummer5").style.top = "-439px";
+	document.getElementById("twitter001").style.top = "-211px";
+	document.getElementById("twitter002").style.top = "-233px";
+	document.getElementById("twitter003").style.top = "-253px";
+	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter005").style.top = "-295px";
+	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
@@ -2557,7 +2557,7 @@ if (question001[vraag].ques.length > 125){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-		document.getElementById("player001").style.top = "35px";
+document.getElementById("player001").style.top = "35px";
 	document.getElementById("player002").style.top = "15px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
@@ -2567,17 +2567,17 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("score003").style.top = "-140px";
 	document.getElementById("score004").style.top = "-180px";
 	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
+	document.getElementById("nummer1").style.top = "-356px";
+	document.getElementById("nummer2").style.top = "-377px";
+	document.getElementById("nummer3").style.top = "-397px";
+	document.getElementById("nummer4").style.top = "-419px";
+	document.getElementById("nummer5").style.top = "-439px";
+	document.getElementById("twitter001").style.top = "-211px";
+	document.getElementById("twitter002").style.top = "-233px";
+	document.getElementById("twitter003").style.top = "-253px";
+	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter005").style.top = "-295px";
+	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
@@ -2607,7 +2607,7 @@ if (question001[vraag].ques.length > 125){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-		document.getElementById("player001").style.top = "35px";
+document.getElementById("player001").style.top = "35px";
 	document.getElementById("player002").style.top = "15px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
@@ -2617,17 +2617,17 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("score003").style.top = "-140px";
 	document.getElementById("score004").style.top = "-180px";
 	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
+	document.getElementById("nummer1").style.top = "-356px";
+	document.getElementById("nummer2").style.top = "-377px";
+	document.getElementById("nummer3").style.top = "-397px";
+	document.getElementById("nummer4").style.top = "-419px";
+	document.getElementById("nummer5").style.top = "-439px";
+	document.getElementById("twitter001").style.top = "-211px";
+	document.getElementById("twitter002").style.top = "-233px";
+	document.getElementById("twitter003").style.top = "-253px";
+	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter005").style.top = "-295px";
+	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
@@ -3287,7 +3287,7 @@ if (eliminate5 == 1){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-		document.getElementById("player001").style.top = "35px";
+document.getElementById("player001").style.top = "35px";
 	document.getElementById("player002").style.top = "15px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
@@ -3297,17 +3297,17 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("score003").style.top = "-140px";
 	document.getElementById("score004").style.top = "-180px";
 	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
+	document.getElementById("nummer1").style.top = "-356px";
+	document.getElementById("nummer2").style.top = "-377px";
+	document.getElementById("nummer3").style.top = "-397px";
+	document.getElementById("nummer4").style.top = "-419px";
+	document.getElementById("nummer5").style.top = "-439px";
+	document.getElementById("twitter001").style.top = "-211px";
+	document.getElementById("twitter002").style.top = "-233px";
+	document.getElementById("twitter003").style.top = "-253px";
+	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter005").style.top = "-295px";
+	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();

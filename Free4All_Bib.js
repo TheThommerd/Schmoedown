@@ -1,4 +1,3 @@
-
 		var cormusic = document.getElementById("myAudio"); 
 		var incmusic = document.getElementById("myAudio2"); 
 		document.getElementById("myAudio").volume = 0.1;
@@ -2231,8 +2230,8 @@ function begin001() {
 document.getElementById("q1").focus();
 if (question001[0].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2252,7 +2251,7 @@ document.getElementById("player001").style.top = "31px";
 	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-294px";
 	document.getElementById("round002").style.top = "-305px";
-	    document.getElementById("time001").style.top = "-408px";
+	document.getElementById("time001").style.top = "-408px";
 }
 	    document.getElementById("q1").style.position = "relative";
 	    document.getElementById("q1").style.top = "-280px";
@@ -2441,8 +2440,8 @@ function next001() {
 document.getElementById("q1").focus();
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2462,7 +2461,7 @@ document.getElementById("player001").style.top = "31px";
 	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-294px";
 	document.getElementById("round002").style.top = "-305px";
-	    document.getElementById("time001").style.top = "-408px";
+	document.getElementById("time001").style.top = "-408px";
 }
 
                 message003.innerHTML = "";
@@ -2491,8 +2490,8 @@ document.getElementById("player001").style.top = "31px";
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2512,7 +2511,7 @@ document.getElementById("player001").style.top = "31px";
 	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-294px";
 	document.getElementById("round002").style.top = "-305px";
-	    document.getElementById("time001").style.top = "-408px";
+	document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -2541,8 +2540,8 @@ document.getElementById("player001").style.top = "31px";
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2562,7 +2561,7 @@ document.getElementById("player001").style.top = "31px";
 	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-294px";
 	document.getElementById("round002").style.top = "-305px";
-	    document.getElementById("time001").style.top = "-408px";
+	document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -2591,8 +2590,8 @@ document.getElementById("player001").style.top = "31px";
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2612,7 +2611,7 @@ document.getElementById("player001").style.top = "31px";
 	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-294px";
 	document.getElementById("round002").style.top = "-305px";
-	    document.getElementById("time001").style.top = "-408px";
+	document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -3275,8 +3274,8 @@ if (eliminate5 == 1){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -3296,7 +3295,7 @@ document.getElementById("player001").style.top = "31px";
 	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-294px";
 	document.getElementById("round002").style.top = "-305px";
-	    document.getElementById("time001").style.top = "-408px";
+	document.getElementById("time001").style.top = "-408px";
 }
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";

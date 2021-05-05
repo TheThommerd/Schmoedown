@@ -2262,8 +2262,8 @@ if (question001[0].ques.length > 125){
 	document.getElementById("nummer5").style.top = "-439px";
 	document.getElementById("twitter001").style.top = "-211px";
 	document.getElementById("twitter002").style.top = "-232px";
-	document.getElementById("twitter003").style.top = "-253px";
-	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter003").style.top = "-252px";
+	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-295px";
 	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
@@ -2474,8 +2474,8 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("nummer5").style.top = "-439px";
 	document.getElementById("twitter001").style.top = "-211px";
 	document.getElementById("twitter002").style.top = "-232px";
-	document.getElementById("twitter003").style.top = "-253px";
-	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter003").style.top = "-252px";
+	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-295px";
 	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
@@ -2524,8 +2524,8 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("nummer5").style.top = "-439px";
 	document.getElementById("twitter001").style.top = "-211px";
 	document.getElementById("twitter002").style.top = "-232px";
-	document.getElementById("twitter003").style.top = "-253px";
-	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter003").style.top = "-252px";
+	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-295px";
 	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
@@ -2574,8 +2574,8 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("nummer5").style.top = "-439px";
 	document.getElementById("twitter001").style.top = "-211px";
 	document.getElementById("twitter002").style.top = "-232px";
-	document.getElementById("twitter003").style.top = "-253px";
-	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter003").style.top = "-252px";
+	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-295px";
 	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
@@ -2624,8 +2624,8 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("nummer5").style.top = "-439px";
 	document.getElementById("twitter001").style.top = "-211px";
 	document.getElementById("twitter002").style.top = "-232px";
-	document.getElementById("twitter003").style.top = "-253px";
-	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter003").style.top = "-252px";
+	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-295px";
 	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";
@@ -3304,8 +3304,8 @@ if (question001[vraag].ques.length > 125){
 	document.getElementById("nummer5").style.top = "-439px";
 	document.getElementById("twitter001").style.top = "-211px";
 	document.getElementById("twitter002").style.top = "-232px";
-	document.getElementById("twitter003").style.top = "-253px";
-	document.getElementById("twitter004").style.top = "-273px";
+	document.getElementById("twitter003").style.top = "-252px";
+	document.getElementById("twitter004").style.top = "-272px";
 	document.getElementById("twitter005").style.top = "-295px";
 	document.getElementById("round002").style.top = "-306px";
 	    document.getElementById("time001").style.top = "-408px";

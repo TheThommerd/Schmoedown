@@ -2245,8 +2245,8 @@ function begin001() {
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[0].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2457,8 +2457,8 @@ function next001() {
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2507,8 +2507,8 @@ if (question001[vraag].ques.length > 125){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2557,8 +2557,8 @@ if (question001[vraag].ques.length > 125){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -2607,8 +2607,8 @@ if (question001[vraag].ques.length > 125){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";
@@ -3287,8 +3287,8 @@ if (eliminate5 == 1){
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[vraag].ques.length > 125){
 		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "31px";
-	document.getElementById("player002").style.top = "11px";
+	document.getElementById("player001").style.top = "33px";
+	document.getElementById("player002").style.top = "12px";
 	document.getElementById("player003").style.top = "-5px";
 	document.getElementById("player004").style.top = "-25px";
 	document.getElementById("player005").style.top = "-47px";

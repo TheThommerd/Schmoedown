@@ -36,7 +36,7 @@ getal2 = getal2.slice(0, (num + 2));
 getal2 = shuffle(getal2);
 var hastag = "#";
 
-var competitorlist = [
+var competitorlist2 = [
 {
 "id": "Dewberry",
 "lowercase": "Eliot Dewberry",
@@ -314,8 +314,54 @@ var competitorlist = [
 "percentage": "66",
 },
 ];
-
-competitorlist = shuffle(competitorlist);
+competitorlist2 = shuffle(competitorlist2);
+var competitorlist = []
+competitorlist[0] = competitorlist2[0];
+competitorlist[1] = competitorlist2[1];
+competitorlist[2] = competitorlist2[2];
+competitorlist[3] = competitorlist2[3];
+competitorlist[4] = competitorlist2[4];
+competitorlist[5] = competitorlist2[5];
+competitorlist[6] = competitorlist2[6];
+competitorlist[7] = competitorlist2[7];
+competitorlist[8] = competitorlist2[8];
+competitorlist[9] = competitorlist2[9];
+competitorlist[10] = competitorlist2[10];
+competitorlist[11] = competitorlist2[11];
+competitorlist[12] = competitorlist2[12];
+competitorlist[13] = competitorlist2[13];
+competitorlist[14] = competitorlist2[14];
+competitorlist[15] = competitorlist2[15];
+competitorlist[16] = competitorlist2[16];
+competitorlist[17] = competitorlist2[17];
+competitorlist[18] = competitorlist2[18];
+competitorlist[19] = competitorlist2[19];
+competitorlist[20] = competitorlist2[20];
+competitorlist[21] = competitorlist2[21];
+competitorlist[22] = competitorlist2[22];
+competitorlist[23] = competitorlist2[23];
+competitorlist[24] = competitorlist2[24];
+competitorlist[25] = competitorlist2[25];
+competitorlist[26] = competitorlist2[26];
+competitorlist[27] = competitorlist2[27];
+competitorlist[28] = competitorlist2[28];
+competitorlist[29] = competitorlist2[29];
+competitorlist[30] = competitorlist2[30];
+competitorlist[31] = competitorlist2[31];
+competitorlist[32] = competitorlist2[32];
+competitorlist[33] = competitorlist2[33];
+competitorlist[34] = competitorlist2[34];
+competitorlist[35] = competitorlist2[35];
+competitorlist[36] = competitorlist2[36];
+competitorlist[37] = competitorlist2[37];
+competitorlist[38] = competitorlist2[38];
+competitorlist[39] = competitorlist2[39];
+competitorlist[40] = competitorlist2[40];
+competitorlist[41] = competitorlist2[41];
+competitorlist[42] = competitorlist2[42];
+competitorlist[43] = competitorlist2[43];
+competitorlist[44] = competitorlist2[44];
+competitorlist[45] = competitorlist2[45];
 
 var percentage = 0;
 var percentagep5 = 0;

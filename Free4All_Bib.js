@@ -23,7 +23,7 @@ var num = 0;
 var hastag = "#";
 var similarity1 = 0;
 var similarity2 = 0;
-var competitorlist = [
+var competitorlist2 = [
 {
 "id": "Dewberry",
 "lowercase": "Eliot Dewberry",
@@ -34,7 +34,7 @@ var competitorlist = [
 "id": "Bateman",
 "lowercase": "Ben Bateman",
 "twitter": "@benbatemanmedia",
-"percentage": "82",
+"percentage": "85",
 },
 {
 "id": "Bibbiani",
@@ -58,7 +58,7 @@ var competitorlist = [
 "id": "Oyama",
 "lowercase": "Paul Oyama",
 "twitter": "@Paul_Oyama",
-"percentage": "74",
+"percentage": "85",
 },
 {
 "id": "Andreyko",
@@ -70,7 +70,7 @@ var competitorlist = [
 "id": "Cushing",
 "lowercase": "Rachel Cushing",
 "twitter": "@RachelJCushing",
-"percentage": "85",
+"percentage": "80",
 },
 {
 "id": "Dagnino",
@@ -118,7 +118,7 @@ var competitorlist = [
 "id": "Macuga",
 "lowercase": "Josh Macuga",
 "twitter": "@JoshMacuga",
-"percentage": "55",
+"percentage": "50",
 },
 {
 "id": "Reilly",
@@ -130,13 +130,13 @@ var competitorlist = [
 "id": "Jeannine",
 "lowercase": "Jeannine",
 "twitter": "@JeannineDaBean",
-"percentage": "66",
+"percentage": "59",
 },
 {
 "id": "Howard",
 "lowercase": "Stacy Howard",
 "twitter": "@stacyohoward",
-"percentage": "55",
+"percentage": "60",
 },
 {
 "id": "Humphrey",
@@ -160,7 +160,7 @@ var competitorlist = [
 "id": "Goddard",
 "lowercase": "Ben Goddard",
 "twitter": "@TheBenGoddard",
-"percentage": "60",
+"percentage": "70",
 },
 {
 "id": "Ghai",
@@ -202,7 +202,7 @@ var competitorlist = [
 "id": "Meyer",
 "lowercase": "Brendan Meyer",
 "twitter": "@BrendanMeyer",
-"percentage": "75",
+"percentage": "78",
 },
 {
 "id": "Napzok",
@@ -232,7 +232,7 @@ var competitorlist = [
 "id": "Silvestrini",
 "lowercase": "Rachel Silvestrini",
 "twitter": "@RMSilvestrini",
-"percentage": "55",
+"percentage": "54",
 },
 {
 "id": "Atchity",
@@ -256,19 +256,19 @@ var competitorlist = [
 "id": "Alba",
 "lowercase": "Greg Alba",
 "twitter": "@thegregalba",
-"percentage": "50",
+"percentage": "52",
 },
 {
 "id": "Barbarian",
 "lowercase": "The Barbarian",
 "twitter": "@BarbarianCraig",
-"percentage": "85",
+"percentage": "80",
 },
 {
 "id": "Heuck",
 "lowercase": "Marc Heuck",
 "twitter": "@the_hoyk",
-"percentage": "70",
+"percentage": "73",
 },
 {
 "id": "Witt",
@@ -300,9 +300,175 @@ var competitorlist = [
 "twitter": "@ouch_thisMHz",
 "percentage": "66",
 },
+{
+"id": "Flouse",
+"lowercase": "Zaflertinflouse",
+"twitter": "@misterwiggly",
+"percentage": "30",
+},
+{
+"id": "Collins",
+"lowercase": "Adam Collins",
+"twitter": "@Aizanthor",
+"percentage": "87",
+},
+{
+"id": "McKee",
+"lowercase": "Marisol McKee",
+"twitter": "@Marisol_Miriah",
+"percentage": "76",
+},
+{
+"id": "Bancroft",
+"lowercase": "Jacoby Bancroft",
+"twitter": "@jbancroft815",
+"percentage": "76",
+},
+{
+"id": "Blunden",
+"lowercase": "Jacob Blunden",
+"twitter": "@JacobBlunden",
+"percentage": "76",
+},
+{
+"id": "Parker",
+"lowercase": "Robert Parker",
+"twitter": "@rbrtprkr98",
+"percentage": "70",
+},
+{
+"id": "Damon",
+"lowercase": "Alex Damon",
+"twitter": "@StarWarsExplain",
+"percentage": "64",
+},
+{
+"id": "Hanna",
+"lowercase": "Brandon Hanna",
+"twitter": "@BrandonHanna07",
+"percentage": "65",
+},
+{
+"id": "Saul",
+"lowercase": "Saul",
+"twitter": "@SchmoedownSaul",
+"percentage": "63",
+},
+{
+"id": "Smith",
+"lowercase": "Kevin Smith",
+"twitter": "@ThatKevinSmith",
+"percentage": "70",
+},
+{
+"id": "Paramo",
+"lowercase": "Jader Paramo",
+"twitter": "@Infamousj13",
+"percentage": "67",
+},
+{
+"id": "Newman",
+"lowercase": "Griffin Newman",
+"twitter": "@GriffLightning",
+"percentage": "73",
+},
+{
+"id": "Nemiroff",
+"lowercase": "Perri Nemiroff",
+"twitter": "@PNemiroff",
+"percentage": "69",
+},
+{
+"id": "Mancuso",
+"lowercase": "Vinnie Mancuso",
+"twitter": "@VinnieMancuso1",
+"percentage": "60",
+},
+{
+"id": "White",
+"lowercase": "James White",
+"twitter": "@G4TOR24",
+"percentage": "75",
+},
+{
+"id": "Chandler",
+"lowercase": "Brianne Chandler",
+"twitter": "@MissMovies",
+"percentage": "67",
+},
+{
+"id": "Washington",
+"lowercase": "Jay Washington",
+"twitter": "@MrJayWashington",
+"percentage": "50",
+},
+{
+"id": "Fyffe",
+"lowercase": "Emma Fyffe",
+"twitter": "@EmmaFyffe",
+"percentage": "52",
+},
+{
+"id": "Graves",
+"lowercase": "Sabina Graves",
+"twitter": "@SabinaHasNoR",
+"percentage": "45",
+},
+{
+"id": "Montano",
+"lowercase": "Robert Montano",
+"twitter": "@Mr_Rob_LTTP",
+"percentage": "62",
+},
 ];
-
-competitorlist = shuffle(competitorlist);
+competitorlist2 = shuffle(competitorlist2);
+var competitorlist = []
+competitorlist[0] = competitorlist2[0];
+competitorlist[1] = competitorlist2[1];
+competitorlist[2] = competitorlist2[2];
+competitorlist[3] = competitorlist2[3];
+competitorlist[4] = competitorlist2[4];
+competitorlist[5] = competitorlist2[5];
+competitorlist[6] = competitorlist2[6];
+competitorlist[7] = competitorlist2[7];
+competitorlist[8] = competitorlist2[8];
+competitorlist[9] = competitorlist2[9];
+competitorlist[10] = competitorlist2[10];
+competitorlist[11] = competitorlist2[11];
+competitorlist[12] = competitorlist2[12];
+competitorlist[13] = competitorlist2[13];
+competitorlist[14] = competitorlist2[14];
+competitorlist[15] = competitorlist2[15];
+competitorlist[16] = competitorlist2[16];
+competitorlist[17] = competitorlist2[17];
+competitorlist[18] = competitorlist2[18];
+competitorlist[19] = competitorlist2[19];
+competitorlist[20] = competitorlist2[20];
+competitorlist[21] = competitorlist2[21];
+competitorlist[22] = competitorlist2[22];
+competitorlist[23] = competitorlist2[23];
+competitorlist[24] = competitorlist2[24];
+competitorlist[25] = competitorlist2[25];
+competitorlist[26] = competitorlist2[26];
+competitorlist[27] = competitorlist2[27];
+competitorlist[28] = competitorlist2[28];
+competitorlist[29] = competitorlist2[29];
+competitorlist[30] = competitorlist2[30];
+competitorlist[31] = competitorlist2[31];
+competitorlist[32] = competitorlist2[32];
+competitorlist[33] = competitorlist2[33];
+competitorlist[34] = competitorlist2[34];
+competitorlist[35] = competitorlist2[35];
+competitorlist[36] = competitorlist2[36];
+competitorlist[37] = competitorlist2[37];
+competitorlist[38] = competitorlist2[38];
+competitorlist[39] = competitorlist2[39];
+competitorlist[40] = competitorlist2[40];
+competitorlist[41] = competitorlist2[41];
+competitorlist[42] = competitorlist2[42];
+competitorlist[43] = competitorlist2[43];
+competitorlist[44] = competitorlist2[44];
+competitorlist[45] = competitorlist2[45];
 var percentage = 0;
 var percentagep5 = 0;
 var percentagep2 = 0;

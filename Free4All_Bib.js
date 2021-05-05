@@ -311,6 +311,16 @@ var percentagep4 = 0;
 var vraag = 0;
 var afvallers = 0;
 var remain = (competitorlist.length- afvallers);
+var quescount= 0;
+var rounds = 0;
+var quescor = 0;
+
+function stats() {
+var accuracy = ((quescor / quescount) * 100)
+ message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; margin-left: 300px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + "</tr><tr class=tr2><td class=td2><b>Rounds survived</b></td><td class=td2>" + rounds + "</td>" + "</tr class=tr2><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td>" + "</tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td>" + "</tr></table>";
+	document.getElementById("message006").style.top = "-380px";
+	document.getElementById("message004").style.top = "-600px";
+}
 
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
@@ -366,12 +376,11 @@ if ((b > s) && (s == t) && (t == u)  && (u == v)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
 	minimum = Math.min(b, s, t, u, v);
@@ -386,107 +395,92 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 else if ( (b < s) && (b < t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 
 }//01111
 else if ( (b == s) && (b < t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00111
 else if ( (b == s) && (b == t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00011
 else if ( (b == s) && (b < t) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00101
 else if ( (b < s) && (b == t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01011
 else if ( (b < s) && (b == t) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01001
 else if ( (b < s) && (b < t) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01101
 else if ( (b < s) && (b < t) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01110
 else if ( (b == s) && (b < t) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00110
 else if ( (b == s) && (b == t) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00010
 else if ( (b == s) && (b < t) && (b == u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00100
 else if ( (b < s) && (b == t) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01010
 else if ( (b < s) && (b == t) && (b == u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01000
 else if ( (b < s) && (b < t) && (b == u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//01100
 else if ( (b == s) && (b == t) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//00001
 
@@ -832,60 +826,52 @@ else if ((b > t) && (t == u) && (u == v) ){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0111
 else if ((b == t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0011
 else if ((b < t) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0101
 else if ((b == t) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0001
 else if ((b < t) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0110
 else if ((b == t) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0010
 else if ((b < t) && (b == u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0100
 
@@ -982,60 +968,52 @@ else if ((b > s) && (s == u) && (u == v) ){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < s) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0111
 else if ((b == s) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0011
 else if ((b < s) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0101
 else if ((b == s) && (b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0001
 else if ((b < s) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0110
 else if ((b == s) && (b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0010
 else if ((b < s) && (b == u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0100
 
@@ -1132,60 +1110,52 @@ else if ((b > s) && (s == t) && (t == v) ){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0111
 else if ((b == s) && (b < t) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0011
 else if ((b < s) && (b == t) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0101
 else if ((b == s) && (b == t) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0001
 else if ((b < s) && (b < t) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0110
 else if ((b == s) && (b < t) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0010
 else if ((b < s) && (b == t) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0100
 else if ((s == minimum) && (t != minimum) && (v != minimum)){
@@ -1280,60 +1250,52 @@ else if ((b > s) && (s == t) && (t == u) ){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0111
 else if ((b == s) && (b < t) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0011
 else if ((b < s) && (b == t) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0101
 else if ((b == s) && (b == t) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0001
 else if ((b < s) && (b < t) && (b == u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0110
 else if ((b == s) && (b < t) && (b == u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0010
 else if ((b < s) && (b == t) && (b == u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//0100
 else if ((s == minimum) && (t != minimum) && (u != minimum)){
@@ -1427,32 +1389,28 @@ else if ((b > u) && (u == v)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//011
 else if ((b == u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//001
 else if ((b < u) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//010
 else if ((u == minimum) && (v != minimum)){
@@ -1498,32 +1456,28 @@ else if ((b > t) && (t == v)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < t) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//011
 else if ((b == t) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//001
 else if ((b < t) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//010
 else if ((t == minimum) && (v != minimum)){
@@ -1569,32 +1523,28 @@ else if ((b > t) && (t == u)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < t) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//011
 else if ((b == t) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//001
 else if ((b < t) && (b == u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//010
 else if ((t == minimum) && (u != minimum)){
@@ -1639,32 +1589,28 @@ else if ((b > s) && (s == v)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < s) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//011
 else if ((b == s) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//001
 else if ((b < s) && (b == v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//010
 else if ((s == minimum) && (v != minimum)){
@@ -1709,32 +1655,28 @@ else if ((b > s) && (s == u)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < s) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//011
 else if ((b == s) && (b < u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//001
 else if ((b < s) && (b == u) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//010
 else if ((s == minimum) && (u != minimum)){
@@ -1779,32 +1721,28 @@ else if ((b > s) && (s == t)){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } //100
 else if ((b < s) && (b < t) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//011
 else if ((b == s) && (b < t) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//001
 else if ((b < s) && (b == t) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 document.getElementById("save").click();
 }//010
 else if ((s == minimum) && (t != minimum)){
@@ -1848,18 +1786,16 @@ else if (b > v){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < v){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You ended at second place";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
 
@@ -1873,18 +1809,16 @@ else if (b > u){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < u){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You ended at second place";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
 
@@ -1899,18 +1833,16 @@ else if (b > t){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < t){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You ended at second place";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
 
@@ -1929,13 +1861,12 @@ else if (b > s){
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 } 
 else if (b < s){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You ended at second place";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-message006.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
 
@@ -1943,12 +1874,11 @@ else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminat
 		message001.innerHTML = "End of Match";
 		document.getElementById("message006").style.fontSize = "200%";
 		document.getElementById("message006").style.fontWeight = "bold";
-                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
-                message002.innerHTML = "";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>"; stats();
 }
 }
 
@@ -2156,6 +2086,7 @@ if (h == 1) {
 
 function ChallengeAccepted(){
             score001.innerHTML = b+=1;
+quescor++;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -2203,6 +2134,7 @@ function myTrim(x) {
 
 
 function checker(){
+quescount++;
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
 	    question1 = question1.replace(":"," ");
@@ -2240,6 +2172,7 @@ similarity2 = 0;
 	if ((question1 == question001[vraag].answ) || (question1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b+=1;
+quescor++;
 	    cormusic.play();
 if ((a == 6) ||(a == 11)||(a == 16)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 66)||(a == 71)||(a == 76)||(a == 81)||(a == 86)||(a == 91)||(a == 96)||(a == 101)||(a == 106)||(a == 111)||(a == 116)||(a == 121)||(a == 126)||(a == 131)||(a == 136)||(a == 141)||(a == 146)||(a == 151)||(a == 156)||(a == 161)||(a == 166)||(a == 171)||(a == 176)||(a == 181)||(a == 186)||(a == 191)||(a == 196)||(a == 201)||(a == 206)||(a == 211)||(a == 216)||(a == 221)||(a == 226)||(a == 231)) {
 	    message006.innerHTML =  "";
@@ -3172,6 +3105,7 @@ if (question001[vraag].ques.length > 125){
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 round001.innerHTML = r++;
+rounds++;
                  a++;
  		qu001.innerHTML = "1 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
@@ -3191,6 +3125,7 @@ function timer001() {
                 time001.innerHTML = c;
             }
             if (c < 1) {
+quescount++;
       		message003.innerHTML = "The correct answer is " + question001[vraag].answ2;
 		simulatecomp();   
            	window.clearInterval(update);

@@ -317,13 +317,13 @@ else {
 	    question1 = question1.replace("È","E");
 	    question1 = question1.replace("Ç","C");
 	    question1 = myTrim(question1);
-if (question1.length >= 1){
+if (question1.length > 4){
 similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
 if (typeof(question001[vraag].answ3) != 'undefined'){
 similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
 }
 }
-else if (question1.length < 1){
+else if (question1.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }

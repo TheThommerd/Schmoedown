@@ -490,7 +490,7 @@ var accuracy = ((quescor / quescount) * 100)
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
-	message005.innerHTML = "<strong><font size=4>FREE4ALL</font><br/></br>5 COMPETITORS EACH ROUND, 45 COMPETITORS IN TOTAL</br></br>COMPETITORS RECEIVE 5 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>PLAYERS WITH THE LOWEST POINT TOTAL EACH ROUND ARE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSELS LET YOU KEEP YOUR CHALLENGE</strong>";
+	message005.innerHTML = "<strong><font size=4>FREE4ALL</font><br/></br>5 COMPETITORS EACH ROUND, 45 COMPETITORS IN TOTAL</br></br>COMPETITORS RECEIVE 5 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>PLAYERS WITH THE LOWEST POINT TOTAL EACH ROUND ARE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-480px";
 message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
@@ -2352,13 +2352,13 @@ quescount++;
 	    question1 = question1.replace("È","E");
 	    question1 = question1.replace("Ç","C");
 	    question1 = myTrim(question1);
-if (question1.length >= 1){
+if (question1.length > 4){
 similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
 if (typeof(question001[vraag].answ3) != 'undefined'){
 similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
 }
 }
-else if (question1.length < 1){
+else if (question1.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }

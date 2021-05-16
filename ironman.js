@@ -271,16 +271,16 @@ function ChallengeDenied(){
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
 if (j == 2) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/fantasymts/Singles___NoChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('Singles___NoChal.png')";
 }
 else if (j == 1) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___2JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('Singles___2JTE.png')";
 	          }
 else if (j == 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___1JTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('Singles___1JTE.png')";
 	          }
  else if (j < 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('https://files.jcink.net/uploads2/fantasymts/Singles___NoJTE.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('Singles___NoJTE.png')";
 	      }
 }
 

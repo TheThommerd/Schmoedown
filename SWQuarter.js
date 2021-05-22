@@ -417,10 +417,8 @@ question001[16] = roundthree[5];
 question001[17] = roundthree[6];
 question001[18] = roundthree[7];
 question001[19] = roundthree[8];
-var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat];
+var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q15[0].cat];
 chosen = shuffle(chosen); 
-var chosen2 = [r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat];
-chosen2 = shuffle(chosen2); 
 var data = [];
 data[0] = "Spinner's Choice";
 data[1] = chosen[0];
@@ -432,8 +430,8 @@ data[6] = "Opponent's Choice";
 data[7] = chosen[5];
 data[8] = chosen[6];
 data[9] = chosen[7];
-data[10] = chosen2[0];
-data[11] = chosen2[1];
+data[10] = chosen[8];
+data[11] = chosen[9];
 function unique2(){
 	if ((fivepointer001[0].cat == threepointer001[0].cat) || (fivepointer001[0].cat == question001[8].cat)) {
 	      fivepointer001 = shuffle(fivepointer001);   
@@ -578,9 +576,9 @@ else if (wheelie[0] == chosen[6]) {picked = "8";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == chosen[7]) {picked = "9";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[0]) {picked = "10";
+else if (wheelie[0] == chosen[8]) {picked = "10";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[1]) {picked = "11";
+else if (wheelie[0] == chosen[9]) {picked = "11";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
           round2();
 }
@@ -638,6 +636,7 @@ else if (data[random] == r2Q9[0].cat){compcat = r2Q9;}
 else if (data[random] == r2Q10[0].cat){compcat = r2Q10;}
 else if (data[random] == r2Q11[0].cat){compcat = r2Q11;}
 else if (data[random] == r2Q12[0].cat){compcat = r2Q12;}
+else if (data[random] == r2Q15[0].cat){compcat = r2Q15;}
 compcat = shuffle(compcat);
 }
 var opponentspun = "0";
@@ -657,8 +656,8 @@ else if (wheelie[0] == chosen[4]) {random = "5";}
 else if (wheelie[0] == chosen[5]) {random = "7";}
 else if (wheelie[0] == chosen[6]) {random = "8";}
 else if (wheelie[0] == chosen[7]) {random = "9";}
-else if (wheelie[0] == chosen2[0]) {random = "10";}
-else if (wheelie[0] == chosen2[1]) {random = "11";}
+else if (wheelie[0] == chosen[8]) {random = "10";}
+else if (wheelie[0] == chosen[9]) {random = "11";}
 assigncompcat();}
 else if (data[picked] != wheelie[1]) {
 if (wheelie[1] == chosen[0]) {random = "1";}
@@ -669,8 +668,8 @@ else if (wheelie[1] == chosen[4]) {random = "5";}
 else if (wheelie[1] == chosen[5]) {random = "7";}
 else if (wheelie[1] == chosen[6]) {random = "8";}
 else if (wheelie[1] == chosen[7]) {random = "9";}
-else if (wheelie[1] == chosen2[0]) {random = "10";}
-else if (wheelie[1] == chosen2[1]) {random = "11";}
+else if (wheelie[1] == chosen[8]) {random = "10";}
+else if (wheelie[1] == chosen[9]) {random = "11";}
 assigncompcat();}
 else if (data[picked] != wheelie[2]) {
 if (wheelie[2] == chosen[0]) {random = "1";}
@@ -681,8 +680,8 @@ else if (wheelie[2] == chosen[4]) {random = "5";}
 else if (wheelie[2] == chosen[5]) {random = "7";}
 else if (wheelie[2] == chosen[6]) {random = "8";}
 else if (wheelie[2] == chosen[7]) {random = "9";}
-else if (wheelie[2] == chosen2[0]) {random = "10";}
-else if (wheelie[2] == chosen2[1]) {random = "11";}
+else if (wheelie[2] == chosen[8]) {random = "10";}
+else if (wheelie[2] == chosen[9]) {random = "11";}
 assigncompcat();}
 }
 if (data[random] == "Opponent's Choice"){opponentspun = "1";}
@@ -777,9 +776,9 @@ else if (wheelie[0] == chosen[6]) {picked = "8";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == chosen[7]) {picked = "9";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[0]) {picked = "10";
+else if (wheelie[0] == chosen[8]) {picked = "10";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == chosen2[1]) {picked = "11";
+else if (wheelie[0] == chosen[9]) {picked = "11";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
           round2();
 }
@@ -819,6 +818,7 @@ else if (data[picked] == r2Q9[0].cat){r2question001 = r2Q9;}
 else if (data[picked] == r2Q10[0].cat){r2question001 = r2Q10;}
 else if (data[picked] == r2Q11[0].cat){r2question001 = r2Q11;}
 else if (data[picked] == r2Q12[0].cat){r2question001 = r2Q12;}
+else if (data[picked] == r2Q15[0].cat){r2question001 = r2Q15;}
 r2question001 = shuffle(r2question001);
 }
 function begin001() {

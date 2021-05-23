@@ -973,6 +973,17 @@ function begin001() {
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "-100px";
 	    document.getElementById("message004").style.top = "-100px";
+	document.getElementById("player001").style.top = "20px";
+	document.getElementById("player002").style.top = "-2px";
+	document.getElementById("score001").style.top = "-65px";
+	document.getElementById("score002").style.top = "-102px";
+	document.getElementById("twitter001").style.top = "-135px";
+	document.getElementById("twitter002").style.top = "-157px";
+	document.getElementById("faction001").style.top = "-175px";
+	document.getElementById("faction002").style.top = "-175px";
+	document.getElementById("record001").style.top = "-40px";
+	document.getElementById("record002").style.top = "-60px";
+	document.getElementById("round002").style.top = "-135px";
 	document.getElementById("time001").style.top = "-140px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";

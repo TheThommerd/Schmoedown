@@ -141,7 +141,7 @@ var stealopp = 0;
 var stealmc = 0;
 threepointer001 = shuffle(threepointer001); 
 fivepointer001 = shuffle(fivepointer001);   
-var roundone = [episodei[0], episodeii[0], episodeiii[0], episodeiv[0], episodev[0], episodevi[0], episodevii[0], rogueone[0], solo[0], heroesvillains[0], clonewars[0]];
+var roundone = [episodei[0], episodeii[0], episodeiii[0], episodeiv[0], episodev[0], episodevi[0], episodevii[0], episodeviii[0], episodeix[0], rogueone[0], solo[0], heroesvillains[0], clonewars[0]];
 roundone = shuffle(roundone);
 var roundthree = [episodei[1], episodeii[1], episodeiii[1], episodeiv[1], episodev[1], episodevi[1], episodevii[1], episodeviii[1], episodeix[1], rogueone[1], solo[1], heroesvillains[1], clonewars[1], whosaidit[1], vehiclesweapons[1]];
 roundthree = shuffle(roundthree);
@@ -165,7 +165,7 @@ question001[16] = roundthree[5];
 question001[17] = roundthree[6];
 question001[18] = roundthree[7];
 question001[19] = roundthree[8];
-var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q15[0].cat];
+var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q13[0].cat, r2Q15[0].cat];
 chosen = shuffle(chosen); 
 var data = [];
 data[0] = "Spinner's Choice";
@@ -384,6 +384,7 @@ else if (data[random] == r2Q9[0].cat){compcat = r2Q9;}
 else if (data[random] == r2Q10[0].cat){compcat = r2Q10;}
 else if (data[random] == r2Q11[0].cat){compcat = r2Q11;}
 else if (data[random] == r2Q12[0].cat){compcat = r2Q12;}
+else if (data[random] == r2Q13[0].cat){compcat = r2Q13;}
 else if (data[random] == r2Q15[0].cat){compcat = r2Q15;}
 compcat = shuffle(compcat);
 }
@@ -566,6 +567,7 @@ else if (data[picked] == r2Q9[0].cat){r2question001 = r2Q9;}
 else if (data[picked] == r2Q10[0].cat){r2question001 = r2Q10;}
 else if (data[picked] == r2Q11[0].cat){r2question001 = r2Q11;}
 else if (data[picked] == r2Q12[0].cat){r2question001 = r2Q12;}
+else if (data[picked] == r2Q13[0].cat){r2question001 = r2Q13;}
 else if (data[picked] == r2Q15[0].cat){r2question001 = r2Q15;}
 r2question001 = shuffle(r2question001);
 }

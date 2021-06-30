@@ -394,8 +394,8 @@ function next001() {
         }
 else {
 		vraag++;
-	if (typeof(question001[vraag].ques) == 'undefined'){if (b -s > 0){win();}else if (b -s < 0){lose();}}
-	else if (typeof(question001[vraag].ques) != 'undefined'){
+	if (typeof(question001[vraag].ques) == "undefined"){if (b -s > 0){win();}else if (b -s < 0){lose();}}
+	else if (typeof(question001[vraag].ques) != "undefined"){
   		document.getElementById("message001").style.fontSize = "90%";
 		document.getElementById("player001").style.top = "15px";
 		document.getElementById("player002").style.top = "-7px";

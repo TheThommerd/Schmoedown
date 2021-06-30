@@ -7,7 +7,7 @@
 function load(){
 if (document.getElementById("passwordsaverEight").value != "WILDBERRIES"){
 message004.innerHTML = "<input id=password type=text maxlength=30 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
-message001.innerHTML = "Enter password.";
+message001.innerHTML = "Enter the password you obtained by winning the previous round.";
 }
 else if (document.getElementById("passwordsaverEight").value == "WILDBERRIES"){
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";

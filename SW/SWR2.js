@@ -6,7 +6,7 @@ document.getElementById("frame001").style.zoom="1.4";
 function load(){
 if (document.getElementById("passwordsaverR2").value != "THREEPIO"){
 message004.innerHTML = "<input id=password type=text maxlength=35 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
-message001.innerHTML = "Enter password.";
+message001.innerHTML = "Enter the password you obtained by winning the previous round.";
 		document.getElementById("password").focus();
 }
 else if (document.getElementById("passwordsaverR2").value == "THREEPIO"){

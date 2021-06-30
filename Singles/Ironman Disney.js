@@ -59,7 +59,7 @@ var competitorlist = [
 var num = 0;
 var hastag = "#";
 var percentage = 0;
-var vraag = 400;
+var vraag = 0;
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
@@ -557,7 +557,10 @@ lose();
 }
         }
 else {
-  document.getElementById("message001").style.fontSize = "90%";
+	vraag++;
+	if (typeof(question001[vraag]) == "undefined"){if (b -s > 0){win();}else if (b -s < 0){lose();}}
+	else if (typeof(question001[vraag]) != "undefined"){
+        document.getElementById("message001").style.fontSize = "90%";
 	document.getElementById("player001").style.top = "15px";
 	document.getElementById("player002").style.top = "-7px";
 	document.getElementById("score001").style.top = "-67px";
@@ -577,8 +580,7 @@ else {
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";
-		vraag++;    
+	    document.getElementById("message005").style.display = "initial";  
                 message001.innerHTML = question001[vraag].ques;
 chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
 if (question001[vraag].ques.length < 50)
@@ -629,6 +631,7 @@ if (question001[vraag].ques.length > 125){
                  a++;
             	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
+}
 }
 }
 

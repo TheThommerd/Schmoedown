@@ -393,7 +393,9 @@ function next001() {
 				finalround();
         }
 else {
-	if (typeof(question001[vraag].ques) != 'undefined'){
+		vraag++;
+	if (typeof(question001[vraag].ques) == 'undefined'){if (b -s > 0){win();}else if (b -s < 0){lose();}}
+	else if (typeof(question001[vraag].ques) != 'undefined'){
   		document.getElementById("message001").style.fontSize = "90%";
 		document.getElementById("player001").style.top = "15px";
 		document.getElementById("player002").style.top = "-7px";
@@ -413,7 +415,6 @@ else {
 	    	document.getElementById("message004").style.display = "initial";
 	   	document.getElementById("message005").style.display = "initial";
 		document.getElementById("time001").style.top = "-150px";
-		vraag++;
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -451,7 +452,6 @@ else {
             	    message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
                 }
 	}
-	if (typeof(question001[vraag].ques) == 'undefined'){if (b -s > 0){win();}else if (b -s < 0){lose();}}
 }
 }
 

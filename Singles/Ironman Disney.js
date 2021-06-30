@@ -453,6 +453,7 @@ else {
 	}
 	if (typeof(question001[vraag].ques) == 'undefined'){if (b -s > 0){win();}else if (b -s < 0){lose();}}
 }
+}
 
 
 function timer001() {

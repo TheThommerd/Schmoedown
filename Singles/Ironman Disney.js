@@ -59,7 +59,7 @@ var competitorlist = [
 var num = 0;
 var hastag = "#";
 var percentage = 0;
-var vraag = 0;
+var vraag = 400;
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";

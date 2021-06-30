@@ -10,7 +10,7 @@ var startrek = [
 "cat":"Star Trek",
 "ques":"In Star Trek (2009), which character says to Kirk: 'Yeah. Well I got nowhere else to go. The ex-wife took the whole damn planet in the divorce'?",
 "answ":"BONES",
-"answ3":"LEONARD MCCOY"
+"answ3":"LEONARD MCCOY",
 "answ2":"Bones/Leonard McCoy.",
 },
 {

@@ -553,7 +553,7 @@ var r2Q42 = [
 "cat":"Will Smith",
 "ques":"Who directed I Am Legend?",
 "answ":"FRANCIS LAWRENCE",
-"answ2":"Francis Lawrence".",
+"answ2":"Francis Lawrence.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Michael Bay</button><button id=incop2 class=buttons003 onclick=qinc()>Matt Reeves</button><button id=corop class=buttons003 onclick=qcor()>Francis Lawrence</button><button id=incop4 class=buttons003 onclick=qinc()>John McTiernan</button><br/>",
 },
 ];

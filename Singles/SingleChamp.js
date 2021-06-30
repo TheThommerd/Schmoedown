@@ -9,7 +9,7 @@ message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><
 function load(){
 if (document.getElementById("passwordsaverChampion").value != "REMEMBER THE TITANS"){
 message004.innerHTML = "<input id=password type=text maxlength=30 placeholder=Password /></br/></br/><button id=submit3  class=buttons001 onclick=submitpassword()>Submit</button>";
-message001.innerHTML = "Enter password.";
+message001.innerHTML = "Enter the password you obtained by winning the previous round.";
 		document.getElementById("password").focus();
 }
 else if (document.getElementById("passwordsaverChampion").value == "REMEMBER THE TITANS"){

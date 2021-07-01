@@ -294,12 +294,6 @@ var tens = [
 },
 {
 "cat":"2010s",
-"ques":"Who played Haymitch Abernathy in The Hunger Games?",
-"answ":"WOODY HARRELSON",
-"answ2":"Woody Harrelson.",
-},
-{
-"cat":"2010s",
 "ques":"In BlacKkKlansman, who plays David Duke?",
 "answ":"TOPHER GRACE",
 "answ2":"Topher Grace.",
@@ -333,12 +327,6 @@ var tens = [
 "ques":"What 2016 film stars Jeff Bridges, Chris Pine and Ben Foster?",
 "answ":"HELL OR HIGH WATER",
 "answ2":"Hell or High Water.",
-},
-{
-"cat":"2010s",
-"ques":"What is the subtitle title of the second film in the Divergent series released in 2015?",
-"answ":"INSURGENT",
-"answ2":"Insurgent.",
 },
 {
 "cat":"2010s",
@@ -1440,14 +1428,6 @@ var r2Q37 = [
 },
 {
 "cat":"2010s",
-"ques":"What was the full title for the final Mazer Runner film?",
-"answ":"THE DEATH CURE",
-"answ3":"MAZE RUNNER THE DEATH CURE",
-"answ2":"Maze Runner The Death Cure.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Maze Runner Final Lap</button><button id=incop2 class=buttons003 onclick=qinc()>Maze Runner The Death Race</button><button id=corop class=buttons003 onclick=qcor()>Maze Runner The Death Cure</button><button id=incop4 class=buttons003 onclick=qinc()>Maze Runner the End Game</button><br/>",
-},
-{
-"cat":"2010s",
 "ques":"In The Commuter, who plays the mysterious woman who gives Liam Neeson his job and propels his life into chaos?",
 "answ":"VERA FARMIGA",
 "answ2":"Vera Farmiga.",
@@ -1798,13 +1778,6 @@ var r2Q37 = [
 },
 {
 "cat":"2010s",
-"ques":"What real-life musician plays the character Cinna, who gives Katniss her wardrobe, in The Hunger Games films?",
-"answ":"LENNY KRAVITZ",
-"answ2":"Lenny Kravitz.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Snoop Dogg</button><button id=incop2 class=buttons003 onclick=qinc()>Usher</button><button id=incop3 class=buttons003 onclick=qinc()>Ludacris</button><button id=corop class=buttons003 onclick=qcor()>Lenny Kravitz</button><br/>",
-},
-{
-"cat":"2010s",
 "ques":"In what 2013 comedy does a character named Scottie P. get a misspelled tattoo saying 'No Ragrets'?",
 "answ":"WE'RE THE MILLERS",
 "answ3":"WE ARE THE MILLERS",
@@ -1939,14 +1912,7 @@ var r2Q37 = [
 "answ2":"Saoirse Ronan.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Saoirse Ronan</button><button id=incop2 class=buttons003 onclick=qinc()>Jennifer Lawrence</button><button id=incop3 class=buttons003 onclick=qinc()>Shailene Woodley</button><button id=incop4 class=buttons003 onclick=qinc()>Scarlett Johansson</button><br/>",
 },
-{
-"cat":"2010s",
-"ques":"The human race is almost extinct as a series of alien attacks cause natural disasters in which 2016 film?",
-"answ":"THE FIFTH WAVE",
-"answ3":"THE 5H WAVE",
-"answ2":"The 5th Wave.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>The 5th Wave</button><button id=incop2 class=buttons003 onclick=qinc()>The Maze Runner</button><button id=incop3 class=buttons003 onclick=qinc()>Code 8</button><button id=incop4 class=buttons003 onclick=qinc()>Paradox</button><br/>",
-},
+
 {
 "cat":"2010s",
 "ques":"2013's Beautiful Creatures takes place in what Southern US state?",
@@ -2079,14 +2045,6 @@ var r2Q37 = [
 "answ":"CELLO",
 "answ2":"Cello.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Violin</button><button id=corop class=buttons003 onclick=qcor()>Cello</button><button id=incop3 class=buttons003 onclick=qinc()>Piano</button><button id=incop4 class=buttons003 onclick=qinc()>Trumpet</button><br/>",
-},
-{
-"cat":"2010s",
-"ques":"Giancarlo Esposito plays Jorge, one of the leaders of a dangerous band of survivors, in what young adult dystopian franchise of the 2010s?",
-"answ":"THE MAZE RUNNER",
-"answ3":"MAZE RUNNER",
-"answ2":"The Maze Runner.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Hunger Games</button><button id=corop class=buttons003 onclick=qcor()>The Maze Runner</button><button id=incop3 class=buttons003 onclick=qinc()>Divergent</button><button id=incop4 class=buttons003 onclick=qinc()>Percy Jackson</button><br/>",
 },
 {
 "cat":"2010s",

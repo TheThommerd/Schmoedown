@@ -7,6 +7,12 @@ var moviereleasedates = [
 },
 {
 "cat":"Movie Release Dates",
+"ques":"What year saw the release of the sequels Patriot Games, Lethal Weapon 3, Alien 3 and Pet Sematary Two?",
+"answ":"1992",
+"answ2":"1992.",
+},
+{
+"cat":"Movie Release Dates",
 "ques":"In what year was the remake of The Wicker Man starring Nicolas Cage released?",
 "answ":"2006",
 "answ2":"2006.",
@@ -1324,6 +1330,27 @@ var r2Q22 = [
 "answ":"2004",
 "answ2":"2004.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>2002</button><button id=corop class=buttons003 onclick=qcor()>2004</button><button id=incop3 class=buttons003 onclick=qinc()>2003</button><button id=incop4 class=buttons003 onclick=qinc()>2005</button><br/>",
+},
+{
+"cat":"Movie Release Dates",
+"ques":"Tom Hanks starred in Big and what other film in 1988?",
+"answ":"PUNCHLINE",
+"answ2":"Punchline.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The 'Burbs</button><button id=corop class=buttons003 onclick=qcor()>Punchline</button><button id=incop3 class=buttons003 onclick=qinc()>Turner and Hooch</button><button id=incop4 class=buttons003 onclick=qinc()>Nothing in Common</button><br/>",
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw films released in the following franchises: Jaws, Star Wars, Superman and James Bond?",
+"answ":"1983",
+"answ2":"1983.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1977</button><button id=corop class=buttons003 onclick=qcor()>1983</button><button id=incop3 class=buttons003 onclick=qinc()>1980</button><button id=incop4 class=buttons003 onclick=qinc()>1987</button><br/>",
+},
+{
+"cat":"Movie Release Dates",
+"ques":"In what year were the mall cop comedies Observe and Report and Paul Blart: Mall Cop released?",
+"answ":"2009",
+"answ2":"2009.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>2007</button><button id=corop class=buttons003 onclick=qcor()>2009</button><button id=incop3 class=buttons003 onclick=qinc()>2010</button><button id=incop4 class=buttons003 onclick=qinc()>2011</button><br/>",
 },
 {
 "cat":"Movie Release Dates",

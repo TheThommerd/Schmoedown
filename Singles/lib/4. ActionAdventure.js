@@ -7,6 +7,25 @@ var actionadventure = [
 },
 {
 "cat":"Action/Adventure",
+"ques":"Nikolai Coster-Waldau and Gerard Butler star in what 2016 fantasy adventure film?",
+"answ":"GODS OF EGYPT",
+"answ2":"Gods of Egypt.",
+},
+{
+"cat":"Action/Adventure",
+"ques":"Liam Neeson, Ed Harris, Joel Kinnaman and Vincent D'Onofrio star in what 2015 action thriller?",
+"answ":"RUN ALL NIGHT",
+"answ2":"Run All Night.",
+},
+{
+"cat":"Action/Adventure",
+"ques":"What 2000s action film follows a car thief named Memphis, who must steal 50 cars in one night to save his brother's life?",
+"answ":"GONE IN 60 SECONDS",
+"answ3":"GONE IN SIXTY SECONDS",
+"answ2":"Gone in 60 Seconds.",
+},
+{
+"cat":"Action/Adventure",
 "ques":"Who plays the lead Douglas Carlin, alongside Paula Patton and Jim Caviezel in the sci-fi action film Déjà Vu?",
 "answ":"DENZEL WASHINGTON",
 "answ2":"Denzel Washington.",
@@ -435,12 +454,6 @@ var actionadventure = [
 },
 {
 "cat":"Action/Adventure",
-"ques":"Who played the vile President Coriolanus Snow  in The Hunger Games?",
-"answ":"DONALD SUTHERLAND",
-"answ2":"Donald Sutherland.",
-},
-{
-"cat":"Action/Adventure",
 "ques":"What 2008 action comedy stars Seth Rogen and James Franco?",
 "answ":"PINEAPPLE EXPRESS",
 "answ2":"Pineapple Express.",
@@ -556,12 +569,6 @@ var actionadventure = [
 },
 {
 "cat":"Action/Adventure",
-"ques":"In The Maze Runner series, who plays the lead, Thomas?",
-"answ":"DYLAN O'BRIEN",
-"answ2":"Dylan O'Brien.",
-},
-{
-"cat":"Action/Adventure",
 "ques":"David Leitch directs Charlize Theron in this 2017 action film about an undercover MI6 agent.",
 "answ":"ATOMIC BLONDE",
 "answ3":"ATOMIC BLOND",
@@ -585,13 +592,6 @@ var actionadventure = [
 "ques":"Sean Connery and Nicolas Cage take on the villainous Ed Harris in what Michael Bay film?",
 "answ":"THE ROCK",
 "answ2":"The Rock.",
-},
-{
-"cat":"Action/Adventure",
-"ques":"Who played Effie Trinket in The Hunger Games franchise?",
-"answ":"ELIZABETH BANKS",
-"answ3":"ELISABETH BANKS",
-"answ2":"Elizabeth Banks.",
 },
 {
 "cat":"Action/Adventure",
@@ -654,12 +654,6 @@ var actionadventure = [
 "ques":"What singer plays Aunty Entity in Mad Max Beyond Thunderdome?",
 "answ":"TINA TURNER",
 "answ2":"Tina Turner.",
-},
-{
-"cat":"Action/Adventure",
-"ques":"Who played show host Caesar Flickerman in The Hunger Games?",
-"answ":"STANLEY TUCCI",
-"answ2":"Stanley Tucci.",
 },
 {
 "cat":"Action/Adventure",
@@ -808,12 +802,6 @@ var actionadventure = [
 },
 {
 "cat":"Action/Adventure",
-"ques":"Who played Gale Hawthorne in The Hunger Games?",
-"answ":"LIAM HEMSWORTH",
-"answ2":"Liam Hemsworth.",
-},
-{
-"cat":"Action/Adventure",
 "ques":"Who played David's father, Julius Levinson, in Independence Day?",
 "answ":"JUDD HIRSCH",
 "answ3":"JUDD HIRSH",
@@ -940,13 +928,6 @@ var actionadventure = [
 "ques":"Mia Sara plays Jean Claude Van Damme's wife in what 90s action film?",
 "answ":"TIMECOP",
 "answ2":"Timecop.",
-},
-{
-"cat":"Action/Adventure",
-"ques":"Who played the lead character, Beatrice 'Tris' Prior, in the Divergent films?",
-"answ":"SHAILENE WOODLEY",
-"answ3":"SHAYLENE WOODLEY",
-"answ2":"Shailene Woodley.",
 },
 {
 "cat":"Action/Adventure",
@@ -1290,12 +1271,6 @@ var actionadventure = [
 "ques":"What actor starred as Crocodile Dundee?",
 "answ":"PAUL HOGAN",
 "answ2":"Paul Hogan.",
-},
-{
-"cat":"Action/Adventure",
-"ques":"What was the subtitle of the first film sequel to The Hunger Games?",
-"answ":"CATCHING FIRE",
-"answ2":"Catching Fire.",
 },
 {
 "cat":"Action/Adventure",
@@ -2537,14 +2512,6 @@ var r2Q4 = [
 "answ":"VING RHAMES",
 "answ2":"Ving Rhames.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Michael Clarke Duncan</button><button id=incop2 class=buttons003 onclick=qinc()>Steve Buscemi</button><button id=corop class=buttons003 onclick=qcor()>Ving Rhames</button><button id=incop4 class=buttons003 onclick=qinc()>Danny Trejo</button><br/>",
-},
-{
-"cat":"Action/Adventure",
-"ques":"In the first Maze Runner film, the youths are forced to live in a large area that they call the what?",
-"answ":"GLADE",
-"answ3":"THE GLADE",
-"answ2":"The Glade.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Cube</button><button id=incop2 class=buttons003 onclick=qinc()>The Square</button><button id=corop class=buttons003 onclick=qcor()>The Glade</button><button id=incop4 class=buttons003 onclick=qinc()>The Grave</button><br/>",
 },
 {
 "cat":"Action/Adventure",

@@ -7,6 +7,18 @@ var crime = [
 },
 {
 "cat":"Crime",
+"ques":"F. Gary Gray directed Jamie Foxx and Gerard Butler in what 2009 action thriller about a man whose wife and daughter are murdered in a home invasion?",
+"answ":"LAW ABIDING CITIZEN",
+"answ2":"Law Abiding Citizen.",
+},
+{
+"cat":"Crime",
+"ques":"Which 2010s Martin Scorsese film features supporting performances from Ray Romano, Bobby Cannavale and Anna Paquin?",
+"answ":"THE IRISHMAN",
+"answ2":"The Irishman.",
+},
+{
+"cat":"Crime",
 "ques":"Who plays the role of Robert Graysmith in the 2007 crime thriller Zodiac?",
 "answ":"JAKE GYLLENHAAL",
 "answ3":"JAKE GYLLENHALL",

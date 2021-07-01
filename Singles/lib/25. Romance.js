@@ -19,12 +19,6 @@ var romance = [
 },
 {
 "cat":"Romance",
-"ques":"Which actor plays the lead of Augustus Waters in The Fault in Our Stars?",
-"answ":"ANSEL ELGORT",
-"answ2":"Ansel Elgort.",
-},
-{
-"cat":"Romance",
 "ques":"Who plays wealthy businessman Edward Lewis in 1990's Pretty Woman?",
 "answ":"RICHARD GERE",
 "answ2":"Richard Gere.",
@@ -504,6 +498,34 @@ var r2Q25 = [
 "answ3":"WITNEY HOUSTON",
 "answ2":"Whitney Houston.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Whitney Houston</button><button id=incop2 class=buttons003 onclick=qinc()>Madonna</button><button id=incop3 class=buttons003 onclick=qinc()>Jennifer Lopez</button><button id=incop4 class=buttons003 onclick=qinc()>Christina Aguilera</button><br/>",
+},
+{
+"cat":"Romance",
+"ques":"Who plays the lead female character of Ronnie Miller in the Nicholas Spark film The Last Song?",
+"answ":"MILEY CYRUS",
+"answ2":"Miley Cyrus.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Miley Cyrus</button><button id=incop2 class=buttons003 onclick=qinc()>Julianne Hough</button><button id=incop3 class=buttons003 onclick=qinc()>Rachel McAdams</button><button id=incop4 class=buttons003 onclick=qinc()>Mandy Moore</button><br/>",
+},
+{
+"cat":"Romance",
+"ques":"Who stars as dancer Kathy Selden alongside Gene Kelly and Donald O'Connor in Singin' in the Rain?",
+"answ":"DEBBIE REYNOLDS",
+"answ2":"Debbie Reynolds.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Debbie Reynolds</button><button id=incop2 class=buttons003 onclick=qinc()>Marilyn Monroe</button><button id=incop3 class=buttons003 onclick=qinc()>Julie Andrews</button><button id=incop4 class=buttons003 onclick=qinc()>Audrey Hepburn</button><br/>",
+},
+{
+"cat":"Romance",
+"ques":"Shailene Woodley and Sam Claflin star in what romantic drama?",
+"answ":"ADRIFT",
+"answ2":"Adrift.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Adrift</button><button id=incop2 class=buttons003 onclick=qinc()>All is Lost</button><button id=incop3 class=buttons003 onclick=qinc()>Alone</button><button id=incop4 class=buttons003 onclick=qinc()>Abandoned</button><br/>",
+},
+{
+"cat":"Romance",
+"ques":"Who stars as Ben Affleck's love interest in 2004's Surviving Christmas?",
+"answ":"CHRISTINA APPLEGATE",
+"answ2":"Christina Applegate.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Christina Applegate</button><button id=incop2 class=buttons003 onclick=qinc()>Jennifer Lopez</button><button id=incop3 class=buttons003 onclick=qinc()>Reese Witherspoon</button><button id=incop4 class=buttons003 onclick=qinc()>Katie Holmes</button><br/>",
 },
 ];
 romance = shuffle(romance);

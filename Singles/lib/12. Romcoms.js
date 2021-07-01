@@ -7,6 +7,18 @@ var romcoms = [
 },
 {
 "cat":"Rom-coms",
+"ques":"What rom-com starring Seth Rogen has the tagline: 'Save The Due Date'?",
+"answ":"KNOCKED UP",
+"answ2":"Knocked Up.",
+},
+{
+"cat":"Rom-coms",
+"ques":"Which actress co-starred with Justin Timberlake in the rom-com Friends With Benefits, playing the character of Jamie?",
+"answ":"MILA KUNIS",
+"answ2":"Mila Kunis.",
+},
+{
+"cat":"Rom-coms",
 "ques":"Emilia Clarke stars in the romantic comedy Last Christmas, who is her male co-star?",
 "answ":"HENRY GOLDING",
 "answ2":"Henry Golding.",

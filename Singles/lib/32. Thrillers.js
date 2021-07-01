@@ -7,6 +7,12 @@ var thrillers = [
 },
 {
 "cat":"Thrillers",
+"ques":"Which actor stars in the thrillers Nick Of Time, The Ninth Gate and From Hell?",
+"answ":"JOHNNY DEPP",
+"answ2":"Johnny Depp.",
+},
+{
+"cat":"Thrillers",
 "ques":"Who plays the female lead Lisa Reisert, in 2005's Red Eye?",
 "answ":"RACHEL MCADAMS",
 "answ2":"Rachel McAdams.",

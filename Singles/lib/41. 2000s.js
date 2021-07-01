@@ -781,13 +781,6 @@ var r2Q41 = [
 },
 {
 "cat":"2000s",
-"ques":"Who plays Bella's first friend, Jessica Stanley, in Twilight?",
-"answ":"ANNA KENDRICK",
-"answ2":"Anna Kendrick.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Nikki Reed</button><button id=corop class=buttons003 onclick=qcor()>Anna Kendrick</button><button id=incop3 class=buttons003 onclick=qinc()>Ashley Greene</button><button id=incop4 class=buttons003 onclick=qinc()>Elizabeth Reaser</button><br/>",
-},
-{
-"cat":"2000s",
 "ques":"In Almost Famous, William's first writing assignment is to review a concert by what popular rock band?",
 "answ":"BLACK SABBATH",
 "answ2":"Black Sabbath.",

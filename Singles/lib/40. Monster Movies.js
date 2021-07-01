@@ -470,6 +470,14 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
+"ques":"In how many films did Bela Lugosi play Dracula?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>2</button><button id=incop2 class=buttons003 onclick=qinc()>3</button><button id=incop3 class=buttons003 onclick=qinc()>4</button><button id=incop4 class=buttons003 onclick=qinc()>5</button><br/>",
+},
+{
+"cat":"Monster Movies",
 "ques":"What 1986 film features a dangerous alien race known as Krites, who hijack their prison ship and crash land it in Kansas?",
 "answ":"CRITTERS",
 "answ2":"Critters.",

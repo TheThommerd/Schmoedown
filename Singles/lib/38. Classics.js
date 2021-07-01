@@ -7,6 +7,12 @@ var classics = [
 },
 {
 "cat":"Classics",
+"ques":"Who directed 1943's Casablanca?",
+"answ":"MICHAEL CURTIZ",
+"answ2":"Michael Curtiz.",
+},
+{
+"cat":"Classics",
 "ques":"Jack Lemmon plays Felix Ungar and Walter Matthau plays Oscar Madison in what 1968 comedy?",
 "answ":"THE ODD COUPLE",
 "answ3":"ODD COUPLE",
@@ -531,13 +537,6 @@ var r2Q38 = [
 "answ3":"ONE",
 "answ2":"1.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>1</button><button id=incop2 class=buttons003 onclick=qinc()>2</button><button id=incop3 class=buttons003 onclick=qinc()>3</button><button id=incop4 class=buttons003 onclick=qinc()>4</button><br/>",
-},
-{
-"cat":"Classics",
-"ques":"The song 'Moon River' was written for what Audrey Hepburn movie?",
-"answ":"BREAKFAST AT TIFFANY'S",
-"answ2":"Breakfast at Tiffany's.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Breakfast at Tiffany's</button><button id=incop2 class=buttons003 onclick=qinc()>The Unforgiven</button><button id=incop3 class=buttons003 onclick=qinc()>My Fair Lady</button><button id=incop4 class=buttons003 onclick=qinc()>Wait Until Dark</button><br/>",
 },
 {
 "cat":"Classics",

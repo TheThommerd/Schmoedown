@@ -7,6 +7,12 @@ var spielberg = [
 },
 {
 "cat":"Steven Spielberg",
+"ques":"Who plays the character of Albert Johnson, also known as Mister, in The Color Purple?",
+"answ":"DANNY GLOVER",
+"answ2":"Danny Glover.",
+},
+{
+"cat":"Steven Spielberg",
 "ques":"What Spielberg film features supporting performances from Tom Sizemore, Edward Burns, Giovanni Ribisi and Vin Diesel?",
 "answ":"SAVING PRIVATE RYAN",
 "answ2":"Saving Private Ryan.",
@@ -660,13 +666,6 @@ var r2Q27 = [
 "answ":"CHRISTOPHER WALKEN",
 "answ2":"Christopher Walken.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Tom Hanks</button><button id=incop2 class=buttons003 onclick=qinc()>Martin Sheen</button><button id=incop3 class=buttons003 onclick=qinc()>Donald Sutherland</button><button id=corop class=buttons003 onclick=qcor()>Christopher Walken</button><br/>",
-},
-{
-"cat":"Steven Spielberg",
-"ques":"Audrey Hepburn's final appearance came in what Steven Spielberg film?",
-"answ":"ALWAYS",
-"answ2":"Always.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Sugarland Express</button><button id=incop2 class=buttons003 onclick=qinc()>1941</button><button id=incop3 class=buttons003 onclick=qinc()>The Color Purple</button><button id=corop class=buttons003 onclick=qcor()>Always</button><br/>",
 },
 {
 "cat":"Steven Spielberg",

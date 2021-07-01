@@ -7,6 +7,12 @@ var moviequotes = [
 },
 {
 "cat":"Movie Quotes",
+"ques":"What 1933 classic adventure film coined the line 'It wasn't the airplanes. It was Beauty killed the Beast'?",
+"answ":"KING KONG",
+"answ2":"King Kong.",
+},
+{
+"cat":"Movie Quotes",
 "ques":"In what 1993 thriller will you find the quote: 'Well, think me up a cup of coffee and a chocolate doughnut with some of those little sprinkles on top, while you're thinking'?",
 "answ":"THE FUGITIVE",
 "answ2":"The Fugitive.",

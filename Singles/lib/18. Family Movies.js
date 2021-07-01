@@ -7,6 +7,18 @@ var familyfilms = [
 },
 {
 "cat":"Family Films",
+"ques":"Battle of the Smithsonian and Secret of the Tomb are entries in what family fantasy film franchise?",
+"answ":"NIGHT AT THE MUSEUM",
+"answ2":"Night at the Museum.",
+},
+{
+"cat":"Family Films",
+"ques":"Monsters Unleashed is the subtitle of the 2004 sequel to what family film?",
+"answ":"SCOOBY DOO",
+"answ2":"Scooby Doo.",
+},
+{
+"cat":"Family Films",
 "ques":"Which comedic actor plays the main character Skeeter Bronson in the Disney film Bedtime Stories?",
 "answ":"ADAM SANDLER",
 "answ2":"Adam Sandler.",

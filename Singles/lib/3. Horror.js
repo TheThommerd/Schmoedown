@@ -7,6 +7,25 @@ var horror = [
 },
 {
 "cat":"Horror",
+"ques":"Which actress stars as Anna Tate-Garcia in the film The Curse of La Llorona?",
+"answ":"LINDA CARDELLINI",
+"answ3":"LINDA CARDELINI",
+"answ2":"Linda Cardellini.",
+},
+{
+"cat":"Horror",
+"ques":"Who directed 2003's The Texas Chainsaw Massacre and 2009's Friday the 13th?",
+"answ":"MARCUS NISPEL",
+"answ2":"Marcus Nispel.",
+},
+{
+"cat":"Horror",
+"ques":"Sirens are heard every time before a nightmarish dimension appears in what 2006 horror film?",
+"answ":"SILENT HILL",
+"answ2":"Silent Hill.",
+},
+{
+"cat":"Horror",
 "ques":"In 1999's The Haunting, what is the name of the haunted manor?",
 "answ":"HILL HOUSE",
 "answ2":"Hill House.",

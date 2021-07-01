@@ -7,6 +7,19 @@ var animated = [
 },
 {
 "cat":"Animated",
+"ques":"Which Pixar film features the line: 'You are a sad strange little man and you have my pity'?",
+"answ":"TOY STORY",
+"answ2":"Toy Story.",
+},
+{
+"cat":"Animated",
+"ques":"Idina Menzel performs the Oscar-nominated song 'Into The Unknown' in what 2019 animated Disney film?",
+"answ":"FROZEN 2",
+"answ3":"FROZEN II",
+"answ2":"Frozen 2.",
+},
+{
+"cat":"Animated",
 "ques":"Who directed Toy Story 3?",
 "answ":"LEE UNKRICH",
 "answ2":"Lee Unkrich.",
@@ -1055,12 +1068,6 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"What kind of animal is Gary Oldman's villainous Lord Shen in Kung Fu Panda 2?",
-"answ":"PEACOCK",
-"answ2":"Peacock.",
-},
-{
-"cat":"Animated",
 "ques":"In Coco, what famous artist appears as Ernesto de la Cruz's concert coordinator in the Land of the Dead?",
 "answ":"FRIDA KAHLO",
 "answ3":"FRIDA KALO",
@@ -1194,13 +1201,6 @@ var animated = [
 "ques":"Flora, Fauna and Merryweather are characters from what classic Disney film?",
 "answ":"SLEEPING BEAUTY",
 "answ2":"Sleeping Beauty.",
-},
-{
-"cat":"Animated",
-"ques":"In which Shrek film does Donkey turn into a horse after drinking some of the potion called 'Happily Ever After'?",
-"answ":"SHREK 2",
-"answ3":"SHREK II",
-"answ2":"Shrek 2.",
 },
 {
 "cat":"Animated",
@@ -1468,12 +1468,6 @@ var animated = [
 "ques":"What is the name of the monkey in Disney's Aladdin?",
 "answ":"ABU",
 "answ2":"Abu.",
-},
-{
-"cat":"Animated",
-"ques":"What is the name of Kristoff's reindeer pal in Disney's Frozen?",
-"answ":"SVEN",
-"answ2":"Sven.",
 },
 {
 "cat":"Animated",
@@ -1925,12 +1919,6 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"What is the name of Hiccup's dragon in How to Train Your Dragon?",
-"answ":"TOOTHLESS",
-"answ2":"Toothless.",
-},
-{
-"cat":"Animated",
 "ques":"Who provided the voice of Frozone in The Incredibles?",
 "answ":"SAMUEL L JACKSON",
 "answ3":"SAM JACKSON",
@@ -2089,12 +2077,6 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"Who voiced Moses in 1998's The Prince of Egypt?",
-"answ":"VAL KILMER",
-"answ2":"Val Kilmer.",
-},
-{
-"cat":"Animated",
 "ques":"In which Disney film will you find Prince Eric?",
 "answ":"THE LITTLE MERMAID",
 "answ3":"LITTLE MERMAID",
@@ -2134,13 +2116,6 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"Who voiced Hiccup's mother in How to Train Your Dragon 2?",
-"answ":"CATE BLANCHETT",
-"answ3":"CATE BLANCHET",
-"answ2":"Cate Blanchett.",
-},
-{
-"cat":"Animated",
 "ques":"From the creators of Ice Age came this film that follows the adventures of Rodney Copperbottom.",
 "answ":"ROBOTS",
 "answ2":"Robots.",
@@ -2176,12 +2151,6 @@ var animated = [
 "ques":"What is the name the yellow creatures that assist Gru in Despicable Me?",
 "answ":"MINIONS",
 "answ2":"Minions.",
-},
-{
-"cat":"Animated",
-"ques":"Who voices Marty the zebra in the Madagascar film franchise?",
-"answ":"CHRIS ROCK",
-"answ2":"Chris Rock.",
 },
 {
 "cat":"Animated",
@@ -2374,13 +2343,6 @@ var r2Q5 = [
 },
 {
 "cat":"Animated",
-"ques":"What action movie star lent his voice to a character in Antz?",
-"answ":"SYLVESTER STALLONE",
-"answ2":"Sylvester Stallone.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chuck Norris</button><button id=corop class=buttons003 onclick=qcor()>Sylvester Stallone</button><button id=incop3 class=buttons003 onclick=qinc()>Jean-Claude van Damme</button><button id=incop4 class=buttons003 onclick=qinc()>Steven Seagal</button><br/>",
-},
-{
-"cat":"Animated",
 "ques":"What was Belle's father's occupation in Beauty and the Beast?",
 "answ":"INVENTOR",
 "answ2":"Inventor.",
@@ -2438,13 +2400,6 @@ var r2Q5 = [
 "answ":"KATHLEEN TURNER",
 "answ2":"Kathleen Turner.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Joanna Cassidy</button><button id=corop class=buttons003 onclick=qcor()>Kathleen Turner</button><button id=incop3 class=buttons003 onclick=qinc()>Catherine Hicks</button><button id=incop4 class=buttons003 onclick=qinc()>Isabella Rossellini</button><br/>",
-},
-{
-"cat":"Animated",
-"ques":"Who voiced Chicken Little in the 2005 film Chicken Little?",
-"answ":"ZACH BRAFF",
-"answ2":"Zach Braff.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Justin Long</button><button id=corop class=buttons003 onclick=qcor()>Zach Braff</button><button id=incop3 class=buttons003 onclick=qinc()>Jesse Eisenberg</button><button id=incop4 class=buttons003 onclick=qinc()>Steve Zahn</button><br/>",
 },
 {
 "cat":"Animated",
@@ -2507,13 +2462,6 @@ var r2Q5 = [
 },
 {
 "cat":"Animated",
-"ques":"Who provides the voice of Queen Lillian in Shrek 2 and Shrek the Third?",
-"answ":"JULIE ANDREWS",
-"answ2":"Julie Andrews.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Glenn Close</button><button id=corop class=buttons003 onclick=qcor()>Julie Andrews</button><button id=incop3 class=buttons003 onclick=qinc()>Meryl Streep</button><button id=incop4 class=buttons003 onclick=qinc()>Michelle Pfeiffer</button><br/>",
-},
-{
-"cat":"Animated",
 "ques":"What type of animal is Tantor in Disney's Tarzan?",
 "answ":"ELEPHANT",
 "answ2":"Elephant.",
@@ -2558,13 +2506,6 @@ var r2Q5 = [
 },
 {
 "cat":"Animated",
-"ques":"What is the name of the character voiced by David Schwimmer in the Madagascar series?",
-"answ":"MELVIN",
-"answ2":"Melvin.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Marty</button><button id=incop2 class=buttons003 onclick=qinc()>Alex</button><button id=incop3 class=buttons003 onclick=qinc()>King Julien</button><button id=corop class=buttons003 onclick=qcor()>Melvin</button><br/>",
-},
-{
-"cat":"Animated",
 "ques":"Which of Mrs. Brisby's children is sick with pneumonia in Don Bluth's The Secret of NIMH?",
 "answ":"TIMOTHY",
 "answ2":"Timothy.",
@@ -2598,21 +2539,6 @@ var r2Q5 = [
 "answ":"TARZAN",
 "answ2":"Tarzan.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Tarzan</button><button id=incop2 class=buttons003 onclick=qinc()>Mulan</button><button id=incop3 class=buttons003 onclick=qinc()>Pocahontas</button><button id=incop4 class=buttons003 onclick=qinc()>Hercules</button><br/>",
-},
-{
-"cat":"Animated",
-"ques":"What 1998 movie was the first film released by DreamWorks Animation?",
-"answ":"ANTZ",
-"answ3":"ANTS",
-"answ2":"Antz.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Antz</button><button id=incop2 class=buttons003 onclick=qinc()>The Prince of Egypt</button><button id=incop3 class=buttons003 onclick=qinc()>Sinbad: Legend of the Seven Seas</button><button id=incop4 class=buttons003 onclick=qinc()>Shrek</button><br/>",
-},
-{
-"cat":"Animated",
-"ques":"Humpty Dumpty appears as an antagonist in what film set in the Shrek universe?",
-"answ":"PUSS IN BOOTS",
-"answ2":"Puss in Boots.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Puss in Boots</button><button id=incop2 class=buttons003 onclick=qinc()>Shrek Forever After</button><button id=incop3 class=buttons003 onclick=qinc()>Shrek 2</button><button id=incop4 class=buttons003 onclick=qinc()>Shrek the Third</button><br/>",
 },
 {
 "cat":"Animated",

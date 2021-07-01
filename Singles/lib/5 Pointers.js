@@ -390,6 +390,13 @@ var fivepointer001 = [
 },
 {
 "cat":"Action/Adventure",
+"ques":"Lord Humungus is the name of the main villain in what 80s dystopian action sequel?",
+"answ":"MAD MAX 2",
+"answ3":"MAD MAX 2 THE ROAD WARRIOR",
+"answ2":"Mad Max 2: The Road Warrior.",
+},
+{
+"cat":"Action/Adventure",
 "ques":"In 2012's Dredd, what is the name of the addictive new drug which alters users perception of time?",
 "answ":"SLO MO",
 "answ3":"SLOMO",
@@ -595,6 +602,19 @@ var fivepointer001 = [
 "ques":"In what drama did Angelina play a grief stricken mother who tries to pass off an imposter as her own missing child?",
 "answ":"CHANGELING",
 "answ2":"Changeling.",
+},
+{
+"cat":"Black Cinema",
+"ques":"What 2007 film follows a character named DJ Williams, who attends Truth University after being sent to live with his uncle in Atlanta, Georgia?",
+"answ":"STOMP THE YARD",
+"answ2":"Stomp the Yard.",
+},
+{
+"cat":"Black Cinema",
+"ques":"Who directed 2008's The Secret Life of Bees?",
+"answ":"GINA PRINCE BYTHEWOOD",
+"answ3":"GINA PRINCE",
+"answ2":"Gina Prince-Bythewood.",
 },
 {
 "cat":"Ben Affleck",
@@ -1911,6 +1931,7 @@ var fivepointer001 = [
 "cat":"Horror",
 "ques":"Who directed 2007's Paranormal Activity?",
 "answ":"OREN PELI",
+"answ3":"OREN PELLI",
 "answ2":"Oren Peli.",
 },
 {
@@ -2247,6 +2268,13 @@ var fivepointer001 = [
 },
 {
 "cat":"Musicals",
+"ques":"What musical has the song 'Science Fiction - Double Feature' and 'Damn It Janet'?",
+"answ":"THE ROCKY HORROR PICTURE SHOW",
+"answ3":"ROCKY HORROR PICTURE SHOW",
+"answ2":"The Rocky Horror Picture Show.",
+},
+{
+"cat":"Musicals",
 "ques":"What 2005 movie musical begins on Christmas Eve and ends on Christmas a year later?",
 "answ":"RENT",
 "answ2":"Rent.",
@@ -2350,6 +2378,12 @@ var fivepointer001 = [
 "ques":"In The Devil Wears Prada, what is the name of the magazine where Meryl Streep is the editor-in-chief?",
 "answ":"RUNWAY",
 "answ2":"Runway.",
+},
+{
+"cat":"Martial Arts",
+"ques":"Jet Li stars in what 2006 film directed by Ronny Yu, about a Chinese martial artist who challenged foreign fighters in highly publicized events?",
+"answ":"FEARLESS",
+"answ2":"Fearless.",
 },
 {
 "cat":"Martin Scorsese",
@@ -2535,6 +2569,12 @@ var fivepointer001 = [
 "ques":"What 1989 thriller stars Nicole Kidman and Sam Neill as a sailing couple who finds a mysterious stranger abandoning a sinking ship in the middle of the ocean?",
 "answ":"DEAD CALM",
 "answ2":"Dead Calm.",
+},
+{
+"cat":"Remakes and Reboots",
+"ques":"Joey King plays Brooklyn Harding, Michael Caine's granddaughter in what 2010s film also featuring Morgan Freeman?",
+"answ":"GOING IN STYLE",
+"answ2":"Going in Style.",
 },
 {
 "cat":"Remakes and Reboots",

@@ -289,6 +289,12 @@ var threepointer001 = [
 },
 {
 "cat":"90s",
+"ques":"Matthew Modine stars opposite which actress, who plays Morgan Adams, in the film Cutthroat Island?",
+"answ":"GEENA DAVIS",
+"answ2":"Geena Davis.",
+},
+{
+"cat":"90s",
 "ques":"Who plays Senator Rumson, the Republican presidential hopeful, who is attacking Sydney in the press in The American President?",
 "answ":"RICHARD DREYFUSS",
 "answ2":"Richard Dreyfuss.",
@@ -793,6 +799,18 @@ var threepointer001 = [
 },
 {
 "cat":"Black Cinema",
+"ques":"Spike Lee's character Mookie, who originated in Do the Right Thing also appears in what other 2010s Spike Lee film?",
+"answ":"RED HOOK SUMMER",
+"answ2":"Red Hook Summer.",
+},
+{
+"cat":"Black Cinema",
+"ques":"What 2001 comedy stars Lance Crouther and Chris Rock, and is a satire of the blaxploitation film genre?",
+"answ":"POOTIE TANG",
+"answ2":"Pootie Tang.",
+},
+{
+"cat":"Black Cinema",
 "ques":"Who was the first Black actress to win a Best Actress Oscar?",
 "answ":"HALLE BERRY",
 "answ2":"Halle Berry.",
@@ -897,12 +915,6 @@ var threepointer001 = [
 "ques":"What 2013 drama stars Cate Blanchett, Sally Hawkins and Alec Baldwin?",
 "answ":"BLUE JASMINE",
 "answ3":"BLUE JASMIN",
-"answ2":"Blue Jasmine.",
-},
-{
-"cat":"Cate Blanchett",
-"ques":"Cate Blanchett won an Academy Award for this Woody Allen film.",
-"answ":"BLUE JASMINE",
 "answ2":"Blue Jasmine.",
 },
 {
@@ -1063,6 +1075,12 @@ var threepointer001 = [
 "ques":"In The Godfather Part II, who said: 'I know it was you Fredo, you broke my heart'?",
 "answ":"MICHAEL CORLEONE",
 "answ2":"Michael Corleone.",
+},
+{
+"cat":"Crime",
+"ques":"Tupac Shakur made his first starring role as Roland Bishop in what 1992 film directed by Ernest R. Dickerson?",
+"answ":"JUICE",
+"answ2":"Juice.",
 },
 {
 "cat":"Crime",

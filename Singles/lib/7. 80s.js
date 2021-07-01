@@ -7,6 +7,12 @@ var eighties = [
 },
 {
 "cat":"80s",
+"ques":"Which music star appeared in the 1980s film 9 to 5, Rhinestone and Steel Magnolias?",
+"answ":"DOLLY PARTON",
+"answ2":"Dolly Parton.",
+},
+{
+"cat":"80s",
 "ques":"You'll find Donald Pleasence, Victor Wong and Jameson Parker in what 1987 John Carpenter film?",
 "answ":"PRINCE OF DARKNESS",
 "answ2":"Prince of Darkness.",

@@ -7,6 +7,12 @@ var oscarmovies = [
 },
 {
 "cat":"Oscar Movies",
+"ques":"Robin Williams received his second Best Actor Oscar nomination for what 1989 film?",
+"answ":"DEAD POETS SOCIETY",
+"answ2":"Dead Poets Society.",
+},
+{
+"cat":"Oscar Movies",
 "ques":"What 2004 Marvel movie sequel won the Oscar for Best Visual Effects?",
 "answ":"SPIDER MAN 2",
 "answ3":"SPIDER MAN II",
@@ -139,12 +145,6 @@ var oscarmovies = [
 },
 {
 "cat":"Oscar Movies",
-"ques":"Clint Eastwood received a Best Director nomination for what 2006 war film?",
-"answ":"LETTERS FROM IWO JIMA",
-"answ2":"Letters from Iwo Jima.",
-},
-{
-"cat":"Oscar Movies",
 "ques":"What film released in 2000 won Best Picture at the Academy Awards?",
 "answ":"GLADIATOR",
 "answ2":"Gladiator.",
@@ -212,12 +212,6 @@ var oscarmovies = [
 "ques":"Jonah Hill received his first Academy Award nomination for which film?",
 "answ":"MONEYBALL",
 "answ2":"Moneyball.",
-},
-{
-"cat":"Oscar Movies",
-"ques":"Clint Eastwood directed 2 films to a Best Picture win at the Oscars. Unforgiven and what other film?",
-"answ":"MILLION DOLLAR BABY",
-"answ2":"Million Dollar Baby.",
 },
 {
 "cat":"Oscar Movies",
@@ -340,12 +334,6 @@ var oscarmovies = [
 "ques":"Holly Hunter won a Best Actress Oscar for which 1993 film?",
 "answ":"THE PIANO",
 "answ2":"The Piano.",
-},
-{
-"cat":"Oscar Movies",
-"ques":"For what film did actress Audrey Hepburn win her one and only Academy Award for acting?",
-"answ":"ROMAN HOLIDAY",
-"answ2":"Roman Holiday.",
 },
 {
 "cat":"Oscar Movies",

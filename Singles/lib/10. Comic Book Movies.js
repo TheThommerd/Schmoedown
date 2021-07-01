@@ -7,6 +7,12 @@ var comicbookmovies = [
 },
 {
 "cat":"Comic Book Movies",
+"ques":"Who plays Oswald Cobblepot, also known as The Penguin, in Batman Returns?",
+"answ":"DANNY DEVITO",
+"answ2":"Danny DeVito.",
+},
+{
+"cat":"Comic Book Movies",
 "ques":"Angela Bassett plays the mother of what movie superhero?",
 "answ":"BLACK PANTHER",
 "answ2":"Black Panther.",

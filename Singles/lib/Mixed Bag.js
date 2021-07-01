@@ -7,6 +7,36 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"Who plays Freddy Krueger in 1984's A Nightmare on Elm Street?",
+"answ":"ROBERT ENGLUND",
+"answ2":"Robert Englund.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actress plays Letty Ortiz in the Fast and Furious franchise?",
+"answ":"MICHELLE RODRIGUEZ",
+"answ2":"Michelle Rodriguez.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Joe Johnston directed Robin Williams and Bonnie Hunt in what 1995 adventure film?",
+"answ":"JUMANJI",
+"answ2":"Jumanji.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What horror franchise features such actors as David Arquette, Matthew Lillard and Emma Roberts?",
+"answ":"SCREAM",
+"answ2":"Scream.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who won an Academy Award for playing Sophie Zawitowkski in 1982's Sophie's Choice?",
+"answ":"MERYL STREEP",
+"answ2":"Meryl Streep.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Who voices Megatron in 2007's Transformers?",
 "answ":"HUGO WEAVING",
 "answ2":"Hugo Weaving.",

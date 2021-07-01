@@ -7,6 +7,18 @@ var disastermovies = [
 },
 {
 "cat":"Disaster Movies",
+"ques":"Who plays Jack Hall, Jake Gyllenhaal's father in The Day After Tomorrow?",
+"answ":"DENNIS QUAID",
+"answ2":"Dennis Quaid.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who plays the lead role of John Garrity, a structural engineer in 2020's Greenland?",
+"answ":"GERARD BUTLER",
+"answ2":"Gerard Butler.",
+},
+{
+"cat":"Disaster Movies",
 "ques":"Bill Paxton and Helen Hunt star in what 1996 disaster film?",
 "answ":"TWISTER",
 "answ2":"Twister.",

@@ -699,13 +699,6 @@ var nineties = [
 },
 {
 "cat":"90s",
-"ques":"The film Backdraft features two firefighter brothers, played by Kurt Russell and ____",
-"answ":"WILLIAM BALDWIN",
-"answ3":"BILLY BALDWIN",
-"answ2":"William Baldwin.",
-},
-{
-"cat":"90s",
 "ques":"Who directed and starred as Hamlet, in 1996's Hamlet?",
 "answ":"KENNETH BRANAGH",
 "answ3":"KENNETH BRANAUGH",

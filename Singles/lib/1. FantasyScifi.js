@@ -36,6 +36,12 @@ var fantasyscifi = [
 },
 {
 "cat":"Fantasy/Sci-fi",
+"ques":"Justin Benson and Aaron Moorhead directed what 2020 sci-fi thriller starring Anthony Mackie and Jamie Dornan?",
+"answ":"SYNCHRONIC",
+"answ2":"Synchronic.",
+},
+{
+"cat":"Fantasy/Sci-fi",
 "ques":"What was Neo's last name before he was awoken in The Matrix?",
 "answ":"ANDERSON",
 "answ2":"Anderson.",
@@ -1490,13 +1496,6 @@ var fantasyscifi = [
 },
 {
 "cat":"Fantasy/Sci-fi",
-"ques":"How many films are in the Twilight movie series?",
-"answ":"5",
-"answ3":"FIVE",
-"answ2":"5.",
-},
-{
-"cat":"Fantasy/Sci-fi",
 "ques":"Who plays black-market dealer Hannibal Chau in Pacific Rim?",
 "answ":"RON PERLMAN",
 "answ2":"Ron Perlman.",
@@ -2072,14 +2071,6 @@ var r2Q1 = [
 },
 {
 "cat":"Fantasy/Sci-fi",
-"ques":"What is the name of Katniss's sister in The Hunger Games series?",
-"answ":"PRIM",
-"answ3":"PRIMROSE",
-"answ2":"Prim.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Rue</button><button id=incop2 class=buttons003 onclick=qinc()>Johanna</button><button id=corop class=buttons003 onclick=qcor()>Prim</button><button id=incop4 class=buttons003 onclick=qinc()>Effie</button><br/>",
-},
-{
-"cat":"Fantasy/Sci-fi",
 "ques":"In 1988's Willow what kind of creatures attacked Willow on the bridge?",
 "answ":"TROLLS",
 "answ3":"TROLL",
@@ -2557,13 +2548,6 @@ var r2Q1 = [
 },
 {
 "cat":"Fantasy/Sci-fi",
-"ques":"Who played Lord Asriel, Lyra's strict and mysterious adventurer uncle in The Golden Compass?",
-"answ":"DANIEL CRAIG",
-"answ2":"Daniel Craig.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Hugh Jackman</button><button id=incop2 class=buttons003 onclick=qinc()>James McAvoy</button><button id=incop3 class=buttons003 onclick=qinc()>Gerard Butler</button><button id=corop class=buttons003 onclick=qcor()>Daniel Craig</button><br/>",
-},
-{
-"cat":"Fantasy/Sci-fi",
 "ques":"What year saw the release of The Chronicles of Narnia: Prince Caspian?",
 "answ":"2008",
 "answ2":"2008.",
@@ -2911,14 +2895,6 @@ var r2Q1 = [
 },
 {
 "cat":"Fantasy/Sci-fi",
-"ques":"How many seperate factions are there in the dystopian society for teenagers to choose from in the Divergent series?",
-"answ":"FIVE",
-"answ3":"5",
-"answ2":"5.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=corop class=buttons003 onclick=qcor()>5</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=incop4 class=buttons003 onclick=qinc()>8</button><br/>",
-},
-{
-"cat":"Fantasy/Sci-fi",
 "ques":"In Aliens, who plays Weyland representative Carter Burke?",
 "answ":"PAUL REISER",
 "answ2":"Paul Reiser.",
@@ -2965,13 +2941,6 @@ var r2Q1 = [
 "answ":"RAINMAKER",
 "answ2":"Rainmaker.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Stormbreaker</button><button id=incop2 class=buttons003 onclick=qinc()>Gatekeeper</button><button id=corop class=buttons003 onclick=qcor()>Rainmaker</button><button id=incop4 class=buttons003 onclick=qinc()>Goldbearer</button><br/>",
-},
-{
-"cat":"Fantasy/Sci-fi",
-"ques":"What is the first name of Christopher Lambert's character in Highlander?",
-"answ":"CONNOR",
-"answ2":"Connor.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Frank</button><button id=incop2 class=buttons003 onclick=qinc()>Kirk</button><button id=corop class=buttons003 onclick=qcor()>Connor</button><button id=incop4 class=buttons003 onclick=qinc()>John</button><br/>",
 },
 {
 "cat":"Fantasy/Sci-fi",
@@ -3082,13 +3051,6 @@ var r2Q1 = [
 "answ":"RETURN TO OZ",
 "answ2":"Return to Oz.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Return to Oz</button><button id=incop2 class=buttons003 onclick=qinc()>Journey Back to Oz</button><button id=incop3 class=buttons003 onclick=qinc()>The Dreamer of Oz</button><button id=incop4 class=buttons003 onclick=qinc()>The Wiz</button><br/>",
-},
-{
-"cat":"Fantasy/Sci-fi",
-"ques":"What is the subtitle of the second Twilight film?",
-"answ":"NEW MOON",
-"answ2":"New Moon.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Eclipse</button><button id=corop class=buttons003 onclick=qcor()>New Moon</button><button id=incop3 class=buttons003 onclick=qinc()>Breaking Dawn</button><button id=incop4 class=buttons003 onclick=qinc()>Catching Fire</button><br/>",
 },
 {
 "cat":"Fantasy/Sci-fi",

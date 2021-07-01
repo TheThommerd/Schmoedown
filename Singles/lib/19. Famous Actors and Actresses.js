@@ -7,6 +7,18 @@ var famousactors = [
 },
 {
 "cat":"Famous Actors and Actresses",
+"ques":"Who starred in the 90s films Falling Down, Disclosure and The American President?",
+"answ":"MICHAEL DOUGLAS",
+"answ2":"Michael Douglas.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Which actress appears in the following films: Mars Attacks!, The Natural and 2004's The Stepford Wives?",
+"answ":"GLENN CLOSE",
+"answ2":"Glenn Close.",
+},
+{
+"cat":"Famous Actors and Actresses",
 "ques":"What actress voices a Pixar manticore and plays a nurse in a Halloween movie?",
 "answ":"OCTAVIA SPENCER",
 "answ2":"Octavia Spencer.",
@@ -102,12 +114,6 @@ var famousactors = [
 "ques":"Which actor has played such characters as Lt. Daniel Kaffee, Ethan Hunt and Frank TJ. Mackey?",
 "answ":"TOM CRUISE",
 "answ2":"Tom Cruise.",
-},
-{
-"cat":"Famous Actors and Actresses",
-"ques":"In what 2008 film was Angelina Jolie directed by Clint Eastwood?",
-"answ":"CHANGELING",
-"answ2":"Changeling.",
 },
 {
 "cat":"Famous Actors and Actresses",
@@ -223,13 +229,7 @@ var famousactors = [
 "answ":"THE CROODS",
 "answ2":"The Croods.",
 },
-{
-"cat":"Famous Actors and Actresses",
-"ques":"In 2006's Babel, Cate Blanchett plays opposite Brad Pitt, but in which film from 2008 do the two also star together?",
-"answ":"THE CURIOUS CASE OF BENJAMIN BUTTON",
-"answ3":"CURIOUS CASE OF BENJAMIN BUTTON",
-"answ2":"The Curious Case of Benjamin Button.",
-},
+
 {
 "cat":"Famous Actors and Actresses",
 "ques":"What Oscar winner's first leading role was in The Next Karate Kid?",
@@ -787,13 +787,6 @@ var r2Q19 = [
 },
 {
 "cat":"Famous Actors and Actresses",
-"ques":"Kate Winslet played the villain Jeanine Matthews, in this film franchise, based off a series of young adult books.",
-"answ":"DIVERGENT",
-"answ2":"Divergent.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Golden Compass</button><button id=corop class=buttons003 onclick=qcor()>Divergent</button><button id=incop3 class=buttons003 onclick=qinc()>Percy Jackson</button><button id=incop4 class=buttons003 onclick=qinc()>Hunger Games</button><br/>",
-},
-{
-"cat":"Famous Actors and Actresses",
 "ques":"What was Cuba Gooding Jr.'s feature film debut?",
 "answ":"COMING TO AMERICA",
 "answ2":"Coming to America.",
@@ -993,13 +986,6 @@ var r2Q19 = [
 "answ":"MICHELLE PFEIFFER",
 "answ2":"Michelle Pfeiffer.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Michelle Pfeiffer</button><button id=incop2 class=buttons003 onclick=qinc()>Meg Ryan</button><button id=incop3 class=buttons003 onclick=qinc()>Joan Allen</button><button id=incop4 class=buttons003 onclick=qinc()>Goldie Hawn</button><br/>",
-},
-{
-"cat":"Famous Actors and Actresses",
-"ques":"Clint Eastwood plays war vet and auto mechanic Walt Kowalski in what film?",
-"answ":"GRAN TORINO",
-"answ2":"Gran Torino.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Gran Torino</button><button id=incop2 class=buttons003 onclick=qinc()>The Mule</button><button id=incop3 class=buttons003 onclick=qinc()>Blood Work</button><button id=incop4 class=buttons003 onclick=qinc()>White Hunter Black Heart</button><br/>",
 },
 {
 "cat":"Famous Actors and Actresses",

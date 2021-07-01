@@ -7,6 +7,12 @@ var war = [
 },
 {
 "cat":"War",
+"ques":"What Oscar winning actor stars as U.S Navy Commander Ernest Krause in the 2020 war film Greyhound?",
+"answ":"TOM HANKS",
+"answ2":"Tom Hanks.",
+},
+{
+"cat":"War",
 "ques":"Name one of the two major films released in 1998 that competed against each other at the Oscars for Best Picture?",
 "answ":"THE THIN RED LINE",
 "answ3":"SAVING PRIVATE RYAN",

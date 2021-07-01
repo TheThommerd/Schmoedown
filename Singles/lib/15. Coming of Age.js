@@ -352,13 +352,6 @@ var r2Q15 = [
 },
 {
 "cat":"Coming of Age",
-"ques":"In The Fault in Our Stars, Hazel and Gus travel to which European city?",
-"answ":"AMSTERDAM",
-"answ2":"Amsterdam.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Paris</button><button id=incop2 class=buttons003 onclick=qinc()>Milan</button><button id=incop3 class=buttons003 onclick=qinc()>Berlin</button><button id=corop class=buttons003 onclick=qcor()>Amsterdam</button><br/>",
-},
-{
-"cat":"Coming of Age",
 "ques":"In Pretty in Pink, which character lip-syncs to Otis Redding in the record store?",
 "answ":"DUCKIE",
 "answ3":"DUCKY",

@@ -7,6 +7,19 @@ var directors = [
 },
 {
 "cat":"Directors",
+"ques":"This comedian made his directorial debut with the 1968 film The Producers, which also got him an Oscar for Best Screenplay.",
+"answ":"MEL BROOKS",
+"answ2":"Mel Brooks.",
+},
+{
+"cat":"Directors",
+"ques":"Which filmmaker directed the comedies Road Trip, School for Scoundrels and Due Date?",
+"answ":"TODD PHILLIPS",
+"answ3":"TODD PHILIPS",
+"answ2":"Todd Phillips.",
+},
+{
+"cat":"Directors",
 "ques":"Todd Phillips directed Ben Stiller and Owen Wilson in which 2004 action comedy?",
 "answ":"STARSKY AND HUTCH",
 "answ2":"Starsky & Hutch.",
@@ -941,12 +954,6 @@ var directors = [
 "ques":"Who directed 1984's Dune?",
 "answ":"DAVID LYNCH",
 "answ2":"David Lynch.",
-},
-{
-"cat":"Directors",
-"ques":"What film was Clint Eastwood's directorial debut?",
-"answ":"PLAY MISTY FOR ME",
-"answ2":"Play Misty for Me.",
 },
 {
 "cat":"Directors",

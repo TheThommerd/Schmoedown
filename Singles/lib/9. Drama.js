@@ -68,13 +68,6 @@ var dramas = [
 },
 {
 "cat":"Dramas",
-"ques":"Kurt Russell plays the character John Ruth, also known as The Hangman, in what 2015 Tarantino film?",
-"answ":"THE HATEFUL EIGHT",
-"answ3":"HATEFUL EIGHT",
-"answ2":"The Hateful Eight.",
-},
-{
-"cat":"Dramas",
 "ques":"What film stars Willem Dafoe and Robert Pattinson as two men who try to maintain their sanity while living on a remote island during the 1890s?",
 "answ":"THE LIGHTHOUSE",
 "answ2":"The Lighthouse.",
@@ -467,7 +460,7 @@ var dramas = [
 "cat":"Dramas",
 "ques":"Name the 2011 film in which Leonardo DiCaprio was directed by Clint Eastwood and starred alongside Armie Hammer.",
 "answ":"J EDGAR",
-"answ":"JEDGAR",
+"answ3":"JEDGAR",
 "answ2":"J. Edgar.",
 },
 {
@@ -1093,12 +1086,6 @@ var dramas = [
 "ques":"Who plays Christof, the mastermind and creator behind the Truman Show in The Truman Show?",
 "answ":"ED HARRIS",
 "answ2":"Ed Harris.",
-},
-{
-"cat":"Dramas",
-"ques":"What movie stars Clint Eastwood, Tommy Lee Jones, Donald Sutherland and James Garner as 'ex-test pilots' who are sent to space to repair an old Soviet satellite?",
-"answ":"SPACE COWBOYS",
-"answ2":"Space Cowboys.",
 },
 {
 "cat":"Dramas",

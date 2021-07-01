@@ -7,6 +7,24 @@ var comedy = [
 },
 {
 "cat":"Comedies",
+"ques":"Who stars as a man thrust into an international spy plot in the 1997 comedy The Man Who Knew Too Little?",
+"answ":"BILL MURRAY",
+"answ2":"Bill Murray.",
+},
+{
+"cat":"Comedies",
+"ques":"Rawson M. Thurber directed Jason Sudeikis and Jennifer Aniston in what 2013 comedy?",
+"answ":"WE'RE THE MILLERS",
+"answ2":"We're the Millers.",
+},
+{
+"cat":"Comedies",
+"ques":"Peter Weitz directed the third film in the Meet the Parents franchise. What was the title of the film?",
+"answ":"LITTLE FOCKERS",
+"answ2":"Little Fockers.",
+},
+{
+"cat":"Comedies",
 "ques":"Jordan Peele and Keegan-Michael Key try to retrieve their kitten from a gang in what 2016 film?",
 "answ":"KEANU",
 "answ2":"Keanu.",
@@ -1252,13 +1270,6 @@ var comedy = [
 "ques":"What actress played Daisy Duke in the 2005 comedy, The Dukes of Hazzard?",
 "answ":"JESSICA SIMPSON",
 "answ2":"Jessica Simpson.",
-},
-{
-"cat":"Comedies",
-"ques":"For Kurt Russell and Kevin Costner, how many miles was it to Graceland in their 2001 movie?",
-"answ":"3000",
-"answ3":"3000 MILES",
-"answ2":"3000.",
 },
 {
 "cat":"Comedies",

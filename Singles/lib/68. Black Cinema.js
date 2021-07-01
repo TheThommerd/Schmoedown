@@ -391,6 +391,11 @@ var r2Q68 = [
 "answ2":"Night of the Living Dead.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Night of the Living Dead</button><button id=incop2 class=buttons003 onclick=qinc()>Scream Blacula Scream</button><button id=incop3 class=buttons003 onclick=qinc()>Blacula</button><button id=incop4 class=buttons003 onclick=qinc()>Abby</button><br/>",
 },
+];
+r2Q68 = shuffle(r2Q68);
+blackcinema = shuffle(blackcinema);
+
+
 {
 "cat":"Black Cinema",
 "ques":"Which filmmaker has directed entries in The Fast and the Furious, Men in Black and Friday franchises?",
@@ -491,6 +496,3 @@ Chris Rock/Eddie Murphy/Malcolm D. Lee
 "answ2":"Tim Story.",
 Antoine Fuqua/F. Gary Gray/John Singleton
 },
-];
-r2Q68 = shuffle(r2Q68);
-blackcinema = shuffle(blackcinema);

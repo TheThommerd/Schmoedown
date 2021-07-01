@@ -234,5 +234,4 @@ var r2Q61 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>World War I</button><button id=corop class=buttons003 onclick=qcor()>World War II</button><button id=incop3 class=buttons003 onclick=qinc()>Vietnam War</button><button id=incop4 class=buttons003 onclick=qinc()>Gulf War</button><br/>",
 },
 ];
-cateblanchett = shuffle(cateblanchett);
 r2Q61 = shuffle(r2Q61);

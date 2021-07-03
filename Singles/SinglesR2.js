@@ -75,6 +75,8 @@ wheelie[5]= competitorlist[0].strength6;
 wheelie = shuffle(wheelie);
 	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>" + "He/she selected the following wheel slices: " + wheelie[0] + ", " +  wheelie[1] + " and " +  wheelie[2] + "." + "</br></br>" + "Select 3 categories to put on the wheel.";
 	document.getElementById("message004").style.top = "-140px";
+        document.getElementById("message004").style.visibility = "hidden";
+	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
 	document.getElementById("checkboxes").style.top = "-1000px";
@@ -82,11 +84,11 @@ $('input[type=checkbox]').on('change', function (e) {
     }
     if ($('input[type=checkbox]:checked').length == 6) {
 	document.getElementById("checkboxes").style.top = "-1000px";
-	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
+	document.getElementById("message004").style.visibility = "visible";
     }
 else{
 	document.getElementById("checkboxes").style.top = "-1000px";
-	message004.innerHTML = "";
+	document.getElementById("message004").style.visibility = "hidden";
 }
 });
 var checkcount = 0;

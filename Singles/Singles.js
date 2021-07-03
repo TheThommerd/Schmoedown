@@ -1359,7 +1359,7 @@ else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
 message006.innerHTML = competitorlist[0].id + " missed the 5 pointer.";
 }
 }
-else if (b - s >= 0){
+else if ((b - s) == 0){
 if (usertwo == 0){
 message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;
 }
@@ -1372,6 +1372,9 @@ message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." + "</br><
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){
 message006.innerHTML = competitorlist[0].id + " missed the 5 pointer.";
 }
+}
+else if (b - s > 0){
+message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." ;
 }
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 document.getElementById("chal").style.visibility = "hidden";

@@ -1407,6 +1407,11 @@ else {
 next001();
 }
 }
+
+function newLoc() {
+  window.location.assign("https://thethommerd.github.io/Sim/SinglesTournament.html");
+}
+
 function winKO(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
                 window.clearInterval(update);
@@ -1457,7 +1462,7 @@ function loseKO(){
                 message005.innerHTML = "";
 		document.getElementById("losses").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<a href=https://thethommerd.github.io/Sim/SinglesTournament.html class=button>Return to menu</a>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";

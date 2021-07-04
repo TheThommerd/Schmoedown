@@ -1457,7 +1457,7 @@ function loseKO(){
                 message005.innerHTML = "";
 		document.getElementById("losses").stepUp(1);
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br>" + "<button class=buttons001 onclick=location.href=SinglesTournament.html>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=javascript:location.href=SinglesTournament.html>Return to menu</button>";
 		document.getElementById("message002").style.top = "-200px";
 		document.getElementById("message004").style.top = "-375px";
 		document.getElementById("message003").style.top = "-200px";

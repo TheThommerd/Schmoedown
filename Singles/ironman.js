@@ -271,7 +271,7 @@ function ChallengeDenied(){
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
 if (j == 2) {
-	    document.getElementById("frame001").style.backgroundImage = "url('Singles___NoChal.png')";
+	    document.getElementById("frame001").style.backgroundImage = "url('ironmanNoChal.png')";
 }
 else if (j == 1) {
 	    document.getElementById("frame001").style.backgroundImage = "url('Singles___2JTE.png')";

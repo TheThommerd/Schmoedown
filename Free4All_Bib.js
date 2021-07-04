@@ -486,7 +486,9 @@ var accuracy = ((quescor / quescount) * 100)
 	document.getElementById("message006").style.top = "-340px";
 	document.getElementById("message004").style.top = "-600px";
 }
-
+function newLoc() {
+  window.location.assign("https://thethommerd.github.io/Sim/Free4All.html");
+}
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";

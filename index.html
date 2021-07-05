@@ -40,14 +40,14 @@ footer {
 	var quescor = parseInt(document.getElementById("CorrectQuestions").value);
 	var b = parseInt(document.getElementById("TotalPoints").value);
 	var posspoints = parseInt(document.getElementById("PossiblePoints").value);
-		var wins = document.getElementById("Wins").value;
-		var losses = document.getElementById("Losses").value;
-		var KOs = document.getElementById("KOs").value;
-		var TKOs = document.getElementById("TKOs").value;
-		var KOd = document.getElementById("KOd").value;
-		var TKOd = document.getElementById("TKOd").value;
+	var wins = document.getElementById("wins").value;
+	var losses = document.getElementById("losses").value;
+	var KOs = document.getElementById("KOs").value;
+	var TKOs = document.getElementById("TKOs").value;
+	var KOd = document.getElementById("KOd").value;
+	var TKOd = document.getElementById("TKOd").value;
 	var ppe = ((b / posspoints) * 100)
 	var accuracy = ((quescor / quescount) * 100)
- 	message002.innerHTML = "<table class=table2><style>.table2 { border-spacing: 0; width: 20%; margin-left: 600px; font-family:arial; font-size: 16px;}</style><tr class=tr2><th class=th2></th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr></table>";
+ 	message002.innerHTML = "<table class=table2><style>.table2 { border-spacing: 0; width: 20%; margin-left: 600px; font-family:arial; font-size: 16px;}</style><tr class=tr2><th class=th2></th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Wins</b></td><td class=td2>" + wins + "</td></tr>" + "<tr class=tr2><td class=td2><b>Losses</b></td><td class=td2>" + losses + "</td></tr>" + "<tr class=tr2><td class=td2><b>KOs</b></td><td class=td2>" + KOs + "</td></tr>" + "<tr class=tr2><td class=td2><b>TKOs</b></td><td class=td2>" + TKOs + "</td></tr>" + "<tr class=tr2><td class=td2><b>KO'd</b></td><td class=td2>" + KOd + "</td></tr>" + "<tr class=tr2><td class=td2><b>TKO'd</b></td><td class=td2>" + TKOd + "</td></tr></table>";
 </script>
 </html>

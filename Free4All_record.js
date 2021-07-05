@@ -1,49 +1,32 @@
 // form.js
 const formId_F4 = "save-later-form-Free4All"; // ID of the form
-const url = location.href; //  href for the page
-const formIdentifier = `${url} ${formId_F4}`; // Identifier used to identify the form
-const saveButton = document.querySelector("#save"); // select save button
-let form = document.querySelector(`#${formId_F4}`); // select form
-let formElements = form.elements; // get the elements in the form
+const url_F4 = location.href; //  href for the page
+const formIdentifier_F4 = `${url_F4} ${formId_F4}`; // Identifier used to identify the form
+const saveButton_F4 = document.querySelector("#save"); // select save button
+const alertBox_F4 = document.querySelector(".alert"); // select alert display div
+let form_F4 = document.querySelector(`#${formId_F4}`); // select form
+let formElements_F4 = form_F4.elements; // get the elements in the form
 
-/**
- * This function gets the values in the form
- * and returns them as an object with the
- * [formIdentifier] as the object key
- * @returns {Object}
- */
-const getFormData = () => {
-  let data = { [formIdentifier]: {} };
-  for (const element of formElements) {
+const getFormData_F4 = () => {
+  let data = { [formIdentifier_F4]: {} };
+  for (const element of formElements_F4) {
     if (element.name.length > 0) {
-      data[formIdentifier][element.name] = element.value;
+      data[formIdentifier_F4][element.name] = element.value;
     }
   }
   return data;
 };
 
-saveButton.onclick = event => {
+saveButton_F4.onclick = event => {
   event.preventDefault();
-  data = getFormData();
-  localStorage.setItem("free4all", JSON.stringify(data[formIdentifier]));
+  data = getFormData_F4();
+  localStorage.setItem("record_F4", JSON.stringify(data[formIdentifier_F4]));
 };
 
-/**
- * This function displays a message
- * on the page for 1 second
- *
- * @param {String} message
- */
-
-/**
- * This function populates the form
- * with data from localStorage
- *
- */
-const populateForm = () => {
-  if (localStorage.key(formIdentifier)) {
-    const savedData = JSON.parse(localStorage.getItem("free4all")); // get and parse the saved data from localStorage
-    for (const element of formElements) {
+const populateForm_F4 = () => {
+  if (localStorage.key(formIdentifier_F4)) {
+    const savedData = JSON.parse(localStorage.getItem("record_F4")); // get and parse the saved data from localStorage
+    for (const element of formElements_F4) {
       if (element.name in savedData) {
         element.value = savedData[element.name];
       }
@@ -51,4 +34,4 @@ const populateForm = () => {
   }
 };
 
-document.onload = populateForm(); // populate the form when the document is loaded
+document.onload = populateForm_F4(); // populate the form when the document is loaded

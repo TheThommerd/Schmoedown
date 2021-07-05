@@ -56,7 +56,9 @@ footer {
 	var KOd = document.getElementById("KOd").value;
 	var TKOd = document.getElementById("TKOd").value;
 	var ppe = ((b / posspoints) * 100);
-	var accuracy = ((quescor / quescount) * 100)	;
+	var accuracy = ((quescor / quescount) * 100);
+	ppe = ppe || 0;
+	accuracy = accuracy || 0;
 	var quescount_IG = parseInt(document.getElementById("AnsweredQuestions_IG").value);
 	var quescor_IG = parseInt(document.getElementById("CorrectQuestions_IG").value);
 	var b_IG = parseInt(document.getElementById("TotalPoints_IG").value);
@@ -69,6 +71,8 @@ footer {
 	var TKOd_IG = document.getElementById("TKOd_IG").value;
 	var ppe_IG = ((b_IG / posspoints_IG) * 100);
 	var accuracy_IG = ((quescor_IG / quescount_IG) * 100);
+	ppe_IG = ppe_IG || 0;
+	accuracy_IG = accuracy_IG || 0;
 	var quescount_SW = parseInt(document.getElementById("AnsweredQuestions_SW").value);
 	var quescor_SW = parseInt(document.getElementById("CorrectQuestions_SW").value);
 	var b_SW = parseInt(document.getElementById("TotalPoints_SW").value);
@@ -81,6 +85,8 @@ footer {
 	var TKOd_SW = document.getElementById("TKOd_SW").value;
 	var ppe_SW = ((b_SW / posspoints_SW) * 100);
 	var accuracy_SW = ((quescor_SW / quescount_SW) * 100);
+	ppe_SW = ppe_SW || 0;
+	accuracy_SW = accuracy_SW || 0;
 	var quescount_IM = parseInt(document.getElementById("AnsweredQuestions_IM").value);
 	var quescor_IM = parseInt(document.getElementById("CorrectQuestions_IM").value);
 	var b_IM = parseInt(document.getElementById("TotalPoints_IM").value);
@@ -99,6 +105,8 @@ footer {
 	var losses_F4 = document.getElementById("losses_F4").value;
 	var ppe_F4 = ((b_F4 / posspoints_F4) * 100)
 	var accuracy_F4 = ((quescor_F4 / quescount_F4) * 100)
+	ppe_F4 = ppe_F4 || 0;
+	accuracy_F4 = accuracy_F4 || 0;
  	message002.innerHTML = "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; margin-left: 500px; font-family:arial; font-size: 16px;}</style><tr><th></th></tr><tr><td><b>Questions answered</b></td><td>" + quescount + "</td><td>" + quescount_IG + "</td><td>" + quescount_SW + "</td><td>" + quescount_F4 + "</td><td>" + quescount_IM + "</td></tr><tr><td><b>PPE</b></td><td>" + ppe.toFixed(2) + "%" + "</td><td>" + ppe_IG.toFixed(2) + "%" + "</td><td>" + ppe_SW.toFixed(2) + "%" + "</td><td>" + ppe_F4.toFixed(2) + "%" + "</td><td>" + ppe_IM.toFixed(2) + "%" + "</td></tr><tr><td><b>Accuracy</b></td><td>" + accuracy.toFixed(2) + "%" + "</td><td>" + accuracy_IG.toFixed(2) + "%" + "</td><td>" + accuracy_SW.toFixed(2) + "%" + "</td><td>" + accuracy_F4.toFixed(2) + "%" + "</td><td>" + accuracy_IM.toFixed(2) + "%" + "</td></tr><tr><td><b>Wins</b></td><td>" + wins + "</td><td>" + wins_IG + "</td><td>" + wins_SW + "</td><td>" + wins_F4 + "</td><td>" + wins_IM + "</td></tr><tr><td><b>Losses</b></td><td>" + losses + "</td><td>" + losses_IG + "</td><td>" + losses_SW + "</td><td>" + losses_F4 + "</td><td>" + losses_IM + "</td></tr><tr><td><b>KOs</b></td><td>" + KOs + "</td><td>" + KOs_IG + "</td><td>" + KOs_SW + "</td><td>" + "-" + "</td><td>" + "-" + "</td></tr><tr><td><b>TKOs</b></td><td>" + TKOs + "</td><td>" + TKOs_IG + "</td><td>" + TKOs_SW + "</td><td>" + "-" + "</td><td>" + "-" + "</td></tr><tr><td><b>KO'd</b></td><td>" + KOd + "</td><td>" + KOd_IG + "</td><td>" + KOd_SW + "</td><td>" + "-" + "</td><td>" + "-" + "</td></tr><tr><td><b>TKO'd</b></td><td>" + TKOd + "</td><td>" + TKOd_IG + "</td><td>" + TKOd_SW + "</td><td>" + "-" + "</td><td>" + "-" + "</td></tr></table>";
 </script>
 </html>

@@ -7,7 +7,7 @@ const alertBox_Iron = document.querySelector(".alert"); // select alert display 
 let form_Iron = document.querySelector(`#${formId_Iron}`); // select form
 let formElements_Iron = form_Iron.elements; // get the elements in the form
 
-const getFormData = () => {
+const getFormData_Iron = () => {
   let data = { [formIdentifier_Iron]: {} };
   for (const element of formElements_Iron) {
     if (element.name.length > 0) {
@@ -19,11 +19,11 @@ const getFormData = () => {
 
 saveButton_Iron.onclick = event => {
   event.preventDefault();
-  data = getFormData();
+  data = getFormData_Iron();
   localStorage.setItem("record_Iron", JSON.stringify(data[formIdentifier_Iron]));
 };
 
-const populateForm = () => {
+const populateForm_Iron = () => {
   if (localStorage.key(formIdentifier_Iron)) {
     const savedData = JSON.parse(localStorage.getItem("record_Iron")); // get and parse the saved data from localStorage
     for (const element of formElements_Iron) {
@@ -34,4 +34,4 @@ const populateForm = () => {
   }
 };
 
-document.onload = populateForm(); // populate the form when the document is loaded
+document.onload = populateForm_Iron(); // populate the form when the document is loaded

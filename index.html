@@ -35,12 +35,12 @@ footer {
 </footer>
 <script src="new_record.js"></script>
 <script type="text/javascript" charset="utf-8">
-	var quescount = document.getElementById("AnsweredQuestions").value;
-	var quescor = document.getElementById("CorrectQuestions").value;
-	var b = document.getElementById("TotalPoints").value;
-	var posspoints = document.getElementById("PossiblePoints").value;
+	var quescount = parseInt(document.getElementById("AnsweredQuestions").value);
+	var quescor = parseInt(document.getElementById("CorrectQuestions").value);
+	var b = parseInt(document.getElementById("TotalPoints").value);
+	var posspoints = parseIntdocument.getElementById("PossiblePoints").value);
 	var ppe = ((b / posspoints) * 100)
 	var accuracy = ((quescor / quescount) * 100)
- 	message002.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + "Competitor1" + "</th><th class=th2>" + "Competitor2" + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescount + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppe.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr></table>";
+ 	message002.innerHTML = "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr></table>";
 </script>
 </html>

@@ -1,9 +1,9 @@
 // form.js
-const formId = "save-later-form-Free4All"; // ID of the form
+const formId_F4 = "save-later-form-Free4All"; // ID of the form
 const url = location.href; //  href for the page
-const formIdentifier = `${url} ${formId}`; // Identifier used to identify the form
+const formIdentifier = `${url} ${formId_F4}`; // Identifier used to identify the form
 const saveButton = document.querySelector("#save"); // select save button
-let form = document.querySelector(`#${formId}`); // select form
+let form = document.querySelector(`#${formId_F4}`); // select form
 let formElements = form.elements; // get the elements in the form
 
 /**

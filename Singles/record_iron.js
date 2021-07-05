@@ -1,32 +1,32 @@
 // form.js
 const formId_Iron = "save-later-form-Ironman"; // ID of the form
-const url = location.href; //  href for the page
-const formIdentifier = `${url} ${formId_Iron}`; // Identifier used to identify the form
-const saveButton = document.querySelector("#save"); // select save button
-const alertBox = document.querySelector(".alert"); // select alert display div
-let form = document.querySelector(`#${formId_Iron}`); // select form
-let formElements = form.elements; // get the elements in the form
+const url_Iron = location.href; //  href for the page
+const formIdentifier_Iron = `${url_Iron} ${formId_Iron}`; // Identifier used to identify the form
+const saveButton_Iron = document.querySelector("#save"); // select save button
+const alertBox_Iron = document.querySelector(".alert"); // select alert display div
+let form_Iron = document.querySelector(`#${formId_Iron}`); // select form
+let formElements_Iron = form_Iron.elements; // get the elements in the form
 
 const getFormData = () => {
-  let data = { [formIdentifier]: {} };
-  for (const element of formElements) {
+  let data = { [formIdentifier_Iron]: {} };
+  for (const element of formElements_Iron) {
     if (element.name.length > 0) {
-      data[formIdentifier][element.name] = element.value;
+      data[formIdentifier_Iron][element.name] = element.value;
     }
   }
   return data;
 };
 
-saveButton.onclick = event => {
+saveButton_Iron.onclick = event => {
   event.preventDefault();
   data = getFormData();
-  localStorage.setItem("record_Iron", JSON.stringify(data[formIdentifier]));
+  localStorage.setItem("record_Iron", JSON.stringify(data[formIdentifier_Iron]));
 };
 
 const populateForm = () => {
-  if (localStorage.key(formIdentifier)) {
+  if (localStorage.key(formIdentifier_Iron)) {
     const savedData = JSON.parse(localStorage.getItem("record_Iron")); // get and parse the saved data from localStorage
-    for (const element of formElements) {
+    for (const element of formElements_Iron) {
       if (element.name in savedData) {
         element.value = savedData[element.name];
       }

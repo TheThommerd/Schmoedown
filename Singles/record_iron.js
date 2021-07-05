@@ -1,18 +1,12 @@
 // form.js
-const formId = "save-later-form-Ironman"; // ID of the form
+const formId_Iron = "save-later-form-Ironman"; // ID of the form
 const url = location.href; //  href for the page
-const formIdentifier = `${url} ${formId}`; // Identifier used to identify the form
+const formIdentifier = `${url} ${formId_Iron}`; // Identifier used to identify the form
 const saveButton = document.querySelector("#save"); // select save button
 const alertBox = document.querySelector(".alert"); // select alert display div
-let form = document.querySelector(`#${formId}`); // select form
+let form = document.querySelector(`#${formId_Iron}`); // select form
 let formElements = form.elements; // get the elements in the form
 
-/**
- * This function gets the values in the form
- * and returns them as an object with the
- * [formIdentifier] as the object key
- * @returns {Object}
- */
 const getFormData = () => {
   let data = { [formIdentifier]: {} };
   for (const element of formElements) {
@@ -29,18 +23,6 @@ saveButton.onclick = event => {
   localStorage.setItem("record_Iron", JSON.stringify(data[formIdentifier]));
 };
 
-/**
- * This function displays a message
- * on the page for 1 second
- *
- * @param {String} message
- */
-
-/**
- * This function populates the form
- * with data from localStorage
- *
- */
 const populateForm = () => {
   if (localStorage.key(formIdentifier)) {
     const savedData = JSON.parse(localStorage.getItem("record_Iron")); // get and parse the saved data from localStorage

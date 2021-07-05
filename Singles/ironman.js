@@ -13,15 +13,15 @@
   }, false);
 
 function load(){
-	if (document.getElementById("wins").value.length < 1)
+	if (document.getElementById("wins_IM").value.length < 1)
 	{
-	document.getElementById("wins").value = 0;
+	document.getElementById("wins_IM").value = 0;
 	}
-	if (document.getElementById("losses").value.length < 1)
+	if (document.getElementById("losses_IM").value.length < 1)
 	{
-	document.getElementById("losses").value = 0;
+	document.getElementById("losses_IM").value = 0;
 	}
-  	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
+  	record001.innerHTML = document.getElementById("wins_IM").value + "-" + document.getElementById("losses_IM").value;
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
 	var length = name.length;
 	var twittername = document.getElementById("twitt").value;
@@ -128,15 +128,15 @@ function submitname () {
 	twitter001.innerHTML = twitter;
 	document.getElementById("twitt").value = document.getElementById("q3").value;
 	}
-	if (document.getElementById("wins").value.length < 1)
+	if (document.getElementById("wins_IM").value.length < 1)
 	{
-	document.getElementById("wins").value = 0;
+	document.getElementById("wins_IM").value = 0;
 	}
-	if (document.getElementById("losses").value.length < 1)
+	if (document.getElementById("losses_IM").value.length < 1)
 	{
-	document.getElementById("losses").value = 0;
+	document.getElementById("losses_IM").value = 0;
 	}
-	var record = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
+	var record = document.getElementById("wins_IM").value + "-" + document.getElementById("losses_IM").value;
   	record001.innerHTML = record;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
@@ -786,7 +786,7 @@ function win(){
 		var accuracy = ((quescor / quescount) * 100)
  		var ppeopp = ((s / quescountopp) * 100)
 		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
+		message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("wins_IM").stepUp(1);
 		document.getElementById("AnsweredQuestions_IM").value = parseInt(document.getElementById("AnsweredQuestions_IM").value) +  quescount;
@@ -817,7 +817,7 @@ function lose(){
 		var accuracy = ((quescor / quescount) * 100)
  		var ppeopp = ((s / quescountopp) * 100)
 		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
+ 		message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("losses_IM").stepUp(1);
 		document.getElementById("AnsweredQuestions_IM").value = parseInt(document.getElementById("AnsweredQuestions_IM").value) +  quescount;

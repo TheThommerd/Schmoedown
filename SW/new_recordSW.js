@@ -1,50 +1,32 @@
 // form.js
 const formId_SW = "save-later-form-SW"; // ID of the form
-const url = location.href; //  href for the page
-const formIdentifier = `${url} ${formId_SW}`; // Identifier used to identify the form
-const saveButton = document.querySelector("#save"); // select save button
-const alertBox = document.querySelector(".alert"); // select alert display div
-let form = document.querySelector(`#${formId_SW}`); // select form
-let formElements = form.elements; // get the elements in the form
+const url_SW = location.href; //  href for the page
+const formIdentifier_SW = `${url_SW} ${formId_SW}`; // Identifier used to identify the form
+const saveButton_SW = document.querySelector("#save"); // select save button
+const alertBox_SW = document.querySelector(".alert"); // select alert display div
+let form_SW = document.querySelector(`#${formId_SW}`); // select form
+let formElements_SW = form_SW.elements; // get the elements in the form
 
-/**
- * This function gets the values in the form
- * and returns them as an object with the
- * [formIdentifier] as the object key
- * @returns {Object}
- */
-const getFormData = () => {
-  let data = { [formIdentifier]: {} };
-  for (const element of formElements) {
+const getFormData_SW = () => {
+  let data = { [formIdentifier_SW]: {} };
+  for (const element of formElements_SW) {
     if (element.name.length > 0) {
-      data[formIdentifier][element.name] = element.value;
+      data[formIdentifier_SW][element.name] = element.value;
     }
   }
   return data;
 };
 
-saveButton.onclick = event => {
+saveButton_SW.onclick = event => {
   event.preventDefault();
-  data = getFormData();
-  localStorage.setItem("recordSW", JSON.stringify(data[formIdentifier]));
+  data = getFormData_SW();
+  localStorage.setItem("record_SW", JSON.stringify(data[formIdentifier_SW]));
 };
 
-/**
- * This function displays a message
- * on the page for 1 second
- *
- * @param {String} message
- */
-
-/**
- * This function populates the form
- * with data from localStorage
- *
- */
-const populateForm = () => {
-  if (localStorage.key(formIdentifier)) {
-    const savedData = JSON.parse(localStorage.getItem("recordSW")); // get and parse the saved data from localStorage
-    for (const element of formElements) {
+const populateForm_SW = () => {
+  if (localStorage.key(formIdentifier_SW)) {
+    const savedData = JSON.parse(localStorage.getItem("record_SW")); // get and parse the saved data from localStorage
+    for (const element of formElements_SW) {
       if (element.name in savedData) {
         element.value = savedData[element.name];
       }
@@ -52,4 +34,4 @@ const populateForm = () => {
   }
 };
 
-document.onload = populateForm(); // populate the form when the document is loaded
+document.onload = populateForm_SW(); // populate the form when the document is loaded

@@ -1,10 +1,10 @@
 // form.js
-const formId = "save-later-form-SW"; // ID of the form
+const formId_SW = "save-later-form-SW"; // ID of the form
 const url = location.href; //  href for the page
-const formIdentifier = `${url} ${formId}`; // Identifier used to identify the form
+const formIdentifier = `${url} ${formId_SW}`; // Identifier used to identify the form
 const saveButton = document.querySelector("#save"); // select save button
 const alertBox = document.querySelector(".alert"); // select alert display div
-let form = document.querySelector(`#${formId}`); // select form
+let form = document.querySelector(`#${formId_SW}`); // select form
 let formElements = form.elements; // get the elements in the form
 
 /**

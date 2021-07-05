@@ -40,6 +40,6 @@ footer {
 	var posspoints = parseInt(document.getElementById("PossiblePoints").value);
 	var ppe = ((b / posspoints) * 100)
 	var accuracy = ((quescor / quescount) * 100)
- 	message002.innerHTML = "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; text-align: center;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr></table>";
+ 	message002.innerHTML = "<table class=table2><style>.table2 { border-spacing: 0; width: 20%; margin-left: 600px; font-family:arial; font-size: 16px;}</style><tr class=tr2><th class=th2></th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr></table>";
 </script>
 </html>

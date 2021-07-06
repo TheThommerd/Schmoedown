@@ -1504,6 +1504,7 @@ function winKO(){
  message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id+ "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("wins_SW").stepUp(1);
+		document.getElementById("championships_SW").stepUp(1);
 		document.getElementById("KOs_SW").stepUp(1);
 		document.getElementById("AnsweredQuestions_SW").value = parseInt(document.getElementById("AnsweredQuestions_SW").value) +  quescount;
 		document.getElementById("CorrectQuestions_SW").value = parseInt(document.getElementById("CorrectQuestions_SW").value) +  quescor;
@@ -1570,6 +1571,7 @@ function winTKO(){
  message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id+ "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("wins_SW").stepUp(1);
+		document.getElementById("championships_SW").stepUp(1);
 		document.getElementById("TKOs_SW").stepUp(1);
 		document.getElementById("AnsweredQuestions_SW").value = parseInt(document.getElementById("AnsweredQuestions_SW").value) +  quescount;
 		document.getElementById("CorrectQuestions_SW").value = parseInt(document.getElementById("CorrectQuestions_SW").value) +  quescor;
@@ -1636,6 +1638,7 @@ function win(){
  message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id+ "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("wins_SW").stepUp(1);
+		document.getElementById("championships_SW").stepUp(1);
 		document.getElementById("AnsweredQuestions_SW").value = parseInt(document.getElementById("AnsweredQuestions_SW").value) +  quescount;
 		document.getElementById("CorrectQuestions_SW").value = parseInt(document.getElementById("CorrectQuestions_SW").value) +  quescor;
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;

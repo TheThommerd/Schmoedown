@@ -400,6 +400,17 @@ transform-origin: top center;
 	-moz-transform-origin: top center;
  }
 }
+	    .column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
     </style>
 <audio id="myAudio">
   <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">

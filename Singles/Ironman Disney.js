@@ -93,6 +93,8 @@ var quescount = 0 ;
 var quescor = 0;
 var quescountopp = 0 ;
 var quescoropp = 0;
+var posspoints = 0;
+var posspointsopp = 0; 
 	var minimum = 0;
 var number;
 
@@ -183,8 +185,6 @@ function begin001() {
 	    document.getElementById("message005").style.top = "-100px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "-100px";
-quescount++;
-quescountopp++;
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (question001[0].ques.length > 125){
@@ -359,6 +359,7 @@ function checkerspeed(){
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
 	quescount++;
+posspoints++;
 	if ((speed1 == question001[vraag].answ) || (speed1 == question001[vraag].answ3)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b += 1;
@@ -420,6 +421,8 @@ else {
                 time001.innerHTML = 20;
 		quescount++;
 		quescountopp++;
+	        posspoints++;
+	        posspointsopp++;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 	if (question001[vraag].ques.length > 125){
@@ -462,6 +465,10 @@ function timer001() {
                 time001.innerHTML = c;
             }
             if (c < 1) {
+posspointsopp++;
+posspoints++;
+quescount++;
+quescountopp++;
       		message003.innerHTML = "The correct answer is " + question001[vraag].answ2; 
            	window.clearInterval(update);
                 time001.innerHTML = "Time's up!";
@@ -716,6 +723,7 @@ if (nobody == 0){
 	if (correctchance < competitorlist[0].percentage){
 		score002.innerHTML = s += 1;
 quescountopp++;
+posspointsopp++;
 quescoropp++;
 	    	message005.innerHTML = "";
 		message003.innerHTML = competitorlist[0].id + " hit the question.";
@@ -724,6 +732,7 @@ quescoropp++;
 		}
 	else if (correctchance >= competitorlist[0].percentage){
 quescountopp++;
+posspointsopp++;
 		score002.innerHTML = s -= 1;
 	    	message005.innerHTML = "";
 		message003.innerHTML = competitorlist[0].id + " missed the question.";
@@ -734,6 +743,8 @@ quescountopp++;
 else if (nobody == 1){
 		message003.innerHTML = "Nobody hit the question.";
 		nobody = 0;
+posspointsopp++;
+posspoints++;
 }
 
             message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -763,16 +774,16 @@ function win(){
                 message002.innerHTML = "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
-		var ppe = ((b / quescount) * 100)
+		var ppe = ((b / posspoints) * 100)
 		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / quescountopp) * 100)
+ 		var ppeopp = ((s / posspointsopp) * 100)
 		var accuracyopp = ((quescoropp / quescountopp) * 100)
 		message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("wins_IM").stepUp(1);
 		document.getElementById("AnsweredQuestions_IM").value = parseInt(document.getElementById("AnsweredQuestions_IM").value) +  quescount;
 		document.getElementById("CorrectQuestions_IM").value = parseInt(document.getElementById("CorrectQuestions_IM").value) +  quescor;
-		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  quescount;
+		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  posspoints;
 		document.getElementById("TotalPoints_IM").value = parseInt(document.getElementById("TotalPoints_IM").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
@@ -794,16 +805,16 @@ function lose(){
                 message002.innerHTML = "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
-		var ppe = ((b / quescount) * 100)
+		var ppe = ((b / posspoints) * 100)
 		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / quescountopp) * 100)
+ 		var ppeopp = ((s / posspointsopp) * 100)
 		var accuracyopp = ((quescoropp / quescountopp) * 100)
  		message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
                 message005.innerHTML = "";
 		document.getElementById("losses_IM").stepUp(1);
 		document.getElementById("AnsweredQuestions_IM").value = parseInt(document.getElementById("AnsweredQuestions_IM").value) +  quescount;
 		document.getElementById("CorrectQuestions_IM").value = parseInt(document.getElementById("CorrectQuestions_IM").value) +  quescor;
-		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  quescount;
+		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  posspoints;
 		document.getElementById("TotalPoints_IM").value = parseInt(document.getElementById("TotalPoints_IM").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";

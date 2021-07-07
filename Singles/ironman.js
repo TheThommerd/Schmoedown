@@ -802,7 +802,7 @@ function win(){
 		document.getElementById("wins_IM").stepUp(1);
 		document.getElementById("AnsweredQuestions_IM").value = parseInt(document.getElementById("AnsweredQuestions_IM").value) +  quescount;
 		document.getElementById("CorrectQuestions_IM").value = parseInt(document.getElementById("CorrectQuestions_IM").value) +  quescor;
-		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  quescount;
+		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  posspoints;
 		document.getElementById("TotalPoints_IM").value = parseInt(document.getElementById("TotalPoints_IM").value) +  b	
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
@@ -833,7 +833,7 @@ function lose(){
 		document.getElementById("losses_IM").stepUp(1);
 		document.getElementById("AnsweredQuestions_IM").value = parseInt(document.getElementById("AnsweredQuestions_IM").value) +  quescount;
 		document.getElementById("CorrectQuestions_IM").value = parseInt(document.getElementById("CorrectQuestions_IM").value) +  quescor;
-		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  quescount;
+		document.getElementById("PossiblePoints_IM").value = parseInt(document.getElementById("PossiblePoints_IM").value)  +  posspoints;
 		document.getElementById("TotalPoints_IM").value = parseInt(document.getElementById("TotalPoints_IM").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";

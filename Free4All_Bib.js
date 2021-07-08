@@ -2451,8 +2451,6 @@ else if (question1.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }
-	console.log(similarity1);
-	console.log(similarity2);
             window.clearInterval(update);
             c = "-";
 	    document.getElementById("submit2").style.display = "none";

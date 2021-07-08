@@ -271,6 +271,8 @@ function myTrim(x) {
 
 
 function checker(){
+similarity1 = 0;
+similarity2 = 0;
 	document.getElementById("message003").style.top = "-190px";
 	document.getElementById("message004").style.top = "-190px";
 if (speed != 0)
@@ -360,7 +362,17 @@ function checkerspeed(){
 	    document.getElementById("q1").disabled = true;
 	quescount++;
 posspoints++;
-	if ((speed1 == question001[vraag].answ) || (speed1 == question001[vraag].answ3)) {
+	if (speed1.length > 4){
+similarity1 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ);
+if (typeof(question001[vraag].answ3) != 'undefined'){
+similarity2 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ3);
+}
+}
+else if (speed1.length <= 4){
+similarity1 = 0;
+similarity2 = 0;
+}
+	if ((speed1 == question001[vraag].answ) || (speed1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b += 1;
 	quescor++;

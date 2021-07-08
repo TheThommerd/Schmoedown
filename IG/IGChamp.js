@@ -1713,6 +1713,8 @@ function lose(){
 var mc = 0;
 var open = 0;
 function checker() {
+	similarity1 = 0;
+similarity2 = 0;
 document.getElementById("message003").style.top = "-140px";
 document.getElementById("message004").style.top = "-140px";
 document.getElementById("message006").style.top = "-140px";
@@ -5970,6 +5972,8 @@ if (chance2 >= betpercentage){
 }
 }
 function checkerbetting(){
+	similarity1 = 0;
+similarity2 = 0;
 	    var betting01 = document.getElementById("q1").value.toUpperCase();
 	    var betting1 = myTrim(betting01);
 	    betting1 = myTrim(betting1);
@@ -6570,6 +6574,8 @@ if (speedquestion001[4].ques.length > 125){
 }
 }
 function checkerspeed(){
+	similarity1 = 0;
+similarity2 = 0;
 document.getElementById("message003").style.top = "-190px";
 document.getElementById("message004").style.top = "-190px";
 if (speed == 2){
@@ -7073,6 +7079,8 @@ bettinground();
 }
 }
 function checkerq1(){
+	similarity1 = 0;
+similarity2 = 0;
 	    var stealer01 = document.getElementById("q1").value.toUpperCase();
 	    var stealer1 = myTrim(stealer01);
 	    stealer1 = myTrim(stealer1);
@@ -7136,6 +7144,8 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }	   
 }
 function checkerq2(){
+	similarity1 = 0;
+similarity2 = 0;
 	    var stealer02 = document.getElementById("q1").value.toUpperCase();
 	    var stealer2 = myTrim(stealer02);
 	    stealer2 = myTrim(stealer2);
@@ -7199,6 +7209,8 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }	   
 }
 function checkerq3(){
+	similarity1 = 0;
+similarity2 = 0;
 	    var stealer03 = document.getElementById("q1").value.toUpperCase();
 	    var stealer3 = myTrim(stealer03);
 	    stealer3 = myTrim(stealer3);
@@ -7262,6 +7274,8 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }	   
 }
 function checkerq4(){
+	similarity1 = 0;
+similarity2 = 0;
 	    var stealer04 = document.getElementById("q1").value.toUpperCase();
 	    var stealer4 = myTrim(stealer04);
 	    stealer4 = myTrim(stealer4);
@@ -7325,6 +7339,8 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }	   
 }
 function checkerq5(){
+	similarity1 = 0;
+similarity2 = 0;
 	    var stealer05 = document.getElementById("q1").value.toUpperCase();
 	    var stealer5 = myTrim(stealer05);
 	    stealer5 = myTrim(stealer5);

@@ -2419,6 +2419,8 @@ function myTrim(x) {
 
 function checker(){
 quescount++;
+similarity1 = 0;
+similarity2 = 0;
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
 	    question1 = question1.replace(":"," ");

@@ -6280,7 +6280,7 @@ if (speed == 1){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
             window.clearInterval(update);       
-		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
+		var chance = Math.floor(Math.random() * 90) + (competitorlist[0].percentage / 10);
                 message001.innerHTML = speedquestion001[0].ques;
 	if (speedquestion001[0].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}

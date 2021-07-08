@@ -1616,6 +1616,8 @@ var open = 0;
 var similarity1 = 0;
 var similarity2 = 0;
 function checker() {
+similarity1 = 0;
+similarity2 = 0;
 document.getElementById("message003").style.top = "-140px";
 document.getElementById("message004").style.top = "-140px";
 document.getElementById("message006").style.top = "-140px";

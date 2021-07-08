@@ -386,9 +386,9 @@ function checkerspeed(){
 	quescount++;
 	posspoints++;
 	if (speed1.length > 4){
-similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
+similarity1 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ);
 if (typeof(question001[vraag].answ3) != 'undefined'){
-similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
+similarity2 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ3);
 }
 }
 else if (speed1.length <= 4){

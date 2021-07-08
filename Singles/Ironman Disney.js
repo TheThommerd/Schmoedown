@@ -590,29 +590,27 @@ else {
 	    document.getElementById("message005").style.display = "initial";  
                 message001.innerHTML = question001[vraag].ques;
 chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-if (question001[vraag].ques.length < 50)
-{
-if (chance < 20){t = 15; nobody = 1}
-else if (chance < 25){t = 10; nobody = 0}
-else if (chance < 30){t = 6; nobody = 0}
-else if (chance < 65){t = 3; nobody = 0}
+if (question001[vraag].ques.length < 50){
+if (chance < 20){t = 13; nobody = 1}
+else if (chance < 25){t = 8; nobody = 0}
+else if (chance < 30){t = 4; nobody = 0}
+else if (chance < 50){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
-else if (question001[vraag].ques.length < 110)
-{
-if (chance < 20){t = 15; nobody = 1}
-else if (chance < 25){t = 10; nobody = 0}
-else if (chance < 30){t = 6; nobody = 0}
-else if (chance < 80){t = 3; nobody = 0}
+else if (question001[vraag].ques.length < 110){
+if (chance < 20){t = 14; nobody = 1}
+else if (chance < 25){t = 9; nobody = 0}
+else if (chance < 30){t = 4; nobody = 0}
+else if (chance < 55){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
-else if (question001[vraag].ques.length >= 110)
-{
+else if (question001[vraag].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 30){t = 6; nobody = 0}
-else if (chance < 60){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 50){t = 4; nobody = 0}
+else if (chance < 90){t = 3; nobody = 0}
+else if (chance < 100){t = 2; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
                 message002.innerHTML = "";

@@ -6906,7 +6906,7 @@ var question001 = [
 {
 "cat":"Comedies",
 "ques":"This 2018 comedy stars Jason Bateman and Rachel McAdams whose murder mystery party is interrupted by actual criminals.",
-"answ":"GAME NIGTH",
+"answ":"GAME NIGHT",
 "answ2":"Game Night.",
 },
 {

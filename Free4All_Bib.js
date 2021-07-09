@@ -6,7 +6,6 @@
 		document.getElementById("time001").style.visibility = "hidden";
 		document.getElementById("time001").style.display = "none";
 		document.getElementById("q2").focus();
-		document.getElementById("frame001").style.zoom="1.4"
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();

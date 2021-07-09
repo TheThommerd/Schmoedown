@@ -1,4 +1,4 @@
-document.write(
+document.write(`
 <!DOCTYPE html>
 <head><meta name="viewport" content="width=device-width, height=device-height"></head> 
 <body onload="load()">
@@ -372,5 +372,5 @@ transform-origin: top center;
 <form id="save-later-form-IG"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChamp" required hidden></input><input name="AnsweredQuestions_IG" value="0" type="number" id="AnsweredQuestions_IG" required hidden><input name="CorrectQuestions_IG" value="0" type="number" id="CorrectQuestions_IG" required hidden><input name="PossiblePoints_IG" value="0" type="number" id="PossiblePoints_IG" required hidden><input name="TotalPoints_IG" value="0" type="number" id="TotalPoints_IG" required hidden></input><input name="Wins_IG" value="0" type="number" id="wins_IG" required hidden><input name="Losses_IG" value="0" type="number" id="losses_IG" required hidden><input name="TKOs_IG" value="0" type="number" id="TKOs_IG" required hidden><input name="TKOd_IG" value="0" type="number" id="TKOd_IG" required hidden><input name="KOs_IG" value="0" type="number" id="KOs_IG" required hidden><input name="KOd_IG" value="0" type="number" id="KOd_IG" required hidden></form><button type="submit" id="save" hidden>Save</button></div>
 </body>
 </html>
-);
+`);
 

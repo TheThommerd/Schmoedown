@@ -96,6 +96,7 @@ checkcount++;
 	document.getElementById("checkboxes").style.visibility = "visible";
 }
 function pregame(){
+	document.getElementById("save").click();
         document.getElementById("checkboxes").style.visibility = "hidden";
 	document.getElementById("JTE").style.display = "initial";
 	document.getElementById("time001").style.display = "initial";

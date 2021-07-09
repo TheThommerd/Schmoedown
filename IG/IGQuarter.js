@@ -283,3 +283,8 @@ function lose(){
 		document.getElementById("message006").style.top = "-100px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
+     	$("#message004").keypress(function(event) { 	
+         if (event.keyCode === 13){ 	
+                 $("#submit3").click(); 	
+            } 	
+});

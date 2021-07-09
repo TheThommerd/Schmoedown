@@ -6,7 +6,6 @@
 		var incmusic = document.getElementById("myAudio2"); 
 		document.getElementById("myAudio").volume = 0.1;
 		document.getElementById("myAudio2").volume = 0.05;
-	        document.getElementById("frame001").style.zoom="1.4";
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();

@@ -1,5 +1,4 @@
-document.getElementById("frame001").style.zoom="1.4";
-  var goFS = document.getElementById("goFS");
+var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
   }, false);

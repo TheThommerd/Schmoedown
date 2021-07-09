@@ -1,7 +1,5 @@
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 		document.getElementById("q2").focus();
-	        document.getElementById("frame001").style.zoom="1.4";
-	        document.getElementById("checkboxes").style.zoom="1.5";
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();

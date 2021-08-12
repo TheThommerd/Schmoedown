@@ -1,6 +1,24 @@
 var festivaldarlings = [
 {
 "cat":"Festival Darlings",
+"ques":"Who directed Robin Williams and Jeff Bridges in The Fisher King?",
+"answ":"TERRY GILLIAM",
+"answ2":"Terry Gilliam.",
+},
+{
+"cat":"Festival Darlings",
+"ques":"Which actor plays drifter Graham Dalton, who has a collection of women on videotape in the film Sex, Lies and Videotape?",
+"answ":"JAMES SPADER",
+"answ2":"James Spader.",
+},
+{
+"cat":"Festival Darlings",
+"ques":"Which Oscar nominee plays Julietta Paxton, a soccer player for the Hounslow Harriers in the film Bend It Like Beckham?",
+"answ":"KEIRA KNIGHTLEY",
+"answ2":"Keira Knightley.",
+},
+{
+"cat":"Festival Darlings",
 "ques":"In the John Carroll Lynch film Lucky, who plays the titular character Lucky?",
 "answ":"HARRY DEAN STANTON",
 "answ2":"Harry Dean Stanton.",

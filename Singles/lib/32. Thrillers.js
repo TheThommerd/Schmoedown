@@ -7,6 +7,68 @@ var thrillers = [
 },
 {
 "cat":"Thrillers",
+"ques":"Who plays the idealistic FBI agent Kate Macer in 2015's Sicario?",
+"answ":"EMILY BLUNT",
+"answ2":"Emily Blunt.",
+},
+{
+"cat":"Thrillers",
+"ques":"Who wrote and directed Promising Young Woman?",
+"answ":"EMERALD FENNELL",
+"answ3":"EMERALD FENELL",
+"answ2":"Emerald Fennell.",
+},
+{
+"cat":"Thrillers",
+"ques":"Which actress stars as the main character Cassandra 'Cassie' Thomas in the film Promising Young Woman?",
+"answ":"CAREY MULLIGAN",
+"answ2":"Carey Mulligan.",
+},
+{
+"cat":"Thrillers",
+"ques":"Which actress plays Dr. Ellie Staple in 2019's Glass?",
+"answ":"SARAH PAULSON",
+"answ2":"Sarah Paulson.",
+},
+{
+"cat":"Thrillers",
+"ques":"Which actress stars as an art gallery owner named Susan Morrow in the 2016 film Nocturnal Animals?",
+"answ":"AMY ADAMS",
+"answ2":"Amy Adams.",
+},
+{
+"cat":"Thrillers",
+"ques":"Which famous musical artist plays a drug addict named Spoon in the 1997 comedy-crime film Gridlock'd?",
+"answ":"TUPAC SHAKUR",
+"answ3":"TUPAC",
+"answ2":"Tupac Shakur.",
+},
+{
+"cat":"Thrillers",
+"ques":"What classic 50s thriller features characters that are referred to as Miss Lonelyhearts, Miss Torso and Miss Hearing Aid?",
+"answ":"REAR WINDOW",
+"answ2":"Rear Window.",
+},
+{
+"cat":"Thrillers",
+"ques":"David Dunn is a man who is the only survivor of a train accident in what 2000 thriller?",
+"answ":"UNBREAKABLE",
+"answ2":"Unbreakable.",
+},
+{
+"cat":"Thrillers",
+"ques":"What Academy Award winning actor plays the lead role of lawyer Michael 'Mickey' Haller in The Lincoln Lawyer?",
+"answ":"MATTHEW MCCONAUGHEY",
+"answ2":"Matthew McConaughey.",
+},
+{
+"cat":"Thrillers",
+"ques":"What 2016 thriller follows a rock band called the 'Ain't Rights', who become witnesses to a murder at a club run by Neo-Nazis?",
+"answ":"GREEN ROOM",
+"answ2":"Green Room.",
+},
+{
+"cat":"Thrillers",
 "ques":"Which actor stars in the thrillers Nick Of Time, The Ninth Gate and From Hell?",
 "answ":"JOHNNY DEPP",
 "answ2":"Johnny Depp.",
@@ -192,7 +254,7 @@ var thrillers = [
 "ques":"What 1962 thriller starring Frank Sinatra and Angela Lansbury follows a prisoner of war who is brainwashed into becoming an assassin for a Communist conspiracy?",
 "answ":"THE MANCHURIAN CANDIDATE",
 "answ3":"MANCHURIAN CANDIDATE",
-"answ2":"he Manchurian Candidate.",
+"answ2":"The Manchurian Candidate.",
 },
 {
 "cat":"Thrillers",
@@ -422,6 +484,22 @@ var r2Q32 = [
 },
 {
 "cat":"Thrillers",
+"ques":"What is the profession of Tom Cruise's character in 2004's Collateral?",
+"answ":"HITMAN",
+"answ3":"ASSASSIN",
+"answ2":"Hitman/Assassin.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Banker</button><button id=incop2 class=buttons003 onclick=qinc()>Taxi Driver</button><button id=corop class=buttons003 onclick=qcor()>Hitman</button><button id=incop4 class=buttons003 onclick=qinc()>Lawyer</button><br/>",
+},
+{
+"cat":"Thrillers",
+"ques":"The character of Hannibal Lecter has appeared in how many theatrically released films?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>3</button><button id=incop2 class=buttons003 onclick=qinc()>4</button><button id=corop class=buttons003 onclick=qcor()>5</button><button id=incop4 class=buttons003 onclick=qinc()>6</button><br/>",
+},
+{
+"cat":"Thrillers",
 "ques":"What actress & music star is featured opposite Sean Penn in 1997's thriller U-Turn?",
 "answ":"JENNIFER LOPEZ",
 "answ2":"Jennifer Lopez.",
@@ -581,6 +659,13 @@ var r2Q32 = [
 },
 {
 "cat":"Thrillers",
+"ques":"Which character actor played Stanley, father of Carey Mulligan's character in Promising Young Woman?",
+"answ":"CLANCY BROWN",
+"answ2":"Clancy Brown.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Clancy Brown</button><button id=incop2 class=buttons003 onclick=qinc()>Oliver Platt</button><button id=incop3 class=buttons003 onclick=qinc()>Bruce Greenwood</button><button id=incop4 class=buttons003 onclick=qinc()>Peter Stormare</button><br/>",
+},
+{
+"cat":"Thrillers",
 "ques":"Who plays David Dunn's wife Audrey in the 2000 superhero thriller Unbreakable?",
 "answ":"ROBIN WRIGHT",
 "answ2":"Robin Wright.",
@@ -714,6 +799,13 @@ var r2Q32 = [
 "answ":"OLDBOY",
 "answ2":"Oldboy.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Oldboy</button><button id=incop2 class=buttons003 onclick=qinc()>Inside Man</button><button id=incop3 class=buttons003 onclick=qinc()>Prisoners</button><button id=incop4 class=buttons003 onclick=qinc()>Homefront</button><br/>",
+},
+{
+"cat":"Thrillers",
+"ques":"Who wrote and directed the 90s thriller The Crying Game starring Stephen Rea?",
+"answ":"NEIL JORDAN",
+"answ2":"Neil Jordan.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Neil Jordan</button><button id=incop2 class=buttons003 onclick=qinc()>Stephen Frears</button><button id=incop3 class=buttons003 onclick=qinc()>Stephen Dalrdy</button><button id=incop4 class=buttons003 onclick=qinc()>Peter Cattaneo</button><br/>",
 },
 ];
 thrillers = shuffle(thrillers);

@@ -7,6 +7,12 @@ var sandrabullock = [
 },
 {
 "cat":"Sandra Bullock",
+"ques":"Which Oscar winning actress plays Sandra Bullock's sister in the 1998 film Practical Magic?",
+"answ":"NICOLE KIDMAN",
+"answ2":"Nicole Kidman.",
+},
+{
+"cat":"Sandra Bullock",
 "ques":"Sandra Bullock plays the character of Gracie Hart in what film?",
 "answ":"MISS CONGENIALITY",
 "answ2":"Miss Congeniality.",

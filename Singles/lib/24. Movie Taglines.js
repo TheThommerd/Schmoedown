@@ -7,6 +7,18 @@ var movietaglines = [
 },
 {
 "cat":"Movie Taglines",
+"ques":"What 2007 comedy has the tagline: 'They're bad boys. They're die hards. They're lethal weapons.'?",
+"answ":"HOT FUZZ",
+"answ2":"Hot Fuzz.",
+},
+{
+"cat":"Movie Taglines",
+"ques":"What 2009 comedy has the following tagline: 'Some guys just can't handle Vegas'?",
+"answ":"THE HANGOVER",
+"answ2":"The Hangover.",
+},
+{
+"cat":"Movie Taglines",
 "ques":"What 80s horror film has the tagline: 'If Nancy doesn't wake up screaming, she won't wake up at all'?",
 "answ":"A NIGHTMARE ON ELM STREET",
 "answ3":"NIGHTMARE ON ELM STREET",

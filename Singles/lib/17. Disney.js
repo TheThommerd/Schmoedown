@@ -1,10 +1,60 @@
 var disney = [
 {
 "cat":"Disney",
+"ques":"What classic Disney animated film is known for the song 'Heigh Ho'?",
+"answ":"SNOW WHITE AND THE SEVEN DWARFS",
+"answ3":"SNOW WHITE",
+"answ2":"Snow White and the Seven Dwarfs.",
+},
+{
+"cat":"Disney",
 "ques":"In Aladdin, what is the name of Jasmine's pet tiger?",
 "answ":"RAJAH",
 "answ3":"RAJA",
 "answ2":"Rajah.",
+},
+{
+"cat":"Disney",
+"ques":"Donnie Yen and Jet Li appear in what 2020 live-action Disney film?",
+"answ":"MULAN",
+"answ2":"Mulan.",
+},
+{
+"cat":"Disney",
+"ques":"Which actress stars as Maggie Peyton in 2005's Herbie Fully Loaded?",
+"answ":"LINDSAY LOHAN",
+"answ2":"Lindsay Lohan.",
+},
+{
+"cat":"Disney",
+"ques":"This Disney film features the line: 'Teenagers. They think they known everything. You give them an inch, they swim all over you.'?",
+"answ":"THE LITTLE MERMAID",
+"answ3":"LITTLE MERMAID",
+"answ2":"The Little Mermaid.",
+},
+{
+"cat":"Disney",
+"ques":"In which 2018 Disney film will you find the hundred-acre woods and hear about creatures known as Heffalumps and Woozles?",
+"answ":"CHRISTOPHER ROBIN",
+"answ2":"Christopher Robin.",
+},
+{
+"cat":"Disney",
+"ques":"'Go the Distance' was nominated for Best Original Song for what 90s Disney film?",
+"answ":"HERCULES",
+"answ2":"Hercules.",
+},
+{
+"cat":"Disney",
+"ques":"What 1998 live-action Disney remake stars Lindsay Lohan, Dennis Quaid and Natasha Richardson?",
+"answ":"THE PARENT TRAP",
+"answ2":"The Parent Trap.",
+},
+{
+"cat":"Disney",
+"ques":"In The Many Adventures of Winne the Pooh, which character says: 'I'm so happy, I feel like bouncing.'?",
+"answ":"TIGGER",
+"answ2":"Tigger.",
 },
 {
 "cat":"Disney",

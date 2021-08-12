@@ -7,6 +7,43 @@ var moviequotes = [
 },
 {
 "cat":"Movie Quotes",
+"ques":"The famously ad-libbed line: 'I'm walking here! I'm walking here!' is from what 1969 movie?",
+"answ":"MIDNIGHT COWBOY",
+"answ2":"Midnight Cowboy.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"Which 2017 horror film features the line: 'By the way, I would have voted for Obama a third term, if I could.'?",
+"answ":"GET OUT",
+"answ2":"Get Out.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"What 90s historical epic is known for the line: 'They may take our lives, but they'll never take our freedom'?",
+"answ":"BRAVEHEART",
+"answ2":"Braveheart.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"What film from director Oliver Stone has the following line: 'Life all comes down to a few moments. This is one of them.'?",
+"answ":"WALL STREET",
+"answ2":"Wall Street.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"In what 90s film does Tom Cruise say the line: 'Help me help you'?",
+"answ":"JERRY MAGUIRE",
+"answ2":"Jerry Maguire.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"What classic film coined the line: 'There's no place like home'?",
+"answ":"THE WIZARD OF OZ",
+"answ3":"WIZARD OF OZ",
+"answ2":"The Wizard of Oz.",
+},
+{
+"cat":"Movie Quotes",
 "ques":"What 1933 classic adventure film coined the line 'It wasn't the airplanes. It was Beauty killed the Beast'?",
 "answ":"KING KONG",
 "answ2":"King Kong.",

@@ -7,6 +7,37 @@ var slyarnie = [
 },
 {
 "cat":"Sly & Arnie",
+"ques":"In what action film does Arnold Schwarzenegger say the line: 'I eat Green Berets for breakfast. And right now. I'm very hungry.'?",
+"answ":"COMMANDO",
+"answ2":"Commando.",
+},
+{
+"cat":"Sly & Arnie",
+"ques":"Who played Cash in Tango & Cash?",
+"answ":"KURT RUSSELL",
+"answ2":"Kurt Russell.",
+},
+{
+"cat":"Sly & Arnie",
+"ques":"What 90s action film starring Arnold Schwarzenegger has the tagline: 'When he said I do, he never said what he did'?",
+"answ":"TRUE LIES",
+"answ2":"True Lies.",
+},
+{
+"cat":"Sly & Arnie",
+"ques":"Who co-starred as Arnold Schwarzenegger's unlikely brother in the comedy Twins?",
+"answ":"DANNY DEVITO",
+"answ2":"Danny DeVito.",
+},
+{
+"cat":"Sly & Arnie",
+"ques":"How many Rocky movies were released in the 80s?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+},
+{
+"cat":"Sly & Arnie",
 "ques":"Who played Arnie's daughter Maggie, in the film Maggie?",
 "answ":"ABIGAIL BRESLIN",
 "answ2":"Abigail Breslin.",
@@ -464,14 +495,6 @@ var r2Q26 = [
 "answ3":"LAST STAND",
 "answ2":"The Last Stand.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>The Last Stand</button><button id=incop2 class=buttons003 onclick=qinc()>Aftermath</button><button id=incop3 class=buttons003 onclick=qinc()>Killing Gunther</button><button id=incop4 class=buttons003 onclick=qinc()>Maggie</button><br/>",
-},
-{
-"cat":"Sly & Arnie",
-"ques":"In Rocky III, in what round did Rocky Balboa knock out his opponent Clubber Lang in their championship rematch?",
-"answ":"ROUND 3",
-"answ3":"THIRD ROUND",
-"answ2":"Round 3.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Round One</button><button id=incop2 class=buttons003 onclick=qinc()>Round Two</button><button id=corop class=buttons003 onclick=qcor()>Round Three</button><button id=incop4 class=buttons003 onclick=qinc()>Round Four</button><br/>",
 },
 {
 "cat":"Sly & Arnie",

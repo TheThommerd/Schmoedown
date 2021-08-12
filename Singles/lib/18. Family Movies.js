@@ -1,9 +1,109 @@
 var familyfilms = [
 {
 "cat":"Family Films",
+"ques":"Joe Johnston made his directorial debut on what 1989 comedic sci-fi film starring Rick Moranis?",
+"answ":"HONEY I SHRUNK THE KIDS",
+"answ2":"Honey I Shrunk the Kids.",
+},
+{
+"cat":"Family Films",
+"ques":"In which family film does Jim Carrey star opposite Carla Gugino, Angela Lansbury and Clark Gregg?",
+"answ":"MR POPPER'S PENGUINS",
+"answ3":"MR POPPERS PENGUINS",
+"answ2":"Mr. Popper's Penguins.",
+},
+{
+"cat":"Family Films",
+"ques":"Who starred in the live-action Disney films The Game Plan and The Tooth Fairy?",
+"answ":"DWAYNE JOHNSON",
+"answ3":"THE ROCK",
+"answ2":"Dwayne Johnson.",
+},
+{
+"cat":"Family Films",
+"ques":"Which actor starred in the 1960s family films Mary Poppins and Chitty Chitty Bang Bang?",
+"answ":"DICK VAN DYKE",
+"answ2":"Dick van Dyke.",
+},
+{
+"cat":"Family Films",
+"ques":"What Oscar-winning actress voices Sassy the cat in 1993's Homeward Bound: The Incredible Journey?",
+"answ":"SALLY FIELD",
+"answ2":"Sally Field.",
+},
+{
+"cat":"Family Films",
+"ques":"The characters of Alex Pruitt, Uncle Frank and Marv appear in what family franchise?",
+"answ":"HOME ALONE",
+"answ2":"Home Alone.",
+},
+{
+"cat":"Family Films",
+"ques":"What 2015 film follows a young Peruvian bear who travels to London in search of a home, then meets the kindly Brown family?",
+"answ":"PADDINGTON",
+"answ2":"Paddington.",
+},
+{
+"cat":"Family Films",
 "ques":"What Jodie Foster classic was remade starring Lindsay Lohan in her role?",
 "answ":"FREAKY FRIDAY",
 "answ2":"Freaky Friday.",
+},
+{
+"cat":"Family Films",
+"ques":"What film has the tagline: 'A 12-year-old street kid. A 3 ton orca whale. A friendship you could never imagine. An adventure you'll never forget.'?",
+"answ":"FREE WILLY",
+"answ2":"Free Willy.",
+},
+{
+"cat":"Family Films",
+"ques":"Jason Lee provides the voice of a beagle dog with superpowers in what 2007 live-action family film based on a TV cartoon?",
+"answ":"UNDERDOG",
+"answ2":"Underdog.",
+},
+{
+"cat":"Family Films",
+"ques":"Paul Hogan and Elijah Wood star in what 1996 film about a boy who has to spend the summer with his uncle, only to make an unusual friend?",
+"answ":"FLIPPER",
+"answ2":"Flipper.",
+},
+{
+"cat":"Family Films",
+"ques":"What kids-sports film involves a neighborhood dog nicknamed 'The Beast'?",
+"answ":"THE SANDLOT",
+"answ2":"The Sandlot.",
+},
+{
+"cat":"Family Films",
+"ques":"Walter Matthau plays Mr. Wilson in what 1993 film based on a classic comic-strip character?",
+"answ":"DENNIS THE MENACE",
+"answ2":"Dennis the Menace.",
+},
+{
+"cat":"Family Films",
+"ques":"Jack Black, Emily Blunt, Jason Segel and Amanda Peet all appear in what 2010 comedic family film?",
+"answ":"GULLIVER'S TRAVELS",
+"answ3":"GULLIVERS TRAVELS",
+"answ2":"Gulliver's Travels.",
+},
+{
+"cat":"Family Films",
+"ques":"What 2009 film directed by Spike Jonze is about a boy who travels to an island of talking creatures who make him their king?",
+"answ":"WHERE THE WILD THINGS ARE",
+"answ2":"Where The Wild Things Are.",
+},
+{
+"cat":"Family Films",
+"ques":"Which MCU actress stars as a nanny for a rich New York family in The Nanny Diaries?",
+"answ":"SCARLETT JOHANSSON",
+"answ3":"SCARLETT JOHANSON",
+"answ2":"Scarlett Johansson.",
+},
+{
+"cat":"Family Films",
+"ques":"Ben Schwartz provides the voice of the title character in what 2020 family film, which was based on a video game?",
+"answ":"SONIC THE HEDGEHOG",
+"answ2":"Sonic the Hedgehog.",
 },
 {
 "cat":"Family Films",
@@ -732,7 +832,7 @@ var r2Q18 = [
 "ques":"What actor falls madly in love with Miss Piggy in The Great Muppet Caper?",
 "answ":"CHARLES GRODIN",
 "answ2":"Charles Grodin.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Charles Grodin</button><button id=incop2 class=buttons003 onclick=qinc()>John Cleese</button><button id=incop3 class=buttons003 onclick=qinc()>Michael Caine </button><button id=incop4 class=buttons003 onclick=qinc()>Chris Cooper</button><br/>",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Charles Grodin</button><button id=incop2 class=buttons003 onclick=qinc()>John Cleese</button><button id=incop3 class=buttons003 onclick=qinc()>Michael Caine</button><button id=incop4 class=buttons003 onclick=qinc()>Chris Cooper</button><br/>",
 },
 ];
 familyfilms = shuffle(familyfilms);

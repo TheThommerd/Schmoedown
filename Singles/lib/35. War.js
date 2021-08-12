@@ -1,9 +1,28 @@
 var war = [
 {
 "cat":"War",
+"ques":"During which war do the events of 2007's Rescue Dawn, starring Christian Bale, take place?",
+"answ":"VIETNAM WAR",
+"answ3":"VIETNAM",
+"answ2":"Vietnam War.",
+},
+{
+"cat":"War",
+"ques":"Who directed the war film 13 Hours: The Secret Soldiers of Benghazi?",
+"answ":"MICHAEL BAY",
+"answ2":"Michael Bay.",
+},
+{
+"cat":"War",
 "ques":"Who directed The Great Escape?",
 "answ":"JOHN STURGES",
 "answ2":"John Sturges.",
+},
+{
+"cat":"War",
+"ques":"Nicole Kidman and Hugh Jackman co-star in what 2008 war drama?",
+"answ":"AUSTRALIA",
+"answ2":"Australia.",
 },
 {
 "cat":"War",
@@ -407,6 +426,34 @@ var r2Q35 = [
 "answ3":"SERGEANT FIRST CLASS",
 "answ2":"Sergeant First Class.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Captain</button><button id=incop2 class=buttons003 onclick=qinc()>Major General</button><button id=incop3 class=buttons003 onclick=qinc()>Lieutenant Colonel</button><button id=corop class=buttons003 onclick=qcor()>Sergeant First Class</button><br/>",
+},
+{
+"cat":"War",
+"ques":"What classic war film won seven Oscars including Best Actor, Best Original Screenplay and Best Director?",
+"answ":"PATTON",
+"answ2":"Patton.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>All Quiet on the Western Front</button><button id=incop2 class=buttons003 onclick=qinc()>Sands of Iwo Jima</button><button id=incop3 class=buttons003 onclick=qinc()>Where Eagles Dare</button><button id=corop class=buttons003 onclick=qcor()>Patton</button><br/>",
+},
+{
+"cat":"War",
+"ques":"The 2006 movie Flyboys follows the escapades of volunteer American aviators during which war?",
+"answ":"WORLD WAR I",
+"answ2":"World War I.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Iraq War</button><button id=incop2 class=buttons003 onclick=qinc()>Vietnam War</button><button id=incop3 class=buttons003 onclick=qinc()>World War II</button><button id=corop class=buttons003 onclick=qcor()>World War I</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Who directed Black Hawk Down?",
+"answ":"RIDLEY SCOTT",
+"answ2":"Ridley Scott.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Terrence Malick</button><button id=incop2 class=buttons003 onclick=qinc()>Tony Scott</button><button id=incop3 class=buttons003 onclick=qinc()>Robert Zemeckis</button><button id=corop class=buttons003 onclick=qcor()>Ridley Scott</button><br/>",
+},
+{
+"cat":"War",
+"ques":"What is the military rank of Tom Hanks' character in the war film Greyhound?",
+"answ":"COMMANDER",
+"answ2":"Commander.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>General</button><button id=incop2 class=buttons003 onclick=qinc()>Lieutenant</button><button id=incop3 class=buttons003 onclick=qinc()>Major</button><button id=corop class=buttons003 onclick=qcor()>Commander</button><br/>",
 },
 ];
 war = shuffle(war);

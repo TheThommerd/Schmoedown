@@ -1,9 +1,53 @@
 var romance = [
 {
 "cat":"Romance",
+"ques":"Who plays Alex, the main love interest of Sandra Bullock's character in The Lake House?",
+"answ":"KEANUE REEVES",
+"answ2":"Keanu Reeves.",
+},
+{
+"cat":"Romance",
+"ques":"Which actress starred in the romantic dramas Hope Floats and The Lake House?",
+"answ":"SANDRA BULLOCK",
+"answ2":"Sandra Bullock.",
+},
+{
+"cat":"Romance",
+"ques":"Kyle Chandler plays Cate Blanchett's estranged husband in what film by director Todd Haynes?",
+"answ":"CAROL",
+"answ2":"Carol.",
+},
+{
+"cat":"Romance",
 "ques":"Which actor plays the leading role in Definitely Maybe?",
 "answ":"RYAN REYNOLDS",
 "answ2":"Ryan Reynolds.",
+},
+{
+"cat":"Romance",
+"ques":"In what film does a mute woman fall in love with an amphibious creature that is being held in captivity?",
+"answ":"THE SHAPE OF WATER",
+"answ3":"SHAPE OF WATER",
+"answ2":"The Shape of Water.",
+},
+{
+"cat":"Romance",
+"ques":"Who plays the older version of Noah in The Notebook?",
+"answ":"JAMES GARNER",
+"answ2":"James Garner.",
+},
+{
+"cat":"Romance",
+"ques":"Greg Berlanti directed Nick Robinson in what 2018 romance film about a teenage boy who begins communicating with someone named Blue?",
+"answ":"LOVE SIMON",
+"answ3":"LOVE, SIMON",
+"answ2":"Love, Simon.",
+},
+{
+"cat":"Romance",
+"ques":"Which Game of Thrones actress star as a young woman who falls for a paralyzed man, in the 2016 film Me Before You?",
+"answ":"EMILIA CLARKE",
+"answ2":"Emilia Clarke.",
 },
 {
 "cat":"Romance",

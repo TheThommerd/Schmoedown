@@ -7,6 +7,18 @@ var mcconaughey = [
 },
 {
 "cat":"Matthew McConaughey",
+"ques":"Who plays Matthew McConaughey's co-lead in Fool's Gold?",
+"answ":"KATE HUDSON",
+"answ2":"Kate Hudson.",
+},
+{
+"cat":"Matthew McConaughey",
+"ques":"Who directed Matthew McConaughey and Jack Black in the 2012 crime comedy Bernie?",
+"answ":"RICHARD LINKLATER",
+"answ2":"Richard Linklater.",
+},
+{
+"cat":"Matthew McConaughey",
 "ques":"Matthew McConaughey and Christian Bale star in what 2000s film where the earth is overrun with dragons?",
 "answ":"REIGN OF FIRE",
 "answ2":"Reign of Fire.",

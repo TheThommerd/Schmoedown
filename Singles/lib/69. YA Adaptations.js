@@ -7,6 +7,12 @@ var yaadaptations = [
 },
 {
 "cat":"YA Adaptations",
+"ques":"Saoirse Ronan, Jake Abel and Max Irons star in what 2013 YA sci-fi thriller?",
+"answ":"THE HOST",
+"answ2":"The Host.",
+},
+{
+"cat":"YA Adaptations",
 "ques":"Who played the lead character, Beatrice 'Tris' Prior, in the Divergent films?",
 "answ":"SHAILENE WOODLEY",
 "answ3":"SHAYLENE WOODLEY",

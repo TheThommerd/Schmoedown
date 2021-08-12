@@ -1,9 +1,41 @@
 var adamsandler = [
 {
 "cat":"Adam Sandler",
+"ques":"The Great Khali made his big screen debut in what 2005 Adam Sandler sports film?",
+"answ":"THE LONGEST YARD",
+"answ3":"LONGEST YARD",
+"answ2":"The Longest Yard.",
+},
+{
+"cat":"Adam Sandler",
+"ques":"What screen legend plays coach Nate Scarborough opposite Adam Sandler in 2005's The Longest Yard?",
+"answ":"BURT REYNOLDS",
+"answ2":"Burt Reynolds.",
+},
+{
+"cat":"Adam Sandler",
 "ques":"What Oscar-nominated actor plays Adam Sandler's son at 17 years old in Click?",
 "answ":"JONAH HILL",
 "answ2":"Jonah Hill.",
+},
+{
+"cat":"Adam Sandler",
+"ques":"Reese Witherspoon, Carl Weathers, Harvey Keitel and Rhys Ifans appear in what Adam Sandler film?",
+"answ":"LITTLE NICKY",
+"answ2":"Little Nicky.",
+},
+{
+"cat":"Adam Sandler",
+"ques":"In what Adam Sandler film will you find the character Jim Friedman, who names one of his daughters after the ESPN channel?",
+"answ":"BLENDED",
+"answ2":"Blended.",
+},
+{
+"cat":"Adam Sandler",
+"ques":"Which 90s comedy starring Adam Sandler has the tagline: 'He's gonna party like it's 1985.'?",
+"answ":"THE WEDDING SINGER",
+"answ3":"WEDDING SINGER",
+"answ2":"The Wedding Singer.",
 },
 {
 "cat":"Adam Sandler",

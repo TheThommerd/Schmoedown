@@ -7,6 +7,25 @@ var comingofage = [
 },
 {
 "cat":"Coming of Age",
+"ques":"Who plays Hailee Steinfeld's brother in The Edge of Seventeen?",
+"answ":"BLAKE JENNER",
+"answ2":"Blake Jenner.",
+},
+{
+"cat":"Coming of Age",
+"ques":"Carey Mulligan stars as a teenage girl growing up in 1960s London who begins a relationship with an older man in what 2010 film?",
+"answ":"AN EDUCATION",
+"answ2":"An Education.",
+},
+{
+"cat":"Coming of Age",
+"ques":"In 1979's Breaking Away, four working class teens face off against snobby university students in what sport?",
+"answ":"CYCLING",
+"answ3":"COMPETITIVE CYCLING",
+"answ2":"Cycling.",
+},
+{
+"cat":"Coming of Age",
 "ques":"In what 1973 George Lucas film can you find the stars Ron Howard, Harrison Ford and Richard Dreyfuss?",
 "answ":"AMERICAN GRAFFITI",
 "answ3":"AMERICAN GRAFITI",

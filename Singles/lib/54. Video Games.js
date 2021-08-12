@@ -7,6 +7,18 @@ var videogames = [
 },
 {
 "cat":"Video Game Movies",
+"ques":"Simon McQuoid directed what 2021 action film that stars Lewis Tan and is based on a popular video game franchise?",
+"answ":"MORTAL KOMBAT",
+"answ2":"Mortal Kombat.",
+},
+{
+"cat":"Video Game Movies",
+"ques":"Duncan Jones directed what 2016 video game film starring Paula Patton, Toby Kebbell, Ben Foster and Dominic Cooper?",
+"answ":"WARCRAFT",
+"answ2":"Warcraft.",
+},
+{
+"cat":"Video Game Movies",
 "ques":"Who plays the villainous Doctor Eggman in the 2020 theatrical release, Sonic the Hedgehog?",
 "answ":"JIM CARREY",
 "answ2":"Jim Carrey.",

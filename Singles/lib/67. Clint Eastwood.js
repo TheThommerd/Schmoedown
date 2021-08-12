@@ -1,6 +1,13 @@
 var r2Q67 = [
 {
 "cat":"Clint Eastwood",
+"ques":"Who plays the villainous Mitch Leary who is taunting Clint Eastwood's Frank Horrigan in the film In the Line of Fire?",
+"answ":"JOHN MALKOVICH",
+"answ2":"John Malkovich.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Peter Stormare</button><button id=incop2 class=buttons003 onclick=qinc()>Ed Harris</button><button id=incop3 class=buttons003 onclick=qinc()>Clancy Brown</button><button id=corop class=buttons003 onclick=qcor()>John Malkovich</button><br/>",
+},
+{
+"cat":"Clint Eastwood",
 "ques":"In 2018's The Mule, who played Mary, Clint Eastwood's character's ex-wife?",
 "answ":"DIANNE WIEST",
 "answ2":"Dianne Wiest.",

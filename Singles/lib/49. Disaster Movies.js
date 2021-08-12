@@ -1,9 +1,72 @@
 var disastermovies = [
 {
 "cat":"Disaster Movies",
+"ques":"Jake Gyllenhaal, Dennis Quaid and Emmy Rossum star together in what 2000s disaster film?",
+"answ":"THE DAY AFTER TOMORROW",
+"answ3":"DAY AFTER TOMORROW",
+"answ2":"The Day After Tomorrow.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"What 2000 film starring George Clooney tells the story of a 1991 killer storm that catches the sword-fishing boat Andrea Gail?",
+"answ":"THE PERFECT STORM",
+"answ2":"The Perfect Storm.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Gene Hackman plays Reverend Scott in what 1972 disaster film?",
+"answ":"THE POSEIDON ADVENTURE",
+"answ3":"POSEIDON ADVENTURE",
+"answ2":"The Poseidon Adventure.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Medical Services chief Kit Latura has to save a group of people trapped in a New Jersey tunnel in what 1996 disaster film?",
+"answ":"DAYLIGHT",
+"answ2":"Daylight.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"In what film does Earth have 18 days until an asteroid hits it, eliminating life as we know it?",
+"answ":"ARMAGEDDON",
+"answ2":"Armageddon.",
+},
+{
+"cat":"Disaster Movies",
 "ques":"In 1996's Twister, the new device designed to gather data from tornadoes is named after what fictional character?",
 "answ":"DOROTHY",
 "answ2":"Dorothy.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who plays BP manager Donald Vidrine, who orders the well to be flowed in Deepwater Horizon?",
+"answ":"JOHN MALKOVICH",
+"answ2":"John Malkovich.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who co-stars alongside Bill Paxton as Dr. Jo Harding in 1996's Twister?",
+"answ":"HELEN HUNT",
+"answ2":"Helent Hunt.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who directed Dwayne Johnson in 2018's Skyscraper?",
+"answ":"RAWSON MARSHALL THURBER",
+"answ3":"RAWSON THURBER",
+"answ2":"Rawson Marshall Thurber.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who directed the 1998 reimagining of Godzilla?",
+"answ":"ROLAND EMMERICH",
+"answ2":"Roland Emmerich.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who plays Grace, the daughter of Bruce Willis' character in Armageddon?",
+"answ":"LIV TYLER",
+"answ2":"Liv Tyler.",
 },
 {
 "cat":"Disaster Movies",

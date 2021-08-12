@@ -7,6 +7,18 @@ var denzelwashington = [
 },
 {
 "cat":"Denzel Washington",
+"ques":"Denzel Washington plays coach Herman Boone in what football film?",
+"answ":"REMEMBER THE TITANS",
+"answ2":"Remember The Titans.",
+},
+{
+"cat":"Denzel Washington",
+"ques":"Who plays Denzel's partner Detective Jonesy in the 1998 supernatural horror crime thriller Fallen?",
+"answ":"JOHN GOODMAN",
+"answ2":"John Goodman.",
+},
+{
+"cat":"Denzel Washington",
 "ques":"Denzel Washington reprised the role of Robert McCall in what 2018 action-sequel?",
 "answ":"THE EQUALIZER 2",
 "answ3":"EQUALIZER 2",
@@ -332,6 +344,13 @@ var r2Q48 = [
 "answ3":"RUSSELL CROW",
 "answ2":"Russell Crowe.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Adrien Brody</button><button id=incop2 class=buttons003 onclick=qinc()>Jamie Foxx</button><button id=incop3 class=buttons003 onclick=qinc()>Sean Penn</button><button id=corop class=buttons003 onclick=qcor()>Russell Crowe</button><br/>",
+},
+{
+"cat":"Denzel Washington",
+"ques":"Which Academy Award winning actress plays Eva Mae Fisher, Antwone's mother in Antwone Fisher?",
+"answ":"VIOLA DAVIS",
+"answ2":"Viola Davis.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Angela Bassett</button><button id=incop2 class=buttons003 onclick=qinc()>Octavia Spencer</button><button id=incop3 class=buttons003 onclick=qinc()>Kerry Washington</button><button id=corop class=buttons003 onclick=qcor()>Viola Davis</button><br/>",
 },
 {
 "cat":"Denzel Washington",

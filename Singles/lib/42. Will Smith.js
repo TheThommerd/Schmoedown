@@ -7,6 +7,24 @@ var willsmith = [
 },
 {
 "cat":"Will Smith",
+"ques":"Fred Schepisi directed Will Smith in what 1993 drama featuring Ian McKellen?",
+"answ":"SIX DEGREES OF SEPARATION",
+"answ2":"Six Degrees of Separation.",
+},
+{
+"cat":"Will Smith",
+"ques":"Will Smith voices Oscar in which animated feature?",
+"answ":"SHARK TALE",
+"answ2":"Shark Tale.",
+},
+{
+"cat":"Will Smith",
+"ques":"In what 2013 film does Will Smith appear with his son Jaden?",
+"answ":"AFTER EARTH",
+"answ2":"After Earth.",
+},
+{
+"cat":"Will Smith",
 "ques":"Who plays Edward 'Brill' Lyle, a former communications expert, who helps Will Smiths's character untangle a government coverup in Enemy of the State?",
 "answ":"GENE HACKMAN",
 "answ2":"Gene Hackman.",

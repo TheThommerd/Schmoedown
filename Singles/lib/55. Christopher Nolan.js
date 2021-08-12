@@ -13,6 +13,12 @@ var christophernolan = [
 },
 {
 "cat":"Christopher Nolan",
+"ques":"Which actor plays Mr. Dawson, a civilian sailor that tries to save lives in Dunkirk?",
+"answ":"MARK RYLANCE",
+"answ2":"Mark Rylance.",
+},
+{
+"cat":"Christopher Nolan",
 "ques":"In which Nolan film will you find a ship named Endurance?",
 "answ":"INTERSTELLAR",
 "answ2":"Interstellar.",
@@ -443,6 +449,21 @@ var r2Q55 = [
 "answ":"TOM WILKINSON",
 "answ2":"Tom Wilkinson.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Ken Watanabe</button><button id=corop class=buttons003 onclick=qcor()>Tom Wilkinson</button><button id=incop3 class=buttons003 onclick=qinc()>John Doman</button><button id=incop4 class=buttons003 onclick=qinc()>Eric Roberts</button><br/>",
+},
+{
+"cat":"Christopher Nolan",
+"ques":"In Inception, Ariadne's totem is a slightly hollowed out chess piece, what chess piece is it?",
+"answ":"BISHOP",
+"answ2":"Bishop.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>King</button><button id=corop class=buttons003 onclick=qcor()>Bishop</button><button id=incop3 class=buttons003 onclick=qinc()>Queen</button><button id=incop4 class=buttons003 onclick=qinc()>Rook</button><br/>",
+},
+{
+"cat":"Christopher Nolan",
+"ques":"In The Prestige, Michael Caine's character explains that every great magic trick has how many parts?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>2</button><button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop3 class=buttons003 onclick=qinc()>4</button><button id=incop4 class=buttons003 onclick=qinc()>5</button><br/>",
 },
 ];
 christophernolan = shuffle(christophernolan);

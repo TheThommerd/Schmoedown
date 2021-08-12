@@ -1,9 +1,55 @@
 var pixar = [
 {
 "cat":"Pixar",
+"ques":"The Pixar film Coco takes place in the town of Santa Cecilia in what Latin country?",
+"answ":"MEXICO",
+"answ2":"Mexico.",
+},
+{
+"cat":"Pixar",
+"ques":"What Pixar film is known for the line: 'We should lock the door and scream that curse word we know. It's a good one.'?",
+"answ":"INSIDE OUT",
+"answ2":"Inside Out.",
+},
+{
+"cat":"Pixar",
+"ques":"In Cars, Sally runs the Cozy Cone Motel and does what other job in town as well?",
+"answ":"ATTORNEY",
+"answ3":"LAWYER",
+"answ2":"Attorney.",
+},
+{
+"cat":"Pixar",
+"ques":"In Toy Story 4, which actress voices the antagonist of the film Gabby Gabby?",
+"answ":"CHRISTINA HENDRICKS",
+"answ3":"CHRISTINA HENDRIKS",
+"answ2":"Christina Hendricks.",
+},
+{
+"cat":"Pixar",
+"ques":"In Onward, who voices Laurel Lightfoot, Ian and Barley's mother?",
+"answ":"JULIA LOUIS DREYFUS",
+"answ3":"JULIA DREYFUS",
+"answ2":"Julia Louis-Dreyfus.",
+},
+{
+"cat":"Pixar",
 "ques":"What is the name of the robot that Wall-E falls for and chases across the galaxy?",
 "answ":"EVE",
 "answ2":"EVE.",
+},
+{
+"cat":"Pixar",
+"ques":"You'll find the voice talents of Steve Zahn and Anna Paquin in what Pixar film?",
+"answ":"THE GOOD DINOSAUR",
+"answ3":"GOOD DINOSAUR",
+"answ2":"The Good Dinosaur.",
+},
+{
+"cat":"Pixar",
+"ques":"Tom Holland and Chris Pratt portray brothers in what 2020 Pixar film?",
+"answ":"ONWARD",
+"answ2":"Onward.",
 },
 {
 "cat":"Pixar",

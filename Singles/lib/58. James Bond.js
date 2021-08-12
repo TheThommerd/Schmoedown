@@ -7,6 +7,12 @@ var jamesbond = [
 },
 {
 "cat":"James Bond",
+"ques":"Who plays James Bond in the 1983 film Never Say Never Again?",
+"answ":"SEAN CONNERY",
+"answ2":"Sean Connery.",
+},
+{
+"cat":"James Bond",
 "ques":"What was the second film that Roger Moore played Bond in?",
 "answ":"THE MAN WITH THE GOLDEN GUN",
 "answ3":"MAN WITH THE GOLDEN GUN",
@@ -661,6 +667,13 @@ var r2Q58 = [
 "answ":"GOLF",
 "answ2":"Golf.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Golf</button><button id=incop2 class=buttons003 onclick=qinc()>Croquet</button><button id=incop3 class=buttons003 onclick=qinc()>Pool</button><button id=incop4 class=buttons003 onclick=qinc()>Tennis</button><br/>",
+},
+{
+"cat":"James Bond",
+"ques":"James Bond famously drives what brand of car in the film Goldfinger?",
+"answ":"ASTON MARTIN",
+"answ2":"Aston Martin.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Aston Martin</button><button id=incop2 class=buttons003 onclick=qinc()>Ferrari</button><button id=incop3 class=buttons003 onclick=qinc()>Porsche</button><button id=incop4 class=buttons003 onclick=qinc()>Audi</button><br/>",
 },
 ];
 jamesbond = shuffle(jamesbond);

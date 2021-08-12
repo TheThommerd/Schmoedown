@@ -84,12 +84,6 @@ var fivepointer001 = [
 },
 {
 "cat":"80s",
-"ques":"In which sci-fi drama does Karen Allen play a widower named Jenny Hayden?",
-"answ":"STARMAN",
-"answ2":"Starman.",
-},
-{
-"cat":"80s",
 "ques":"In Ferris Bueller's Day Off, Ferris and his friends borrowed Cameron's father's prize car. What kind of car was it?",
 "answ":"FERRARI",
 "answ2":"Ferrari.",
@@ -152,6 +146,13 @@ var fivepointer001 = [
 "answ":"GILLIAN ARMSTRONG",
 "answ3":"GILIAN ARMSTRONG",
 "answ2":"Gillian Armstrong.",
+},
+{
+"cat":"90s",
+"ques":"In what 1998 comedy do Albert Brooks, Julie Kavner and Ellen DeGeneres lend their voices to live-action animals?",
+"answ":"DOCTOR DOLITTLE",
+"answ3":"DR DOLITTLE",
+"answ2":"Dr. Dolittle.",
 },
 {
 "cat":"90s",
@@ -258,6 +259,12 @@ var fivepointer001 = [
 },
 {
 "cat":"2000s",
+"ques":"In 2006's Annapolis, James Franco plays a young man who enrolls in the Naval Academy and participates in a tournament of what sport?",
+"answ":"BOXING",
+"answ2":"Boxing.",
+},
+{
+"cat":"2000s",
 "ques":"Who plays Emile Mondavarious, the owner of Spooky Island, in 2002's Scooby-Doo?",
 "answ":"ROWAN ATKINSON",
 "answ2":"Rowan Atkinson.",
@@ -273,12 +280,6 @@ var fivepointer001 = [
 "ques":"Which actor plays investigator Frank Levin that assists Mickey Haller in The Lincoln Lawyer?",
 "answ":"WILLIAM H MACY",
 "answ2":"William H. Macy.",
-},
-{
-"cat":"2000s",
-"ques":"What famous comedic actor plays the eccentric billionaire who funds the race between strangers in 2001's Rat Race?",
-"answ":"JOHN CLEESE",
-"answ2":"John Cleese.",
 },
 {
 "cat":"2000s",
@@ -411,6 +412,13 @@ var fivepointer001 = [
 },
 {
 "cat":"Action/Adventure",
+"ques":"In 1984's Red Dawn, who plays Lieutenant Colonel Andrew 'Andy' Tanner that meets the Wolverines after being shot down by a jet fighter?",
+"answ":"POWERS BOOTHE",
+"answ3":"POWERS BOOTH",
+"answ2":"Powers Boothe.",
+},
+{
+"cat":"Action/Adventure",
 "ques":"In the National Treasure franchise, who plays Agent Sadusky, who is always right on the heels of Nicolas Cage's Benjamin Gates?",
 "answ":"HARVEY KEITEL",
 "answ2":"Harvey Keitel.",
@@ -456,7 +464,7 @@ var fivepointer001 = [
 "answ2":"Gary Busey.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"James Bond",
 "ques":"The Bond girl Pussy Galore appears in what Bond movie?",
 "answ":"GOLDFINGER",
 "answ2":"Goldfinger.",
@@ -608,6 +616,19 @@ var fivepointer001 = [
 "ques":"What 2007 film follows a character named DJ Williams, who attends Truth University after being sent to live with his uncle in Atlanta, Georgia?",
 "answ":"STOMP THE YARD",
 "answ2":"Stomp the Yard.",
+},
+{
+"cat":"Black Cinema",
+"ques":"Who plays Christopher Anton 'Cavi' Vichon, a cabby and secret rapper, who later befriends Dre in the 2002 film Brown Sugar?",
+"answ":"MOS DEF",
+"answ2":"Mos Def.",
+},
+{
+"cat":"Black Cinema",
+"ques":"Malcolm D. Lee made his directorial debut with what 1999 rom-com featuring Monica Calhoun and Terrence Howard?",
+"answ":"THE BEST MAN",
+"answ3":"BEST MAN",
+"answ2":"The Best Man.",
 },
 {
 "cat":"Black Cinema",
@@ -848,6 +869,12 @@ var fivepointer001 = [
 },
 {
 "cat":"Comic Book Movies",
+"ques":"Who stars as Ashe Corven, the latest person to be resurrected by the spirit of the crow, in the film The Crow: City of Angels?",
+"answ":"VINCENT PEREZ",
+"answ2":"Vincent Pérez.",
+},
+{
+"cat":"Comic Book Movies",
 "ques":"Who directed X-Men: Dark Phoenix?",
 "answ":"SIMON KINBERG",
 "answ2":"Simon Kinberg.",
@@ -864,6 +891,12 @@ var fivepointer001 = [
 "answ":"SNAKE",
 "answ3":"A SNAKE",
 "answ2":"Snake.",
+},
+{
+"cat":"Comic Book Movies",
+"ques":"In Thor, what is the name of the realm that the Frost Giants are from?",
+"answ":"JOTUNHEIM",
+"answ2":"Jotunheim.",
 },
 {
 "cat":"Comic Book Movies",
@@ -1002,6 +1035,12 @@ var fivepointer001 = [
 "answ":"GIL",
 "answ3":"GILL",
 "answ2":"Gil.",
+},
+{
+"cat":"Comedies",
+"ques":"Leslie Nielsen plays the President of the United States, Baxter Harris in what 2003 spoof film featuring Queen Latifah, George Carlin and Ja Rule?",
+"answ":"SCARY MOVIE 3",
+"answ2":"Scary Movie 3.",
 },
 {
 "cat":"Comedies",
@@ -1434,10 +1473,23 @@ var fivepointer001 = [
 "answ2":"Ben-Hur.",
 },
 {
+"cat":"Disney",
+"ques":"What 1950s animated Disney film features the supporting characters Jock, Trusty and Peg?",
+"answ":"LADY AND THE TRAMP",
+"answ2":"Lady and the Tramp.",
+},
+{
 "cat":"Disaster Movies",
 "ques":"In Deep Water Horizon, which star of Jane the Virgin played the rig's navigation officer Andrea?",
 "answ":"GINA RODRIGUEZ",
 "answ2":"Gina Rodriguez.",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Casey Affleck plays Ray Sybert, an enigneer on an oil tanker that is caught in a blizzard in what 2010s film?",
+"answ":"THE FINEST HOURS",
+"answ3":"FINEST HOURS",
+"answ2":"The Finest Hours.",
 },
 {
 "cat":"Disaster Movies",
@@ -1564,6 +1616,19 @@ var fivepointer001 = [
 "answ2":"In Country.",
 },
 {
+"cat":"DreamWorks Animation",
+"ques":"Which Oscar winning actor voices The Warden, the no-nonsense head of Metro City Prison in Megamind?",
+"answ":"JK SIMMONS",
+"answ3":"J K SIMMONS",
+"answ2":"J. K. Simmons.",
+},
+{
+"cat":"Drew Barrymore",
+"ques":"What comedic actor has a small role in Donnie Darko as the character of Ricky Danforth?",
+"answ":"SETH ROGEN",
+"answ2":"Seth Rogen.",
+},
+{
 "cat":"Drew Barrymore",
 "ques":"In Donnie Darko, what two-word phrase does Ms. Pomeroy tell Donnie is the most beautiful combination of words in the English language?",
 "answ":"CELLAR DOOR",
@@ -1575,6 +1640,12 @@ var fivepointer001 = [
 "answ":"BEVERLY HILLS COP 2",
 "answ3":"BEVERLY HILLS COP II",
 "answ2":"Beverly Hills Cop II.",
+},
+{
+"cat":"Family Films",
+"ques":"Greg Heffley is the 12 year old protagonist played by actor Zachary Gordon, in what 2010 family film?",
+"answ":"DIARY OF A WIMPY KID",
+"answ2":"Diary of a Wimpy Kid.",
 },
 {
 "cat":"Family Films",
@@ -1750,6 +1821,12 @@ var fivepointer001 = [
 },
 {
 "cat":"Fantasy/Sci-fi",
+"ques":"In Blade Runner 2049, who plays Gaff, a role he has played before in the original Blade Runner film?",
+"answ":"EDWARD JAMES OLMOS",
+"answ2":"Edward James Olmos.",
+},
+{
+"cat":"Fantasy/Sci-fi",
 "ques":"Who directed Equilibrium?",
 "answ":"KURT WIMMER",
 "answ2":"Kurt Wimmer.",
@@ -1884,6 +1961,12 @@ var fivepointer001 = [
 "answ2":"California.",
 },
 {
+"cat":"Steven Spielberg",
+"ques":"Steven Spielberg and Tom Hanks have collaborated a total of 5 times, what was the third film they did together?",
+"answ":"THE TERMINAL",
+"answ2":"The Terminal.",
+},
+{
 "cat":"Fantasy/Sci-fi",
 "ques":"Which actor had a role in both The Terminator and Aliens?",
 "answ":"MICHAEL BIEHN",
@@ -1904,10 +1987,23 @@ var fivepointer001 = [
 "answ2":"Dave Bautista.",
 },
 {
+"cat":"Frank Capra",
+"ques":"What 1932 drama directed by Frank Capra stars Walter Huston as a banker who suffers a crisis of conscience?",
+"answ":"AMERICAN MADNESS",
+"answ2":"American Madness.",
+},
+{
 "cat":"Horror",
 "ques":"Who directed the 1983 horror film The Hunger?",
 "answ":"TONY SCOTT",
 "answ2":"Tony Scott.",
+},
+{
+"cat":"Horror",
+"ques":"In what installment of the Saw franchise are the players trapped in a house inhaling deadly poison while Detective Matthews tries to find his son?",
+"answ":"SAW II",
+"answ3":"SAW 2",
+"answ2":"Saw II.",
 },
 {
 "cat":"Horror",
@@ -2168,6 +2264,12 @@ var fivepointer001 = [
 "answ2":"Ben Whishaw.",
 },
 {
+"cat":"James Bond",
+"ques":"Sean Connery starred in 1983's Never Say Never Again, which was a remake of what earlier Bond film in which he also starred?",
+"answ":"THUNDERBALL",
+"answ2":"Thunderball.",
+},
+{
 "cat":"Jim Henson",
 "ques":"In Labyrinth, what is the name of Sarah's baby brother?",
 "answ":"TOBY",
@@ -2224,6 +2326,13 @@ var fivepointer001 = [
 "answ2":"Diabetes/Type 1 diabetes.",
 },
 {
+"cat":"Matt & Ben",
+"ques":"How many Kevin Smith films has Ben Affleck appeared in?",
+"answ":"7",
+"answ3":"SEVEN",
+"answ2":"7.",
+},
+{
 "cat":"Matthew McConaughey",
 "ques":"McConaughey and Matthew Fox play football together in what flick?",
 "answ":"WE ARE MARSHALL",
@@ -2256,6 +2365,24 @@ var fivepointer001 = [
 },
 {
 "cat":"Musicals",
+"ques":"Joel Grey won a Best Supporting Actor Oscar for his performance as the Master of Ceremonies in what 1972 musical?",
+"answ":"CABARET",
+"answ2":"Cabaret.",
+},
+{
+"cat":"Musicals",
+"ques":"What 1954 musical is set in the Pacific-Northwest state of Oregon and stars Howard Keel and Jane Powell?",
+"answ":"SEVEN BRIDES FOR SEVEN BROTHERS",
+"answ2":"Seven Brides for Seven Brothers.",
+},
+{
+"cat":"Musicals",
+"ques":"In what 90s musical does a character named Jack dream of leaving New York to move to Santa Fe?",
+"answ":"NEWSIES",
+"answ2":"Newsies.",
+},
+{
+"cat":"Musicals",
 "ques":"In 2012's Les Misérables what is the name of Hugh Jackman's character?",
 "answ":"JEAN VALJEAN",
 "answ2":"Jean Valjean.",
@@ -2278,18 +2405,6 @@ var fivepointer001 = [
 "ques":"What 2005 movie musical begins on Christmas Eve and ends on Christmas a year later?",
 "answ":"RENT",
 "answ2":"Rent.",
-},
-{
-"cat":"Musicals",
-"ques":"Who played Fantine in 2012's Les Misérables?",
-"answ":"ANNE HATHAWAY",
-"answ2":"Anne Hathaway.",
-},
-{
-"cat":"Musicals",
-"ques":"Who directed 2004's The Phantom of the Opera?",
-"answ":"JOEL SCHUMACHER",
-"answ2":"Joel Schumacher.",
 },
 {
 "cat":"Musicals",
@@ -2323,6 +2438,24 @@ var fivepointer001 = [
 "answ":"GUILE",
 "answ3":"COLONEL GUILE",
 "answ2":"Guile.",
+},
+{
+"cat":"John Hughes",
+"ques":"Who stars as a homeless con-man in 1991's Curly Sue?",
+"answ":"JIM BELUSHI",
+"answ2":"Jim Belushi.",
+},
+{
+"cat":"John Hughes",
+"ques":"What specific item does traveling salesman Del Griffith claim to sell in Planes, Trains and Automobiles?",
+"answ":"SHOWER CURTAIN RINGS",
+"answ2":"Shower curtain rings.",
+},
+{
+"cat":"John Hughes",
+"ques":"In Uncle Buck, Buck's teenage niece Tia begins dating a boy who has what unusual first name?",
+"answ":"BUG",
+"answ2":"Bug.",
 },
 {
 "cat":"Judd Apatow",
@@ -2410,6 +2543,13 @@ var fivepointer001 = [
 "ques":"Martin Scorsese directed 6 films in the 1990s, all of which were Oscar nominated except for one. What was the film?",
 "answ":"BRINGING OUT THE DEAD",
 "answ2":"Bringing Out the Dead.",
+},
+{
+"cat":"Modern Classics",
+"ques":"Which 1986 comedy features supporting performances from Cindy Pickett, Edie McClurg and Ben Stein?",
+"answ":"FERRIS BUELLER'S DAY OFF",
+"answ3":"FERRIS BUELLERS DAY OFF",
+"answ2":"Ferris Bueller's Day Off.",
 },
 {
 "cat":"Monster Movies",
@@ -2571,6 +2711,12 @@ var fivepointer001 = [
 "answ2":"Dead Calm.",
 },
 {
+"cat":"Paul Thomas Anderson",
+"ques":"In Inherent Vice, Owen Wilson plays Coy Harlingen, a musician known for playing what instrument?",
+"answ":"SAXOPHONE",
+"answ2":"Saxophone.",
+},
+{
 "cat":"Remakes and Reboots",
 "ques":"Joey King plays Brooklyn Harding, Michael Caine's granddaughter in what 2010s film also featuring Morgan Freeman?",
 "answ":"GOING IN STYLE",
@@ -2581,6 +2727,13 @@ var fivepointer001 = [
 "ques":"What 1981 horror film directed by George Mihalka's movie was remade in 2009?",
 "answ":"MY BLOOY VALENTINE",
 "answ2":"My Bloody Valentine.",
+},
+{
+"cat":"Remakes and Reboots",
+"ques":"In what comedy does Steve Carell's character construct what he calls 'The Tower of Dreamers'?",
+"answ":"DINNER FOR SCHMUCKS",
+"answ3":"DINNER FOR SHMUCKS",
+"answ2":"Dinner for Schmucks.",
 },
 {
 "cat":"Remakes and Reboots",
@@ -2822,12 +2975,6 @@ var fivepointer001 = [
 },
 {
 "cat":"Sly & Arnie",
-"ques":"Who played Cash in Tango & Cash?",
-"answ":"KURT RUSSELL",
-"answ2":"Kurt Russell.",
-},
-{
-"cat":"Sly & Arnie",
 "ques":"Who directed Sylvester Stallone in 2000's Get Carter?",
 "answ":"STEPHEN KAY",
 "answ2":"Stephen Kay.",
@@ -2955,6 +3102,18 @@ var fivepointer001 = [
 },
 {
 "cat":"Thrillers",
+"ques":"Who plays Bart Mancuso, Commanding Officer of the USS Dallas, in The Hunt for Red October?",
+"answ":"SCOTT GLENN",
+"answ2":"Scott Glenn.",
+},
+{
+"cat":"Thrillers",
+"ques":"What 90s thriller from director Andrew Davis was a remake of the Alfred Hitchcock film Dial M for Murder?",
+"answ":"A PERFECT MURDER",
+"answ2":"A Perfect Murder.",
+},
+{
+"cat":"Thrillers",
 "ques":"Boaz Yakin directed Jason Statham and Chris Sarandon in what 2010s film?",
 "answ":"SAFE",
 "answ2":"Safe.",
@@ -3031,6 +3190,13 @@ var fivepointer001 = [
 },
 {
 "cat":"Tom Hanks",
+"ques":"You'll find the characters of Lt. Mark Rumsfield and Art Weingartner in what 80s Tom Hanks comedy?",
+"answ":"THE BURBS",
+"answ3":"THE 'BURBS",
+"answ2":"The 'Burbs.",
+},
+{
+"cat":"Tom Hanks",
 "ques":"Tom Hanks coaches which baseball team in A League of Their Own?",
 "answ":"ROCKFORD PEACHES",
 "answ3":"THE ROCKFORD PEACHES",
@@ -3062,6 +3228,13 @@ var fivepointer001 = [
 "answ":"THE MONEY PIT",
 "answ3":"MONEY PIT",
 "answ2":"The Money Pit.",
+},
+{
+"cat":"Pixar",
+"ques":"What specific object had crushed and killed musician Ernesto De La Cruz during a live performance in Coco?",
+"answ":"BELL",
+"answ3":"GIANT BELL",
+"answ2":"Bell.",
 },
 {
 "cat":"Pixar",
@@ -3139,10 +3312,23 @@ var fivepointer001 = [
 "answ2":"Anyone Can Cook.",
 },
 {
-"cat":"Harry Potter",
+"cat":"Wizarding World",
 "ques":"What is the name of the Hippogriff creature that Harry and Hermione save in The Prisoner of Azkaban?",
 "answ":"BUCKBEAK",
 "answ2":"Buckbeak.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"For what film did Anna Paquin win her Oscar?",
+"answ":"THE PIANO",
+"answ2":"The Piano.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"Two movies share the record for the most Oscar nominations without a single win. Name one of them.",
+"answ":"THE COLOR PURPLE",
+"answ3":"THE TURNING POINT",
+"answ2":"The Color Purple/The Turning Point.",
 },
 {
 "cat":"Oscar Movies",
@@ -3235,6 +3421,19 @@ var fivepointer001 = [
 },
 {
 "cat":"Quentin Tarantino",
+"ques":"In what Tarantino film will you find a bar named Gueros and a character named Jungle Julia?",
+"answ":"DEATH PROOF",
+"answ3":"GRINDHOUSE",
+"answ2":"Death Proof.",
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"In what Tarantino film will you find minor characters named Big John Brittle and Billy Crash?",
+"answ":"DJANGO UNCHAINED",
+"answ2":"Django Unchained.",
+},
+{
+"cat":"Quentin Tarantino",
 "ques":"In Kill Bill Vol 1, while discussing a possible duel, Vernita Green attempts to kill the Bride with a gun hidden in what kitchen item?",
 "answ":"CEREAL BOX",
 "answ3":"BOX OF CEREAL",
@@ -3249,17 +3448,23 @@ var fivepointer001 = [
 },
 {
 "cat":"Quentin Tarantino",
-"ques":"What are the surnames of the two brothers in From Tusk till Dawn?",
-"answ":"GECKO",
-"answ3":"GEKKO",
-"answ2":"Gecko.",
-},
-{
-"cat":"Quentin Tarantino",
 "ques":"In which Tarantino film will you find a character planning a trip to Madrid at the end of the film?",
 "answ":"JACKIE BROWN",
 "answ3":"JACKY BROWN",
 "answ2":"Jackie Brown.",
+},
+{
+"cat":"Spy Movies",
+"ques":"What 2018 spy film features supporting performances from Jeremy Irons, Mary-Louise Parker and Ciaran Hinds?",
+"answ":"RED SPARROW",
+"answ2":"Red Sparrow.",
+},
+{
+"cat":"Spy Movies",
+"ques":"Which spy film features performances from Oscar Isaac, Scott Glenn, Stacy Keach and Joan Allen?",
+"answ":"THE BOURNE LEGACY",
+"answ3":"BOURNE LEGACY",
+"answ2":"The Bourne Legacy.",
 },
 {
 "cat":"Spy Movies",
@@ -3411,9 +3616,10 @@ var fivepointer001 = [
 },
 {
 "cat":"Will Smith",
-"ques":"Will Smith voices Oscar in which animated feature?",
-"answ":"SHARK TALE",
-"answ2":"Shark Tale.",
+"ques":"After retiring from the Men in Black, where does Agent K work at the beginning of Men in Black II?",
+"answ":"POST OFFICE",
+"answ3":"A POST OFFICE",
+"answ2":"Post office.",
 },
 {
 "cat":"Will Smith",
@@ -3421,6 +3627,18 @@ var fivepointer001 = [
 "answ":"INHALER",
 "answ3":"ASTHMA INHALER",
 "answ2":"Inhaler.",
+},
+{
+"cat":"Will Smith",
+"ques":"Will Smith's character gets stung to death by a jellyfish in a bathtub in what 2000s film?",
+"answ":"SEVEN POUNDS",
+"answ2":"Seven Pounds.",
+},
+{
+"cat":"Will Smith",
+"ques":"The Legend of Bagger Vance is mainly set in what southern U.S. State?",
+"answ":"GEORGIA",
+"answ2":"Georgia.",
 },
 {
 "cat":"Will Smith",

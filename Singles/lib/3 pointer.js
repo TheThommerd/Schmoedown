@@ -8,6 +8,12 @@ var threepointer001 = [
 },
 {
 "cat":"Action/Adventure",
+"ques":"What is the name of the cursed Egyptian high priest who rises from the dead to destroy the world in 1999's The Mummy?",
+"answ":"IMHOTEP",
+"answ2":"Imhotep.",
+},
+{
+"cat":"Action/Adventure",
 "ques":"You'll find the elite tech-driven team known as AMMO in what 2020 action film?",
 "answ":"BAD BOYS FOR LIFE",
 "answ2":"Bad Boys For Life.",
@@ -163,11 +169,24 @@ var threepointer001 = [
 "answ2":"Rick Fox.",
 },
 {
+"cat":"Bill Murray",
+"ques":"What 90s Bill Murray comedy largely takes place in Lake Winniesaukee, New Hampshire?",
+"answ":"WHAT ABOUT BOB",
+"answ3":"WHAT ABOUT BOB?",
+"answ2":"What About Bob?.",
+},
+{
 "cat":"70s",
 "ques":"What was the Oscar-nominated disaster movie from 1974 that starred Steve McQueen and Paul Newman?",
 "answ":"THE TOWERING INFERNO",
 "answ3":"TOWERING INFERNO",
 "answ2":"The Towering Inferno.",
+},
+{
+"cat":"70s",
+"ques":"Who plays Father Fyodor, a Russian Orthodox priest in The Twelve Chairs?",
+"answ":"DOM DELUISE",
+"answ2":"Dom DeLuise.",
 },
 {
 "cat":"70s",
@@ -283,6 +302,18 @@ var threepointer001 = [
 },
 {
 "cat":"90s",
+"ques":"You'll find comets nicknamed Biederman and Wolf in which 90s sci-fi film?",
+"answ":"DEEP IMPACT",
+"answ2":"Deep Impact.",
+},
+{
+"cat":"90s",
+"ques":"Who plays Albert Goldman, the star performer at a luxurious drag club in South Florida, in The Birdcage?",
+"answ":"NATHAN LANE",
+"answ2":"Nathan Lane.",
+},
+{
+"cat":"90s",
 "ques":"In which film will you find the desirous character named Wendy Peffercorn?",
 "answ":"THE SANDLOT",
 "answ2":"The Sandlot.",
@@ -304,6 +335,12 @@ var threepointer001 = [
 "ques":"Which Oscar winner stars as Max Klein in the 1993 Peter Weir film Fearless?",
 "answ":"JEFF BRIDGES",
 "answ2":"Jeff Bridges.",
+},
+{
+"cat":"90s",
+"ques":"You'll find a character known as Jimmy Jumps, played by Laurence Fishburne, in what 1990 crime thriller directed by Abel Ferrara?",
+"answ":"KING OF NEW YORK",
+"answ2":"King of New York.",
 },
 {
 "cat":"90s",
@@ -570,6 +607,12 @@ var threepointer001 = [
 },
 {
 "cat":"Animated",
+"ques":"You'll find Christopher Plummer as Henri Le Pigeon, a pigeon of French descent, in what 1986 animated film?",
+"answ":"AN AMERICAN TAIL",
+"answ2":"An American Tail.",
+},
+{
+"cat":"Animated",
 "ques":"Who voiced Superman in The Lego Movie?",
 "answ":"CHANNING TATUM",
 "answ2":"Channing Tatum.",
@@ -796,6 +839,13 @@ var threepointer001 = [
 "ques":"Who was the first Black actor to win a Best Actor Oscar?",
 "answ":"SIDNEY POITIER",
 "answ2":"Sidney Poitier.",
+},
+{
+"cat":"Black Cinema",
+"ques":"How many times did Richard Roundtree play the role of John Shaft, from the original to the 2019 film?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5.",
 },
 {
 "cat":"Black Cinema",
@@ -1069,6 +1119,12 @@ var threepointer001 = [
 "ques":"The Bishop's Wife stars which Hollywood golden age actor as an angel sent from heaven?",
 "answ":"CARY GRANT",
 "answ2":"Cary Grant.",
+},
+{
+"cat":"Comic Book Movies",
+"ques":"In what entry of the Men In Black franchise will you find a fast running alien known as a cephlapoid?",
+"answ":"MEN IN BLACK",
+"answ2":"Men in Black.",
 },
 {
 "cat":"Crime",
@@ -1580,6 +1636,12 @@ var threepointer001 = [
 },
 {
 "cat":"Denzel Washington",
+"ques":"Who plays Congressman Raymond Prentiss Shaw in 2004's The Manchurian Candidate?",
+"answ":"LIEV SCHREIBER",
+"answ2":"Liev Schreiber.",
+},
+{
+"cat":"Denzel Washington",
 "ques":"Who directed The Bone Collector?",
 "answ":"PHILLIP NOYCE",
 "answ2":"Phillip Noyce.",
@@ -1619,6 +1681,12 @@ var threepointer001 = [
 },
 {
 "cat":"Disaster Movies",
+"ques":"Who plays Dr. Jonas Miller, Bill Paxton's rival storm chaser in Twister?",
+"answ":"CARY ELWES",
+"answ2":"Cary Elwes.",
+},
+{
+"cat":"Disaster Movies",
 "ques":"Who played Dennis Quaid's son in the disaster movie The Day After Tomorrow?",
 "answ":"JAKE GYLLENHAAL",
 "answ3":"JAKE GYLENHAAL",
@@ -1643,6 +1711,12 @@ var threepointer001 = [
 "ques":"Who plays betrayed wife Beth Gallagher in 1987's Fatal Attraction?",
 "answ":"ANNE ARCHER",
 "answ2":"Anne Archer.",
+},
+{
+"cat":"Dramas",
+"ques":"In 2018's Hearts Beat Loud, who plays Sam's father Frank Fisher?",
+"answ":"NICK OFFERMAN",
+"answ2":"Nick Offerman.",
 },
 {
 "cat":"Dramas",
@@ -1733,6 +1807,12 @@ var threepointer001 = [
 },
 {
 "cat":"Directors",
+"ques":"Who wrote and directed the 2016 film Loving?",
+"answ":"JEFF NICHOLS",
+"answ2":"Jeff Nichols.",
+},
+{
+"cat":"Directors",
 "ques":"Who directed 2011's The Descendants?",
 "answ":"ALEXANDER PAYNE",
 "answ2":"Alexander Payne.",
@@ -1780,6 +1860,18 @@ var threepointer001 = [
 "ques":"Who directed Jurassic Park III?",
 "answ":"JOE JOHNSTON",
 "answ2":"Joe Johnston.",
+},
+{
+"cat":"Disney",
+"ques":"In what live-action Disney film will you find a planet known as Barsoom and the character of Princess Dejah Thoris?",
+"answ":"JOHN CARTER",
+"answ2":"John Carter.",
+},
+{
+"cat":"Disney",
+"ques":"Ethan Hawke starred in what 1991 live-action Disney film, based on a Jack London novel?",
+"answ":"WHITE FANG",
+"answ2":"White Fang.",
 },
 {
 "cat":"Disney",
@@ -2211,6 +2303,12 @@ var threepointer001 = [
 "answ2":"Belgium.",
 },
 {
+"cat":"Jennifer Lopez",
+"ques":"The film Hustlers follows a group of exotic dancers who first meet and become friends during what decade?",
+"answ":"2000S",
+"answ2":"2000s.",
+},
+{
 "cat":"Jim Henson",
 "ques":"What Academy Award nominated song is featured in The Muppet Movie?",
 "answ":"RAINBOW CONNECTION",
@@ -2249,6 +2347,12 @@ var threepointer001 = [
 },
 {
 "cat":"Judd Apatow",
+"ques":"Jason Schwartzman, Aziz Ansari and Jonah Hill have roles in what Judd Apatow directed film?",
+"answ":"FUNNY PEOPLE",
+"answ2":"Funny People.",
+},
+{
+"cat":"Judd Apatow",
 "ques":"Name 1 of the 2 actors who play Seth Rogen's best friends and roommates in Funny People.",
 "answ":"JONAH HILL",
 "answ3":"JASON SCHWARTZMAN",
@@ -2265,6 +2369,12 @@ var threepointer001 = [
 "ques":"What 1991 movie saw Julia escaping her past and her abusive husband?",
 "answ":"SLEEPING WITH THE ENEMY",
 "answ2":"Sleeping with the Enemy.",
+},
+{
+"cat":"Julia Roberts",
+"ques":"Garry Marshall directed Julia Roberts in 4 films. What was their first collaboration?",
+"answ":"PRETTY WOMAN",
+"answ2":"Pretty Woman.",
 },
 {
 "cat":"Julia Roberts",
@@ -2302,6 +2412,12 @@ var threepointer001 = [
 "ques":"Donald Petrie directed Julia Roberts in which 1988 film?",
 "answ":"MYSTIC PIZZA",
 "answ2":"Mystic Pizza.",
+},
+{
+"cat":"Jodie Foster",
+"ques":"Screenwriter Drew Pearce made his theatrical directing debut with what 2018 film starring Jodie Foster and Dave Bautista?",
+"answ":"HOTEL ARTEMIS",
+"answ2":"Hotel Artemis.",
 },
 {
 "cat":"Kathryn Bigelow",
@@ -2362,6 +2478,24 @@ var threepointer001 = [
 "answ2":"Jay.",
 },
 {
+"cat":"Lucasfilm",
+"ques":"Which comedian turned actor plays a Brownie named Rool in the film Willow?",
+"answ":"KEVIN POLLAK",
+"answ2":"Kevin Pollak.",
+},
+{
+"cat":"Martial Arts",
+"ques":"Lance Henriksen plays Emil Fouchon, a wealthy sportsman who hunts former soldiers in what 1993 film?",
+"answ":"HARD TARGET",
+"answ2":"Hard Target.",
+},
+{
+"cat":"Matt & Ben",
+"ques":"What is the first film that featured Matt Damon and Ben Affleck in the same cast?",
+"answ":"SCHOOL TIES",
+"answ2":"School Ties.",
+},
+{
 "cat":"Martin Scorsese",
 "ques":"Who plays Iris' manipulative pimp named 'Sport' in Taxi Driver?",
 "answ":"HARVEY KEITEL",
@@ -2385,6 +2519,12 @@ var threepointer001 = [
 "ques":"The song 'Sweet Sweethaven' introduces a town and its people at the beginning of what 1980 musical film?",
 "answ":"POPEYE",
 "answ2":"Popeye.",
+},
+{
+"cat":"Musicals",
+"ques":"You'll find the jazz group The Messengers performing songs like 'Start a Fire' in what Best Picture nominee?",
+"answ":"LA LA LAND",
+"answ2":"La La Land.",
 },
 {
 "cat":"Musicals",
@@ -2493,6 +2633,19 @@ var threepointer001 = [
 "ques":"You'll find Hilary Swank playing a local Alaskan detective Ellie Burr in what 2002 film?",
 "answ":"INSOMNIA",
 "answ2":"Insomnia.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"What Oscar winning films has the line: 'It's a hell of a thing, killing a man. Take away all he's got and all he's ever gonna have.'?",
+"answ":"UNFORGIVEN",
+"answ2":"Unforgiven.",
+},
+{
+"cat":"Movie Quotes",
+"ques":"In what 2000s comedy will you hear J.K. Simmons say: 'I want you boys to know, you're both my best friends...and Hank Mardukas.'?",
+"answ":"I LOVE YOU MAN",
+"answ3":"I LOVE YOU, MAN",
+"answ2":"I Love You, Man.",
 },
 {
 "cat":"Movie Quotes",
@@ -2979,6 +3132,12 @@ var threepointer001 = [
 },
 {
 "cat":"Pixar",
+"ques":"In Inside Out, Anger says: 'Congratulations San Francisco you've ruined' what type of food?",
+"answ":"PIZZA",
+"answ2":"Pizza.",
+},
+{
+"cat":"Pixar",
 "ques":"How many Pixar films has Dan Scanlon directed?",
 "answ":"2",
 "answ3":"TWO",
@@ -3054,6 +3213,13 @@ var threepointer001 = [
 },
 {
 "cat":"Quentin Tarantino",
+"ques":"What are the surnames of the two brothers in From Tusk till Dawn?",
+"answ":"GECKO",
+"answ3":"GEKKO",
+"answ2":"Gecko.",
+},
+{
+"cat":"Quentin Tarantino",
 "ques":"In Once Upon a Time in Hollywood, James Stacy asked Rick Dalton if he almost had the lead role in which classic war film?",
 "answ":"THE GREAT ESCAPE",
 "answ3":"GREAT ESCAPE",
@@ -3094,6 +3260,19 @@ var threepointer001 = [
 "answ2":"Stuntman.",
 },
 {
+"cat":"Reese Witherspoon",
+"ques":"What offbeat 1997 thriller stars Reese Witherspoon as a teen who runs afoul of a killer played by Keifer Sutherland?",
+"answ":"FREEWAY",
+"answ2":"Freeway.",
+},
+{
+"cat":"Reese Witherspoon",
+"ques":"Reese Witherspoon stars in which 1993 live-action Disney film about a group of teens who must trek across the African desert?",
+"answ":"A FAR OFF PLACE",
+"answ3":"FAR OFF PLACE",
+"answ2":"A Far Off Place.",
+},
+{
 "cat":"Remakes and Reboots",
 "ques":"Who plays the role of Peter Vincent in 2011's Fright Night?",
 "answ":"DAVID TENNANT",
@@ -3110,7 +3289,7 @@ var threepointer001 = [
 "ques":"What 1979 horror film directed by Stuart Rosenberg was remade in 2005?",
 "answ":"THE AMITYVILLE HORROR",
 "answ3":"AMITYVILLE HORROR",
-"answ2":"he Amityville Horror.",
+"answ2":"The Amityville Horror.",
 },
 {
 "cat":"Remakes and Reboots",
@@ -3391,6 +3570,12 @@ var threepointer001 = [
 },
 {
 "cat":"Scores & Soundtracks",
+"ques":"What 2014 film features the Oscar winning song 'Glory' performed by John Legend and Common?",
+"answ":"SELMA",
+"answ2":"Selma.",
+},
+{
+"cat":"Scores & Soundtracks",
 "ques":"Who composed the score for 1984's Beverly Hills Cop?",
 "answ":"HAROLD FALTERMEYER",
 "answ3":"HAROLD FALTERMAYER",
@@ -3453,6 +3638,13 @@ var threepointer001 = [
 },
 {
 "cat":"Steven Spielberg",
+"ques":"Steven Spielberg released two films in 2002, name one of them.",
+"answ":"CATCH ME IF YOU CAN",
+"answ3":"MINORITY REPORT",
+"answ2":"Catch Me If You Can/Minority Report.",
+},
+{
+"cat":"Steven Spielberg",
 "ques":"On what film did Steven Spielberg and composer John Williams first work together?",
 "answ":"THE SUGARLAND EXPRESS",
 "answ3":"SUGARLAND EXPRESS",
@@ -3509,6 +3701,12 @@ var threepointer001 = [
 "answ":"THE SANDLOT",
 "answ3":"SANDLOT",
 "answ2":"The Sandlot.",
+},
+{
+"cat":"Sports",
+"ques":"Who plays the role of Reggie 'Reg' Dunlop, the coach of the Charlestown Chiefs in Slap Shot?",
+"answ":"PAUL NEWMAN",
+"answ2":"Paul Newman.",
 },
 {
 "cat":"Sports",
@@ -3663,6 +3861,12 @@ var threepointer001 = [
 },
 {
 "cat":"Tom Hanks",
+"ques":"Who plays Ernie Capadino, the AAGPBL scout, in A League of Their Own?",
+"answ":"JON LOVITZ",
+"answ2":"Jon Lovitz.",
+},
+{
+"cat":"Tom Hanks",
 "ques":"Tom Hanks and Dan Aykroyd star in what 1987 comedy as Sgt. Joe Friday and Pep Streebeck?",
 "answ":"DRAGNET",
 "answ2":"Dragnet.",
@@ -3698,6 +3902,12 @@ var threepointer001 = [
 "ques":"Name the film in which Tom Cruise plays a security repairman named Jack Harper.",
 "answ":"OBLIVION",
 "answ2":"Oblivion.",
+},
+{
+"cat":"Tom Cruise",
+"ques":"In the film Austin Powers in Goldmember, who plays the role of Dixie Normous opposite Tom Cruise?",
+"answ":"GWYNETH PALTROW",
+"answ2":"Gwyneth Paltrow.",
 },
 {
 "cat":"Tom Cruise",
@@ -3837,6 +4047,12 @@ var threepointer001 = [
 "ques":"What legendary western director was behind Stagecoach, The Searchers and The Man Who Shot Liberty Valance?",
 "answ":"JOHN FORD",
 "answ2":"John Ford.",
+},
+{
+"cat":"Westerns",
+"ques":"In 2017's Hostiles, who plays Sergeant Thomas Willis, a criminal whom Christian Bale is escorting north?",
+"answ":"BEN FOSTER",
+"answ2":"Ben Foster.",
 },
 {
 "cat":"Westerns",

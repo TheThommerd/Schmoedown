@@ -1,9 +1,89 @@
 var musicals = [
 {
 "cat":"Musicals",
+"ques":"Who played Fantine in 2012's Les Misérables?",
+"answ":"ANNE HATHAWAY",
+"answ2":"Anne Hathaway.",
+},
+{
+"cat":"Musicals",
+"ques":"Who directed 2004's The Phantom of the Opera?",
+"answ":"JOEL SCHUMACHER",
+"answ2":"Joel Schumacher.",
+},
+{
+"cat":"Musicals",
 "ques":"In La La Land, what does Sebastian want to call his jazz club?",
 "answ":"CHICKEN ON A STICK",
 "answ2":"Chicken on a stick.",
+},
+{
+"cat":"Musicals",
+"ques":"This 1970s musical features a greaser gang called the 'T-Birds' and a clique called 'The Pink Ladies'?",
+"answ":"GREASE",
+"answ2":"Grease.",
+},
+{
+"cat":"Musicals",
+"ques":"What 2018 musical Disney sequel features the songs 'Underneath The Lovely London Sky' and 'Trip A Little Light Fantastic'?",
+"answ":"MARY POPPINS RETURNS",
+"answ2":"Mary Poppins Returns.",
+},
+{
+"cat":"Musicals",
+"ques":"James Corden, Judi Dench and Jason Derulo appear in what 2019 musical based off a legendary Broadway show?",
+"answ":"CATS",
+"answ2":"Cats.",
+},
+{
+"cat":"Musicals",
+"ques":"'This Is Me' was the Oscar nominated original song for what 2010s musical?",
+"answ":"THE GREATEST SHOWMAN",
+"answ3":"GREATEST SHOWMAN",
+"answ2":"The Greatest Showman.",
+},
+{
+"cat":"Musicals",
+"ques":"Who plays Anita, Bernardo's girlfriend, and Maria's closest confidante in 1961's West Side Story?",
+"answ":"RITA MORENO",
+"answ2":"Rita Moreno.",
+},
+{
+"cat":"Musicals",
+"ques":"Eileen Quinn, Albert Finney and Carol Burnett star in what 1982 musical family film from director John Huston?",
+"answ":"ANNIE",
+"answ2":"Annie.",
+},
+{
+"cat":"Musicals",
+"ques":"What classic Disney musical features the songs 'Step In Time' and 'Let's Go Fly A Kite'?",
+"answ":"MARY POPPINS",
+"answ2":"Mary Poppins.",
+},
+{
+"cat":"Musicals",
+"ques":"In 2004's The Phantom of the Opera, who starred as Christine Daaé?",
+"answ":"EMMY ROSSUM",
+"answ2":"Emmy Rossum.",
+},
+{
+"cat":"Musicals",
+"ques":"Christian Bale played Jack Kelly in what 1992 Disney film about the New York City newsboys strike of 1899?",
+"answ":"NEWSIES",
+"answ3":"THE NEWS BOYS",
+"answ2":"Newsies.",
+},
+{
+"cat":"Musicals",
+"ques":"In Mary Poppins Returns, which iconic actor plays the role of Mr. Dawes Jr., Mr. Wilkins' uncle?",
+"answ":"DICK VAN DYKE",
+"answ2":"Dick Van Dyke.",
+},
+{
+"cat":"Musicals",
+"ques":"What pop music superstar played The Scarecrow in the 1978 musical The Wiz?",
+"answ":"MICHAEL JACKSON",
+"answ2":"Michael Jackson.",
 },
 {
 "cat":"Musicals",
@@ -625,6 +705,27 @@ var r2Q36 = [
 "answ":"GENTLEMEN PREFER BLONDES",
 "answ2":"Gentlemen Prefer Blondes.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>The Seven Year Itch</button><button id=incop2 class=buttons003 onclick=qinc()>The Prince and the Showgirl</button><button id=incop3 class=buttons003 onclick=qinc()>Let's Make Love</button><button id=corop class=buttons003 onclick=qcor()>Gentlemen Prefer Blondes</button><br/>",
+},
+{
+"cat":"Musicals",
+"ques":"Who directed the 1979 movie adaptation of the Broadway hit Hair?",
+"answ":"MILOS FORMAN",
+"answ2":"Milos Forman.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Alan Parker</button><button id=incop2 class=buttons003 onclick=qinc()>Sidney Lumet</button><button id=incop3 class=buttons003 onclick=qinc()>Norman Jewison</button><button id=corop class=buttons003 onclick=qcor()>Milos Forman</button><br/>",
+},
+{
+"cat":"Musicals",
+"ques":"Who starred as Bob Wallace's partner, Phil Davis, in White Christmas?",
+"answ":"DANNY KAYE",
+"answ2":"Danny Kaye.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Fred Astaire</button><button id=incop2 class=buttons003 onclick=qinc()>Robert Preston</button><button id=incop3 class=buttons003 onclick=qinc()>Bing Crosby</button><button id=corop class=buttons003 onclick=qcor()>Danny Kaye</button><br/>",
+},
+{
+"cat":"Musicals",
+"ques":"Which 2000s musical has songs on its soundtrack like 'Come Together', 'Girl' and 'Helter Skelter'?",
+"answ":"ACROSS THE UNIVERSE",
+"answ2":"Across the Universe.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Yellow Submarine</button><button id=incop2 class=buttons003 onclick=qinc()>Two of Us</button><button id=incop3 class=buttons003 onclick=qinc()>Nowhere Boy</button><button id=corop class=buttons003 onclick=qcor()>Across the Universe</button><br/>",
 },
 ];
 musicals = shuffle(musicals);

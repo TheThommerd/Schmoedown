@@ -7,6 +7,25 @@ var monstermovies = [
 },
 {
 "cat":"Monster Movies",
+"ques":"In what 1954 Universal Monster film does an expedition searching for fossils along the Amazon River discover a prehistoric Gill-Man?",
+"answ":"CREATURE FROM THE BLACK LAGOON",
+"answ3":"THE CREATURE FROM THE BLACK LAGOON",
+"answ2":"Creature from the Black Lagoon.",
+},
+{
+"cat":"Monster Movies",
+"ques":"Who played the role of Evelyn in The Mummy and The Mummy Returns?",
+"answ":"RACHEL WEISZ",
+"answ2":"Rachel Weisz.",
+},
+{
+"cat":"Monster Movies",
+"ques":"Claude Rains, Ralph Bellamy and Bela Lugosi have supporting roles in what 1941 Universal horror film?",
+"answ":"THE WOLF MAN",
+"answ2":"The Wolf Man.",
+},
+{
+"cat":"Monster Movies",
 "ques":"Who stars as a pilot named Raleigh Becket, in 2013's Pacific Rim?",
 "answ":"CHARLIE HUNNAM",
 "answ3":"CHARLY HUNNAM",

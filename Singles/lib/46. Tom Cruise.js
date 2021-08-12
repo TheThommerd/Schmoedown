@@ -7,6 +7,18 @@ var tomcruise = [
 },
 {
 "cat":"Tom Cruise",
+"ques":"Tom Cruise performs the Journey song 'Don't Stop Believing' in the finale of what film?",
+"answ":"ROCK OF AGES",
+"answ2":"Rock of Ages.",
+},
+{
+"cat":"Tom Cruise",
+"ques":"Tom Cruise plays a race car driver alongside Robert Duvall and Nicole Kidman in what 1990 film?",
+"answ":"DAYS OF THUNDER",
+"answ2":"Days of Thunder.",
+},
+{
+"cat":"Tom Cruise",
 "ques":"In Born on the Fourth of July, which actor plays the paraplegic Charlie, who travels with Ron to a village after being kicked out of a bar?",
 "answ":"WILLEM DAFOE",
 "answ3":"WILLEM DEFOE",

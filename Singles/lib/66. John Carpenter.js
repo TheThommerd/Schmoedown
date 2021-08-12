@@ -243,5 +243,34 @@ var r2Q66 = [
 "answ2":"Starman.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>They Live</button><button id=corop class=buttons003 onclick=qcor()>Starman</button><button id=incop3 class=buttons003 onclick=qinc()>Halloween</button><button id=incop4 class=buttons003 onclick=qinc()>The Thing</button><br/>",
 },
+{
+"cat":"John Carpenter",
+"ques":"Who plays recently widowed Jenny Hayden in 1984's Starman?",
+"answ":"KAREN ALLEN",
+"answ2":"Karen Allen.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Janet Leigh</button><button id=corop class=buttons003 onclick=qcor()>Karen Allen</button><button id=incop3 class=buttons003 onclick=qinc()>Kim Cattrall</button><button id=incop4 class=buttons003 onclick=qinc()>Meg Foster</button><br/>",
+},
+{
+"cat":"John Carpenter",
+"ques":"Which John Carpenter film has supporting performances from Darwin Joston, Laurie Zimmer and Martin West?",
+"answ":"ASSAULT ON PRECINCT 13",
+"answ2":"Assault on Precinct 13.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Darkstar</button><button id=corop class=buttons003 onclick=qcor()>Assault on Precinct 13</button><button id=incop3 class=buttons003 onclick=qinc()>Escape from New York</button><button id=incop4 class=buttons003 onclick=qinc()>The Fog</button><br/>",
+},
+{
+"cat":"John Carpenter",
+"ques":"Who plays the lead character John Trent in the film In the Mouth of Madness?",
+"answ":"SAM NEILL",
+"answ2":"Sam Neill.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ed Harris</button><button id=corop class=buttons003 onclick=qcor()>Sam Neill</button><button id=incop3 class=buttons003 onclick=qinc()>Donald Sutherland</button><button id=incop4 class=buttons003 onclick=qinc()>John Goodman</button><br/>",
+},
+{
+"cat":"John Carpenter",
+"ques":"How many times was Donald Pleasence directed by John Carpenter?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1</button><button id=incop2 class=buttons003 onclick=qinc()>2</button><button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop4 class=buttons003 onclick=qinc()>4</button><br/>",
+},
 ];
 r2Q66 = shuffle(r2Q66);

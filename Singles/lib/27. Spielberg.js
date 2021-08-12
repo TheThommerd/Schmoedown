@@ -7,6 +7,42 @@ var spielberg = [
 },
 {
 "cat":"Steven Spielberg",
+"ques":"Adam Driver, David Oyelowo, Joseph Gordon-Levitt and Tim Blake Nelson have roles in which Spielberg film?",
+"answ":"LINCOLN",
+"answ2":"Lincoln.",
+},
+{
+"cat":"Steven Spielberg",
+"ques":"Steven Spielberg directed the short 'Kick the Can' in what 1983 anthology film?",
+"answ":"TWILIGHT ZONE THE MOVIE",
+"answ2":"Twilight Zone: The Movie.",
+},
+{
+"cat":"Steven Spielberg",
+"ques":"What is the most recent time that Tom Hanks has been directed by Steven Spielberg?",
+"answ":"THE POST",
+"answ2":"The Post.",
+},
+{
+"cat":"Steven Spielberg",
+"ques":"What was the first collaboration between director Steven Spielberg and actor Richard Dreyfuss?",
+"answ":"JAWS",
+"answ2":"Jaws.",
+},
+{
+"cat":"Steven Spielberg",
+"ques":"Which Steven Spielberg film co-stars Lorraine Gary, Murray Hamilton and Roy Scheider?",
+"answ":"JAWS",
+"answ2":"Jaws.",
+},
+{
+"cat":"Steven Spielberg",
+"ques":"Tom Hanks plays an American lawyer who is recruited to defend a Soviet spy in which Spielberg film?",
+"answ":"BRIDGE OF SPIES",
+"answ2":"Bridge of Spies.",
+},
+{
+"cat":"Steven Spielberg",
 "ques":"Who plays the character of Albert Johnson, also known as Mister, in The Color Purple?",
 "answ":"DANNY GLOVER",
 "answ2":"Danny Glover.",
@@ -673,6 +709,14 @@ var r2Q27 = [
 "answ":"SESAME STREET",
 "answ2":"Sesame Street.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Reading Rainbow</button><button id=incop2 class=buttons003 onclick=qinc()>Teletubbies</button><button id=incop3 class=buttons003 onclick=qinc()>Mister Rogers' Neighborhood</button><button id=corop class=buttons003 onclick=qcor()>Sesame Street</button><br/>",
+},
+{
+"cat":"Steven Spielberg",
+"ques":"Steven Spielberg has won how many Best Director Oscars?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1</button><button id=corop class=buttons003 onclick=qcor()>2</button><button id=incop3 class=buttons003 onclick=qinc()>3</button><button id=incop4 class=buttons003 onclick=qinc()>4</button><br/>",
 },
 ];
 spielberg = shuffle(spielberg);

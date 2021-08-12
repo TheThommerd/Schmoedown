@@ -8,6 +8,19 @@ var martinscorsese = [
 },
 {
 "cat":"Martin Scorsese",
+"ques":"What Scorsese film follows an old pro teaching a cocky protégé the ropes of pool hustling?",
+"answ":"THE COLOR OF MONEY",
+"answ3":"COLOR OF MONEY",
+"answ2":"The Color of Money.",
+},
+{
+"cat":"Martin Scorsese",
+"ques":"Nick Nolte and Jessica Lange co-star in what thriller from director Martin Scorsese?",
+"answ":"CAPE FEAR",
+"answ2":"Cape Fear.",
+},
+{
+"cat":"Martin Scorsese",
 "ques":"Who plays Naomi, the second wife of Leonardo DiCaprio's character in The Wolf of Wall Street?",
 "answ":"MARGOT ROBBIE",
 "answ2":"Margot Robbie.",

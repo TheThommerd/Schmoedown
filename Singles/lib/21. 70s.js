@@ -1,9 +1,27 @@
 var seventies = [
 {
 "cat":"70s",
+"ques":"Who stars as Arthur Kirkland, a lawyer who is forced to defend a judge in 1979's ...And Justice For All?",
+"answ":"AL PACINO",
+"answ2":"Al Pacino.",
+},
+{
+"cat":"70s",
+"ques":"What 70s musical includes songs such as 'Summer Nights', 'You're the One That I Want' and 'Beauty School Dropout'?",
+"answ":"GREASE",
+"answ2":"Grease.",
+},
+{
+"cat":"70s",
 "ques":"What rocker starred as an alien searching for water to save his planet in The Man Who Fell to Earth?",
 "answ":"DAVID BOWIE",
 "answ2":"David Bowie.",
+},
+{
+"cat":"70s",
+"ques":"What 1970s classic drama has performances by Robert Duvall, Ned Beatty, Faye Dunaway and William Holden?",
+"answ":"NETWORK",
+"answ2":"Network.",
 },
 {
 "cat":"70s",
@@ -536,6 +554,13 @@ var r2Q21 = [
 "answ":"TOMMY",
 "answ2":"Tommy.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Imagine</button><button id=corop class=buttons003 onclick=qcor()>Tommy</button><button id=incop3 class=buttons003 onclick=qinc()>Veronica</button><button id=incop4 class=buttons003 onclick=qinc()>Marco</button><br/>",
+},
+{
+"cat":"70s",
+"ques":"What 1978 movie stars Richard Gere as a farm worker involved in a romantic triangle during the 1910s?",
+"answ":"DAYS OF HEAVEN",
+"answ2":"Days of Heaven.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Badlands</button><button id=corop class=buttons003 onclick=qcor()>Days of Heaven</button><button id=incop3 class=buttons003 onclick=qinc()>Bound for Glory</button><button id=incop4 class=buttons003 onclick=qinc()>Gates of Heaven</button><br/>",
 },
 ];
 seventies = shuffle(seventies);

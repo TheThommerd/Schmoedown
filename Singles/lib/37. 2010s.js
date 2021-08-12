@@ -1,9 +1,69 @@
 var tens = [
 {
 "cat":"2010s",
+"ques":"Who directed Saoirse Ronan and Cate Blanchett in 2011's Hanna?",
+"answ":"JOE WRIGHT",
+"answ2":"Joe Wright.",
+},
+{
+"cat":"2010s",
+"ques":"Which actor stars in the following 2010s films: The Eagle, The Vow and Foxcatcher?",
+"answ":"CHANNING TATUM",
+"answ2":"Channing Tatum.",
+},
+{
+"cat":"2010s",
 "ques":"Which actor starred in the 2010s action films Homefront and Wild Card?",
 "answ":"JASON STATHAM",
 "answ2":"Jason Statham.",
+},
+{
+"cat":"2010s",
+"ques":"Who directed 2018's Death Wish?",
+"answ":"ELI ROTH",
+"answ2":"Eli Roth.",
+},
+{
+"cat":"2010s",
+"ques":"Who plays Kyle Reese in Terminator: Genisys?",
+"answ":"JAI COURTNEY",
+"answ2":"Jai Courtney.",
+},
+{
+"cat":"2010s",
+"ques":"Spike Jonze directed Joaquin Phoenix in what film about falling in love with an AI system?",
+"answ":"HER",
+"answ2":"Her.",
+},
+{
+"cat":"2010s",
+"ques":"Which actor plays Standard Gabriel, who is released from prison and is married to Carey Mulligan's Irene in 2011's Drive?",
+"answ":"OSCAR ISAAC",
+"answ2":"Oscar Isaac.",
+},
+{
+"cat":"2010s",
+"ques":"Who directed the 2016 film Miss Peregrine's Home For Peculiar Children?",
+"answ":"TIM BURTON",
+"answ2":"Tim Burton.",
+},
+{
+"cat":"2010s",
+"ques":"What actor co-starred alongside Jaden Smith as Mr. Han in 2010's The Karate Kid?",
+"answ":"JACKIE CHAN",
+"answ2":"Jackie Chan.",
+},
+{
+"cat":"2010s",
+"ques":"What Oscar winning actor plays the lead role in the psychological thriller You Were Nevery Really Here?",
+"answ":"JOAQUIN PHOENIX",
+"answ2":"Joaquin Phoenix.",
+},
+{
+"cat":"2010s",
+"ques":"Which Marvel actor stars as the character Tommy, opposite Carey Mulligan and Keira Knightley in 2010's Never Let Me Go?",
+"answ":"ANDREW GARFIELD",
+"answ2":"Andrew Garfield.",
 },
 {
 "cat":"2010s",
@@ -871,12 +931,6 @@ var tens = [
 "answ":"DAMIEN CHAZELLE",
 "answ3":"DAMIAN CHAZELLE",
 "answ2":"Damien Chazelle.",
-},
-{
-"cat":"2010s",
-"ques":"Who played Jackie Robinson in 2013's 42?",
-"answ":"CHADWICK BOSEMAN",
-"answ2":"Chadwick Boseman.",
 },
 {
 "cat":"2010s",
@@ -2060,6 +2114,14 @@ var r2Q37 = [
 "answ3":"60S",
 "answ2":"1960s.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>1960s</button><button id=incop2 class=buttons003 onclick=qinc()>1970s</button><button id=incop3 class=buttons003 onclick=qinc()>1980s</button><button id=incop4 class=buttons003 onclick=qinc()>1990s</button><br/>",
+},
+{
+"cat":"2010s",
+"ques":"In 2011's Young Adult, Charlize Theron plays a ghostwriter that has written several books in what genre?",
+"answ":"YOUNG ADULT",
+"answ3":"YA",
+"answ2":"Young Adult.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Young Adult</button><button id=incop2 class=buttons003 onclick=qinc()>Thriller</button><button id=incop3 class=buttons003 onclick=qinc()>Romance</button><button id=incop4 class=buttons003 onclick=qinc()>Mystery</button><br/>",
 },
 ];
 tens = shuffle(tens);

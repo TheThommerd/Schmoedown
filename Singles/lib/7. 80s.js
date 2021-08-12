@@ -1,9 +1,93 @@
 var eighties = [
 {
 "cat":"80s",
+"ques":"What 1988 family film follows the character Josh Baskin, who makes a wish that comes true?",
+"answ":"BIG",
+"answ2":"Big.",
+},
+{
+"cat":"80s",
+"ques":"Which comedic actor plays the irreverent golfer Ty Webb in 1980's Caddyshack?",
+"answ":"CHEVY CHASE",
+"answ2":"Chevy Chase.",
+},
+{
+"cat":"80s",
+"ques":"Alec Baldwin, Geena Davis and Winona Ryder co-star in what comedy-fantasy film?",
+"answ":"BEETLEJUICE",
+"answ2":"Beetlejuice.",
+},
+{
+"cat":"80s",
+"ques":"Which 1986 action film features supporting performances from Tom Skerritt, Tim Robbins and Michael Ironside?",
+"answ":"TOP GUN",
+"answ2":"Top Gun.",
+},
+{
+"cat":"80s",
+"ques":"Who plays Doctor Rumack in the 80s comedy Airplane!?",
+"answ":"LESLIE NIELSEN",
+"answ2":"Leslie Nielsen.",
+},
+{
+"cat":"80s",
+"ques":"What is the name of the ancient ultra powerful and malignant entity that the Ghostbusters battle in the 1984 film?",
+"answ":"GOZER",
+"answ2":"Gozer.",
+},
+{
+"cat":"80s",
 "ques":"You'll find Joey Cramer, Paul Reubens and Sarah Jessica Parker in what 1986 film directed by Randal Kleiser?",
 "answ":"FLIGHT OF THE NAVIGATOR",
 "answ2":"Flight of the Navigator.",
+},
+{
+"cat":"80s",
+"ques":"Which 80s film features performances by Tom Berenger, Glenn Close, Jeff Goldblum and Kevin Kline?",
+"answ":"THE BIG CHILL",
+"answ2":"The Big Chill.",
+},
+{
+"cat":"80s",
+"ques":"Which actor appears in the films Family Business, Highlander and The Presidio?",
+"answ":"SEAN CONNERY",
+"answ2":"Sean Connery.",
+},
+{
+"cat":"80s",
+"ques":"William Zabka plays Johnny Lawrence in what 1984 film?",
+"answ":"THE KARATE KID",
+"answ2":"The Karate Kid.",
+},
+{
+"cat":"80s",
+"ques":"Michael Crichton directed what 1984 sci-fi action film starring Tom Selleck that is set in the near future?",
+"answ":"RUNAWAY",
+"answ2":"Runaway.",
+},
+{
+"cat":"80s",
+"ques":"Who directed the 80s films She's Having A Baby and Uncle Buck?",
+"answ":"JOHN HUGHES",
+"answ2":"John Hughes.",
+},
+{
+"cat":"80s",
+"ques":"Who starred as Todd Howard, a teenager who discovers that he is a werewolf in 1987's Teen Wolf Too?",
+"answ":"JASON BATEMAN",
+"answ2":"Jason Bateman.",
+},
+{
+"cat":"80s",
+"ques":"Christopher Reeve and Jane Seymour star in what 1980 film about a playwright who becomes obsessed with a photograph of a young woman?",
+"answ":"SOMEWHERE IN TIME",
+"answ2":"Somewhere in Time.",
+},
+{
+"cat":"80s",
+"ques":"Who starred in the 1980s comedies Bachelor Party, Punchline and The 'Burbs?",
+"answ":"TOM HANKS",
+"answ2":"Tom Hanks.",
 },
 {
 "cat":"80s",

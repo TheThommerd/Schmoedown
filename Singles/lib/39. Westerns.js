@@ -1,9 +1,53 @@
 var westerns = [
 {
 "cat":"Westerns",
+"ques":"Who stars as Sam Chrisholm, leader of a group of gunslingers-for-hire in the 2016 remake The Magnificent Seven?",
+"answ":"DENZEL WASHINGTON",
+"answ2":"Denzel Washington.",
+},
+{
+"cat":"Westerns",
+"ques":"Who played US Marshal Jim T. West, who teams up with Kevin Kline's Artemus Gordon in Wild Wild West?",
+"answ":"WILL SMITH",
+"answ2":"Will Smith.",
+},
+{
+"cat":"Westerns",
+"ques":"For what film did John Wayne win his only Academy Award?",
+"answ":"TRUE GRIT",
+"answ2":"True Grit.",
+},
+{
+"cat":"Westerns",
 "ques":"Who played the character that simply went by the name Blondie in The Good, the Bad and the Ugly?",
 "answ":"CLINT EASTWOOD",
 "answ2":"Clint Eastwood.",
+},
+{
+"cat":"Westerns",
+"ques":"Which actor co-stars alongside Hailee Steinfeld and Jeff Bridges as Texas Ranger LaBoeuf in True Grit?",
+"answ":"MATT DAMON",
+"answ2":"Matt Damon.",
+},
+{
+"cat":"Westerns",
+"ques":"In what Oscar winning western will you find a town sheriff named Little Bill and a gunslinger named English Bob?",
+"answ":"UNFORGIVEN",
+"answ2":"Unforgiven.",
+},
+{
+"cat":"Westerns",
+"ques":"Who directed the 2018 western anthology film The Ballad of Buster Scruggs?",
+"answ":"THE COEN BROTHERS",
+"answ3":"COEN BROTHERS",
+"answ2":"The Coen Brothers.",
+},
+{
+"cat":"Westerns",
+"ques":"Sam Raimi directed what 1995 western starring Sharone Stone, Gene Hackman and Leonardo DiCaprio?",
+"answ":"THE QUICK AND THE DEAD",
+"answ3":"QUICK AND THE DEAD",
+"answ2":"The Quick and the Dead.",
 },
 {
 "cat":"Westerns",
@@ -635,6 +679,13 @@ var r2Q39 = [
 "answ":"JAMES CAGNEY",
 "answ2":"James Cagney.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Richard Windmark</button><button id=incop2 class=buttons003 onclick=qinc()>Ken Curtis</button><button id=incop3 class=buttons003 onclick=qinc()>Dan Blocker</button><button id=corop class=buttons003 onclick=qcor()>James Cagney</button><br/>",
+},
+{
+"cat":"Westerns",
+"ques":"Who plays Margaret Blackledge, Kevin Costner's wife, in the 2020 film Let Him Go?",
+"answ":"DIANE LANE",
+"answ2":"Diane Lane.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Annette Bening</button><button id=incop2 class=buttons003 onclick=qinc()>Olivia Williams</button><button id=incop3 class=buttons003 onclick=qinc()>Demi Moore</button><button id=corop class=buttons003 onclick=qcor()>Diane Lane</button><br/>",
 },
 ];
 westerns = shuffle(westerns);

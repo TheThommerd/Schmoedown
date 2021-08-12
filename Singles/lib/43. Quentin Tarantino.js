@@ -1,6 +1,12 @@
 var tarantino = [
 {
 "cat":"Quentin Tarantino",
+"ques":"In Pulp Fiction, who plays the burglar that simply goes by the name Pumpkin?",
+"answ":"TIM ROTH",
+"answ2":"Tim Roth.",
+},
+{
+"cat":"Quentin Tarantino",
 "ques":"What nickname did Harvey Keitel's character go by in Pulp Fiction?",
 "answ":"THE WOLF",
 "answ3":"WOLF",
@@ -413,6 +419,36 @@ var r2Q43 = [
 "answ":"SONNY CHIBA",
 "answ2":"Sonny Chiba.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Jackie Chan</button><button id=incop2 class=buttons003 onclick=qinc()>Tony Jaa</button><button id=incop3 class=buttons003 onclick=qinc()>Hiroyuki Sanada</button><button id=corop class=buttons003 onclick=qcor()>Sonny Chiba</button><br/>",
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"Which actor earned two Academy Awards for starring in back-to-back Quentin Tarantino movies?",
+"answ":"CHRISTOPH WALTZ",
+"answ3":"KRISTOF WALTZ",
+"answ2":"Christoph Waltz.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Samuel L. Jackson</button><button id=incop2 class=buttons003 onclick=qinc()>Leonardo DiCaprio</button><button id=incop3 class=buttons003 onclick=qinc()>Tim Roth</button><button id=corop class=buttons003 onclick=qcor()>Christoph Waltz</button><br/>",
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"What is the first name of the killer stuntman played by Kurt Russell in Death Proof?",
+"answ":"MIKE",
+"answ2":"Mike.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Bruce</button><button id=incop2 class=buttons003 onclick=qinc()>Joe</button><button id=incop3 class=buttons003 onclick=qinc()>Steve</button><button id=corop class=buttons003 onclick=qcor()>Mike</button><br/>",
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"Who plays General Sandy Smithers in The Hateful Eight?",
+"answ":"BRUCE DERN",
+"answ2":"Bruce Dern.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Tim Roth</button><button id=incop2 class=buttons003 onclick=qinc()>Walton Goggins</button><button id=incop3 class=buttons003 onclick=qinc()>Harvey Keitel</button><button id=corop class=buttons003 onclick=qcor()>Bruce Dern</button><br/>",
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"In Reservoir Dogs, Tim Roth is referred to as what color nickname in the heist crew?",
+"answ":"ORANGE",
+"answ3":"MR ORANGE",
+"answ2":"Orange.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Brown</button><button id=incop2 class=buttons003 onclick=qinc()>Pink</button><button id=incop3 class=buttons003 onclick=qinc()>White</button><button id=corop class=buttons003 onclick=qcor()>Orange</button><br/>",
 },
 ];
 tarantino = shuffle(tarantino);

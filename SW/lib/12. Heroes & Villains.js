@@ -14,6 +14,13 @@ var heroesvillains = [
 },
 {
 "cat":"Heroes & Villains",
+"ques":"Which Imperial Officer said: 'We don't need that scum' when the bounty hunters arrived in The Empire Strikes Back?",
+"answ":"PIETT",
+"answ3":"ADMIRAL PIETT",
+"answ2":"Admiral Piett.",
+},
+{
+"cat":"Heroes & Villains",
 "ques":"What is the name of the snowspeeder pilot who finds Luke and Han on the surface of Hoth in The Empire Strikes Back?",
 "answ":"ZEV SENESCA",
 "answ2":"Zev Senesca.",

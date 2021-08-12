@@ -8,6 +8,27 @@ var episodeiii = [
 },
 {
 "cat":"Revenge of the Sith",
+"ques":"What species of alien is the administrator Tion Medon, who is introduced in Revenge of the Sith?",
+"answ":"PAU'AN",
+"answ3":"PAUAN",
+"answ2":"Pau'an.",
+},
+{
+"cat":"Revenge of the Sith",
+"ques":"Revenge of the Sith only received one Oscar nomination, in what category?",
+"answ":"BEST MAKEUP",
+"answ3":"MAKEUP",
+"answ2":"Best Makeup.",
+},
+{
+"cat":"Revenge of the Sith",
+"ques":"Name one of the two characters played by actor Silas Carson in Revenge of the Sith.",
+"answ":"NUTE GUNRAY",
+"answ3":"KI ADI MUNDI",
+"answ2":"Nute Gunray/Ki-Adi-Mundi.",
+},
+{
+"cat":"Revenge of the Sith",
 "ques":"In Revenge of the Sith, besides Yoda, what other Jedi can be seen during the Battle of Kashyyyk, shown to be helping the wookies near the beach?",
 "answ":"LUMINARA UNDULI",
 "answ2":"Luminara Unduli.",
@@ -302,6 +323,13 @@ var r2Q3 = [
 "answ3":"POLIS MASA",
 "answ2":"Polis Massa.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Alderaan</button><button id=incop2 class=buttons003 onclick=qinc()>Mortis</button><button id=corop class=buttons003 onclick=qcor()>Polis Massa</button><button id=incop4 class=buttons003 onclick=qinc()>Concord Dawn</button><br/>",
+},
+{
+"cat":"Revenge of the Sith",
+"ques":"In Revenge of the Sith, Obi-Wan tells Anakin that he was meant to bring balance to the Force and not leave it in what?",
+"answ":"DARKNESS",
+"answ2":"Darkness.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Turmoil</button><button id=incop2 class=buttons003 onclick=qinc()>Chaos</button><button id=corop class=buttons003 onclick=qcor()>Darkness</button><button id=incop4 class=buttons003 onclick=qinc()>Despair</button><br/>",
 },
 {
 "cat":"Revenge of the Sith",

@@ -8,6 +8,25 @@ var episodevi = [
 },
 {
 "cat":"Return of the Jedi",
+"ques":"What species is Salacious B. Crumb?",
+"answ":"KOWAKIAN MONKEY LIZARD",
+"answ2":"Kowakian monkey-lizard.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, how many Scout troopers are guarding the secret back entrance to the generator before Wicket leads them away?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the name of the song that the Max Rebo Band is ordered to play by Jabba before he dropped Oola into the pit?",
+"answ":"JEDI ROCKS",
+"answ2":"Jedi Rocks.",
+},
+{
+"cat":"Return of the Jedi",
 "ques":"In Return of the Jedi, who does Luke tell that if he doesn't make it back, they are the only hope for the alliance?",
 "answ":"LEIA",
 "answ3":"PRINCESS LEIA",

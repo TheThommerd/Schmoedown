@@ -2,8 +2,8 @@
 		var incmusic = document.getElementById("myAudio2"); 
 		document.getElementById("myAudio").volume = 0.1;
 		document.getElementById("myAudio2").volume = 0.05;
-                var wins = document.getElementById("wins_SW").value;
-                var losses = document.getElementById("losses_SW").value;
+                var wins = document.getElementById("wins_IG").value;
+                var losses = document.getElementById("losses_IG").value;
 	    	message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 	    	document.getElementById("JTE").style.visibility = "hidden";
 		document.getElementById("time001").style.visibility = "hidden";
@@ -29,6 +29,18 @@ var episodei = [
 "answ":"PADME",
 "answ3":"PADME AMIDALA",
 "answ2":"Padmé Amidala.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, Anakin made Padmé a necklace to remember him by that he carved out of a what?",
+"answ":"JAPOR SNIPPET",
+"answ2":"Japor snippet.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"What behind the scenes mainstay Lucasfilm employee plays Bib Fortuna in The Phantom Menace?",
+"answ":"MATTHEW WOOD",
+"answ2":"Matthew Wood.",
 },
 {
 "cat":"The Phantom Menace",
@@ -389,6 +401,14 @@ var r2Q1 = [
 },
 {
 "cat":"The Phantom Menace",
+"ques":"When Anakin meets Padmé in Watto's shop on Tatooine, he says that he thinks he has lived there since he was 'how old'?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop2 class=buttons003 onclick=qinc()>4</button><button id=incop3 class=buttons003 onclick=qinc()>5</button><button id=incop4 class=buttons003 onclick=qinc()>6</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
 "ques":"Who tows the cockpit of Anakin's podracer to the starting line?",
 "answ":"R2D2",
 "answ3":"R2 D2",
@@ -583,6 +603,22 @@ var r2Q1 = [
 "answ3":"CAPTAIN PANAKA",
 "answ2":"Quarsh Panaka.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Gregar Typho</button><button id=incop2 class=buttons003 onclick=qinc()>Gavyn Sykes</button><button id=incop3 class=buttons003 onclick=qinc()>Ric Olié</button><button id=corop class=buttons003 onclick=qcor()>Quarsh Panaka</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"What is the name of the Gungan band that helps celebrate the victory of the Battle of Naboo?",
+"answ":"THE GREAT MUNICIPAL BAND",
+"answ3":"GREAT MUNICIPAL BAND",
+"answ2":"The Great Municipal Band.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Augie and the Jazz-wailers</button><button id=incop2 class=buttons003 onclick=qinc()>The Great Gungan Marching Band</button><button id=incop3 class=buttons003 onclick=qinc()>The Bonzo Dog-Doo-Da Band</button><button id=corop class=buttons003 onclick=qcor()>The Great Municipal Band</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, what is the name of the Trade Federation landing ships that went from Saak'ak to Naboo?",
+"answ":"C9979 LANDING CRAFT",
+"answ3":"C 9979 LANDING CRAFT",
+"answ2":"C-9979 landing craft.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>CR-20 landing craft</button><button id=incop2 class=buttons003 onclick=qinc()>H-2 executive landing craft</button><button id=incop3 class=buttons003 onclick=qinc()>BC-714 landing craft</button><button id=corop class=buttons003 onclick=qcor()>C-9979 landing craft</button><br/>",
 },
 {
 "cat":"The Phantom Menace",

@@ -88,17 +88,30 @@ var threepointer001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"In how many theatrically released films did Harrison Ford appear as Han Solo?",
-"answ":"FIVE",
-"answ3":"5",
-"answ2":"5.",
-},
-{
-"cat":"Mixed Bag",
 "ques":"Name one of the two actresses that played Mon Mothma in the Star Wars series.",
 "answ":"GENEVIEVE O'REILLY",
 "answ3":"CAROLINE BLAKISTON",
 "answ2":"Genevieve O'Reilly/Caroline Blakiston.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which Star Wars film got an Oscar for Best Sound as well as winning the Special Achievement Award?",
+"answ":"THE EMPIRE STRIKES BACK",
+"answ3":"STAR WARS EPISODE V THE EMPIRE STRIKES BACK",
+"answ2":"The Empire Strikes Back.",
+},
+{
+"cat":"Planets & Locations",
+"ques":"What is the name of the region of the planet Bespin's atmosphere that was breathable to humans where Cloud City was located?",
+"answ":"LIFE ZONE",
+"answ3":"THE LIFE ZONE",
+"answ2":"The Life Zone.",
+},
+{
+"cat":"Planets & Locations",
+"ques":"What is the homeworld of the character Ki-Adi-Mundi?",
+"answ":"CEREA",
+"answ2":"Cerea.",
 },
 {
 "cat":"Planets & Locations",
@@ -106,6 +119,13 @@ var threepointer001 = [
 "answ":"TUANUL",
 "answ3":"TUANUL VILLAGE",
 "answ2":"Tuanul.",
+},
+{
+"cat":"Planets & Locations",
+"ques":"What is the name of the mining planet that Dexter Jettster says he spent time prospecting at?",
+"answ":"SUBTERREL",
+"answ3":"SUBTEREL",
+"answ2":"Subterrel.",
 },
 {
 "cat":"Planets & Locations",
@@ -339,7 +359,13 @@ var threepointer001 = [
 "answ3":"IMPERIAL WALKER",
 "answ2":"AT-AT/Imperial Walker.",
 },
-
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, name one of the two pilots of the Radiant VII.",
+"answ":"MAOI MADAKOR",
+"answ3":"ANTIDAR WILLIAMS",
+"answ2":"Maoi Madakor/Antidar Williams.",
+},
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, Qui-Gon and crew use what type of Gungan submarine to go to Theed?",
@@ -483,6 +509,13 @@ var threepointer001 = [
 "answ":"2",
 "answ3":"TWO",
 "answ2":"2.",
+},
+{
+"cat":"Rogue One",
+"ques":"In Rogue One, when General Dravin is questioning Jyn Erso, name the second charge he lists on her rap sheet.",
+"answ":"FORGING IMPERIAL DOCUMENTS",
+"answ3":"FORGERY OF IMPERIAL DOCUMENTS",
+"answ2":"Forgery of Imperial documents.",
 },
 {
 "cat":"Rogue One",

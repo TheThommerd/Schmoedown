@@ -8,6 +8,32 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"Which villain said: 'We were on the verge of greatness. We were this close to providing peace and security for the galaxy.'?",
+"answ":"ORSON KRENNIC",
+"answ3":"KRENNIC",
+"answ2":"Orson Krennic.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which prequel character said: 'Those Tuskens walk like men, but they're vicious mindless monsters'?",
+"answ":"CLIEGG LARS",
+"answ3":"CLIEG LARS",
+"answ2":"Cliegg Lars.",
+},
+{
+"cat":"Who said it?",
+"ques":"When Padmé tells Anakin that she thought 'love' was forbidden for a Jedi, he answers that attachment and 'what else' are forbidden?",
+"answ":"POSESSION",
+"answ2":"Posession.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which character said: 'Many Bothans died to bring us this information'?",
+"answ":"MON MOTHMA",
+"answ2":"Mon Mothma.",
+},
+{
+"cat":"Who said it?",
 "ques":"In what Star Wars film from the 2000s will you hear the line: 'You've got that 'we're in trouble' look'?",
 "answ":"CLONE WARS",
 "answ3":"STAR WARS THE CLONE WARS",

@@ -6,6 +6,18 @@ var vehiclesweapons = [
 "answ2":"All Terrain Scout Transport.",
 },
 {
+"cat":"Vehicles, Weapons & tech",
+"ques":"What is the color of the lightsaber used by Jedi Master Agen Kolar, during the Battle of Geonosis in Attack of the Clones?",
+"answ":"GREEN",
+"answ2":"Green.",
+},
+{
+"cat":"Vehicles, weapons & tech",
+"ques":"You'll see the SW-0608 Zeta-Class Heavy Cargo Shuttle in what film?",
+"answ":"ROGUE ONE",
+"answ2":"Rogue One.",
+},
+{
 "cat":"Vehicles, weapons & tech",
 "ques":"In Rogue One, what type of TIE-fighters are used as modified troop transports at the Battle of Scarif?",
 "answ":"TIE REAPER",
@@ -23,7 +35,7 @@ var vehiclesweapons = [
 "cat":"Vehicles, weapons & tech",
 "ques":"In The Phantom Menace, what is the class of battleship that was the Primary Capital ship for the Trade Federation's Trade Defense Force?",
 "answ":"LUCREHULK CLASS",
-"answ":"LUCREHULK",
+"answ3":"LUCREHULK",
 "answ2":"Lucrehulk class.",
 },
 {

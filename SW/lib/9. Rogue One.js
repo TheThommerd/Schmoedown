@@ -7,6 +7,19 @@ var rogueone = [
 },
 {
 "cat":"Rogue One",
+"ques":"What director has a cameo as the Rebel soldier that pulls the lever that releases the Tantive IV from the belly of Admiral Raddus' ship?",
+"answ":"GARETH EDWARDS",
+"answ2":"Gareth Edwards.",
+},
+{
+"cat":"Rogue One",
+"ques":"In Rogue One, what are Saw Gererra's last words in the film?",
+"answ":"SAVE THE REBELLION SAVE THE DREAM",
+"answ3":"SAVE THE DREAM",
+"answ2":"Save the rebellion, save the dream.",
+},
+{
+"cat":"Rogue One",
 "ques":"In Rogue One, what is the first droid that is seen in the film?",
 "answ":"SE 2 WORKER DROID",
 "answ3":"SE 2",
@@ -359,6 +372,13 @@ var r2Q9 = [
 "answ3":"SPACE GUN",
 "answ2":"Blaster.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Lightsaber</button><button id=incop2 class=buttons003 onclick=qinc()>Sandwich</button><button id=corop class=buttons003 onclick=qcor()>Blaster</button><button id=incop4 class=buttons003 onclick=qinc()>Helmet</button><br/>",
+},
+{
+"cat":"Rogue One",
+"ques":"Who plays Republic Informant Tivik in Rogue One?",
+"answ":"DANIEL MAYS",
+"answ2":"Daniel Mays.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ben Daniels</button><button id=incop2 class=buttons003 onclick=qinc()>Nick Kellington</button><button id=corop class=buttons003 onclick=qcor()>Daniel Mays</button><button id=incop4 class=buttons003 onclick=qinc()>Jordan Stephens</button><br/>",
 },
 {
 "cat":"Rogue One",

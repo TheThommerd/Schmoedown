@@ -7,6 +7,19 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"Who replaced Captain Panaka as Senator Amidala's head of security in Attack of the Clones?",
+"answ":"GREGAR TYPHO",
+"answ3":"CAPTAIN TYPHO",
+"answ2":"Gregar Typho.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, Dex says that he thinks Jedi would have more respect for the difference between knowledge and what?",
+"answ":"WISDOM",
+"answ2":"Wisdom.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"In Attack of the Clones, Mace Windu says that Padme's assassination attempt was probably disgruntled people on the moons of Naboo, what was their occupation?",
 "answ":"SPICE MINERS",
 "answ2":"Spice miners.",

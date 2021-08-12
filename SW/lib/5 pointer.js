@@ -340,6 +340,13 @@ var fivepointer001 = [
 },
 {
 "cat":"Solo",
+"ques":"In addition to Bossk, who did Val want to recruit for the train heist instead of Han and Chewie?",
+"answ":"THE XAN SISTERS",
+"answ3":"XAN SISTERS",
+"answ2":"The Xan sisters.",
+},
+{
+"cat":"Solo",
 "ques":"What planet did Beckett always say he wanted to go back to in Solo: A Star Wars Story?",
 "answ":"GLEE ANSELM",
 "answ2":"Glee Anselm.",

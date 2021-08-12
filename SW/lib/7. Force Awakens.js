@@ -8,6 +8,19 @@ var episodevii = [
 },
 {
 "cat":"The Force Awakens",
+"ques":"Rey says: 'I didn't know there was this much green in the whole galaxy' after she arrives on what planet?",
+"answ":"TAKODANA",
+"answ2":"Takodana.",
+},
+{
+"cat":"The Force Awakens",
+"ques":"What type of staff do we first see Rey wielding on Jakku?",
+"answ":"QUARTERSTAFF",
+"answ3":"QUARTER STAFF",
+"answ2":"Quarterstaff.",
+},
+{
+"cat":"The Force Awakens",
 "ques":"According to the opening crawl of The Force Awakens, The First Order will not rest until Skywalker, the last Jedi has been what?",
 "answ":"DESTROYED",
 "answ2":"Destroyed.",
@@ -601,6 +614,22 @@ var r2Q7 = [
 "answ3":"50000",
 "answ2":"50,000.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>50,000</button><button id=incop2 class=buttons003 onclick=qinc()>30,000</button><button id=incop3 class=buttons003 onclick=qinc()>20,000</button><button id=incop4 class=buttons003 onclick=qinc()>15,000</button><br/>",
+},
+{
+"cat":"The Force Awakens",
+"ques":"In The Force Awakens, from what bay number are Poe and Finn trying to escape the Finalizer from?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>2</button><button id=incop2 class=buttons003 onclick=qinc()>7</button><button id=incop3 class=buttons003 onclick=qinc()>14</button><button id=incop4 class=buttons003 onclick=qinc()>39</button><br/>",
+},
+{
+"cat":"The Force Awakens",
+"ques":"In The Force Awakens, what species is Unkar Plutt?",
+"answ":"CROLUTE",
+"answ3":"KROLUTE",
+"answ2":"Crolute.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Crolute</button><button id=incop2 class=buttons003 onclick=qinc()>Zabrak</button><button id=incop3 class=buttons003 onclick=qinc()>Bothan</button><button id=incop4 class=buttons003 onclick=qinc()>Nautolan</button><br/>",
 },
 ];
 r2Q7 = shuffle(r2Q7);

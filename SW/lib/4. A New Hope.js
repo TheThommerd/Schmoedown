@@ -8,6 +8,13 @@ var episodeiv = [
 },
 {
 "cat":"A New Hope",
+"ques":"In A New Hope, when R2 and C3PO are first introduced there is another 3PO protocol droid behind them, what is its name?",
+"answ":"U3PO",
+"answ3":"U 3PO",
+"answ2":"U-3PO.",
+},
+{
+"cat":"A New Hope",
 "ques":"In A New Hope, Uncle Owen assumes C-3PO is programmed for Protocol and what else?",
 "answ":"ETIQUETTE",
 "answ3":"ETIQUET",

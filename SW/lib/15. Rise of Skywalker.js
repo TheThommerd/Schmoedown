@@ -8,6 +8,24 @@ var episodeix = [
 },
 {
 "cat":"The Rise of Skywalker",
+"ques":"In Rise of Skywalker, which Star Wars legend has a brief cameo as Oma Tres, a bartender in the Spice Runners Den?",
+"answ":"JOHN WILLIAMS",
+"answ2":"John Williams.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"What famous songwriter co-wrote the song 'Lido Hey' with J.J. Abrams for The Rise of Skywalker?",
+"answ":"LIN MANUEL MIRANDA",
+"answ2":"Lin-Manuel Miranda.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, what is the name of the mine overseer that transfers a message to R2 to help the Resistance?",
+"answ":"BOOLIO",
+"answ2":"Boolio.",
+},
+{
+"cat":"The Rise of Skywalker",
 "ques":"In Rise of Skywalker, what game are Finn, Poe and Chewbacca playing when they are first seen?",
 "answ":"DEJARIK",
 "answ3":"HOLOCHESS",

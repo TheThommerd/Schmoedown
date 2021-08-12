@@ -13,6 +13,12 @@ var solo = [
 },
 {
 "cat":"Solo",
+"ques":"What is the only character mentioned by name in the film's opening title scroll?",
+"answ":"LADY PROXIMA",
+"answ2":"Lady Proxima.",
+},
+{
+"cat":"Solo",
 "ques":"When Han is thrown to 'the beast' in Solo, how many days has it been since the beast was last fed?",
 "answ":"3",
 "answ3":"3 DAYS",
@@ -182,7 +188,7 @@ var solo = [
 },
 {
 "cat":"Solo",
-"ques":"What is the name of Lando's droid companion and navigator?",
+"ques":"In Solo, what is the name of Lando's droid companion and navigator?",
 "answ":"L3-37",
 "answ3":"L337",
 "answ2":"L3-37.",
@@ -312,6 +318,13 @@ var r2Q10 = [
 "answ":"SAGWA",
 "answ2":"Sagwa.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Gungi</button><button id=corop class=buttons003 onclick=qcor()>Sagwa</button><button id=incop3 class=buttons003 onclick=qinc()>Tarfful</button><button id=incop4 class=buttons003 onclick=qinc()>Arrworr</button><br/>",
+},
+{
+"cat":"Solo",
+"ques":"In Solo, when we first meet Beckett, he's posing as an Imperial soldier, based on his uniform what is his rank, which Han points out to him?",
+"answ":"CAPTAIN",
+"answ2":"Captain.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>General</button><button id=corop class=buttons003 onclick=qcor()>Captain</button><button id=incop3 class=buttons003 onclick=qinc()>Sergeant</button><button id=incop4 class=buttons003 onclick=qinc()>Lieutenant</button><br/>",
 },
 {
 "cat":"Solo",

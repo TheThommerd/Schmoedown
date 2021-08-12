@@ -1,6 +1,25 @@
 var batman = [
 {
 "cat":"Batman",
+"ques":"You'll find Ed Begley Jr. and Drew Barrymore in which Batman film?",
+"answ":"BATMAN FOREVER",
+"answ2":"Batman Forever.",
+},
+{
+"cat":"Batman",
+"ques":"In which film does Batman say: 'It's not who I am underneath...but what I do that defines me'?",
+"answ":"BATMAN BEGINS",
+"answ2":"Batman Begins.",
+},
+{
+"cat":"Batman",
+"ques":"Actor Lee Wallace plays the mayor of Gotham city in which Batman film?",
+"answ":"BATMAN 1989",
+"answ3":"BATMAN",
+"answ2":"Batman (1989).",
+},
+{
+"cat":"Batman",
 "ques":"Who played Batgirl in the ill fated and critically panned Batman & Robin?",
 "answ":"ALICIA SILVERSTONE",
 "answ2":"Alicia Silverstone.",
@@ -113,7 +132,7 @@ var batman = [
 "cat":"Batman",
 "ques":"In Batman Begins, who operates the Batmobile on the ground while Bruce is fighting Ra's al Ghul on the train?",
 "answ":"JIM GORDON",
-"answ":"COMMISSIONER GORDON",
+"answ3":"COMMISSIONER GORDON",
 "answ2":"Jim Gordon.",
 },
 {

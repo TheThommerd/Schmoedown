@@ -1,6 +1,12 @@
 var starwars = [
 {
 "cat":"Star Wars",
+"ques":"Which Oscar winning actor played DJ, an underworld codebreaker in The Last Jedi?",
+"answ":"BENICIO DEL TORO",
+"answ2":"Benicio Del Toro.",
+},
+{
+"cat":"Star Wars",
 "ques":"What is the name of the Sith Lord that Palpatine tells a story about in Revenge of the Sith?",
 "answ":"DARTH PLAGUEIS",
 "answ3":"DARTH PLAGUEIS THE WISE",

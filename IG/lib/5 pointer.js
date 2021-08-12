@@ -1,5 +1,17 @@
 var fivepointer001 = [
 {
+"cat":"Animated",
+"ques":"Who voices the Fairy King in Strange Magic?",
+"answ":"ALFRED MOLINA",
+"answ2":"Alfred Molina.",
+},
+{
+"cat":"Animated",
+"ques":"Who voices Marianne in Strange Magic?",
+"answ":"EVAN RACHEL WOOD",
+"answ2":"Evan Rachel Wood.",
+},
+{
 "cat":"Back to the Future",
 "ques":"What actor plays Lorraine's younger brother Milton in the first film?",
 "answ":"JASON HERVEY",
@@ -64,6 +76,13 @@ var fivepointer001 = [
 "answ":"HEADPIECE TO THE STAFF OF RA",
 "answ3":"HEADPIECE TO RA'S STAFF",
 "answ2":"Headpiece to the Staff of Ra.",
+},
+{
+"cat":"Indiana Jones",
+"ques":"In Kingdom of the Crystal Skull, Indy says he learned Quechua, the local Indian dialect, from riding with what historical figure?",
+"answ":"PANCHO VILLA",
+"answ3":"PANCHO",
+"answ2":"Pancho Villa.",
 },
 {
 "cat":"Indiana Jones",
@@ -234,6 +253,12 @@ var fivepointer001 = [
 "ques":"Who voiced Abe Sapien in 2004's Hellboy?",
 "answ":"DAVID HYDE PIERCE",
 "answ2":"David Hyde Pierce.",
+},
+{
+"cat":"Heroes",
+"ques":"Which superhero character will you hear say: 'I'll be there, around every corner, in every empty room, as inevitable as your guilty conscience'?",
+"answ":"THE SHADOW",
+"answ2":"The Shadow.",
 },
 {
 "cat":"Heroes",
@@ -1055,6 +1080,12 @@ var fivepointer001 = [
 "ques":"What spell does Professor McGonagall refer to when she says 'I've always wanted to use that spell' in Deathly Hallow Part 2?",
 "answ":"PIERTOTUM LOCOMOTOR",
 "answ2":"Piertotum Locomotor.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In Chamber of Secrets, Harry first encounters Gilderoy Lockhart during a book signing at what location in Diagon Alley?",
+"answ":"FLOURISH AND BLOTTS",
+"answ2":"Flourish and Blotts.",
 },
 {
 "cat":"Wizarding World",

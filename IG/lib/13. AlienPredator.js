@@ -1,6 +1,31 @@
 var alienpredator = [
 {
 "cat":"Alien/Predator",
+"ques":"In Predators, who plays Ronald Noland, a soldier who has survived on the alien planet for multiple hunting cycles?",
+"answ":"LAURENCE FISHBURNE",
+"answ2":"Laurence Fishburne.",
+},
+{
+"cat":"Alien/Predator",
+"ques":"Which film in the Alien franchise features the characters Parker, Lambert and Brett?",
+"answ":"ALIEN",
+"answ2":"Alien.",
+},
+{
+"cat":"Alien/Predator",
+"ques":"In how many films of the Alien franchise does Michael Fassbender appear?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+},
+{
+"cat":"Alien/Predator",
+"ques":"Famous screenwriter Damon Lindelof co-wrote which film in the Alien franchise?",
+"answ":"PROMETHEUS",
+"answ2":"Prometheus.",
+},
+{
+"cat":"Alien/Predator",
 "ques":"Who plays archaeologist Charlie Holloway in the film Prometheus?",
 "answ":"LOGAN MARSHALL GREEN",
 "answ2":"Logan Marshall-Green.",

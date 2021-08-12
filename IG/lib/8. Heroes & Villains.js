@@ -1,6 +1,12 @@
 var heroesvillains = [
 {
 "cat":"Heroes & Villains",
+"ques":"Which villain from a swashbuckling franchise says the line: 'Life is cruel. Why should the afterlife be any different'?",
+"answ":"DAVY JONES",
+"answ2":"Davy Jones.",
+},
+{
+"cat":"Heroes & Villains",
 "ques":"In The Lord of The Rings, at the entrance to Moria, who realized the answer to the riddle was in Elvish?",
 "answ":"FRODO",
 "answ2":"Frodo.",

@@ -8,6 +8,37 @@ var swashbuckling = [
 },
 {
 "cat":"Swashbuckling Adventure",
+"ques":"In which film does Indiana Jones say: 'I don't know. I'm making this up as I go.' just before embarking on a big chase?",
+"answ":"RAIDERS OF THE LOST ARK",
+"answ2":"Raiders of the Lost Ark.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Which actor played Davy Jones in the Pirates of the Caribbean franchise?",
+"answ":"BILL NIGHY",
+"answ2":"Bill Nighy.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Which actress plays Tia Dalma in the Pirates of the Caribbean franchise?",
+"answ":"NAOMIE HARRIS",
+"answ3":"NAOMI HARRIS",
+"answ2":"Naomie Harris.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Who plays the role of Commodore James Norrington in the Pirates of the Caribbean franchise?",
+"answ":"JACK DAVENPORT",
+"answ2":"Jack Davenport.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Who plays the role of Joshamee Gibbs in the Pirates of the Caribbean franchise?",
+"answ":"KEVIN MCNALLY",
+"answ2":"Kevin McNally.",
+},
+{
+"cat":"Swashbuckling Adventure",
 "ques":"Which swashbuckling film features supporting performances from David Wenham, Kevin McNally and Brenton Thwaites?",
 "answ":"PIRATES OF THE CARIBBEAN DEAD MEN TELL NO TALES",
 "answ3":"DEAD MEN TELL NO TALES",

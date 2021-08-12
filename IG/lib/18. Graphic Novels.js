@@ -1,6 +1,25 @@
 var graphicnovels = [
 {
 "cat":"Graphic Novels",
+"ques":"In what film will you see characters playing a video game called 'Ninja Ninja Revolution'?",
+"answ":"SCOTT PILGRIM VS THE WORLD",
+"answ3":"SCOTT PILGRIM VERSUS THE WORLD",
+"answ2":"Scott Pilgrim vs. the World.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Which actress plays a sex worker named Mary Kelly in the film From Hell?",
+"answ":"HEATHER GRAHAM",
+"answ2":"Heather Graham.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Who plays Maggie Greer, the wife of Bruce Willis' character in Surrogates?",
+"answ":"ROSAMUND PIKE",
+"answ2":"Rosamund Pike.",
+},
+{
+"cat":"Graphic Novels",
 "ques":"Who directed Watchmen?",
 "answ":"ZACK SNYDER",
 "answ2":"Zack Snyder.",
@@ -436,6 +455,21 @@ var r2Q18 = [
 "answ":"STEPHEN REA",
 "answ2":"Stephen Rea.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Hugo Weaving</button><button id=incop2 class=buttons003 onclick=qinc()>John Hurt</button><button id=corop class=buttons003 onclick=qcor()>Stephen Rea</button><button id=incop4 class=buttons003 onclick=qinc()>Clive Owen</button><br/>",
+},
+{
+"cat":"Graphic Novels",
+"ques":"In A History of Violence, Viggo Mortensen's character calls attention to himself by killing two armed robbers at what type of location?",
+"answ":"DINER",
+"answ3":"RESTAURANT",
+"answ2":"Diner.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Library</button><button id=incop2 class=buttons003 onclick=qinc()>Movie Theater</button><button id=corop class=buttons003 onclick=qcor()>Diner</button><button id=incop4 class=buttons003 onclick=qinc()>Police station</button><br/>",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Which graphic novel adaptation begins with the line: 'Earth before the war. New York before I was born. A place I've only seen pictures of.'?",
+"answ":"OBLIVION",
+"answ2":"Oblivion.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Watchmen</button><button id=incop2 class=buttons003 onclick=qinc()>Cowboys & Aliens</button><button id=corop class=buttons003 onclick=qcor()>Oblivion</button><button id=incop4 class=buttons003 onclick=qinc()>From Hell</button><br/>",
 },
 {
 "cat":"Graphic Novels",

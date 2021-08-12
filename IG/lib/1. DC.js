@@ -36,6 +36,12 @@ var dcmovies = [
 },
 {
 "cat":"DC Movies",
+"ques":"Will Arnett and John Gallagher Jr. play Lieutenants Grass and Evan in what DC film?",
+"answ":"JONAH HEX",
+"answ2":"Jonah Hex.",
+},
+{
+"cat":"DC Movies",
 "ques":"The character of Renee Montoya, who's a district attorney in Gotham City, appears in what DCEU movie?",
 "answ":"BIRDS OF PREY",
 "answ2":"Birds of Prey.",

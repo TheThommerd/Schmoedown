@@ -1,6 +1,26 @@
 var dystopiantime = [
 {
 "cat":"Dystopian Future/Time Travel",
+"ques":"In Back to the Future Part 3, Clara briefly gets on a train headed to what city, when she believes her relationship with Doc is over?",
+"answ":"SAN FRANCISCO",
+"answ2":"San Francisco.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
+"ques":"In Back to the Future Part 2, which character has a face-to-face encounter with their future self in the year 2015, causing them to faint?",
+"answ":"JENNIFER",
+"answ3":"JENNIFER PARKER",
+"answ2":"Jennifer.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
+"ques":"Mary Alice plays the Oracle in what 2000s dystopian film?",
+"answ":"THE MATRIX REVOLUTIONS",
+"answ3":"MATRIX REVOLUTIONS",
+"answ2":"The Matrix Revolutions.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
 "ques":"In Back to the Future, who does Marty tell he should run for mayor while he's traveled back to 1955?",
 "answ":"GOLDIE WILSON",
 "answ2":"Goldie Wilson.",

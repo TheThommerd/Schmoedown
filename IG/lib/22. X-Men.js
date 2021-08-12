@@ -7,6 +7,12 @@ var xmen = [
 "answ2":"The Cuban Missile Crisis.",
 },
 {
+"cat":"X-men",
+"ques":"In Deadpool 2, what is the name of Bill Skarsgard's acid spitting character?",
+"answ":"ZEITGEIST",
+"answ2":"Zeitgeist.",
+},
+{
 "cat":"X-Men",
 "ques":"The characters of William Stryker, Victor Creed, Agent Zero and Gambit appear in what X-Men universe film?",
 "answ":"X MEN ORIGINS WOLVERINE",
@@ -243,7 +249,7 @@ var xmen = [
 "cat":"X-Men",
 "ques":"Who plays the villainous Dr. Zander Rice in Logan?",
 "answ":"RICHARD E GRANT",
-"answ":"RICHARD GRANT",
+"answ3":"RICHARD GRANT",
 "answ2":"Richard E. Grant.",
 },
 {
@@ -502,6 +508,13 @@ var xmen = [
 },
 {
 "cat":"X-Men",
+"ques":"Which X-Men film involves a shape-shifting race of aliens called the D'Bari?",
+"answ":"X MEN DARK PHOENIX",
+"answ3":"DARK PHOENIX",
+"answ2":"X-Men: Dark Phoenix.",
+},
+{
+"cat":"X-Men",
 "ques":"What is the name of the teleporting mutant in X-Men First Class?",
 "answ":"AZAZEL",
 "answ2":"Azazel.",
@@ -612,9 +625,17 @@ var r2Q22 = [
 },
 {
 "cat":"X-Men",
+"ques":"In X2: X-Men United, the jet plane has trouble lifting off because the what are offline?",
+"answ":"VERTICAL THRUSTERS",
+"answ3":"THE VERTICAL THRUSTERS",
+"answ2":"Vertical Thrusters.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Engine Boosters</button><button id=incop2 class=buttons003 onclick=qinc()>Jet Propulsions</button><button id=corop class=buttons003 onclick=qcor()>Vertical Thrusters</button><button id=incop4 class=buttons003 onclick=qinc()>Alignment Gears</button><br/>",
+},
+{
+"cat":"X-Men",
 "ques":"In Logan, what is the full name of the nurse who hires Logan?",
 "answ":"GABRIELA LOPEZ",
-"answ":"GABRIELA LÓPEZ",
+"answ3":"GABRIELA LÓPEZ",
 "answ2":"Gabriela López.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Esperanza Martinez</button><button id=incop2 class=buttons003 onclick=qinc()>Laura Chavez</button><button id=corop class=buttons003 onclick=qcor()>Gabriela López</button><button id=incop4 class=buttons003 onclick=qinc()>Maria Fernandez</button><br/>",
 },
@@ -1006,6 +1027,28 @@ var r2Q22 = [
 "answ3":"DAYS OF FUTURE PAST",
 "answ2":"X-Men: Days of Future Past.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>X-Men: Days of Future Past</button><button id=incop2 class=buttons003 onclick=qinc()>X2</button><button id=incop3 class=buttons003 onclick=qinc()>X-Men: Apocalypse</button><button id=incop4 class=buttons003 onclick=qinc()>Logan</button><br/>",
+},
+{
+"cat":"X-men",
+"ques":"Who played Warren Worthington II, the head of Worthington Labs in X-Men: The Last Stand?",
+"answ":"MICHAEL MURPHY",
+"answ2":"Michael Murphy.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Michael Murphy</button><button id=incop2 class=buttons003 onclick=qinc()>Daniel Cudmore</button><button id=incop3 class=buttons003 onclick=qinc()>Josef Sommer</button><button id=incop4 class=buttons003 onclick=qinc()>Bill Duke</button><br/>",
+},
+{
+"cat":"X-men",
+"ques":"In X-Men: Days of Future Past, William Stryker says that his son Jason is coming up on how many years old?",
+"answ":"8",
+"answ3":"EIGHT",
+"answ2":"8.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=incop2 class=buttons003 onclick=qinc()>6</button><button id=corop class=buttons003 onclick=qcor()>8</button><button id=incop4 class=buttons003 onclick=qinc()>10</button><br/>",
+},
+{
+"cat":"X-men",
+"ques":"In X-Men First Class, Klaus Schmidt says to young Erik that his gift is unlocked with anger and what?",
+"answ":"PAIN",
+"answ2":"Pain.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Pain</button><button id=incop2 class=buttons003 onclick=qinc()>Rage</button><button id=incop3 class=buttons003 onclick=qinc()>Despair</button><button id=incop4 class=buttons003 onclick=qinc()>Stress</button><br/>",
 },
 ];
 xmen = shuffle(xmen);

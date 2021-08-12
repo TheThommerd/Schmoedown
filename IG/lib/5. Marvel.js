@@ -1,6 +1,37 @@
 var marvelmovies = [
 {
 "cat":"Marvel Movies",
+"ques":"The characters Minn-Erva, Bron-Char and Att-Lass appear in which 2010s MCU film?",
+"answ":"CAPTAIN MARVEL",
+"answ2":"Captain Marvel.",
+},
+{
+"cat":"Marvel Movies",
+"ques":"Wayne Knight, Dominic West and Julie Benz appear in what 2000s Marvel film?",
+"answ":"PUNISHER WAR ZONE",
+"answ2":"Punisher: War Zone.",
+},
+{
+"cat":"Marvel Movies",
+"ques":"Which MCU film has the line: 'He may have been your father boy, but he wasn't your daddy'?",
+"answ":"GUARDIANS OF THE GALAXY VOL 2",
+"answ3":"GUARDIANS OF THE GALAXY 2",
+"answ2":"Guardians of the Galaxy Vol. 2.",
+},
+{
+"cat":"Marvel Movies",
+"ques":"Who provides the speaking voice of the Hulk after he has transformed in 2008's The Incredible Hulk?",
+"answ":"LOU FERRIGNO",
+"answ2":"Lou Ferrigno.",
+},
+{
+"cat":"Marvel Movies",
+"ques":"Which MCU film features the characters Algrim, Tyr and Ian Boothby?",
+"answ":"THOR THE DARK WORLD",
+"answ2":"Thor: The Dark World.",
+},
+{
+"cat":"Marvel Movies",
 "ques":"What Marvel film features the following characters: Loony Bin Jim, Microchip, Angela Donatelli and Martin Soap?",
 "answ":"PUNISHER WAR ZONE",
 "answ3":"PUNISHER WARZONE",

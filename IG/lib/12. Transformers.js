@@ -7,6 +7,13 @@ var transformers = [
 },
 {
 "cat":"Transformers",
+"ques":"In what Transformers film will you find the wizard Merlin helping the Guardian Knights?",
+"answ":"TRANSFORMERS THE LAST KNIGHT",
+"answ3":"THE LAST KNIGHT",
+"answ2":"Transformers: The Last Knight.",
+},
+{
+"cat":"Transformers",
 "ques":"Laura Haddock plays Viviane Wembly, a professor of English Literature at the University of Oxford, in which Transformers movie?",
 "answ":"THE LAST KNIGHT",
 "answ3":"TRANSFORMERS THE LAST KNIGHT",

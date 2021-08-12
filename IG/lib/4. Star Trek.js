@@ -8,6 +8,19 @@ var startrek = [
 },
 {
 "cat":"Star Trek",
+"ques":"In Star Trek VI: The Undiscovered Country, Kirk and McCoy are charged with killing Gorkon, a Klingon who holds what political position?",
+"answ":"CHANCELLOR",
+"answ2":"Chancellor.",
+},
+{
+"cat":"Star Trek",
+"ques":"Alan Ruck plays John Harriman, Captain of the Enterprise B in which Star Trek film?",
+"answ":"STAR TREK GENERATIONS",
+"answ3":"GENERATIONS",
+"answ2":"Star Trek: Generations.",
+},
+{
+"cat":"Star Trek",
 "ques":"In Star Trek (2009), which character says to Kirk: 'Yeah. Well I got nowhere else to go. The ex-wife took the whole damn planet in the divorce'?",
 "answ":"BONES",
 "answ3":"LEONARD MCCOY",
@@ -1722,6 +1735,20 @@ var r2Q4 = [
 "answ":"ABRONATH",
 "answ2":"Abronath.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Orchid</button><button id=corop class=buttons003 onclick=qcor()>Abronath</button><button id=incop3 class=buttons003 onclick=qinc()>Ekosian</button><button id=incop4 class=buttons003 onclick=qinc()>Chroniton</button><br/>",
+},
+{
+"cat":"Star Trek",
+"ques":"What is the first name of Krall's henchwoman, played by Lydia Wilson, in Star Trek Beyond?",
+"answ":"KALARA",
+"answ2":"Kalara.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jaylah</button><button id=corop class=buttons003 onclick=qcor()>Kalara</button><button id=incop3 class=buttons003 onclick=qinc()>Sophia</button><button id=incop4 class=buttons003 onclick=qinc()>Sarah</button><br/>",
+},
+{
+"cat":"Star Trek",
+"ques":"What year does the majority of Star Trek First Contact take place in?",
+"answ":"2063",
+"answ2":"2063.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>2059</button><button id=corop class=buttons003 onclick=qcor()>2063</button><button id=incop3 class=buttons003 onclick=qinc()>2078</button><button id=incop4 class=buttons003 onclick=qinc()>2091</button><br/>",
 },
 {
 "cat":"Star Trek",

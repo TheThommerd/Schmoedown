@@ -8,6 +8,13 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"Which Star Trek hero said: 'The line must be drawn here! This far, no further! And I will make them pay for what they've done!",
+"answ":"PICARD",
+"answ3":"JEAN LUC PICARD",
+"answ2":"Jean-Luc Picard.",
+},
+{
+"cat":"Who said it?",
 "ques":"What Middle Earth character said: 'Death is just another path, one that we all must take.'?",
 "answ":"GANDALF",
 "answ2":"Gandalf.",

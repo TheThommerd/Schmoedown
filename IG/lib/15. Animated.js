@@ -1,6 +1,26 @@
 var animated = [
 {
 "cat":"Animated",
+"ques":"What school subject does Mr. Incredible struggle to teach to Dash, saying they 'changed it' in Incredibles 2?",
+"answ":"MATH",
+"answ3":"MATHEMATICS",
+"answ2":"Math.",
+},
+{
+"cat":"Animated",
+"ques":"Who directed Strange Magic?",
+"answ":"GARY RYDSTROM",
+"answ3":"GARY RIDSTROM",
+"answ2":"Gary Rydstrom.",
+},
+{
+"cat":"Animated",
+"ques":"What X-Men actor voices the Bog King in Strange Magic?",
+"answ":"ALAN CUMMING",
+"answ2":"Alan Cumming.",
+},
+{
+"cat":"Animated",
 "ques":"Who voices the villainous Syndrome in 2004's The Incredibles?",
 "answ":"JASON LEE",
 "answ2":"Jason Lee.",
@@ -27,10 +47,23 @@ var animated = [
 },
 {
 "cat":"Animated",
+"ques":"Which animated film begins with the main character singing 'Can't Help Falling in Love With You'?",
+"answ":"STRANGE MAGIC",
+"answ2":"Strange Magic.",
+},
+{
+"cat":"Animated",
 "ques":"In The Incredibles, what does Mr. Incredible realize he still has on right before his wedding?",
 "answ":"HIS MASK",
 "answ3":"MASK",
 "answ2":"His mask.",
+},
+{
+"cat":"Animated",
+"ques":"You'll find the International Superhero Accord officially legalizing superheroes in what animated film?",
+"answ":"THE INCREDIBLES 2",
+"answ3":"INCREDIBLES 2",
+"answ2":"The Incredibles 2.",
 },
 {
 "cat":"Animated",

@@ -7,6 +7,13 @@ var superman = [
 },
 {
 "cat":"Superman",
+"ques":"In which film does Clark Kent have an epic fight with an evil Superman in a junkyard?",
+"answ":"SUPERMAN III",
+"answ3":"SUPERMAN 3",
+"answ2":"Superman III.",
+},
+{
+"cat":"Superman",
 "ques":"What Superman film features the line: 'I hear everything. You wrote that the world doesn't need a savior, but every day I hear people crying for one.'?",
 "answ":"SUPERMAN RETURNS",
 "answ2":"Superman Returns.",

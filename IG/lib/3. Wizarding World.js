@@ -7,6 +7,19 @@ var harrypotter = [
 },
 {
 "cat":"Wizarding World",
+"ques":"Who plays Leta Lestrange in Fantastic Beasts: The Crimes of Grindelwald?",
+"answ":"ZOE KRAVITZ",
+"answ2":"Zoe Kravitz.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Chamber of Secrets, what article of clothing was given to Dobby to give him his freedom?",
+"answ":"SOCK",
+"answ3":"A SOCK",
+"answ2":"Sock.",
+},
+{
+"cat":"Wizarding World",
 "ques":"What position do Fred and George Weasley play on the Gryffindor Quidditch team?",
 "answ":"BEATERS",
 "answ3":"BEATER",
@@ -929,7 +942,7 @@ var harrypotter = [
 "cat":"Wizarding World",
 "ques":"Fantastic Beasts and Where to Find them takes place during which decade?",
 "answ":"1920S",
-"answ":"20S",
+"answ3":"20S",
 "answ2":"1920s.",
 },
 {
@@ -2945,6 +2958,21 @@ var r2Q3 = [
 "answ3":"GNOME",
 "answ2":"Garden Gnome.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Garden Gnome</button><button id=incop2 class=buttons003 onclick=qinc()>Nargle</button><button id=incop3 class=buttons003 onclick=qinc()>Jackalope</button><button id=incop4 class=buttons003 onclick=qinc()>Gorgon</button><br/>",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Goblet of Fire, what spell does Harry use to save Cedric's life when being attacked by vines?",
+"answ":"REDUCTO",
+"answ2":"Reducto.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Reducto</button><button id=incop2 class=buttons003 onclick=qinc()>Engorgio</button><button id=incop3 class=buttons003 onclick=qinc()>Confringo</button><button id=incop4 class=buttons003 onclick=qinc()>Bombarda Maxima</button><br/>",
+},
+{
+"cat":"Wizarding World",
+"ques":"Which Hogwarts student was played by actor Josh Herdman?",
+"answ":"GREGORY GOYLE",
+"answ3":"GOYLE",
+"answ2":"Gregory Goyle.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Gregory Goyle</button><button id=incop2 class=buttons003 onclick=qinc()>Seamus Finnigan</button><button id=incop3 class=buttons003 onclick=qinc()>Vincent Crabbe</button><button id=incop4 class=buttons003 onclick=qinc()>Oliver Wood</button><br/>",
 },
 ];
 harrypotter = shuffle(harrypotter);

@@ -109,6 +109,13 @@ var threepointer001 = [
 "answ2":"1980.",
 },
 {
+"cat":"Dystopian Future/Time Travel",
+"ques":"The character of Commander Lock, played by Harry Lennix appears in which franchise?",
+"answ":"THE MATRIX",
+"answ3":"MATRIX",
+"answ2":"The Matrix.",
+},
+{
 "cat":"Graphic Novels",
 "ques":"Who played Dr. Manhattan in Watchmen?",
 "answ":"BILLY CRUDUP",
@@ -263,6 +270,13 @@ var threepointer001 = [
 "ques":"What is the full name of the museum curator and Indy's friend, who appears in both Raiders and Last Crusade?",
 "answ":"MARCUS BRODY",
 "answ2":"Marcus Brody.",
+},
+{
+"cat":"Indiana Jones",
+"ques":"Alison Doody has a role in what Indiana Jones film?",
+"answ":"INDIANA JONES AND THE LAST CRUSADE",
+"answ3":"THE LAST CRUSADE",
+"answ2":"Indiana Jones and the Last Crusade.",
 },
 {
 "cat":"Indiana Jones",
@@ -1042,6 +1056,12 @@ var threepointer001 = [
 "answ":"WILHELMINA GRUBBLY PLANK",
 "answ3":"GRUBBLY PLANK",
 "answ2":"Wilhelmina Grubbly-Plank.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Goblet of Fire, whose is the first name to come out of the Goblet of Fire?",
+"answ":"VIKTOR KRUM",
+"answ2":"Viktor Krum.",
 },
 {
 "cat":"Wizarding World",

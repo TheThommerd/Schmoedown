@@ -8,6 +8,12 @@ var spiderman = [
 },
 {
 "cat":"Spider-Man",
+"ques":"This actor had seperate roles as a ring announcer, a snooty usher and a French maître d' in the Sam Raimi Spider-Man films.",
+"answ":"BRUCE CAMPBELL",
+"answ2":"Bruce Campbell.",
+},
+{
+"cat":"Spider-Man",
 "ques":"In what Spider-Man film will you find Delmar's grocery deli?",
 "answ":"SPIDER MAN HOMECOMING",
 "answ3":"SPIDERMAN HOMECOMING",

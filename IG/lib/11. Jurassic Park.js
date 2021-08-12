@@ -1,6 +1,37 @@
 var jurassicpark = [
 {
 "cat":"Jurassic Park",
+"ques":"Which actor plays Zach Mitchell in Jurassic World?",
+"answ":"NICK ROBINSON",
+"answ2":"Nick Robinson.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"Which Jurassic Park film features the supporting characters Vic Hoskins, Lowery Cruthers and Simon Masrani?",
+"answ":"JURASSIC WORLD",
+"answ2":"Jurassic World.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"Which character gives the speech that ends The Lost World: Jurassic Park?",
+"answ":"JOHN HAMMOND",
+"answ2":"John Hammond.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"Which Jurassic Park film features performances from Allesandro Nivola, Michael Jeter and Trevor Morgan?",
+"answ":"JURASSIC PARK 3",
+"answ3":"JURASSIC PARK III",
+"answ2":"Jurassic Park III.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"In Jurassic World: Fallen Kingdom, the Lockwood Estate is in what US state?",
+"answ":"CALIFORNIA",
+"answ2":"California.",
+},
+{
+"cat":"Jurassic Park",
 "ques":"Who plays paleontologist Dr. Alan Grant in the original Jurassic Park?",
 "answ":"SAM NEILL",
 "answ2":"Sam Neill.",

@@ -1,6 +1,13 @@
 var lotr = [
 {
 "cat":"Middle Earth",
+"ques":"What type of creature stabs Frodo on top of Weathertop Hill in The Fellowship of the Ring?",
+"answ":"NAZGUL",
+"answ3":"RINGWRAITH",
+"answ2":"Nazgûl/Ringwraith.",
+},
+{
+"cat":"Middle Earth",
 "ques":"What is the name of Boromir's brother?",
 "answ":"FARAMIR",
 "answ2":"Faramir.",
@@ -1922,6 +1929,44 @@ var r2Q6 = [
 "answ":"THORIN",
 "answ2":"Thorin.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Kili</button><button id=incop2 class=buttons003 onclick=qinc()>Dwalin</button><button id=incop3 class=buttons003 onclick=qinc()>Legolas</button><button id=corop class=buttons003 onclick=qcor()>Thorin</button><br/>",
+},
+{
+"cat":"Middle Earth",
+"ques":"In Fellowship of the Ring, what type of tart does Bilbo offer Gandalf?",
+"answ":"APPLE TART",
+"answ3":"APPLE",
+"answ2":"Apple Tart.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Orange Tart</button><button id=incop2 class=buttons003 onclick=qinc()>Rasberry Tart</button><button id=incop3 class=buttons003 onclick=qinc()>Cherry Tart</button><button id=corop class=buttons003 onclick=qcor()>Apple Tart</button><br/>",
+},
+{
+"cat":"Middle Earth",
+"ques":"In The Two Towers, realizing they need a guide, what location does Frodo convince Gollum to lead both him and Sam to?",
+"answ":"BLACK GATE",
+"answ3":"THE BLACK GATE",
+"answ2":"The Black Gate.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Durthang</button><button id=incop2 class=buttons003 onclick=qinc()>Minas Morgul</button><button id=incop3 class=buttons003 onclick=qinc()>Barad-dûr</button><button id=corop class=buttons003 onclick=qcor()>The Black Gate</button><br/>",
+},
+{
+"cat":"Middle Earth",
+"ques":"In Battle of the Five Armies, which possession does Bilbo take from Lobelia as he returns to his home at the end of the film?",
+"answ":"SPOONS",
+"answ2":"Spoons.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Tea Cosies</button><button id=incop2 class=buttons003 onclick=qinc()>Armchair</button><button id=incop3 class=buttons003 onclick=qinc()>Glory Box</button><button id=corop class=buttons003 onclick=qcor()>Spoons</button><br/>",
+},
+{
+"cat":"Middle Earth",
+"ques":"In An Unexpected Journey, according to Smeagol/Gollum, how many teeth does he have?",
+"answ":"9",
+"answ3":"NINE",
+"answ2":"9.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>6</button><button id=incop2 class=buttons003 onclick=qinc()>7</button><button id=incop3 class=buttons003 onclick=qinc()>8</button><button id=corop class=buttons003 onclick=qcor()>9</button><br/>",
+},
+{
+"cat":"Middle Earth",
+"ques":"In Fellowship of the Ring, according to Gandalf, how long will it take to travel through the Mines of Moria?",
+"answ":"4 DAYS",
+"answ2":"4 days.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1 week</button><button id=incop2 class=buttons003 onclick=qinc()>6 days</button><button id=incop3 class=buttons003 onclick=qinc()>2 days</button><button id=corop class=buttons003 onclick=qcor()>4 days</button><br/>",
 },
 ];
 lotr = shuffle(lotr);

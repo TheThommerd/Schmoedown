@@ -1,6 +1,31 @@
 var mixedbag = [
 {
 "cat":"Mixed Bag",
+"ques":"You'll find Tars Tarkas, the Jeddak of the Tharks, in John Carter?",
+"answ":"WILLEM DAFOE",
+"answ3":"WILLEM DEFOE",
+"answ2":"Willem Dafoe.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"The character Zack Taylor becomes what color ranger in 2017's Power Rangers?",
+"answ":"BLACK",
+"answ2":"Black.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 2000s movie has the quote: 'None of you seem to understand. I'm not locked in here with you, you're locked in here with me.'?",
+"answ":"WATCHMEN",
+"answ2":"Watchmen.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Daryl Sabara appears as Edgar Rice Burroughs and Bryan Cranston appears as Colonel Powell in what 2010s sci-fi film?",
+"answ":"JOHN CARTER",
+"answ2":"John Carter.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"What type of insect did Harry Hart want to study in Kingsman: The Golden Circle?",
 "answ":"BUTTERFLIES",
 "answ3":"BUTTERFLY",
@@ -1490,7 +1515,7 @@ var r2Q7 = [
 "cat":"Mixed Bag",
 "ques":"What creatures is Hellboy called to help hunt in England in 2019's Hellyboy?",
 "answ":"GIANTS",
-"answ":"GIANT",
+"answ3":"GIANT",
 "answ2":"Giants.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Vampires</button><button id=corop class=buttons003 onclick=qcor()>Giants</button><button id=incop3 class=buttons003 onclick=qinc()>Jaguars</button><button id=incop4 class=buttons003 onclick=qinc()>Werewolves</button><br/>",
 },

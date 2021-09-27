@@ -6,7 +6,7 @@ var vehiclesweapons = [
 "answ2":"All Terrain Scout Transport.",
 },
 {
-"cat":"Vehicles, Weapons & tech",
+"cat":"Vehicles, weapons & tech",
 "ques":"What is the color of the lightsaber used by Jedi Master Agen Kolar, during the Battle of Geonosis in Attack of the Clones?",
 "answ":"GREEN",
 "answ2":"Green.",

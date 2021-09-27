@@ -7,7 +7,7 @@ var xmen = [
 "answ2":"The Cuban Missile Crisis.",
 },
 {
-"cat":"X-men",
+"cat":"X-Men",
 "ques":"In Deadpool 2, what is the name of Bill Skarsgard's acid spitting character?",
 "answ":"ZEITGEIST",
 "answ2":"Zeitgeist.",
@@ -1029,14 +1029,14 @@ var r2Q22 = [
 "option":"<button id=corop class=buttons003 onclick=qcor()>X-Men: Days of Future Past</button><button id=incop2 class=buttons003 onclick=qinc()>X2</button><button id=incop3 class=buttons003 onclick=qinc()>X-Men: Apocalypse</button><button id=incop4 class=buttons003 onclick=qinc()>Logan</button><br/>",
 },
 {
-"cat":"X-men",
+"cat":"X-Men",
 "ques":"Who played Warren Worthington II, the head of Worthington Labs in X-Men: The Last Stand?",
 "answ":"MICHAEL MURPHY",
 "answ2":"Michael Murphy.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Michael Murphy</button><button id=incop2 class=buttons003 onclick=qinc()>Daniel Cudmore</button><button id=incop3 class=buttons003 onclick=qinc()>Josef Sommer</button><button id=incop4 class=buttons003 onclick=qinc()>Bill Duke</button><br/>",
 },
 {
-"cat":"X-men",
+"cat":"X-Men",
 "ques":"In X-Men: Days of Future Past, William Stryker says that his son Jason is coming up on how many years old?",
 "answ":"8",
 "answ3":"EIGHT",
@@ -1044,7 +1044,7 @@ var r2Q22 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=incop2 class=buttons003 onclick=qinc()>6</button><button id=corop class=buttons003 onclick=qcor()>8</button><button id=incop4 class=buttons003 onclick=qinc()>10</button><br/>",
 },
 {
-"cat":"X-men",
+"cat":"X-Men",
 "ques":"In X-Men First Class, Klaus Schmidt says to young Erik that his gift is unlocked with anger and what?",
 "answ":"PAIN",
 "answ2":"Pain.",

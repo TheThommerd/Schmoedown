@@ -110,7 +110,7 @@ var dcmovies = [
 "answ2":"The Flash.",
 },
 {
-"cat":"Dc Movies",
+"cat":"DC Movies",
 "ques":"In Wonder Woman, Ares claims not to be the God of War, but instead to be the god of what?",
 "answ":"TRUTH",
 "answ3":"GOD OF TRUTH",

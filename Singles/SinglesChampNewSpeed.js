@@ -6085,6 +6085,7 @@ if (speedquestion001[4].ques.length > 125){
 }
 var nobody = 0 ; 
 function speedquestions() {	
+            message001.innerHTML = "";
             clearTimeout(typeTimer);
 	    var currentChar = 1;
             document.getElementById("message001").style.fontSize = "90%";

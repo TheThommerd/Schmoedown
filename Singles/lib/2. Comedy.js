@@ -3185,13 +3185,6 @@ var r2Q2 = [
 },
 {
 "cat":"Comedies",
-"ques":"Who plays Martin Lawrence's undercover partner in 2000's Big Momma's House?",
-"answ":"PAUL GIAMATTI",
-"answ2":"Paul Giamatti.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Eddie Murphy</button><button id=incop2 class=buttons003 onclick=qinc()>Tyler Perry</button><button id=incop3 class=buttons003 onclick=qinc()>John Leguizamo</button><button id=corop class=buttons003 onclick=qcor()>Paul Giamatti</button><br/>",
-},
-{
-"cat":"Comedies",
 "ques":"The 2000s film Best in Show is about what type of show?",
 "answ":"DOG SHOW",
 "answ2":"Dog show.",

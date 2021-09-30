@@ -75,12 +75,6 @@ var zeros = [
 },
 {
 "cat":"2000s",
-"ques":"Who plays Teri Polo's wealthy ex-fiance Kevin in Meet the Parents?",
-"answ":"OWEN WILSON",
-"answ2":"Owen Wilson.",
-},
-{
-"cat":"2000s",
 "ques":"Which Oscar winning actor stars as Goldthwaite Higginson Dorr, the leader of the heist in 2004's The Ladykillers?",
 "answ":"TOM HANKS",
 "answ2":"Tom Hanks.",

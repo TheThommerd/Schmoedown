@@ -401,12 +401,6 @@ var famousactors = [
 },
 {
 "cat":"Famous Actors and Actresses",
-"ques":"What 2000 film starred Leonardo DiCaprio and was directed by Danny Boyle?",
-"answ":"THE BEACH",
-"answ2":"The Beach.",
-},
-{
-"cat":"Famous Actors and Actresses",
 "ques":"What alien invasion film starred Jack Nicholson, Glenn Close, Pierce Brosnan and Sarah Jessica Parker?",
 "answ":"MARS ATTACKS",
 "answ2":"Mars Attacks!.",

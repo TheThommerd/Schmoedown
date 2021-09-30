@@ -12,13 +12,13 @@ var dance = [
 "answ2":"Saturday Night Fever.",
 },
 {
-"cat":"Dance",
+"cat":"Dance Movies",
 "ques":"Havana Nights is the subtitle of the sequel to what 80s dance film?",
 "answ":"DIRTY DANCING",
 "answ2":"Dirty Dancing.",
 },
 {
-"cat":"Dance",
+"cat":"Dance Movies",
 "ques":"Which actress plays Lily, a dancer who Natalie Portman's character becomes competitive with in the film Black Swan?",
 "answ":"MILA KUNIS",
 "answ2":"Mila Kunis.",
@@ -451,14 +451,14 @@ var r2Q50 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Soul Train</button><button id=incop2 class=buttons003 onclick=qinc()>Dance, Baltimore, Dance</button><button id=incop3 class=buttons003 onclick=qinc()>Dance TV</button><button id=corop class=buttons003 onclick=qcor()>The Corny Collins Show</button><br/>",
 },
 {
-"cat":"Dance",
+"cat":"Dance Movies",
 "ques":"Which actor danced his way through the classic musicals An American In Paris and Anchors Aweigh?",
 "answ":"GENE KELLY",
 "answ2":"Gene Kelly.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Fred Astaire</button><button id=incop2 class=buttons003 onclick=qinc()>James Cagney</button><button id=incop3 class=buttons003 onclick=qinc()>Bing Crosby</button><button id=corop class=buttons003 onclick=qcor()>Gene Kelly</button><br/>",
 },
 {
-"cat":"Dance",
+"cat":"Dance Movies",
 "ques":"In Magic Mike XXL, Richie dances to a song by which popular boy band in a convenience store?",
 "answ":"THE BACKSTREET BOYS",
 "answ3":"BACKSTREET BOYS",

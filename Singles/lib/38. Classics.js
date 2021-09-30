@@ -875,7 +875,7 @@ var r2Q38 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>The Shaggy Dog</button><button id=incop2 class=buttons003 onclick=qinc()>Savage Sam</button><button id=incop3 class=buttons003 onclick=qinc()>Big Red</button><button id=corop class=buttons003 onclick=qcor()>Old Yeller</button><br/>",
 },
 {
-"cat":"Paul Newman",
+"cat":"Classics",
 "ques":"Who directed Paul Newman in the 1966 cold-war thriller Torn Curtain?",
 "answ":"ALFRED HITCHCOCK",
 "answ2":"Alfred Hitchcock.",

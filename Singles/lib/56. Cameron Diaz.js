@@ -57,13 +57,6 @@ var r2Q56 = [
 },
 {
 "cat":"Cameron Diaz",
-"ques":"Who plays Cameron Diaz's boyfriend in Charlie's Angels?",
-"answ":"LUKE WILSON",
-"answ2":"Luke Wilson.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Casey Affleck</button><button id=incop2 class=buttons003 onclick=qinc()>Matt LeBlanc</button><button id=incop3 class=buttons003 onclick=qinc()>James Marsden</button><button id=corop class=buttons003 onclick=qcor()>Luke Wilson</button><br/>",
-},
-{
-"cat":"Cameron Diaz",
 "ques":"In Bad Teacher, Cameron Diaz tries to win over substitute teacher Scott Delacorte, play by whom?",
 "answ":"JUSTIN TIMBERLAKE",
 "answ2":"Justin Timberlake.",

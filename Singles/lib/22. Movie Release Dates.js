@@ -1,6 +1,6 @@
 var moviereleasedates = [
 {
-"cat":"Movie Release Date",
+"cat":"Movie Release Dates",
 "ques":"The films 1917 and Marriage Story were released in what year?",
 "answ":"2019",
 "answ2":"2019.",
@@ -13,19 +13,19 @@ var moviereleasedates = [
 "answ2":"Schindler's List.",
 },
 {
-"cat":"Movie Release Date",
+"cat":"Movie Release Dates",
 "ques":"What year saw the release of the counterculture classic Easy Rider?",
 "answ":"1969",
 "answ2":"1969.",
 },
 {
-"cat":"Movie Release Date",
+"cat":"Movie Release Dates",
 "ques":"Eddie Murphy starred in the film Life and which other comedy in 1999?",
 "answ":"BOWFINGER",
 "answ2":"Bowfinger.",
 },
 {
-"cat":"Movie Release Date",
+"cat":"Movie Release Dates",
 "ques":"What year saw the release of Ghostbusters and The Karate Kid?",
 "answ":"1984",
 "answ2":"1984.",

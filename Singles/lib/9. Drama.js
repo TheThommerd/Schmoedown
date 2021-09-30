@@ -2455,9 +2455,9 @@ var r2Q9 = [
 {
 "cat":"Dramas",
 "ques":"What 1995 drama, directed by Tim Robbins, starred Susan Sarandon and Sean Penn?",
-"answ":"ALMOST FAMOUS",
-"answ2":"Almost Famous.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Detroit Rock City</button><button id=incop2 class=buttons003 onclick=qinc()>Rockstar</button><button id=corop class=buttons003 onclick=qcor()>Almost Famous</button><button id=incop4 class=buttons003 onclick=qinc()>Outside Providence</button><br/>",
+"answ":"DEAD MAN WALKING",
+"answ2":"Dead Man Walking.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Murder in the First</button><button id=incop2 class=buttons003 onclick=qinc()>Higher Learning</button><button id=corop class=buttons003 onclick=qcor()>Dead Man Walking</button><button id=incop4 class=buttons003 onclick=qinc()>Friend of the Family</button><br/>",
 },
 {
 "cat":"Dramas",

@@ -6104,7 +6104,7 @@ if (speed == 1){
 	    document.getElementById("message005").style.display = "initial";
             window.clearInterval(update);       
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = "";
+             message001.innerHTML = " ";
 	 startTyping(speedquestion001[0].ques, 50, "message001");
 	if (speedquestion001[0].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
@@ -6158,7 +6158,7 @@ else if (speed == 2){
 	    document.getElementById("message005").style.display = "initial";
             window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = "";
+             message001.innerHTML = " ";
 	 startTyping(speedquestion001[1].ques, 50, "message001");
 	if (speedquestion001[1].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
@@ -6212,7 +6212,7 @@ else if (speed == 3){
 	    document.getElementById("message005").style.display = "initial";
             window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = "";
+             message001.innerHTML = " ";
 	 startTyping(speedquestion001[2].ques, 50, "message001");
 		if (speedquestion001[2].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
@@ -6266,7 +6266,7 @@ else if (speed == 4){
 	    document.getElementById("message005").style.display = "initial";
             window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = "";
+             message001.innerHTML = " ";
 	 startTyping(speedquestion001[3].ques, 50, "message001");
 		if (speedquestion001[3].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
@@ -6320,7 +6320,7 @@ else if (speed == 5){
 	    document.getElementById("message005").style.display = "initial";
             window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = "";
+             message001.innerHTML = " ";
 	 startTyping(speedquestion001[4].ques, 50, "message001");
 		if (speedquestion001[4].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}

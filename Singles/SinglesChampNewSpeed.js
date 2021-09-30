@@ -6085,8 +6085,6 @@ if (speedquestion001[4].ques.length > 125){
 }
 var nobody = 0 ; 
 function speedquestions() {	
-text = "";
-delay = 0;
             document.getElementById("message001").style.fontSize = "90%";
 	document.getElementById("player001").style.top = "15px";
 	document.getElementById("player002").style.top = "-7px";
@@ -6400,6 +6398,8 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+text = "";
+delay = 0;
             message001.innerHTML = speedquestion001[0].ques;
 	if ((speed1 == speedquestion001[0].answ) || (speed1 == speedquestion001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
@@ -6440,6 +6440,8 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+text = "";
+delay = 0;
             message001.innerHTML = speedquestion001[1].ques;
 	if ((speed2 == speedquestion001[1].answ) || (speed2 == speedquestion001[1].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
@@ -6480,6 +6482,8 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+text = "";
+delay = 0;
             message001.innerHTML = speedquestion001[2].ques;
 	if ((speed3 == speedquestion001[2].answ) || (speed3 == speedquestion001[2].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
@@ -6520,6 +6524,8 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+text = "";
+delay = 0;
             message001.innerHTML = speedquestion001[3].ques;
 	if ((speed4 == speedquestion001[3].answ) || (speed4 == speedquestion001[3].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
@@ -6560,6 +6566,8 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+text = "";
+delay = 0;
             message001.innerHTML = speedquestion001[4].ques;
 	if ((speed5 == speedquestion001[4].answ) || (speed5 == speedquestion001[4].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";

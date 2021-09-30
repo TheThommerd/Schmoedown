@@ -64,7 +64,7 @@ function type(tick)
         if (currentChar > text.length) 
         {
             currentChar = 1;
-            tick = 5000;
+            tick = 9999999999999999;
         }
         
         typeTimer = setTimeout(function() { type(delay); }, tick);
@@ -5327,6 +5327,7 @@ if (speed == 2){
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
+            message001.innerHTML = speedquestion001[0].ques;
 	    message005.innerHTML = "";
 	    message006.innerHTML = "";
             score001.innerHTML = b -= 1;
@@ -5341,6 +5342,7 @@ if (speed == 3){
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
+            message001.innerHTML = speedquestion001[1].ques;
 	    message005.innerHTML = "";
 	    message006.innerHTML = "";
             score001.innerHTML = b -= 1;
@@ -5355,6 +5357,7 @@ if (speed == 4){
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
+            message001.innerHTML = speedquestion001[2].ques;
 	    message005.innerHTML = "";
 	    message006.innerHTML = "";
             score001.innerHTML = b -= 1;
@@ -5369,6 +5372,7 @@ if (speed == 5){
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
+            message001.innerHTML = speedquestion001[3].ques;
 	    message005.innerHTML = "";
 	    message006.innerHTML = "";
             score001.innerHTML = b -= 1;
@@ -5383,6 +5387,7 @@ if (speed == 6){
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             message003.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
+            message001.innerHTML = speedquestion001[4].ques;
 	    message005.innerHTML = "";
 	    message006.innerHTML = "";
             score001.innerHTML = b -= 1;
@@ -6393,6 +6398,7 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+            message001.innerHTML = speedquestion001[0].ques;
 	if ((speed1 == speedquestion001[0].answ) || (speed1 == speedquestion001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
@@ -6432,6 +6438,7 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+            message001.innerHTML = speedquestion001[1].ques;
 	if ((speed2 == speedquestion001[1].answ) || (speed2 == speedquestion001[1].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
@@ -6471,6 +6478,7 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+            message001.innerHTML = speedquestion001[2].ques;
 	if ((speed3 == speedquestion001[2].answ) || (speed3 == speedquestion001[2].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
@@ -6510,6 +6518,7 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+            message001.innerHTML = speedquestion001[3].ques;
 	if ((speed4 == speedquestion001[3].answ) || (speed4 == speedquestion001[3].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";
@@ -6549,6 +6558,7 @@ similarity2 = 0;
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+            message001.innerHTML = speedquestion001[4].ques;
 	if ((speed5 == speedquestion001[4].answ) || (speed5 == speedquestion001[4].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Correct!";

@@ -6122,17 +6122,17 @@ else if (chance < 100){t = 2; nobody = 0}
 else if (speedquestion001[0].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
-else if (chance < 30){t = 5; nobody = 0}
-else if (chance < 55){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 55){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 else if (speedquestion001[0].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 30){t = 7; nobody = 0}
-else if (chance < 50){t = 5; nobody = 0}
-else if (chance < 90){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 50){t = 6; nobody = 0}
+else if (chance < 90){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
 if (speedquestion001[0].ques.length > 125){
@@ -6176,17 +6176,17 @@ else if (chance < 100){t = 2; nobody = 0}
 else if (speedquestion001[1].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
-else if (chance < 30){t = 5; nobody = 0}
-else if (chance < 55){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 55){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 else if (speedquestion001[1].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 30){t = 7; nobody = 0}
-else if (chance < 50){t = 5; nobody = 0}
-else if (chance < 90){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 50){t = 6; nobody = 0}
+else if (chance < 90){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
 if (speedquestion001[1].ques.length > 125){
@@ -6230,17 +6230,17 @@ else if (chance < 100){t = 2; nobody = 0}
 else if (speedquestion001[2].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
-else if (chance < 30){t = 5; nobody = 0}
-else if (chance < 55){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 55){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 else if (speedquestion001[2].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 30){t = 7; nobody = 0}
-else if (chance < 50){t = 5; nobody = 0}
-else if (chance < 90){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 50){t = 6; nobody = 0}
+else if (chance < 90){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
 if (speedquestion001[2].ques.length > 125){
@@ -6284,17 +6284,17 @@ else if (chance < 100){t = 2; nobody = 0}
 else if (speedquestion001[3].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
-else if (chance < 30){t = 5; nobody = 0}
-else if (chance < 55){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 55){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 else if (speedquestion001[3].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 30){t = 7; nobody = 0}
-else if (chance < 50){t = 5; nobody = 0}
-else if (chance < 90){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 50){t = 6; nobody = 0}
+else if (chance < 90){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
 if (speedquestion001[3].ques.length > 125){
@@ -6338,17 +6338,17 @@ else if (chance < 100){t = 2; nobody = 0}
 else if (speedquestion001[4].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
-else if (chance < 30){t = 5; nobody = 0}
-else if (chance < 55){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 30){t = 6; nobody = 0}
+else if (chance < 55){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 else if (speedquestion001[4].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 30){t = 7; nobody = 0}
-else if (chance < 50){t = 5; nobody = 0}
-else if (chance < 90){t = 4; nobody = 0}
-else if (chance < 100){t = 3; nobody = 0}
+else if (chance < 50){t = 6; nobody = 0}
+else if (chance < 90){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
 if (speedquestion001[4].ques.length > 125){

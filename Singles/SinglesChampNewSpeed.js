@@ -5841,6 +5841,7 @@ function bettinground2() {
 }
 function speedquestions2() {	
 pauseTyping();
+    currentChar=1;
             document.getElementById("message001").style.fontSize = "90%";
 	document.getElementById("player001").style.top = "15px";
 	document.getElementById("player002").style.top = "-7px";

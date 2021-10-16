@@ -486,8 +486,8 @@ var accuracy = ((quescor / quescount) * 100)
 		document.getElementById("CorrectQuestions_F4").value = parseInt(document.getElementById("CorrectQuestions_F4").value) +  quescor;
 		document.getElementById("PossiblePoints_F4").value = parseInt(document.getElementById("PossiblePoints_F4").value)  +  quescount;
 		document.getElementById("TotalPoints_F4").value = parseInt(document.getElementById("TotalPoints_F4").value) +  quescor;
-	document.getElementById("message006").style.top = "-340px";
-	document.getElementById("message004").style.top = "-600px";
+	document.getElementById("message006").style.top = "-360px";
+	document.getElementById("message004").style.top = "-620px";
 }
 function newLoc() {
   window.location.assign("https://thethommerd.github.io/Sim/Free4All.html");
@@ -497,12 +497,12 @@ function pregame(){
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>FREE4ALL</font><br/></br>5 COMPETITORS EACH ROUND, 45 COMPETITORS IN TOTAL</br></br>COMPETITORS RECEIVE 5 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>PLAYERS WITH THE LOWEST POINT TOTAL EACH ROUND ARE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
-	document.getElementById("message005").style.top = "-480px";
+	document.getElementById("message005").style.top = "-500px";
 message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
-	document.getElementById("message003").style.top = "-430px";
+	document.getElementById("message003").style.top = "-450px";
 	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
-	document.getElementById("message006").style.top = "-520px";
+	document.getElementById("message006").style.top = "-540px";
 	message004.innerHTML = "";
 }
 
@@ -551,7 +551,7 @@ if ((b > s) && (s == t) && (t == u)  && (u == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
@@ -1019,7 +1019,7 @@ else if ((b > t) && (t == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1171,7 +1171,7 @@ else if ((b > s) && (s == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1323,7 +1323,7 @@ else if ((b > s) && (s == t) && (t == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1473,7 +1473,7 @@ else if ((b > s) && (s == t) && (t == u) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1622,7 +1622,7 @@ else if ((b > u) && (u == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1695,7 +1695,7 @@ else if ((b > t) && (t == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1768,7 +1768,7 @@ else if ((b > t) && (t == u)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1839,7 +1839,7 @@ else if ((b > s) && (s == v)){
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
@@ -1910,7 +1910,7 @@ else if ((b > s) && (s == u)){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -1982,7 +1982,7 @@ else if ((b > s) && (s == t)){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2053,7 +2053,7 @@ else if (b > v){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2080,7 +2080,7 @@ else if (b > u){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2108,7 +2108,7 @@ else if (b > t){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2136,7 +2136,7 @@ else if (b > s){
                 message002.innerHTML = "";
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2157,7 +2157,7 @@ else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminat
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-450px";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2302,47 +2302,22 @@ function begin001() {
             c = 21;
                 time001.innerHTML = 20;
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-420px";
+	    document.getElementById("time001").style.top = "-440px";
 	    document.getElementById("message005").style.position = "relative";
-	    document.getElementById("message005").style.top = "-460px";
+	    document.getElementById("message005").style.top = "-480px";
 	    document.getElementById("message006").style.position = "relative";
-	    document.getElementById("message006").style.top = "-460px";
+	    document.getElementById("message006").style.top = "-480px";
 	    document.getElementById("message003").style.position = "relative";
-	    document.getElementById("message003").style.top = "-460px";
+	    document.getElementById("message003").style.top = "-480px";
 	    document.getElementById("message004").style.position = "relative";
-	    document.getElementById("message004").style.top = "-460px";
+	    document.getElementById("message004").style.top = "-480px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 document.getElementById("q1").focus();
-if (question001[0].ques.length > 125){
-		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "33px";
-	document.getElementById("player002").style.top = "12px";
-	document.getElementById("player003").style.top = "-5px";
-	document.getElementById("player004").style.top = "-25px";
-	document.getElementById("player005").style.top = "-47px";
-	document.getElementById("score001").style.top = "-63px";
-	document.getElementById("score002").style.top = "-100px";
-	document.getElementById("score003").style.top = "-140px";
-	document.getElementById("score004").style.top = "-180px";
-	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
-	document.getElementById("time001").style.top = "-408px";
-}
 	    document.getElementById("q1").style.position = "relative";
-	    document.getElementById("q1").style.top = "-280px";
+	    document.getElementById("q1").style.top = "-300px";
 	    document.getElementById("submit2").style.position = "relative";
-	    document.getElementById("submit2").style.top = "-280px";
+	    document.getElementById("submit2").style.top = "-300px";
             message003.innerHTML = "";
             message005.innerHTML = "";
             message006.innerHTML = "";
@@ -2489,33 +2464,12 @@ simulatecomp();
 function next001() {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-420px";
+	    document.getElementById("time001").style.top = "-440px";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
-	document.getElementById("message001").style.fontSize = "90%";
-	document.getElementById("player001").style.top = "23px";
-	document.getElementById("player002").style.top = "3px";
-	document.getElementById("player003").style.top = "-17px";
-	document.getElementById("player004").style.top = "-37px";
-	document.getElementById("player005").style.top = "-59px";
-	document.getElementById("score001").style.top = "-77px";
-	document.getElementById("score002").style.top = "-112px";
-	document.getElementById("score003").style.top = "-152px";
-	document.getElementById("score004").style.top = "-192px";
-	document.getElementById("score005").style.top = "-232px";
-	document.getElementById("nummer1").style.top = "-368px";
-	document.getElementById("nummer2").style.top = "-388px";
-	document.getElementById("nummer3").style.top = "-407px";
-	document.getElementById("nummer4").style.top = "-430px";
-	document.getElementById("nummer5").style.top = "-450px";
-	document.getElementById("twitter001").style.top = "-222px";
-	document.getElementById("twitter002").style.top = "-243px";
-	document.getElementById("twitter003").style.top = "-264px";
-	document.getElementById("twitter004").style.top = "-284px";
-	document.getElementById("twitter005").style.top = "-306px";
-	document.getElementById("round002").style.top = "-317px";
+
             if ((a == 2) ||(a == 7)||(a == 12)||(a == 17)||(a == 22)||(a == 27)||(a == 32)||(a == 37)||(a == 42)||(a == 47)||(a == 52)||(a == 57)||(a == 62)||(a == 67)||(a == 72)||(a == 77)||(a == 82)||(a == 87)||(a == 92)||(a == 97)||(a == 102)||(a == 107)||(a == 112)||(a == 117)||(a == 122)||(a == 127)||(a == 132)||(a == 137)||(a == 142)||(a == 147)||(a == 152)||(a == 157)||(a == 162)||(a == 167)||(a == 172)||(a == 177)||(a == 182)||(a == 187)||(a == 192)||(a == 197)||(a == 202)||(a == 207)||(a == 212)||(a == 217)||(a == 222)||(a == 227)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
@@ -2526,32 +2480,6 @@ function next001() {
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 document.getElementById("q1").focus();
-if (question001[vraag].ques.length > 125){
-		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "33px";
-	document.getElementById("player002").style.top = "12px";
-	document.getElementById("player003").style.top = "-5px";
-	document.getElementById("player004").style.top = "-25px";
-	document.getElementById("player005").style.top = "-47px";
-	document.getElementById("score001").style.top = "-63px";
-	document.getElementById("score002").style.top = "-100px";
-	document.getElementById("score003").style.top = "-140px";
-	document.getElementById("score004").style.top = "-180px";
-	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
-	document.getElementById("time001").style.top = "-408px";
-}
-
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
@@ -2576,31 +2504,6 @@ if (question001[vraag].ques.length > 125){
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-if (question001[vraag].ques.length > 125){
-		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "33px";
-	document.getElementById("player002").style.top = "12px";
-	document.getElementById("player003").style.top = "-5px";
-	document.getElementById("player004").style.top = "-25px";
-	document.getElementById("player005").style.top = "-47px";
-	document.getElementById("score001").style.top = "-63px";
-	document.getElementById("score002").style.top = "-100px";
-	document.getElementById("score003").style.top = "-140px";
-	document.getElementById("score004").style.top = "-180px";
-	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
-	document.getElementById("time001").style.top = "-408px";
-}
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
@@ -2626,31 +2529,6 @@ if (question001[vraag].ques.length > 125){
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-if (question001[vraag].ques.length > 125){
-		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "33px";
-	document.getElementById("player002").style.top = "12px";
-	document.getElementById("player003").style.top = "-5px";
-	document.getElementById("player004").style.top = "-25px";
-	document.getElementById("player005").style.top = "-47px";
-	document.getElementById("score001").style.top = "-63px";
-	document.getElementById("score002").style.top = "-100px";
-	document.getElementById("score003").style.top = "-140px";
-	document.getElementById("score004").style.top = "-180px";
-	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
-	document.getElementById("time001").style.top = "-408px";
-}
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
@@ -2676,31 +2554,6 @@ if (question001[vraag].ques.length > 125){
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-if (question001[vraag].ques.length > 125){
-		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "33px";
-	document.getElementById("player002").style.top = "12px";
-	document.getElementById("player003").style.top = "-5px";
-	document.getElementById("player004").style.top = "-25px";
-	document.getElementById("player005").style.top = "-47px";
-	document.getElementById("score001").style.top = "-63px";
-	document.getElementById("score002").style.top = "-100px";
-	document.getElementById("score003").style.top = "-140px";
-	document.getElementById("score004").style.top = "-180px";
-	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
-	document.getElementById("time001").style.top = "-408px";
-}
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
@@ -3360,31 +3213,6 @@ if (eliminate5 == 1){
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-if (question001[vraag].ques.length > 125){
-		document.getElementById("message001").style.fontSize = "70%";
-	document.getElementById("player001").style.top = "33px";
-	document.getElementById("player002").style.top = "12px";
-	document.getElementById("player003").style.top = "-5px";
-	document.getElementById("player004").style.top = "-25px";
-	document.getElementById("player005").style.top = "-47px";
-	document.getElementById("score001").style.top = "-63px";
-	document.getElementById("score002").style.top = "-100px";
-	document.getElementById("score003").style.top = "-140px";
-	document.getElementById("score004").style.top = "-180px";
-	document.getElementById("score005").style.top = "-220px";
-	document.getElementById("nummer1").style.top = "-355px";
-	document.getElementById("nummer2").style.top = "-376px";
-	document.getElementById("nummer3").style.top = "-398px";
-	document.getElementById("nummer4").style.top = "-418px";
-	document.getElementById("nummer5").style.top = "-438px";
-	document.getElementById("twitter001").style.top = "-210px";
-	document.getElementById("twitter002").style.top = "-231px";
-	document.getElementById("twitter003").style.top = "-252px";
-	document.getElementById("twitter004").style.top = "-272px";
-	document.getElementById("twitter005").style.top = "-294px";
-	document.getElementById("round002").style.top = "-305px";
-	document.getElementById("time001").style.top = "-408px";
-}
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";

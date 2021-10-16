@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head><meta name="viewport" content="width=device-width, height=device-height"></head> 
 <body onload="load()">
-     <style>
+       <style>
 .flash {
    animation-name: flash;
     animation-duration: 1.0s;
@@ -20,26 +20,17 @@ display: none;
 .tableborder{
 display: none;
 }
-	body {
-	font-family: Arial, sans-serif;
-	font-size: 12px;
-	color: #222;
-	margin:0px;
-	padding:0px;
-	background-color:#E1E1E1;
-	}
         #frame001 {
 	    margin: auto;
 	    background-image: url("IG_background.png");
  	    background-repeat: no-repeat;
             border-radius: 5px;
             background-color: #fbfbfb;
-	    background-position: center top;
-	    background-size: 950px 172px;
+background-position: center top;
+background-size: 950px 172px;
             border: none;
             height: 1500px;
             width: 950px;
-			    zoom: 1.4;
         }
         .buttons001 {
             background-color: #188F1F;
@@ -115,7 +106,7 @@ display: none;
         }
         #player001 {
 	    position: relative;
-	    top : 20px;
+	    top : 0px;
  	    left: -265px;
             font-size: 110%;
 	    font-weight: bold;
@@ -123,7 +114,7 @@ display: none;
         }
         #player002 {
 	    position: relative;
-	    top : -3px;
+	    top : -23px;
  	    left: 260px;
             font-size: 110%;
 	    font-weight: bold;
@@ -131,7 +122,7 @@ display: none;
         }
         #score001 {
 	    position: relative;
-	    top : -60px;
+	    top : -80px;
  	    left: -115px;
             font-size: 190%;
 	    font-weight: bold;
@@ -139,30 +130,30 @@ display: none;
         }
         #time001 {
 	   position: relative;
-	    top : -140px;
+	    top : -160px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
         }
         #message002{
 	   position: relative;
-	    top : -130px;
+	    top : -150px;
         }
         #message003{
 	   position: relative;
-	    top : -140px;
+	    top : -160px;
         }
         #message004{
 	   position: relative;
-	    top : -140px;
+	    top : -160px;
         }
         #message006{
 	   position: relative;
-	    top : -140px;
+	    top : -160px;
         }
         #JTE{
 	   position: relative;
-	    top : -130px;
+	    top : -150px;
             background-color: #232223;
             color: white;
             width: 120px;
@@ -171,7 +162,7 @@ display: none;
         }
         #score002 {
 	   position: relative;
-	    top : -97px;
+	    top : -117px;
  	    left: 110px;
             font-size: 190%;
 	    font-weight: bold;
@@ -184,7 +175,7 @@ display: none;
         }
         #record001 {
 	    position: relative;
-	    top : -37px;
+	    top : -57px;
  	    left: -425px;
             text-align: center;
             font-size: 80%;
@@ -193,7 +184,7 @@ display: none;
         }
         #record002 {
 	    position: relative;
-	    top : -57px;
+	    top : -77px;
  	    left: 415px;
             text-align: center;
             font-size: 80%;
@@ -202,7 +193,7 @@ display: none;
         }
         #twitter001 {
 	    position: relative;
-	    top : -135px;
+	    top : -155px;
  	    left: -425px;
             text-align: center;
             font-size: 60%;
@@ -211,7 +202,7 @@ display: none;
         }
         #twitter002 {
 	    position: relative;
-	    top : -155px;
+	    top : -175px;
  	    left: 415px;
             text-align: center;
             font-size: 60%;
@@ -220,7 +211,7 @@ display: none;
         }
         #faction001 {
 	    position: relative;
-	    top : -167px;
+	    top : -187px;
  	    left: -390px;
             text-align: center;
             font-size: 65%;
@@ -229,7 +220,7 @@ display: none;
         }
         #faction002 {
 	    position: relative;
-	    top : -167px;
+	    top : -187px;
  	    left: 390px;
             text-align: center;
             font-size: 65%;
@@ -238,7 +229,7 @@ display: none;
         }
         #message005 {
 	   position: relative;
-	    top : -150px;
+	    top : -170px;
             text-align: center;
             font-size: 90%;
             color: black;
@@ -246,7 +237,10 @@ display: none;
         #message001 {
             text-align: center;
             font-size: 90%;
+	    top: -10px;
             color: white;
+	   position: relative;
+	    height: 37.714px;
         }
         #qu001 {
             text-align: center;
@@ -271,7 +265,7 @@ display: none;
         }
         #round002 {
 	   position: relative;
-	    top : -132px;
+	    top : -148px;
  	    left: -5px;
             font-size: 90%;
             color: white;
@@ -337,29 +331,20 @@ body:-webkit-full-screen {
    zoom: 0.4;
 }
 body:-moz-full-screen {
-overflow: scroll !important;
-scale: 0.4;
-transform-origin: top center;
+  overflow: scroll !important;
 }
  .goFS{
    display : none;
  }
 @media (max-width: 767px) {
  .goFS{
- display: inline-block;
+   display : block;
    background-color: #A20714;
    color: white;
    width: 100px;
    height: 30px;
    border-radius: 5px;
  }
-}
-@media (min-width: 800px) {
- #frame001{
-	-moz-transform: scale(1.4);
-	-moz-transform-origin: top center;
- }
-}
     </style>
 <audio id="myAudio">
   <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">

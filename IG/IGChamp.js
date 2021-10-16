@@ -56,9 +56,7 @@ function choosecomp() {
 	percentage3 = competitorlist[0].percentage3;
 	percentage5 = competitorlist[0].percentage5;
 	message001.innerHTML = "Click Next to proceed.";
-	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>" + "His/her strengths are " + competitorlist[0].strength1 + ", " + competitorlist[0].strength2 + " and " + competitorlist[0].strength3 + ".";
-wheelie = [competitorlist[0].strength1, competitorlist[0].strength2, competitorlist[0].strength3];
-wheelie = shuffle(wheelie);
+	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." ;
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 }
 var wheelie = [];
@@ -206,6 +204,8 @@ var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r
 chosen = shuffle(chosen); 
 var chosen2 = [r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q13[0].cat, r2Q14[0].cat, r2Q15[0].cat, r2Q16[0].cat, r2Q17[0].cat, r2Q18[0].cat, r2Q19[0].cat, r2Q20[0].cat, r2Q21[0].cat, r2Q22[0].cat, r2Q23[0].cat];
 chosen2 = shuffle(chosen2); 
+wheelie = [chosen[0], chosen[1], chosen[2], chosen[3], chosen[4], chosen[5], chosen2[0], chosen2[1], chosen2[2], chosen2[3]];
+wheelie = shuffle(wheelie);
 var data = [];
 data[0] = "Spinner's Choice";
 data[1] = chosen[0];

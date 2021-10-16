@@ -43,8 +43,6 @@ function choosecomp() {
 	percentage5 = competitorlist[0].percentage5;
 	message001.innerHTML = "Click Next to proceed.";
 	message005.innerHTML = "You selected " +competitorlist[0].lowercase + ".";
-wheelie = [competitorlist[0].strength1, competitorlist[0].strength2, competitorlist[0].strength3];
-wheelie = shuffle(wheelie);
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 }
 var wheelie = [];
@@ -169,6 +167,8 @@ question001[18] = roundthree[7];
 question001[19] = roundthree[8];
 var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q13[0].cat, r2Q15[0].cat];
 chosen = shuffle(chosen); 
+wheelie = [chosen[0], chosen[1], chosen[2], chosen[3], chosen[4], chosen[5], chosen[6], chosen[7], chosen[8], chosen[9]];
+wheelie = shuffle(wheelie);
 var data = [];
 data[0] = "Spinner's Choice";
 data[1] = chosen[0];

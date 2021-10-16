@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head><meta name="viewport" content="width=device-width, height=device-height"></head> 
 <body onload="load()">
-       <style>
+     <style>
 .flash {
    animation-name: flash;
     animation-duration: 1.0s;
@@ -20,17 +20,26 @@ display: none;
 .tableborder{
 display: none;
 }
+	body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #222;
+	margin:0px;
+	padding:0px;
+	background-color:#E1E1E1;
+	}
         #frame001 {
 	    margin: auto;
 	    background-image: url("IG_background.png");
  	    background-repeat: no-repeat;
             border-radius: 5px;
             background-color: #fbfbfb;
-background-position: center top;
-background-size: 950px 172px;
+	    background-position: center top;
+	    background-size: 950px 172px;
             border: none;
             height: 1500px;
             width: 950px;
+			    zoom: 1.4;
         }
         .buttons001 {
             background-color: #188F1F;
@@ -331,20 +340,29 @@ body:-webkit-full-screen {
    zoom: 0.4;
 }
 body:-moz-full-screen {
-  overflow: scroll !important;
+overflow: scroll !important;
+scale: 0.4;
+transform-origin: top center;
 }
  .goFS{
    display : none;
  }
 @media (max-width: 767px) {
  .goFS{
-   display : block;
+ display: inline-block;
    background-color: #A20714;
    color: white;
    width: 100px;
    height: 30px;
    border-radius: 5px;
  }
+}
+@media (min-width: 800px) {
+ #frame001{
+	-moz-transform: scale(1.4);
+	-moz-transform-origin: top center;
+ }
+}
     </style>
 <audio id="myAudio">
   <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">

@@ -5605,7 +5605,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[0].cat.toUpperCase();
 		open++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5663,7 +5663,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[1].cat.toUpperCase();
 		open++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5722,7 +5722,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[2].cat.toUpperCase();
 		open++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5781,7 +5781,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[3].cat.toUpperCase();
 		open++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5840,7 +5840,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[4].cat.toUpperCase();
 		open++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5918,7 +5918,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message006.innerHTML = "";
                 message004.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[5].cat.toUpperCase();
 		open = 0;
 		mc++;
                 if (c < 1) {
@@ -6003,7 +6003,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message006.innerHTML = "";
                 message004.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[6].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -6088,7 +6088,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message006.innerHTML = "";
                 message004.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[7].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -6173,7 +6173,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message006.innerHTML = "";
                 message004.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[8].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -6258,7 +6258,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message006.innerHTML = "";
                 message004.innerHTML = "";
 		document.getElementById("qu002").style.display = "none";
- 		qu001.innerHTML = "STEAL";
+ 		qu001.innerHTML = "STEAL - " +compcat[9].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);

@@ -122,7 +122,7 @@ background-position: center top
         }
         #player001 {
 	    position: relative;
-	    top : 15px;
+	    top : -25px;
  	    left: -265px;
             font-size: 110%;
 	    font-weight: bold;
@@ -130,7 +130,7 @@ background-position: center top
         }
         #player002 {
 	    position: relative;
-	    top : -7px;
+	    top : -47px;
  	    left: 260px;
             font-size: 110%;
 	    font-weight: bold;
@@ -138,7 +138,7 @@ background-position: center top
         }
         #score001 {
 	    position: relative;
-	    top : -67px;
+	    top : -107px;
  	    left: -115px;
             font-size: 190%;
 	    font-weight: bold;
@@ -146,30 +146,30 @@ background-position: center top
         }
         #time001 {
 	   position: relative;
-	    top : -140px;
+	    top : -180px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
         }
         #message002{
 	   position: relative;
-	    top : -130px;
+	    top : -170px;
         }
         #message003{
 	   position: relative;
-	    top : -140px;
+	    top : -180px;
         }
         #message004{
 	   position: relative;
-	    top : -140px;
+	    top : -180px;
         }
         #message006{
 	   position: relative;
-	    top : -140px;
+	    top : -180px;
         }
         #JTE{
 	   position: relative;
-	    top : -130px;
+	    top : -170px;
             background-color: #232223;
             color: white;
             width: 120px;
@@ -178,7 +178,7 @@ background-position: center top
         }
         #score002 {
 	   position: relative;
-	    top : -107px;
+	    top : -147px;
  	    left: 110px;
             font-size: 190%;
 	    font-weight: bold;
@@ -191,7 +191,7 @@ background-position: center top
         }
         #record001 {
 	    position: relative;
-	    top : -40px;
+	    top : -80px;
  	    left: -425px;
             text-align: center;
             font-size: 80%;
@@ -200,7 +200,7 @@ background-position: center top
         }
         #record002 {
 	    position: relative;
-	    top : -60px;
+	    top : -100px;
  	    left: 415px;
             text-align: center;
             font-size: 80%;
@@ -209,7 +209,7 @@ background-position: center top
         }
         #twitter001 {
 	    position: relative;
-	    top : -140px;
+	    top : -180px;
  	    left: -425px;
             text-align: center;
             font-size: 60%;
@@ -218,7 +218,7 @@ background-position: center top
         }
         #twitter002 {
 	    position: relative;
-	    top : -160px;
+	    top : -200px;
  	    left: 415px;
             text-align: center;
             font-size: 60%;
@@ -227,7 +227,7 @@ background-position: center top
         }
         #faction001 {
 	    position: relative;
-	    top : -178px;
+	    top : -218px;
  	    left: -390px;
             text-align: center;
             font-size: 65%;
@@ -236,7 +236,7 @@ background-position: center top
         }
         #faction002 {
 	    position: relative;
-	    top : -178px;
+	    top : -218px;
  	    left: 390px;
             text-align: center;
             font-size: 65%;
@@ -245,7 +245,7 @@ background-position: center top
         }
         #message005 {
 	   position: relative;
-	    top : -150px;
+	    top : -190px;
             text-align: center;
             font-size: 90%;
             color: black;
@@ -253,7 +253,10 @@ background-position: center top
         #message001 {
             text-align: center;
             font-size: 90%;
+	    top: -10px;
             color: white;
+	   position: relative;
+	    height: 37.714px;
         }
         #qu001 {
             text-align: center;
@@ -278,7 +281,7 @@ background-position: center top
         }
         #round002 {
 	   position: relative;
-	    top : -138px;
+	    top : -178px;
  	    left: 0px;
             font-size: 90%;
             color: white;
@@ -307,7 +310,7 @@ background-position: center top
     }
       #checkboxes{
         position:relative;
-        top:-1000px;
+        top:-1040px;
         left:0px;
 	 zoom: 1.5;
     }
@@ -399,7 +402,7 @@ transform-origin: top center;
   <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 	<button id="goFS" class="goFS">Go fullscreen</button>
-    <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter password.</p>
+    <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><br><p id="message001">Enter password.</p><br>
 <text id="player001">CHALLENGER</text><br><text id="player002">OPPONENT</text><br><text id="record001">0-0</text><br><text id="record002">0-0</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="twitter001">@Challenger</text><br><text id="twitter002">@Opponent</text><br><text id="round002">ROUND <text id="round001">1</text></text><br><text id="faction001">ROOKIE</text><text id="faction002">UNKNOWN</text><br><text><text id="time001"></text></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div></br></div>
 <form id="save-later-form-singles"><input name="Name" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="Twitter" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChampion" required hidden><input name="AnsweredQuestions" value="0" type="number" id="AnsweredQuestions" required hidden><input name="CorrectQuestions" value="0" type="number" id="CorrectQuestions" required hidden><input name="PossiblePoints" value="0" type="number" id="PossiblePoints" required hidden><input name="TotalPoints" value="0" type="number" id="TotalPoints" required hidden></input><input name="Wins" value="0" type="number" id="wins" required hidden><input name="Losses" value="0" type="number" id="losses" required hidden><input name="TKOs" value="0" type="number" id="TKOs" required hidden><input name="TKOd" value="0" type="number" id="TKOd" required hidden><input name="KOs" value="0" type="number" id="KOs" required hidden><input name="KOd" value="0" type="number" id="KOd" required hidden><input name="championships" value="0" type="number" id="championships" required hidden></form><button type="submit" id="save" hidden>Save</button></br></div><div id="checkboxes" class="checkboxer"></div></div>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>

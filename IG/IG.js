@@ -3117,6 +3117,7 @@ document.getElementById("mc").style.display = "none";
 var input = "<input type=text id=q1 /><br />";
 var buttons = "<button id=sub class=buttons001 onclick=checker()>Submit Answer</button><br /><br /><button id=mc class=buttons007 onclick=setvis()>Multiple Choice</button>";
 function next001() {
+	     document.getElementById("message002").style.display= "block";
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("chart").style.visibility = "hidden";
 	    document.getElementById("JTE").style.display = "initial";

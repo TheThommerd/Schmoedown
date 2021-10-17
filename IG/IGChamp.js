@@ -6310,7 +6310,7 @@ $('input[type=checkbox]').on('change', function (e) {
 });
 }
 if ((opponentspun != "1") && (spinners != "1")){
-	    	message006.innerHTML =  "Opponent spun category " +compcat[0].cat;
+	    	message006.innerHTML =  competitorlist[0].id + " spun the category " +compcat[0].cat;
 		document.getElementById("message003").style = "initial";
 }
             	message003.innerHTML = "<button id=nextbutton class=buttons002 onclick=simulate()>Simulate</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";

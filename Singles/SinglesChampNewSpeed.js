@@ -3536,8 +3536,8 @@ next002();
             else if (a == 10) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	document.getElementById("message002").style.top = "-130px";
-	document.getElementById("message003").style.top = "-140px";
+	document.getElementById("message002").style.top = "-170px";
+	document.getElementById("message003").style.top = "-180px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -5566,6 +5566,8 @@ destination = "[none]";
 typeTimer = null;
 typing = true;
 	    document.getElementById("chart").style.visibility = "hidden";
+		document.getElementById("message003").style.top = "-230px";
+		document.getElementById("message004").style.top = "-230px";
 if (speed == 1){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";

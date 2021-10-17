@@ -35,7 +35,7 @@ message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 else
 {
 message006.innerHTML = "Password incorrect!";
-document.getElementById("message006").style.top = "-140px";
+document.getElementById("message006").style.top = "-180px";
 }
 }
 function submitname () {

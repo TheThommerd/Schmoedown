@@ -110,10 +110,10 @@ function winKO(){
 		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Korg' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-260px";
+		document.getElementById("message004").style.top = "-435px";
+		document.getElementById("message003").style.top = "-260px";
+		document.getElementById("message006").style.top = "-160px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseKO(){
@@ -143,10 +143,10 @@ function loseKO(){
 		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-260px";
+		document.getElementById("message004").style.top = "-435px";
+		document.getElementById("message003").style.top = "-260px";
+		document.getElementById("message006").style.top = "-160px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -177,10 +177,10 @@ function winTKO(){
 		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Korg' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-260px";
+		document.getElementById("message004").style.top = "-435px";
+		document.getElementById("message003").style.top = "-260px";
+		document.getElementById("message006").style.top = "-160px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseTKO(){
@@ -210,10 +210,10 @@ function loseTKO(){
 		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-260px";
+		document.getElementById("message004").style.top = "-435px";
+		document.getElementById("message003").style.top = "-260px";
+		document.getElementById("message006").style.top = "-160px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
@@ -243,10 +243,10 @@ function win(){
 		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Korg' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-260px";
+		document.getElementById("message004").style.top = "-435px";
+		document.getElementById("message003").style.top = "-260px";
+		document.getElementById("message006").style.top = "-160px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
@@ -275,10 +275,10 @@ function lose(){
 		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-260px";
+		document.getElementById("message004").style.top = "-435px";
+		document.getElementById("message003").style.top = "-260px";
+		document.getElementById("message006").style.top = "-160px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
      	$("#message004").keypress(function(event) { 	

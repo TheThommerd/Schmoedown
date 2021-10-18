@@ -107,10 +107,10 @@ function winKO(){
 document.getElementById("passwordsaverEight").value = "WILDBERRIES";
 message004.innerHTML = "You have unlocked the next round. Use the password 'Wildberries' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("save").click();
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message004").style.top = "-455px";
+		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseKO(){
@@ -140,10 +140,10 @@ function loseKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message004").style.top = "-455px";
+		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -174,10 +174,10 @@ function winTKO(){
 document.getElementById("passwordsaverEight").value = "WILDBERRIES";
 message004.innerHTML = "You have unlocked the next round. Use the password 'Wildberries' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 	document.getElementById("save").click();
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message004").style.top = "-455px";
+		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseTKO(){
@@ -207,10 +207,10 @@ function loseTKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message004").style.top = "-455px";
+		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
@@ -240,10 +240,10 @@ function win(){
 document.getElementById("passwordsaverEight").value = "WILDBERRIES";
 message004.innerHTML = "You have unlocked the next round. Use the password 'Wildberries' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 	document.getElementById("save").click();
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message004").style.top = "-455px";
+		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
@@ -272,10 +272,10 @@ function lose(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message004").style.top = "-455px";
+		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 $("#message004").keypress(function(event) { 

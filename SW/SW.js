@@ -1319,10 +1319,10 @@ function loseKO(){
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-240px";
+		document.getElementById("message004").style.top = "-415px";
+		document.getElementById("message003").style.top = "-240px";
+		document.getElementById("message006").style.top = "-140px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -1353,10 +1353,10 @@ function winTKO(){
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-240px";
+		document.getElementById("message004").style.top = "-415px";
+		document.getElementById("message003").style.top = "-240px";
+		document.getElementById("message006").style.top = "-140px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseTKO(){
@@ -1386,10 +1386,10 @@ function loseTKO(){
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-240px";
+		document.getElementById("message004").style.top = "-415px";
+		document.getElementById("message003").style.top = "-240px";
+		document.getElementById("message006").style.top = "-140px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
@@ -1419,10 +1419,10 @@ function win(){
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-240px";
+		document.getElementById("message004").style.top = "-415px";
+		document.getElementById("message003").style.top = "-240px";
+		document.getElementById("message006").style.top = "-140px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
@@ -1451,10 +1451,10 @@ function lose(){
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-220px";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message002").style.top = "-240px";
+		document.getElementById("message004").style.top = "-415px";
+		document.getElementById("message003").style.top = "-240px";
+		document.getElementById("message006").style.top = "-140px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 var mc = 0;
@@ -3313,8 +3313,8 @@ next002();
             else if (a == 12) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	document.getElementById("message002").style.top = "-130px";
-	document.getElementById("message003").style.top = "-140px";
+	document.getElementById("message002").style.top = "-150px";
+	document.getElementById("message003").style.top = "-160px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3860,9 +3860,9 @@ userfive++;
                 message002.innerHTML = "";
                 message005.innerHTML = "";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
-		document.getElementById("message004").style.top = "-395px";
-		document.getElementById("message003").style.top = "-220px";
-		document.getElementById("message006").style.top = "-120px";
+		document.getElementById("message004").style.top = "-415px";
+		document.getElementById("message003").style.top = "-240px";
+		document.getElementById("message006").style.top = "-140px";
 		document.getElementById("message006").style.fontSize = "110%";
                 }
       else {

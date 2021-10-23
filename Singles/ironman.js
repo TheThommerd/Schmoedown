@@ -457,7 +457,7 @@ posspoints++;
 posspointsopp++;
 quescountopp++;
       		message003.innerHTML = "The correct answer is " + question001[vraag].answ2; 
-		    document.getElementById("message003").style.top = "-210px";
+		    document.getElementById("message003").style.top = "-230px";
            	window.clearInterval(update);
                 time001.innerHTML = "Time's up!";
 		document.getElementById("time001").style.fontSize = "100%";

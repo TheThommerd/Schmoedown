@@ -5647,7 +5647,6 @@ if (speed == 1){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 document.getElementById("message002").style.top = "-190px";
-                message001.innerHTML = speedquestion001[0].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
@@ -5678,7 +5677,6 @@ else if (speed == 2){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 document.getElementById("message002").style.top = "-190px";
-                message001.innerHTML = speedquestion001[1].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
@@ -5709,7 +5707,6 @@ else if (speed == 3){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 document.getElementById("message002").style.top = "-190px";
-                message001.innerHTML = speedquestion001[2].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
@@ -5740,7 +5737,6 @@ else if (speed == 4){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 document.getElementById("message002").style.top = "-190px";
-                message001.innerHTML = speedquestion001[3].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
@@ -5771,7 +5767,6 @@ else if (speed == 5){
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 document.getElementById("message002").style.top = "-190px";
-                message001.innerHTML = speedquestion001[4].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();

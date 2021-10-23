@@ -67,6 +67,52 @@ var num = 0;
 var hastag = "#";
 var percentage = 0;
 var vraag = 0;
+var text = "";
+var delay = 40;
+var currentChar = 1;
+var destination = "[none]";
+var typeTimer = null;
+var typing = true;
+function type(tick)
+{
+    var dest = document.getElementById(destination);
+    
+    if (!typing) return;
+    
+    if (dest)
+    {
+        dest.innerHTML=text.substr(0, currentChar);
+        currentChar++;
+        
+        if (currentChar > text.length) 
+        {
+            currentChar = 1;
+            tick = 9999999999999999;
+        }
+        
+        typeTimer = setTimeout(function() { type(delay); }, tick);
+    }
+}
+
+function startTyping(textParam, delayParam, destinationParam)
+{
+    if (currentChar > 1) {
+        typing = true;
+        return type();
+    }
+    
+    text=textParam;
+    delay=delayParam;
+    currentChar=1;
+    destination=destinationParam;
+    type(delay);
+}
+
+function pauseTyping()
+{
+    typing = false;
+}
+
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
@@ -367,6 +413,7 @@ function checkerspeed(){
             window.clearInterval(update);
 		document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+	                message001.innerHTML = question001[vraag].ques;
 	quescount++;
 	posspoints++;
 	if (speed1.length > 4){
@@ -464,6 +511,7 @@ quescountopp++;
 		document.getElementById("time001").style.fontWeight = "normal";
 	    	incmusic.play();
 	    document.getElementById("q1").disabled = true;
+		  message001.innerHTML = question001[vraag].ques;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
 	    message006.innerHTML =  "";
@@ -552,6 +600,12 @@ lose();
 }
         }
 else {
+	text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 			vraag++;
 	if (typeof(question001[vraag]) == "undefined"){if (b -s > 0){win();}else if (b -s < 0){lose();}}
 	else if (typeof(question001[vraag]) != "undefined"){
@@ -563,29 +617,27 @@ else {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";  
-                message001.innerHTML = question001[vraag].ques;
-chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-if (question001[vraag].ques.length < 50){
+            message001.innerHTML = " ";
+	 startTyping(question001[vraag].ques, 40, "message001");
+	if (question001[vraag].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
-else if (chance < 30){t = 4; nobody = 0}
 else if (chance < 50){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
 else if (question001[vraag].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
-else if (chance < 30){t = 4; nobody = 0}
-else if (chance < 55){t = 3; nobody = 0}
-else if (chance < 100){t = 2; nobody = 0}
+else if (chance < 50){t = 5; nobody = 0}
+else if (chance < 80){t = 4; nobody = 0}
+else if (chance < 100){t = 3; nobody = 0}
 }
 else if (question001[vraag].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
-else if (chance < 30){t = 6; nobody = 0}
-else if (chance < 50){t = 4; nobody = 0}
-else if (chance < 90){t = 3; nobody = 0}
-else if (chance < 100){t = 2; nobody = 0}
+else if (chance < 50){t = 6; nobody = 0}
+else if (chance < 90){t = 5; nobody = 0}
+else if (chance < 100){t = 4; nobody = 0}
 }
 update = setInterval("speedtimer001()", 1000);
                 message002.innerHTML = "";
@@ -601,6 +653,7 @@ update = setInterval("speedtimer001()", 1000);
 }
 
 function speedquestions2() {	
+	pauseTyping();
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -611,7 +664,6 @@ function speedquestions2() {
                 time001.innerHTML = 5;
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
-                message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";

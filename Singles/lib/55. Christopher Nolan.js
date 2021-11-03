@@ -1,41 +1,3 @@
-var christophernolan = [
-{
-"cat":"Christopher Nolan",
-"ques":"What Nolan movie released in 2017 received an Oscar nomination for Best Picture?",
-"answ":"DUNKIRK",
-"answ2":"Dunkirk.",
-},
-{
-"cat":"Christopher Nolan",
-"ques":"What film was the first collaboration between Christopher Nolan and Christian Bale?",
-"answ":"BATMAN BEGINS",
-"answ2":"Batman Begins.",
-},
-{
-"cat":"Christopher Nolan",
-"ques":"Which actor plays Mr. Dawson, a civilian sailor that tries to save lives in Dunkirk?",
-"answ":"MARK RYLANCE",
-"answ2":"Mark Rylance.",
-},
-{
-"cat":"Christopher Nolan",
-"ques":"In which Nolan film will you find a ship named Endurance?",
-"answ":"INTERSTELLAR",
-"answ2":"Interstellar.",
-},
-{
-"cat":"Christopher Nolan",
-"ques":"What actor has trouble sleeping in Insomnia?",
-"answ":"AL PACINO",
-"answ2":"Al Pacino.",
-},
-{
-"cat":"Christopher Nolan",
-"ques":"Robin Williams appeared in what Christopher Nolan film?",
-"answ":"INSOMNIA",
-"answ2":"Insomnia.",
-},
-];
 var r2Q55 = [
 {
 "cat":"Christopher Nolan",
@@ -466,5 +428,4 @@ var r2Q55 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>2</button><button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop3 class=buttons003 onclick=qinc()>4</button><button id=incop4 class=buttons003 onclick=qinc()>5</button><br/>",
 },
 ];
-christophernolan = shuffle(christophernolan);
 r2Q55 = shuffle(r2Q55);

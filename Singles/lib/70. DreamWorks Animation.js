@@ -1,15 +1,38 @@
-var dreamworks = [
+var r2Q70 = [
+{
+"cat":"DreamWorks Animation",
+"ques":"Who voices the Easter Bunny in Rise of the Guardians?",
+"answ":"HUGH JACKMAN",
+"answ2":"Hugh Jackman.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ryan Reynolds</button><button id=incop2 class=buttons003 onclick=qinc()>Chris Hemsworth</button><button id=incop3 class=buttons003 onclick=qinc()>Zach Braff</button><button id=corop class=buttons003 onclick=qcor()>Hugh Jackman</button><br/>",
+},
 {
 "cat":"DreamWorks Animation",
 "ques":"In Chicken Run, what movie star provides the voice of the rooster Rocky?",
 "answ":"MEL GIBSON",
 "answ2":"Mel Gibson.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Liam Neeson</button><button id=incop2 class=buttons003 onclick=qinc()>Anthony Hopkins</button><button id=incop3 class=buttons003 onclick=qinc()>Bruce Willis</button><button id=corop class=buttons003 onclick=qcor()>Mel Gibson</button><br/>",
+},
+{
+"cat":"DreamWorks Animation",
+"ques":"Who directed Shrek Forever After?",
+"answ":"MIKE MITCHELL",
+"answ2":"Mike Mitchell.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chris Miller</button><button id=incop2 class=buttons003 onclick=qinc()>David Soren</button><button id=incop3 class=buttons003 onclick=qinc()>Tom McGrath</button><button id=corop class=buttons003 onclick=qcor()>Mike Mitchell</button><br/>",
+},
+{
+"cat":"DreamWorks Animation",
+"ques":"Chris Sanders and Dean DeBlois directed what 2010 DreamWorks film?",
+"answ":"HOW TO TRAIN YOUR DRAGON",
+"answ2":"How to Train Your Dragon.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Shrek Forever After</button><button id=incop2 class=buttons003 onclick=qinc()>Kung Fu Panda 2</button><button id=incop3 class=buttons003 onclick=qinc()>Megamind</button><button id=corop class=buttons003 onclick=qcor()>How to Train Your Dragon</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"Which DreamWorks film features musical performances by Justin Timberlake, Anthony Ramos and Kelly Clarkson?",
 "answ":"TROLLS WORLD TOUR",
 "answ2":"Trolls World Tour.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Trolls World Tour</button><button id=incop2 class=buttons003 onclick=qinc()>Trolls</button><button id=incop3 class=buttons003 onclick=qinc()>The Croods: A New Age</button><button id=incop4 class=buttons003 onclick=qinc()>Mr. Peabody & Sherman</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -17,36 +40,42 @@ var dreamworks = [
 "answ":"A NEW AGE",
 "answ3":"THE CROODS A NEW AGE",
 "answ2":"A New Age.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>A New Age</button><button id=incop2 class=buttons003 onclick=qinc()>The Meltdown</button><button id=incop3 class=buttons003 onclick=qinc()>Continental Drift</button><button id=incop4 class=buttons003 onclick=qinc()>Collision Course</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"Who voices the hypochondriac reticulated giraffe Melman in the Madagascar franchise?",
 "answ":"DAVID SCHWIMMER",
 "answ2":"David Schwimmer.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>David Schwimmer</button><button id=incop2 class=buttons003 onclick=qinc()>John C. Reilly</button><button id=incop3 class=buttons003 onclick=qinc()>Ben Stiller</button><button id=incop4 class=buttons003 onclick=qinc()>Steve Carell</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"Will Ferrell provides the voice of the title character in what 2010s Dreamworks film?",
 "answ":"MEGAMIND",
 "answ2":"Megamind.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Megamind</button><button id=incop2 class=buttons003 onclick=qinc()>Sinbad: Legend of the Seven Seas</button><button id=incop3 class=buttons003 onclick=qinc()>Kung Fu Panda</button><button id=incop4 class=buttons003 onclick=qinc()>Puss in Boots</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"Which actor voices Turbo, a garden snail in the film Turbo?",
 "answ":"RYAN REYNOLDS",
 "answ2":"Ryan Reynolds.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Ryan Reynolds</button><button id=incop2 class=buttons003 onclick=qinc()>Zac Efron</button><button id=incop3 class=buttons003 onclick=qinc()>Justin Timberlake</button><button id=incop4 class=buttons003 onclick=qinc()>Ed Helms</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"Which actor voices Adam Flayman, who is Barry B. Benson's best friend, in Bee Movie?",
 "answ":"MATTHEW BRODERICK",
 "answ2":"Matthew Broderick.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jack Black</button><button id=corop class=buttons003 onclick=qcor()>Matthew Broderick</button><button id=incop3 class=buttons003 onclick=qinc()>Bradley Cooper</button><button id=incop4 class=buttons003 onclick=qinc()>Jon Favreau</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"Which DreamWorks film has such characters as B.O.B., Dr. Cockroach, Link and Insectosaurus?",
 "answ":"MONSTERS VS ALIENS",
 "answ2":"Monsters vs. Aliens.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Trolls</button><button id=corop class=buttons003 onclick=qcor()>Monsters vs. Aliens</button><button id=incop3 class=buttons003 onclick=qinc()>The Croods</button><button id=incop4 class=buttons003 onclick=qinc()>Flushed Away</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -54,6 +83,7 @@ var dreamworks = [
 "answ":"THE PRINCE OF EGYPT",
 "answ3":"PRINCE OF EGYPT",
 "answ2":"The Prince of Egypt.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Sinbad: Legend of the Seven Seas</button><button id=corop class=buttons003 onclick=qcor()>The Prince of Egypt</button><button id=incop3 class=buttons003 onclick=qinc()>Antz</button><button id=incop4 class=buttons003 onclick=qinc()>The Road to El Dorado</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -61,6 +91,7 @@ var dreamworks = [
 "answ":"KUNG FU PANDA 2",
 "answ3":"KUNG FU PANDA II",
 "answ2":"Kung Fu Panda 2.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>How to Train Your Dragon</button><button id=corop class=buttons003 onclick=qcor()>Kung Fu Panda 2</button><button id=incop3 class=buttons003 onclick=qinc()>Shrek Forever After</button><button id=incop4 class=buttons003 onclick=qinc()>Megamind</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -68,12 +99,14 @@ var dreamworks = [
 "answ":"CAPTAIN UNDERPANTS",
 "answ3":"CAPTAIN UNDERPANTS THE FIRST EPIC MOVIE",
 "answ2":"Captain Underpants: The First Epic Movie.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mr. Peabody & Sherman</button><button id=corop class=buttons003 onclick=qcor()>Captain Underpants: The First Epic Movie</button><button id=incop3 class=buttons003 onclick=qinc()>The Boss Baby</button><button id=incop4 class=buttons003 onclick=qinc()>Rise of the Guardians</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
 "ques":"What type of animal does Bruce Willis voice in Over the Hedge?",
 "answ":"RACCOON",
 "answ2":"Raccoon.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Squirrel</button><button id=corop class=buttons003 onclick=qcor()>Raccoon</button><button id=incop3 class=buttons003 onclick=qinc()>Fox</button><button id=incop4 class=buttons003 onclick=qinc()>Beaver</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -81,6 +114,7 @@ var dreamworks = [
 "answ":"FAIRY GODMOTHER",
 "answ3":"THE FAIRY GODMOTHER",
 "answ2":"Fairy Godmother.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Queen Lillian</button><button id=corop class=buttons003 onclick=qcor()>Fairy Godmother</button><button id=incop3 class=buttons003 onclick=qinc()>Maleficent</button><button id=incop4 class=buttons003 onclick=qinc()>Snow White</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -88,14 +122,7 @@ var dreamworks = [
 "answ":"KING HAROLD",
 "answ3":"HAROLD",
 "answ2":"King Harold.",
-},
-];
-var r2Q70 = [
-{
-"cat":"DreamWorks Animation",
-"ques":"Who voices the Easter Bunny in Rise of the Guardians?",
-"answ":"HUGH JACKMAN",
-"answ2":"Hugh Jackman.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Prince Charming</button><button id=corop class=buttons003 onclick=qcor()>King Harold</button><button id=incop3 class=buttons003 onclick=qinc()>Lord Farquaad</button><button id=incop4 class=buttons003 onclick=qinc()>Fairy Godmother</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",
@@ -360,4 +387,3 @@ var r2Q70 = [
 },
 ];
 r2Q70 = shuffle(r2Q70);
-dreamworks = shuffle(dreamworks);

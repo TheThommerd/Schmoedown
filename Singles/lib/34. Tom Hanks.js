@@ -8,16 +8,15 @@ var tomhanks = [
 },
 {
 "cat":"Tom Hanks",
-"ques":"Tom Hanks starred in, directed and wrote what 1996 film that also has Tom Everett Scott, Liv Tyler and Steve Zahn?",
-"answ":"THAT THING YOU DO",
-"answ2":"That Thing You Do.",
+"ques":"Which Oscar-winning actress plays Tom Hanks' girlfriend Kelly in Cast Away?",
+"answ":"HELEN HUNT",
+"answ2":"Helen Hunt.",
 },
 {
 "cat":"Tom Hanks",
-"ques":"Who stars alongside Tom Hanks as gifted inmate John Coffey in The Green Mile?",
-"answ":"MICHAEL CLARKE DUNCAN",
-"answ3":"MICHAEL CLARK DUNCAN",
-"answ2":"Michael Clarke Duncan.",
+"ques":"Tom Hanks starred in, directed and wrote what 1996 film that also has Tom Everett Scott, Liv Tyler and Steve Zahn?",
+"answ":"THAT THING YOU DO",
+"answ2":"That Thing You Do.",
 },
 {
 "cat":"Tom Hanks",
@@ -30,12 +29,6 @@ var tomhanks = [
 "ques":"What 1984 comedy marked the first collaboration between Tom Hanks and director Ron Howard?",
 "answ":"SPLASH",
 "answ2":"Splash.",
-},
-{
-"cat":"Tom Hanks",
-"ques":"In what year did Tom Hanks star in The Terminal, The Ladykillers and The Polar Express?",
-"answ":"2004",
-"answ2":"2004.",
 },
 {
 "cat":"Tom Hanks",
@@ -65,12 +58,6 @@ var tomhanks = [
 },
 {
 "cat":"Tom Hanks",
-"ques":"Tom Hanks starred alongside Halle Berry, Jim Broadbent and Hugo Weaving in what film?",
-"answ":"CLOUD ATLAS",
-"answ2":"Cloud Atlas.",
-},
-{
-"cat":"Tom Hanks",
 "ques":"In Cast Away, what is on the FedEx box that Tom Hanks never opens?",
 "answ":"PAIR OF WINGS",
 "answ3":"WINGS",
@@ -87,12 +74,6 @@ var tomhanks = [
 "ques":"Outside of the Robert Langdon films, Tom Hanks has played the same character more than once in one other franchise. What franchise is that?",
 "answ":"TOY STORY",
 "answ2":"Toy Story.",
-},
-{
-"cat":"Tom Hanks",
-"ques":"In which film does Tom Hanks play the character Jimmy Dugan?",
-"answ":"A LEAGUE OF THEIR OWN",
-"answ2":"A League of Their Own.",
 },
 {
 "cat":"Tom Hanks",
@@ -118,14 +99,44 @@ var tomhanks = [
 "answ":"PHILADELPHIA",
 "answ2":"Philadelphia.",
 },
+];
+var r2Q34 = [
+{
+"cat":"Tom Hanks",
+"ques":"In what year did Tom Hanks star in The Terminal, The Ladykillers and The Polar Express?",
+"answ":"2004",
+"answ2":"2004.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>2001</button><button id=incop2 class=buttons003 onclick=qinc()>2002</button><button id=incop3 class=buttons003 onclick=qinc()>2003</button><button id=corop class=buttons003 onclick=qcor()>2004</button><br/>",
+},
+{
+"cat":"Tom Hanks",
+"ques":"Who stars alongside Tom Hanks as gifted inmate John Coffey in The Green Mile?",
+"answ":"MICHAEL CLARKE DUNCAN",
+"answ3":"MICHAEL CLARK DUNCAN",
+"answ2":"Michael Clarke Duncan.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Laurence Fishburne</button><button id=incop2 class=buttons003 onclick=qinc()>Morgan Freeman</button><button id=incop3 class=buttons003 onclick=qinc()>Ving Rhames</button><button id=corop class=buttons003 onclick=qcor()>Michael Clarke Duncan</button><br/>",
+},
+{
+"cat":"Tom Hanks",
+"ques":"Tom Hanks starred alongside Halle Berry, Jim Broadbent and Hugo Weaving in what film?",
+"answ":"CLOUD ATLAS",
+"answ2":"Cloud Atlas.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Ladykillers</button><button id=incop2 class=buttons003 onclick=qinc()>The Da Vinci Code</button><button id=incop3 class=buttons003 onclick=qinc()>Charlie Wilson's War</button><button id=corop class=buttons003 onclick=qcor()>Cloud Atlas</button><br/>",
+},
 {
 "cat":"Tom Hanks",
 "ques":"What company did Tom Hanks' character Chuck Noland work for in Cast Away?",
 "answ":"FEDEX",
 "answ2":"FedEx.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Amazon</button><button id=incop2 class=buttons003 onclick=qinc()>UPS</button><button id=incop3 class=buttons003 onclick=qinc()>DHL</button><button id=corop class=buttons003 onclick=qcor()>FedEx</button><br/>",
 },
-];
-var r2Q34 = [
+{
+"cat":"Tom Hanks",
+"ques":"In which film does Tom Hanks play the character Jimmy Dugan?",
+"answ":"A LEAGUE OF THEIR OWN",
+"answ2":"A League of Their Own.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>You've Got Mail</button><button id=incop2 class=buttons003 onclick=qinc()>Cloud Atlas</button><button id=incop3 class=buttons003 onclick=qinc()>Bridge of Spies</button><button id=corop class=buttons003 onclick=qcor()>A League of Their Own</button><br/>",
+},
 {
 "cat":"Tom Hanks",
 "ques":"What was the name of the mouse in The Green Mile?",

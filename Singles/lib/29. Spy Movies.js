@@ -1,12 +1,6 @@
 var spymovies = [
 {
 "cat":"Spy Movies",
-"ques":"What was the first James Bond film?",
-"answ":"DR NO",
-"answ2":"Dr. No.",
-},
-{
-"cat":"Spy Movies",
 "ques":"What is the title of the fifth entry in the Bourne franchise, released in 2016?",
 "answ":"JASON BOURNE",
 "answ2":"Jason Bourne.",
@@ -74,12 +68,6 @@ var spymovies = [
 },
 {
 "cat":"Spy Movies",
-"ques":"Who took over the role of Jack Ryan, in 2014's Jack Ryan: Shadow Recruit?",
-"answ":"CHRIS PINE",
-"answ2":"Chris Pine.",
-},
-{
-"cat":"Spy Movies",
 "ques":"What is Colin Firth's character's first and last real name in the Kingsman franchise?",
 "answ":"HARRY HART",
 "answ2":"Harry Hart.",
@@ -91,20 +79,43 @@ var spymovies = [
 "answ3":"BOURNE SUPREMACY",
 "answ2":"The Bourne Supremacy.",
 },
+];
+var r2Q29 = [
+{
+"cat":"Spy Movies",
+"ques":"What was the first James Bond film?",
+"answ":"DR NO",
+"answ2":"Dr. No.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Thunderball</button><button id=incop2 class=buttons003 onclick=qinc()>Goldfinger</button><button id=incop3 class=buttons003 onclick=qinc()>From Russia with Love</button><button id=corop class=buttons003 onclick=qcor()>Dr. No</button><br/>",
+},
 {
 "cat":"Spy Movies",
 "ques":"Who plays secret agent John Steed in 1998's The Avengers?",
 "answ":"RALPH FIENNES",
 "answ2":"Ralph Fiennes.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Wesley Snipes</button><button id=incop2 class=buttons003 onclick=qinc()>Ed Harris</button><button id=incop3 class=buttons003 onclick=qinc()>Brendan Fraser</button><button id=corop class=buttons003 onclick=qcor()>Ralph Fiennes</button><br/>",
 },
 {
 "cat":"Spy Movies",
 "ques":"Jack Ryan uncovers a secret war being waged by the US government in Columbia in which movie?",
 "answ":"CLEAR AND PRESENT DANGER",
 "answ2":"Clear and Present Danger.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Hunt for Red October</button><button id=incop2 class=buttons003 onclick=qinc()>Patriot Games</button><button id=incop3 class=buttons003 onclick=qinc()>The Sum of All Fears</button><button id=corop class=buttons003 onclick=qcor()>Clear and Present Danger</button><br/>",
 },
-];
-var r2Q29 = [
+{
+"cat":"Spy Movies",
+"ques":"Wesley Snipes, Donald Sutherland and Anne Archer star in what 2000 spy film ?",
+"answ":"THE ART OF WAR",
+"answ2":"The Art of War.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Big Hit</button><button id=incop2 class=buttons003 onclick=qinc()>Liberty Stands Still</button><button id=incop3 class=buttons003 onclick=qinc()>Murder at 1600</button><button id=corop class=buttons003 onclick=qcor()>The Art of War</button><br/>",
+},
+{
+"cat":"Spy Movies",
+"ques":"Who took over the role of Jack Ryan, in 2014's Jack Ryan: Shadow Recruit?",
+"answ":"CHRIS PINE",
+"answ2":"Chris Pine.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jeremy Renner</button><button id=incop2 class=buttons003 onclick=qinc()>James Marsden</button><button id=incop3 class=buttons003 onclick=qinc()>Ryan Reynolds</button><button id=corop class=buttons003 onclick=qcor()>Chris Pine</button><br/>",
+},
 {
 "cat":"Spy Movies",
 "ques":"Who plays the villainous Mr. Phelps in Mission Impossible?",

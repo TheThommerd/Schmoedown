@@ -1,61 +1,31 @@
-var tarantino = [
+var r2Q43 = [
 {
 "cat":"Quentin Tarantino",
 "ques":"In Pulp Fiction, who plays the burglar that simply goes by the name Pumpkin?",
 "answ":"TIM ROTH",
 "answ2":"Tim Roth.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ving Rhames</button><button id=incop2 class=buttons003 onclick=qinc()>Eric Stoltz</button><button id=corop class=buttons003 onclick=qcor()>Tim Roth</button><button id=incop4 class=buttons003 onclick=qinc()>Bruce Willis</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
-"ques":"What nickname did Harvey Keitel's character go by in Pulp Fiction?",
-"answ":"THE WOLF",
-"answ3":"WOLF",
-"answ2":"The Wolf.",
+"ques":"Who played Mr. White in Reservoir Dogs?",
+"answ":"HARVEY KEITEL",
+"answ2":"Harvey Keitel.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Steve Buscemi</button><button id=incop2 class=buttons003 onclick=qinc()>Chris Penn</button><button id=corop class=buttons003 onclick=qcor()>Harvey Keitel</button><button id=incop4 class=buttons003 onclick=qinc()>Tim Roth</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
-"ques":"Harvey Keitel, Salma Hayek and George Clooney star in what film featuring Tarantino as an actor?",
-"answ":"FROM DUSK TILL DAWN",
-"answ2":"From Dusk Till Dawn",
-},
-{
-"cat":"Quentin Tarantino",
-"ques":"What was the first film directed by Quentin Tarantino which starred Brad Pitt?",
-"answ":"INGLOURIOUS BASTERDS",
-"answ3":"INGLORIOUS BASTERDS",
-"answ2":"Inglourious Basterds.",
+"ques":"What Tarantino film did Chris Tucker appear in?",
+"answ":"JACKIE BROWN",
+"answ2":"Jackie Brown.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Reservoir Dogs</button><button id=incop2 class=buttons003 onclick=qinc()>Django Unchained</button><button id=corop class=buttons003 onclick=qcor()>Jackie Brown</button><button id=incop4 class=buttons003 onclick=qinc()>Once Upon a Time in Hollywood</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
 "ques":"In which Quentin Tarantino film does a character explain why he doesn't tip waitresses at diners?",
 "answ":"RESERVOIR DOGS",
 "answ2":"Reservoir Dogs.",
-},
-{
-"cat":"Quentin Tarantino",
-"ques":"Who plays DiCaprio's loyal house slave Stephen in Django Unchained?",
-"answ":"SAMUEL L JACKSON",
-"answ3":"SAM JACKSON",
-"answ2":"Samuel L. Jackson.",
-},
-{
-"cat":"Quentin Tarantino",
-"ques":"Who plays German bounty hunter Dr. King Schultz in Django Unchained?",
-"answ":"CHRISTOPH WALTZ",
-"answ3":"KRISTOF WALTZ",
-"answ2":"Christoph Waltz.",
-},
-{
-"cat":"Quentin Tarantino",
-"ques":"Quentin Tarantino has won 2 Oscars for Best Original Screenplay. For what movie did he win his first?",
-"answ":"PULP FICTION",
-"answ2":"Pulp Fiction.",
-},
-{
-"cat":"Quentin Tarantino",
-"ques":"Who played Lt. Aldo Raine, the leader of the Basterds, in Inglourious Basterds?",
-"answ":"BRAD PITT",
-"answ2":"Brad Pitt.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Once Upon a Time in Hollywood</button><button id=incop2 class=buttons003 onclick=qinc()>Jackie Brown</button><button id=corop class=buttons003 onclick=qcor()>Reservoir Dogs</button><button id=incop4 class=buttons003 onclick=qinc()>Pulp Fiction</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
@@ -63,12 +33,14 @@ var tarantino = [
 "answ":"KERRY WASHINGTON",
 "answ3":"KERRI WASHINGTON",
 "answ2":"Kerry Washington.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Viola Davis</button><button id=incop2 class=buttons003 onclick=qinc()>Regina King</button><button id=corop class=buttons003 onclick=qcor()>Kerry Washington</button><button id=incop4 class=buttons003 onclick=qinc()>Angela Bassett</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
 "ques":"What is Lucy Liu's character's code name in Kill Bill Volume 1?",
 "answ":"COTTONMOUTH",
 "answ2":"Cottonmouth.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Black Mamba</button><button id=incop2 class=buttons003 onclick=qinc()>Sidewinder</button><button id=corop class=buttons003 onclick=qcor()>Cottonmouth</button><button id=incop4 class=buttons003 onclick=qinc()>Copperhead</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
@@ -76,21 +48,16 @@ var tarantino = [
 "answ":"GOLD",
 "answ3":"YELLOW",
 "answ2":"Gold.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Green</button><button id=incop2 class=buttons003 onclick=qinc()>Blue</button><button id=corop class=buttons003 onclick=qcor()>Gold</button><button id=incop4 class=buttons003 onclick=qinc()>Red</button><br/>",
 },
 {
 "cat":"Quentin Tarantino",
-"ques":"Who played Mr. White in Reservoir Dogs?",
-"answ":"HARVEY KEITEL",
-"answ2":"Harvey Keitel.",
+"ques":"What nickname did Harvey Keitel's character go by in Pulp Fiction?",
+"answ":"THE WOLF",
+"answ3":"WOLF",
+"answ2":"The Wolf.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Fox</button><button id=incop2 class=buttons003 onclick=qinc()>The Tiger</button><button id=corop class=buttons003 onclick=qcor()>The Wolf</button><button id=incop4 class=buttons003 onclick=qinc()>The Jackal</button><br/>",
 },
-{
-"cat":"Quentin Tarantino",
-"ques":"What Tarantino film did Chris Tucker appear in?",
-"answ":"JACKIE BROWN",
-"answ2":"Jackie Brown.",
-},
-];
-var r2Q43 = [
 {
 "cat":"Quentin Tarantino",
 "ques":"What is Quentin Tarantino's color in Reservoir Dogs?",
@@ -451,5 +418,4 @@ var r2Q43 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Brown</button><button id=incop2 class=buttons003 onclick=qinc()>Pink</button><button id=incop3 class=buttons003 onclick=qinc()>White</button><button id=corop class=buttons003 onclick=qcor()>Orange</button><br/>",
 },
 ];
-tarantino = shuffle(tarantino);
 r2Q43 = shuffle(r2Q43);

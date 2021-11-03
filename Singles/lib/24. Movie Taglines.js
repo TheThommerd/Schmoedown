@@ -1,52 +1,17 @@
-var movietaglines = [
-{
-"cat":"Movie Taglines",
-"ques":"This 2004 comedy had the tagline: 'A romantic comedy. With zombies.'?",
-"answ":"SHAUN OF THE DEAD",
-"answ2":"Shaun of the Dead.",
-},
-{
-"cat":"Movie Taglines",
-"ques":"What 2007 comedy has the tagline: 'They're bad boys. They're die hards. They're lethal weapons.'?",
-"answ":"HOT FUZZ",
-"answ2":"Hot Fuzz.",
-},
-{
-"cat":"Movie Taglines",
-"ques":"What 2009 comedy has the following tagline: 'Some guys just can't handle Vegas'?",
-"answ":"THE HANGOVER",
-"answ2":"The Hangover.",
-},
-{
-"cat":"Movie Taglines",
-"ques":"What 80s horror film has the tagline: 'If Nancy doesn't wake up screaming, she won't wake up at all'?",
-"answ":"A NIGHTMARE ON ELM STREET",
-"answ3":"NIGHTMARE ON ELM STREET",
-"answ2":"A Nightmare on Elm Street.",
-},
-{
-"cat":"Movie Taglines",
-"ques":"What 1984 movie, directed by Joe Dante, features the tagline: 'Cute. Clever. Mischievous. Intelligent. Dangerous.?",
-"answ":"GREMLINS",
-"answ2":"Gremlins.",
-},
-{
-"cat":"Movie Taglines",
-"ques":"Which early 1990s movie had the tagline: 'Go ahead, you tell him you didn't do your homework'?",
-"answ":"KINDERGARTEN COP",
-"answ2":"Kindergarten Cop.",
-},
+var r2Q24 = [
 {
 "cat":"Movie Taglines",
 "ques":"Which Robin Williams film has the tagline: 'Laughter is contagious'?",
 "answ":"PATCH ADAMS",
 "answ2":"Patch Adams.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Birdcage</button><button id=incop2 class=buttons003 onclick=qinc()>Flubber</button><button id=incop3 class=buttons003 onclick=qinc()>Shakes the Clown</button><button id=corop class=buttons003 onclick=qcor()>Patch Adams</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"Name the 2015 film with the tagline: 'Bring Him Home'?",
 "answ":"THE MARTIAN",
 "answ2":"The Martian.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Revenant</button><button id=incop2 class=buttons003 onclick=qinc()>Bridge of Spies</button><button id=incop3 class=buttons003 onclick=qinc()>San Andreas</button><button id=corop class=buttons003 onclick=qcor()>The Martian</button><br/>",
 },
 {
 "cat":"Movie Taglines",
@@ -54,30 +19,35 @@ var movietaglines = [
 "answ":"THE 40 YEAR OLD VIRGIN",
 "answ3":"40 YEAR OLD VIRGIN",
 "answ2":"The 40-Year-Old Virgin.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>American Pie</button><button id=incop2 class=buttons003 onclick=qinc()>Knocked Up</button><button id=incop3 class=buttons003 onclick=qinc()>This Is 40</button><button id=corop class=buttons003 onclick=qcor()>The 40-Year-Old Virgin</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What animated film has the tagline: 'An unforgettable adventure she probably won't remember'?",
 "answ":"FINDING DORY",
 "answ2":"Finding Dory.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Coraline</button><button id=incop2 class=buttons003 onclick=qinc()>Frozen</button><button id=incop3 class=buttons003 onclick=qinc()>Chicken Run</button><button id=corop class=buttons003 onclick=qcor()>Finding Dory</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"Name the 2004 comedy with the tagline: 'In search of wine. In search of women. In search of themselves.'",
 "answ":"SIDEWAYS",
 "answ2":"Sideways.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chasing Liberty</button><button id=incop2 class=buttons003 onclick=qinc()>The Perfect Score</button><button id=incop3 class=buttons003 onclick=qinc()>The Ladykillers</button><button id=corop class=buttons003 onclick=qcor()>Sideways</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What 1999 horror film had the tagline: 'Heads will roll.'?",
 "answ":"SLEEPY HOLLOW",
 "answ2":"Sleepy Hollow.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Lake Placid</button><button id=incop2 class=buttons003 onclick=qinc()>The Haunting</button><button id=incop3 class=buttons003 onclick=qinc()>End of Days</button><button id=corop class=buttons003 onclick=qcor()>Sleepy Hollow</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What Spielberg movie had the following tagline: 'The true story of a real fake.'?",
 "answ":"CATCH ME IF YOU CAN",
 "answ2":"Catch Me If You Can.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Catch Me If You Can</button><button id=incop2 class=buttons003 onclick=qinc()>Bridge of Spies</button><button id=incop3 class=buttons003 onclick=qinc()>The Terminal</button><button id=incop4 class=buttons003 onclick=qinc()>The BFG</button><br/>",
 },
 {
 "cat":"Movie Taglines",
@@ -85,24 +55,28 @@ var movietaglines = [
 "answ":"THERE'S SOMETHING ABOUT MARY",
 "answ3":"THERE IS SOMETHING ABOUT MARY",
 "answ2":"There's Something About Mary.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>There's Something About Mary</button><button id=incop2 class=buttons003 onclick=qinc()>Ever After</button><button id=incop3 class=buttons003 onclick=qinc()>The Wedding Singer</button><button id=incop4 class=buttons003 onclick=qinc()>Dirty Work</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What 2000s sci-fi horror film had the tagline: 'The last man on Earth is not alone.'?",
 "answ":"I AM LEGEND",
 "answ2":"I Am Legend.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>I Am Legend</button><button id=incop2 class=buttons003 onclick=qinc()>Oblivion</button><button id=incop3 class=buttons003 onclick=qinc()>I Robot</button><button id=incop4 class=buttons003 onclick=qinc()>The Happening</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What Tarantino movie had the tagline: 'Life, liberty and the pursuit of vengeance'?",
 "answ":"DJANGO UNCHAINED",
 "answ2":"Django Unchained.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Django Unchained</button><button id=incop2 class=buttons003 onclick=qinc()>Reservoir Dogs</button><button id=incop3 class=buttons003 onclick=qinc()>Once Upon a Time in Hollywood</button><button id=incop4 class=buttons003 onclick=qinc()>Pulp Fiction</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What Best Picture nominee had the tagline: 'She brought a small town to its feet and a huge corporation to its knees.'?",
 "answ":"ERIN BROCKOVICH",
 "answ2":"Erin Brockovich.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Erin Brockovich</button><button id=incop2 class=buttons003 onclick=qinc()>Silver Linings Playbook</button><button id=incop3 class=buttons003 onclick=qinc()>The Reader</button><button id=incop4 class=buttons003 onclick=qinc()>The Queen</button><br/>",
 },
 {
 "cat":"Movie Taglines",
@@ -110,6 +84,7 @@ var movietaglines = [
 "answ":"ALIEN VERSUS PREDATOR",
 "answ3":"ALIEN VS PREDATOR",
 "answ2":"Alien vs. Predator.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Alien vs. Predator</button><button id=incop2 class=buttons003 onclick=qinc()>Godzilla vs. Kong</button><button id=incop3 class=buttons003 onclick=qinc()>Eagle vs. Shark</button><button id=incop4 class=buttons003 onclick=qinc()>Freddy vs. Jason</button><br/>",
 },
 {
 "cat":"Movie Taglines",
@@ -117,6 +92,7 @@ var movietaglines = [
 "answ":"TRUMAN SHOW",
 "answ3":"THE TRUMAN SHOW",
 "answ2":"The Truman Show.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>The Truman Show</button><button id=incop2 class=buttons003 onclick=qinc()>EDTv</button><button id=incop3 class=buttons003 onclick=qinc()>Brazil</button><button id=incop4 class=buttons003 onclick=qinc()>eXistenZ</button><br/>",
 },
 {
 "cat":"Movie Taglines",
@@ -124,21 +100,22 @@ var movietaglines = [
 "answ":"THE BIG LEBOWSKI",
 "answ3":"BIG LEBOWSKI",
 "answ2":"The Big Lebowski.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>The Big Lebowski</button><button id=incop2 class=buttons003 onclick=qinc()>The Hudsucker Proxy</button><button id=incop3 class=buttons003 onclick=qinc()>Fargo</button><button id=incop4 class=buttons003 onclick=qinc()>	The Ladykillers</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"What 2004 drama had the tagline: 'Would you erase me'?",
 "answ":"ETERNAL SUNSHINE OF THE SPOTLESS MIND",
 "answ2":"Eternal Sunshine of the Spotless Mind.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Eternal Sunshine of the Spotless Mind</button><button id=incop2 class=buttons003 onclick=qinc()>The Notebook</button><button id=incop3 class=buttons003 onclick=qinc()>The Manchurian Candidate</button><button id=incop4 class=buttons003 onclick=qinc()>Closer</button><br/>",
 },
 {
 "cat":"Movie Taglines",
 "ques":"Which comedy film had the tagline: 'Trapped in time. Surrounded by evil. Low on gas.'?",
 "answ":"ARMY OF DARKNESS",
 "answ2":"Army of Darkness.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Army of Darkness</button><button id=incop2 class=buttons003 onclick=qinc()>Edge of Tomorrow</button><button id=incop3 class=buttons003 onclick=qinc()>Hot Tub Time Machine</button><button id=incop4 class=buttons003 onclick=qinc()>Palm Springs</button><br/>",
 },
-];
-var r2Q24 = [
 {
 "cat":"Movie Taglines",
 "ques":"Name the 1997 film with the tagline: 'Even a hitman deserves a second shot'?",
@@ -388,5 +365,4 @@ var r2Q24 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Children of the Corn</button><button id=incop2 class=buttons003 onclick=qinc()>Gremlins</button><button id=corop class=buttons003 onclick=qcor()>House</button><button id=incop4 class=buttons003 onclick=qinc()>Wrong Turn</button><br/>",
 },
 ];
-movietaglines = shuffle(movietaglines);
 r2Q24 = shuffle(r2Q24);

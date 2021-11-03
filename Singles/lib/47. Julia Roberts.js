@@ -1,57 +1,3 @@
-var juliaroberts = [
-{
-"cat":"Julia Roberts",
-"ques":"Name the Julia Roberts movie that features the quote: 'I’m just a girl. Standing in front of a boy. Asking him to love her.'",
-"answ":"NOTTING HILL",
-"answ3":"NOTHING HILL",
-"answ2":"Notting Hill.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"In what Julia Roberts film will you hear the quote: 'Big mistake! Big! Huge!'",
-"answ":"PRETTY WOMAN",
-"answ2":"Pretty Woman.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"Julia Roberts and Denzel Washington starred in what 1993 legal thriller?",
-"answ":"PELICAN BRIEF",
-"answ3":"THE PELICAN BRIEF",
-"answ2":"The Pelican Brief.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"Julia Roberts and Hugh Grant team up for this 1999 romance film.",
-"answ":"NOTTING HILL",
-"answ3":"NOTHING HILL",
-"answ2":"Notting Hill.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"What is the name of the bar where Kit and Vivian hang out in Pretty Woman?",
-"answ":"THE BLUE BANANA",
-"answ3":"BLUE BANANA",
-"answ2":"The Blue Banana.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"What Julia Roberts movie had the tagline: 'Catch her if you can.'?",
-"answ":"RUNAWAY BRIDE",
-"answ2":"Runaway Bride.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"In what film does Julia portray a fairy?",
-"answ":"HOOK",
-"answ2":"Hook.",
-},
-{
-"cat":"Julia Roberts",
-"ques":"In what film does Julia play Snow White's evil stepmother?",
-"answ":"MIRROR MIRROR",
-"answ2":"Mirror Mirror.",
-},
-];
 var r2Q47 = [
 {
 "cat":"Julia Roberts",
@@ -481,5 +427,4 @@ var r2Q47 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Celebrity</button><button id=incop2 class=buttons003 onclick=qinc()>Small Time Crooks</button><button id=incop3 class=buttons003 onclick=qinc()>Hollywood Ending</button><button id=corop class=buttons003 onclick=qcor()>Everyone Says I Love You</button><br/>",
 },
 ];
-juliaroberts = shuffle(juliaroberts);
 r2Q47 = shuffle(r2Q47);

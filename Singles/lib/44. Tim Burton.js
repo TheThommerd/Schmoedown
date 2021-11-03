@@ -1,59 +1,3 @@
-var timburton = [
-{
-"cat":"Tim Burton",
-"ques":"Who composed the score for Pee Wee's Big Adventure?",
-"answ":"DANNY ELFMAN",
-"answ2":"Danny Elfman.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Vincent Price plays a scientist who tragically dies before he can finish his creation in what Tim Burton film?",
-"answ":"EDWARD SCISSORHANDS",
-"answ2":"Edward Scissorhands.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Who plays teenager Kim Boggs in Edward Scissorhands?",
-"answ":"WINONA RYDER",
-"answ2":"Winona Ryder.",
-},
-{
-"cat":"Tim Burton",
-"ques":"In Edward Scissorhands, who plays Jim, Kim's jealous boyfriend who constantly antagonizes Edward?",
-"answ":"ANTHONY MICHAEL HALL",
-"answ2":"Anthony Michael Hall.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Who played Lydia Deetz in 1988's Beetlejuice?",
-"answ":"WINONA RYDER",
-"answ2":"Winona Ryder.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Who played Ed Wood, in Tim Burton's Ed Wood?",
-"answ":"JOHNNY DEPP",
-"answ2":"Johnny Depp.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Ewan McGregor, Jessica Lange and Billy Crudup all have roles in this 2003 film directed by Tim Burton.",
-"answ":"BIG FISH",
-"answ2":"Big Fish.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Who played Adam Maitland in Beetlejuice?",
-"answ":"ALEC BALDWIN",
-"answ2":"Alec Baldwin.",
-},
-{
-"cat":"Tim Burton",
-"ques":"Who played Beetlejuice in Tim Burton's Beetlejuice?",
-"answ":"MICHAEL KEATON",
-"answ2":"Michael Keaton.",
-},
-];
 var r2Q44 = [
 {
 "cat":"Tim Burton",
@@ -462,5 +406,4 @@ var r2Q44 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=incop2 class=buttons003 onclick=qinc()>5</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=corop class=buttons003 onclick=qcor()>8</button><br/>",
 },
 ];
-timburton = shuffle(timburton);
 r2Q44 = shuffle(r2Q44);

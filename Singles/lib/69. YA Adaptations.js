@@ -1,55 +1,3 @@
-var yaadaptations = [
-{
-"cat":"YA Adaptations",
-"ques":"In The Maze Runner series, who plays the lead, Thomas?",
-"answ":"DYLAN O'BRIEN",
-"answ2":"Dylan O'Brien.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"Saoirse Ronan, Jake Abel and Max Irons star in what 2013 YA sci-fi thriller?",
-"answ":"THE HOST",
-"answ2":"The Host.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"Who played the lead character, Beatrice 'Tris' Prior, in the Divergent films?",
-"answ":"SHAILENE WOODLEY",
-"answ3":"SHAYLENE WOODLEY",
-"answ2":"Shailene Woodley.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"Who played Gale Hawthorne in The Hunger Games?",
-"answ":"LIAM HEMSWORTH",
-"answ2":"Liam Hemsworth.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"What was the subtitle of the first film sequel to The Hunger Games?",
-"answ":"CATCHING FIRE",
-"answ2":"Catching Fire.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"Which dystopian YA film feature performances by Amandla Stenberg and Alexander Ludwig?",
-"answ":"THE HUNGER GAMES",
-"answ3":"HUNGER GAMES",
-"answ2":"The Hunger Games.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"What is the subtitle title of the second film in the Divergent series released in 2015?",
-"answ":"INSURGENT",
-"answ2":"Insurgent.",
-},
-{
-"cat":"YA Adaptations",
-"ques":"Who played Haymitch Abernathy in The Hunger Games?",
-"answ":"WOODY HARRELSON",
-"answ2":"Woody Harrelson.",
-},
-];
 var r2Q69 = [
 {
 "cat":"YA Adaptations",
@@ -58,6 +6,99 @@ var r2Q69 = [
 "answ3":"ELISABETH BANKS",
 "answ2":"Elizabeth Banks.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Olivia Wilde</button><button id=incop2 class=buttons003 onclick=qinc()>Cate Blanchett</button><button id=corop class=buttons003 onclick=qcor()>Elizabeth Banks</button><button id=incop4 class=buttons003 onclick=qinc()>Hilary Duff</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"In The Maze Runner series, who plays the lead, Thomas?",
+"answ":"DYLAN O'BRIEN",
+"answ2":"Dylan O'Brien.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Nick Robinson</button><button id=incop2 class=buttons003 onclick=qinc()>Josh Hutcherson</button><button id=corop class=buttons003 onclick=qcor()>Dylan O'Brien</button><button id=incop4 class=buttons003 onclick=qinc()>Logan Lerman</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Who directed 2010's Percy Jackson and the Lightning Thief?",
+"answ":"CHRIS COLUMBUS",
+"answ2":"Chris Columbus.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Peter Weir</button><button id=incop2 class=buttons003 onclick=qinc()>Gary Ross</button><button id=corop class=buttons003 onclick=qcor()>Chris Columbus</button><button id=incop4 class=buttons003 onclick=qinc()>Francis Lawrence</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Who directed The Twilight Saga: Eclipse?",
+"answ":"DAVID SLADE",
+"answ2":"David Slade.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Catherine Hardwicke</button><button id=incop2 class=buttons003 onclick=qinc()>Neil Burger</button><button id=corop class=buttons003 onclick=qcor()>David Slade</button><button id=incop4 class=buttons003 onclick=qinc()>Wes Ball</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Who stars as Annabeth Chase, Percy's love interest in Percy Jackson and the Lightning Thief?",
+"answ":"ALEXANDRA DADDARIO",
+"answ2":"Alexandra Daddario.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Alice Eve</button><button id=incop2 class=buttons003 onclick=qinc()>Selena Gomez</button><button id=corop class=buttons003 onclick=qcor()>Alexandra Daddario</button><button id=incop4 class=buttons003 onclick=qinc()>Blake Lively</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Which actress starred as the villainous Medusa, who can turn people into stone, in Percy Jackson and the Lightning Thief?",
+"answ":"UMA THURMAN",
+"answ2":"Uma Thurman.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Frances McDormand</button><button id=incop2 class=buttons003 onclick=qinc()>Cate Blanchett</button><button id=corop class=buttons003 onclick=qcor()>Uma Thurman</button><button id=incop4 class=buttons003 onclick=qinc()>Jessica Chastain</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Which James Bond actor starred as the centaur Chiron, in Percy Jackson and the Lightning Thief?",
+"answ":"PIERCE BROSNAN",
+"answ2":"Pierce Brosnan.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Daniel Craig</button><button id=incop2 class=buttons003 onclick=qinc()>Sean Connery</button><button id=corop class=buttons003 onclick=qcor()>Pierce Brosnan</button><button id=incop4 class=buttons003 onclick=qinc()>Timothy Hutton</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Saoirse Ronan, Jake Abel and Max Irons star in what 2013 YA sci-fi thriller?",
+"answ":"THE HOST",
+"answ2":"The Host.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Percy Jackson: Sea of Monsters</button><button id=incop2 class=buttons003 onclick=qinc()>The Mortal Instruments: City of Bones</button><button id=corop class=buttons003 onclick=qcor()>The Host</button><button id=incop4 class=buttons003 onclick=qinc()>The Hunger Games: Catching Fire</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Who played the lead character, Beatrice 'Tris' Prior, in the Divergent films?",
+"answ":"SHAILENE WOODLEY",
+"answ3":"SHAYLENE WOODLEY",
+"answ2":"Shailene Woodley.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jennifer Lawrence</button><button id=incop2 class=buttons003 onclick=qinc()>Chloë Grace Moretz</button><button id=corop class=buttons003 onclick=qcor()>Shailene Woodley</button><button id=incop4 class=buttons003 onclick=qinc()>Alexandra Daddario</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Who played Gale Hawthorne in The Hunger Games?",
+"answ":"LIAM HEMSWORTH",
+"answ2":"Liam Hemsworth.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ryan Gosling</button><button id=incop2 class=buttons003 onclick=qinc()>Channing Tatum</button><button id=corop class=buttons003 onclick=qcor()>Liam Hemsworth</button><button id=incop4 class=buttons003 onclick=qinc()>Dylan O'Brien</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"What was the subtitle of the first film sequel to The Hunger Games?",
+"answ":"CATCHING FIRE",
+"answ2":"Catching Fire.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mockingjay Part 1</button><button id=incop2 class=buttons003 onclick=qinc()>The Scorch Trials</button><button id=corop class=buttons003 onclick=qcor()>Catching Fire</button><button id=incop4 class=buttons003 onclick=qinc()>The Death Cure</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Which dystopian YA film feature performances by Amandla Stenberg and Alexander Ludwig?",
+"answ":"THE HUNGER GAMES",
+"answ3":"HUNGER GAMES",
+"answ2":"The Hunger Games.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Divergent</button><button id=incop2 class=buttons003 onclick=qinc()>The Maze Runner</button><button id=corop class=buttons003 onclick=qcor()>The Hunger Games</button><button id=incop4 class=buttons003 onclick=qinc()>The Fifth Wave</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"What is the subtitle title of the second film in the Divergent series released in 2015?",
+"answ":"INSURGENT",
+"answ2":"Insurgent.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Scorch Trials</button><button id=incop2 class=buttons003 onclick=qinc()>The Death Cure</button><button id=corop class=buttons003 onclick=qcor()>Insurgent</button><button id=incop4 class=buttons003 onclick=qinc()>Allegiant</button><br/>",
+},
+{
+"cat":"YA Adaptations",
+"ques":"Who played Haymitch Abernathy in The Hunger Games?",
+"answ":"WOODY HARRELSON",
+"answ2":"Woody Harrelson.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ewan McGregor</button><button id=incop2 class=buttons003 onclick=qinc()>Daniel Craig</button><button id=corop class=buttons003 onclick=qcor()>Woody Harrelson</button><button id=incop4 class=buttons003 onclick=qinc()>Ed Harris</button><br/>",
 },
 {
 "cat":"YA Adaptations",
@@ -277,4 +318,3 @@ var r2Q69 = [
 },
 ];
 r2Q69 = shuffle(r2Q69);
-yaadaptations = shuffle(yaadaptations)

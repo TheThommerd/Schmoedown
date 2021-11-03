@@ -8,6 +8,37 @@ var disney = [
 },
 {
 "cat":"Disney",
+"ques":"Which actress voiced the evil Mother Gothel in Tangled?",
+"answ":"DONNA MURPHY",
+"answ2":"Donna Murphy.",
+},
+{
+"cat":"Disney",
+"ques":"What 2000s animated film, was the second theatrically released installment in the Winnie the Pooh franchise?",
+"answ":"THE TIGGER MOVIE",
+"answ":"TIGGER MOVIE",
+"answ2":"The Tigger Movie.",
+},
+{
+"cat":"Disney",
+"ques":"Glenn Close and Gérard Depardieu star in what 2000 live-action Disney sequel?",
+"answ":"102 DALMATIANS",
+"answ2":"102 Dalmatians.",
+},
+{
+"cat":"Disney",
+"ques":"Who stars as Cruella de Vil in the 2000 Disney film 102 Dalmatians?",
+"answ":"GLENN CLOSE",
+"answ2":"Glenn Close.",
+},
+{
+"cat":"Disney",
+"ques":"Who directed the films A Goofy Movie, Tarzan and 102 Dalmatians?",
+"answ":"KEVIN LIMA",
+"answ2":"Kevin Lima.",
+},
+{
+"cat":"Disney",
 "ques":"In Aladdin, what is the name of Jasmine's pet tiger?",
 "answ":"RAJAH",
 "answ3":"RAJA",
@@ -431,6 +462,13 @@ var r2Q17 = [
 "answ3":"FOX AND THE HOUND",
 "answ2":"The Fox and the Hound.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Bambi</button><button id=incop2 class=buttons003 onclick=qinc()>Lady and the Tramp</button><button id=incop3 class=buttons003 onclick=qinc()>The Aristocats</button><button id=corop class=buttons003 onclick=qcor()>The Fox and the Hound</button><br/>",
+},
+{
+"cat":"Disney",
+"ques":"In Dinosaur, what is the name of the young Iguanodon who is adopted and raised by a family of lemurs?",
+"answ":"ALADAR",
+"answ2":"Aladar.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Plio</button><button id=incop2 class=buttons003 onclick=qinc()>ittlefoot</button><button id=incop3 class=buttons003 onclick=qinc()>Suri</button><button id=corop class=buttons003 onclick=qcor()>Aladar</button><br/>",
 },
 {
 "cat":"Disney",

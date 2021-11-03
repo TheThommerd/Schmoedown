@@ -7,6 +7,36 @@ var biopics = [
 },
 {
 "cat":"Biopics",
+"ques":"Who played Queen Elizabeth in 2010's The King's Speech?",
+"answ":"HELENA BONHAM CARTER",
+"answ2":"Helena Bonham Carter.",
+},
+{
+"cat":"Biopics",
+"ques":"Which Oscar-nominated actor directed the 2000 biopic Pollock?",
+"answ":"ED HARRIS",
+"answ2":"Ed Harris.",
+},
+{
+"cat":"Biopics",
+"ques":"Which Oscar-nominated actor starred as the titular character in the 2000 biopic Pollock?",
+"answ":"ED HARRIS",
+"answ2":"Ed Harris.",
+},
+{
+"cat":"Biopics",
+"ques":"Which actor starred as veteran horse trainer Lucien Laurin in 2010's Secretariat?",
+"answ":"JOHN MALKOVICH",
+"answ2":"John Malkovich.",
+},
+{
+"cat":"Biopics",
+"ques":"Which actress starred as Penny Chenery, Secretariat's owner in 2010's Secretariat?",
+"answ":"DIANE LANE",
+"answ2":"Diane Lane.",
+},
+{
+"cat":"Biopics",
 "ques":"What 2020 biopic features supporting performances from Linda Cardellini, Kyle MacLachlan and Matt Dillon?",
 "answ":"CAPONE",
 "answ2":"Capone.",
@@ -626,13 +656,6 @@ var r2Q14 = [
 "answ3":"NAOMIE WATTS",
 "answ2":"Naomi Watts.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Nicole Kidman</button><button id=corop class=buttons003 onclick=qcor()>Naomi Watts</button><button id=incop3 class=buttons003 onclick=qinc()>Sienna Miller</button><button id=incop4 class=buttons003 onclick=qinc()>Rachel Weisz</button><br/>",
-},
-{
-"cat":"Biopics",
-"ques":"Who played Joan Jett in the 2010 biographical drama The Runaways?",
-"answ":"KRISTEN STEWART",
-"answ2":"Kristen Stewart.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Shailene Woodley</button><button id=corop class=buttons003 onclick=qcor()>Kristen Stewart</button><button id=incop3 class=buttons003 onclick=qinc()>Maggie Grace</button><button id=incop4 class=buttons003 onclick=qinc()>Rachel Weisz</button><br/>",
 },
 {
 "cat":"Biopics",

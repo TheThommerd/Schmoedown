@@ -1,29 +1,3 @@
-var scarlettjohansson = [
-{
-"cat":"Scarlett Johansson",
-"ques":"Who directed the 2014 Scarlett Johansson action flick Lucy?",
-"answ":"LUC BESSON",
-"answ2":"Luc Besson.",
-},
-{
-"cat":"Scarlett Johansson",
-"ques":"What actor starred opposite Scarlett Johansson in Marriage Story?",
-"answ":"ADAM DRIVER",
-"answ2":"Adam Driver.",
-},
-{
-"cat":"Scarlett Johansson",
-"ques":"What 2003 film stars Scarlett Johansson and Bill Murray?",
-"answ":"LOST IN TRANSLATION",
-"answ2":"Lost in Translation.",
-},
-{
-"cat":"Scarlett Johansson",
-"ques":"A former tennis pro falls for Scarlett who happens to be dating his friend and soon-to-be-brother-in-law in what film?",
-"answ":"MATCH POINT",
-"answ2":"Match Point.",
-},
-];
 var r2Q51 = [
 {
 "cat":"Scarlett Johansson",
@@ -34,6 +8,34 @@ var r2Q51 = [
 },
 {
 "cat":"Scarlett Johansson",
+"ques":"Who directed the 2014 Scarlett Johansson action flick Lucy?",
+"answ":"LUC BESSON",
+"answ2":"Luc Besson.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Rupert Sanders</button><button id=incop2 class=buttons003 onclick=qinc()>Jonathan Glazer</button><button id=corop class=buttons003 onclick=qcor()>Luc Besson</button><button id=incop4 class=buttons003 onclick=qinc()>Doug Liman</button><br/>",
+},
+{
+"cat":"Scarlett Johansson",
+"ques":"What actor starred opposite Scarlett Johansson in Marriage Story?",
+"answ":"ADAM DRIVER",
+"answ2":"Adam Driver.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ewan McGregor</button><button id=incop2 class=buttons003 onclick=qinc()>Ryan Gosling</button><button id=corop class=buttons003 onclick=qcor()>Adam Driver</button><button id=incop4 class=buttons003 onclick=qinc()>Zac Efron</button><br/>",
+},
+{
+"cat":"Scarlett Johansson",
+"ques":"What 2003 film stars Scarlett Johansson and Bill Murray?",
+"answ":"LOST IN TRANSLATION",
+"answ2":"Lost in Translation.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Girl with a Pearl Earring</button><button id=incop2 class=buttons003 onclick=qinc()>A Good Woman</button><button id=corop class=buttons003 onclick=qcor()>Lost in Translation</button><button id=incop4 class=buttons003 onclick=qinc()>The Black Dahlia</button><br/>",
+},
+{
+"cat":"Scarlett Johansson",
+"ques":"A former tennis pro falls for Scarlett who happens to be dating his friend and soon-to-be-brother-in-law in what film?",
+"answ":"MATCH POINT",
+"answ2":"Match Point.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Perfect Score</button><button id=incop2 class=buttons003 onclick=qinc()>Scoop</button><button id=corop class=buttons003 onclick=qcor()>Match Point</button><button id=incop4 class=buttons003 onclick=qinc()>He's Just Not That Into You</button><br/>",
+},
+{
+"cat":"Scarlett Johansson",
 "ques":"In what 2009 romantic comedy were Scarlett Johansson and Bradley Cooper romantically involved?",
 "answ":"HE'S JUST NOT THAT INTO YOU",
 "answ2":"He's Just Not That into You.",
@@ -41,7 +43,7 @@ var r2Q51 = [
 },
 {
 "cat":"Scarlett Johansson",
-"ques":"In which film does Scarlett play a character with the first name Charlotte?",
+"ques":"In which 2000s film does Scarlett play a character with the first name Charlotte?",
 "answ":"LOST IN TRANSLATION",
 "answ2":"Lost in Translation.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Girl with a Pearl Earring</button><button id=corop class=buttons003 onclick=qcor()>Lost in Translation</button><button id=incop3 class=buttons003 onclick=qinc()>The Prestige</button><button id=incop4 class=buttons003 onclick=qinc()>He's Just Not That Into You</button><br/>",
@@ -253,5 +255,4 @@ var r2Q51 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Shark Tale</button><button id=incop2 class=buttons003 onclick=qinc()>Home On The Range</button><button id=corop class=buttons003 onclick=qcor()>The SpongeBob SquarePants Movie</button><button id=incop4 class=buttons003 onclick=qinc()>The Incredibles</button><br/>",
 },
 ];
-scarlettjohansson = shuffle(scarlettjohansson);
 r2Q51 = shuffle(r2Q51);

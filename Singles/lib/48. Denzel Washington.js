@@ -7,6 +7,18 @@ var denzelwashington = [
 },
 {
 "cat":"Denzel Washington",
+"ques":"In The Book of Eli, which Oscar-winner plays the villainous warlord Carnegie?",
+"answ":"GARY OLDMAN",
+"answ2":"Gary Oldman.",
+},
+{
+"cat":"Denzel Washington",
+"ques":"Who directed Remember the Titans?",
+"answ":"BOAZ YAKIN",
+"answ2":"Boaz Yakin.",
+},
+{
+"cat":"Denzel Washington",
 "ques":"Denzel Washington plays coach Herman Boone in what football film?",
 "answ":"REMEMBER THE TITANS",
 "answ2":"Remember The Titans.",

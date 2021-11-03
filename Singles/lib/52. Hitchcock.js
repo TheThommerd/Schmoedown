@@ -1,22 +1,25 @@
-var hitchcock = [
+var r2Q52 = [
 {
 "cat":"Alfred Hitchcock",
 "ques":"The finale of the Alfred Hitchcock film Saboteur takes place at what famous U.S. landmark?",
 "answ":"STATUE OF LIBERTY",
 "answ3":"THE STATUE OF LIBERTY",
 "answ2":"Statue of Liberty.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mount Rushmore</button><button id=incop2 class=buttons003 onclick=qinc()>Golden Gate Bridge</button><button id=corop class=buttons003 onclick=qcor()>Statue of Liberty</button><button id=incop4 class=buttons003 onclick=qinc()>Hoover Dam</button><br/>",
 },
 {
 "cat":"Alfred Hitchcock",
 "ques":"Ingrid Bergman plays the daughter of a convicted Nazi spy in which Hitchock film?",
 "answ":"NOTORIOUS",
 "answ2":"Notorious.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Under Capricorn</button><button id=incop2 class=buttons003 onclick=qinc()>Saboteur</button><button id=corop class=buttons003 onclick=qcor()>Notorious</button><button id=incop4 class=buttons003 onclick=qinc()>Shadow of a Doubt</button><br/>",
 },
 {
 "cat":"Alfred Hitchcock",
 "ques":"The Birds was released in what year?",
 "answ":"1963",
 "answ2":"1963.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1960</button><button id=incop2 class=buttons003 onclick=qinc()>1961</button><button id=corop class=buttons003 onclick=qcor()>1963</button><button id=incop4 class=buttons003 onclick=qinc()>1965</button><br/>",
 },
 {
 "cat":"Alfred Hitchcock",
@@ -24,21 +27,22 @@ var hitchcock = [
 "answ":"JAMES STEWART",
 "answ3":"JIMMY STEWART",
 "answ2":"James Stewart.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Kirk Douglas</button><button id=incop2 class=buttons003 onclick=qinc()>Steve McQueen</button><button id=corop class=buttons003 onclick=qcor()>James Stewart</button><button id=incop4 class=buttons003 onclick=qinc()>Sean Connery</button><br/>",
 },
 {
 "cat":"Alfred Hitchcock",
 "ques":"Who plays Marion Crane in Alfred Hitchcock's Psycho?",
 "answ":"JANET LEIGH",
 "answ2":"Janet Leigh.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ingrid Bergman</button><button id=incop2 class=buttons003 onclick=qinc()>Tippi Hedren</button><button id=corop class=buttons003 onclick=qcor()>Janet Leigh</button><button id=incop4 class=buttons003 onclick=qinc()>Eva Marie Saint</button><br/>",
 },
 {
 "cat":"Alfred Hitchcock",
 "ques":"Which Hitchcock thriller is about a beach community suddenly besieged by killer animals?",
 "answ":"THE BIRDS",
 "answ2":"The Birds.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Paradine Case</button><button id=incop2 class=buttons003 onclick=qinc()>The Skin Game</button><button id=corop class=buttons003 onclick=qcor()>The Birds</button><button id=incop4 class=buttons003 onclick=qinc()>Under Capricorn</button><br/>",
 },
-];
-var r2Q52 = [
 {
 "cat":"Alfred Hitchcock",
 "ques":"Which Hitchcock movie featured a scene with 12 minutes of music, no dialogue and 124 different shots in the sequence?",
@@ -308,5 +312,4 @@ var r2Q52 = [
 "option":"<button id=corop class=buttons003 onclick=qcor()>Daphne du Maurier</button><button id=incop2 class=buttons003 onclick=qinc()>Gahan Wilson</button><button id=incop3 class=buttons003 onclick=qinc()>Michael Oliveri</button><button id=incop4 class=buttons003 onclick=qinc()>Tamara Thorne</button><br/>",
 },
 ];
-hitchcock = shuffle(hitchcock);
 r2Q52 = shuffle(r2Q52);

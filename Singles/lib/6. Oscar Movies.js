@@ -7,6 +7,18 @@ var oscarmovies = [
 },
 {
 "cat":"Oscar Movies",
+"ques":"Which actor earned a Best Actor nomination for his performance as Jacob Yi in 2020's Minari?",
+"answ":"STEVEN YEUN",
+"answ2":"Steven Yeun.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"Which Oscar-nominated film released in 2010 featured performances by Annette Bening, Julianne Moore and Mark Ruffalo?",
+"answ":"THE KIDS ARE ALL RIGHT",
+"answ2":"The Kids Are All Right.",
+},
+{
+"cat":"Oscar Movies",
 "ques":"Which actress won an Oscar for her performance as divorce lawyer Nora Fanshaw in the film Marriage Story?",
 "answ":"LAURA DERN",
 "answ2":"Laura Dern.",

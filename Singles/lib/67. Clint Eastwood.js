@@ -1,6 +1,20 @@
 var r2Q67 = [
 {
 "cat":"Clint Eastwood",
+"ques":"In what year was Clint Eastwood's Space Cowboys released?",
+"answ":"2000",
+"answ2":"2000.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1997</button><button id=incop2 class=buttons003 onclick=qinc()>1998</button><button id=incop3 class=buttons003 onclick=qinc()>1999</button><button id=corop class=buttons003 onclick=qcor()>2000</button><br/>",
+},
+{
+"cat":"Clint Eastwood",
+"ques":"In Space Cowboys, which Oscar-winning actor stars as U.S. Air Force pilot and aspiring astronaut William 'Hawk' Hawkins?",
+"answ":"TOMMY LEE JONES",
+"answ2":"Tommy Lee Jones.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jack Nicholson</button><button id=incop2 class=buttons003 onclick=qinc()>Michael Douglas</button><button id=incop3 class=buttons003 onclick=qinc()>William Hurt</button><button id=corop class=buttons003 onclick=qcor()>Tommy Lee Jones</button><br/>",
+},
+{
+"cat":"Clint Eastwood",
 "ques":"Who plays the villainous Mitch Leary who is taunting Clint Eastwood's Frank Horrigan in the film In the Line of Fire?",
 "answ":"JOHN MALKOVICH",
 "answ2":"John Malkovich.",

@@ -1,37 +1,6 @@
 var war = [
 {
 "cat":"War",
-"ques":"During which war do the events of 2007's Rescue Dawn, starring Christian Bale, take place?",
-"answ":"VIETNAM WAR",
-"answ3":"VIETNAM",
-"answ2":"Vietnam War.",
-},
-{
-"cat":"War",
-"ques":"Who directed the war film 13 Hours: The Secret Soldiers of Benghazi?",
-"answ":"MICHAEL BAY",
-"answ2":"Michael Bay.",
-},
-{
-"cat":"War",
-"ques":"Who directed The Great Escape?",
-"answ":"JOHN STURGES",
-"answ2":"John Sturges.",
-},
-{
-"cat":"War",
-"ques":"Nicole Kidman and Hugh Jackman co-star in what 2008 war drama?",
-"answ":"AUSTRALIA",
-"answ2":"Australia.",
-},
-{
-"cat":"War",
-"ques":"What Oscar winning actor stars as U.S Navy Commander Ernest Krause in the 2020 war film Greyhound?",
-"answ":"TOM HANKS",
-"answ2":"Tom Hanks.",
-},
-{
-"cat":"War",
 "ques":"Name one of the two major films released in 1998 that competed against each other at the Oscars for Best Picture?",
 "answ":"THE THIN RED LINE",
 "answ3":"SAVING PRIVATE RYAN",
@@ -130,12 +99,6 @@ var war = [
 },
 {
 "cat":"War",
-"ques":"Who played former Olympian Louie Zamperini in 2014's Unbroken?",
-"answ":"JACK O'CONNELL",
-"answ2":"Jack O'Connell.",
-},
-{
-"cat":"War",
 "ques":"In which war do the events of the film Fury take place?",
 "answ":"WORLD WAR II",
 "answ3":"WORLD WAR 2",
@@ -157,6 +120,77 @@ var war = [
 },
 ];
 var r2Q35 = [
+{
+"cat":"War",
+"ques":"During which war do the events of 2007's Rescue Dawn, starring Christian Bale, take place?",
+"answ":"VIETNAM WAR",
+"answ3":"VIETNAM",
+"answ2":"Vietnam War.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Vietnam War</button><button id=incop2 class=buttons003 onclick=qinc()>World War I</button><button id=incop3 class=buttons003 onclick=qinc()>World War II</button><button id=incop4 class=buttons003 onclick=qinc()>Gulf War</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Sebastian Stan, Christopher Plummer, Ed Harris, Samuel L. Jackson and Peter Fonda appear in what 2020 war drama?",
+"answ":"THE LAST FULL MEASURE",
+"answ2":"The Last Full Measure.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>The Last Full Measure</button><button id=incop2 class=buttons003 onclick=qinc()>Greyhound</button><button id=incop3 class=buttons003 onclick=qinc()>Da 5 Bloods</button><button id=incop4 class=buttons003 onclick=qinc()>The Outpost</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Who played former Olympian Louie Zamperini in 2014's Unbroken?",
+"answ":"JACK O'CONNELL",
+"answ2":"Jack O'Connell.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Jack O'Connell</button><button id=incop2 class=buttons003 onclick=qinc()>Domhnall Gleeson</button><button id=incop3 class=buttons003 onclick=qinc()>Garrett Hedlund </button><button id=incop4 class=buttons003 onclick=qinc()>Jai Courtney</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Joel Schumacher directed what 2000 war drama starring Colin Farrell, Clifton Collins Jr. and Michael Shannon?",
+"answ":"TIGERLAND",
+"answ2":"Tigerland.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Tigerland</button><button id=incop2 class=buttons003 onclick=qinc()>Black Hawk Down</button><button id=incop3 class=buttons003 onclick=qinc()>Windtalkers</button><button id=incop4 class=buttons003 onclick=qinc()>Flags of Our Fathers</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Joel Schumacher's Tigerland is set during which war?",
+"answ":"VIETNAM WAR",
+"answ2":"Vietnam War.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Vietnam War</button><button id=incop2 class=buttons003 onclick=qinc()>Korean War</button><button id=incop3 class=buttons003 onclick=qinc()>World War II</button><button id=incop4 class=buttons003 onclick=qinc()>Iraq War</button><br/>",
+},
+{
+"cat":"War",
+"ques":"In The Patriot, which actress plays Mel Gibson's sister-in-law and later wife?",
+"answ":"JOELY RICHARDSON",
+"answ2":"Joely Richardson.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Joely Richardson</button><button id=incop2 class=buttons003 onclick=qinc()>Ashley Judd</button><button id=incop3 class=buttons003 onclick=qinc()>Marisa Tomei</button><button id=incop4 class=buttons003 onclick=qinc()>Kim Basinger</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Who directed the war film 13 Hours: The Secret Soldiers of Benghazi?",
+"answ":"MICHAEL BAY",
+"answ2":"Michael Bay.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Michael Bay</button><button id=incop2 class=buttons003 onclick=qinc()>Sam Mendes</button><button id=incop3 class=buttons003 onclick=qinc()>Oliver Stone</button><button id=incop4 class=buttons003 onclick=qinc()>Terrence Malick</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Who directed The Great Escape?",
+"answ":"JOHN STURGES",
+"answ2":"John Sturges.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>John Sturges</button><button id=incop2 class=buttons003 onclick=qinc()>Stanley Kubrick</button><button id=incop3 class=buttons003 onclick=qinc()>Sam Peckinpah</button><button id=incop4 class=buttons003 onclick=qinc()>Alfred Hitchcock</button><br/>",
+},
+{
+"cat":"War",
+"ques":"Nicole Kidman and Hugh Jackman co-star in what 2008 war drama?",
+"answ":"AUSTRALIA",
+"answ2":"Australia.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Australia</button><button id=incop2 class=buttons003 onclick=qinc()>The Edge of Love</button><button id=incop3 class=buttons003 onclick=qinc()>The Hurt Locker</button><button id=incop4 class=buttons003 onclick=qinc()>The Boy in the Striped Pajamas</button><br/>",
+},
+{
+"cat":"War",
+"ques":"What Oscar winning actor stars as U.S Navy Commander Ernest Krause in the 2020 war film Greyhound?",
+"answ":"TOM HANKS",
+"answ2":"Tom Hanks.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Tom Hanks</button><button id=incop2 class=buttons003 onclick=qinc()>Jack Nicholson</button><button id=incop3 class=buttons003 onclick=qinc()>Russell Crowe</button><button id=incop4 class=buttons003 onclick=qinc()>Geoffrey Rush</button><br/>",
+},
 {
 "cat":"War",
 "ques":"Alan Turing is the main character of what film set in World War II?",

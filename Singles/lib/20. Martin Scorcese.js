@@ -1,10 +1,11 @@
-var martinscorsese = [
+var r2Q20 = [
 {
 "cat":"Martin Scorsese",
 "ques":"In Scorsese's Hugo, Hugo maintains what for his missing uncle at the railway station?",
 "answ":"CLOCK",
 "answ3":"THE CLOCK",
 "answ2":"Clock.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Railway</button><button id=incop2 class=buttons003 onclick=qinc()>Elevator</button><button id=corop class=buttons003 onclick=qcor()>Clock</button><button id=incop4 class=buttons003 onclick=qinc()>Stairs</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
@@ -12,30 +13,35 @@ var martinscorsese = [
 "answ":"THE COLOR OF MONEY",
 "answ3":"COLOR OF MONEY",
 "answ2":"The Color of Money.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Raging Bull</button><button id=incop2 class=buttons003 onclick=qinc()>Casino</button><button id=corop class=buttons003 onclick=qcor()>The Color of Money</button><button id=incop4 class=buttons003 onclick=qinc()>After Hours</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Nick Nolte and Jessica Lange co-star in what thriller from director Martin Scorsese?",
 "answ":"CAPE FEAR",
 "answ2":"Cape Fear.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Shutter Island</button><button id=incop2 class=buttons003 onclick=qinc()>The Departed</button><button id=corop class=buttons003 onclick=qcor()>Cape Fear</button><button id=incop4 class=buttons003 onclick=qinc()>The Irishman</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Who plays Naomi, the second wife of Leonardo DiCaprio's character in The Wolf of Wall Street?",
 "answ":"MARGOT ROBBIE",
 "answ2":"Margot Robbie.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Elizabeth Banks</button><button id=incop2 class=buttons003 onclick=qinc()>Charlize Theron</button><button id=corop class=buttons003 onclick=qcor()>Margot Robbie</button><button id=incop4 class=buttons003 onclick=qinc()>Rosamund Pike</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Which actor plays Jimmy Hoffa in The Irishman?",
 "answ":"AL PACINO",
 "answ2":"Al Pacino.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Robert De Niro</button><button id=incop2 class=buttons003 onclick=qinc()>Ray Liotta</button><button id=corop class=buttons003 onclick=qcor()>Al Pacino</button><button id=incop4 class=buttons003 onclick=qinc()>Tommy Lee Jones</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"What 2016 drama stars Adam Driver and Andrew Garfield?",
 "answ":"SILENCE",
 "answ2":"Silence.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Silence</button><button id=incop2 class=buttons003 onclick=qinc()>The Wolf of Wall Street</button><button id=incop3 class=buttons003 onclick=qinc()>The Irishman</button><button id=incop4 class=buttons003 onclick=qinc()>Live by Night</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
@@ -43,69 +49,71 @@ var martinscorsese = [
 "answ":"LIAM NEESON",
 "answ3":"LIAM NEESSON",
 "answ2":"Liam Neeson.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Liam Neeson</button><button id=incop2 class=buttons003 onclick=qinc()>Ben Kingsley</button><button id=incop3 class=buttons003 onclick=qinc()>Ed Harris</button><button id=incop4 class=buttons003 onclick=qinc()>Dennis Quaid</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Who played legendary filmmaker George Méliès in 2011's Hugo?",
 "answ":"BEN KINGSLEY",
 "answ2":"Ben Kingsley.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Ben Kingsley</button><button id=incop2 class=buttons003 onclick=qinc()>Jean Reno</button><button id=incop3 class=buttons003 onclick=qinc()>Sacha Baron Cohen</button><button id=incop4 class=buttons003 onclick=qinc()>Gérard Depardieu</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Which Scorsese movie marked legendary actor Gregory Peck's final appearance in a theatrical film release?",
 "answ":"CAPE FEAR",
 "answ2":"Cape Fear.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Cape Fear</button><button id=incop2 class=buttons003 onclick=qinc()>Casino</button><button id=incop3 class=buttons003 onclick=qinc()>Goodfellas</button><button id=incop4 class=buttons003 onclick=qinc()>The Last Temptation of Christ</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Martin Scorsese voiced the role of Sykes in what 2004 animated movie?",
 "answ":"SHARK TALE",
 "answ2":"Shark Tale.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Shark Tale</button><button id=incop2 class=buttons003 onclick=qinc()>Home on the Range</button><button id=incop3 class=buttons003 onclick=qinc()>The Polar Express</button><button id=incop4 class=buttons003 onclick=qinc()>The Incredibles</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"For as long as he could remember, what did Henry Hill want to be in Goodfellas?",
 "answ":"GANGSTER",
 "answ2":"Gangster.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Actor</button><button id=incop2 class=buttons003 onclick=qinc()>President</button><button id=incop3 class=buttons003 onclick=qinc()>Doctor</button><button id=corop class=buttons003 onclick=qcor()>Gangster</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"John C. Reilly plays Happy Jack Mulraney in what Scorsese film?",
 "answ":"GANGS OF NEW YORK",
 "answ2":"Gangs of New York.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Silence</button><button id=incop2 class=buttons003 onclick=qinc()>The Irishman</button><button id=incop3 class=buttons003 onclick=qinc()>The Departed</button><button id=corop class=buttons003 onclick=qcor()>Gangs of New York</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"In Casino, what does Nicky Santoro smuggle in his wife's hair through airport customs?",
 "answ":"DIAMONDS",
 "answ2":"Diamonds.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Heroin</button><button id=incop2 class=buttons003 onclick=qinc()>Cash money</button><button id=incop3 class=buttons003 onclick=qinc()>Beer</button><button id=corop class=buttons003 onclick=qcor()>Diamonds</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Who plays Leonardo DiCaprio's partner cop in Shutter Island?",
 "answ":"MARK RUFFALO",
 "answ2":"Mark Ruffalo.",
-},
-{
-"cat":"Martin Scorsese",
-"ques":"Who played Hugo in Hugo?",
-"answ":"ASA BUTTERFIELD",
-"answ2":"Asa Butterfield.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>James Marsden</button><button id=incop2 class=buttons003 onclick=qinc()>Mark Wahlberg</button><button id=incop3 class=buttons003 onclick=qinc()>Ewan McGregor</button><button id=corop class=buttons003 onclick=qcor()>Mark Ruffalo</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"What 2011 family film was directed by Martin Scorsese?",
 "answ":"HUGO",
 "answ2":"Hugo.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mars Needs Moms</button><button id=incop2 class=buttons003 onclick=qinc()>Monte Carlo</button><button id=incop3 class=buttons003 onclick=qinc()>Prom</button><button id=corop class=buttons003 onclick=qcor()>Hugo</button><br/>",
 },
 {
 "cat":"Martin Scorsese",
 "ques":"Asa Butterfield plays the title role in what Martin Scorsese movie?",
 "answ":"HUGO",
 "answ2":"Hugo.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Arthur</button><button id=incop2 class=buttons003 onclick=qinc()>Albert Nobbs</button><button id=incop3 class=buttons003 onclick=qinc()>Donnie Brasco</button><button id=corop class=buttons003 onclick=qcor()>Hugo</button><br/>",
 },
-];
-var r2Q20 = [
 {
 "cat":"Martin Scorsese",
 "ques":"Which stand-up comedian appeared in Taxi Driver?",
@@ -359,5 +367,4 @@ var r2Q20 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Ellen Page</button><button id=incop2 class=buttons003 onclick=qinc()>Marion Cotillard</button><button id=incop3 class=buttons003 onclick=qinc()>Vera Farmiga</button><button id=corop class=buttons003 onclick=qcor()>Michelle Williams</button><br/>",
 },
 ];
-martinscorsese = shuffle(martinscorsese);
 r2Q20 = shuffle(r2Q20);

@@ -1,42 +1,46 @@
-var mcconaughey = [
+var r2Q59 = [
 {
 "cat":"Matthew McConaughey",
 "ques":"Matthew McConaughey plays a video store clerk who agrees to have his life filmed by a camera crew for a television show in what film?",
 "answ":"EDTV",
 "answ2":"EDtv.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>EDtv</button><button id=incop2 class=buttons003 onclick=qinc()>Larger than Life</button><button id=incop3 class=buttons003 onclick=qinc()>Glory Daze</button><button id=incop4 class=buttons003 onclick=qinc()>Failure to Launch</button><br/>",
 },
 {
 "cat":"Matthew McConaughey",
 "ques":"Who plays Matthew McConaughey's co-lead in Fool's Gold?",
 "answ":"KATE HUDSON",
 "answ2":"Kate Hudson.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Kate Hudson</button><button id=incop2 class=buttons003 onclick=qinc()>Reese Witherspoon</button><button id=incop3 class=buttons003 onclick=qinc()>Alice Eve</button><button id=incop4 class=buttons003 onclick=qinc()>Christina Applegate</button><br/>",
 },
 {
 "cat":"Matthew McConaughey",
 "ques":"Who directed Matthew McConaughey and Jack Black in the 2012 crime comedy Bernie?",
 "answ":"RICHARD LINKLATER",
 "answ2":"Richard Linklater.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Richard Linklater</button><button id=incop2 class=buttons003 onclick=qinc()>Brad Furman</button><button id=incop3 class=buttons003 onclick=qinc()>William Friedkin</button><button id=incop4 class=buttons003 onclick=qinc()>Stephen Gaghan</button><br/>",
 },
 {
 "cat":"Matthew McConaughey",
 "ques":"Matthew McConaughey and Christian Bale star in what 2000s film where the earth is overrun with dragons?",
 "answ":"REIGN OF FIRE",
 "answ2":"Reign of Fire.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Reign of Fire</button><button id=incop2 class=buttons003 onclick=qinc()>Sahara</button><button id=incop3 class=buttons003 onclick=qinc()>Dragonheart</button><button id=incop4 class=buttons003 onclick=qinc()>Eragon</button><br/>",
 },
 {
 "cat":"Matthew McConaughey",
-"ques":"Matthew McConaughey starred opposite Jodie Foster in this 1997 Robert Zemeckis sci-fi film.",
+"ques":"Matthew McConaughey starred opposite Jodie Foster in this 1997 film.",
 "answ":"CONTACT",
 "answ2":"Contact.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Contact</button><button id=incop2 class=buttons003 onclick=qinc()>The Newton Boys</button><button id=incop3 class=buttons003 onclick=qinc()>Amistad</button><button id=incop4 class=buttons003 onclick=qinc()>A Time to Kill</button><br/>",
 },
 {
 "cat":"Matthew McConaughey",
 "ques":"You'll find the murderer known as the God's Hand Killer in what 2001 film starring Matthew McConaughey?",
 "answ":"FRAILTY",
 "answ2":"Frailty.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Frailty</button><button id=incop2 class=buttons003 onclick=qinc()>Reign of Fire</button><button id=incop3 class=buttons003 onclick=qinc()>U-571</button><button id=incop4 class=buttons003 onclick=qinc()>Scorpion Spring</button><br/>",
 },
-];
-var r2Q59 = [
 {
 "cat":"Matthew McConaughey",
 "ques":"Matthew McConaughey plays an ad exec trying to win an account to pitch a diamond campaign in what movie?",
@@ -259,5 +263,4 @@ var r2Q59 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Colin Farrell</button><button id=incop2 class=buttons003 onclick=qinc()>Colin Firth</button><button id=incop3 class=buttons003 onclick=qinc()>Mark Strong</button><button id=corop class=buttons003 onclick=qcor()>Hugh Grant</button><br/>",
 },
 ];
-mcconaughey = shuffle(mcconaughey);
 r2Q59 = shuffle(r2Q59);

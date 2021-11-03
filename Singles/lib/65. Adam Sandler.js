@@ -1,76 +1,25 @@
-var adamsandler = [
+var r2Q65 = [
 {
 "cat":"Adam Sandler",
-"ques":"The Great Khali made his big screen debut in what 2005 Adam Sandler sports film?",
-"answ":"THE LONGEST YARD",
-"answ3":"LONGEST YARD",
-"answ2":"The Longest Yard.",
+"ques":"Who directed Adam Sandler in the films Little Nicky and Mr. Deeds?",
+"answ":"STEVEN BRILL",
+"answ2":"Steven Brill.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Frank Coraci</button><button id=corop class=buttons003 onclick=qcor()>Steven Brill</button><button id=incop3 class=buttons003 onclick=qinc()>Dennis Dugan</button><button id=incop4 class=buttons003 onclick=qinc()>Peter Segal</button><br/>",
+},
+{
+"cat":"Adam Sandler",
+"ques":"Which Oscar-winning actress plays Adam Sandler's love interest in the film Little Nicky?",
+"answ":"PATRICIA ARQUETTE",
+"answ2":"Patricia Arquette.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Julianne Moore</button><button id=corop class=buttons003 onclick=qcor()>Patricia Arquette</button><button id=incop3 class=buttons003 onclick=qinc()>Charlize Theron</button><button id=incop4 class=buttons003 onclick=qinc()>Hilary Swank</button><br/>",
 },
 {
 "cat":"Adam Sandler",
 "ques":"What screen legend plays coach Nate Scarborough opposite Adam Sandler in 2005's The Longest Yard?",
 "answ":"BURT REYNOLDS",
 "answ2":"Burt Reynolds.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Kirk Douglas</button><button id=corop class=buttons003 onclick=qcor()>Burt Reynolds</button><button id=incop3 class=buttons003 onclick=qinc()>Max von Sydow</button><button id=incop4 class=buttons003 onclick=qinc()>Paul Newman</button><br/>",
 },
-{
-"cat":"Adam Sandler",
-"ques":"What Oscar-nominated actor plays Adam Sandler's son at 17 years old in Click?",
-"answ":"JONAH HILL",
-"answ2":"Jonah Hill.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"Reese Witherspoon, Carl Weathers, Harvey Keitel and Rhys Ifans appear in what Adam Sandler film?",
-"answ":"LITTLE NICKY",
-"answ2":"Little Nicky.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"In what Adam Sandler film will you find the character Jim Friedman, who names one of his daughters after the ESPN channel?",
-"answ":"BLENDED",
-"answ2":"Blended.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"Which 90s comedy starring Adam Sandler has the tagline: 'He's gonna party like it's 1985.'?",
-"answ":"THE WEDDING SINGER",
-"answ3":"WEDDING SINGER",
-"answ2":"The Wedding Singer.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"Dave Matthews, Jennifer Aniston and Nicole Kidman appear in what 2010s Adam Sandler film?",
-"answ":"JUST GO WITH IT",
-"answ2":"Just Go With It.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"Who directed Adam Sandler in Happy Gilmore, Big Daddy and Grown Ups?",
-"answ":"DENNIS DUGAN",
-"answ2":"Dennis Dugan.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"What retired wrestler played Tommy Cavanaugh, Adam Sandler's former bully in Grown Ups 2?",
-"answ":"STEVE AUSTIN",
-"answ3":"STONE COLD",
-"answ2":"Steve Austin.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"In The Wedding Singer, Julia and Glenn are about to get married in what U.S. city?",
-"answ":"LAS VEGAS",
-"answ2":"Las Vegas.",
-},
-{
-"cat":"Adam Sandler",
-"ques":"In Big Daddy, Sonny dresses up as what character in order to help Julian take a bath?",
-"answ":"SCUBA SAM",
-"answ3":"SCUBA STEVE'S FATHER",
-"answ2":"Scuba Sam/Scuba Steve's father.",
-},
-];
-var r2Q65 = [
 {
 "cat":"Adam Sandler",
 "ques":"Who plays the angry school bus driver in Billy Madison?",
@@ -411,5 +360,4 @@ var r2Q65 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>2</button><button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop3 class=buttons003 onclick=qinc()>4</button><button id=incop4 class=buttons003 onclick=qinc()>5</button><br/>",
 },
 ];
-adamsandler = shuffle(adamsandler);
 r2Q65 = shuffle(r2Q65);

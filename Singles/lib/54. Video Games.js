@@ -1,48 +1,53 @@
-var videogames = [
+var r2Q54 = [
 {
 "cat":"Video Game Movies",
 "ques":"Who played Mario in 1993's Super Mario Bros.?",
 "answ":"BOB HOSKINS",
 "answ2":"Bob Hoskins.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chris Farley</button><button id=incop2 class=buttons003 onclick=qinc()>ohn Leguizamo</button><button id=corop class=buttons003 onclick=qcor()>Bob Hoskins</button><button id=incop4 class=buttons003 onclick=qinc()>Dennis Hopper</button><br/>",
 },
 {
 "cat":"Video Game Movies",
 "ques":"Simon McQuoid directed what 2021 action film that stars Lewis Tan and is based on a popular video game franchise?",
 "answ":"MORTAL KOMBAT",
 "answ2":"Mortal Kombat.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Sonic the Hedgehog</button><button id=incop2 class=buttons003 onclick=qinc()>Warcraft</button><button id=corop class=buttons003 onclick=qcor()>Mortal Kombat</button><button id=incop4 class=buttons003 onclick=qinc()>Werewolves Within</button><br/>",
 },
 {
 "cat":"Video Game Movies",
 "ques":"Duncan Jones directed what 2016 video game film starring Paula Patton, Toby Kebbell, Ben Foster and Dominic Cooper?",
 "answ":"WARCRAFT",
 "answ2":"Warcraft.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Assassin's Creed</button><button id=incop2 class=buttons003 onclick=qinc()>Tomb Raider</button><button id=corop class=buttons003 onclick=qcor()>Warcraft</button><button id=incop4 class=buttons003 onclick=qinc()>Hitman: Agent 47</button><br/>",
 },
 {
 "cat":"Video Game Movies",
 "ques":"Who plays the villainous Doctor Eggman in the 2020 theatrical release, Sonic the Hedgehog?",
 "answ":"JIM CARREY",
 "answ2":"Jim Carrey.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Nicolas Cage</button><button id=incop2 class=buttons003 onclick=qinc()>Kumail Nunjiani</button><button id=corop class=buttons003 onclick=qcor()>Jim Carrey</button><button id=incop4 class=buttons003 onclick=qinc()>Ed Harris</button><br/>",
 },
 {
 "cat":"Video Game Movies",
 "ques":"Which actor plays Sheriff Tom Wachowski of Green Hills opposite Sonic in Sonic the Hedgehog?",
 "answ":"JAMES MARSDEN",
 "answ2":"James Marsden.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chris Evans</button><button id=incop2 class=buttons003 onclick=qinc()>Mark Wahlberg</button><button id=corop class=buttons003 onclick=qcor()>James Marsden</button><button id=incop4 class=buttons003 onclick=qinc()>Chris Hemsworth</button><br/>",
 },
 {
 "cat":"Video Game Movies",
 "ques":"Alicia Vikander and Dominic West star in what 2018 video game adaptation?",
 "answ":"TOMB RAIDER",
 "answ2":"Tomb Raider.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Rampage</button><button id=incop2 class=buttons003 onclick=qinc()>Assassin's Creed</button><button id=corop class=buttons003 onclick=qcor()>Tomb Raider</button><button id=incop4 class=buttons003 onclick=qinc()>Monster Hunter</button><br/>",
 },
 {
 "cat":"Video Game Movies",
 "ques":"Timothy Olyphant stars as the lead in what 2007 film based off a video game series?",
 "answ":"HITMAN",
 "answ2":"Hitman.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Far Cry</button><button id=incop2 class=buttons003 onclick=qinc()>Postal</button><button id=corop class=buttons003 onclick=qcor()>Hitman</button><button id=incop4 class=buttons003 onclick=qinc()>Max Payne</button><br/>",
 },
-];
-var r2Q54 = [
 {
 "cat":"Video Game Movies",
 "ques":"Who starred as the title character in the 2008 video game adaptation Max Payne?",
@@ -336,5 +341,4 @@ var r2Q54 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Tomb Raider</button><button id=corop class=buttons003 onclick=qcor()>Silent Hill</button><button id=incop3 class=buttons003 onclick=qinc()>Resident Evil</button><button id=incop4 class=buttons003 onclick=qinc()>Final Fantasy</button><br/>",
 },
 ];
-videogames = shuffle(videogames);
 r2Q54 = shuffle(r2Q54);

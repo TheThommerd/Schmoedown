@@ -1,24 +1,32 @@
-var camerondiaz = [
+var r2Q56 = [
 {
 "cat":"Cameron Diaz",
 "ques":"This 2011 high school based comedy starred Cameron Diaz, Justin Timberlake and Jason Segel.",
 "answ":"BAD TEACHER",
 "answ2":"Bad Teacher.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>High School Musical</button><button id=incop2 class=buttons003 onclick=qinc()>The DUFF</button><button id=corop class=buttons003 onclick=qcor()>Bad Teacher</button><button id=incop4 class=buttons003 onclick=qinc()>Mean Girls 2</button><br/>",
+},
+{
+"cat":"Cameron Diaz",
+"ques":"Cameron Diaz stars opposite Glenn Close, Kathy Baker and Holly Hunter in what 2000 romantic drama?",
+"answ":"THINGS YOU CAN TELL JUST BY LOOKING AT HER",
+"answ2":"Things You Can Tell Just by Looking at Her.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Any Given Sunday</button><button id=incop2 class=buttons003 onclick=qinc()>Fear and Loathing in Las Vegas</button><button id=corop class=buttons003 onclick=qcor()>Things You Can Tell Just by Looking at Her</button><button id=incop4 class=buttons003 onclick=qinc()>There's Something About Mary</button><br/>",
 },
 {
 "cat":"Cameron Diaz",
 "ques":"Cameron Diaz starred with Tom Cruise in this 2010 film directed by James Mangold.",
 "answ":"KNIGHT AND DAY",
 "answ2":"Knight and Day.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Killers</button><button id=incop2 class=buttons003 onclick=qinc()>The Box</button><button id=corop class=buttons003 onclick=qcor()>Knight and Day</button><button id=incop4 class=buttons003 onclick=qinc()>Gambit</button><br/>",
 },
 {
 "cat":"Cameron Diaz",
 "ques":"Who voices Fiona's mother in the Shrek films?",
 "answ":"JULIE ANDREWS",
 "answ2":"Julie Andrews.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Glenn Close</button><button id=incop2 class=buttons003 onclick=qinc()>Meryl Streep</button><button id=corop class=buttons003 onclick=qcor()>Julie Andrews</button><button id=incop4 class=buttons003 onclick=qinc()>Jennifer Saunders</button><br/>",
 },
-];
-var r2Q56 = [
 {
 "cat":"Cameron Diaz",
 "ques":"What was the first movie Cameron Diaz starred in?",
@@ -240,5 +248,4 @@ var r2Q56 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Bill Murray</button><button id=corop class=buttons003 onclick=qcor()>Charlie Sheen</button><button id=incop3 class=buttons003 onclick=qinc()>John Goodman</button><button id=incop4 class=buttons003 onclick=qinc()>Al Pacino</button><br/>",
 },
 ];
-camerondiaz = shuffle(camerondiaz);
 r2Q56 = shuffle(r2Q56);

@@ -1,22 +1,17 @@
-var stanleykubrick = [
-{
-"cat":"Stanley Kubrick",
-"ques":"Name one of the two leads in Eyes Wide Shut.",
-"answ":"TOM CRUISE",
-"answ3":"NICOLE KIDMAN",
-"answ2":"Tom Cruise/Nicole Kidman.",
-},
+var r2Q53 = [
 {
 "cat":"Stanley Kubrick",
 "ques":"Stanley Kubrick's The Shining was released in what year?",
 "answ":"1980",
 "answ2":"1980.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1978</button><button id=incop2 class=buttons003 onclick=qinc()>1979</button><button id=corop class=buttons003 onclick=qcor()>1980</button><button id=incop4 class=buttons003 onclick=qinc()>1981</button><br/>",
 },
 {
 "cat":"Stanley Kubrick",
 "ques":"Paths of Glory stars what American actor as Colonel Dax?",
 "answ":"KIRK DOUGLAS",
 "answ2":"Kirk Douglas.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Charlton Heston</button><button id=incop2 class=buttons003 onclick=qinc()>Peter Fonda</button><button id=corop class=buttons003 onclick=qcor()>Kirk Douglas</button><button id=incop4 class=buttons003 onclick=qinc()>Clint Eastwood</button><br/>",
 },
 {
 "cat":"Stanley Kubrick",
@@ -24,12 +19,14 @@ var stanleykubrick = [
 "answ":"HAL 9000",
 "answ3":"HAL9000",
 "answ2":"HAL 9000.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>SAL 8000</button><button id=incop2 class=buttons003 onclick=qinc()>CAL 4000</button><button id=corop class=buttons003 onclick=qcor()>HAL 9000</button><button id=incop4 class=buttons003 onclick=qinc()>VAL 6000</button><br/>",
 },
 {
 "cat":"Stanley Kubrick",
 "ques":"What Stanley Kubrick movie did Nicole Kidman star in?",
 "answ":"EYES WIDE SHUT",
 "answ2":"Eyes Wide Shut.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Full Metal Jacket</button><button id=incop2 class=buttons003 onclick=qinc()>The Shining</button><button id=corop class=buttons003 onclick=qcor()>Eyes Wide Shut</button><button id=incop4 class=buttons003 onclick=qinc()>Barry Lyndon</button><br/>",
 },
 {
 "cat":"Stanley Kubrick",
@@ -37,9 +34,8 @@ var stanleykubrick = [
 "answ":"CLOCKWORK ORANGE",
 "answ3":"A CLOCKWORK ORANGE",
 "answ2":"A Clockwork Orange.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Eyes Wide Shut</button><button id=incop2 class=buttons003 onclick=qinc()>Lolita</button><button id=corop class=buttons003 onclick=qcor()>A Clockwork Orange</button><button id=incop4 class=buttons003 onclick=qinc()>Full Metal Jacket</button><br/>",
 },
-];
-var r2Q53 = [
 {
 "cat":"Stanley Kubrick",
 "ques":"Who won the Oscar for Best Supporting Actor for Spartacus?",
@@ -286,5 +282,4 @@ var r2Q53 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Dog</button><button id=corop class=buttons003 onclick=qcor()>Snake</button><button id=incop3 class=buttons003 onclick=qinc()>Cat</button><button id=incop4 class=buttons003 onclick=qinc()>Bird</button><br/>",
 },
 ];
-stanleykubrick = shuffle(stanleykubrick);
 r2Q53 = shuffle(r2Q53);

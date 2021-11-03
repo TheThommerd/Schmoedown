@@ -51,31 +51,6 @@ var disastermovies = [
 },
 {
 "cat":"Disaster Movies",
-"ques":"Who directed Dwayne Johnson in 2018's Skyscraper?",
-"answ":"RAWSON MARSHALL THURBER",
-"answ3":"RAWSON THURBER",
-"answ2":"Rawson Marshall Thurber.",
-},
-{
-"cat":"Disaster Movies",
-"ques":"Who directed the 1998 reimagining of Godzilla?",
-"answ":"ROLAND EMMERICH",
-"answ2":"Roland Emmerich.",
-},
-{
-"cat":"Disaster Movies",
-"ques":"Who plays Grace, the daughter of Bruce Willis' character in Armageddon?",
-"answ":"LIV TYLER",
-"answ2":"Liv Tyler.",
-},
-{
-"cat":"Disaster Movies",
-"ques":"Who plays Jack Hall, Jake Gyllenhaal's father in The Day After Tomorrow?",
-"answ":"DENNIS QUAID",
-"answ2":"Dennis Quaid.",
-},
-{
-"cat":"Disaster Movies",
 "ques":"Who plays the lead role of John Garrity, a structural engineer in 2020's Greenland?",
 "answ":"GERARD BUTLER",
 "answ2":"Gerard Butler.",
@@ -138,12 +113,6 @@ var disastermovies = [
 },
 {
 "cat":"Disaster Movies",
-"ques":"Who directed 2016's Deepwater Horizon?",
-"answ":"PETER BERG",
-"answ2":"Peter Berg.",
-},
-{
-"cat":"Disaster Movies",
 "ques":"Magma, smoke and ash spewed from deep within the earth in 1997 in what disaster film starring Tommy Lee Jones?",
 "answ":"VOLCANO",
 "answ2":"Volcano.",
@@ -156,6 +125,56 @@ var disastermovies = [
 },
 ];
 var r2Q49 = [
+{
+"cat":"Disaster Movies",
+"ques":"Who directed the 2000 disaster movie The Perfect Storm starring George Clooney and Mark Wahlberg?",
+"answ":"WOLFGANG PETERSEN",
+"answ2":"Wolfgang Petersen.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Wolfgang Petersen</button><button id=incop2 class=buttons003 onclick=qinc()>Michael Bay</button><button id=incop3 class=buttons003 onclick=qinc()>Peter Berg</button><button id=incop4 class=buttons003 onclick=qinc()>Roland Emmerich</button><br/>",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who directed Dwayne Johnson in 2018's Skyscraper?",
+"answ":"RAWSON MARSHALL THURBER",
+"answ3":"RAWSON THURBER",
+"answ2":"Rawson Marshall Thurber.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Rawson Marshall Thurber</button><button id=incop2 class=buttons003 onclick=qinc()>Brad Peyton</button><button id=incop3 class=buttons003 onclick=qinc()>David Leitch</button><button id=incop4 class=buttons003 onclick=qinc()>Stephen Merchant</button><br/>",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who directed the 1998 reimagining of Godzilla?",
+"answ":"ROLAND EMMERICH",
+"answ2":"Roland Emmerich.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Roland Emmerich</button><button id=incop2 class=buttons003 onclick=qinc()>Gareth Edwards</button><button id=incop3 class=buttons003 onclick=qinc()>Wolfgang Petersen</button><button id=incop4 class=buttons003 onclick=qinc()>Michael Dougherty</button><br/>",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who plays Grace, the daughter of Bruce Willis' character in Armageddon?",
+"answ":"LIV TYLER",
+"answ2":"Liv Tyler.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Liv Tyler</button><button id=incop2 class=buttons003 onclick=qinc()>Jessica Chastain</button><button id=incop3 class=buttons003 onclick=qinc()>Evangeline Lilly</button><button id=incop4 class=buttons003 onclick=qinc()>Amy Adams</button><br/>",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who plays Jack Hall, Jake Gyllenhaal's father in The Day After Tomorrow?",
+"answ":"DENNIS QUAID",
+"answ2":"Dennis Quaid.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Dennis Quaid</button><button id=incop2 class=buttons003 onclick=qinc()>Nick Nolte</button><button id=incop3 class=buttons003 onclick=qinc()>Liam Neeson</button><button id=incop4 class=buttons003 onclick=qinc()>Donald Sutherland</button><br/>",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Which actor stars as Captain Billy Tyne in 2000's The Perfect Storm?",
+"answ":"GEORGE CLOONEY",
+"answ2":"George Clooney.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>George Clooney</button><button id=incop2 class=buttons003 onclick=qinc()>Edward Norton</button><button id=incop3 class=buttons003 onclick=qinc()>Brad Pitt</button><button id=incop4 class=buttons003 onclick=qinc()>Harrison Ford</button><br/>",
+},
+{
+"cat":"Disaster Movies",
+"ques":"Who directed 2016's Deepwater Horizon?",
+"answ":"PETER BERG",
+"answ2":"Peter Berg.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Peter Berg</button><button id=incop2 class=buttons003 onclick=qinc()>Rawson Marshall Thurber</button><button id=incop3 class=buttons003 onclick=qinc()>Roland Emmerich</button><button id=incop4 class=buttons003 onclick=qinc()>Ric Roman Waugh</button><br/>",
+},
 {
 "cat":"Disaster Movies",
 "ques":"What kind of animal is the host animal in the medical disaster film Outbreak?",

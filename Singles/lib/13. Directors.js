@@ -1,9 +1,83 @@
 var directors = [
 {
 "cat":"Directors",
+"ques":"Who directed 2010's The Other Guys?",
+"answ":"ADAM MCKAY",
+"answ2":"Adam McKay.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Shark Tale, Gulliver's Travels and Detective Pikachu?",
+"answ":"ROB LETTERMAN",
+"answ2":"Rob Letterman.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Legally Blonde, Monster-in-Law and Killers?",
+"answ":"ROBERT LUKETIC",
+"answ2":"Robert Luketic.",
+},
+{
+"cat":"Directors",
 "ques":"What was Tim Burton and Johnny Depp's first collaboration?",
 "answ":"EDWARD SCISSORHANDS",
 "answ2":"Edward Scissorhands.",
+},
+{
+"cat":"Directors",
+"ques":"Which MCU director also directed 2010's Clash of the Titans?",
+"answ":"LOUIS LETERRIER",
+"answ2":"Louis Leterrier.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Cocktail, Dante's Peak, Thirteen Days and The Recruit?",
+"answ":"ROGER DONALDSON",
+"answ2":"Roger Donaldson.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed Jack Black and John Cusack in 2000's High Fidelity?",
+"answ":"STEPHEN FREARS",
+"answ2":"Stephen Frears.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films The Cell, Mirror Mirror, Immortals and Self/less?",
+"answ":"TARSEM SINGH",
+"answ2":"Tarsem Singh.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Sexy Beast and Under the Skin?",
+"answ":"JONATHAN GLAZER",
+"answ2":"Jonathan Glazer.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Gone in 60 Seconds, Kalifornia and Swordfish?",
+"answ":"DOMINIC SENA",
+"answ2":"Dominic Sena.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Coyote Ugly and Kangaroo Jack?",
+"answ":"DAVID MCNALLY",
+"answ2":"David McNally.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed Unbreakable?",
+"answ":"M NIGHT SHYAMALAN",
+"answ3":"M NIGHT SHAMALAN",
+"answ2":"M. Night Shyamalan.",
+},
+{
+"cat":"Directors",
+"ques":"Who directed the film O Brother Where Art Thou?",
+"answ":"COEN BROTHERS",
+"answ3":"THE COEN BROTHERS",
+"answ2":"The Coen Brothers.",
 },
 {
 "cat":"Directors",

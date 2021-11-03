@@ -7,6 +7,42 @@ var famousactors = [
 },
 {
 "cat":"Famous Actors and Actresses",
+"ques":"Marisa Tomei plays Jonah Hill's mother in what 2010 comedy drama?",
+"answ":"CYRUS",
+"answ2":"Cyrus.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Hilary Swank and Sam Rockwell play brother and sister in what 2010 biographical legal drama?",
+"answ":"CONVICTION",
+"answ2":"Conviction.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Which Oscar-winning actor played the father of Ewan McGregor's character in 2010's Beginners?",
+"answ":"CHRISTOPHER PLUMMER",
+"answ2":"Christopher Plummer.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Steve Buscemi directed Willem Dafoe, Edward Furlong and Mickey Rourke in what 2000 film about life in prison?",
+"answ":"ANIMAL FACTORY",
+"answ2":"Animal Factory.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Gwyneth Paltrow was directed by her father, Bruce Paltrow, in what 2000 film about a karaoke contest?",
+"answ":"DUETS",
+"answ2":"Duets.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Sally Field made her feature film directorial debut with what 2000 comedy-drama starring Minnie Driver and Kathleen Turner?",
+"answ":"BEAUTIFUL",
+"answ2":"Beautiful.",
+},
+{
+"cat":"Famous Actors and Actresses",
 "ques":"Which actor made an appearance or starred in the films Draft Day, Get On Up and Marshall?",
 "answ":"CHADWICK BOSEMAN",
 "answ2":"Chadwick Boseman.",

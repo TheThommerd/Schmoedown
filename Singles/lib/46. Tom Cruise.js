@@ -7,6 +7,18 @@ var tomcruise = [
 },
 {
 "cat":"Tom Cruise",
+"ques":"Who directed Mission: Impossible 2?",
+"answ":"JOHN WOO",
+"answ2":"John Woo.",
+},
+{
+"cat":"Tom Cruise",
+"ques":"Which Oscar-winning actor makes a cameo as Mission Commander Swanbeck in Mission: Impossible 2?",
+"answ":"ANTHONY HOPKINS",
+"answ2":"Anthony Hopkins.",
+},
+{
+"cat":"Tom Cruise",
 "ques":"Tom Cruise performs the Journey song 'Don't Stop Believing' in the finale of what film?",
 "answ":"ROCK OF AGES",
 "answ2":"Rock of Ages.",

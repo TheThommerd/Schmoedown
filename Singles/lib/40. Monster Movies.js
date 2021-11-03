@@ -7,6 +7,30 @@ var monstermovies = [
 },
 {
 "cat":"Monster Movies",
+"ques":"Milla Jovovich and Tony Jaa star in what 2020 monster film directed by Paul W. S. Anderson?",
+"answ":"MONSTER HUNTER",
+"answ2":"Monster Hunter.",
+},
+{
+"cat":"Monster Movies",
+"ques":"Who portrays Count Dracula in the film Dracula 2000?",
+"answ":"GERARD BUTLER",
+"answ2":"Gerard Butler.",
+},
+{
+"cat":"Monster Movies",
+"ques":"Which Oscar-winning actor played the role of Abraham Van Helsing in Dracula 2000?",
+"answ":"CHRISTOPHER PLUMMER",
+"answ2":"Christopher Plummer.",
+},
+{
+"cat":"Monster Movies",
+"ques":"Dylan O'Brien, Michael Rooker and Jessica Henwick star in what 2020 monster film?",
+"answ":"LOVE AND MONSTERS",
+"answ2":"Love and Monsters.",
+},
+{
+"cat":"Monster Movies",
 "ques":"In what 1954 Universal Monster film does an expedition searching for fossils along the Amazon River discover a prehistoric Gill-Man?",
 "answ":"CREATURE FROM THE BLACK LAGOON",
 "answ3":"THE CREATURE FROM THE BLACK LAGOON",

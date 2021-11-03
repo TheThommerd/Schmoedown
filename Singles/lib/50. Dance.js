@@ -7,6 +7,12 @@ var dance = [
 },
 {
 "cat":"Dance Movies",
+"ques":"Which actress plays dance teacher Sandra Wilkinson in the film Billy Elliot?",
+"answ":"JULIE WALTERS",
+"answ2":"Julie Walters.",
+},
+{
+"cat":"Dance Movies",
 "ques":"1983's Staying Alive is a sequel to what landmark 1977 dance film from director John Badham?",
 "answ":"SATURDAY NIGHT FEVER",
 "answ2":"Saturday Night Fever.",

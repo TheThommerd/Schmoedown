@@ -1,6 +1,34 @@
 var r2Q62 = [
 {
 "cat":"Eddie Murphy",
+"ques":"Who directed Nutty Professor II: The Klumps?",
+"answ":"PETER SEGAL",
+"answ2":"Peter Segal.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Walter Hill</button><button id=incop2 class=buttons003 onclick=qinc()>Steve Carr</button><button id=incop3 class=buttons003 onclick=qinc()>Bill Condon</button><button id=corop class=buttons003 onclick=qcor()>Peter Segal</button><br/>",
+},
+{
+"cat":"Eddie Murphy",
+"ques":"What 90s Eddie Murphy film featuring Martin Lawrence has the tagline: 'A player who's about to be played'?",
+"answ":"BOOMERANG",
+"answ2":"Boomerang.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Bowfinger</button><button id=incop2 class=buttons003 onclick=qinc()>The Distinguished Gentleman</button><button id=incop3 class=buttons003 onclick=qinc()>Holy Man</button><button id=corop class=buttons003 onclick=qcor()>Boomerang</button><br/>",
+},
+{
+"cat":"Eddie Murphy",
+"ques":"Who plays the lead role of Josh Kovaks alongside Eddie Murphy and Matthew Broderick in the film Tower Heist?",
+"answ":"BEN STILLER",
+"answ2":"Ben Stiller.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Steve Carell</button><button id=incop2 class=buttons003 onclick=qinc()>John C. Reilly</button><button id=incop3 class=buttons003 onclick=qinc()>Martin Lawrence</button><button id=corop class=buttons003 onclick=qcor()>Ben Stiller</button><br/>",
+},
+{
+"cat":"Eddie Murphy",
+"ques":"Which famous singer plays Eddie Murphy's love interest Denise in Nutty Professor II?",
+"answ":"JANET JACKSON",
+"answ2":"Janet Jackson.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Madonna</button><button id=incop2 class=buttons003 onclick=qinc()>Tina Turner</button><button id=incop3 class=buttons003 onclick=qinc()>Whitney Houston</button><button id=corop class=buttons003 onclick=qcor()>Janet Jackson</button><br/>",
+},
+{
+"cat":"Eddie Murphy",
 "ques":"Who directed Eddie Murphy in 1995's Vampire in Brooklyn?",
 "answ":"WES CRAVEN",
 "answ2":"Wes Craven.",

@@ -1,42 +1,3 @@
-var festivaldarlings = [
-{
-"cat":"Festival Darlings",
-"ques":"Who directed Robin Williams and Jeff Bridges in The Fisher King?",
-"answ":"TERRY GILLIAM",
-"answ2":"Terry Gilliam.",
-},
-{
-"cat":"Festival Darlings",
-"ques":"Which actor plays drifter Graham Dalton, who has a collection of women on videotape in the film Sex, Lies and Videotape?",
-"answ":"JAMES SPADER",
-"answ2":"James Spader.",
-},
-{
-"cat":"Festival Darlings",
-"ques":"Which Oscar nominee plays Julietta Paxton, a soccer player for the Hounslow Harriers in the film Bend It Like Beckham?",
-"answ":"KEIRA KNIGHTLEY",
-"answ2":"Keira Knightley.",
-},
-{
-"cat":"Festival Darlings",
-"ques":"In the John Carroll Lynch film Lucky, who plays the titular character Lucky?",
-"answ":"HARRY DEAN STANTON",
-"answ2":"Harry Dean Stanton.",
-},
-{
-"cat":"Festival Darlings",
-"ques":"What 2017 dramedy follows a man who escapes life as a captive in an underground bunker and sets out to make a movie of the only TV show he has ever known?",
-"answ":"BRIGSBY BEAR",
-"answ2":"Brigsby Bear.",
-},
-{
-"cat":"Festival Darlings",
-"ques":"Who played Napoleon Dynamite in the film Napoleon Dynamite?",
-"answ":"JON HADER",
-"answ3":"JOHN HADER",
-"answ2":"Jon Hader.",
-},
-];
 var r2Q60 = [
 {
 "cat":"Festival Darlings",
@@ -428,5 +389,4 @@ var r2Q60 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Dakota Fanning</button><button id=incop2 class=buttons003 onclick=qinc()>Maisie Williams</button><button id=incop3 class=buttons003 onclick=qinc()>Maya Hawke</button><button id=corop class=buttons003 onclick=qcor()>Chloë Grace Moretz</button><br/>",
 },
 ];
-festivaldarlings = shuffle(festivaldarlings); 
 r2Q60 = shuffle(r2Q60);

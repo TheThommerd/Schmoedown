@@ -183,7 +183,7 @@ var fivepointer001 = [
 },
 {
 "cat":"90s",
-"ques":"In the movie Demolition Man, what items have replaced toilet paper?",
+"ques":"In the film Demolition Man, what items have replaced toilet paper?",
 "answ":"SEASHELLS",
 "answ3":"THREE SEASHELLS",
 "answ2":"Three Seashells.",
@@ -240,7 +240,7 @@ var fivepointer001 = [
 },
 {
 "cat":"90s",
-"ques":"In Down Periscope, who did Kelsey Grammar make walk the plank?",
+"ques":"In 1996's Down Periscope, which comedic actor is sentenced to walk the plank?",
 "answ":"ROB SCHNEIDER",
 "answ3":"ROB SNEIDER",
 "answ2":"Rob Schneider.",
@@ -250,12 +250,6 @@ var fivepointer001 = [
 "ques":"Which actress played the Reverend Mother in Sister Act?",
 "answ":"MAGGIE SMITH",
 "answ2":"Maggie Smith.",
-},
-{
-"cat":"2000s",
-"ques":"Who voiced Bumblebee in 2007's Transformers?",
-"answ":"MARK RYAN",
-"answ2":"Mark Ryan.",
 },
 {
 "cat":"2000s",
@@ -288,7 +282,7 @@ var fivepointer001 = [
 "answ2":"Turkish delight.",
 },
 {
-"cat":"2000s",
+"cat":"Wrestlers in Film",
 "ques":"What 2000 comedy featured cameos from real life pro wrestlers Diamond Dallas Page, Bill Goldberg, 'Macho Man' Randy Savage and Booker T?",
 "answ":"READY TO RUMBLE",
 "answ2":"Ready to Rumble.",
@@ -297,13 +291,8 @@ var fivepointer001 = [
 "cat":"2000s",
 "ques":"Ted Levine played LAPD sergeant and Paul Walker's supervisor, Tanner, in what film?",
 "answ":"THE FAST AND THE FURIOUS",
+"answ3":"FAST AND THE FURIOUS",
 "answ2":"The Fast and the Furious.",
-},
-{
-"cat":"2000s",
-"ques":"Who played Racer X in the action/adventure comedy Speed Racer?",
-"answ":"MATTHEW FOX",
-"answ2":"Matthew Fox.",
 },
 {
 "cat":"2000s",
@@ -397,7 +386,7 @@ var fivepointer001 = [
 "answ2":"Mad Max 2: The Road Warrior.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Comic Book Movies",
 "ques":"In 2012's Dredd, what is the name of the addictive new drug which alters users perception of time?",
 "answ":"SLO MO",
 "answ3":"SLOMO",
@@ -418,7 +407,7 @@ var fivepointer001 = [
 "answ2":"Powers Boothe.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Nicolas Cage",
 "ques":"In the National Treasure franchise, who plays Agent Sadusky, who is always right on the heels of Nicolas Cage's Benjamin Gates?",
 "answ":"HARVEY KEITEL",
 "answ2":"Harvey Keitel.",
@@ -471,7 +460,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Adam Sandler",
-"ques":"According to the film Billy Madison, what is the last name of the family that quote 'rules'?",
+"ques":"According to the film Billy Madison, what is the last name of the family that 'rules'?",
 "answ":"O'DOYLE",
 "answ2":"O'Doyle.",
 },
@@ -488,7 +477,7 @@ var fivepointer001 = [
 "answ2":"Margo.",
 },
 {
-"cat":"Animated",
+"cat":"DreamWorks Animation",
 "ques":"What comedic actor provides the voice of the title character in Captain Underpants?",
 "answ":"ED HELMS",
 "answ2":"Ed Helms.",
@@ -521,7 +510,7 @@ var fivepointer001 = [
 "answ2":"The Simpsons Movie.",
 },
 {
-"cat":"Animated",
+"cat":"DreamWorks Animation",
 "ques":"In Shrek, what 90s Billboard Hot 100 song plays during the opening sequence where we watch Shrek's daily routine in his swamp?",
 "answ":"ALL STAR",
 "answ2":"All Star.",
@@ -539,26 +528,26 @@ var fivepointer001 = [
 "answ2":"Nelson Shin.",
 },
 {
-"cat":"Animated",
+"cat":"DreamWorks Animation",
 "ques":"Which DreamWorks animated film features the voice talents of Andy Serkis, Kate Winslet and Ian McKellen?",
 "answ":"FLUSHED AWAY",
 "answ2":"Flushed Away.",
 },
 {
-"cat":"Animated",
+"cat":"Disney",
 "ques":"What is the name of the whale in Disney's Pinocchio?",
 "answ":"MONSTRO",
 "answ2":"Monstro.",
 },
 {
-"cat":"Animated",
+"cat":"Disney",
 "ques":"Michael J. Fox, James Garner and Leonard Nimoy provided the voices for characters in what animated Disney film?",
 "answ":"ATLANTIS",
 "answ3":"ATLANTIS THE LOST EMPIRE",
 "answ2":"Atlantis The Lost Empire.",
 },
 {
-"cat":"Animated",
+"cat":"Pixar",
 "ques":"Who provided the voice of Butch, the patriarch of the T-Rex ranchers in The Good Dinosaur?",
 "answ":"SAM ELLIOTT",
 "answ3":"SAM ELLIOT",
@@ -638,16 +627,10 @@ var fivepointer001 = [
 "answ2":"Gina Prince-Bythewood.",
 },
 {
-"cat":"Ben Affleck",
+"cat":"Matt & Ben",
 "ques":"What Ben Affleck film was directed by John Woo?",
 "answ":"PAYCHECK",
 "answ2":"Paycheck.",
-},
-{
-"cat":"Ben Affleck",
-"ques":"Which film was the directorial debut for Ben Affleck?",
-"answ":"GONE BABY GONE",
-"answ2":"Gone Baby Gone.",
 },
 {
 "cat":"Biopics",
@@ -874,39 +857,39 @@ var fivepointer001 = [
 "answ2":"Vincent Pérez.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"X-Men",
 "ques":"Who directed X-Men: Dark Phoenix?",
 "answ":"SIMON KINBERG",
 "answ2":"Simon Kinberg.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"What Marvel comic book film features supporting performances by Rebecca Romijn, Ben Foster and Roy Schneider?",
 "answ":"THE PUNISHER",
 "answ2":"The Punisher.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"In Thor: Ragnarok, Thor tells a childhood story about Loki transforming into what animal so that he could stab Thor?",
 "answ":"SNAKE",
 "answ3":"A SNAKE",
 "answ2":"Snake.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"In Thor, what is the name of the realm that the Frost Giants are from?",
 "answ":"JOTUNHEIM",
 "answ2":"Jotunheim.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"What is the name of the villainous billionaire, played by Guy Pearce, in Iron Man 3?",
 "answ":"ALDRICH KILLIAN",
 "answ3":"ALDRICH KILIAN",
 "answ2":"Aldrich Killian.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Spider-Man",
 "ques":"Who voices Miles' father, Jefferson, in Spider-Man: Into the Spider-Verse?",
 "answ":"BRIAN TYREE HENRY",
 "answ3":"BRYAN TYREE HENRY",
@@ -947,13 +930,13 @@ var fivepointer001 = [
 "answ2":"Blade II.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"What state was the setting for the earth-based scenes in Thor?",
 "answ":"NEW MEXICO",
 "answ2":"New Mexico.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"Who ends up with the Aether after the events of Thor: The Dark World?",
 "answ":"COLLECTOR",
 "answ3":"THE COLLECTOR",
@@ -966,7 +949,7 @@ var fivepointer001 = [
 "answ2":"David Slade.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"What does Black Widow use to close the wormhole in the end of The Avengers?",
 "answ":"LOKI'S SCEPTER",
 "answ3":"LOKI'S STAFF",
@@ -1000,7 +983,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Classics",
-"ques":"Which American film was the first to show a toilet flushing?",
+"ques":"Which 1960 American film was the first to show a toilet flushing?",
 "answ":"PSYCHO",
 "answ2":"Psycho.",
 },
@@ -1013,7 +996,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Classics",
-"ques":"Who does Ben have an affair with in 1967's The Graduate?",
+"ques":"What is the name of the woman Ben that has an affair with in 1967's The Graduate?",
 "answ":"MRS ROBINSON",
 "answ2":"Mrs. Robinson.",
 },
@@ -1038,7 +1021,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Comedies",
-"ques":"Leslie Nielsen plays the President of the United States, Baxter Harris in what 2003 spoof film featuring Queen Latifah, George Carlin and Ja Rule?",
+"ques":"Leslie Nielsen plays the President of the United States, Baxter Harris, in what 2003 spoof film featuring Queen Latifah, George Carlin and Ja Rule?",
 "answ":"SCARY MOVIE 3",
 "answ2":"Scary Movie 3.",
 },
@@ -1087,7 +1070,7 @@ var fivepointer001 = [
 "answ2":"Peter Boyle.",
 },
 {
-"cat":"Comedies",
+"cat":"Judd Apatow",
 "ques":"In Heavyweights, what is the name of the Tony Perkis' new head counselor who is from 'far away'?",
 "answ":"LARS",
 "answ2":"Lars.",
@@ -1146,7 +1129,7 @@ var fivepointer001 = [
 "answ2":"Energy Drinks.",
 },
 {
-"cat":"Comedies",
+"cat":"Mel Brooks",
 "ques":"What is the name of the town that obstructs the route of the new railroad being built in Blazing Saddles?",
 "answ":"ROCK RIDGE",
 "answ2":"Rock Ridge.",
@@ -1204,7 +1187,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Crime",
-"ques":"What actress was in both the 60s and 90s versions of The Thomas Crown Affair?",
+"ques":"What actress starred in both the 60s and 90s versions of The Thomas Crown Affair?",
 "answ":"FAYE DUNAWAY",
 "answ2":"Faye Dunaway.",
 },
@@ -1371,7 +1354,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Disney",
-"ques":"What is the name of the chimney sweep played by Dick Van Dyke in Mary Poppins?",
+"ques":"What is the first name of the chimney sweep played by Dick Van Dyke in Mary Poppins?",
 "answ":"BERT",
 "answ2":"Bert.",
 },
@@ -1435,7 +1418,7 @@ var fivepointer001 = [
 "answ2":"Cecil B. DeMille.",
 },
 {
-"cat":"Directors",
+"cat":"Spy Movies",
 "ques":"Who directed 2012's The Bourne Legacy starring Jeremy Renner?",
 "answ":"TONY GILROY",
 "answ2":"Tony Gilroy.",
@@ -1554,13 +1537,13 @@ var fivepointer001 = [
 "answ2":"Little/Black.",
 },
 {
-"cat":"Dramas",
+"cat":"Harrison Ford",
 "ques":"What 2010 film stars Brendan Fraser and Harrison Ford trying to find the cure to a rare genetic disorder?",
 "answ":"EXTRAORDINARY MEASURES",
 "answ2":"Extraordinary Measures.",
 },
 {
-"cat":"Dramas",
+"cat":"Matt & Ben",
 "ques":"In Argo, at what nations embassy do the six escaped hostages hide out?",
 "answ":"CANADA",
 "answ2":"Canada.",
@@ -1572,7 +1555,7 @@ var fivepointer001 = [
 "answ2":"Child 44.",
 },
 {
-"cat":"Dramas",
+"cat":"Sean Connery",
 "ques":"What 1993 movie stars Sean Connery and Wesley Snipes as detectives who investigate a call girl's murder in a Japanese corporation?",
 "answ":"RISING SUN",
 "answ2":"Rising Sun.",
@@ -1604,13 +1587,13 @@ var fivepointer001 = [
 "answ2":"Gil Pender.",
 },
 {
-"cat":"Dramas",
+"cat":"Jennifer Lopez",
 "ques":"Which film sees Jennifer Lopez and Billy Campbell in a failing, abusive relationship?",
 "answ":"ENOUGH",
 "answ2":"Enough.",
 },
 {
-"cat":"Dramas",
+"cat":"Bruce Willis",
 "ques":"In what 80s film does Bruce Willis play an emotionally battered Vietnam War vet?",
 "answ":"IN COUNTRY",
 "answ2":"In Country.",
@@ -1674,7 +1657,7 @@ var fivepointer001 = [
 "answ2":"The Chokey.",
 },
 {
-"cat":"Family Films",
+"cat":"Teenage Mutant Ninja Turtles",
 "ques":"In 1990's Teenage Mutant Ninja Turtles, April's apartment was located above what kind of store?",
 "answ":"ANTIQUE STORE",
 "answ3":"ANTIQUE",
@@ -1717,12 +1700,6 @@ var fivepointer001 = [
 "ques":"Who played Professor Brody, who was conducting research to cure dog allergies in Cats & Dogs?",
 "answ":"JEFF GOLDBLUM",
 "answ2":"Jeff Goldblum.",
-},
-{
-"cat":"Famous Actors and Actresses",
-"ques":"This 1998 movie starred Denzel Washington and was directed by Spike Lee.",
-"answ":"HE GOT GAME",
-"answ2":"He Got Game.",
 },
 {
 "cat":"Famous Actors and Actresses",
@@ -1802,16 +1779,23 @@ var fivepointer001 = [
 "answ2":"Pride & Prejudice.",
 },
 {
-"cat":"Famous Actors and Actresses",
+"cat":"Alfred Hitchcock",
 "ques":"What was the first collaboration of Alfred Hitchock and James Stewart?",
 "answ":"ROPE",
 "answ2":"Rope.",
 },
 {
-"cat":"Famous Actors and Actresses",
+"cat":"Leonardo DiCaprio",
 "ques":"Woody Allen directed Leonardo DiCaprio in which film?",
 "answ":"CELEBRITY",
 "answ2":"Celebrity.",
+},
+{
+"cat":"Fantasy/Sci-fi",
+"ques":"Name the corporation that manufactures Replicants in Blade Runner.",
+"answ":"TYRELL CORPORATION",
+"answ3":"THE TYRELL CORPORATION",
+"answ2":"Tyrell Corporation.",
 },
 {
 "cat":"Fantasy/Sci-fi",
@@ -1832,7 +1816,7 @@ var fivepointer001 = [
 "answ2":"Kurt Wimmer.",
 },
 {
-"cat":"Fantasy/Sci-fi",
+"cat":"Will Smith",
 "ques":"In Men in Black, after chasing down a perceived criminal, Will Smith exclaims that NYPD stands for what?",
 "answ":"KNOCK YOUR PUNK ASS DOWN",
 "answ3":"KNOCK YOUR PUNKASS DOWN",
@@ -1884,6 +1868,13 @@ var fivepointer001 = [
 "answ2":"Mojo.",
 },
 {
+"cat":"Transformers",
+"ques":"What is the name the Transformers give to the Cube that creates Transformers in the 2000s film Transformers?",
+"answ":"ALL SPARK",
+"answ3":"ALLSPARK",
+"answ2":"AllSpark.",
+},
+{
 "cat":"Fantasy/Sci-fi",
 "ques":"In The Lion, The Witch and the Wardrobe, what English character actor plays Professor Kirke, who takes in the Pevensie children?",
 "answ":"JIM BROADBENT",
@@ -1911,7 +1902,7 @@ var fivepointer001 = [
 "answ2":"Sandmen.",
 },
 {
-"cat":"Fantasy/Sci-fi",
+"cat":"LucasFilm",
 "ques":"What George Lucas movie was the source of inspiration for the 2005 film The Island?",
 "answ":"THX 1138",
 "answ2":"THX 1138.",
@@ -2142,7 +2133,7 @@ var fivepointer001 = [
 "answ2":"Paranormal Activity 3.",
 },
 {
-"cat":"Horror",
+"cat":"Stephen King",
 "ques":"What is the town called in 2017's It?",
 "answ":"DERRY",
 "answ3":"DARRY",
@@ -2674,7 +2665,7 @@ var fivepointer001 = [
 "answ2":"Braveheart.",
 },
 {
-"cat":"Movie Quotes",
+"cat":"Tim Burton",
 "ques":"What Tim Burton film has the quote: 'Hold Me. I can't.'?",
 "answ":"EDWARD SCISSORHANDS",
 "answ2":"Edward Scissorhands.",
@@ -2742,7 +2733,7 @@ var fivepointer001 = [
 "answ2":"The Crazies.",
 },
 {
-"cat":"Rom-coms",
+"cat":"Jim Carrey",
 "ques":"Jim Carrey and Zoe Deschanel attend a themed party in Yes Man. What was the theme of the party?",
 "answ":"HARRY POTTER",
 "answ2":"Harry Potter.",
@@ -2754,13 +2745,13 @@ var fivepointer001 = [
 "answ2":"Luke Greenfield.",
 },
 {
-"cat":"Rom-coms",
+"cat":"Tom Hanks",
 "ques":"Who plays Nelson Fox, Tom Hank's father, in You've Got Mail?",
 "answ":"DABNEY COLEMAN",
 "answ2":"Dabney Coleman.",
 },
 {
-"cat":"Rom-coms",
+"cat":"Judd Apatow",
 "ques":"In what Judd Apatow film do the film's leads take a road trip to Las Vegas, which leads to them taking mushrooms and seeing a Cirque du Soleil show?",
 "answ":"KNOCKED UP",
 "answ2":"Knocked Up.",
@@ -2836,13 +2827,13 @@ var fivepointer001 = [
 "answ2":"Ellis Island.",
 },
 {
-"cat":"Rom-coms",
+"cat":"John Hughes",
 "ques":"What is the full name of the foreign exchange student in Sixteen Candles?",
 "answ":"LONG DUK DONG",
 "answ2":"Long Duk Dong.",
 },
 {
-"cat":"Rom-coms",
+"cat":"Matt & Ben",
 "ques":"What is Ben Affleck's occupation in Chasing Amy?",
 "answ":"COMIC BOOK ARTIST",
 "answ3":"COMIC BOOK WRITER",
@@ -2881,7 +2872,7 @@ var fivepointer001 = [
 "answ2":"Danny DeVito.",
 },
 {
-"cat":"Rom-coms",
+"cat":"Matthew McConaughey",
 "ques":"In what romantic comedy did Matthew McConaughey star opposite Jennifer Garner?",
 "answ":"GHOSTS OF GIRLFRIENDS PAST",
 "answ2":"Ghosts of Girlfriends Past.",
@@ -3119,7 +3110,7 @@ var fivepointer001 = [
 "answ2":"Safe.",
 },
 {
-"cat":"Thrillers",
+"cat":"Stephen King",
 "ques":"What 2000s Stephen King adaptation is about a writer who is being stalked by a man accusing him of plagiarism?",
 "answ":"SECRET WINDOW",
 "answ2":"Secret Window.",
@@ -3331,7 +3322,7 @@ var fivepointer001 = [
 "answ2":"The Color Purple/The Turning Point.",
 },
 {
-"cat":"Oscar Movies",
+"cat":"Jodie Foster",
 "ques":"For which film did Jodie Foster win her first Oscar?",
 "answ":"THE ACCUSED",
 "answ2":"The Accused.",
@@ -3348,13 +3339,6 @@ var fivepointer001 = [
 "ques":"Who was the last director to win Best Director in their directorial debut?",
 "answ":"SAM MENDES",
 "answ2":"Sam Mendes.",
-},
-{
-"cat":"Oscar Movies",
-"ques":"Other than Heath Ledger, two actors have been nominated for an Oscar for a comic book movie. Name one of those actors.",
-"answ":"PAUL NEWMAN",
-"answ3":"WILLIAM HURT",
-"answ2":"Paul Newman/William Hurt.",
 },
 {
 "cat":"Oscar Movies",
@@ -3609,7 +3593,7 @@ var fivepointer001 = [
 "answ2":"Sam Peckinpah.",
 },
 {
-"cat":"Westerns",
+"cat":"Paul Newman",
 "ques":"Who did Paul Newman play in The Left-Handed Gun?",
 "answ":"BILLY THE KID",
 "answ2":"Billy The Kid.",

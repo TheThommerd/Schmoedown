@@ -7,6 +7,24 @@ var crime = [
 },
 {
 "cat":"Crime",
+"ques":"Mark Wahlberg, Joaquin Phoenix, Charlize Theron and James Caan star in what 2000 crime film?",
+"answ":"THE YARDS",
+"answ2":"The Yards.",
+},
+{
+"cat":"Crime",
+"ques":"Who plays ex-criminal Gary 'Gal' Dovein in the 2000 crime comedy Sexy Beast?",
+"answ":"RAY WINSTONE",
+"answ2":"Ray Winstone.",
+},
+{
+"cat":"Crime",
+"ques":"Which actor plays the violent sociopath Don Logan in the 2000 crime comedy Sexy Beast?",
+"answ":"BEN KINGSLEY",
+"answ2":"Ben Kingsley.",
+},
+{
+"cat":"Crime",
 "ques":"Brian Kirk directed Chadwick Boseman as NYPD detective Andre Davis in what film?",
 "answ":"21 BRIDGES",
 "answ2":"21 Bridges.",

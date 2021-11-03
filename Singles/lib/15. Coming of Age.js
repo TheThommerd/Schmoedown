@@ -7,6 +7,12 @@ var comingofage = [
 },
 {
 "cat":"Coming of Age",
+"ques":"Who directed 2000's Billy Elliot?",
+"answ":"STEPHEN DALDRY",
+"answ2":"Stephen Daldry.",
+},
+{
+"cat":"Coming of Age",
 "ques":"Who plays Hailee Steinfeld's brother in The Edge of Seventeen?",
 "answ":"BLAKE JENNER",
 "answ2":"Blake Jenner.",

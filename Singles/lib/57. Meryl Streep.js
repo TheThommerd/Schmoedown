@@ -1,21 +1,24 @@
-var merylstreep = [
+var r2Q57 = [
 {
 "cat":"Meryl Streep",
 "ques":"Who starred opposite Meryl Streep in Out of Africa?",
 "answ":"ROBERT REDFORD",
 "answ2":"Robert Redford.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Liam Neeson</button><button id=incop2 class=buttons003 onclick=qinc()>Robert De Niro</button><button id=corop class=buttons003 onclick=qcor()>Robert Redford</button><button id=incop4 class=buttons003 onclick=qinc()>Sean Penn</button><br/>",
 },
 {
 "cat":"Meryl Streep",
 "ques":"Meryl Streep plays real life chef Julia Child in what 2009 film?",
 "answ":"JULIE AND JULIA",
 "answ2":"Julie & Julia.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Hours</button><button id=incop2 class=buttons003 onclick=qinc()>Defending Your Life</button><button id=corop class=buttons003 onclick=qcor()>Julie & Julia</button><button id=incop4 class=buttons003 onclick=qinc()>Rendition</button><br/>",
 },
 {
 "cat":"Meryl Streep",
 "ques":"Meryl Streep and Alec Baldwin play an ex-wife and ex-husband in what 2009 romcom?",
 "answ":"IT'S COMPLICATED",
 "answ2":"It's Complicated.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mamma Mia!</button><button id=incop2 class=buttons003 onclick=qinc()>Hope Springs</button><button id=corop class=buttons003 onclick=qcor()>It's Complicated</button><button id=incop4 class=buttons003 onclick=qinc()>Julie & Julia</button><br/>",
 },
 {
 "cat":"Meryl Streep",
@@ -23,21 +26,22 @@ var merylstreep = [
 "answ":"THE RIVER WILD",
 "answ3":"RIVER WILD",
 "answ2":"The River Wild.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Death Becomes Her</button><button id=incop2 class=buttons003 onclick=qinc()>Postcards from the Edge</button><button id=corop class=buttons003 onclick=qcor()>The River Wild</button><button id=incop4 class=buttons003 onclick=qinc()>Doubt</button><br/>",
 },
 {
 "cat":"Meryl Streep",
 "ques":"Who played writer Helen Sharp opposite Meryl Streep in Death Becomes Her?",
 "answ":"GOLDIE HAWN",
 "answ2":"Goldie Hawn.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Catherine Keener</button><button id=incop2 class=buttons003 onclick=qinc()>Marisa Tomei</button><button id=corop class=buttons003 onclick=qcor()>Goldie Hawn</button><button id=incop4 class=buttons003 onclick=qinc()>Nicole Kidman</button><br/>",
 },
 {
 "cat":"Meryl Streep",
 "ques":"In which 2014 musical does Meryl play a character simply known as The Witch opposite characters like Cinderella and the Baker?",
 "answ":"INTO THE WOODS",
 "answ2":"Into the Woods.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Cinderella</button><button id=incop2 class=buttons003 onclick=qinc()>Mary Poppins Returns</button><button id=corop class=buttons003 onclick=qcor()>Into the Woods</button><button id=incop4 class=buttons003 onclick=qinc()>The Giver</button><br/>",
 },
-];
-var r2Q57 = [
 {
 "cat":"Meryl Streep",
 "ques":"Who plays Meryl's daughter Sophie in Mamma Mia?",
@@ -301,5 +305,4 @@ var r2Q57 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Lions for Lambs</button><button id=corop class=buttons003 onclick=qcor()>The Manchurian Candidate</button><button id=incop3 class=buttons003 onclick=qinc()>The Hours</button><button id=incop4 class=buttons003 onclick=qinc()>Rendition</button><br/>",
 },
 ];
-merylstreep = shuffle(merylstreep);
 r2Q57 = shuffle(r2Q57);

@@ -1,36 +1,39 @@
-var kevinsmith = [
+var r2Q45 = [
 {
 "cat":"Kevin Smith",
 "ques":"What comedy legend starred as Cardinal Glick in Kevin Smith's Dogma?",
 "answ":"GEORGE CARLIN",
 "answ2":"George Carlin.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>George Carlin</button><button id=incop2 class=buttons003 onclick=qinc()>Mel Brooks</button><button id=incop3 class=buttons003 onclick=qinc()>John Cleese</button><button id=incop4 class=buttons003 onclick=qinc()>Richard Pryor</button><br/>",
 },
 {
 "cat":"Kevin Smith",
 "ques":"Kevin Smith directed what 2011 horror thriller about a group of teens who encounter fundamentalists with an incredibly sinister agenda?",
 "answ":"RED STATE",
 "answ2":"Red State.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Red State</button><button id=incop2 class=buttons003 onclick=qinc()>Don't Be Afraid of the Dark</button><button id=incop3 class=buttons003 onclick=qinc()>Fright Night</button><button id=incop4 class=buttons003 onclick=qinc()>You're Next</button><br/>",
 },
 {
 "cat":"Kevin Smith",
 "ques":"Who plays Chaka King, the director of the Bluntman and Chronic film, in Jay and Silent Bob Strike Back?",
 "answ":"CHRIS ROCK",
 "answ2":"Chris Rock.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Chris Rock</button><button id=incop2 class=buttons003 onclick=qinc()>Eddie Murphy</button><button id=incop3 class=buttons003 onclick=qinc()>Jordan Peele</button><button id=incop4 class=buttons003 onclick=qinc()>Morgan Freeman</button><br/>",
 },
 {
 "cat":"Kevin Smith",
 "ques":"Who stars as Holden McNeil, a comic book artist hopelessly in love with a lesbian in 1997's Chasing Amy",
 "answ":"BEN AFFLECK",
 "answ2":"Ben Affleck.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Ben Affleck</button><button id=incop2 class=buttons003 onclick=qinc()>Jason Lee</button><button id=incop3 class=buttons003 onclick=qinc()>Matt Damon</button><button id=incop4 class=buttons003 onclick=qinc()>James Marsden</button><br/>",
 },
 {
 "cat":"Kevin Smith",
 "ques":"What was the first film directed by Kevin Smith?",
 "answ":"CLERKS",
 "answ2":"Clerks.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Clerks</button><button id=incop2 class=buttons003 onclick=qinc()>Mallrats</button><button id=incop3 class=buttons003 onclick=qinc()>Chasing Amy</button><button id=incop4 class=buttons003 onclick=qinc()>Jersey Girl</button><br/>",
 },
-];
-var r2Q45 = [
 {
 "cat":"Kevin Smith",
 "ques":"Will Smith makes a cameo as himself in what Kevin Smith movie?",
@@ -336,5 +339,4 @@ var r2Q45 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Tusk</button><button id=incop2 class=buttons003 onclick=qinc()>Yoga Hosers</button><button id=incop3 class=buttons003 onclick=qinc()>Dogma</button><button id=corop class=buttons003 onclick=qcor()>Red State</button><br/>",
 },
 ];
-kevinsmith = shuffle(kevinsmith);
 r2Q45 = shuffle(r2Q45);

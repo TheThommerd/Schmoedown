@@ -1,6 +1,6 @@
 var threepointer001 = [
 {
-"cat":"Action/Adventure",
+"cat":"Alien/Predator",
 "ques":"In what city was the setting for Predator 2?",
 "answ":"LOS ANGELES",
 "answ3":"LA",
@@ -25,7 +25,7 @@ var threepointer001 = [
 "answ2":"Shaft.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Martial Arts",
 "ques":"What 2012 martial arts action film was made in Indonesia and directed by Gareth Evans?",
 "answ":"THE RAID",
 "answ2":"The Raid.",
@@ -49,7 +49,7 @@ var threepointer001 = [
 "answ2":"Die Hard.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Keanu Reeves",
 "ques":"In the John Wick franchise, he is bestowed the nickname Baba Yaga in Russian, which translates to what?",
 "answ":"THE BOOGEYMAN",
 "answ3":"BOOGEYMAN",
@@ -69,7 +69,7 @@ var threepointer001 = [
 "answ2":"Red 2.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Martial Arts",
 "ques":"The Raid series takes place in which country?",
 "answ":"INDONESIA",
 "answ2":"Indonesia.",
@@ -81,7 +81,7 @@ var threepointer001 = [
 "answ2":"Jack Black.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Dystopian Future/Time Travel",
 "ques":"What X-Men First Class cast member plays one of Immortan Joe's wives, Toast the Knowing, in Mad Max Fury Road?",
 "answ":"ZOE KRAVITZ",
 "answ3":"ZOË KRAVITZ",
@@ -121,19 +121,19 @@ var threepointer001 = [
 "answ2":"Sam Elliott.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Nicolas Cage",
 "ques":"What type of car does Nic Cage steal in The Rock?",
 "answ":"FERRARI",
 "answ2":"Ferrari.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Spy Movies",
 "ques":"Who portrayed Jack Ryan in The Sum of All Fears?",
 "answ":"BEN AFFLECK",
 "answ2":"Ben Affleck.",
 },
 {
-"cat":"Action/Adventure",
+"cat":"Ridley Scott",
 "ques":"Who played Prince John in Ridley Scott's Robin Hood?",
 "answ":"OSCAR ISAAC",
 "answ2":"Oscar Isaac.",
@@ -195,7 +195,7 @@ var threepointer001 = [
 "answ2":"Mark Hamill.",
 },
 {
-"cat":"70s",
+"cat":"Mystery",
 "ques":"Who directed 1974's Murder on the Orient Express?",
 "answ":"SIDNEY LUMET",
 "answ2":"Sidney Lumet.",
@@ -263,7 +263,7 @@ var threepointer001 = [
 "answ2":"License to Drive.",
 },
 {
-"cat":"80s",
+"cat":"Dystopian Future/Time Travel",
 "ques":"What is Doc Brown's first name in Back to the Future?",
 "answ":"EMMETT",
 "answ3":"EMMET",
@@ -356,20 +356,20 @@ var threepointer001 = [
 "answ2":"I.Q.",
 },
 {
-"cat":"90s",
+"cat":"Keanu Reeves",
 "ques":"In what country does the final scene of 1991's Point Break take place?",
 "answ":"AUSTRALIA",
 "answ2":"Australia.",
 },
 {
-"cat":"90s",
+"cat":"Tom Hanks",
 "ques":"In That Thing You Do!, the band The Oneders hail from which state?",
 "answ":"PENNSYLVANIA",
 "answ3":"PENSYLVANIA",
 "answ2":"Pennsylvania.",
 },
 {
-"cat":"90s",
+"cat":"Tom Hanks",
 "ques":"What is the initial name of the band in the film That Thing You Do!?",
 "answ":"THE ONEDERS",
 "answ3":"ONEDERS",
@@ -396,7 +396,7 @@ var threepointer001 = [
 "answ2":"War.",
 },
 {
-"cat":"90s",
+"cat":"Denzel Washington",
 "ques":"What 1990s drama co-stars Tom Hanks and Denzel Washington?",
 "answ":"PHILADELPHIA",
 "answ2":"Philadelphia.",
@@ -406,13 +406,6 @@ var threepointer001 = [
 "ques":"What 1998 film portrays the irreverant adventures of Raoul Duke, based off the writings of Hunter S. Thompson?",
 "answ":"FEAR AND LOATHING IN LAS VEGAS",
 "answ2":"Fear and Loathing in Las Vegas.",
-},
-{
-"cat":"2000s",
-"ques":"What is the name the Transformers give to the Cube that creates Transformers in the 2000s film Transformers?",
-"answ":"ALL SPARK",
-"answ3":"ALLSPARK",
-"answ2":"AllSpark.",
 },
 {
 "cat":"2000s",
@@ -433,7 +426,7 @@ var threepointer001 = [
 "answ2":"Eastern Promises.",
 },
 {
-"cat":"2000s",
+"cat":"Sandra Bullock",
 "ques":"Who plays the TV news camerman Sandra Bullock becomes obsessed with after a single date in 2009's All About Steve?",
 "answ":"BRADLEY COOPER",
 "answ2":"Bradley Cooper.",
@@ -568,14 +561,7 @@ var threepointer001 = [
 "answ2":"Flavius.",
 },
 {
-"cat":"2010s",
-"ques":"In 2010's The Town, who plays FBI agent Adam Frawley who is after Affleck's crew?",
-"answ":"JON HAMM",
-"answ3":"JOHN HAMM",
-"answ2":"Jon Hamm.",
-},
-{
-"cat":"2010s",
+"cat":"Scarlett Johansson",
 "ques":"What is the one-word term for the consciousness of the mind in Ghost in the Shell?",
 "answ":"GHOST",
 "answ2":"Ghost.",
@@ -588,7 +574,7 @@ var threepointer001 = [
 "answ2":"Seth Rogen.",
 },
 {
-"cat":"2010s",
+"cat":"Transformers",
 "ques":"Who played Merlin in Transformers: The Last Knight?",
 "answ":"STANLEY TUCCI",
 "answ2":"Stanley Tucci.",
@@ -646,14 +632,14 @@ var threepointer001 = [
 "answ2":"Wolf.",
 },
 {
-"cat":"Animated",
+"cat":"Pixar",
 "ques":"Which Pixar film features the vocal talents of Brad Garrett and Janeane Garofalo?",
 "answ":"RATATOUILLE",
 "answ3":"RATATOUILE",
 "answ2":"Ratatouille.",
 },
 {
-"cat":"Animated",
+"cat":"Kevin Hart",
 "ques":"What kind of animal does Kevin Hart voice in The Secret Life of Pets?",
 "answ":"RABBIT",
 "answ3":"BUNNY",
@@ -684,7 +670,7 @@ var threepointer001 = [
 "answ2":"Littlefoot.",
 },
 {
-"cat":"Animated",
+"cat":"Disney",
 "ques":"Name one of Cinderella's two evil step sisters from the 1950 animated film.",
 "answ":"DRIZELLA",
 "answ3":"ANASTASIA",
@@ -829,7 +815,7 @@ var threepointer001 = [
 "answ2":"Capote.",
 },
 {
-"cat":"Biopics",
+"cat":"Brad Pitt",
 "ques":"Who directed Brad Pitt in 2004's Troy?",
 "answ":"WOLFGANG PETERSEN",
 "answ2":"Wolfgang Petersen.",
@@ -1128,8 +1114,9 @@ var threepointer001 = [
 },
 {
 "cat":"Crime",
-"ques":"In The Godfather Part II, who said: 'I know it was you Fredo, you broke my heart'?",
+"ques":"In The Godfather Part II, which character said: 'I know it was you Fredo, you broke my heart'?",
 "answ":"MICHAEL CORLEONE",
+"answ3":"MICHAEL",
 "answ2":"Michael Corleone.",
 },
 {
@@ -1227,7 +1214,7 @@ var threepointer001 = [
 "answ2":"The Two Jakes.",
 },
 {
-"cat":"Crime",
+"cat":"Robert De Niro",
 "ques":"In what film does Robert De Niro tell Charles Grodin, 'If you don't cooperate, you're gonna suffer from fistphobia'?",
 "answ":"MIDNIGHT RUN",
 "answ2":"Midnight Run.",
@@ -1415,7 +1402,7 @@ var threepointer001 = [
 "answ2":"Cornetto Trilogy.",
 },
 {
-"cat":"Comedies",
+"cat":"Holiday Movies",
 "ques":"What popular 2003 Christmas comedy finally received a sequel in 2016?",
 "answ":"BAD SANTA",
 "answ2":"Bad Santa.",
@@ -1478,13 +1465,13 @@ var threepointer001 = [
 "answ2":"Jim Varney.",
 },
 {
-"cat":"Comedies",
+"cat":"Jim Carrey",
 "ques":"Cary Elwes played the boyfriend of Jim Carrey's ex-wife in which film?",
 "answ":"LIAR LIAR",
 "answ2":"Liar Liar.",
 },
 {
-"cat":"Comedies",
+"cat":"Mel Brooks",
 "ques":"What is the name of the primary villain in Blazing Saddles?",
 "answ":"HEDLEY LAMARR",
 "answ3":"HEDLEY LAMAR",
@@ -1503,7 +1490,7 @@ var threepointer001 = [
 "answ2":"Robin Williams.",
 },
 {
-"cat":"Comedies",
+"cat":"Keanu Reeves",
 "ques":"Which ancient philosopher gets to time travel in Bill & Ted's Excellent Adventure?",
 "answ":"SOCRATES",
 "answ2":"Socrates.",
@@ -1540,20 +1527,20 @@ var threepointer001 = [
 "answ2":"Toby Kebbell.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"Iron Man launched the MCU back in 2008, what was the next MCU film that was released in theaters?",
 "answ":"THE INCREDIBLE HULK",
 "answ3":"INCREDIBLE HULK",
 "answ2":"The Incredible Hulk.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Batman",
 "ques":"Which actor played The Penguin in 1966's Batman: The Movie?",
 "answ":"BURGESS MEREDITH",
 "answ2":"Burgess Meredith.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Batman",
 "ques":"Who played mob boss Carmine Falcone in Batman Begins?",
 "answ":"TOM WILKINSON",
 "answ2":"Tom Wilkinson.",
@@ -1566,7 +1553,7 @@ var threepointer001 = [
 "answ2":"The Amazing Spider-Man.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"DC Movies",
 "ques":"What DC film is loosely based on the Hellblazer comic?",
 "answ":"CONSTANTINE",
 "answ2":"Constantine.",
@@ -1585,7 +1572,7 @@ var threepointer001 = [
 "answ2":"Rosamund Pike.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Jim Carrey",
 "ques":"Jim Carrey starred in what 2013 superhero movie?",
 "answ":"KICK ASS 2",
 "answ3":"KICK ASS II",
@@ -1598,14 +1585,14 @@ var threepointer001 = [
 "answ2":"Hellboy.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Jim Carrey",
 "ques":"In Batman Forever what is the name of Jim Carrey's character before he turns into the Riddler?",
 "answ":"EDWARD NYGMA",
 "answ3":"ED NYGMA",
 "answ2":"Edward Nygma.",
 },
 {
-"cat":"Comic Book Movies",
+"cat":"Marvel Movies",
 "ques":"In Captain America The Winter Soldier, Cap and Black Widow discover Hydra's secrets in a bunker located in what state?",
 "answ":"NEW JERSEY",
 "answ2":"New Jersey.",
@@ -1732,7 +1719,7 @@ var threepointer001 = [
 "answ2":"Who's Afraid of Virginia Woolf?.",
 },
 {
-"cat":"Dramas",
+"cat":"Coen Brothers",
 "ques":"In the Coen Brothers film Inside Llewyn Davis, the title character takes care of his neighbor's pet. What type of pet is it?",
 "answ":"CAT",
 "answ3":"A CAT",
@@ -1746,7 +1733,7 @@ var threepointer001 = [
 "answ2":"Roberto Benigni.",
 },
 {
-"cat":"Dramas",
+"cat":"Matthew McConaughey",
 "ques":"In Dallas Buyers Club, what actress plays Dr. Eve Saks who attempts to help Ron with his diagnosis?",
 "answ":"JENNIFER GARNER",
 "answ2":"Jennifer Garner.",
@@ -1782,7 +1769,7 @@ var threepointer001 = [
 "answ2":"Magnolia.",
 },
 {
-"cat":"Dramas",
+"cat":"Ridley Scott",
 "ques":"Who played the Director of NASA in Ridley Scott's The Martian?",
 "answ":"JEFF DANIELS",
 "answ2":"Jeff Daniels.",
@@ -1800,7 +1787,7 @@ var threepointer001 = [
 "answ2":"Live and Let Die.",
 },
 {
-"cat":"Directors",
+"cat":"Bill Murray",
 "ques":"Who directed Groundhog Day?",
 "answ":"HAROLD RAMIS",
 "answ2":"Harold Ramis.",
@@ -1968,7 +1955,7 @@ var threepointer001 = [
 "answ2":"The BFG.",
 },
 {
-"cat":"Family Films",
+"cat":"Pixar",
 "ques":"Which character does John Ratzenberger voice in the Toy Story franchise?",
 "answ":"HAMM",
 "answ3":"HAM",
@@ -2046,7 +2033,7 @@ var threepointer001 = [
 "answ2":"Uma Thurman.",
 },
 {
-"cat":"Fantasy/Sci-fi",
+"cat":"Star Wars",
 "ques":"Who played Rose Tico in Star Wars: The Last Jedi?",
 "answ":"KELLY MARIE TRAN",
 "answ3":"KELLY MARY TRAN",
@@ -2071,7 +2058,7 @@ var threepointer001 = [
 "answ2":"Logan Marshall-Green.",
 },
 {
-"cat":"Fantasy/Sci-fi",
+"cat":"Natalie Portman",
 "ques":"Which MCU actress co-stars with Natalie Portman in 2018's Annihilation as the character Josie?",
 "answ":"TESSA THOMPSON",
 "answ2":"Tessa Thompson.",
@@ -2114,13 +2101,6 @@ var threepointer001 = [
 "answ2":"Casper Van Dien.",
 },
 {
-"cat":"Fantasy/Sci-fi",
-"ques":"Name the corporation that manufactures Replicants in Blade Runner.",
-"answ":"TYRELL CORPORATION",
-"answ3":"THE TYRELL CORPORATION",
-"answ2":"Tyrell Corporation.",
-},
-{
 "cat":"Remakes & Reboots",
 "ques":"Which 1972 Soviet sci-fi film was remade in 2002 starring George Clooney and Natascha McElhone?",
 "answ":"SOLARIS",
@@ -2134,7 +2114,7 @@ var threepointer001 = [
 "answ2":"John Turturro.",
 },
 {
-"cat":"Fantasy/Sci-fi",
+"cat":"Harrison Ford",
 "ques":"How many Replicants was Deckard tasked to kill in Blade Runner?",
 "answ":"4",
 "answ3":"FOUR",
@@ -2186,7 +2166,7 @@ var threepointer001 = [
 "answ2":"Prawns.",
 },
 {
-"cat":"Fantasy/Sci-fi",
+"cat":"Tom Cruise",
 "ques":"Who directed Edge of Tomorrow?",
 "answ":"DOUG LIMAN",
 "answ2":"Doug Liman.",
@@ -2216,13 +2196,13 @@ var threepointer001 = [
 "answ2":"City of Angels.",
 },
 {
-"cat":"Famous Actors and Actresses",
+"cat":"Jodie Foster",
 "ques":"Kristen Stewart played Jodie Foster's daughter in what film?",
 "answ":"PANIC ROOM",
 "answ2":"Panic Room.",
 },
 {
-"cat":"Famous Actors and Actresses",
+"cat":"Robert De Niro",
 "ques":"Name the film that co-starred Robin Williams and Robert De Niro, which saw De Niro as a man unable to speak who begins speaking after he is given a new drug.",
 "answ":"AWAKENINGS",
 "answ2":"Awakenings.",
@@ -2800,7 +2780,7 @@ var threepointer001 = [
 "answ2":"Wichita.",
 },
 {
-"cat":"Horror",
+"cat":"Anthony Hopkins",
 "ques":"In The Silence of the Lambs, what type of wine did Hannibal lecter prefer when he ate his victims?",
 "answ":"CHIANTI",
 "answ3":"CIANTI",
@@ -3069,7 +3049,7 @@ var threepointer001 = [
 "answ2":"The Artist.",
 },
 {
-"cat":"Oscar Movies",
+"cat":"Ridley Scott",
 "ques":"What was the first name of Russell Crowe's character in Gladiator?",
 "answ":"MAXIMUS",
 "answ2":"Maximus.",
@@ -3350,7 +3330,7 @@ var threepointer001 = [
 "answ2":"Forget Paris.",
 },
 {
-"cat":"Rom-coms",
+"cat":"Jennifer Lopez",
 "ques":"Who played pediatrician Steve Edison opposite Jennifer Lopez in The Wedding Planner?",
 "answ":"MATTHEW MCCONAUGHEY",
 "answ2":"Matthew McConaughey.",
@@ -3462,6 +3442,12 @@ var threepointer001 = [
 "answ":"MACGRUBER",
 "answ3":"MCGRUBER",
 "answ2":"MacGruber.",
+},
+{
+"cat":"Spike Lee",
+"ques":"This 1998 movie starred Denzel Washington and was directed by Spike Lee.",
+"answ":"HE GOT GAME",
+"answ2":"He Got Game.",
 },
 {
 "cat":"Spy Movies",
@@ -3754,7 +3740,7 @@ var threepointer001 = [
 "answ2":"Gavin O'Connor.",
 },
 {
-"cat":"Sports",
+"cat":"Robert Redford",
 "ques":"Who plays Robert Redford's love interest in The Natural?",
 "answ":"GLENN CLOSE",
 "answ2":"Glenn Close.",
@@ -3833,12 +3819,6 @@ var threepointer001 = [
 "ques":"Liam Neeson finds himself awoken from a car accident to find someone else using his identity in what 2011 film?",
 "answ":"UNKNOWN",
 "answ2":"Unknown.",
-},
-{
-"cat":"Thrillers",
-"ques":"Who played Michael Douglas' wife in Fatal Attraction?",
-"answ":"ANNE ARCHER",
-"answ2":"Anne Archer.",
 },
 {
 "cat":"Thrillers",
@@ -4007,7 +3987,7 @@ var threepointer001 = [
 "answ2":"Platoon.",
 },
 {
-"cat":"War",
+"cat":"Ed Harris",
 "ques":"In what movie did Jude Law and Ed Harris play enemy snipers during World War II?",
 "answ":"ENEMY AT THE GATES",
 "answ2":"Enemy at the Gates.",

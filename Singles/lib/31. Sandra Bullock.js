@@ -1,98 +1,73 @@
-var sandrabullock = [
-{
-"cat":"Sandra Bullock",
-"ques":"In what city does the majority of The Heat take place?",
-"answ":"BOSTON",
-"answ2":"Boston.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Which Oscar winning actress plays Sandra Bullock's sister in the 1998 film Practical Magic?",
-"answ":"NICOLE KIDMAN",
-"answ2":"Nicole Kidman.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Sandra Bullock plays the character of Gracie Hart in what film?",
-"answ":"MISS CONGENIALITY",
-"answ2":"Miss Congeniality.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Sandra Bullock played a computer programmer who had her identity stolen by a rogue government agency in what 1995 film?",
-"answ":"THE NET",
-"answ2":"The Net.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Who is Sandra Bullock's co-lead in Forces of Nature?",
-"answ":"BEN AFFLECK",
-"answ2":"Ben Affleck.",
-},
+var r2Q31 = [
 {
 "cat":"Sandra Bullock",
 "ques":"What country is Sandra Bullock from in The Proposal?",
 "answ":"CANADA",
 "answ2":"Canada.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>England</button><button id=incop2 class=buttons003 onclick=qinc()>Ireland</button><button id=corop class=buttons003 onclick=qcor()>Canada</button><button id=incop4 class=buttons003 onclick=qinc()>Australia</button><br/>",
 },
-{
-"cat":"Sandra Bullock",
-"ques":"Who played the other astronaut, Matt Kowalski, in Gravity?",
-"answ":"GEORGE CLOONEY",
-"answ2":"George Clooney.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"In what film does Sandra Bullock play a newspaper columnist recovering from alcoholism?",
-"answ":"28 DAYS",
-"answ2":"28 Days.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Who plays Sandra Bullock's co-lead in 2013's The Heat?",
-"answ":"MELISSA MCCARTHY",
-"answ2":"Melissa McCarthy.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Sandra Bullock plays a lonely biochemist opposite Tate Donovan in what 1992 rom-com?",
-"answ":"LOVE POTION NO 9",
-"answ3":"LOVE POTION NUMBER 9",
-"answ2":"Love Potion No. 9.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"The contestant from which state won the Miss United States pageant in Miss Congeniality?",
-"answ":"RHODE ISLAND",
-"answ2":"Rhode Island.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"The Speed sequel could not reunite Sandra and her co-star Keanu Reeves, but what 2006 film did?",
-"answ":"THE LAKE HOUSE",
-"answ2":"The Lake House.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Who directed Sandra Bullock in Gravity?",
-"answ":"ALFONSO CUARON",
-"answ3":"ALFONSO CARON",
-"answ2":"Alfonso Cuarón.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"What actor does Sandra Bullock ultimately end up with in While You Were Sleeping?",
-"answ":"BILL BULLMAN",
-"answ2":"Bill Pullman.",
-},
-];
-var r2Q31 = [
 {
 "cat":"Sandra Bullock",
 "ques":"In which film do Sandra Bullock and Nicole Kidman play sister witches?",
 "answ":"PRACTICAL MAGIC",
 "answ2":"Practical Magic.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>The Witches of Eastwick</button><button id=incop2 class=buttons003 onclick=qinc()>Beautiful Creatures</button><button id=corop class=buttons003 onclick=qcor()>Practical Magic</button><button id=incop4 class=buttons003 onclick=qinc()>The Witches</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"The contestant from which state won the Miss United States pageant in Miss Congeniality?",
+"answ":"RHODE ISLAND",
+"answ2":"Rhode Island.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Kansas</button><button id=incop2 class=buttons003 onclick=qinc()>Montana</button><button id=corop class=buttons003 onclick=qcor()>Rhode Island</button><button id=incop4 class=buttons003 onclick=qinc()>Texas</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"In what city does the majority of The Heat take place?",
+"answ":"BOSTON",
+"answ2":"Boston.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Philadelphia</button><button id=incop2 class=buttons003 onclick=qinc()>Miami</button><button id=corop class=buttons003 onclick=qcor()>Boston</button><button id=incop4 class=buttons003 onclick=qinc()>Detroit</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Who plays Sandra Bullock's boyfriend Jasper in the film 28 Days?",
+"answ":"DOMINIC WEST",
+"answ2":"Dominic West.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Kevin Bacon</button><button id=incop2 class=buttons003 onclick=qinc()>James Marsden</button><button id=corop class=buttons003 onclick=qcor()>Dominic West</button><button id=incop4 class=buttons003 onclick=qinc()>Benjamin Bratt</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Sandra Bullock stars opposite Liam Neeson and Oliver Platt in what 2000 film?",
+"answ":"GUN SHY",
+"answ2":"Gun Shy.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Forces of Nature</button><button id=incop2 class=buttons003 onclick=qinc()>28 Days</button><button id=corop class=buttons003 onclick=qcor()>Gun Shy</button><button id=incop4 class=buttons003 onclick=qinc()>Miss Congeniality</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Which Oscar winning actress plays Sandra Bullock's sister in the 1998 film Practical Magic?",
+"answ":"NICOLE KIDMAN",
+"answ2":"Nicole Kidman.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Julianne Moore</button><button id=incop2 class=buttons003 onclick=qinc()>Renee Zellweger</button><button id=corop class=buttons003 onclick=qcor()>Nicole Kidman</button><button id=incop4 class=buttons003 onclick=qinc()>Meryl Streep</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Sandra Bullock plays the character of Gracie Hart in what 2000 film?",
+"answ":"MISS CONGENIALITY",
+"answ2":"Miss Congeniality.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Murder by Numbers</button><button id=incop2 class=buttons003 onclick=qinc()>The Lake House</button><button id=corop class=buttons003 onclick=qcor()>Miss Congeniality</button><button id=incop4 class=buttons003 onclick=qinc()>Gun Shy</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Sandra Bullock played a computer programmer who had her identity stolen by a rogue government agency in what 1995 film?",
+"answ":"THE NET",
+"answ2":"The Net.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Demolition Man</button><button id=incop2 class=buttons003 onclick=qinc()>A Time to Kill</button><button id=corop class=buttons003 onclick=qcor()>The Net</button><button id=incop4 class=buttons003 onclick=qinc()>Hackers</button><br/>",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Who is Sandra Bullock's co-lead in Forces of Nature?",
+"answ":"BEN AFFLECK",
+"answ2":"Ben Affleck.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ben Stiller</button><button id=incop2 class=buttons003 onclick=qinc()>Matthew McConaughey</button><button id=corop class=buttons003 onclick=qcor()>Ben Affleck</button><button id=incop4 class=buttons003 onclick=qinc()>Keanu Reeves</button><br/>",
 },
 {
 "cat":"Sandra Bullock",
@@ -399,5 +374,4 @@ var r2Q31 = [
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Moonraker</button><button id=corop class=buttons003 onclick=qcor()>Explorer</button><button id=incop3 class=buttons003 onclick=qinc()>Intrepid</button><button id=incop4 class=buttons003 onclick=qinc()>Nostromo</button><br/>",
 },
 ];
-sandrabullock = shuffle(sandrabullock);
 r2Q31 = shuffle(r2Q31);

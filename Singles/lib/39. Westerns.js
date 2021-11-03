@@ -7,15 +7,21 @@ var westerns = [
 },
 {
 "cat":"Westerns",
-"ques":"Who played US Marshal Jim T. West, who teams up with Kevin Kline's Artemus Gordon in Wild Wild West?",
-"answ":"WILL SMITH",
-"answ2":"Will Smith.",
+"ques":"Who played retired sheriff George Blackledge in 2020's Let Him Go?",
+"answ":"KEVIN COSTNER",
+"answ2":"Kevin Costner.",
 },
 {
 "cat":"Westerns",
-"ques":"For what film did John Wayne win his only Academy Award?",
-"answ":"TRUE GRIT",
-"answ2":"True Grit.",
+"ques":"Tom Hanks plays an aging Civil War veteran in what 2020 western?",
+"answ":"NEWS OF THE WORLD",
+"answ2":"News of the World.",
+},
+{
+"cat":"Westerns",
+"ques":"Who played US Marshal Jim T. West, who teams up with Kevin Kline's Artemus Gordon in Wild Wild West?",
+"answ":"WILL SMITH",
+"answ2":"Will Smith.",
 },
 {
 "cat":"Westerns",

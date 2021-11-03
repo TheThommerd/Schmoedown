@@ -8,23 +8,15 @@ var holidaymovies = [
 },
 {
 "cat":"Holiday Movies",
+"ques":"Which actor portrays the Grinch in How the Grinch Stole Christmas?",
+"answ":"JIM CARREY",
+"answ2":"Jim Carrey.",
+},
+{
+"cat":"Holiday Movies",
 "ques":"What 2015 holiday comedy stars Joseph Gordon-Levitt, Seth Rogen and Anthony Mackie?",
 "answ":"THE NIGHT BEFORE",
 "answ2":"The Night Before.",
-},
-{
-"cat":"Holiday Movies",
-"ques":"In Planes, Trains and Automobiles, Steve Martin leaves from what city to get home to Chicago for Thanksgiving?",
-"answ":"NEW YORK CITY",
-"answ3":"NEW YORK",
-"answ2":"New York City.",
-},
-{
-"cat":"Holiday Movies",
-"ques":"What type of animal bursts out of the Christmas tree and wreaks havoc in National Lampoon's Christmas Vacation?",
-"answ":"SQUIRREL",
-"answ3":"A SQUIRREL",
-"answ2":"Squirrel.",
 },
 {
 "cat":"Holiday Movies",
@@ -80,6 +72,29 @@ var holidaymovies = [
 },
 ];
 var r2Q11 = [
+{
+"cat":"Holiday Movies",
+"ques":"Which legendary actor narrates How the Grinch Stole Christmas?",
+"answ":"ANTHONY HOPKINS",
+"answ2":"Anthony Hopkins.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jack Nicholson</button><button id=incop2 class=buttons003 onclick=qinc()>Morgan Freeman</button><button id=corop class=buttons003 onclick=qcor()>Anthony Hopkins</button><button id=incop4 class=buttons003 onclick=qinc()>Christopher Plummer</button><br/>",
+},
+{
+"cat":"Holiday Movies",
+"ques":"In Planes, Trains and Automobiles, Steve Martin leaves from what city to get home to Chicago for Thanksgiving?",
+"answ":"NEW YORK CITY",
+"answ3":"NEW YORK",
+"answ2":"New York City.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Washington DC</button><button id=incop2 class=buttons003 onclick=qinc()>Los Angeles</button><button id=corop class=buttons003 onclick=qcor()>New York City</button><button id=incop4 class=buttons003 onclick=qinc()>Miami</button><br/>",
+},
+{
+"cat":"Holiday Movies",
+"ques":"What type of animal bursts out of the Christmas tree and wreaks havoc in National Lampoon's Christmas Vacation?",
+"answ":"SQUIRREL",
+"answ3":"A SQUIRREL",
+"answ2":"Squirrel.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Owl</button><button id=incop2 class=buttons003 onclick=qinc()>Rat</button><button id=corop class=buttons003 onclick=qcor()>Squirrel</button><button id=incop4 class=buttons003 onclick=qinc()>Hedgehog</button><br/>",
+},
 {
 "cat":"Holiday Movies",
 "ques":"Who directed Jim Carrey in the live-action How the Grinch Stole Christmas?",

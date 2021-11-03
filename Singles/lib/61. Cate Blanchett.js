@@ -9,6 +9,14 @@ var r2Q61 = [
 },
 {
 "cat":"Cate Blanchett",
+"ques":"Cate Blanchett stars opposite Christina Ricci and Johnny Depp in what 2000 drama film?",
+"answ":"THE MAN WHO CRIED",
+"answ3":"MAN WHO CRIED",
+"answ2":"The Man Who Cried.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>The Man Who Cried</button><button id=incop2 class=buttons003 onclick=qinc()>28 Days</button><button id=incop3 class=buttons003 onclick=qinc()>Our Song</button><button id=incop4 class=buttons003 onclick=qinc()>Pollock</button><br/>",
+},
+{
+"cat":"Cate Blanchett",
 "ques":"Cate Blanchett starred as the witch Florence Zimmerman, opposite Jack Black, in this 2018 film.",
 "answ":"THE HOUSE WITH A CLOCK IN ITS WALLS",
 "answ3":"HOUSE WITH A CLOCK IN ITS WALLS",

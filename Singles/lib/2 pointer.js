@@ -389,7 +389,7 @@ var twopointer = [
 },
 {
 "cat":"Coen Brothers",
-"ques":"In O Brother Where Art Thou?, who plays Daniel "Big Dan" Teague, a one-eyed mugger and Ku Klux Klan member who masquerades as a Bible salesman?",
+"ques":"In O Brother Where Art Thou?, who plays Daniel 'Big Dan' Teague, a one-eyed mugger and Ku Klux Klan member who masquerades as a Bible salesman?",
 "answ":"JOHN GOODMAN",
 "answ2":"John Goodman.",
 },

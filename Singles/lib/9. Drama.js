@@ -168,7 +168,7 @@ var dramas = [
 "answ2":"Bruce Greenwood.",
 },
 {
-""cat":"Dramas",
+"cat":"Dramas",
 "ques":"Which 2000 film starring Kevin Costner depicts the Cuban Missile Crisis?",
 "answ":"THIRTEEN DAYS",
 "answ2":"Thirteen Days.",

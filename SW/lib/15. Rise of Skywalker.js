@@ -8,6 +8,37 @@ var episodeix = [
 },
 {
 "cat":"The Rise of Skywalker",
+"ques":"How many Oscar nominations did The Rise of Skywalker receive?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"The alchemist Albrekh is what species, that's known for their large ears?",
+"answ":"SYMEONG",
+"answ2":"Symeong.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"You'll find the serpent creature known as a Vexis on what planet in The Rise of Skywalker?",
+"answ":"PASAANA",
+"answ2":"Pasaana.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"What planet does Kylo find the Sith Wayfinder on when the film begins?",
+"answ":"MUSTAFAR",
+"answ2":"Mustafar.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker opening crawl, it says that Kylo rages in search of the what Emperor?",
+"answ":"PHANTOM",
+"answ2":"Phantom.",
+},
+{
+"cat":"The Rise of Skywalker",
 "ques":"In Rise of Skywalker, which Star Wars legend has a brief cameo as Oma Tres, a bartender in the Spice Runners Den?",
 "answ":"JOHN WILLIAMS",
 "answ2":"John Williams.",

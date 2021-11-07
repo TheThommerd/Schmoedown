@@ -8,6 +8,51 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"In A New Hope, C-3PO calls R2-D2 an overweight glob of what?",
+"answ":"GREASE",
+"answ2":"Grease.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which Jedi says: 'The Force surrounds you Rey' during The Rise of Skywalker?",
+"answ":"ANAKIN",
+"answ3":"ANAKIN SKYWALKER",
+"answ2":"Anakin Skywalker.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What were Shmi Skywalker's final two words before she died?",
+"answ":"I LOVE",
+"answ2":"I Love.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In The Phantom Menace, what is the last word in the opening crawl?",
+"answ":"CONFLICT",
+"answ2":"Conflict.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In The Empire Strikes Back, who had the callsign of Rogue Four?",
+"answ":"DEREK KLIVIAN",
+"answ3":"DEREK HOBBIE KLIVIAN",
+"answ2":"Derek 'Hobbie' Klivian.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"How many Star Wars films have won Academy Awards, not including Honorary Oscars?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Chris Weitz co-wrote the screenplay for which Star Wars film?",
+"answ":"ROGUE ONE",
+"answ2":"Rogue One.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"How many people have directed a live action Star Wars movie?",
 "answ":"7",
 "answ3":"SEVEN",
@@ -375,7 +420,7 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"Who hired Zam Wessell to try and assassinate Padmé in Attack of the Clones?",
+"ques":"Who hired Zam Wesell to try and assassinate Padmé in Attack of the Clones?",
 "answ":"JANGO FETT",
 "answ2":"Jango Fett.",
 },
@@ -403,7 +448,7 @@ var speedquestion001 = [
 "ques":"In The Rise of Skywalker, what character says the line: 'Always. In the shadows. From the very beginning.'?",
 "answ":"LEIA",
 "answ3":"GENERAL LEIA",
-"answ2":"LEIA.",
+"answ2":"Leia.",
 },
 ];
 speedquestion001 = shuffle(speedquestion001);

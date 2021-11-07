@@ -101,11 +101,48 @@ var threepointer001 = [
 "answ2":"The Empire Strikes Back.",
 },
 {
+"cat":"Mixed Bag",
+"ques":"Aaron Neil, Joe Hewetson and Raghad Chaar are credited as Resistance Officers in what Star Wars film?",
+"answ":"THE RISE OF SKYWALKER",
+"answ3":"RISE OF SKYWALKER",
+"answ2":"The Rise of Skywalker.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Michael Coel and Jonathan Harden play Resistance monitors in what Star Wars film?",
+"answ":"THE LAST JEDI",
+"answ2":"The Last Jedi.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What species is Jedi Master Shaak Ti?",
+"answ":"TOGRUTA",
+"answ2":"Togruta.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who plays General Merrick in Rogue One?",
+"answ":"BEN DANIELS",
+"answ2":"Ben Daniels.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"The theme music from the 1970's movie The Long Goodbye, composed by John Williams, can be heard briefly in which Star Wars film?",
+"answ":"THE LAST JEDI",
+"answ2":"The Last Jedi.",
+},
+{
 "cat":"Planets & Locations",
 "ques":"What is the name of the region of the planet Bespin's atmosphere that was breathable to humans where Cloud City was located?",
 "answ":"LIFE ZONE",
 "answ3":"THE LIFE ZONE",
 "answ2":"The Life Zone.",
+},
+{
+"cat":"Planets & Locations",
+"ques":"In what Star Wars film will you find Nymeve Lake surrounding a gathering place of criminals?",
+"answ":"THE FORCE AWAKENS",
+"answ2":"The Force Awakens.",
 },
 {
 "cat":"Planets & Locations",

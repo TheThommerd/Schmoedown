@@ -8,6 +8,31 @@ var episodevi = [
 },
 {
 "cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, Yoda says '____ is upon me, and soon night must fall'?",
+"answ":"TWILIGHT",
+"answ2":"Twilight.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"What Imperial officer was portrayed by Kenneth Colley?",
+"answ":"FIRMUS PIETT",
+"answ3":"ADMIRAL PIETT",
+"answ2":"Admiral Firmus Piett.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, Palpatine tells Luke 'You have paid your price for your lack of _____?",
+"answ":"VISION",
+"answ2":"Vision.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, EV-9D9 tells R2 that he will be used for his Master's what barge?",
+"answ":"SAIL",
+"answ2":"Sail.",
+},
+{
+"cat":"Return of the Jedi",
 "ques":"What species is Salacious B. Crumb?",
 "answ":"KOWAKIAN MONKEY LIZARD",
 "answ2":"Kowakian monkey-lizard.",
@@ -622,6 +647,21 @@ var r2Q6 = [
 "answ3":"NORTH",
 "answ2":"North Tower.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>West Tower</button><button id=incop2 class=buttons003 onclick=qinc()>East Tower</button><button id=corop class=buttons003 onclick=qcor()>North Tower</button><button id=incop4 class=buttons003 onclick=qinc()>South Tower</button><br/>",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, when Lando tells all wings to report in, who is the third leader to do so?",
+"answ":"GREEN LEADER",
+"answ3":"GREEN",
+"answ2":"Green Leader.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Gold Leader</button><button id=incop2 class=buttons003 onclick=qinc()>Red Leader</button><button id=corop class=buttons003 onclick=qcor()>Green Leader</button><button id=incop4 class=buttons003 onclick=qinc()>Blue Leader</button><br/>",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the name of the Ewok that served as the chief shaman of Bright Tree Village?",
+"answ":"LOGRAY",
+"answ2":"Logray.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chirpa</button><button id=incop2 class=buttons003 onclick=qinc()>Paploo</button><button id=corop class=buttons003 onclick=qcor()>Logray</button><button id=incop4 class=buttons003 onclick=qinc()>Tokkat</button><br/>",
 },
 ];
 r2Q6 = shuffle(r2Q6);

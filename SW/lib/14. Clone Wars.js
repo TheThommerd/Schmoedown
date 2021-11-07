@@ -8,6 +8,32 @@ var clonewars = [
 },
 {
 "cat":"Clone Wars",
+"ques":"In The Clone Wars, what is the name of the RA-7 protocol droid prototype that serves Asajj Ventress?",
+"answ":"4A7",
+"answ3":"4 A7",
+"answ2":"4-A7.",
+},
+{
+"cat":"Clone Wars",
+"ques":"In The Clone Wars, Anakin says that Ahsoka might amount to something with a great deal of training and what else?",
+"answ":"PATIENCE",
+"answ2":"Patience.",
+},
+{
+"cat":"Clone Wars",
+"ques":"In The Clone Wars, during the Battle on Christophsis, General Loathsom asks his B1 droid why they are stopping, and the droid responds that they cannot get past the what?",
+"answ":"THE CANNONS",
+"answ3":"CANNONS",
+"answ2":"The cannons.",
+},
+{
+"cat":"Clone Wars",
+"ques":"Who voiced the character of Rotta the Hutt, also known as Stinky, in the Clone Wars film?",
+"answ":"DAVID ACORD",
+"answ2":"David Acord.",
+},
+{
+"cat":"Clone Wars",
 "ques":"In the Clone Wars film, what is the name of the tentacle ship that kidnapped Jabba the Hutt's son?",
 "answ":"TRIDENT ASSAULT SHIP",
 "answ3":"TRIDENT CLASS ASSAULT SHIP",

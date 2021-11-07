@@ -25,6 +25,32 @@ var wheelslice = [];
 var episodei = [
 {
 "cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, what was the shortest way from Gungan City to the capital city of Naboo?",
+"answ":"THROUGH THE PLANET CORE",
+"answ3":"THROUGH THE PLANET'S CORE",
+"answ2":"Through the planet core.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"What is the specific name of the second sea creature seen in the underwater Bongo scene, that prompt Qui-Gon to say 'there's always a bigger fish'?",
+"answ":"SANDO AQUA MONSTER",
+"answ2":"Sando aqua monster.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"What is the homeworld of Nute Gunray?",
+"answ":"CATO NEIMOIDIA",
+"answ2":"Cato Neimoidia.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, how many planets are mentioned in the opening crawl of the film?",
+"answ":"1",
+"answ3":"ONE",
+"answ2":"1.",
+},
+{
+"cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, who tells Qui-Gon 'You Jedi are far too reckless'?",
 "answ":"PADME",
 "answ3":"PADME AMIDALA",
@@ -626,6 +652,42 @@ var r2Q1 = [
 "answ":"RALPH BROWN",
 "answ2":"Ralph Brown.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Matthew Wood</button><button id=incop2 class=buttons003 onclick=qinc()>Alan Ruscoe</button><button id=incop3 class=buttons003 onclick=qinc()>Dominic West</button><button id=corop class=buttons003 onclick=qcor()>Ralph Brown</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"Which actor provides the voice of TC-14?",
+"answ":"LINDSAY DUNCAN",
+"answ2":"Lindsay Duncan.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Bronagh Gallagher</button><button id=incop2 class=buttons003 onclick=qinc()>Candace Orwell</button><button id=incop3 class=buttons003 onclick=qinc()>Celia Imrie</button><button id=corop class=buttons003 onclick=qcor()>Lindsay Duncan</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"Name the Jedi Master that first appears in The Phantom Menace before going on to train Caleb Dume?",
+"answ":"DEPA BILLABA",
+"answ2":"Depa Billaba.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ki-Adi-Mundi</button><button id=incop2 class=buttons003 onclick=qinc()>Kit Fisto</button><button id=incop3 class=buttons003 onclick=qinc()>Aayla Secura</button><button id=corop class=buttons003 onclick=qcor()>Depa Billaba</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"The Phantom Menace opening crawl states: 'Hoping to resolve the matter with a blockade of deadly battleships, the ___ Trade Federation has stopped all shipping to the small planet of Naboo'?",
+"answ":"GREEDY",
+"answ2":"Greedy.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Voracious</button><button id=incop2 class=buttons003 onclick=qinc()>Evil</button><button id=incop3 class=buttons003 onclick=qinc()>Powerful</button><button id=corop class=buttons003 onclick=qcor()>Greedy</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, what is the homeworld of podracer Elan Mak?",
+"answ":"PLOO IV",
+"answ2":"Ploo IV.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Tund</button><button id=incop2 class=buttons003 onclick=qinc()>Xagobah</button><button id=incop3 class=buttons003 onclick=qinc()>Ciasi</button><button id=corop class=buttons003 onclick=qcor()>Ploo IV</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, who is Sidious referring to when he says they're young and naive and that you wouldn't find them difficult to control?",
+"answ":"QUEEN AMIDALA",
+"answ3":"PADME AMIDALA",
+"answ2":"Queen Amidala.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=incop3 class=buttons003 onclick=qinc()>Anakin Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Queen Amidala</button><br/>",
 },
 ];
 r2Q1 = shuffle(r2Q1);

@@ -65,6 +65,32 @@ var fivepointer001 = [
 "answ2":"Obi-Wan Kenobi.",
 },
 {
+"cat":"Villains",
+"ques":"What species is the assassin Zam Wesell?",
+"answ":"CLAWDITE",
+"answ2":"Clawdite.",
+},
+{
+"cat":"Jedi Order",
+"ques":"Which are the first words Obi-Wan says to Luke Skywalker after his death through the Force?",
+"answ":"RUN LUKE RUN",
+"answ2":"Run Luke run.",
+},
+{
+"cat":"Jedi Order",
+"ques":"Which prequel character's first words are 'Did you call for assistance'?",
+"answ":"JOCASTA NU",
+"answ3":"MADAME JOCASTA NU",
+"answ2":"Madame Jocasta Nu.",
+},
+{
+"cat":"Jedi Order",
+"ques":"Which Jedi, seen in The Phantom Menace, was part of the Iktotchi species and is a brilliant starfighter pilot?",
+"answ":"SAESEE TIIN",
+"answ3":"SESEE TIN",
+"answ2":"Saesee Tiin.",
+},
+{
 "cat":"Creatures & Aliens",
 "ques":"Lo-Grey is which type of creature in Star Wars canon?",
 "answ":"EWOK",

@@ -356,7 +356,7 @@ var r2Q65 = [
 "ques":"Adam Sandler and Drew Barrymore starred together in how many movies?",
 "answ":"3",
 "answ3":"THREE",
-"answ2":"3.",
+"answ2":"3. (50 First Dates/Blended/The Wedding Singer)",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>2</button><button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop3 class=buttons003 onclick=qinc()>4</button><button id=incop4 class=buttons003 onclick=qinc()>5</button><br/>",
 },
 ];

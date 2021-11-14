@@ -1,6 +1,21 @@
 var r2Q45 = [
 {
 "cat":"Kevin Smith",
+"ques":"Who starred as Jay's estranged daughter Milly in Jay and Silent Bob Reboot?",
+"answ":"HARLEY QUINN SMITH",
+"answ2":"Harley Quinn Smith.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Harley Quinn Smith</button><button id=incop2 class=buttons003 onclick=qinc()>Selena Gomez</button><button id=incop3 class=buttons003 onclick=qinc()>Chloë Grace Moretz</button><button id=incop4 class=buttons003 onclick=qinc()>Lily-Rose Depp</button><br/>",
+},
+{
+"cat":"Kevin Smith",
+"ques":"Who played God in Dogma?",
+"answ":"ALANIS MORISSETTE",
+"answ3":"ALANIS MORISETTE",
+"answ2":"Alanis Morissette.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Megan Fox</button><button id=corop class=buttons003 onclick=qcor()>Alanis Morissette</button><button id=incop3 class=buttons003 onclick=qinc()>Morgan Freeman</button><button id=incop4 class=buttons003 onclick=qinc()>Pamela Anderson</button><br/>",
+},
+{
+"cat":"Kevin Smith",
 "ques":"What comedy legend starred as Cardinal Glick in Kevin Smith's Dogma?",
 "answ":"GEORGE CARLIN",
 "answ2":"George Carlin.",
@@ -120,6 +135,13 @@ var r2Q45 = [
 "answ3":"ELISABETH BANKS",
 "answ2":"Elizabeth Banks.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Charlize Theron</button><button id=corop class=buttons003 onclick=qcor()>Elizabeth Banks</button><button id=incop3 class=buttons003 onclick=qinc()>Kirsten Dunst</button><button id=incop4 class=buttons003 onclick=qinc()>Leslie Mann</button><br/>",
+},
+{
+"cat":"Kevin Smith",
+"ques":"Who played Zack in Zack and Miri Make a Porno?",
+"answ":"SETH ROGEN",
+"answ2":"Seth Rogen.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jason Mewes</button><button id=corop class=buttons003 onclick=qcor()>Seth Rogen</button><button id=incop3 class=buttons003 onclick=qinc()>Justin Long</button><button id=incop4 class=buttons003 onclick=qinc()>Jason Lee</button><br/>",
 },
 {
 "cat":"Kevin Smith",

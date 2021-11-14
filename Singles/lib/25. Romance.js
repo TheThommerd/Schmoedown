@@ -395,7 +395,7 @@ var r2Q25 = [
 "ques":"What state does Leonardo DiCaprio say he's from in Titanic?",
 "answ":"WISCONSIN",
 "answ2":"Wisconsin.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Florida</button><button id=corop class=buttons003 onclick=qcor()>Wisconsin</button><button id=incop3 class=buttons003 onclick=qinc()>Minnesota</button><br /><button id=incop4 class=buttons003 onclick=qinc()>California</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Florida</button><button id=corop class=buttons003 onclick=qcor()>Wisconsin</button><button id=incop3 class=buttons003 onclick=qinc()>Minnesota</button><button id=incop4 class=buttons003 onclick=qinc()>California</button><br/>",
 },
 {
 "cat":"Romance",

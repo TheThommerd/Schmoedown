@@ -1189,14 +1189,14 @@ var r2Q8 = [
 "answ":"LOS ANGELES",
 "answ3":"LA",
 "answ2":"Los Angeles.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Los Angeles</button><br /><button id=incop2 class=buttons003 onclick=qinc()>New York</button><button id=incop3 class=buttons003 onclick=qinc()>Chicago</button><button id=incop4 class=buttons003 onclick=qinc()>Miami</button><br/>",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Los Angeles</button><button id=incop2 class=buttons003 onclick=qinc()>New York</button><button id=incop3 class=buttons003 onclick=qinc()>Chicago</button><button id=incop4 class=buttons003 onclick=qinc()>Miami</button><br/>",
 },
 {
 "cat":"90s",
 "ques":"What was the main hobby of The Dude and Walter in The Big Lebowski?",
 "answ":"BOWLING",
 "answ2":"Bowling.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Bowling</button><br /><button id=incop2 class=buttons003 onclick=qinc()>Fishing</button><button id=incop3 class=buttons003 onclick=qinc()>Swimming</button><button id=incop4 class=buttons003 onclick=qinc()>Tennis</button><br/>",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Bowling</button><button id=incop2 class=buttons003 onclick=qinc()>Fishing</button><button id=incop3 class=buttons003 onclick=qinc()>Swimming</button><button id=incop4 class=buttons003 onclick=qinc()>Tennis</button><br/>",
 },
 {
 "cat":"90s",
@@ -1204,14 +1204,14 @@ var r2Q8 = [
 "answ":"MEXICAN AMERICAN WAR",
 "answ3":"MEXICAN WAR",
 "answ2":"Mexican–American War.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Mexican–American War</button><br /><button id=incop2 class=buttons003 onclick=qinc()>Spanish-American War</button><button id=incop3 class=buttons003 onclick=qinc()>American Civil War</button><button id=incop4 class=buttons003 onclick=qinc()>World War I</button><br/>",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Mexican–American War</button><button id=incop2 class=buttons003 onclick=qinc()>Spanish-American War</button><button id=incop3 class=buttons003 onclick=qinc()>American Civil War</button><button id=incop4 class=buttons003 onclick=qinc()>World War I</button><br/>",
 },
 {
 "cat":"90s",
 "ques":"What was Jim Carrey's character's full name in The Truman Show?",
 "answ":"TRUMAN BURBANK",
 "answ2":"Truman Burbank.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Truman Warner</button><br /><button id=corop class=buttons003 onclick=qcor()>Truman Burbank</button><button id=incop3 class=buttons003 onclick=qinc()>Truman Ellis</button><button id=incop4 class=buttons003 onclick=qinc()>Truman Eubanks</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Truman Warner</button><button id=corop class=buttons003 onclick=qcor()>Truman Burbank</button><button id=incop3 class=buttons003 onclick=qinc()>Truman Ellis</button><button id=incop4 class=buttons003 onclick=qinc()>Truman Eubanks</button><br/>",
 },
 {
 "cat":"90s",
@@ -1264,14 +1264,6 @@ var r2Q8 = [
 "answ":"ANTHONY HOPKINS",
 "answ2":"Anthony Hopkins.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Sean Connery</button><button id=corop class=buttons003 onclick=qcor()>Anthony Hopkins</button><button id=incop3 class=buttons003 onclick=qinc()>Christopher Plummer</button><button id=incop4 class=buttons003 onclick=qinc()>Donald Sutherland</button><br/>",
-},
-{
-"cat":"90s",
-"ques":"Who plays God in the 1999 movie Dogma?",
-"answ":"ALANIS MORISSETTE",
-"answ3":"ALANIS MORISETTE",
-"answ2":"Alanis Morissette.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Megan Fox</button><button id=corop class=buttons003 onclick=qcor()>Alanis Morissette</button><button id=incop3 class=buttons003 onclick=qinc()>Milla Jovovich</button><button id=incop4 class=buttons003 onclick=qinc()>Pamela Anderson</button><br/>",
 },
 {
 "cat":"90s",

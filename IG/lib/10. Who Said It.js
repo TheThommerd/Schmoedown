@@ -8,6 +8,36 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"In what film will you hear Lex Luthor say: 'I just want what Prometheus wanted'?",
+"answ":"SUPERMAN RETURNS",
+"answ2":"Superman Returns.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which 2000s comic book film has the line: 'She will always be mine and I will always be hers. She owns me, body and soul. She is the love of my life. She's my city.'?",
+"answ":"THE SPIRIT",
+"answ2":"The Spirit.",
+},
+{
+"cat":"Who said it?",
+"ques":"In what 2000 film will you hear the words: 'Six weeks ago I was ordinary and pathetic. Just like you. Who am I now? Account manager? Assassin?'",
+"answ":"WANTED",
+"answ2":"Wanted.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which Men in Black film features the quote: 'You've never been in love have you? I'm not making fun. I'm genuinely asking. You've never once abandoned logic for passion'?",
+"answ":"MEN IN BLACK INTERNATIONAL",
+"answ2":"Men in Black: International.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which character says the line: 'What we some kinda...Suicide Squad'?",
+"answ":"DEADSHOT",
+"answ2":"Deadshot.",
+},
+{
+"cat":"Who said it?",
 "ques":"Which Star Trek hero said: 'The line must be drawn here! This far, no further! And I will make them pay for what they've done!",
 "answ":"PICARD",
 "answ3":"JEAN LUC PICARD",

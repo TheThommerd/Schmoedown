@@ -36,6 +36,37 @@ var dcmovies = [
 },
 {
 "cat":"DC Movies",
+"ques":"In Batman Returns, the Penguin and his gang have made their hideout under what section of the abandoned Old Zoo?",
+"answ":"ARCTIC WORLD",
+"answ2":"Arctic World.",
+},
+{
+"cat":"DC Movies",
+"ques":"What DC comics film features the characters of Angela Dodson, Chas Kramer and Lucifer Morningstar?",
+"answ":"CONSTANTINE",
+"answ2":"Constantine.",
+},
+{
+"cat":"DC Movies",
+"ques":"In Green Lantern, what is Carol Ferris' call sign as a fighter jet pilot?",
+"answ":"SAPPHIRE",
+"answ2":"Sapphire.",
+},
+{
+"cat":"DC Movies",
+"ques":"Which film has the line: 'You can have it all. You just have to want it!'?",
+"answ":"WONDER WOMAN 1984",
+"answ2":"Wonder Woman 1984.",
+},
+{
+"cat":"DC Movies",
+"ques":"In Catwoman, Patience Phillips works in what department of the cosmetics company Hedare Beauty?",
+"answ":"ART",
+"answ3":"ART DEPARTMENT",
+"answ2":"Art Department.",
+},
+{
+"cat":"DC Movies",
 "ques":"Will Arnett and John Gallagher Jr. play Lieutenants Grass and Evan in what DC film?",
 "answ":"JONAH HEX",
 "answ2":"Jonah Hex.",

@@ -8,6 +8,26 @@ var xmen = [
 },
 {
 "cat":"X-Men",
+"ques":"Alice Braga plays Dr. Cecilia Reyes, a strict mentor and medical doctor who can generate protective fields around herself, in what film?",
+"answ":"THE NEW MUTANTS",
+"answ3":"NEW MUTANTS",
+"answ2":"The New Mutants.",
+},
+{
+"cat":"X-Men",
+"ques":"In the extended cut of Days of Future Past, who must the mutants rescue from the sentinels in the future, who is being held captive in Cerebro?",
+"answ":"ROGUE",
+"answ2":"Rogue.",
+},
+{
+"cat":"X-Men",
+"ques":"What is the name of the team Sebastian Shaw leads in X-Men: First Class?",
+"answ":"HELLFIRE CLUB",
+"answ3":"THE HELLFIRE CLUB",
+"answ2":"The Hellfire Club.",
+},
+{
+"cat":"X-Men",
 "ques":"In Deadpool 2, what is the name of Bill Skarsgard's acid spitting character?",
 "answ":"ZEITGEIST",
 "answ2":"Zeitgeist.",
@@ -167,7 +187,7 @@ var xmen = [
 "ques":"In how many X-Men films has Halle Berry appeared in?",
 "answ":"4",
 "answ3":"FOUR",
-"answ2":"4.",
+"answ2":"4. (X-Men/X2/X-Men: The Last Stand/Days of Future Past)",
 },
 {
 "cat":"X-Men",
@@ -498,6 +518,12 @@ var xmen = [
 "answ":"X MEN THE LAST STAND",
 "answ3":"THE LAST STAND",
 "answ2":"X-Men The Last Stand.",
+},
+{
+"cat":"X-Men",
+"ques":"What is the name of the actor who plays Dopinder the taxi driver in Deadpool and Deadpool 2?",
+"answ":"KARAN SONI",
+"answ2":"Karan Soni.",
 },
 {
 "cat":"X-Men",
@@ -928,6 +954,22 @@ var r2Q22 = [
 },
 {
 "cat":"X-Men",
+"ques":"In X-Men: Days of Future Past, how many semesters was Xavier's school open before it had to close due to the Vietnam War?",
+"answ":"1",
+"answ3":"ONE",
+"answ2":"1.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>5</button><button id=incop2 class=buttons003 onclick=qinc()>3</button><button id=incop3 class=buttons003 onclick=qinc()>2</button><button id=corop class=buttons003 onclick=qcor()>1</button><br/>",
+},
+{
+"cat":"X-Men",
+"ques":"In X2, the film begins with a tour of the White House and a quote attributed to which president?",
+"answ":"ABRAHAM LINCOLN",
+"answ3":"LINCOLN",
+"answ2":"Abraham Lincoln.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>John F. Kennedy</button><button id=incop2 class=buttons003 onclick=qinc()>Theodore Roosevelt</button><button id=incop3 class=buttons003 onclick=qinc()>George Washington</button><button id=corop class=buttons003 onclick=qcor()>Abraham Lincoln</button><br/>",
+},
+{
+"cat":"X-Men",
 "ques":"What is Ajax's actual first name in Deadpool?",
 "answ":"FRANCIS",
 "answ2":"Francis.",
@@ -995,7 +1037,7 @@ var r2Q22 = [
 "ques":"Rose Byrne played the role of Moira MacTaggert in how many X-Men films?",
 "answ":"2",
 "answ3":"TWO",
-"answ2":"2.",
+"answ2":"2. (First Class/Apocalypse)",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>1</button><button id=corop class=buttons003 onclick=qcor()>2</button><button id=incop3 class=buttons003 onclick=qinc()>3</button><button id=incop4 class=buttons003 onclick=qinc()>4</button><br/>",
 },
 {

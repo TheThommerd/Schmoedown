@@ -19,6 +19,13 @@ var fivepointer001 = [
 },
 {
 "cat":"Back to the Future",
+"ques":"What is the name of the company that hauls manure in Hill Valley that Biff crashes into in the first film?",
+"answ":"JONES MANURE HAULING",
+"answ3":"D JONES MANURE HAULING",
+"answ2":"D. Jones Manure Hauling.",
+},
+{
+"cat":"Back to the Future",
 "ques":"How many years was Marty's daughter sentenced to prison for attempting to break out her brother, before events are changed in Part 2?",
 "answ":"20",
 "answ3":"20 YEARS",
@@ -53,15 +60,33 @@ var fivepointer001 = [
 },
 {
 "cat":"Comic Book Movies",
+"ques":"Which comic book film begins with the line: 'I don't know. Feels like our grave.'?",
+"answ":"PRIEST",
+"answ2":"Priest.",
+},
+{
+"cat":"Comic Book Movies",
 "ques":"Who plays Odin in Son of the Mask?",
 "answ":"BOB HOSKINS",
 "answ2":"Bob Hoskins.",
+},
+{
+"cat":"Comic Book Movies",
+"ques":"What 2010s film opens with the line: 'America is an irradiated wasteland. Within it lies a city. Outside the boundary walls, a desert. A cursed earth.'?",
+"answ":"DREDD",
+"answ2":"Dredd.",
 },
 {
 "cat":"Dystopian Future/Time Travel",
 "ques":"Who played the conductor of the train, Minister Wilfrod, in Snowpiercer?",
 "answ":"ED HARRIS",
 "answ2":"Ed Harris.",
+},
+{
+"cat":"Fantasy/Sci-fi",
+"ques":"In Men in Black, what is the name of the extermination company that arrives at Edgar's farm?",
+"answ":"ZAP EM",
+"answ2":"Zap-Em.",
 },
 {
 "cat":"Fantasy/Sci-fi",

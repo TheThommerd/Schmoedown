@@ -8,6 +8,31 @@ var graphicnovels = [
 },
 {
 "cat":"Graphic Novels",
+"ques":"In I Frankenstein, Leonore is the High Queen of what order?",
+"answ":"GARGOYLE ORDER",
+"answ3":"GARGOYLE",
+"answ2":"Gargoyle Order.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Which actress plays Princess Ergenia, who wants Hercules to train the armies of Thrice to defend the kingdom from bloodthirsty warlord Rhesus in the film Hercules?",
+"answ":"REBECCA FERGUSON",
+"answ2":"Rebecca Ferguson.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Josh Brolin, Dennis Haysbert and Ray Liotta appear in which graphic novel adaptation?",
+"answ":"SIN CITY A DAME TO KILL FOR",
+"answ2":"Sin City: A Dame to Kill For.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Which 2014 graphic novel adaptation from director Stuart Beattie features the characters Dr. Terra Wade, Gideon and Zuriel?",
+"answ":"I FRANKENSTEIN",
+"answ2":"I Frankenstein.",
+},
+{
+"cat":"Graphic Novels",
 "ques":"Which actress plays a sex worker named Mary Kelly in the film From Hell?",
 "answ":"HEATHER GRAHAM",
 "answ2":"Heather Graham.",
@@ -131,7 +156,7 @@ var graphicnovels = [
 },
 {
 "cat":"Graphic Novels",
-"ques":"Which graphic novel adaptation stars Mickey Rourke, Josh Brolin, Jessica Alba and Eva Green?",
+"ques":"Which graphic novel adaptation stars Mickey Rourke, Jessica Alba and Eva Green?",
 "answ":"SIN CITY A DAME TO KILL FOR",
 "answ2":"Sin City: A Dame to Kill For.",
 },

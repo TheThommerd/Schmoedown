@@ -8,6 +8,19 @@ var startrek = [
 },
 {
 "cat":"Star Trek",
+"ques":"On how many Star Trek films was Nicholas Meyer credited as a screenwriter?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (The Wrath of Khan/The Undiscovered Country).",
+},
+{
+"cat":"Star Trek",
+"ques":"Which Star Trek film features the characters Manas, Tyvanna and Commander Finnegan?",
+"answ":"STAR TREK BEYOND",
+"answ2":"Star Trek Beyond.",
+},
+{
+"cat":"Star Trek",
 "ques":"In Star Trek VI: The Undiscovered Country, Kirk and McCoy are charged with killing Gorkon, a Klingon who holds what political position?",
 "answ":"CHANCELLOR",
 "answ2":"Chancellor.",
@@ -347,7 +360,7 @@ var startrek = [
 "ques":"Robin Curtis plays Lt. Saavik in how many Star Trek films?",
 "answ":"2",
 "answ3":"TWO",
-"answ2":"2.",
+"answ2":"2 (The Search for Spock/The Voyage Home).",
 },
 {
 "cat":"Star Trek",
@@ -683,7 +696,7 @@ var startrek = [
 "ques":"The character Saavik appears in how many Star Trek films?",
 "answ":"THREE",
 "answ3":"3",
-"answ2":"3.",
+"answ2":"3 (The Search for Spock/The Voyage Home/The Wrath of Khan).",
 },
 {
 "cat":"Star Trek",

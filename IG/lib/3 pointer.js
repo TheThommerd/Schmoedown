@@ -332,6 +332,12 @@ var threepointer001 = [
 },
 {
 "cat":"Marvel Movies",
+"ques":"Which Marvel film ends with the lines: 'Individuals whose lives soar to the heavens or fall to the earth. This is how legends are born.'?",
+"answ":"GHOST RIDER",
+"answ2":"Ghost Rider.",
+},
+{
+"cat":"Marvel Movies",
 "ques":"In The Incredible Hulk, Bruce Banner goes by what alias when communicating with Samuel Sterns?",
 "answ":"MR GREEN",
 "answ3":"MISTER GREEN",

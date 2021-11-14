@@ -8,6 +8,42 @@ var lotr = [
 },
 {
 "cat":"Middle Earth",
+"ques":"In The Fellowship of the Ring, 3 rings were given to the Elves, immortal, wisest and ______ of all beings?",
+"answ":"FAIREST",
+"answ2":"Fairest.",
+},
+{
+"cat":"Middle Earth",
+"ques":"Who was wielding Narsil when it was broken by Sauron?",
+"answ":"ISILDUR",
+"answ2":"Isildur.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In An Unexpected Journey, who tells the trolls that the 'Dawn will take you all'?",
+"answ":"GANDALF",
+"answ2":"Gandalf.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In The Two Towers, while speaking to Aragorn, Gandalf mentions that his nickname used to be The Grey what?",
+"answ":"PILGRIM",
+"answ2":"Pilgrim.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In the Hobbit films, which of the dwarves in Thorin's company is Dwalin's brother?",
+"answ":"BALIN",
+"answ2":"Balin.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In Fellowship of the Ring, Gandalf gets angry and tells Bilbo to not call him a conjurer of what?",
+"answ":"CHEAP TRICKS",
+"answ2":"Cheap tricks.",
+},
+{
+"cat":"Middle Earth",
 "ques":"What is the name of Boromir's brother?",
 "answ":"FARAMIR",
 "answ2":"Faramir.",
@@ -31,6 +67,12 @@ var lotr = [
 "ques":"In An Unexpected Journey, Bilbo gives narration about which Dwarf King, who had first possessed the Arkenstone and named it 'The King's Jewel'?",
 "answ":"THROR",
 "answ2":"Thror.",
+},
+{
+"cat":"Middle Earth",
+"ques":"The Hobbit: Battle of the Five Armies was released in what year?",
+"answ":"2014",
+"answ2":"2014.",
 },
 {
 "cat":"Middle Earth",
@@ -1728,6 +1770,14 @@ var r2Q6 = [
 },
 {
 "cat":"Middle Earth",
+"ques":"In The Two Towers, according to Aragorn, how many men does Eomer command that Gandalf goes to for aid?",
+"answ":"2000",
+"answ3":"2 000",
+"answ2":"2,000.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>500</button><button id=incop2 class=buttons003 onclick=qinc()>1,000</button><button id=corop class=buttons003 onclick=qcor()>2,000</button><button id=incop4 class=buttons003 onclick=qinc()>4,000</button><br/>",
+},
+{
+"cat":"Middle Earth",
 "ques":"In Thorin's dying speech, he says: 'If people valued ____ more than gold, the world would be a merrier place.",
 "answ":"HOME",
 "answ2":"Home.",
@@ -1771,13 +1821,6 @@ var r2Q6 = [
 },
 {
 "cat":"Middle Earth",
-"ques":"The Hobbit: Battle of the Five Armies was released in what year?",
-"answ":"2014",
-"answ2":"2014.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>2013</button><button id=corop class=buttons003 onclick=qcor()>2014</button><button id=incop3 class=buttons003 onclick=qinc()>2015</button><button id=incop4 class=buttons003 onclick=qinc()>2016</button><br/>",
-},
-{
-"cat":"Middle Earth",
 "ques":"What is the last line of The Fellowship of the Ring, which is spoken by Frodo?",
 "answ":"SAM I'M GLAD YOU'RE WITH ME",
 "answ3":"SAM I AM GLAD YOU'RE WITH ME",
@@ -1804,6 +1847,14 @@ var r2Q6 = [
 "answ":"THRANDUIL",
 "answ2":"Thranduil.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Gandalf</button><button id=corop class=buttons003 onclick=qcor()>Thranduil</button><button id=incop3 class=buttons003 onclick=qinc()>Smaug</button><button id=incop4 class=buttons003 onclick=qinc()>Kili</button><br/>",
+},
+{
+"cat":"Middle Earth",
+"ques":"In An Unexpected Journey, after Fili and Kili arrive, how many dwarves arrive at once in Bilbo's home with Gandalf accompanying them?",
+"answ":"8",
+"answ3":"EIGHT",
+"answ2":"8.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=corop class=buttons003 onclick=qcor()>8</button><button id=incop3 class=buttons003 onclick=qinc()>5</button><button id=incop4 class=buttons003 onclick=qinc()>3</button><br/>",
 },
 {
 "cat":"Middle Earth",

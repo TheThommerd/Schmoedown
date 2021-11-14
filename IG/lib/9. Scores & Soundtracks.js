@@ -8,6 +8,43 @@ var scoressoundtracks = [
 },
 {
 "cat":"Scores & Soundtracks",
+"ques":"In what Harry Potter film will you find the songs 'Do the Hippogriff' and 'Magic Works' performed by the band Weird Sisters?",
+"answ":"HARRY POTTER AND THE GOBLET OF FIRE",
+"answ3":"GOBLET OF FIRE",
+"answ2":"Harry Potter and the Goblet of Fire.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who composed the score for the films R.I.P.D. and Red?",
+"answ":"CHRISTOPHE BECK",
+"answ2":"Christophe Beck.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who composed the scores for both Fantastic Four and Fantastic Four: Rise of the Silver Surfer?",
+"answ":"JOHN OTTMAN",
+"answ2":"John Ottman.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"'Zordon Awakes', 'Birth of a Legend' and 'Megazord' are featured tracks in the score to what fantasy/sci-fi film?",
+"answ":"POWER RANGERS",
+"answ2":"Power Rangers.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who composed the score for Hellboy II: The Golden Army?",
+"answ":"DANNY ELFMAN",
+"answ2":"Danny Elfman.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Which Star Trek composer also wrote the music for 1987's Superman IV: the Quest for Peace?",
+"answ":"ALEXANDER COURAGE",
+"answ2":"Alexander Courage.",
+},
+{
+"cat":"Scores & Soundtracks",
 "ques":"Juice Newton's Angel of the Morning is the intro music for what comic book film?",
 "answ":"DEADPOOL",
 "answ2":"Deadpool.",
@@ -91,12 +128,6 @@ var scoressoundtracks = [
 "ques":"Who composed the score for both Zorro films?",
 "answ":"JAMES HORNER",
 "answ2":"James Horner.",
-},
-{
-"cat":"Scores & Soundtracks",
-"ques":"Who composed the score for 2005's Fantastic Four?",
-"answ":"JOHN OTTMAN",
-"answ2":"John Ottman.",
 },
 {
 "cat":"Scores & Soundtracks",
@@ -218,6 +249,27 @@ var scoressoundtracks = [
 },
 ];
 var r2Q9 = [
+{
+"cat":"Scores & Soundtracks",
+"ques":"In 2004's The Punisher, country music star Mark Collie's character Harry Heck plays what song on his guitar to Frank Castle inside the diner?",
+"answ":"IN TIME",
+"answ2":"In Time.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The End Has Come</button><button id=corop class=buttons003 onclick=qcor()>In Time</button><button id=incop3 class=buttons003 onclick=qinc()>Hurt</button><button id=incop4 class=buttons003 onclick=qinc()>Still Running</button><br/>",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who recorded the song 'Ashes' for Deadpool 2?",
+"answ":"CELINE DION",
+"answ2":"Celine Dion.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ariana Grande</button><button id=corop class=buttons003 onclick=qcor()>Celine Dion</button><button id=incop3 class=buttons003 onclick=qinc()>Adele</button><button id=incop4 class=buttons003 onclick=qinc()>Lady Gaga</button><br/>",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"The songs 'Burn', 'Golgotha Tenement Blues' and 'Color Me Once' are on the soundtrack for what 1990s comic book film?",
+"answ":"THE CROW",
+"answ2":"The Crow.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Spawn</button><button id=corop class=buttons003 onclick=qcor()>The Crow</button><button id=incop3 class=buttons003 onclick=qinc()>The Phantom</button><button id=incop4 class=buttons003 onclick=qinc()>Mystery Men</button><br/>",
+},
 {
 "cat":"Scores & Soundtracks",
 "ques":"Who has composed a score for a Men in Black film, a Spider-Man film and an Avengers film?",

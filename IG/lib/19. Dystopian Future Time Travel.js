@@ -7,6 +7,32 @@ var dystopiantime = [
 },
 {
 "cat":"Dystopian Future/Time Travel",
+"ques":"Which dystopian film features performances from Michael Jeter, Jack Black and Jeanne Tripplehorn?",
+"answ":"WATERWORLD",
+"answ2":"Waterworld.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
+"ques":"In Back to the Future Part II, old Marty is goaded into participating in an illegal scam by a co-worker, leading to his termination. What was the co-workers name?",
+"answ":"DOUGLAS NEEDLES",
+"answ3":"NEEDLES",
+"answ2":"Douglas Needles.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
+"ques":"In Back to the Future, after being caught by Strickland, Marty McFly now has how many tardies in a row?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
+"ques":"The T-800 has begun living as a human and goes by what name in Terminator: Dark Fate?",
+"answ":"CARL",
+"answ2":"Carl.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
 "ques":"In Back to the Future Part 2, which character has a face-to-face encounter with their future self in the year 2015, causing them to faint?",
 "answ":"JENNIFER",
 "answ3":"JENNIFER PARKER",

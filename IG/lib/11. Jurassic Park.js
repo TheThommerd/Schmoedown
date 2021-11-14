@@ -7,6 +7,24 @@ var jurassicpark = [
 },
 {
 "cat":"Jurassic Park",
+"ques":"Isabella Sermon plays what character in Jurassic World Fallen Kingdom?",
+"answ":"MAISIE LOCKWOOD",
+"answ2":"Maisie Lockwood.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"Which Jurassic Park film features the line: 'Are those meat-eating? Meat-asauruses'?",
+"answ":"JURASSIC PARK",
+"answ2":"Jurassic Park.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"Who plays Karen Mitchell, Claire's sister, in Jurassic World?",
+"answ":"JUDY GREER",
+"answ2":"Judy Greer.",
+},
+{
+"cat":"Jurassic Park",
 "ques":"Which Jurassic Park film features the supporting characters Vic Hoskins, Lowery Cruthers and Simon Masrani?",
 "answ":"JURASSIC WORLD",
 "answ2":"Jurassic World.",

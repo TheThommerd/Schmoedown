@@ -7,6 +7,13 @@ var marvelmovies = [
 },
 {
 "cat":"Marvel Movies",
+"ques":"In Daredevil, when Wilson Fish has someone killed, what type of flower is left with the victims?",
+"answ":"RED ROSE",
+"answ3":"ROSE",
+"answ2":"Rose.",
+},
+{
+"cat":"Marvel Movies",
 "ques":"Wayne Knight, Dominic West and Julie Benz appear in what 2000s Marvel film?",
 "answ":"PUNISHER WAR ZONE",
 "answ2":"Punisher: War Zone.",
@@ -547,7 +554,7 @@ var marvelmovies = [
 "ques":"Djimon Hounsou has appeared in how many MCU movies?",
 "answ":"2",
 "answ3":"TWO",
-"answ2":"2.",
+"answ2":"2 (Guardians of the Galaxy/Captain Marvel).",
 },
 {
 "cat":"Marvel Movies",
@@ -1200,9 +1207,9 @@ var marvelmovies = [
 {
 "cat":"Marvel Movies",
 "ques":"Including post-credits scenes, Thanos appears in how many MCU movies?",
-"answ":"SIX",
-"answ3":"6",
-"answ2":"6.",
+"answ":"FIVE",
+"answ3":"5",
+"answ2":"5. (The Avengers/Guardians of the Galaxy/Age of Ultron/Infinity War/Endgame)",
 },
 {
 "cat":"Marvel Movies",
@@ -2742,7 +2749,7 @@ var r2Q5 = [
 "ques":"In how many MCU films does Agent of SHIELD, Phil Coulson appear?",
 "answ":"5",
 "answ3":"FIVE",
-"answ2":"5.",
+"answ2":"5. (Iron Man/Iron Man 2/Thor/The Avengers/Captain Marvel)",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>3</button><button id=incop2 class=buttons003 onclick=qinc()>4</button><button id=corop class=buttons003 onclick=qcor()>5</button><button id=incop4 class=buttons003 onclick=qinc()>6</button><br/>",
 },
 {
@@ -2863,6 +2870,14 @@ var r2Q5 = [
 "answ":"BETTY ROSS",
 "answ2":"Betty Ross.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Betty Ross</button><button id=incop2 class=buttons003 onclick=qinc()>Belinda Ross</button><button id=incop3 class=buttons003 onclick=qinc()>Betsy Ross</button><button id=incop4 class=buttons003 onclick=qinc()>Belle Ross</button><br/>",
+},
+{
+"cat":"Marvel Movies",
+"ques":"In Iron Man 3, how many total bombings have been attributed to the Mandarin, with the public only knowing about 3?",
+"answ":"9",
+"answ3":"NINE",
+"answ2":"9.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>9</button><button id=incop2 class=buttons003 onclick=qinc()>12</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=incop4 class=buttons003 onclick=qinc()>7</button><br/>",
 },
 {
 "cat":"Marvel Movies",

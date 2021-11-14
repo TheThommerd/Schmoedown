@@ -7,6 +7,37 @@ var harrypotter = [
 },
 {
 "cat":"Wizarding World",
+"ques":"What is the name of the home where Dobby is buried at the beginning of Harry Potter and the Deathly Hallows Part 2?",
+"answ":"SHELL COTTAGE",
+"answ2":"Shell Cottage.",
+},
+{
+"cat":"Wizarding World",
+"ques":"Who is Ron referencing when he says: 'You're a little bit scary sometimes, you know that? Brilliant...but scary.'?",
+"answ":"HERMIONE",
+"answ3":"HERMIONE GRANGER",
+"answ2":"Hermione.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Half-Blood Prince, Lily Potter gave Professor Slughorn what animal as a gift, that he named Francis?",
+"answ":"FISH",
+"answ2":"Fish.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In Harry Potter and the Half-Blood Prince, Harry and Ginny share their first kiss in what location within Hogwarts?",
+"answ":"ROOM OF REQUIREMENT",
+"answ2":"Room of Requirement.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Crimes of Grindelwald, what type of bird is the Lestrange family emblem?",
+"answ":"RAVEN",
+"answ2":"Raven.",
+},
+{
+"cat":"Wizarding World",
 "ques":"Who plays Leta Lestrange in Fantastic Beasts: The Crimes of Grindelwald?",
 "answ":"ZOE KRAVITZ",
 "answ2":"Zoe Kravitz.",
@@ -335,6 +366,12 @@ var harrypotter = [
 "ques":"What spell does Hermione use to fix Harry's glasses in The Sorcerer's Stone?",
 "answ":"OCULUS REPARO",
 "answ2":"Oculus Reparo.",
+},
+{
+"cat":"Wizarding World",
+"ques":"What is the name of the actor that plays the role of Dudley Dursley?",
+"answ":"HARRY MELLING",
+"answ2":"Harry Melling.",
 },
 {
 "cat":"Wizarding World",
@@ -2973,6 +3010,36 @@ var r2Q3 = [
 "answ3":"GOYLE",
 "answ2":"Gregory Goyle.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Gregory Goyle</button><button id=incop2 class=buttons003 onclick=qinc()>Seamus Finnigan</button><button id=incop3 class=buttons003 onclick=qinc()>Vincent Crabbe</button><button id=incop4 class=buttons003 onclick=qinc()>Oliver Wood</button><br/>",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Sorcerer's Stone, what does Dumbledore tell Harry he saw when he looked in the Mirror of Erised?",
+"answ":"SOCKS",
+"answ2":"Socks.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Socks</button><button id=incop2 class=buttons003 onclick=qinc()>Love</button><button id=incop3 class=buttons003 onclick=qinc()>Books</button><button id=incop4 class=buttons003 onclick=qinc()>Candy</button><br/>",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Chamber of Secrets, Tom Riddle's diary takes Harry back to what month, revealing secrets of Hogwarts related to the current events?",
+"answ":"JUNE",
+"answ2":"June.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>June</button><button id=incop2 class=buttons003 onclick=qinc()>October</button><button id=incop3 class=buttons003 onclick=qinc()>May</button><button id=incop4 class=buttons003 onclick=qinc()>August</button><br/>",
+},
+{
+"cat":"Wizarding World",
+"ques":"In Fantastic Beasts and Where to Find Them, an Obscurus occurs when a child tries to repress their magical abilities, which leads to most dying before the age of what?",
+"answ":"10",
+"answ3":"TEN",
+"answ2":"10.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>10</button><button id=incop2 class=buttons003 onclick=qinc()>12</button><button id=incop3 class=buttons003 onclick=qinc()>16</button><button id=incop4 class=buttons003 onclick=qinc()>18</button><br/>",
+},
+{
+"cat":"Wizarding World",
+"ques":"The spell Brackium Emendo can be seen performed in what Harry Potter film?",
+"answ":"HARRY POTTER AND THE CHAMBER OF SECRETS",
+"answ3":"THE CHAMBER OF SECRETS",
+"answ2":"Harry Potter and the Chamber of Secrets.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Harry Potter and the Chamber of Secrets</button><button id=incop2 class=buttons003 onclick=qinc()>Harry Potter and the Goblet of Fire</button><button id=incop3 class=buttons003 onclick=qinc()>Harry Potter and the Order of the Phoenix</button><button id=incop4 class=buttons003 onclick=qinc()>Harry Potter and the Prisoner of Azkaban</button><br/>",
 },
 ];
 harrypotter = shuffle(harrypotter);

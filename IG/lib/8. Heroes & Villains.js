@@ -7,6 +7,25 @@ var heroesvillains = [
 },
 {
 "cat":"Heroes & Villains",
+"ques":"Who plays Narcissa Malfoy in the Harry Potter franchise?",
+"answ":"HELEN MCCRORY",
+"answ2":"Helen McCrory.",
+},
+{
+"cat":"Heroes & Villains",
+"ques":"In R.I.P.D. the Deados can be easily discovered because of their strong hate of what type of food?",
+"answ":"INDIAN",
+"answ3":"INDIAN FOOD",
+"answ2":"Indian food.",
+},
+{
+"cat":"Heroes & Villains",
+"ques":"Who plays Captain Amazing in the 90s action comedy Mystery Men?",
+"answ":"GREG KINNEAR",
+"answ2":"Greg Kinnear.",
+},
+{
+"cat":"Heroes & Villains",
 "ques":"In The Lord of The Rings, at the entrance to Moria, who realized the answer to the riddle was in Elvish?",
 "answ":"FRODO",
 "answ2":"Frodo.",
@@ -356,7 +375,7 @@ var heroesvillains = [
 "ques":"In how many films in the X-Men franchise did Michael Fassbender appear as Magneto?",
 "answ":"4",
 "answ3":"FOUR",
-"answ2":"4.",
+"answ2":"4. (First Class/Days of Future Past/Apocalypse/Dark Phoenix)",
 },
 {
 "cat":"Heroes & Villains",
@@ -546,7 +565,7 @@ var heroesvillains = [
 "ques":"In how many MCU films does Loki make an appearance?",
 "answ":"6",
 "answ3":"SIX",
-"answ2":"6.",
+"answ2":"6. (Thor/The Avengers/Thor: The Dark World/Thor Ragnarok/Infinity War/Endgame)",
 },
 {
 "cat":"Heroes & Villains",
@@ -984,6 +1003,20 @@ var r2Q8 = [
 "answ3":"ALARS",
 "answ2":"A'Lars.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>A'Lars</button><button id=incop2 class=buttons003 onclick=qinc()>Kronos</button><button id=incop3 class=buttons003 onclick=qinc()>Ikaris</button><button id=incop4 class=buttons003 onclick=qinc()>Ajak</button><br/>",
+},
+{
+"cat":"Heroes & Villains",
+"ques":"In Kingsman: The Golden Circle, what is the name of the diner that Poppy serves hamburgers and also dies in?",
+"answ":"POPPY'S DINER",
+"answ2":"Poppy's Diner.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Poppy's Diner</button><button id=incop2 class=buttons003 onclick=qinc()>Your Song Diner</button><button id=incop3 class=buttons003 onclick=qinc()>1950's Mash Up Diner</button><button id=incop4 class=buttons003 onclick=qinc()>Elton's Place</button><br/>",
+},
+{
+"cat":"Heroes & Villains",
+"ques":"In X-Men Origins: Wolverine, what class is Scott Summers in when he is first introduced and given detention?",
+"answ":"SPANISH",
+"answ2":"Spanish.",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Spanish</button><button id=incop2 class=buttons003 onclick=qinc()>History</button><button id=incop3 class=buttons003 onclick=qinc()>Algebra</button><button id=incop4 class=buttons003 onclick=qinc()>Economics</button><br/>",
 },
 ];
 heroesvillains = shuffle(heroesvillains);

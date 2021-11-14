@@ -7,6 +7,13 @@ var superman = [
 },
 {
 "cat":"Superman",
+"ques":"Mariel Hemingway plays Lacy Warfield in what film featuring Superman?",
+"answ":"SUPERMAN IV THE QUEST FOR PEACE",
+"answ3":"SUPERMAN 4 THE QUEST FOR PEACE",
+"answ2":"Superman IV: The Quest for Peace.",
+},
+{
+"cat":"Superman",
 "ques":"In which film does Clark Kent have an epic fight with an evil Superman in a junkyard?",
 "answ":"SUPERMAN III",
 "answ3":"SUPERMAN 3",
@@ -160,6 +167,13 @@ var superman = [
 },
 {
 "cat":"Superman",
+"ques":"Sidney J. Furie directed Christopher Reeve in which Superman film?",
+"answ":"SUPERMAN IV THE QUEST FOR PEACE",
+"answ3":"SUPERMAN 4 THE QUEST FOR PEACE",
+"answ2":"Superman IV: The Quest for Peace.",
+},
+{
+"cat":"Superman",
 "ques":"This actress played Kitty Kowalski, Lex Luthor's henchwoman in 2006's Superman Returns.",
 "answ":"PARKER POSEY",
 "answ2":"Parker Posey.",
@@ -196,6 +210,12 @@ var superman = [
 "answ":"3",
 "answ3":"THREE",
 "answ2":"3.",
+},
+{
+"cat":"Superman",
+"ques":"In Batman v. Superman, what does Luthor try to convince Senator Finch to allow him to import into Metropolis?",
+"answ":"KRYPTONITE",
+"answ2":"Kryptonite.",
 },
 {
 "cat":"Superman",
@@ -256,6 +276,21 @@ var r2Q20 = [
 "answ3":"GLEN WOODBURN",
 "answ2":"Woodburn.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Johnson</button><button id=incop2 class=buttons003 onclick=qinc()>Smith</button><button id=corop class=buttons003 onclick=qcor()>Woodburn</button><button id=incop4 class=buttons003 onclick=qinc()>Campbell</button><br/>",
+},
+{
+"cat":"Superman",
+"ques":"In Superman: The Movie, the film begins with a black and white prologue in June of what year?",
+"answ":"1938",
+"answ2":"1938.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>1934</button><button id=incop2 class=buttons003 onclick=qinc()>1936</button><button id=corop class=buttons003 onclick=qcor()>1938</button><button id=incop4 class=buttons003 onclick=qinc()>1940</button><br/>",
+},
+{
+"cat":"Superman",
+"ques":"In Superman IV: The Quest for Peace, David Warfield is able to buy the Daily Planet because it has not made money in how many years?",
+"answ":"3",
+"answ3":"3 YEARS",
+"answ2":"3.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>2</button><button id=incop2 class=buttons003 onclick=qinc()>5</button><button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop4 class=buttons003 onclick=qinc()>4</button><br/>",
 },
 {
 "cat":"Superman",

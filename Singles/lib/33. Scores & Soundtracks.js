@@ -7,6 +7,12 @@ var scoressoundtracks = [
 },
 {
 "cat":"Scores & Soundtracks",
+"ques":"What legendary western film composer composed the following 80s movies: The Mission, The Untouchables and Cinema Paradiso?",
+"answ":"ENNIO MORRICONE",
+"answ2":"Ennio Morricone.",
+},
+{
+"cat":"Scores & Soundtracks",
 "ques":"The song 'Beat It' by Michael Jackson can be heard playing in the Cafe 80s in what 1989 sci-fi comedy?",
 "answ":"BACK TO THE FUTURE PART II",
 "answ3":"BACK TO THE FUTURE PART 2",

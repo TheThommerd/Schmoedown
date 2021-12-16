@@ -321,7 +321,7 @@ var dramas = [
 {
 "cat":"Dramas",
 "ques":"What 1997 blockbuster features supporting performances from Billy Zane, Kathy Bates and Bill Paxton?",
-"answ":"Titanic",
+"answ":"TITANIC",
 "answ2":"Titanic.",
 },
 {

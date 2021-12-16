@@ -1984,6 +1984,13 @@ var fivepointer001 = [
 "answ2":"American Madness.",
 },
 {
+"cat":"Halle Berry",
+"ques":"How many roles does Halle Berry play in  the 2012 sci-fi drama Cloud Atlas?",
+"answ":"6",
+"answ3":"SIX",
+"answ2":"6.",
+},
+{
 "cat":"Horror",
 "ques":"Who directed the 1983 horror film The Hunger?",
 "answ":"TONY SCOTT",
@@ -3090,6 +3097,12 @@ var fivepointer001 = [
 "ques":"The murder of a powerful gang leader in New York City that goes by Cyrus serves as the inciting incident of what 70s action thriller?",
 "answ":"THE WARRIORS",
 "answ2":"The Warriors.",
+},
+{
+"cat":"Thrillers",
+"ques":"Who portrays Gail, the manager of the coffee shop where Cassie works in Promising Young Woman?",
+"answ":"LAVERNE COX",
+"answ2":"Laverne Cox.",
 },
 {
 "cat":"Thrillers",

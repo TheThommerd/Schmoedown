@@ -562,6 +562,20 @@ var r2Q21 = [
 "answ2":"Days of Heaven.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Badlands</button><button id=corop class=buttons003 onclick=qcor()>Days of Heaven</button><button id=incop3 class=buttons003 onclick=qinc()>Bound for Glory</button><button id=incop4 class=buttons003 onclick=qinc()>Gates of Heaven</button><br/>",
 },
+{
+"cat":"70s",
+"ques":"The 1971 coming-of-age drama The Last Picture Show takes place in what U.S. state during the 1950s?",
+"answ":"TEXAS",
+"answ2":"Texas.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>California</button><button id=corop class=buttons003 onclick=qcor()>Texas</button><button id=incop3 class=buttons003 onclick=qinc()>Kansas</button><button id=incop4 class=buttons003 onclick=qinc()>Kentucky</button><br/>",
+},
+{
+"cat":"70s",
+"ques":"Which actress won Oscars for her performances in the 70s films Women in Love and A Touch of Class?",
+"answ":"GLENDA JACKSON",
+"answ2":"Glenda Jackson.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jill Clayburgh</button><button id=corop class=buttons003 onclick=qcor()>Glenda Jackson</button><button id=incop3 class=buttons003 onclick=qinc()>Maggie Smith</button><button id=incop4 class=buttons003 onclick=qinc()>Ellen Burstyn</button><br/>",
+},
 ];
 seventies = shuffle(seventies);
 r2Q21 = shuffle(r2Q21);

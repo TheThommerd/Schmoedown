@@ -6,6 +6,31 @@ var twopointer = [
 "answ2":"Terry Gilliam.",
 },
 {
+"cat":"Nicole Kidman",
+"ques":"In Days of Thunder, Cole Trickle's car is sponsored by which soft drink?",
+"answ":"MELLO YELLO",
+"answ2":"Mello Yello.",
+},
+{
+"cat":"Nicole Kidman",
+"ques":"In 2002's Birthday Girl, Nicole Kidman plays a mail-order bride from which country?",
+"answ":"RUSSIA",
+"answ2":"Russia.",
+},
+{
+"cat":"Tyler Perry",
+"ques":"In Madea Goes to Jail, Madea becomes enraged with a snobby woman for doing what in a public setting which results in Madea serving time?",
+"answ":"TAKING HER PARKING SPACE",
+"answ3":"STEALING HER PARKING SPACE",
+"answ2":"Taking her parking space.",
+},
+{
+"cat":"Robert Rodriguez",
+"ques":"Johnny Depp plays a corrupt officer of what government agency in the film Once Upon a Time in Mexico?",
+"answ":"CIA",
+"answ2":"CIA.",
+},
+{
 "cat":"Festival Darlings",
 "ques":"Paul Giamatti, Dustin Hoffman and Rosamund Pike appear in what 2010 film based on a novel by Mordecai Richler?",
 "answ":"BARNEY'S VERSION",

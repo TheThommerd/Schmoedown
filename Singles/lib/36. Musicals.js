@@ -246,7 +246,7 @@ var musicals = [
 "cat":"Musicals",
 "ques":"In which 90s musical will you find the songs: 'Oh What a Circus', 'Another Suitcase in Another Hall' and 'Don't Cry for Me Argentina'?",
 "answ":"EVITA",
-"answ2":".",
+"answ2":"Evita.",
 },
 ];
 var r2Q36 = [

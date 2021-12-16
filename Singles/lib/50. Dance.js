@@ -107,6 +107,43 @@ var dance = [
 },
 {
 "cat":"Dance Movies",
+"ques":"How many Step Up films have been released in theaters?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5.",
+},
+{
+"cat":"Dance Movies",
+"ques":"What famous musical featured two dancing street gangs called The Jets and The Sharks?",
+"answ":"WEST SIDE STORY",
+"answ2":"West Side Story.",
+},
+{
+"cat":"Dance Movies",
+"ques":"Who directed the 1988 film Hairspray?",
+"answ":"JOHN WATERS",
+"answ2":"John Waters.",
+},
+{
+"cat":"Dance Movies",
+"ques":"This actress played the role of Vi Moore, Ariel's mom in the 2011 remake of Footloose.",
+"answ":"ANDIE MACDOWELL",
+"answ2":"Andie MacDowell.",
+},
+{
+"cat":"Dance Movies",
+"ques":"This actress played Joanna, Mike's on-again off-again lover in Magic Mike.",
+"answ":"OLIVIA MUNN",
+"answ2":"Olivia Munn.",
+},
+{
+"cat":"Dance Movies",
+"ques":"Which Oscar winner played Motormouth Maybelle in the 2007 version of Hairspray?",
+"answ":"QUEEN LATIFAH",
+"answ2":"Queen Latifah.",
+},
+{
+"cat":"Dance Movies",
 "ques":"Alex Owens is a steel worker by day and a burlesque dancer by night in what 80s film?",
 "answ":"FLASHDANCE",
 "answ2":"Flashdance.",

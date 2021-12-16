@@ -7,6 +7,31 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"What year saw the release of the following films: Ace Ventura When Nature Calls, Die Hard with a Vengeance and Batman Forever?",
+"answ":"1995",
+"answ2":"1995.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actress appears in the films: Above Suspicion, Big Trouble in Little China and Star Trek V: The Undiscovered Country?",
+"answ":"KIM CATTRALL",
+"answ2":"Kim Cattrall.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor appeared in the films: Almost Famous, Enemy of the State and Mallrats?",
+"answ":"JASON LEE",
+"answ2":"Jason Lee.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What franchise features the characters: Frank Catton, Terry Benedict, 'The Amazing' Yen and Linus Caldwell?",
+"answ":"OCEAN'S FRANCHISE",
+"answ3":"OCEANS",
+"answ2":"Ocean's franchise.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Who stars as Nick, a man who acquires the gift to hear what women are thinking in the film What Women Want?",
 "answ":"MEL GIBSON",
 "answ2":"Mel Gibson.",

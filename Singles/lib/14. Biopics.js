@@ -619,6 +619,13 @@ var r2Q14 = [
 },
 {
 "cat":"Biopics",
+"ques":"Set in the 1920s, this 2010s biopic tells the story of the love affair between Vita Sackville-West and Virginia Woolf.",
+"answ":"VITA AND VIRGINIA",
+"answ2":"Vita & Virginia.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>A Secret Love</button><button id=incop2 class=buttons003 onclick=qinc()>Fantastic Woman</button><button id=incop3 class=buttons003 onclick=qinc()>Gia</button><button id=corop class=buttons003 onclick=qcor()>Vita & Virginia</button><br/>",
+},
+{
+"cat":"Biopics",
 "ques":"In A Beautiful Mind, what Ivy League school did John Nash attend?",
 "answ":"PRINCETON",
 "answ3":"PRINCETON UNIVERSITY",

@@ -8,6 +8,38 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"Which MCU character says the line: 'I am taking a shower and you're gonna join me'?",
+"answ":"PEPPER POTTS",
+"answ2":"Pepper Potts.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which Middle Earth character said: 'I know what I must do, it's just that I'm afraid to do it'?",
+"answ":"FRODO",
+"answ2":"Frodo.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which Batman villain said: 'Ah the direct approach, I admire that in a man with a mask'?",
+"answ":"THE PENGUIN",
+"answ3":"OSWALD COBBLEPOT",
+"answ2":"The Penguin.",
+},
+{
+"cat":"Who said it?",
+"ques":"What graphic novel adaptation begins with the line: 'I was cast into being in the winter of 1795'?",
+"answ":"I FRANKENSTEIN",
+"answ2":"I Frankenstein.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which dystopian film features the line: 'Denial is the most predictable of human responses, but rest assured this will be the sixth time we have destroyed it, and we have become exceedingly efficient at it?'",
+"answ":"THE MATRIX RELOADED",
+"answ3":"MATRIX RELOADED",
+"answ2":"The Matrix Reloaded.",
+},
+{
+"cat":"Who said it?",
 "ques":"In what film will you hear Lex Luthor say: 'I just want what Prometheus wanted'?",
 "answ":"SUPERMAN RETURNS",
 "answ2":"Superman Returns.",
@@ -544,6 +576,13 @@ var r2Q10 = [
 "answ":"LOKI",
 "answ2":"Loki.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Black Widow</button><button id=incop2 class=buttons003 onclick=qinc()>Captain America</button><button id=corop class=buttons003 onclick=qcor()>Loki</button><button id=incop4 class=buttons003 onclick=qinc()>Iron Man</button><br/>",
+},
+{
+"cat":"Who said it?",
+"ques":"In what comic book film does the villain say: 'Now you ask me what I am. I am the bringer of the tide, I am the wave that will clean this unclean world'?",
+"answ":"PRIEST",
+"answ2":"Priest.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Bloodshot</button><button id=incop2 class=buttons003 onclick=qinc()>Polar</button><button id=corop class=buttons003 onclick=qcor()>Priest</button><button id=incop4 class=buttons003 onclick=qinc()>Spawn</button><br/>",
 },
 {
 "cat":"Who said it?",

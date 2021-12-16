@@ -8,6 +8,13 @@ var startrek = [
 },
 {
 "cat":"Star Trek",
+"ques":"In the closing narration of Star Trek Beyond, which crew member says the film's final line: 'To boldly go where no one has gone before'?",
+"answ":"UHURA",
+"answ3":"NYOTA UHURA",
+"answ2":"Nyota Uhura.",
+},
+{
+"cat":"Star Trek",
 "ques":"On how many Star Trek films was Nicholas Meyer credited as a screenwriter?",
 "answ":"2",
 "answ3":"TWO",

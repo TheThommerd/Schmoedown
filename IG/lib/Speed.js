@@ -7,6 +7,24 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"In Iron Man, what does the 'I' in S.H.I.E.L.D. stand for?",
+"answ":"INTERVENTION",
+"answ2":"Intervention.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Star Wars The Clone Wars, who provided the voice of Count Dooku?",
+"answ":"CHRISTOPHER LEE",
+"answ2":"Christopher Lee.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which 1990s film features the following actors: Doug Jones, Geoffrey Rush and Dane Cook?",
+"answ":"MYSTERY MEN",
+"answ2":"Mystery Men.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Which X-Men film features Quicksilver, Cyclops, Mystique, Vuk and Storm?",
 "answ":"DARK PHOENIX",
 "answ3":"X MEN DARK PHOENIX",

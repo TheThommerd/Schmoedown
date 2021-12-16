@@ -7,6 +7,12 @@ var planetoftheapes = [
 },
 {
 "cat":"Planet of the Apes",
+"ques":"In Dawn of the Planet of the Apes, what type of animal attacks Caesar and his son early in the film?",
+"answ":"BEAR",
+"answ2":"Bear.",
+},
+{
+"cat":"Planet of the Apes",
 "ques":"What is the name given to the ape who is Caesar's mother in Rise Of The Planet Of The Apes?",
 "answ":"BRIGHT EYES",
 "answ2":"Bright Eyes.",

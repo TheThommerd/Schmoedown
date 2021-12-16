@@ -8,6 +8,13 @@ var spiderman = [
 },
 {
 "cat":"Spider-Man",
+"ques":"Dr. Curt Connors says the line: 'I want to create a world without weakness' in which Spider-Man film?",
+"answ":"THE AMAZING SPIDER MAN",
+"answ3":"AMAZING SPIDER MAN",
+"answ2":"The Amazing Spider-Man.",
+},
+{
+"cat":"Spider-Man",
 "ques":"This actor had seperate roles as a ring announcer, a snooty usher and a French maître d' in the Sam Raimi Spider-Man films.",
 "answ":"BRUCE CAMPBELL",
 "answ2":"Bruce Campbell.",

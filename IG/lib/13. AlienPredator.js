@@ -7,6 +7,18 @@ var alienpredator = [
 },
 {
 "cat":"Alien/Predator",
+"ques":"What is the name of the portable minigun owned by Blain in Predator?",
+"answ":"OLD PAINLESS",
+"answ2":"Old Painless.",
+},
+{
+"cat":"Alien/Predator",
+"ques":"Which film in the franchise begins with the line: 'My mommy always said there were no monsters - no real ones - but there are'?",
+"answ":"ALIEN RESURRECTION",
+"answ2":"Alien Resurrection.",
+},
+{
+"cat":"Alien/Predator",
 "ques":"Who directed 2010's Predators?",
 "answ":"NIMROD ANTAL",
 "answ2":"Nimrod Antal.",

@@ -8,6 +8,12 @@ var scoressoundtracks = [
 },
 {
 "cat":"Scores & Soundtracks",
+"ques":"In Iron Man 2, a remixed version of what Queen song plays with It Takes Two, while Tony and Rhodey fight at Tony's birthday party?",
+"answ":"ANOTHER ONE BITES THE DUST",
+"answ2":"Another One Bites the Dust.",
+},
+{
+"cat":"Scores & Soundtracks",
 "ques":"In what Harry Potter film will you find the songs 'Do the Hippogriff' and 'Magic Works' performed by the band Weird Sisters?",
 "answ":"HARRY POTTER AND THE GOBLET OF FIRE",
 "answ3":"GOBLET OF FIRE",

@@ -8,6 +8,13 @@ var lotr = [
 },
 {
 "cat":"Middle Earth",
+"ques":"In The Two Towers, Treebeard describes what animals that climb up and tickle him awfully?",
+"answ":"MICE",
+"answ3":"MOUSE",
+"answ2":"Mice.",
+},
+{
+"cat":"Middle Earth",
 "ques":"In The Fellowship of the Ring, 3 rings were given to the Elves, immortal, wisest and ______ of all beings?",
 "answ":"FAIREST",
 "answ2":"Fairest.",

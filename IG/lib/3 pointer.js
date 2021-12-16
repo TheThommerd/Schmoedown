@@ -324,6 +324,13 @@ var threepointer001 = [
 "answ2":"Greek.",
 },
 {
+"cat":"Jurassic Park",
+"ques":"What Jurassic Park film features the line: Do you remember the first time you saw a dinosaur, first time you see them it's like a miracle'?",
+"answ":"JURASSIC PARK FALLEN KINGDOM",
+"answ3":"FALLEN KINGDOM",
+"answ2":"Jurassic Park: Fallen Kingdom.",
+},
+{
 "cat":"Marvel Movies",
 "ques":"What did Pepper buy herself as a birthday present from Tony in Iron Man?",
 "answ":"A DRESS",

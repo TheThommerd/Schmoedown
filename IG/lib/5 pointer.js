@@ -132,6 +132,12 @@ var fivepointer001 = [
 },
 {
 "cat":"DC Movies",
+"ques":"In Suicide Squad, what is the slogan of Belle Reve prison, as seen outside the prison in the opening moments of the film?",
+"answ":"TIL DEATH DO US PART",
+"answ2":"Til Death Do Us Part.",
+},
+{
+"cat":"DC Movies",
 "ques":"Who played Senator Robert Hammond in Green Lantern?",
 "answ":"TIM ROBBINS",
 "answ2":"Tim Robbins.",
@@ -1242,6 +1248,12 @@ var fivepointer001 = [
 "ques":"When asked do they fear, who said: 'A cage. To stay behind bars, until use and old age accept them, and all chance of valor is gone beyond recall or desire'?",
 "answ":"EOWYN",
 "answ2":"Éowyn.",
+},
+{
+"cat":"Who said it?",
+"ques":"At the end of Indiana Jones and the Last Crusade, Indy asks his father Henry what he has found after his experience with the Holy Grail. What is Henry's one word response?",
+"answ":"ILLUMINATION",
+"answ2":"Illumination.",
 },
 {
 "cat":"Who said it?",

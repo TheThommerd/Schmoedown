@@ -8,6 +8,26 @@ var xmen = [
 },
 {
 "cat":"X-Men",
+"ques":"Including post-credits scenes, Ian McKellen has portrayed Magneto how many times in the X-Men franchise?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5.",
+},
+{
+"cat":"X-Men",
+"ques":"In X-Men Origins: Wolverine, Striker tells the general that Wolverine is named Weapon ____?",
+"answ":"WEAPON X",
+"answ3":"X",
+"answ2":"Weapon X.",
+},
+{
+"cat":"X-Men",
+"ques":"In Deadpool 2, what is the mutant name of Russell Collins, the unstable mutant Wade meets at the orphanage?",
+"answ":"FIREFIST",
+"answ2":"Firefist.",
+},
+{
+"cat":"X-Men",
 "ques":"Alice Braga plays Dr. Cecilia Reyes, a strict mentor and medical doctor who can generate protective fields around herself, in what film?",
 "answ":"THE NEW MUTANTS",
 "answ3":"NEW MUTANTS",

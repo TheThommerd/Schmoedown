@@ -8,6 +8,24 @@ var mixedbag = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"Who directed the 1995 film Tank Girl?",
+"answ":"RACHEL TALALAY",
+"answ2":"Rachel Talalay.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"David Hogan directed what 1990s comic book film featuring Temuera Morrison and Udo Kier?",
+"answ":"BARBED WIRE",
+"answ2":"Barbed Wire.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Sarah Paulson, Eva Mendes and Jaime King appear in what 2000s comic book film?",
+"answ":"THE SPIRIT",
+"answ2":"The Spirit.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Who plays the lead role of Clay in The Losers?",
 "answ":"JEFFREY DEAN MORGAN",
 "answ2":"Jeffrey Dean Morgan.",

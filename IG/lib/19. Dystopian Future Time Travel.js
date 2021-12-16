@@ -7,6 +7,12 @@ var dystopiantime = [
 },
 {
 "cat":"Dystopian Future/Time Travel",
+"ques":"Who stars as Rev-9, an advanced Terminator that originated from Legion and was sent back in time to terminate Dani in Terminator: Dark Fate?",
+"answ":"GABRIEL LUNA",
+"answ2":"Gabriel Luna.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
 "ques":"Which dystopian film features performances from Michael Jeter, Jack Black and Jeanne Tripplehorn?",
 "answ":"WATERWORLD",
 "answ2":"Waterworld.",

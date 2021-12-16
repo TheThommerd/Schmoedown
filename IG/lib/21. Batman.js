@@ -7,6 +7,12 @@ var batman = [
 },
 {
 "cat":"Batman",
+"ques":"In The Dark Knight, what was the name of the Gotham City Police Commissioner that Gordon took over for after he was poisoned by Joker?",
+"answ":"LOEB",
+"answ2":"Loeb.",
+},
+{
+"cat":"Batman",
 "ques":"Michael Murphy plays the character credited as The Mayor in what Batman film?",
 "answ":"BATMAN RETURNS",
 "answ2":"Batman Returns.",

@@ -8,6 +8,12 @@ var swashbuckling = [
 },
 {
 "cat":"Swashbuckling Adventure",
+"ques":"In Raiders of the Lost Ark, to what country does Indy fly in order to find Marion?",
+"answ":"NEPAL",
+"answ2":"Nepal.",
+},
+{
+"cat":"Swashbuckling Adventure",
 "ques":"What swashbuckling film features the line: 'Joaquin, Alejandro, once I carved coffins for your parents. I'd hate to carve ones for you.'?",
 "answ":"THE MASK OF ZORRO",
 "answ3":"MASK OF ZORRO",

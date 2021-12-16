@@ -7,6 +7,13 @@ var transformers = [
 },
 {
 "cat":"Transformers",
+"ques":"In Transformers (2007), what is the name of the super secret government agency responsible for hiding the existence of Transformers?",
+"answ":"SECTOR SEVEN",
+"answ3":"SECTOR 7",
+"answ2":"Sector Seven.",
+},
+{
+"cat":"Transformers",
 "ques":"In 2007's Transformers, who played U.S. Secretary of Defense John Keller?",
 "answ":"JON VOIGHT",
 "answ2":"Jon Voight.",

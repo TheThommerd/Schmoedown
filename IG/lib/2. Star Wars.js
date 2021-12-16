@@ -7,6 +7,13 @@ var starwars = [
 },
 {
 "cat":"Star Wars",
+"ques":"'There is a great disturbance in the Force' are the first words spoken by which character in The Empire Strikes Back?",
+"answ":"THE EMPEROR",
+"answ3":"PALPATINE",
+"answ2":"The Emperor/Palpatine.",
+},
+{
+"cat":"Star Wars",
 "ques":"What Imperial officer does Supreme Leader Snoke refer to as 'rabid cur'?",
 "answ":"HUX",
 "answ3":"GENERAL HUX",

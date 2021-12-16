@@ -42,6 +42,12 @@ var dcmovies = [
 },
 {
 "cat":"DC Movies",
+"ques":"what year saw the release of the film The Return of Swamp Thing?",
+"answ":"1989",
+"answ2":"1989.",
+},
+{
+"cat":"DC Movies",
 "ques":"What DC comics film features the characters of Angela Dodson, Chas Kramer and Lucifer Morningstar?",
 "answ":"CONSTANTINE",
 "answ2":"Constantine.",

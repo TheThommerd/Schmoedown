@@ -529,8 +529,8 @@ var r2Q5 = [
 {
 "cat":"The Empire Strikes Back",
 "ques":"In The Empire Strikes Back, according to Captain Valdez of the Alliance, which two groups will stay behind to fly the speeders?",
-"answ":"10 and 7",
-"answ3":"7 and 10",
+"answ":"10 AND 7",
+"answ3":"7 AND 10",
 "answ2":"7 and 10.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>2 and 9</button><button id=incop2 class=buttons003 onclick=qinc()>3 and 8</button><button id=corop class=buttons003 onclick=qcor()>7 and 10</button><button id=incop4 class=buttons003 onclick=qinc()>4 and 6</button><br/>",
 },

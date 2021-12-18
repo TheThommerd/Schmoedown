@@ -62,7 +62,7 @@ var vraag = 0;
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
-	message005.innerHTML = "<strong><font size=4>ROUND ONE</font><br/></br>15 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
+	message005.innerHTML = "<strong><font size=4>ROUND ONE</font><br/></br>12 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-240px";
 message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
@@ -217,7 +217,7 @@ var chance = 0;
 var c;
 question001 = shuffle(question001); 
 function begin001() {
-    var Minutes = 60 * 15,
+    var Minutes = 60 * 12,
         display = document.querySelector('#round002');
     startTimer(Minutes, display);
              c = 21;

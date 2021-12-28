@@ -47,7 +47,7 @@ var question001 = [
 {
 "cat":"Disney",
 "ques":"Who provided the voice of Maui in Moana?",
-"answ":"DWAYNE JOHNSON,
+"answ":"DWAYNE JOHNSON",
 "answ2":"Dwayne Johnson.",
 },
 {

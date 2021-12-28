@@ -710,7 +710,7 @@ var question001 = [
 "ques":"What is the address Dory reads and memorizes to help Marlin in Finding Nemo?",
 "answ":"P SHERMAN 42 WALLABY WAY SYDNEY",
 "answ3":"P SHERMAN 42 WALLABY WAY",
-"answ2":""P. Sherman, 42 Wallaby Way, Sydney.",
+"answ2":"P. Sherman, 42 Wallaby Way, Sydney.",
 },
 {
 "cat":"Disney",

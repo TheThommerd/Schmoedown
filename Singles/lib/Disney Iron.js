@@ -1238,7 +1238,7 @@ var question001 = [
 "cat":"Disney",
 "ques":"In Peter Pan, what creature does Tinkerbell tell the Lost Boys that Wendy is, to get them to shoot her down?",
 "answ":"WENDY BIRD",
-"answ2":"Wendy Bird".",
+"answ2":"Wendy Bird.",
 },
 {
 "cat":"Disney",

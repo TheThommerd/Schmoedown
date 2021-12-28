@@ -619,6 +619,7 @@ typing = true;
 	    document.getElementById("message005").style.display = "initial";  
             message001.innerHTML = " ";
 	 startTyping(question001[vraag].ques, 40, "message001");
+         chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
 	if (question001[vraag].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}

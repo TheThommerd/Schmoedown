@@ -238,5 +238,5 @@ var competitorlist = [
 "strengthpercentage": "85",
 "strengthpercentage3": "80",
 "strengthpercentage5": "80",
-},
+}
 ];

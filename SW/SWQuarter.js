@@ -74,13 +74,13 @@ function submitname () {
   	record001.innerHTML = record;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-	message004.innerHTML = "<select id=select><option value=Harper>Thomas Harper</option><option value=GoldLeader>Gold Leader</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+	message004.innerHTML = "<select id=select><option value=dimalanta>Nicki Dimalanta</option><option value=GoldLeader>Gold Leader</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-	message004.innerHTML = "<select id=select><option value=Harper>Thomas Harper</option><option value=GoldLeader>Gold Leader</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+	message004.innerHTML = "<select id=select><option value=dimalanta>Nicki Dimalanta</option><option value=GoldLeader>Gold Leader</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function winKO(){

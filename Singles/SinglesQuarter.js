@@ -70,13 +70,13 @@ function submitname () {
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Kalinowski>Mike Kalinowski</option><option value=Meyer>Brendan Meyer</option><option value=Sneider>Jeff Sneider</option><option value=Reilly>Mark Reilly</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Kalinowski>Mike Kalinowski</option><option value=McKee>Marisol McKee</option><option value=Sneider>Jeff Sneider</option><option value=Reilly>Mark Reilly</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Kalinowski>Mike Kalinowski</option><option value=Meyer>Brendan Meyer</option><option value=Sneider>Jeff Sneider</option><option value=Reilly>Mark Reilly</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</option><option value=Kalinowski>Mike Kalinowski</option><option value=McKee>Marisol McKee</option><option value=Sneider>Jeff Sneider</option><option value=Reilly>Mark Reilly</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function winKO(){

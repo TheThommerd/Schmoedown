@@ -239,20 +239,4 @@ var competitorlist = [
 "strengthpercentage3": "80",
 "strengthpercentage5": "80",
 },
-{
-"id": "Witwer",
-"lowercase": "Sam Witwer",
-"twitter": "@SamWitwer",
-"record": "2-1",
-"faction": "FORCE BROS",
-"strength1" : "The Empire Strikes Back",
-"strength2" : "The Force Awakens",
-"strength3" : "Revenge of the Sith",
-"percentage": "90",
-"percentage3": "85",
-"percentage5": "85",
-"strengthpercentage": "99",
-"strengthpercentage3": "95",
-"strengthpercentage5": "95",
-}
 ];

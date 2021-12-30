@@ -73,7 +73,7 @@ function submitname () {
   	record001.innerHTML = document.getElementById("wins_IG").value + "-" + document.getElementById("losses_IG").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Barbarian>The Barbarian</option><option value=Burnett>Robert Meyer Burnett</option><option value=Navarro>Hector Navarro</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+message004.innerHTML = "<select id=select><option value=Barbarian>The Barbarian</option><option value=Moses>Amaru Moses</option><option value=Navarro>Hector Navarro</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
 	message001.innerHTML = "Choose your opponent.";
 		
 }
@@ -81,7 +81,7 @@ function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
 	message001.innerHTML = "Choose your opponent.";
-message004.innerHTML = "<select id=select><option value=Barbarian>The Barbarian</option><option value=Burnett>Robert Meyer Burnett</option><option value=Navarro>Hector Navarro</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
+message004.innerHTML = "<select id=select><option value=Barbarian>The Barbarian</option><option value=Moses>Amaru Moses</option><option value=Navarro>Hector Navarro</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button></div>";
 		
 }
 function winKO(){

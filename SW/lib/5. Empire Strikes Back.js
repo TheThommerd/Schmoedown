@@ -8,6 +8,38 @@ var episodev = [
 },
 {
 "cat":"The Empire Strikes Back",
+"ques":"What famous two-word answer does Han give to Leia after she tells him that she loves him?",
+"answ":"I KNOW",
+"answ2":"I know.",
+},
+{
+"cat":"The Empire Strikes Back",
+"ques":"What predator knocks Luke unconscious and kills his Tauntaun on the planet Hoth?",
+"answ":"WAMPA",
+"answ2":"Wampa.",
+},
+{
+"cat":"The Empire Strikes Back",
+"ques":"Who does Piett replace when he is promoted to the rank of Admiral by Darth Vader?",
+"answ":"OZZEL",
+"answ3":"ADMIRAL OZZEL",
+"answ2":"Admiral Ozzel.",
+},
+{
+"cat":"The Empire Strikes Back ",
+"ques":"In The Empire Strikes Back, when told of the rebels plan for evacuating Hoth, what rebel pilot asked Leia: 'Two fighters against a Star Destroyer?'",
+"answ":"HOBBIE",
+"answ3":"DEREK KLIVIAN",
+"answ2":"Derek Klivian/Hobbie.",
+},
+{
+"cat":"The Empire Strikes Back",
+"ques":"In The Empire Strikes Back, Yoda says that a Jedi uses the Force for defense and ____ , never for attack?",
+"answ":"KNOWLEDGE",
+"answ2":"Knowledge.",
+},
+{
+"cat":"The Empire Strikes Back",
 "ques":"In The Empire Strikes Back, what planet causes Luke to remark: 'There's something familiar about this place'?",
 "answ":"DAGOBAH",
 "answ2":"Dagobah.",

@@ -7,6 +7,25 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"What was the name of the decoy that was killed in the first assassination attempt we see on Senator Amidala?",
+"answ":"CORDE",
+"answ2":"Cordé.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"During the assassination attempt on Padmé's life, how many poisonous arthropods are released into her bedroom by Zam Wessel?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, during the Battle of Geonosis, Mace Windu tells a clone pilot to land in what area?",
+"answ":"ASSEMBLY AREA",
+"answ2":"Assembly Area.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"Who replaced Captain Panaka as Senator Amidala's head of security in Attack of the Clones?",
 "answ":"GREGAR TYPHO",
 "answ3":"CAPTAIN TYPHO",

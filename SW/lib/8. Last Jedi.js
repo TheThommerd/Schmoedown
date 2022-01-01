@@ -8,6 +8,24 @@ var episodeviii = [
 },
 {
 "cat":"The Last Jedi",
+"ques":"In The Last Jedi, who calls Kylo Ren a 'child in a mask'?",
+"answ":"SNOKE",
+"answ2":"Snoke.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, Leia tells C-3PO to wipe the ____ expression off his face at the beginning of the film.",
+"answ":"NERVOUS",
+"answ2":"Nervous.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, what is Finn's first question after he awakes from his coma?",
+"answ":"WHERE IS REY",
+"answ2":"Where is Rey?.",
+},
+{
+"cat":"The Last Jedi",
 "ques":"In The Last Jedi what is the first word spoken by Finn?",
 "answ":"REY",
 "answ2":"Rey.",

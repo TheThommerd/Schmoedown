@@ -8,6 +8,26 @@ var episodeix = [
 },
 {
 "cat":"The Rise of Skywalker",
+"ques":"What is the name of the former stormtrooper who bonded with Finn after telling the story of how she and her crew defected from the First Order?",
+"answ":"JANNAH",
+"answ2":"Jannah.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"Who appears to Kylo Ren as a vision after his battle with Rey on the remnants of the Death Star?",
+"answ":"HAN",
+"answ3":"HAN SOLO",
+"answ2":"Han Solo.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In a callback to The Last Jedi, Beaumont suggests this maneuver when the resistance is planning the assault on Exegol?",
+"answ":"HOLDO MANEUVER",
+"answ3":"THE HOLDO MANEUVER",
+"answ2":"The Holdo maneuver.",
+},
+{
+"cat":"The Rise of Skywalker",
 "ques":"How many Oscar nominations did The Rise of Skywalker receive?",
 "answ":"3",
 "answ3":"THREE",

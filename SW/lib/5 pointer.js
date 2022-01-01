@@ -20,29 +20,10 @@ var fivepointer001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"Who is the only actor to ever receive an Oscar nomination for a performance in a Star Wars film?",
-"answ":"ALEC GUINNESS",
-"answ2":"Alec Guinness.",
-},
-{
-"cat":"Mixed Bag",
-"ques":"The term 'nerf herder' was introduced in what Star Wars film?",
-"answ":"THE EMPIRE STRIKES BACK",
-"answ3":"EMPIRE STRIKES BACK",
-"answ2":"The Empire Strikes Back.",
-},
-{
-"cat":"Mixed Bag",
 "ques":"How many towers does the Jedi Temple have on Coruscant?",
 "answ":"5",
 "answ3":"FIVE",
 "answ2":"5.",
-},
-{
-"cat":"Heroes & Villains",
-"ques":"According to Yoda, what 'matters not'?",
-"answ":"SIZE",
-"answ2":"Size.",
 },
 {
 "cat":"Heroes & Villains",
@@ -125,12 +106,6 @@ var fivepointer001 = [
 "answ2":"Return of the Jedi.",
 },
 {
-"cat":"Mixed Bag",
-"ques":"Taun We and Lama Su are from what planet?",
-"answ":"KAMINO",
-"answ2":"Kamino.",
-},
-{
 "cat":"A New Hope",
 "ques":"According to Luke, what did Uncle Owen tell him that Anakin's profession was?",
 "answ":"NAVIGATOR ON A SPICE FREIGHTER",
@@ -173,12 +148,6 @@ var fivepointer001 = [
 },
 {
 "cat":"Attack of the Clones",
-"ques":"What was the name of the decoy that was killed in the first assassination attempt we see on Senator Amidala?",
-"answ":"CORDE",
-"answ2":"Cordé.",
-},
-{
-"cat":"Attack of the Clones",
 "ques":"What kind of poisonous creatures were used to try and assassinate Padmé Amidala in Attack of the Clones?",
 "answ":"KOHUNS",
 "answ3":"KOUHUNS",
@@ -189,6 +158,12 @@ var fivepointer001 = [
 "ques":"Name the character Sofia Coppola found herself playing after she paid a visit to the set of Episode I?",
 "answ":"SACHE",
 "answ2":"Saché.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, what is the homeworld of Jedi Master Yarael Poof?",
+"answ":"QUERMIA",
+"answ2":"Quermia.",
 },
 {
 "cat":"The Phantom Menace",
@@ -303,13 +278,6 @@ var fivepointer001 = [
 },
 {
 "cat":"The Empire Strikes Back",
-"ques":"What is the name of the character portrayed by John Ratzenberger in The Empire Strikes Back?",
-"answ":"BREN DERLIN",
-"answ3":"MAJOR BREN DERLIN",
-"answ2":"Bren Derlin.",
-},
-{
-"cat":"The Empire Strikes Back",
 "ques":"In The Empire Strikes Back, who barked the order 'Shields up!' just before the Falcon buzzed the Star Destroyer's bridge?",
 "answ":"CAPTAIN NEEDA",
 "answ3":"LORTH NEEDA",
@@ -328,13 +296,6 @@ var fivepointer001 = [
 "answ":"PONEMAH TERMINAL",
 "answ3":"PONEMAH",
 "answ2":"Ponemah Terminal.",
-},
-{
-"cat":"The Force Awakens",
-"ques":"Name the character played by actor Simon Pegg.",
-"answ":"UNKAR PLUTT",
-"answ3":"UNKAR PLUT",
-"answ2":"Unkar Plutt.",
 },
 {
 "cat":"The Force Awakens",
@@ -451,13 +412,6 @@ var fivepointer001 = [
 "answ":"LORTH NEEDA",
 "answ3":"CAPTAIN NEEDA",
 "answ2":"Captain Needa.",
-},
-{
-"cat":"Who said it?",
-"ques":"Who said: 'Greed can be a powerful ally.'?",
-"answ":"QUI GON JINN",
-"answ3":"QUI GON",
-"answ2":"Qui-Gon Jinn.",
 },
 ];
 fivepointer001 = shuffle(fivepointer001);

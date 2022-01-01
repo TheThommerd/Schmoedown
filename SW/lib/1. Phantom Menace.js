@@ -32,6 +32,12 @@ var episodei = [
 },
 {
 "cat":"The Phantom Menace",
+"ques":"In The Phantom Menace what is the last word spoken in the film?",
+"answ":"PEACE",
+"answ2":"Peace.",
+},
+{
+"cat":"The Phantom Menace",
 "ques":"What is the specific name of the second sea creature seen in the underwater Bongo scene, that prompt Qui-Gon to say 'there's always a bigger fish'?",
 "answ":"SANDO AQUA MONSTER",
 "answ2":"Sando aqua monster.",
@@ -100,6 +106,12 @@ var episodei = [
 "answ":"QUI GON JINN",
 "answ3":"QUI GON",
 "answ2":"Qui-Gon Jinn.",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In The Phantom Menace, what species is Jedi Master Adi Gallia?",
+"answ":"THOLOTHIAN",
+"answ2":"Tholothian.",
 },
 {
 "cat":"The Phantom Menace",
@@ -358,6 +370,22 @@ var r2Q1 = [
 "answ3":"ROOS TARPALS",
 "answ2":"Captain Tarpals.",
 "option":"<button id=corop class=buttons003 onclick=qcor()>Captain Tarpals</button><button id=incop2 class=buttons003 onclick=qinc()>Rugor Nass</button><button id=incop3 class=buttons003 onclick=qinc()>Captain Noz</button><button id=incop4 class=buttons003 onclick=qinc()>Captain Sharr</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"In the Phantom Menace, how many total members are seen in the Gungan High Council?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=corop class=buttons003 onclick=qcor()>5</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=incop4 class=buttons003 onclick=qinc()>7</button><br/>",
+},
+{
+"cat":"The Phantom Menace",
+"ques":"How many total battle droids are waiting outside the room Qui-Gon and Obi-Wan are trapped in with poison gas in The Phantom Menace?",
+"answ":"8",
+"answ3":"EIGHT",
+"answ2":"8.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=incop2 class=buttons003 onclick=qinc()>5</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=corop class=buttons003 onclick=qcor()>8</button><br/>",
 },
 {
 "cat":"The Phantom Menace",

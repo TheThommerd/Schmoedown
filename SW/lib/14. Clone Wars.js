@@ -8,6 +8,12 @@ var clonewars = [
 },
 {
 "cat":"Clone Wars",
+"ques":"In The Clone Wars, while on Tatooine, Ahsoka says she will clean R2's ___ later?",
+"answ":"SERVOS",
+"answ2":"Servos.",
+},
+{
+"cat":"Clone Wars",
 "ques":"In The Clone Wars, what is the name of the RA-7 protocol droid prototype that serves Asajj Ventress?",
 "answ":"4A7",
 "answ3":"4 A7",

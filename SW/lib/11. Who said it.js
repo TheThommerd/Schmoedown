@@ -8,6 +8,18 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"Who tells Anakin 'The fear of loss is a path to the dark side'?",
+"answ":"YODA",
+"answ2":"Yoda.",
+},
+{
+"cat":"Who said it?",
+"ques":"Who tells Anakin: 'You can't stop the change any more than you can stop the suns from setting'?",
+"answ":"SHMI SKYWALKER",
+"answ2":"Shmi Skywalker.",
+},
+{
+"cat":"Who said it?",
 "ques":"Which Jedi said the line: 'He's a political idealist, not a murderer'?",
 "answ":"KI ADI MUNDI",
 "answ2":"Ki-Adi-Mundi.",
@@ -284,6 +296,14 @@ var r2Q11 = [
 "answ3":"QUEEN OF NABOO",
 "answ2":"Queen of Naboo/Jamillia.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Chancellor Palpatine</button><button id=incop2 class=buttons003 onclick=qinc()>Padmé Amidala</button><button id=corop class=buttons003 onclick=qcor()>Queen of Naboo</button><button id=incop4 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><br/>",
+},
+{
+"cat":"Who said it?",
+"ques":"Who said: 'Greed can be a powerful ally.'?",
+"answ":"QUI GON JINN",
+"answ3":"QUI GON",
+"answ2":"Qui-Gon Jinn.",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Yoda</button><button id=corop class=buttons003 onclick=qcor()>Qui-Gon Jinn</button><button id=incop4 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><br/>",
 },
 {
 "cat":"Who said it?",

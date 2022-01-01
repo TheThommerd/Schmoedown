@@ -7,6 +7,12 @@ var rogueone = [
 },
 {
 "cat":"Rogue One",
+"ques":"Which actress plays young Jyn Erso in the film Rogue One?",
+"answ":"BEAU GADSDON",
+"answ2":"Beau Gadsdon.",
+},
+{
+"cat":"Rogue One",
 "ques":"In Rogue One, when Cassian left the crashed ship on Eadu, in what configuration was his weapon in?",
 "answ":"SNIPER",
 "answ3":"SNIPER CONFIGURATION",

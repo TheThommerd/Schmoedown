@@ -7,6 +7,25 @@ var solo = [
 },
 {
 "cat":"Solo",
+"ques":"What is the name of the droid portrayed by Phoebe Waller-Bridge in Solo?",
+"answ":"L3 37",
+"answ3":"L3",
+"answ2":"L3-37.",
+},
+{
+"cat":"Solo",
+"ques":"What instrument does Beckett say he wants to learn to play but Rio says he's too tone deaf?",
+"answ":"VALACHORD",
+"answ2":"Valachord.",
+},
+{
+"cat":"Solo",
+"ques":"Dryden Vos uses a blade to kill the regional governor. What is the blade called?",
+"answ":"KYUZO PETAR",
+"answ2":"Kyuzo petar.",
+},
+{
+"cat":"Solo",
 "ques":"Who plays the human con-man Tak who works in the spice mines in Solo: A Star Wars Story?",
 "answ":"ANTHONY DANIELS",
 "answ2":"Anthony Daniels.",

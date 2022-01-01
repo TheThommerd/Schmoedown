@@ -546,7 +546,7 @@ var twopointer = [
 "cat":"Reese Witherspoon",
 "ques":"Which actress plays the title character, opposite Reese Witherspoon, in the 2006 romantic fantasy Penelope?",
 "answ":"CHRISTINA RICCI",
-"answ2":"Christina Ricci .",
+"answ2":"Christina Ricci.",
 },
 {
 "cat":"Sean Connery",

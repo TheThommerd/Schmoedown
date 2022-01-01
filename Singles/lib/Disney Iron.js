@@ -1716,14 +1716,14 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"Who voiced the character of Francis the Bulldog in Oliver & Company?",
+"ques":"Who voiced Francis the Bulldog in Oliver & Company?",
 "answ":"ROSCOE LEE BROWNE",
 "answ3":"ROSCOE LEE BROWN",
 "answ2":"Roscoe Lee Browne.",
 },
 {
 "cat":"Disney",
-"ques":"In Oliver & Company, what acclaimed actress and singer provides the voice of prize-winning poodle Georgette?",
+"ques":"In Oliver & Company, what acclaimed actress and singer voiced the prize-winning poodle Georgette?",
 "answ":"BETTE MIDLER",
 "answ2":"Bette Midler.",
 },
@@ -2324,7 +2324,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"What kind of creature is Sebestian in The Little Mermaid?",
+"ques":"What kind of creature is Sebastian in The Little Mermaid?",
 "answ":"CRAB",
 "answ2":"Crab.",
 },
@@ -2916,7 +2916,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"The song 'I'll Make a Man Out of You', is performed while young men are trained to be soldiers for war in what Disney film?",
+"ques":"The song 'I'll Make a Man Out of You', is performed while young men are trained to be soldiers for war in what film?",
 "answ":"MULAN",
 "answ2":"Mulan.",
 },
@@ -2928,7 +2928,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"This Academy Award winning actress played Lady Tremaine, the evil stepmother in Disney's live-action adaptation of Cinderella.",
+"ques":"This Oscar winning actress played Lady Tremaine, the evil stepmother in Disney's live-action adaptation of Cinderella.",
 "answ":"CATE BLANCHETT",
 "answ3":"KATE BLANCHETT",
 "answ2":"Cate Blanchett.",
@@ -4464,7 +4464,7 @@ var question001 = [
 "cat":"Disney",
 "ques":"What classic Disney character learns the way of the gaucho in a segment of Saludos Amigos?",
 "answ":"GOOFY",
-"answ2":"Goofy .",
+"answ2":"Goofy.",
 },
 {
 "cat":"Disney",

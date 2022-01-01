@@ -1067,6 +1067,13 @@ var fivepointer001 = [
 "answ2":"Bren Derlin.",
 },
 {
+"cat":"Swashbuckling Adventure",
+"ques":"In Indiana Jones and The Temple of Doom, Lao Che hires Indy to retrieve the remains of what historical figure?",
+"answ":"NURHACHI",
+"answ3":"NURHACI",
+"answ2":"Nurhachi.",
+},
+{
 "cat":"X-Men",
 "ques":"Who played Yuriko aka Lady Deathstrike in X2: X-Men United?",
 "answ":"KELLY HU",

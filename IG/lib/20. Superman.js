@@ -7,6 +7,12 @@ var superman = [
 },
 {
 "cat":"Superman",
+"ques":"What is the title of the news article that Lois is writing at the end of Superman Returns?",
+"answ":"WHY THE WORLD NEEDS SUPERMAN",
+"answ2":"Why the World Needs Superman.",
+},
+{
+"cat":"Superman",
 "ques":"Mariel Hemingway plays Lacy Warfield in what film featuring Superman?",
 "answ":"SUPERMAN IV THE QUEST FOR PEACE",
 "answ3":"SUPERMAN 4 THE QUEST FOR PEACE",

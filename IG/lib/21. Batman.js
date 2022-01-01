@@ -7,6 +7,13 @@ var batman = [
 },
 {
 "cat":"Batman",
+"ques":"In Batman Forever, what is the name of the device that Riddler invents to steal information from users minds?",
+"answ":"THE BOX",
+"answ3":"BOX",
+"answ2":"The Box.",
+},
+{
+"cat":"Batman",
 "ques":"In The Dark Knight, what was the name of the Gotham City Police Commissioner that Gordon took over for after he was poisoned by Joker?",
 "answ":"LOEB",
 "answ2":"Loeb.",

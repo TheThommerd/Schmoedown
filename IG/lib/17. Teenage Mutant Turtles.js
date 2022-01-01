@@ -8,6 +8,12 @@ var tmnt = [
 },
 {
 "cat":"Teenage Mutant Ninja Turtles",
+"ques":"In 2007's TMNT, what Star Trek actor voices the immortal warlord Yaotl who longs to be mortal?",
+"answ":"PATRICK STEWART",
+"answ2":"Patrick Stewart.",
+},
+{
+"cat":"Teenage Mutant Ninja Turtles",
 "ques":"Who provides the voice of Raphael in 2007's TMNT?",
 "answ":"NOLAN NORTH",
 "answ2":"Nolan North.",

@@ -131,7 +131,7 @@ var dcmovies = [
 "cat":"DC Movies",
 "ques":"In Swamp Thing, who plays Alec Holland, the scientist who becomes Swamp Thing?",
 "answ":"RAY WISE",
-"answ2":"Ray Wise .",
+"answ2":"Ray Wise.",
 },
 {
 "cat":"DC Movies",

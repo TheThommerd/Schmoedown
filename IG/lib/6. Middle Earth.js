@@ -8,6 +8,12 @@ var lotr = [
 },
 {
 "cat":"Middle Earth",
+"ques":"John Rhys-Davies plays Gimli and what other role in The Two Towers and Return of the King?",
+"answ":"TREEBEARD",
+"answ2":"Treebeard.",
+},
+{
+"cat":"Middle Earth",
 "ques":"In The Two Towers, Treebeard describes what animals that climb up and tickle him awfully?",
 "answ":"MICE",
 "answ3":"MOUSE",

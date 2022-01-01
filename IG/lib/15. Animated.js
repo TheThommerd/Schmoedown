@@ -8,6 +8,12 @@ var animated = [
 },
 {
 "cat":"Animated",
+"ques":"Who voices Gwen Stacy in Spider-Man: Into the Spider-Verse?",
+"answ":"HAILEE STEINFELD",
+"answ2":"Hailee Steinfeld.",
+},
+{
+"cat":"Animated",
 "ques":"What year saw the release of Incredibles 2?",
 "answ":"2018",
 "answ2":"2018.",

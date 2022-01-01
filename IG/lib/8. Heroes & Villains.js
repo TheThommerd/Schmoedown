@@ -7,6 +7,12 @@ var heroesvillains = [
 },
 {
 "cat":"Heroes & Villains",
+"ques":"This actor portrayed villains in The Empire Strikes Back and Indiana Jones and the Last Crusade.",
+"answ":"JULIAN GLOVER",
+"answ2":"Julian Glover.",
+},
+{
+"cat":"Heroes & Villains",
 "ques":"Who plays Narcissa Malfoy in the Harry Potter franchise?",
 "answ":"HELEN MCCRORY",
 "answ2":"Helen McCrory.",
@@ -111,7 +117,7 @@ var heroesvillains = [
 "cat":"Heroes & Villains",
 "ques":"Who voices the evil Parallax in Green Lantern?",
 "answ":"CLANCY BROWN",
-"answ2":"Clancy Brown .",
+"answ2":"Clancy Brown.",
 },
 {
 "cat":"Heroes & Villains",

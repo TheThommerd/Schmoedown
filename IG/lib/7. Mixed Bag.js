@@ -8,6 +8,24 @@ var mixedbag = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"In Sky High, who plays Jonathan Boy, the Commander's old sidekick who works as a Hero Support teacher at Sky High?",
+"answ":"DAVE FOLEY",
+"answ2":"Dave Foley.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In The Mask, who plays Dr. Arthur Neuman, an author who Stanley Ipkiss goes to for advice on masks?",
+"answ":"BEN STEIN",
+"answ2":"Ben Stein.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who stars as the titular priest who disobeys church law to track down vampires who kidnapped his niece in the 2011 comic book adaptation?",
+"answ":"PAUL BETTANY",
+"answ2":"Paul Bettany.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Who directed the 1995 film Tank Girl?",
 "answ":"RACHEL TALALAY",
 "answ2":"Rachel Talalay.",

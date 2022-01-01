@@ -8,6 +8,12 @@ var spiderman = [
 },
 {
 "cat":"Spider-Man",
+"ques":"Who plays Robbie Robertson in the Sam Raimi Spider-Man films?",
+"answ":"BILL NUNN",
+"answ2":"Bill Nunn.",
+},
+{
+"cat":"Spider-Man",
 "ques":"Dr. Curt Connors says the line: 'I want to create a world without weakness' in which Spider-Man film?",
 "answ":"THE AMAZING SPIDER MAN",
 "answ3":"AMAZING SPIDER MAN",

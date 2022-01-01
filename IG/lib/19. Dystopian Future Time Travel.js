@@ -7,6 +7,18 @@ var dystopiantime = [
 },
 {
 "cat":"Dystopian Future/Time Travel",
+"ques":"In The Matrix trilogy, what is the name of the Prophet who assists Neo in his quest?",
+"answ":"THE ORACLE",
+"answ2":"The Oracle.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
+"ques":"In Snowpiercer, who stars as Curtis Everett, the heroic leader of the revolution?",
+"answ":"CHRIS EVANS",
+"answ2":"Chris Evans.",
+},
+{
+"cat":"Dystopian Future/Time Travel",
 "ques":"Who stars as Rev-9, an advanced Terminator that originated from Legion and was sent back in time to terminate Dani in Terminator: Dark Fate?",
 "answ":"GABRIEL LUNA",
 "answ2":"Gabriel Luna.",

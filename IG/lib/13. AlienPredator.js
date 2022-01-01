@@ -7,6 +7,18 @@ var alienpredator = [
 },
 {
 "cat":"Alien/Predator",
+"ques":"Which film in the Predator franchise opens with a character awakening to discover he's parachuting into a jungle?",
+"answ":"PREDATORS",
+"answ2":"Predators.",
+},
+{
+"cat":"Alien/Predator",
+"ques":"In Aliens, what is the real first name of the colony survivor who Ripley and crew call Newt?",
+"answ":"REBECCA",
+"answ2":"Rebecca.",
+},
+{
+"cat":"Alien/Predator",
 "ques":"What is the name of the portable minigun owned by Blain in Predator?",
 "answ":"OLD PAINLESS",
 "answ2":"Old Painless.",

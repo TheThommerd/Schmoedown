@@ -8,6 +8,20 @@ var startrek = [
 },
 {
 "cat":"Star Trek",
+"ques":"What is the name of the star base that is attacked by Captain Balthazar Edison in Star Trek Beyond?",
+"answ":"YORKTOWN",
+"answ3":"STARBASE YORKTOWN",
+"answ2":"Yorktown.",
+},
+{
+"cat":"Star Trek",
+"ques":"Who was revealed to be David Marcus' father in Star Trek II: The Wrath of Khan?",
+"answ":"JAMES KIRK",
+"answ3":"CAPTAIN KIRK",
+"answ2":"James Kirk/Captain Kirk.",
+},
+{
+"cat":"Star Trek",
 "ques":"In the closing narration of Star Trek Beyond, which crew member says the film's final line: 'To boldly go where no one has gone before'?",
 "answ":"UHURA",
 "answ3":"NYOTA UHURA",

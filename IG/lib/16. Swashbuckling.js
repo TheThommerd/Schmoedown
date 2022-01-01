@@ -8,6 +8,38 @@ var swashbuckling = [
 },
 {
 "cat":"Swashbuckling Adventure",
+"ques":"In Pirates of the Caribbean: The Curse of The Black Pearl, what is the name of the island that houses the looted treasure taken by the crew of The Black Pearl?",
+"answ":"ISLA DE MUERTA",
+"answ2":"Isla de Muerta.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"What famous pirate is the villain of Pirates in the Caribbean: On Stranger Tides?",
+"answ":"BLACKBEARD",
+"answ2":"Blackbeard.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Who plays Tonto in 2013's The Lone Ranger?",
+"answ":"JOHNNY DEPP",
+"answ2":"Johnny Depp.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"What artifact is Indiana Jones after in Indiana Jones and the Last Crusade?",
+"answ":"HOLY GRAIL",
+"answ3":"THE HOLY GRAIL",
+"answ2":"The Holy Grail.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"What is the name of Davy Jones's ship in the Pirates of the Caribbean franchise?",
+"answ":"THE FLYING DUTCHMAN",
+"answ3":"FLYING DUTCHMAN",
+"answ2":"The Flying Dutchman.",
+},
+{
+"cat":"Swashbuckling Adventure",
 "ques":"In Raiders of the Lost Ark, to what country does Indy fly in order to find Marion?",
 "answ":"NEPAL",
 "answ2":"Nepal.",

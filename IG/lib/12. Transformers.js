@@ -7,6 +7,19 @@ var transformers = [
 },
 {
 "cat":"Transformers",
+"ques":"What actress plays Charlie Watson in Bumblebee?",
+"answ":"HAILEE STEINFELD",
+"answ2":"Hailee Steinfeld.",
+},
+{
+"cat":"Transformers",
+"ques":"In how many of the Transformers films does Shia LaBeouf appear as Sam Witwicky?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+},
+{
+"cat":"Transformers",
 "ques":"In Transformers (2007), what is the name of the super secret government agency responsible for hiding the existence of Transformers?",
 "answ":"SECTOR SEVEN",
 "answ3":"SECTOR 7",

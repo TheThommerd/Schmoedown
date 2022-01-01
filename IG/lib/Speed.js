@@ -7,6 +7,18 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"Who portrayed Lex Luthor in 2016's Batman v Superman: Dawn of Justice?",
+"answ":"JESSE EISENBERG",
+"answ2":"Jesse Eisenberg.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What Batman film features the characters: Henri Ducard, Rachel Dawes and Carmine Falcone?",
+"answ":"BATMAN BEGINS",
+"answ2":"Batman Begins.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"In Iron Man, what does the 'I' in S.H.I.E.L.D. stand for?",
 "answ":"INTERVENTION",
 "answ2":"Intervention.",

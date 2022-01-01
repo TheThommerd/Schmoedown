@@ -7,6 +7,19 @@ var harrypotter = [
 },
 {
 "cat":"Wizarding World",
+"ques":"Who is the only member of the Hogwarts founders that Voldemort was unable to obtain an item from to create a Horcrux?",
+"answ":"GODRIC GRYFFINDOR",
+"answ3":"GRYFFINDOR",
+"answ2":"Godric Gryffindor.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In Harry Potter and the Order of the Phoenix, which character drops the prophecy, destroying it?",
+"answ":"LUCIUS MALFOY",
+"answ2":"Lucius Malfoy.",
+},
+{
+"cat":"Wizarding World",
 "ques":"What is the name of the home where Dobby is buried at the beginning of Harry Potter and the Deathly Hallows Part 2?",
 "answ":"SHELL COTTAGE",
 "answ2":"Shell Cottage.",
@@ -1136,7 +1149,7 @@ var harrypotter = [
 "ques":"What actor plays Mad-Eye Moody in the Harry Potter series?",
 "answ":"BRENDAN GLEESON",
 "answ3":"BRENDAN GLEASON",
-"answ2":"Brendan Gleeson .",
+"answ2":"Brendan Gleeson.",
 },
 {
 "cat":"Wizarding World",

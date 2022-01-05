@@ -177,8 +177,7 @@ var comedy = [
 {
 "cat":"Comedies",
 "ques":"Ashton Kutcher and Seann William Scott star in what 2000s stoner comedy?",
-"answ":"DUDE WHERE'S MY CAR?",
-"answ3":"DUDE WHERE'S MY CAR",
+"answ":"DUDE WHERE'S MY CAR",
 "answ2":"Dude Where's My Car?.",
 },
 {

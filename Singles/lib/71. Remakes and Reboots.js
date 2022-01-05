@@ -88,8 +88,7 @@ var r2Q71 = [
 {
 "cat":"Remakes and Reboots",
 "ques":"What is the title of the 2020 animated reboot of the Scooby-Doo franchise?",
-"answ":"SCOOB!",
-"answ3":"SCOOB",
+"answ":"SCOOB",
 "answ2":"Scoob!.",
 },
 {

@@ -102,7 +102,6 @@ var animated = [
 "cat":"Animated",
 "ques":"Which Pixar film features characters named Carl, Ellie, Russell and Dug?",
 "answ":"UP",
-"answ3":"UP!",
 "answ2":"Up.",
 },
 {

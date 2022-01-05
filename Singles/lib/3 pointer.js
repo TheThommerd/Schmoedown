@@ -25,12 +25,6 @@ var threepointer001 = [
 "answ2":"Shaft.",
 },
 {
-"cat":"Martial Arts",
-"ques":"What 2012 martial arts action film was made in Indonesia and directed by Gareth Evans?",
-"answ":"THE RAID",
-"answ2":"The Raid.",
-},
-{
 "cat":"Action/Adventure",
 "ques":"Who plays the avatar Ruby Roundhouse in Jumanji: Welcome to the Jungle?",
 "answ":"KAREN GILLAN",
@@ -67,12 +61,6 @@ var threepointer001 = [
 "answ":"RED 2",
 "answ3":"RED II",
 "answ2":"Red 2.",
-},
-{
-"cat":"Martial Arts",
-"ques":"The Raid series takes place in which country?",
-"answ":"INDONESIA",
-"answ2":"Indonesia.",
 },
 {
 "cat":"Action/Adventure",
@@ -193,12 +181,6 @@ var threepointer001 = [
 "ques":"Which Star Wars actor stars as a young car lover in 1978's Corvette Summer?",
 "answ":"MARK HAMILL",
 "answ2":"Mark Hamill.",
-},
-{
-"cat":"Mystery",
-"ques":"Who directed 1974's Murder on the Orient Express?",
-"answ":"SIDNEY LUMET",
-"answ2":"Sidney Lumet.",
 },
 {
 "cat":"70s",
@@ -424,12 +406,6 @@ var threepointer001 = [
 "ques":"Naomi Watts and Viggo Mortensen star together in which 2007 film about Russian gangsters in London?",
 "answ":"EASTERN PROMISES",
 "answ2":"Eastern Promises.",
-},
-{
-"cat":"Sandra Bullock",
-"ques":"Who plays the TV news camerman Sandra Bullock becomes obsessed with after a single date in 2009's All About Steve?",
-"answ":"BRADLEY COOPER",
-"answ2":"Bradley Cooper.",
 },
 {
 "cat":"2000s",
@@ -906,58 +882,6 @@ var threepointer001 = [
 "ques":"Doug Liman directed Brad Pitt in what 2000s action film?",
 "answ":"MR AND MRS SMITH",
 "answ2":"Mr. & Mrs. Smith.",
-},
-{
-"cat":"Cameron Diaz",
-"ques":"What actor plays the guy Cameron Diaz falls for in The Holiday?",
-"answ":"JUDE LAW",
-"answ2":"Jude Law.",
-},
-{
-"cat":"Cameron Diaz",
-"ques":"In Vanilla Sky, Cameron Diaz and Tom Cruise's characters suffer what type of accident, with dire consequences?",
-"answ":"CAR ACCIDENT",
-"answ3":"CAR CRASH",
-"answ2":"Car accident.",
-},
-{
-"cat":"Cameron Diaz",
-"ques":"In Any Given Sunday, what is the name of the football team that Cameron Diaz owns and manages?",
-"answ":"MIAMI SHARKS",
-"answ3":"THE MIAMI SHARKS",
-"answ2":"Miami Sharks.",
-},
-{
-"cat":"Cameron Diaz",
-"ques":"In There's Something About Mary, who plays private detective Pat Healy who Ben Stiller hires to find Mary?",
-"answ":"MATT DILLON",
-"answ2":"Matt Dillon.",
-},
-{
-"cat":"Cameron Diaz",
-"ques":"In Being John Malkovich, who plays Maxine Lund, Schwartz's coworker who Cameron Diaz's Lotte eventually falls in love with?",
-"answ":"CATHERINE KEENER",
-"answ3":"KATHERINE KEENER",
-"answ2":"Catherine Keener.",
-},
-{
-"cat":"Cate Blanchett",
-"ques":"Who directed Cate Blanchett in the 2015 version of Cinderella?",
-"answ":"KENNETH BRANAGH",
-"answ2":"Kenneth Branagh.",
-},
-{
-"cat":"Cate Blanchett",
-"ques":"What 2013 drama stars Cate Blanchett, Sally Hawkins and Alec Baldwin?",
-"answ":"BLUE JASMINE",
-"answ3":"BLUE JASMIN",
-"answ2":"Blue Jasmine.",
-},
-{
-"cat":"Cate Blanchett",
-"ques":"What is the name of the demonic creature that ultimately defeats Hela in Thor: Ragnarok?",
-"answ":"SURTUR",
-"answ2":"Surtur.",
 },
 {
 "cat":"Charlize Theron",
@@ -1733,12 +1657,6 @@ var threepointer001 = [
 "answ2":"Roberto Benigni.",
 },
 {
-"cat":"Matthew McConaughey",
-"ques":"In Dallas Buyers Club, what actress plays Dr. Eve Saks who attempts to help Ron with his diagnosis?",
-"answ":"JENNIFER GARNER",
-"answ2":"Jennifer Garner.",
-},
-{
 "cat":"Dramas",
 "ques":"In the fantasy drama The Shape of Water, who plays Elisa's best friend and fellow custodian Zelda?",
 "answ":"OCTAVIA SPENCER",
@@ -2064,6 +1982,13 @@ var threepointer001 = [
 "answ2":"Tessa Thompson.",
 },
 {
+"cat":"Natalie Portman",
+"ques":"Natalie Portman describes what comedy title character as 'almost too good looking' during a short cameo?",
+"answ":"ZOOLANDER",
+"answ3":"DEREK ZOOLANDER",
+"answ2":"Zoolander.",
+},
+{
 "cat":"Fantasy/Sci-fi",
 "ques":"Chris Pratt and Jennifer Lawrence co-star in what 2016 sci-fi film?",
 "answ":"PASSENGERS",
@@ -2099,12 +2024,6 @@ var threepointer001 = [
 "answ":"CASPER VAN DIEN",
 "answ3":"CASPER VANDIEN",
 "answ2":"Casper Van Dien.",
-},
-{
-"cat":"Remakes & Reboots",
-"ques":"Which 1972 Soviet sci-fi film was remade in 2002 starring George Clooney and Natascha McElhone?",
-"answ":"SOLARIS",
-"answ2":"Solaris.",
 },
 {
 "cat":"Transformers",
@@ -2225,18 +2144,6 @@ var threepointer001 = [
 "ques":"Who played Lee Harvey Oswald in Oliver Stone's JFK?",
 "answ":"GARY OLDMAN",
 "answ2":"Gary Oldman.",
-},
-{
-"cat":"Alfred Hitchcock",
-"ques":"Hitchcock's first cameo in a color film was in what movie with a one-word title?",
-"answ":"ROPE",
-"answ2":"Rope.",
-},
-{
-"cat":"Alfred Hitchcock",
-"ques":"James Stewart plays a character by the name of L.B. Jefferies in which Hitchcock film?",
-"answ":"REAR WINDOW",
-"answ2":"Rear Window.",
 },
 {
 "cat":"Holiday Movies",
@@ -2464,35 +2371,10 @@ var threepointer001 = [
 "answ2":"Kevin Pollak.",
 },
 {
-"cat":"Martial Arts",
-"ques":"Lance Henriksen plays Emil Fouchon, a wealthy sportsman who hunts former soldiers in what 1993 film?",
-"answ":"HARD TARGET",
-"answ2":"Hard Target.",
-},
-{
-"cat":"Matt & Ben",
-"ques":"What is the first film that featured Matt Damon and Ben Affleck in the same cast?",
-"answ":"SCHOOL TIES",
-"answ2":"School Ties.",
-},
-{
 "cat":"Martin Scorsese",
 "ques":"Who plays Iris' manipulative pimp named 'Sport' in Taxi Driver?",
 "answ":"HARVEY KEITEL",
 "answ2":"Harvey Keitel.",
-},
-{
-"cat":"Meryl Streep",
-"ques":"Meryl Streep famously said the line: 'The Dingo's got my baby' in what movie?",
-"answ":"A CRY IN THE DARK",
-"answ3":"EVIL ANGELS",
-"answ2":"A Cry in the Dark/Evil Angels.",
-},
-{
-"cat":"Meryl Streep",
-"ques":"In what 2008 drama do Meryl Streep and Amy Adams play nuns?",
-"answ":"DOUBT",
-"answ2":"Doubt.",
 },
 {
 "cat":"Musicals",
@@ -2624,7 +2506,7 @@ var threepointer001 = [
 "cat":"Movie Quotes",
 "ques":"In what 2000s comedy will you hear J.K. Simmons say: 'I want you boys to know, you're both my best friends...and Hank Mardukas.'?",
 "answ":"I LOVE YOU MAN",
-"answ3":"I LOVE YOU, MAN",
+"answ3":"I LOVE YOU  MAN",
 "answ2":"I Love You, Man.",
 },
 {
@@ -2884,44 +2766,6 @@ var threepointer001 = [
 "ques":"Who directed The Mask?",
 "answ":"CHUCK RUSSELL",
 "answ2":"Chuck Russell.",
-},
-{
-"cat":"Matthew McConaughey",
-"ques":"In which movie did Matthew McConaughey take on the role of historical figure Roger Sherman Baldwin?",
-"answ":"AMISTAD",
-"answ2":"Amistad.",
-},
-{
-"cat":"Matthew McConaughey",
-"ques":"Who played the main child in Mud with Matthew McConaughey?",
-"answ":"TYE SHERIDAN",
-"answ3":"TY SHERIDAN",
-"answ2":"Tye Sheridan.",
-},
-{
-"cat":"Matthew McConaughey",
-"ques":"Who played doctor Eva Rojas opposite McConaughey in Sahara?",
-"answ":"PENELOPE CRUZ",
-"answ2":"Penelope Cruz.",
-},
-{
-"cat":"Matthew McConaughey",
-"ques":"In what 2012 movie will you find McConaughey play a character named Dallas?",
-"answ":"MAGIC MIKE",
-"answ2":"Magic Mike.",
-},
-{
-"cat":"Matthew McConaughey",
-"ques":"Natalie Portman describes what comedy title character as 'almost too good looking' during a short cameo?",
-"answ":"ZOOLANDER",
-"answ3":"DEREK ZOOLANDER",
-"answ2":"Zoolander.",
-},
-{
-"cat":"Matthew McConaughey",
-"ques":"What is the name of Matthew McConaughey's character in the film Mud?",
-"answ":"MUD",
-"answ2":"Mud.",
 },
 {
 "cat":"Natalie Portman",
@@ -3253,38 +3097,6 @@ var threepointer001 = [
 "answ2":"A Far Off Place.",
 },
 {
-"cat":"Remakes and Reboots",
-"ques":"Who plays the role of Peter Vincent in 2011's Fright Night?",
-"answ":"DAVID TENNANT",
-"answ2":"David Tennant.",
-},
-{
-"cat":"Remakes and Reboots",
-"ques":"What 1976 Brian De Palma film was remade in 2013?",
-"answ":"CARRIE",
-"answ2":"Carrie.",
-},
-{
-"cat":"Remakes and Reboots",
-"ques":"What 1979 horror film directed by Stuart Rosenberg was remade in 2005?",
-"answ":"THE AMITYVILLE HORROR",
-"answ3":"AMITYVILLE HORROR",
-"answ2":"The Amityville Horror.",
-},
-{
-"cat":"Remakes and Reboots",
-"ques":"Johnny Depp and Angelina Jolie star in what 2010 mystery thriller?",
-"answ":"THE TOURIST",
-"answ2":"The Tourist.",
-},
-{
-"cat":"Remakes and Reboots",
-"ques":"What remake stars Denzel Washington, Chris Pratt, Ethan Hawke and Vincent D'Onofrio?",
-"answ":"THE MAGNIFICENT SEVEN",
-"answ3":"MAGNIFICENT SEVEN",
-"answ2":"The Magnificent Seven.",
-},
-{
 "cat":"Romance",
 "ques":"In Love Actually which actor falls in love with his non-English speaking housekeeper?",
 "answ":"COLIN FIRTH",
@@ -3404,6 +3216,12 @@ var threepointer001 = [
 "answ":"THUNDERBIRD",
 "answ3":"FORD THUNDERBIRD",
 "answ2":"Ford Thunderbird.",
+},
+{
+"cat":"Sandra Bullock",
+"ques":"Who plays the TV news camerman Sandra Bullock becomes obsessed with after a single date in 2009's All About Steve?",
+"answ":"BRADLEY COOPER",
+"answ2":"Bradley Cooper.",
 },
 {
 "cat":"Sandra Bullock",

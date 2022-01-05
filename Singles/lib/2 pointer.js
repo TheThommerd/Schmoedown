@@ -1373,8 +1373,7 @@ var twopointer = [
 {
 "cat":"Tyler Perry",
 "ques":"Which Tyler Perry film has the tagline: 'Trick or Treat Fools'?",
-"answ":"BOO! A MADEA HALLOWEEN",
-"answ3":"BOO A MADEA HALLOWEEN",
+"answ":"BOO A MADEA HALLOWEEN",
 "answ2":"Boo! A Madea Halloween.",
 },
 {

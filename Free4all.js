@@ -662,7 +662,7 @@ var question001 = [
 "cat":"Will Smith",
 "ques":"Will Smith appears as Detective Del Spooner in what 2000s science fiction film?",
 "answ":"I ROBOT",
-"answ3":"I, ROBOT",
+"answ3":"I  ROBOT",
 "answ2":"I, Robot.",
 },
 {

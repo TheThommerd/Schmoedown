@@ -1152,7 +1152,6 @@ var question001 = [
 "cat":"Disney",
 "ques":"In what film will you find the quote: 'That might sound boring, but I think the boring stuff is the stuff I remember the most'?",
 "answ":"UP",
-"answ3":"UP!",
 "answ2":"Up!.",
 },
 {

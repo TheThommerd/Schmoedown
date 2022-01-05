@@ -1059,7 +1059,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Comedies",
-"ques":"Jennifer Aniston played Carol Vanstone, interim CEO  of Zenotek's Chicago branch, opposite Jason Bateman in this 2016 comedy.",
+"ques":"Jennifer Aniston played Carol Vanstone, interim CEO of Zenotek's Chicago branch, opposite Jason Bateman in this 2016 comedy.",
 "answ":"OFFICE CHRISTMAS PARTY",
 "answ2":"Office Christmas Party.",
 },
@@ -1985,7 +1985,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Halle Berry",
-"ques":"How many roles does Halle Berry play in  the 2012 sci-fi drama Cloud Atlas?",
+"ques":"How many roles does Halle Berry play in the 2012 sci-fi drama Cloud Atlas?",
 "answ":"6",
 "answ3":"SIX",
 "answ2":"6.",

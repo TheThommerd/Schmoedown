@@ -16,7 +16,7 @@ var disney = [
 "cat":"Disney",
 "ques":"What 2000s animated film, was the second theatrically released installment in the Winnie the Pooh franchise?",
 "answ":"THE TIGGER MOVIE",
-"answ":"TIGGER MOVIE",
+"answ3":"TIGGER MOVIE",
 "answ2":"The Tigger Movie.",
 },
 {

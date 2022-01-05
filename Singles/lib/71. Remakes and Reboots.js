@@ -7,12 +7,18 @@ var r2Q71 = [
 },
 {
 "cat":"Remakes and Reboots",
+"ques":"Which British actress played Riley Stone in 2019's Black Christmas?",
+"answ":"IMOGEN POOTS",
+"answ2":"Imogen Poots.",
+},
+{
+"cat":"Remakes and Reboots",
 "ques":"Dominic West, Wayne Knight and Julie Benz all feature in what 2008 comic book reboot?",
 "answ":"PUNISHER WAR ZONE",
 "answ2":"Punisher: War Zone.",
 },
 {
-"cat":"Remakes & Reboots",
+"cat":"Remakes and Reboots",
 "ques":"Alexandre Aja directed what 2006 remake of a Wes Craven classic in which a family falls victim to mutated cannibals in the desert?",
 "answ":"THE HILLS HAVE EYES",
 "answ2":"The Hills Have Eyes.",
@@ -50,7 +56,7 @@ var r2Q71 = [
 "answ2":"The Magnificent Seven.",
 },
 {
-"cat":"Remakes & Reboots",
+"cat":"Remakes and Reboots",
 "ques":"Which 1972 Soviet sci-fi film was remade in 2002 starring George Clooney and Natascha McElhone?",
 "answ":"SOLARIS",
 "answ2":"Solaris.",

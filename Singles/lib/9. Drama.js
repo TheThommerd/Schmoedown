@@ -19,7 +19,7 @@ var dramas = [
 },
 {
 "cat":"Dramas",
-"ques":"Which 2010 film  tells the story of Mary Surratt, the only female conspirator charged in the Abraham Lincoln assassination and the first woman to be executed by the US federal government?",
+"ques":"Which 2010 film tells the story of Mary Surratt, the only female conspirator charged in the Abraham Lincoln assassination and the first woman to be executed by the US federal government?",
 "answ":"THE CONSPIRATOR",
 "answ2":"The Conspirator.",
 },

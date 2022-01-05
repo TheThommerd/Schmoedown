@@ -94,7 +94,7 @@ var westerns = [
 },
 {
 "cat":"Westerns",
-"ques":"Name 1 of the 2 brothers from  2018's The Sisters Brothers.",
+"ques":"Name 1 of the 2 brothers from 2018's The Sisters Brothers.",
 "answ":"JOHN C REILLY",
 "answ3":"JOAQUIN PHOENIX",
 "answ2":"John C. Reilly/Joaquin Phoenix.",

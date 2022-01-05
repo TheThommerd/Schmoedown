@@ -700,7 +700,7 @@ var r2Q19 = [
 },
 {
 "cat":"Famous Actors and Actresses",
-"ques":"Who played Amber Waves in Paul Thomas Anderson's  break-out hit Boogie Nights?",
+"ques":"Who played Amber Waves in Paul Thomas Anderson's break-out hit Boogie Nights?",
 "answ":"JULIANNE MOORE",
 "answ2":"Julianne Moore.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Heather Graham</button><button id=incop2 class=buttons003 onclick=qinc()>Nicole Kidman</button><button id=corop class=buttons003 onclick=qcor()>Julianne Moore</button><button id=incop4 class=buttons003 onclick=qinc()>Cameron Diaz</button><br/>",

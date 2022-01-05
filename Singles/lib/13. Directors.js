@@ -709,7 +709,6 @@ var directors = [
 "ques":"Who directed Bill Murray and Richard Dreyfuss in the comedy What About Bob?",
 "answ":"FRANK OZ",
 "answ2":"Frank Oz.",
-"option":"<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=churtecker()>Submit Answer</button>",
 },
 {
 "cat":"Directors",

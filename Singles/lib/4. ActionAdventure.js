@@ -818,7 +818,7 @@ var actionadventure = [
 "cat":"Action/Adventure",
 "ques":"What action franchise features such characters as Jim Phelps, Owen Davian and Ilsa Faust?",
 "answ":"MISSION IMPOSSIBLE",
-"answ3":"MISSION  IMPOSSIBLE",
+"answ3":"MISSION IMPOSSIBLE FRANCHISE",
 "answ2":"Mission Impossible.",
 },
 {

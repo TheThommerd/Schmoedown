@@ -155,7 +155,7 @@ var r2Q69 = [
 },
 {
 "cat":"YA Adaptations",
-"ques":"Who played the vile President Coriolanus Snow  in The Hunger Games?",
+"ques":"Who played the vile President Coriolanus Snow in The Hunger Games?",
 "answ":"DONALD SUTHERLAND",
 "answ2":"Donald Sutherland.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Christopher Plummer</button><button id=corop class=buttons003 onclick=qcor()>Donald Sutherland</button><button id=incop3 class=buttons003 onclick=qinc()>Ian McKellen</button><button id=incop4 class=buttons003 onclick=qinc()>Michael Gambon</button><br/>",

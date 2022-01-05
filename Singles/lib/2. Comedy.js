@@ -1703,7 +1703,7 @@ var comedy = [
 },
 {
 "cat":"Comedies",
-"ques":"What 2005 comedy features a thief masquerading as an actor, a private eye, and a struggling actress tyring to solve  a murder mystery in Los Angeles?",
+"ques":"What 2005 comedy features a thief masquerading as an actor, a private eye, and a struggling actress tyring to solve a murder mystery in Los Angeles?",
 "answ":"KISS KISS BANG BANG",
 "answ2":"Kiss Kiss Bang Bang.",
 },

@@ -479,7 +479,7 @@ var crime = [
 },
 {
 "cat":"Crime",
-"ques":"Who played  Elvis Presley fanatic Clarence Worley in True Romance?",
+"ques":"Who played Elvis Presley fanatic Clarence Worley in True Romance?",
 "answ":"CHRISTIAN SLATER",
 "answ2":"Christian Slater.",
 },

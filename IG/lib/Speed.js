@@ -125,7 +125,7 @@ var speedquestion001 = [
 "cat":"Mixed Bag",
 "ques":"Nicolas Cage was in two superhero films in 2018, one was Spider-Man: Into the Spider-Verse, what is the other one?",
 "answ":"TEEN TITANS GO TO THE MOVIES",
-"answ3":"TEEN TITANS GO! TO THE MOVIES",
+"answ3":"TEEN TITANS GO  TO THE MOVIES",
 "answ2":"Teen Titans Go! To the Movies.",
 },
 {

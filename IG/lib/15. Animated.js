@@ -42,7 +42,7 @@ var animated = [
 "cat":"Animated",
 "ques":"What 2018 animated superhero film features the song 'My Superhero Movie'?",
 "answ":"TEEN TITANS GO TO THE MOVIES",
-"answ3":"TEEN TITANS GO! TO THE MOVIES",
+"answ3":"TEEN TITANS GO  TO THE MOVIES",
 "answ2":"Teen Titans Go! to the Movies.",
 },
 {

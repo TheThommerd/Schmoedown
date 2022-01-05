@@ -2469,7 +2469,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":" What is the name of the yodelling cowgirl that Woody meets in Toy Story 2?",
+"ques":"What is the name of the yodelling cowgirl that Woody meets in Toy Story 2?",
 "answ":"JESSIE",
 "answ3":"JESSY",
 "answ2":"Jessie.",
@@ -2812,7 +2812,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"'Chim Chim Cher-ee'  is a song from which Disney film?",
+"ques":"'Chim Chim Cher-ee' is a song from which Disney film?",
 "answ":"MARY POPPINS",
 "answ2":"Mary Poppins.",
 },
@@ -2896,7 +2896,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":" What us the name of Wendy Darlings mother in Peter Pan?",
+"ques":"What us the name of Wendy Darlings mother in Peter Pan?",
 "answ":"MARY",
 "answ3":"MARY DARLING",
 "answ2":"Mary Darling.",
@@ -3719,7 +3719,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"In Toy Story 2, which character tells Buzz that he’s his father? ",
+"ques":"In Toy Story 2, which character tells Buzz that he’s his father?",
 "answ":"EMPEROR ZURG",
 "answ3":"ZURG",
 "answ2":"Emperor Zurg.",
@@ -3964,7 +3964,7 @@ var question001 = [
 },
 {
 "cat":"Disney",
-"ques":"In Atlantis: The Lost Empire, Milo is cartographer from what institute? ",
+"ques":"In Atlantis: The Lost Empire, Milo is cartographer from what institute?",
 "answ":"SMITHSONIAN",
 "answ3":"THE SMITHSONIAN",
 "answ2":"The Smithsonian.",

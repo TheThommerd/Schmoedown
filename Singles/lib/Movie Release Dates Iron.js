@@ -1710,12 +1710,6 @@ var question001 = [
 },
 {
 "cat":"Movie Release Dates",
-"ques":" was released in what year?",
-"answ":"1991",
-"answ2":"1991.",
-},
-{
-"cat":"Movie Release Dates",
 "ques":"The original Beauty and the Beast was released in what year?",
 "answ":"1991",
 "answ2":"1991.",
@@ -3792,7 +3786,7 @@ var question001 = [
 },
 {
 "cat":"Movie Release Dates",
-"ques":"In what year was David Fincher's The Social Network  released?",
+"ques":"In what year was David Fincher's The Social Network released?",
 "answ":"2010",
 "answ2":"2010.",
 },

@@ -326,7 +326,7 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"According to Jedi Code, how many padawans  can a Jedi master take on at one time?",
+"ques":"According to Jedi Code, how many padawans can a Jedi master take on at one time?",
 "answ":"1",
 "answ3":"ONE",
 "answ2":"1.",

@@ -26,7 +26,7 @@ var episodev = [
 "answ2":"Admiral Ozzel.",
 },
 {
-"cat":"The Empire Strikes Back ",
+"cat":"The Empire Strikes Back",
 "ques":"In The Empire Strikes Back, when told of the rebels plan for evacuating Hoth, what rebel pilot asked Leia: 'Two fighters against a Star Destroyer?'",
 "answ":"HOBBIE",
 "answ3":"DEREK KLIVIAN",

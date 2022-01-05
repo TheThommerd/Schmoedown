@@ -399,7 +399,7 @@ var r2Q23 = [
 "answ":"PIZZA DELIVERY MAN",
 "answ3":"PIZZA DELIVERY",
 "answ2":"Pizza Delivery.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Pizza Delivery</button><button id=incop2 class=buttons003 onclick=qinc()>Librarian</button><button id=incop3 class=buttons003 onclick=qinc()>Ice Cream  Vendor</button><button id=incop4 class=buttons003 onclick=qinc()>Waiter</button><br/>",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Pizza Delivery</button><button id=incop2 class=buttons003 onclick=qinc()>Librarian</button><button id=incop3 class=buttons003 onclick=qinc()>Ice Cream Vendor</button><button id=incop4 class=buttons003 onclick=qinc()>Waiter</button><br/>",
 },
 {
 "cat":"Spider-Man",

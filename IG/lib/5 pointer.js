@@ -1095,7 +1095,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Superman",
-"ques":"In Man of Steel, Michael Kelly plays an  employee at the Daily Planet. What is the name of his character?",
+"ques":"In Man of Steel, Michael Kelly plays an employee at the Daily Planet. What is the name of his character?",
 "answ":"STEVE",
 "answ3":"STEVE LOMBARD",
 "answ2":"Steve Lombard.",
@@ -1111,7 +1111,7 @@ var fivepointer001 = [
 "ques":"In TMNT: Out of the Shadows, the film begins with the Turtles attending a basketball game for which team?",
 "answ":"NEW YORK KNICKS",
 "answ3":"NEW YORK KNICKERBOXERS",
-"answ2":" New York Knicks.",
+"answ2":"New York Knicks.",
 },
 {
 "cat":"Wizarding World",

@@ -314,7 +314,7 @@ var marvelmovies = [
 },
 {
 "cat":"Marvel Movies",
-"ques":"What  city does Natasha find Clint in before the time heist in Endgame?",
+"ques":"What city does Natasha find Clint in before the time heist in Endgame?",
 "answ":"TOKYO",
 "answ2":"Tokyo.",
 },

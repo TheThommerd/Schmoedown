@@ -389,7 +389,7 @@ var swashbuckling = [
 "ques":"Which actress played Elena Montero in The Mask of Zorro?",
 "answ":"CATHERINE ZETA JONES",
 "answ3":"KATHERINE ZETA JONES",
-"answ2":"Catherine Zeta-Jones. ",
+"answ2":"Catherine Zeta-Jones.",
 },
 ];
 var r2Q16 = [
@@ -729,7 +729,7 @@ var r2Q16 = [
 "ques":"Who played René Belloq in Raiders of the Lost Ark?",
 "answ":"PAUL FREEMAN",
 "answ2":"Paul Freeman.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Anthony Higgins</button><button id=incop2 class=buttons003 onclick=qinc()>John Rhys-Davies </button><button id=incop3 class=buttons003 onclick=qinc()>Ronald Lacey</button><button id=corop class=buttons003 onclick=qcor()>Paul Freeman</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Anthony Higgins</button><button id=incop2 class=buttons003 onclick=qinc()>John Rhys-Davies</button><button id=incop3 class=buttons003 onclick=qinc()>Ronald Lacey</button><button id=corop class=buttons003 onclick=qcor()>Paul Freeman</button><br/>",
 },
 {
 "cat":"Swashbuckling Adventure",

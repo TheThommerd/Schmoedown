@@ -231,7 +231,7 @@ var starwars = [
 },
 {
 "cat":"Star Wars",
-"ques":"What device does Kylo Ren find on Mustafar in the opening scene of Rise of Skywalker, that leads him to Exegol? ",
+"ques":"What device does Kylo Ren find on Mustafar in the opening scene of Rise of Skywalker, that leads him to Exegol?",
 "answ":"SITH WAYFINDER",
 "answ3":"WAYFINDER",
 "answ2":"Sith wayfinder.",

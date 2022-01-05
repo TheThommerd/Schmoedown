@@ -219,7 +219,6 @@ var episodeix = [
 "cat":"The Rise of Skywalker",
 "ques":"What is the opening line of the crawl in The Rise of Skywalker?",
 "answ":"THE DEAD SPEAK",
-"answ3":"THE DEAD SPEAK!",
 "answ2":"The dead speak!",
 },
 {

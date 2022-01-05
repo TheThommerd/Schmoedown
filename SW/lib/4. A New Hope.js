@@ -552,7 +552,7 @@ var r2Q4 = [
 {
 "cat":"A New Hope",
 "ques":"In A New Hope, what character had the first spoken line of the film?",
-"answ":"C-3PO",
+"answ":"C 3PO",
 "answ3":"C3PO",
 "answ2":"C-3PO.",
 "option":"<button id=incop1 class=buttons003 onclick=qinc()>Darth Vader</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=incop3 class=buttons003 onclick=qinc()>Princess Leia</button><button id=corop class=buttons003 onclick=qcor()>C-3PO</button><br/>",

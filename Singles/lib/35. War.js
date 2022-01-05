@@ -140,7 +140,7 @@ var r2Q35 = [
 "ques":"Who played former Olympian Louie Zamperini in 2014's Unbroken?",
 "answ":"JACK O'CONNELL",
 "answ2":"Jack O'Connell.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Jack O'Connell</button><button id=incop2 class=buttons003 onclick=qinc()>Domhnall Gleeson</button><button id=incop3 class=buttons003 onclick=qinc()>Garrett Hedlund </button><button id=incop4 class=buttons003 onclick=qinc()>Jai Courtney</button><br/>",
+"option":"<button id=corop class=buttons003 onclick=qcor()>Jack O'Connell</button><button id=incop2 class=buttons003 onclick=qinc()>Domhnall Gleeson</button><button id=incop3 class=buttons003 onclick=qinc()>Garrett Hedlund</button><button id=incop4 class=buttons003 onclick=qinc()>Jai Courtney</button><br/>",
 },
 {
 "cat":"War",

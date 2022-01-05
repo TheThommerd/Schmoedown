@@ -131,7 +131,7 @@ var crime = [
 },
 {
 "cat":"Crime",
-"ques":"You'll find the character of Michael Sullivan, an enforcer for Irish mob boss John Rooney, in what 2002 gangster film? ",
+"ques":"You'll find the character of Michael Sullivan, an enforcer for Irish mob boss John Rooney, in what 2002 gangster film?",
 "answ":"ROAD TO PERDITION",
 "answ2":"Road to Perdition.",
 },

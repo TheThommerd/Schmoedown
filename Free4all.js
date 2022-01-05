@@ -18,6 +18,18 @@ var question001 = [
 "answ2":"Captain Hook.",
 },
 {
+"cat":"Stephen King",
+"ques":"Chloë Grace Moretz and Julianne Moore appear in what 2013 film based on a Stephen King novel?",
+"answ":"CARRIE",
+"answ2":"Carrie.",
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"You'll find the trio of final girls Zoe, Abernathy and Kim in what 2007 Tarantino film?",
+"answ":"DEATH PROOF",
+"answ2":"Death Proof.",
+},
+{
 "cat":"Leonardo DiCaprio",
 "ques":"Who played Leonardo DiCaprio's father in Gangs of New York?",
 "answ":"LIAM NEESON",
@@ -5995,7 +6007,7 @@ var question001 = [
 },
 {
 "cat":"Oscar Movies",
-"ques":" Gene Hackman won a Best Actor Oscar for his performance in which 1971 film?",
+"ques":"Gene Hackman won a Best Actor Oscar for his performance in which 1971 film?",
 "answ":"THE FRENCH CONNECTION",
 "answ3":"FRENCH CONNECTION",
 "answ2":"The French Connection.",
@@ -9253,7 +9265,7 @@ var question001 = [
 "answ2":"Jodie Foster.",
 },
 {
-"cat":"Tom  Hanks",
+"cat":"Tom Hanks",
 "ques":"Tom Hanks received his fifth Best Actor Oscar nomination for his role in what 2000 film directed by Robert Zemeckis?",
 "answ":"CAST AWAY",
 "answ2":"Cast Away.",

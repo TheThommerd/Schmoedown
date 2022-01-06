@@ -543,7 +543,7 @@ var afvaller4 = "";
 var c;
 	var minimum = 0;
 function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Sim/Free4All.html");
+  window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");
 }
 function roundchecker(){
 	remain = (competitorlist.length- afvallers);

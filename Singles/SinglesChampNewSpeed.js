@@ -1661,6 +1661,11 @@ else {
 next001();
 }
 }
+
+function newLoc() {
+  window.location.assign("https://thethommerd.github.io/Schmoedown/SinglesTournament.html");
+}
+
 function winKO(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
                 window.clearInterval(update);
@@ -1688,7 +1693,7 @@ function winKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-280px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-280px";
@@ -1721,7 +1726,7 @@ function loseKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-280px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-280px";
@@ -1755,7 +1760,7 @@ function winTKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" ;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-280px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-280px";
@@ -1788,7 +1793,7 @@ function loseTKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-280px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-280px";
@@ -1821,7 +1826,7 @@ function win(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" ;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-280px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-280px";
@@ -1853,7 +1858,7 @@ function lose(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("message002").style.top = "-280px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-280px";

@@ -490,7 +490,7 @@ var accuracy = ((quescor / quescount) * 100)
 	document.getElementById("message004").style.top = "-620px";
 }
 function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Sim/Free4All.html");
+  window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");
 }
 function pregame(){
 	document.getElementById("time001").style.display = "initial";

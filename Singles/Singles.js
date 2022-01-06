@@ -68,14 +68,26 @@ wheelie = shuffle(wheelie);
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
 	document.getElementById("checkboxes").style.top = "-1040px";
+	var isFirefox = typeof InstallTrigger !== 'undefined';
+	 if (isFireFox = true) {
+	  document.getElementById("checkboxes").style.top = "-950px";
+	   }
         $(this).prop('checked', false);
     }
     if ($('input[type=checkbox]:checked').length == 6) {
 	document.getElementById("checkboxes").style.top = "-1040px";
+	 var isFirefox = typeof InstallTrigger !== 'undefined';
+	 if (isFireFox = true) {
+	  document.getElementById("checkboxes").style.top = "-950px";
+	   }
 	document.getElementById("message004").style.visibility = "visible";
     }
 else{
 	document.getElementById("checkboxes").style.top = "-1040px";
+	 var isFirefox = typeof InstallTrigger !== 'undefined';
+	 if (isFireFox = true) {
+	  document.getElementById("checkboxes").style.top = "-950px";
+	   }
 	document.getElementById("message004").style.visibility = "hidden";
 }
 });

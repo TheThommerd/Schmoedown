@@ -146,7 +146,7 @@ function shuffle(array) {
   return array;
 }
 function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Sim/Innergeekdom%20Tournament.html");
+  window.location.assign("https://thethommerd.github.io/Schmoedown/Innergeekdom%20Tournament.html");
 }
 var text = "";
 var delay = 40;

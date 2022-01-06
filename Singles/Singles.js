@@ -1374,7 +1374,7 @@ next001();
 }
 
 function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Sim/SinglesTournament.html");
+  window.location.assign("https://thethommerd.github.io/Schmoedown/SinglesTournament.html");
 }
 
 function winKO(){

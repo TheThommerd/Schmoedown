@@ -743,7 +743,7 @@ function start2(){
 next002();
     }
 function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Sim/Ironman.html");
+  window.location.assign("https://thethommerd.github.io/Schmoedown/Ironman.html");
 }
 function win(){
                 window.clearInterval(update);

@@ -2174,7 +2174,7 @@ if (a == 12){
             window.clearInterval(update);
             c = "-";
 if (question10.length > 4){similarity1 = stringSimilarity.compareTwoStrings(question10, r2question001[1].answ);
-if (typeof(r2question001[1].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(question9, r2question001[1].answ3);}}    
+if (typeof(r2question001[1].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(question10, r2question001[1].answ3);}}    
 else if (question10.length <= 4){
 similarity1 = 0;
 similarity2 = 0;

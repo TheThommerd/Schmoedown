@@ -3661,7 +3661,7 @@ userfive++;
 		round001.innerHTML = r++;
 		document.getElementById("round001").style.display = "none";
  		round002.innerHTML = "OVERTIME";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	}
             }
@@ -4546,7 +4546,7 @@ document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("message005").style.display = "none";
 		round001.innerHTML = 2;
 		var place = " ";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Spin the Wheel.";
 		message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin onclick=spin()>Spin</button>";
                 message004.innerHTML = "";
@@ -4616,7 +4616,7 @@ document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("time001").style.display = "none";
 		
 		round001.innerHTML = 2;
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click the Next button";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
@@ -4642,7 +4642,7 @@ else{
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
 		round001.innerHTML = 3;
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click the Next button";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
@@ -4671,7 +4671,7 @@ function next004 () {
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click button to simulate opponents result.";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
@@ -4760,7 +4760,7 @@ function simulatefinished () {
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
 if ((stealopp > 0) || (stealmc > 0)){
                 message001.innerHTML = "Click Next to go to available steals.";
             	message004.innerHTML = "<button id=nextbutton class=buttons002 onclick=analyse()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button></br></br>The category is " +compcat[0].cat;

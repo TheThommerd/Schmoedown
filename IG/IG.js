@@ -651,7 +651,7 @@ function begin001() {
             message005.innerHTML = "";
             message006.innerHTML = "";
              a++;
-            qu001.innerHTML = "1 - " +question001[0].cat.toUpperCase();
+            qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
 	document.getElementById("q1").focus();
 	    unique();
         }
@@ -666,36 +666,36 @@ else if (j == 2) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___2JTEChal.png')";
+	    document.getElementById("background").src = "IG - 2JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___2JTE.png')";
+	    document.getElementById("background").src = "IG - 2JTE.png";
 	    }
 }
 else if (j == 1) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___1JTEChal.png')";
+	    document.getElementById("background").src = "IG - 1JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	   document.getElementById("frame001").style.backgroundImage = "url('IG___1JTE.png')";
+	    document.getElementById("background").src = "IG - 1JTE.png";
 	    }
 }
 else if (j == 0) {
  if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___chal.png')";
+	    document.getElementById("background").src = "IG - chal.png";
 	     }
  else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___nothing.png')";
+	    document.getElementById("background").src = "IG - nothing.png";
 	    }
 }
 else if (j < 0) {
@@ -774,7 +774,7 @@ quescor++;
 function ChallengeDenied(){
 	    document.getElementById("message004").style.top = "-210px";
 if (j == 2) {
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___3JTE.png')";
+	    document.getElementById("background").src = "IG - 3JTE.png";
 	     h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -783,7 +783,7 @@ if (j == 2) {
             message003.innerHTML = "Challenge lost!";
 }
 else if (j == 1) {
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___2JTE.png')";
+	    document.getElementById("background").src = "IG - 2JTE.png";
 	    h--;
 	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -792,7 +792,7 @@ else if (j == 1) {
             message003.innerHTML = "Challenge lost!";
 	          }
 else if (j == 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___1JTE.png')";
+	    document.getElementById("background").src = "IG - 1JTE.png";
 	     h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -801,7 +801,7 @@ else if (j == 0) {
             message003.innerHTML = "Challenge lost!";
 	          }
  else if (j < 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('IG___nothing.png')";
+	    document.getElementById("background").src = "IG - nothing.png";
 	     h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
@@ -3138,7 +3138,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-            qu001.innerHTML = "2 - " +question001[1].cat.toUpperCase();
+            qu001.innerHTML = "QUESTION 2 - " +question001[1].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
 		   document.getElementById("JTE").style.visibility = "hidden";
@@ -3163,7 +3163,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-                qu001.innerHTML = "3 - " +question001[2].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 3 - " +question001[2].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
 		   document.getElementById("JTE").style.visibility = "hidden";
@@ -3188,7 +3188,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-                qu001.innerHTML = "4 - " +question001[3].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 4 - " +question001[3].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3212,7 +3212,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 		qu001.innerHTML = "5 - " +question001[4].cat.toUpperCase();
+ 		qu001.innerHTML = "QUESTION 5 - " +question001[4].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3236,7 +3236,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 		qu001.innerHTML = "6 - " +question001[14].cat.toUpperCase();
+ 		qu001.innerHTML = "QUESTION 6 - " +question001[14].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3260,7 +3260,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 		qu001.innerHTML = "7 - " +question001[15].cat.toUpperCase();
+ 		qu001.innerHTML = "QUESTION 7 - " +question001[15].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3284,7 +3284,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;
- 		qu001.innerHTML = "8 - " +question001[5].cat.toUpperCase();
+ 		qu001.innerHTML = "QUESTION 8 - " +question001[5].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3308,7 +3308,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-                qu001.innerHTML = "9 - " +question001[6].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 9 - " +question001[6].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3332,7 +3332,7 @@ function next001() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 	         a++;
- 	        qu001.innerHTML = "10 - " +question001[7].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 10 - " +question001[7].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3369,7 +3369,7 @@ next002();
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 	         a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "BONUS QUESTION";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3409,7 +3409,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;
- 	        qu001.innerHTML = "1 - " +r2question001[0].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 1 - " +r2question001[0].cat.toUpperCase();
                 round001.innerHTML = r++;
                 round001.innerHTML = r++;
                 message004.innerHTML = "";
@@ -3448,7 +3448,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 	        qu001.innerHTML = "2 - " +r2question001[4].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 2 - " +r2question001[4].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3485,7 +3485,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 	        qu001.innerHTML = "3 - " +r2question001[1].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 3 - " +r2question001[1].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3522,7 +3522,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 	        qu001.innerHTML = "4 - " +r2question001[2].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 4 - " +r2question001[2].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3559,7 +3559,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 	        qu001.innerHTML = "5 - " +r2question001[3].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 5 - " +r2question001[3].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3592,7 +3592,7 @@ usertwo++;
                 message006.innerHTML = "";
                  a++;
                 round001.innerHTML = r++;
- 	        qu001.innerHTML = "1 - " +question001[8].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 1 - " +question001[8].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3628,7 +3628,7 @@ userthree++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 	        qu001.innerHTML = "2 - " +threepointer001[0].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 2 - " +threepointer001[0].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3664,7 +3664,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 	        qu001.innerHTML = "3 - " +fivepointer001[0].cat.toUpperCase();
+ 	        qu001.innerHTML = "QUESTION 3 - " +fivepointer001[0].cat.toUpperCase();
                 message004.innerHTML = "";
   		if (c < 1) {
                     window.clearInterval(update);
@@ -3689,7 +3689,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
              a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 1";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3714,7 +3714,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 2";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3747,7 +3747,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 3";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3780,7 +3780,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 4";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3813,7 +3813,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 5";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3846,7 +3846,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 6";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3879,7 +3879,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 7";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3912,7 +3912,7 @@ userfive++;
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 8";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3972,7 +3972,7 @@ userfive++;
 		round001.innerHTML = r++;
 		document.getElementById("round001").style.display = "none";
  		round002.innerHTML = "OVERTIME";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	}
             }
@@ -5009,7 +5009,7 @@ $("#message002").keypress(function(event) {
      
 function next003() {
  
-	    	document.getElementById("qu002").style.display = "initial";
+
 	    	document.getElementById("JTE").style.display = "none";
 		document.getElementById("chart").style.position = "relative";
 		document.getElementById("chart").style.top = "-200px";
@@ -5018,7 +5018,7 @@ function next003() {
 	    	document.getElementById("message004").style.display = "none";
 	    	document.getElementById("message005").style.display = "none";
 		round001.innerHTML = 2;
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 var place = " ";
                 message001.innerHTML = "Spin the Wheel.";
 message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin onclick=spin()>Spin</button>";
@@ -5037,10 +5037,10 @@ function next002() {
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
-		document.getElementById("qu002").style.display = "initial";
+
 		document.getElementById("message005").style.top = "-170px";
 		round001.innerHTML = 2;
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click the Next button";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
@@ -5061,12 +5061,12 @@ else if (b -s > 10){
 winKO();
 }
 else{
-	    	document.getElementById("qu002").style.display = "initial";
+
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
 		round001.innerHTML = 3;
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click the Next button";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
@@ -5088,12 +5088,12 @@ else if (b -s >= 0){
 }
 function next004 () {
 simulatecomputerround2();
-	document.getElementById("qu002").style.display = "initial";
+
  
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click button to simulate opponents result.";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
@@ -5183,7 +5183,7 @@ function simulatefinished () {
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
- 		qu001.innerHTML = "";
+ 		qu001.innerHTML = "QUESTION";
 if ((stealopp > 0) || (stealmc > 0)){
                 message001.innerHTML = "Click Next to go to available steals.";
             	message004.innerHTML = "<button id=nextbutton class=buttons002 onclick=analyse()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button></br></br>The category is " +compcat[0].cat;
@@ -5603,7 +5603,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[0].cat.toUpperCase();
 		open++;
                 if (c < 1) {
@@ -5661,7 +5661,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[1].cat.toUpperCase();
 		open++;
                 if (c < 1) {
@@ -5720,7 +5720,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[2].cat.toUpperCase();
 		open++;
                 if (c < 1) {
@@ -5779,7 +5779,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[3].cat.toUpperCase();
 		open++;
                 if (c < 1) {
@@ -5838,7 +5838,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[4].cat.toUpperCase();
 		open++;
                 if (c < 1) {
@@ -5916,7 +5916,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 message004.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[5].cat.toUpperCase();
 		open = 0;
 		mc++;
@@ -6001,7 +6001,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 message004.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[6].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
@@ -6086,7 +6086,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 message004.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[7].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
@@ -6171,7 +6171,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 message004.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[8].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
@@ -6256,7 +6256,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 message004.innerHTML = "";
-		document.getElementById("qu002").style.display = "none";
+
  		qu001.innerHTML = "STEAL - " +compcat[9].cat.toUpperCase();
 		mc++;
                 if (c < 1) {

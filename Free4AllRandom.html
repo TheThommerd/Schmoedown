@@ -32,20 +32,30 @@ display: none;
 	text-align:center;
 }
         #frame001 {
-	    background-image: url("free4all.png");
- 	    background-repeat: no-repeat;
             border-radius: 0px;
             background-position: center top;
-	    background-size: 961px 180px;
             background-color: #fbfbfb;
             border: none;
             height: auto;
             width: 950px;
             margin:auto;
+	    position: relative;
 	    zoom: 1.4;
 	    -moz-transform: scale(1.4);
 	    -moz-transform-origin: top center;
         }
+	 
+.background{
+  width: 950px;
+  height:auto;
+  top:0%;
+  left:0%;
+  position:relative;
+}
+	    
+.background img{
+   width: 950px;
+}
         .buttons001 {
             background-color: #232223;
             color: white;
@@ -116,46 +126,310 @@ display: none;
             font-size: large;
             color: black;
         }
-        #player001 {
-	    position: relative;
-	    top : 3px;
- 	    left: -310px;
-            font-size: 60%;
-	    font-weight: bold;
-            color: black;
-        }
-        #player002 {
-	    position: relative;
-	    top : -17px;
- 	    left: -140px;
-            font-size: 60%;
-	    font-weight: bold;
-            color: black;
-        }
-        #player003 {
-	    position: relative;
-	    top : -37px;
- 	    left: 22px;
-            font-size: 60%;
-	    font-weight: bold;
-            color: black;
-        }
-        #player004 {
-	    position: relative;
-	    top : -57px;
- 	    left: 190px;
-            font-size: 60%;
-	    font-weight: bold;
-            color: black;
-        }
-        #player005 {
-	    position: relative;
-	    top : -79px;
- 	    left: 355px;
-            font-size: 60%;
-	    font-weight: bold;
-            color: black;
-        }
+      #player001 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 12.9%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#player002 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 30.3%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#player003 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 47.7%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#player004 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 65.2%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#player005 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 82.6%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score001 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 22.3%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score002 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 39.7%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score003 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 57.1%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score004 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 74.5%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score005 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 92%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter001 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 13.1%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter002 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 30.5%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter003 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 47.9%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter004 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 65.5%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter005 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 82.9%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#round002 {
+    font-size: 90%;
+    color: black;
+    font-weight: bold;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 85.5%;
+    left: -1%;
+    text-align: center;
+    margin: auto;
+    width: 120px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#round001 {
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    text-align: center;
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+}
+#qu001 {
+    background: none repeat scroll 0;
+    top: 2%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+#message001 {
+    height: 37.714px;
+    text-align: center;
+    font-size: 90%;
+    color: white;
+    background: none repeat scroll 0;
+    top: 18.5%;
+    left: 0%;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+}
         #time001 {
 	   position: relative;
 	    top : -420px;
@@ -187,183 +461,102 @@ display: none;
 	   position: relative;
 	    top : -300px;
         }
-        #score001 {
-	    position: relative;
-	    top : -97px;
- 	    left: -225px;
-            font-size: 180%;
-	    font-weight: bold;
-            color: white;
-        }
-        #score002 {
-	   position: relative;
-	    top : -132px;
- 	    left: -60px;
-            font-size: 180%;
-	    font-weight: bold;
-            color: white;
-        }
-        #score003 {
-	   position: relative;
-	    top : -172px;
- 	    left: 100px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
-        }
-        #score004 {
-	   position: relative;
-	    top : -212px;
- 	    left: 270px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
-        }
-        #score005 {
-	   position: relative;
-	    top : -252px;
- 	    left: 435px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
-        }
         .smaller {
             text-align: center;
             font-size: 80%;
             color: black;
         }
-        #twitter001 {
-	    position: relative;
-	    top : -242px;
- 	    left: -280px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #twitter002 {
-	    position: relative;
-	    top : -264px;
- 	    left: -110px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #twitter003 {
-	    position: relative;
-	    top : -284px;
- 	    left: 55px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #twitter004 {
-	    position: relative;
-	    top : -304px;
- 	    left: 215px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #twitter005 {
-	    position: relative;
-	    top : -325px;
- 	    left: 390px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-     #nummer1 {
-	    position: relative;
-	    top : -387px;
- 	    left: -310px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #nummer2 {
-	    position: relative;
-	    top : -408px;
- 	    left: -145px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #nummer3 {
-	    position: relative;
-	    top : -430px;
- 	    left: 15px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #nummer4 {
-	    position: relative;
-	    top : -450px;
- 	    left: 185px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #nummer5{
-	    position: relative;
-	    top : -472px;
- 	    left: 355px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
+    #nummer1 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 13.3%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer2 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 30.7%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer3 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 48.1%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer4 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 65.6%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer5 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 83%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
         #message005 {
 	   position: relative;
 	    top : -380px;
             text-align: center;
             font-size: 90%;
             color: black;
-        }
-        #message001 {
-            text-align: center;
-            font-size: 90%;
-            color: white;
-	    height: 37.714px;
-	    position: relative;
-        }
-        #qu001 {
-            text-align: center;
-            font-size: 100%;
-            color: white;
-	    font-weight: bold;
-        }
-        #qu002 {
-            text-align: center;
-            font-size: 100%;
-            color: white;
-	    font-weight: bold;
-        }
-        #round001 {
-	   position: relative;
-	    top : 0px;
- 	    left: 0px;
-            text-align: center;
-            font-size: 100%;
-            color: black;
-	    font-weight: bold;
-        }
-        #round002 {
-	   position: relative;
-	    top : -340px;
- 	    left: -415px;
-            font-size: 90%;
-            color: black;
-	    font-weight: bold;
         }
 	input {
   	width: 30%;
@@ -396,13 +589,13 @@ body:-moz-full-screen {
 	}
     </style>
 <audio id="myAudio">
-  <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">
+  <source src="/Schmoedown/Media/Ding_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 <audio id="myAudio2">
-  <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
+  <source src="/Schmoedown/Media/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 	<button id="goFS" class="goFS">Go fullscreen</button>
- <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name.</p><text id="player001">CHALLENGER</text><br><text  id="player002">OPPONENT1</text><br><text id="player003">OPPONENT2</text><br><text id="player004">OPPONENT3</text><br><text  id="player005">OPPONENT4</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="score003">0</text><br><text id="score004">0</text><br><text id="score005">0</text><br><text id="twitter001">@Challenger1</text><br><text id="twitter002">@Opponent2</text><br><text id="twitter003">@Opponent3</text><br><text id="twitter004">@Opponent4</text><br><text id="twitter005">@Opponent5</text><br><text id="round002">ROUND <text id="round001">1</text></text><br><text id="nummer1">#1</text><br><text id="nummer2">#2</text><br><text id="nummer3">#3</text><br><text id="nummer4">#4</text><br><text id="nummer5">#5</text><br><text><text id="time001"></text></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br>
+ <div id="frame001"><div id="font001"><div class="background"><img id="background" src="free4all.png" alt=""><div><p id="qu001">QUESTION 0</text><p id="message001">Enter your name.</p><p id="player001">CHALLENGER</p><p id="player002">OPPONENT1</p><p id="player003">OPPONENT2</p><p id="player004">OPPONENT3</p><p id="player005">OPPONENT4</p><p id="score001">0</p><p id="score002">0</p><p id="score003">0</p><p id="score004">0</p><p id="score005">0</p><p id="twitter001">@Challenger1</p><p id="twitter002">@Opponent2</p><p id="twitter003">@Opponent3</p><p id="twitter004">@Opponent4</p><p id="twitter005">@Opponent5</p><p id="round002">ROUND <text id="round001">1</text></p><p id="nummer1">#1</p><p id="nummer2">#2</p><p id="nummer3">#3</p><p id="nummer4">#4</p><p id="nummer5">#5</p></div></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><text id="time001"></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br>
 <p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p></div>
 <form id="save-later-form-Free4All"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="AnsweredQuestions_F4" value="0" type="number" id="AnsweredQuestions_F4" required hidden><input name="CorrectQuestions_F4" value="0" type="number" id="CorrectQuestions_F4" required hidden><input name="PossiblePoints_F4" value="0" type="number" id="PossiblePoints_F4" required hidden><input name="TotalPoints_F4" value="0" type="number" id="TotalPoints_F4" required hidden></input><input name="Wins_F4" value="0" type="number" id="wins_F4" required hidden><input name="Losses_F4" value="0" type="number" id="losses_F4" required hidden></form><button type="submit" id="save" hidden>Save</button></br></div>
 <script src="Free4all.js" charset="utf-8"></script>

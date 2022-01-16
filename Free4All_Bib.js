@@ -2323,7 +2323,7 @@ document.getElementById("q1").focus();
             message006.innerHTML = "";
             a++;
             round001.innerHTML = r++;
-            qu001.innerHTML = "1 - " +question001[0].cat.toUpperCase();
+            qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
         }
 
 function Challenge(){
@@ -2484,7 +2484,7 @@ document.getElementById("q1").focus();
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-            	qu001.innerHTML = "2 - " +question001[vraag].cat.toUpperCase();
+            	qu001.innerHTML = "QUESTION 2 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -2509,7 +2509,7 @@ document.getElementById("q1").focus();
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-                qu001.innerHTML = "3 - " +question001[vraag].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 3 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -2534,7 +2534,7 @@ document.getElementById("q1").focus();
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-                qu001.innerHTML = "4 - " +question001[vraag].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 4 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -2559,7 +2559,7 @@ document.getElementById("q1").focus();
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
- 		qu001.innerHTML = "5 - " +question001[vraag].cat.toUpperCase();
+ 		qu001.innerHTML = "QUESTION 5 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -3220,7 +3220,7 @@ if (eliminate5 == 1){
                 round001.innerHTML = r++;
 rounds++;
                  a++;
- 		qu001.innerHTML = "1 - " +question001[vraag].cat.toUpperCase();
+ 		qu001.innerHTML = "QUESTION 1 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);

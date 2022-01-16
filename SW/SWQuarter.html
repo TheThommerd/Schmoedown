@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head><meta name="viewport" content="width=device-width, height=device-height"></head> 
 <body onload="load()">
-   <style>
+    <style>
 .flash {
    animation-name: flash;
     animation-duration: 1.0s;
@@ -28,17 +28,27 @@ display: none;
 	padding:0px;
 	background-color:#E1E1E1;
 	}
+.background{
+  width: 950px;
+  height:auto;
+  top:0%;
+  left:0%;
+  position:relative;
+}
+	    
+.background img{
+   width: 950px;
+}
         #frame001 {
 	    margin: auto;
-	    background-image: url(SW_background.png);
- 	    background-repeat: no-repeat;
             border-radius: 5px;
             background-color: #fbfbfb;
 	    background-position: center top;
             border: none;
             height: 1500px;
             width: 950px;
-			    zoom: 1.4;
+	    position: relative;
+	    zoom: 1.4;
         }
         .buttons001 {
             background-color: #FCA600;
@@ -116,29 +126,174 @@ display: none;
             font-size: 18px;
             color: black;
         }
-        #player001 {
-	    position: relative;
-	    top : 0px;
- 	    left: -265px;
-            font-size: 110%;
-	    font-weight: bold;
-            color: black;
+      #player001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 11.6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
         }
         #player002 {
-	    position: relative;
-	    top : -22px;
- 	    left: 260px;
-            font-size: 110%;
-	    font-weight: bold;
-            color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 66.6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    width: 200px;
+    margin: auto;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;		
+        }  
+        #record001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 35.2%;
+    left: 0;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
         }
+        #record002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 35.2%;
+    left: 88%;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }	
         #score001 {
-	    position: relative;
-	    top : -85px;
- 	    left: -115px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 32.8%;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #score002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 56.5%;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #twitter001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 45.4%;
+    left: 0%;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #twitter002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 45.4%;
+    left: 88%;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 110px;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #faction001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 56.8%;
+    left: 0%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #faction002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 56.8%;
+    left: 88%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
         }
         #time001 {
 	   position: relative;
@@ -172,72 +327,10 @@ display: none;
             height: 30px;
             border-radius: 5px;
         }
-        #score002 {
-	   position: relative;
-	    top : -122px;
- 	    left: 110px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
-        }
         .smaller {
             text-align: center;
             font-size: 80%;
             color: black;
-        }
-     #record001 {
-	    position: relative;
-	    top : -60px;
- 	    left: -425px;
-            text-align: center;
-            font-size: 80%;
-            color: black;
-	    font-weight: bold;
-        }
-        #record002 {
-	    position: relative;
-	    top : -80px;
- 	    left: 415px;
-            text-align: center;
-            font-size: 80%;
-            color: black;
-	    font-weight: bold;
-        }
-        #twitter001 {
-	    position: relative;
-	    top : -155px;
- 	    left: -425px;
-            text-align: center;
-            font-size: 60%;
-            color: black;
-	    font-weight: bold;
-        }
-        #twitter002 {
-	    position: relative;
-	    top : -177px;
- 	    left: 415px;
-            text-align: center;
-            font-size: 60%;
-            color: black;
-	    font-weight: bold;
-        }
-        #faction001 {
-	    position: relative;
-	    top : -195px;
- 	    left: -390px;
-            text-align: center;
-            font-size: 65%;
-            color: white;
-	    font-weight: bold;
-        }
-        #faction002 {
-	    position: relative;
-	    top : -195px;
- 	    left: 390px;
-            text-align: center;
-            font-size: 65%;
-            color: white;
-	    font-weight: bold;
         }
         #message005 {
 	   position: relative;
@@ -246,42 +339,50 @@ display: none;
             font-size: 90%;
             color: black;
         }
-        #message001 {
+            #message001 {
             text-align: center;
             font-size: 90%;
+	    top: -164px;
             color: white;
-	    top: -10px;
-           position: relative;
-           height: 37.714px;
-        }
-        #qu001 {
-            text-align: center;
-            font-size: 100%;
-            color: white;
-	    font-weight: bold;
-        }
-        #qu002 {
-            text-align: center;
-            font-size: 100%;
-            color: white;
-	    font-weight: bold;
-        }
-        #round001 {
 	   position: relative;
-	    top : 0px;
- 	    left: 0px;
+	    height: 37.714px;
+        }
+   #qu001 {
+	   background: none repeat scroll 0;
+	    position: absolute;
+	    top : 0%;
             text-align: center;
-            font-size: 100%;
-            color: black;
+            font-size: 18px;
+            color: white;
 	    font-weight: bold;
+	    margin: auto;
+	    width: 100%; 
         }
         #round002 {
-	   position: relative;
-	    top : -155px;
- 	    left: -5px;
-            font-size: 90%;
+	 background: none repeat scroll 0;
+   	 position: absolute;
+    	 top: 64%;
+   	 left: 42.5%;
+   	 font-size: 90%;
+   	 color: black;
+   	 font-weight: bold;
+   	 margin: auto;
+   	 width: 125px;
+   	 height: 20px;
+   	 text-align: center;
+  	 align-items: center;
+  	 display: flex;
+  	 justify-content: center;
+        }
+	    #round001 {
+	   position: absolute;
+	    top : 0%;
+ 	    left: 78%;
+            text-align: center;
+            font-size: 100%;
             color: black;
 	    font-weight: bold;
+	    display: inline-block;
         }
         #choose{
 	   position: relative;
@@ -365,14 +466,15 @@ transform-origin: top center;
 }
     </style>
 <audio id="myAudio">
-  <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">
+  <source src="/Schmoedown/Media/Ding_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 <audio id="myAudio2">
-  <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
+  <source src="/Schmoedown/Media/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 <button id="goFS" class="goFS">Go fullscreen</button>
- <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name and twitter.</p><text id="player001">CHALLENGER</text><br><text id="player002">OPPONENT</text><br><text id="record001">0-0</text><br><text id="record002">0-0</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="twitter001">@Challenger</text><br><text id="twitter002">@Opponent</text><br><text id="round002">ROUND <text id="round001">1</text></text><br><text id="faction001">ROOKIE</text><text id="faction002">UNKNOWN</text><br><text><text id="time001"></text></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div>
-<form id="save-later-form-SW"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChamp" required hidden></input><input name="AnsweredQuestions_SW" value="0" type="number" id="AnsweredQuestions_SW" required hidden><input name="CorrectQuestions_SW" value="0" type="number" id="CorrectQuestions_SW" required hidden><input name="PossiblePoints_SW" value="0" type="number" id="PossiblePoints_SW" required hidden><input name="TotalPoints_SW" value="0" type="number" id="TotalPoints_SW" required hidden></input><input name="Wins_SW" value="0" type="number" id="wins_SW" required hidden><input name="Losses_SW" value="0" type="number" id="losses_SW" required hidden><input name="TKOs_SW" value="0" type="number" id="TKOs_SW" required hidden><input name="TKOd_SW" value="0" type="number" id="TKOd_SW" required hidden><input name="KOs_SW" value="0" type="number" id="KOs_SW" required hidden><input name="KOd_SW" value="0" type="number" id="KOd_SW" required hidden></form><button type="submit" id="save" hidden>Save</button></div> </div>
+<div id="frame001"><div id="font001"><div class="background"><img id="background" src="SW_background.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">ROUND <text id="round001">1</text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><br><br><br><br><text id="time001"></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div>
+<form id="save-later-form-SW"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChamp" required hidden></input><input name="AnsweredQuestions_SW" value="0" type="number" id="AnsweredQuestions_SW" required hidden><input name="CorrectQuestions_SW" value="0" type="number" id="CorrectQuestions_SW" required hidden><input name="PossiblePoints_SW" value="0" type="number" id="PossiblePoints_SW" required hidden><input name="TotalPoints_SW" value="0" type="number" id="TotalPoints_SW" required hidden></input><input name="Wins_SW" value="0" type="number" id="wins_SW" required hidden><input name="Losses_SW" value="0" type="number" id="losses_SW" required hidden><input name="TKOs_SW" value="0" type="number" id="TKOs_SW" required hidden><input name="TKOd_SW" value="0" type="number" id="TKOd_SW" required hidden><input name="KOs_SW" value="0" type="number" id="KOs_SW" required hidden><input name="KOd_SW" value="0" type="number" id="KOd_SW" required hidden></form><button type="submit" id="save" hidden>Save</button></div>
+</div>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="lib/1. Phantom Menace.js" charset="utf-8"></script>
 <script src="lib/2. Attack of the Clones.js" charset="utf-8"></script>

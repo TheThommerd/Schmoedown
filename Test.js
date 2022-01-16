@@ -6,12 +6,10 @@
 		document.getElementById("time001").style.visibility = "hidden";
 		document.getElementById("time001").style.display = "none";
 		document.getElementById("q2").focus();
-
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
   }, false);
-
 function load(){
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
 	var twittername = document.getElementById("twitt").value;
@@ -20,21 +18,9 @@ function load(){
 }
 
 var num = 0;
+var hastag = "#";
 var similarity1 = 0;
 var similarity2 = 0;
-var getal = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
-getal = shuffle(getal);
-num = getal[0];
-var getal2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
-for( var i = getal2.length-1; i--;){
-if ( getal2[i] === (num + 3)) {
-getal2.splice(i, 1);
-}
-}
-getal2 = getal2.slice(0, (num + 2));
-getal2 = shuffle(getal2);
-var hastag = "#";
-
 var competitorlist2 = [
 {
 "id": "Dewberry",
@@ -481,14 +467,13 @@ competitorlist[42] = competitorlist2[42];
 competitorlist[43] = competitorlist2[43];
 competitorlist[44] = competitorlist2[44];
 competitorlist[45] = competitorlist2[45];
-
 var percentage = 0;
 var percentagep5 = 0;
 var percentagep2 = 0;
 var percentagep3 = 0;
 var percentagep4 = 0;
 var vraag = 0;
-var afvallers = num;
+var afvallers = 0;
 var remain = (competitorlist.length- afvallers);
 var quescount= 0;
 var rounds = 0;
@@ -497,14 +482,16 @@ var quescor = 0;
 function stats() {
 var accuracy = ((quescor / quescount) * 100)
  message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; margin-left: 300px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + "</tr><tr class=tr2><td class=td2><b>Rounds survived</b></td><td class=td2>" + rounds + "</td>" + "</tr class=tr2><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td>" + "</tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td>" + "</tr></table>";
-	document.getElementById("message006").style.top = "-360px";
-	document.getElementById("message004").style.top = "-620px";
 		document.getElementById("AnsweredQuestions_F4").value = parseInt(document.getElementById("AnsweredQuestions_F4").value) +  quescount;
 		document.getElementById("CorrectQuestions_F4").value = parseInt(document.getElementById("CorrectQuestions_F4").value) +  quescor;
 		document.getElementById("PossiblePoints_F4").value = parseInt(document.getElementById("PossiblePoints_F4").value)  +  quescount;
 		document.getElementById("TotalPoints_F4").value = parseInt(document.getElementById("TotalPoints_F4").value) +  quescor;
+	document.getElementById("message006").style.top = "-360px";
+	document.getElementById("message004").style.top = "-620px";
 }
-
+function newLoc() {
+  window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");
+}
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
@@ -512,8 +499,8 @@ function pregame(){
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-500px";
 message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
-	document.getElementById("message003").style.top = "-410px";
-	message006.innerHTML =  "You drew number " + (num) + "<br/><br/>" + "First category is " +question001[0].cat;
+	document.getElementById("message003").style.top = "-450px";
+	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-540px";
 	message004.innerHTML = "";
@@ -530,7 +517,8 @@ var afvaller4 = "";
 
 	var a = 0;
         a++;
-        var r = (num - 1);
+        var r = 0;
+        r++;
         var q = 0;
         q++;
         var b = 0;
@@ -538,13 +526,13 @@ var afvaller4 = "";
         var t = 0;
         var u = 0;
         var v = 0;
+	var j = 3;
+	j--;
 	var h = 2;
 	h--;
 var c;
 	var minimum = 0;
-function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");
-}
+
 function roundchecker(){
 	remain = (competitorlist.length- afvallers);
 	document.getElementById("time001").style.visibility = "hidden";
@@ -556,17 +544,16 @@ if ((eliminate2 == 0) && (eliminate3 == 0) && (eliminate4 == 0) && (eliminate5 =
 if (remain == 0){
 if ((b > s) && (s == t) && (t == u)  && (u == v)){ 
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
 	minimum = Math.min(b, s, t, u, v);
@@ -1025,15 +1012,15 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > t) && (t == u) && (u == v) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
+rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < t) && (b < u) && (b < v) ){
@@ -1177,16 +1164,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > s) && (s == u) && (u == v) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < s) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
@@ -1329,16 +1316,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > s) && (s == t) && (t == v) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < v) ){
 message001.innerHTML = "End of Match.";
@@ -1479,16 +1466,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //0000 of 1111
 else if ((b > s) && (s == t) && (t == u) ){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < u) ){
 message001.innerHTML = "End of Match.";
@@ -1628,16 +1615,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > u) && (u == v)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
 else if ((b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
@@ -1701,16 +1688,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > t) && (t == v)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
 else if ((b < t) && (b < v) ){
 message001.innerHTML = "End of Match.";
@@ -1774,16 +1761,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > t) && (t == u)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
 else if ((b < t) && (b < u) ){
 message001.innerHTML = "End of Match.";
@@ -1846,16 +1833,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > s) && (s == v)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-rounds++;
 		document.getElementById("wins_F4").stepUp(1);
-		document.getElementById("save").click();
 	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+rounds++;
+		document.getElementById("save").click();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
 else if ((b < s) && (b < v) ){
 message001.innerHTML = "End of Match.";
@@ -1918,15 +1905,15 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > s) && (s == u)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
 else if ((b < s) && (b < u) ){
@@ -1990,16 +1977,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //000 of 111
 else if ((b > s) && (s == t)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
 else if ((b < s) && (b < t) ){
 message001.innerHTML = "End of Match.";
@@ -2061,16 +2048,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > v){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } 
 else if (b < v){
 message001.innerHTML = "End of Match.";
@@ -2088,16 +2075,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > u){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } 
 else if (b < u){
 message001.innerHTML = "End of Match.";
@@ -2116,16 +2103,16 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > t){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } 
 else if (b < t){
 message001.innerHTML = "End of Match.";
@@ -2143,16 +2130,17 @@ message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } 
 else if (b > s){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
-                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
+                message006.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
+                message002.innerHTML = "";
                 message003.innerHTML = "";
                 message005.innerHTML = "";
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } 
 else if (b < s){
 message001.innerHTML = "End of Match.";
@@ -2164,18 +2152,19 @@ message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again<
 
 else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminate5 == 1)){
 		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
+			document.getElementById("message002").style.fontSize = "200%";
 			document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-		document.getElementById("save").click();
+	    document.getElementById("message002").style.top = "-470px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
-	    document.getElementById("message002").style.top = "-470px";
-message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
+		document.getElementById("save").click();
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
+
 
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();
@@ -2210,27 +2199,24 @@ function submitname () {
 	document.getElementById("q3").style.display = "none";
 	document.getElementById("submit3").style.display = "none";
 	message001.innerHTML = "Choose your opponent.";
- 	round001.innerHTML = (num - 1);
- 	nummer1.innerHTML = hastag + (num + 3);
- 	nummer2.innerHTML = hastag + getal2[0];
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
   	twitter002.innerHTML = competitorlist[num].twitter;
 	percentagep2 = competitorlist[num].percentage;
 	afvallers++; 
 num++;
-  	nummer3.innerHTML = hastag + getal2[1];
+  	nummer3.innerHTML = hastag + ((num + 2)) ;
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	afvallers++; 
 num++;
-  	nummer4.innerHTML = hastag + getal2[2];
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	afvallers++; 
 num++;
-  	nummer5.innerHTML = hastag + getal2[3];
+  	nummer5.innerHTML = hastag + ((num +2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2240,27 +2226,24 @@ pregame();
 }
 
 function skip () {
- 	round001.innerHTML = (num - 1);
- 	nummer1.innerHTML = hastag + (num + 3);
- 	nummer2.innerHTML = hastag + getal2[0];
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
   	twitter002.innerHTML = competitorlist[num].twitter;
 	percentagep2 = competitorlist[num].percentage;
 	afvallers++; 
 num++;
-  	nummer3.innerHTML = hastag + getal2[1] ;
+  	nummer3.innerHTML = hastag + ((num + 2)) ;
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	afvallers++; 
 num++;
-  	nummer4.innerHTML = hastag + getal2[2];
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	afvallers++; 
 num++;
-  	nummer5.innerHTML = hastag + getal2[3] ;
+  	nummer5.innerHTML = hastag + ((num + 2)) ;
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2319,6 +2302,7 @@ function begin001() {
             c = 21;
                 time001.innerHTML = 20;
 	    document.getElementById("time001").style.visibility = "visible";
+	    document.getElementById("time001").style.top = "-440px";
 	    document.getElementById("message005").style.position = "relative";
 	    document.getElementById("message005").style.top = "-480px";
 	    document.getElementById("message006").style.position = "relative";
@@ -2327,9 +2311,9 @@ function begin001() {
 	    document.getElementById("message003").style.top = "-480px";
 	    document.getElementById("message004").style.position = "relative";
 	    document.getElementById("message004").style.top = "-480px";
-	    document.getElementById("time001").style.top = "-440px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+document.getElementById("q1").focus();
 	    document.getElementById("q1").style.position = "relative";
 	    document.getElementById("q1").style.top = "-300px";
 	    document.getElementById("submit2").style.position = "relative";
@@ -2337,10 +2321,9 @@ function begin001() {
             message003.innerHTML = "";
             message005.innerHTML = "";
             message006.innerHTML = "";
-             a++;
+            a++;
             round001.innerHTML = r++;
             qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
-		document.getElementById("q1").focus();
         }
 
 function Challenge(){
@@ -2379,14 +2362,14 @@ if (j == 2) {
 }
 else if (j == 1) {
 	     h--;
-	    h--;
+	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
 	          }
 else if (j == 0) {
-	     h--;
+	   h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
@@ -2395,7 +2378,7 @@ else if (j == 0) {
 	          }
  else if (j < 0) {
 	    h--;
-	     h--;
+	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -2410,7 +2393,7 @@ function myTrim(x) {
 
 function checker(){
 quescount++;
-	similarity1 = 0;
+similarity1 = 0;
 similarity2 = 0;
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
@@ -2478,7 +2461,6 @@ simulatecomp();
 	   
 }
 
-
 function next001() {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
@@ -2487,7 +2469,7 @@ function next001() {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
-	document.getElementById("message001").style.fontSize = "90%";
+
             if ((a == 2) ||(a == 7)||(a == 12)||(a == 17)||(a == 22)||(a == 27)||(a == 32)||(a == 37)||(a == 42)||(a == 47)||(a == 52)||(a == 57)||(a == 62)||(a == 67)||(a == 72)||(a == 77)||(a == 82)||(a == 87)||(a == 92)||(a == 97)||(a == 102)||(a == 107)||(a == 112)||(a == 117)||(a == 122)||(a == 127)||(a == 132)||(a == 137)||(a == 142)||(a == 147)||(a == 152)||(a == 157)||(a == 162)||(a == 167)||(a == 172)||(a == 177)||(a == 182)||(a == 187)||(a == 192)||(a == 197)||(a == 202)||(a == 207)||(a == 212)||(a == 217)||(a == 222)||(a == 227)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
@@ -2497,11 +2479,11 @@ function next001() {
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-		document.getElementById("q1").focus();
+document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-                a++;
+                 a++;
             	qu001.innerHTML = "QUESTION 2 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -2513,7 +2495,7 @@ function next001() {
                 }
             }
 
-            else if ((a == 3) ||(a == 8)||(a == 13)||(a == 18)||(a == 23)||(a == 28)||(a == 33)||(a == 38)||(a == 43)||(a == 48)||(a == 53)||(a == 58)||(a == 63)||(a == 68)||(a == 73)||(a == 78)||(a == 83)||(a == 88)||(a == 93)||(a == 98)||(a == 103)||(a == 108)||(a == 113)||(a == 118)||(a == 123)||(a == 128)||(a == 133)||(a == 138)||(a == 143)||(a == 148)||(a == 153)||(a == 158)||(a == 163)||(a == 168)||(a == 173)||(a == 178)||(a == 183)||(a == 188)||(a == 193)||(a == 198)||(a == 203)||(a == 208)||(a == 213)||(a == 218)||(a == 223)||(a == 228))  {
+            else if ((a == 3)||(a == 8)||(a == 13)||(a == 18)||(a == 23)||(a == 28)||(a == 33)||(a == 38)||(a == 43)||(a == 48)||(a == 53)||(a == 58)||(a == 63)||(a == 68)||(a == 73)||(a == 78)||(a == 83)||(a == 88)||(a == 93)||(a == 98)||(a == 103)||(a == 108)||(a == 113)||(a == 118)||(a == 123)||(a == 128)||(a == 133)||(a == 138)||(a == 143)||(a == 148)||(a == 153)||(a == 158)||(a == 163)||(a == 168)||(a == 173)||(a == 178)||(a == 183)||(a == 188)||(a == 193)||(a == 198)||(a == 203)||(a == 208)||(a == 213)||(a == 218)||(a == 223)||(a == 228))  {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -2526,7 +2508,7 @@ function next001() {
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-               a++;
+                 a++;
                 qu001.innerHTML = "QUESTION 3 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -2593,7 +2575,7 @@ function next001() {
 	if ((s == minimum) && (t != minimum) && (u != minimum) && (v != minimum)){
 	if (remain >= 1 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num)) ;
+  	nummer2.innerHTML = hastag + ((num + 2)) ;
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -2608,7 +2590,7 @@ function next001() {
 	else if ((s != minimum) && (t == minimum) && (u != minimum) && (v != minimum)){
 	if (remain >= 1 ){
 	num++;
-  	nummer3.innerHTML = hastag + ((num)) ;
+  	nummer3.innerHTML = hastag + ((num + 2)) ;
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -2623,7 +2605,7 @@ function next001() {
 	else if ((s != minimum) && (t != minimum) && (u == minimum) && (v != minimum)){
 	if (remain >= 1 ){
 	num++;
-  	nummer4.innerHTML = hastag + ((num)) ;
+  	nummer4.innerHTML = hastag + ((num + 2)) ;
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -2635,11 +2617,10 @@ function next001() {
 	percentagep4 = 0;
 	}
 	}// 4
-
 	else if ((s != minimum) && (t != minimum) && (u != minimum) && (v == minimum)){
 	if (remain >= 1 ){
 	num++;
-  	nummer5.innerHTML = hastag + ((num)) ;
+  	nummer5.innerHTML = hastag + ((num + 2)) ;
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2654,12 +2635,12 @@ function next001() {
 	else if ((s == minimum) && (t == minimum) && (u != minimum) && (v != minimum)){
 	if (remain >= 2 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -2669,7 +2650,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -2685,15 +2666,16 @@ function next001() {
 	percentagep3 = 0;
 	}
 	}// 23
+
 	else if ((s == minimum) && (t != minimum) && (u == minimum) && (v != minimum)){
 	if (remain >= 2 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -2703,7 +2685,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -2722,12 +2704,12 @@ function next001() {
 	else if ((s == minimum) && (t != minimum) && (u != minimum) && (v == minimum)){
 	if (remain >= 2 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2738,7 +2720,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -2757,12 +2739,12 @@ function next001() {
 	else if ((s != minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	if (remain >= 2 ){
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -2772,7 +2754,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -2782,6 +2764,7 @@ function next001() {
 	remain = (competitorlist.length- afvallers);
 	}
 	else {
+
 	eliminate3 = 1;
 	percentagep3 = 0;
 	eliminate4 = 1;
@@ -2791,12 +2774,12 @@ function next001() {
 	else if ((s != minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	if (remain >= 2 ){
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2806,7 +2789,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -2825,12 +2808,12 @@ function next001() {
 	else if ((s != minimum) && (t != minimum) && (u == minimum) && (v == minimum)){
 	if (remain >= 2 ){
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2840,7 +2823,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -2860,17 +2843,17 @@ function next001() {
 	else if ((s == minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	if (remain >= 3 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -2881,12 +2864,12 @@ function next001() {
 	}
 	else if (remain == 2) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -2898,7 +2881,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -2918,20 +2901,21 @@ function next001() {
 	percentagep4 = 0;
 	}
 	}// 234
+
 	else if ((s == minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	if (remain >= 3 ){
 	num++;
-	nummer2.innerHTML = hastag + ((num));
+	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -2942,12 +2926,12 @@ function next001() {
 	}
 	else if (remain == 2) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -2959,7 +2943,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -2982,17 +2966,17 @@ function next001() {
 	else if ((s == minimum) && (t != minimum) && (u == minimum) && (v == minimum)){
 	if (remain >= 3 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -3003,12 +2987,12 @@ function next001() {
 	}
 	else if (remain == 2) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -3020,7 +3004,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -3043,17 +3027,17 @@ function next001() {
 	else if ((s != minimum) && (t == minimum) && (u == minimum) && (v == minimum)){
 	if (remain >= 3 ){
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
@@ -3064,12 +3048,12 @@ function next001() {
 	}
 	else if (remain == 2) {
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -3081,7 +3065,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -3101,25 +3085,26 @@ function next001() {
 	percentagep5 = 0;
 	}
 	}// 345
+
 	else if ((s == minimum) && (t == minimum) && (u == minimum) && (v == minimum) && (b != minimum)){
 	if (remain >= 4 ){
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	num++;
-  	nummer5.innerHTML = hastag + ((num));
+  	nummer5.innerHTML = hastag + ((num + 2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;	
@@ -3131,17 +3116,17 @@ function next001() {
 	}
 	else if (remain == 3) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	num++;
-  	nummer4.innerHTML = hastag + ((num));
+  	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
@@ -3154,12 +3139,12 @@ function next001() {
 	}
 	else if (remain == 2) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
 	num++;
-  	nummer3.innerHTML = hastag + ((num));
+  	nummer3.innerHTML = hastag + ((num + 2));
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
@@ -3173,7 +3158,7 @@ function next001() {
 	}
 	else if (remain == 1) {
 	num++;
-  	nummer2.innerHTML = hastag + ((num));
+  	nummer2.innerHTML = hastag + ((num + 2));
   	twitter002.innerHTML = competitorlist[num].twitter;
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep2 = competitorlist[num].percentage;
@@ -3187,6 +3172,7 @@ function next001() {
 	remain = (competitorlist.length- afvallers);
 	}
 	else {
+
 	eliminate2 = 1;
 	percentagep2 = 0;
 	eliminate3 = 1;
@@ -3233,7 +3219,7 @@ if (eliminate5 == 1){
                 message006.innerHTML = "";
                 round001.innerHTML = r++;
 rounds++;
-                a++;
+                 a++;
  		qu001.innerHTML = "QUESTION 1 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3257,13 +3243,13 @@ quescount++;
 		simulatecomp();   
            	window.clearInterval(update);
                 time001.innerHTML = "Time's up!";
-	        incmusic.play();
+	    	incmusic.play();
 		document.getElementById("time001").style.fontSize = "100%";
 		document.getElementById("time001").style.fontWeight = "normal";
 	    document.getElementById("q1").disabled = true;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            if ((a == 6) ||(a == 11)||(a == 16)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 66)||(a == 71)||(a == 76)||(a == 81)||(a == 86)||(a == 91)||(a == 96)||(a == 101)||(a == 106)||(a == 111)||(a == 116)||(a == 121)||(a == 126)||(a == 131)||(a == 136)||(a == 141)||(a == 146)||(a == 151)||(a == 156)||(a == 161)||(a == 166)||(a == 171)||(a == 176)||(a == 181)||(a == 186)||(a == 191)||(a == 196)||(a == 201)||(a == 206)||(a == 211)||(a == 216)||(a == 221)||(a == 226)||(a == 231)) {
+if ((a == "6") ||(a == "11")||(a == "16")||(a == "21")||(a == "26")||(a == "31")||(a == "36")||(a == "41")||(a == "46")||(a == "51")||(a == "56")||(a == "61")||(a == "66")||(a == "71")||(a == "76")||(a == "81")||(a == "86")||(a == "91")||(a == "96")||(a == "101")||(a == "106")||(a == "111")||(a == "116")||(a == "121")||(a == "126")||(a == "131")||(a == "136")||(a == "141")||(a == "146")||(a == "151")||(a == "156")||(a == "161")||(a == "166")||(a == "171")||(a == "176")||(a == "181")||(a == "186")||(a == "191")||(a == "196")||(a == "201")||(a == "206")||(a == "211")||(a == "216")||(a == "221")||(a == "226")||(a == "231")){
 	    message006.innerHTML =  "";
             message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }

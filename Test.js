@@ -67,15 +67,12 @@ wheelie = shuffle(wheelie);
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
-	document.getElementById("checkboxes").style.top = "-1040px";
         $(this).prop('checked', false);
     }
     if ($('input[type=checkbox]:checked').length == 6) {
-	document.getElementById("checkboxes").style.top = "-1040px";
 	document.getElementById("message004").style.visibility = "visible";
     }
 else{
-	document.getElementById("checkboxes").style.top = "-1040px";
 	document.getElementById("message004").style.visibility = "hidden";
 }
 });

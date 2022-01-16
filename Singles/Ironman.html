@@ -22,17 +22,27 @@ display: none;
 .tableborder{
 display: none;
 }
+.background{
+  width: 950px;
+  height:auto;
+  top:0%;
+  left:0%;
+  position:relative;
+}
+	    
+.background img{
+   width: 950px;
+}
         #frame001 {
 	    margin: auto;
-	    background-image: url(ironmanback.png);
- 	    background-repeat: no-repeat;
-background-position: center top;
             border-radius: 5px;
             background-color: #fbfbfb;
+	    background-position: center top;
             border: none;
-            height: 1000px;
+            height: 1500px;
             width: 950px;
-	   zoom: 1.4;
+	    position: relative;
+	    zoom: 1.4;
         }
 	    body {
 	font-family: Arial, sans-serif;
@@ -120,29 +130,174 @@ background-position: center top;
             font-size: large;
             color: black;
         }
-        #player001 {
-	    position: relative;
-	    top : -5px;
- 	    left: -265px;
-            font-size: 110%;
-	    font-weight: bold;
-            color: white;
+     #player001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 44.5%;
+    left: 11.6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
         }
         #player002 {
-	    position: relative;
-	    top : -27px;
- 	    left: 260px;
-            font-size: 110%;
-	    font-weight: bold;
-            color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 44.5%;
+    left: 66.6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    margin: auto;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;		
+        }  
+        #record001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 46%;
+    left: 0;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
         }
+        #record002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 46%;
+    left: 88%;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }	
         #score001 {
-	    position: relative;
-	    top : -87px;
- 	    left: -115px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 43%;
+    left: 32.8%;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #score002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 43%;
+    left: 56.5%;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #twitter001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 59%;
+    left: 0%;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #twitter002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 59%;
+    left: 88%;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 110px;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #faction001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 72%;
+    left: 0%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #faction002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 72%;
+    left: 88%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
         }
         #time001 {
 	   position: relative;
@@ -167,68 +322,6 @@ background-position: center top;
 	   position: relative;
 	    top : -160px;
         }
-        #score002 {
-	   position: relative;
-	    top : -127px;
- 	    left: 110px;
-            font-size: 190%;
-	    font-weight: bold;
-            color: white;
-        }
-        #record001 {
-	    position: relative;
-	    top : -60px;
- 	    left: -425px;
-            text-align: center;
-            font-size: 80%;
-            color: white;
-	    font-weight: bold;
-        }
-        #record002 {
-	    position: relative;
-	    top : -80px;
- 	    left: 415px;
-            text-align: center;
-            font-size: 80%;
-            color: white;
-	    font-weight: bold;
-        }
-        #twitter001 {
-	    position: relative;
-	    top : -160px;
- 	    left: -425px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #twitter002 {
-	    position: relative;
-	    top : -180px;
- 	    left: 415px;
-            text-align: center;
-            font-size: 60%;
-            color: white;
-	    font-weight: bold;
-        }
-        #faction001 {
-	    position: relative;
-	    top : -198px;
- 	    left: -390px;
-            text-align: center;
-            font-size: 65%;
-            color: white;
-	    font-weight: bold;
-        }
-        #faction002 {
-	    position: relative;
-	    top : -198px;
- 	    left: 390px;
-            text-align: center;
-            font-size: 65%;
-            color: white;
-	    font-weight: bold;
-        }
         #message005 {
 	   position: relative;
 	    top : -160px;
@@ -236,42 +329,53 @@ background-position: center top;
             font-size: 90%;
             color: black;
         }
-        #message001 {
+    #message001 {
             text-align: center;
             font-size: 90%;
-	    top: -15px;
             color: white;
-	   position: relative;
 	    height: 37.714px;
+	    background: none repeat scroll 0;
+	    position: absolute;
+	    top : 16%;
+	    margin: auto;
+	    width: 100%; 
         }
-        #qu001 {
+   #qu001 {
+	   background: none repeat scroll 0;
+	    position: absolute;
+	    top : 0%;
             text-align: center;
-            font-size: 100%;
+            font-size: 18px;
             color: white;
 	    font-weight: bold;
-        }
-        #qu002 {
-            text-align: center;
-            font-size: 100%;
-            color: white;
-	    font-weight: bold;
-        }
-        #round001 {
-	   position: relative;
-	    top : 0px;
- 	    left: 0px;
-            text-align: center;
-            font-size: 100%;
-            color: white;
-	    font-weight: bold;
+	    margin: auto;
+	    width: 100%; 
         }
         #round002 {
-	   position: relative;
-	    top : -158px;
- 	    left: 0px;
-            font-size: 90%;
+	 background: none repeat scroll 0;
+   	 position: absolute;
+    	 top: 83%;
+   	 left: 43%;
+   	 font-size: 90%;
+   	 color: white;
+   	 font-weight: bold;
+   	 margin: auto;
+   	 width: 125px;
+   	 height: 20px;
+   	 text-align: center;
+  	 align-items: center;
+  	 display: flex;
+  	 justify-content: center;
+        }
+	    #round001 {
+	   position: absolute;
+	    top : 0%;
+ 	    left: 78%;
+            text-align: center;
+            font-size: 100%;
             color: white;
 	    font-weight: bold;
+	    display: inline-block;
         }
         #select{
 	   position: relative;
@@ -326,13 +430,13 @@ transform-origin: top center;
 }
     </style>
 <audio id="myAudio">
-  <source src="https://files.jcink.net/uploads2/fantasymts/Ding_Sound_Effect.mp3" type="audio/mpeg">
+  <source src="/Schmoedown/Media/Ding_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 <audio id="myAudio2">
-  <source src="https://files.jcink.net/uploads2/fantasymts/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
+  <source src="/Schmoedown/Media/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg">
 </audio>
 	<button id="goFS" class="goFS">Go fullscreen</button>
-    <div id="frame001"><div id="font001"><text id="qu002">QUESTION </text><text id="qu001">0</text><p id="message001">Enter your name and twitter.</p><text id="player001">CHALLENGER</text><br><text id="player002">OPPONENT</text><br><text id="record001">0-0</text><br><text id="record002">0-0</text><br><text id="score001">0</text><br><text id="score002">0</text><br><text id="twitter001">@Challenger</text><br><text id="twitter002">@Opponent</text><br><text id="round002">12:00<text id="round001"></text></text><br><text id="faction001">ROOKIE</text><text id="faction002">UNKNOWN</text><br><text><text id="time001"></text></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><br></div>
+<div id="frame001"><div id="font001"><div class="background"><img id="background" src="ironmanback.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">12:00<text id="round001"></text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><br><br><br><br><br><br><br><br><text id="time001"></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><br></div>
 <form id="save-later-form-Ironman"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="AnsweredQuestions_IM" value="0" type="number" id="AnsweredQuestions_IM" required hidden><input name="CorrectQuestions_IM" value="0" type="number" id="CorrectQuestions_IM" required hidden><input name="PossiblePoints_IM" value="0" type="number" id="PossiblePoints_IM" required hidden><input name="TotalPoints_IM" value="0" type="number" id="TotalPoints_IM" required hidden></input><input name="Wins_IM" value="0" type="number" id="wins_IM" required hidden><input name="Losses_IM" value="0" type="number" id="losses_IM" required hidden></form><button type="submit" id="save" hidden>Save</button></br></div>
 <script src="lib/Movie Release Dates Iron.js" charset="utf-8"></script>
 <script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>

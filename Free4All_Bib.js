@@ -2302,7 +2302,7 @@ function begin001() {
             c = 21;
                 time001.innerHTML = 20;
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-440px";
+	    document.getElementById("time001").style.top = "-430px";
 	    document.getElementById("message005").style.position = "relative";
 	    document.getElementById("message005").style.top = "-480px";
 	    document.getElementById("message006").style.position = "relative";
@@ -2464,7 +2464,7 @@ simulatecomp();
 function next001() {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-440px";
+	    document.getElementById("time001").style.top = "-430px";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";

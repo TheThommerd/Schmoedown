@@ -2327,7 +2327,7 @@ function begin001() {
 	    document.getElementById("message003").style.top = "-480px";
 	    document.getElementById("message004").style.position = "relative";
 	    document.getElementById("message004").style.top = "-480px";
-	    document.getElementById("time001").style.top = "-440px";
+	    document.getElementById("time001").style.top = "-430px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 	    document.getElementById("q1").style.position = "relative";
@@ -2482,7 +2482,7 @@ simulatecomp();
 function next001() {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-440px";
+	    document.getElementById("time001").style.top = "-430px";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";

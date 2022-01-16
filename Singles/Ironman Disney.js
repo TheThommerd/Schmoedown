@@ -234,7 +234,7 @@ function begin001() {
             message005.innerHTML = "";
             message006.innerHTML = "";
            a++;
-            qu001.innerHTML = "1 - " +question001[0].cat.toUpperCase();
+            qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
 	    document.getElementById("q1").focus();
         }
 function Challenge(){
@@ -280,16 +280,16 @@ function ChallengeDenied(){
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
 if (j == 2) {
-	    document.getElementById("frame001").style.backgroundImage = "url('Singles___NoChal.png')";
+	    document.getElementById("background").src = "Singles - NoChal.png";
 }
 else if (j == 1) {
-	    document.getElementById("frame001").style.backgroundImage = "url('Singles___2JTE.png')";
+	    document.getElementById("background").src = "Singles - 2JTE.png";
 	          }
 else if (j == 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('Singles___1JTE.png')";
+	    document.getElementById("background").src = "Singles - 1JTE.png";
 	          }
  else if (j < 0) {
-	    document.getElementById("frame001").style.backgroundImage = "url('Singles___NoJTE.png')";
+	    document.getElementById("background").src = "Singles - NoJTE.png";
 	      }
 }
 
@@ -458,7 +458,7 @@ else {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-            	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
+            	qu001.innerHTML = "QUESTION " + a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);
@@ -633,7 +633,7 @@ update = setInterval("speedtimer001()", 1000);
                 time001.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-            	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
+            	qu001.innerHTML = "QUESTION "+ a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
 }
 }
@@ -656,7 +656,7 @@ function speedquestions2() {
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-            	qu001.innerHTML = a + " - " + question001[vraag].cat.toUpperCase();
+            	qu001.innerHTML = "QUESTION "+ a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
                     window.clearInterval(update);

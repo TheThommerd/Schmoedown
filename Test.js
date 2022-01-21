@@ -272,36 +272,36 @@ else if (j == 2) {
   if (h == 1) {
 	    c = 16;
             j--;
-	    document.getElementById("background").src = "Singles/Singles - 2JTEChal.png";
+	    document.getElementById("background").src = "Singles/IM_2JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles/Singles - 2JTE.png";
+	    document.getElementById("background").src = "Singles/Singles/IM_2JTE.png";
 	    }
 }
 else if (j == 1) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles - 1JTEChal.png";
+	    document.getElementById("background").src = "Singles/IM_1JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles/Singles-1JTE.png";
+	    document.getElementById("background").src = "Singles/Singles/IM_1JTE.png";
 	    }
 }
 else if (j == 0) {
  if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles - NoJTEChal.png";
+	    document.getElementById("background").src = "Singles/IM_NoJTEChal.png";
 	     }
  else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles - NoJTE.png";
+	    document.getElementById("background").src = "Singles/IM_NoJTE.png";
 	    }
 }
 else if (j < 0) {
@@ -353,16 +353,16 @@ function ChallengeDenied(){
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
 if (j == 2) {
-	    document.getElementById("background").src = "ironmanNoChal.png";
+	    document.getElementById("background").src = "Singles/IM_3JTE.png";
 }
 else if (j == 1) {
-	    document.getElementById("background").src = "ironmanNoChal.png";
+	    document.getElementById("background").src = "Singles/IM_2JTE.png";
 	          }
 else if (j == 0) {
-	    document.getElementById("background").src = "ironmanNoChal.png";
+	    document.getElementById("background").src = "Singles/IM_1JTE.png";
 	          }
  else if (j < 0) {
-	    document.getElementById("background").src = "ironmanNoChal.png";
+	    document.getElementById("background").src = "Singles/IM_NoJTE.png";
 	      }
 }
 

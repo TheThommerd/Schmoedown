@@ -6,6 +6,7 @@
 		var incmusic = document.getElementById("myAudio2"); 
 		document.getElementById("myAudio").volume = 0.1;
 		document.getElementById("myAudio2").volume = 0.05;
+		document.getElementById("JTE").style.display = "none";
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
@@ -115,6 +116,7 @@ function pauseTyping()
 
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
+	document.getElementById("JTE").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>ROUND ONE</font><br/></br>12 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
@@ -258,6 +260,56 @@ function begin001() {
             qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
 	    document.getElementById("q1").focus();
         }
+
+function JTE(){
+document.getElementById("q1").focus();
+if ((c != "0") && (c < 15)) {
+if (j == 3) {
+            c = 16;
+             j--;
+	    }
+else if (j == 2) {
+  if (h == 1) {
+	    c = 16;
+            j--;
+	    document.getElementById("background").src = "Singles - 2JTEChal.png";
+	    }
+  else if (h < 1) {
+	    c = 16;
+             j--;
+	    document.getElementById("background").src = "Singles - 2JTE.png";
+	    }
+}
+else if (j == 1) {
+  if (h == 1) {
+	    c = 16;
+             j--;
+	    document.getElementById("background").src = "Singles - 1JTEChal.png";
+	    }
+  else if (h < 1) {
+	    c = 16;
+             j--;
+	    document.getElementById("background").src = "Singles-1JTE.png";
+	    }
+}
+else if (j == 0) {
+ if (h == 1) {
+	    c = 16;
+             j--;
+	    document.getElementById("background").src = "Singles - NoJTEChal.png";
+	     }
+ else if (h < 1) {
+	    c = 16;
+             j--;
+	    document.getElementById("background").src = "Singles - NoJTE.png";
+	    }
+}
+else if (j < 0) {
+            message005.innerHTML = "No repeats left!";
+	    }
+}
+}
+
 function Challenge(){
 	     var question1 = document.getElementById("q1").value;
 if (question1.length < 1){
@@ -367,6 +419,7 @@ similarity2 = 0;
             c = "-";
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
+	    document.getElementById("JTE").style.visibility = "hidden";
 	if ((question1 == question001[vraag].answ) || (question1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b+=1;
@@ -469,6 +522,7 @@ else {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+	    document.getElementById("JTE").style.visibility = "visible";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -693,6 +747,7 @@ function finalround(){
 	document.getElementById("message005").style.top = "-210px";
 	document.getElementById("message004").style.position = "relative";
 	document.getElementById("message004").style.top = "-210px";
+	    document.getElementById("JTE").style.visibility = "hidden";
 	    document.getElementById("time001").style.visibility = "hidden";
             message004.innerHTML = "<button class=buttons002 onclick=start2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 speed++;
@@ -750,6 +805,7 @@ function win(){
                 c = "-";
                 message001.innerHTML = "End of Match";
                 time001.innerHTML = "";
+		document.getElementById("JTE").style.visibility = "hidden";
 		document.getElementById("message002").style.fontSize = "200%";
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
@@ -781,6 +837,7 @@ function lose(){
                 c = "-";
                 message001.innerHTML = "End of Match";
                 time001.innerHTML = "";
+		document.getElementById("JTE").style.visibility = "hidden";
 		document.getElementById("message002").style.fontSize = "200%";
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";

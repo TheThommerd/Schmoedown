@@ -239,7 +239,7 @@ var chance = 0;
 var c;
 question001 = shuffle(question001); 
 function begin001() {
-    var Minutes = 60 * 12,
+    var Minutes = 60 * 1,
         display = document.querySelector('#round002');
     startTimer(Minutes, display);
              c = 21;
@@ -372,7 +372,7 @@ function myTrim(x) {
 
 
 function checker(){
-	document.getElementById("message003").style.top = "-210px";
+	document.getElementById("message003").style.top = "-200px";
 	document.getElementById("message004").style.top = "-210px";
 similarity1 = 0;
 similarity2 = 0;
@@ -558,7 +558,7 @@ posspoints++;
 posspointsopp++;
 quescountopp++;
       		message003.innerHTML = "The correct answer is " + question001[vraag].answ2; 
-		    document.getElementById("message003").style.top = "-210px";
+		    document.getElementById("message003").style.top = "-200px";
            	window.clearInterval(update);
                 time001.innerHTML = "Time's up!";
 		document.getElementById("JTE").style.visibility = "hidden";

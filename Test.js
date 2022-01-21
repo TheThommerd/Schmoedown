@@ -239,7 +239,7 @@ var chance = 0;
 var c;
 question001 = shuffle(question001); 
 function begin001() {
-    var Minutes = 60 * 12,
+    var Minutes = 60 * 2.5,
         display = document.querySelector('#round002');
     startTimer(Minutes, display);
              c = 21;

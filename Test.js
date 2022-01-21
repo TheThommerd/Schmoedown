@@ -465,6 +465,7 @@ function checkerspeed(){
 	    speed1 = myTrim(speed1);
             window.clearInterval(update);
 		document.getElementById("submit2").style.display = "none";
+		document.getElementById("message003").style.top = "-210px";
 	    document.getElementById("q1").disabled = true;
 	                message001.innerHTML = question001[vraag].ques;
 	quescount++;

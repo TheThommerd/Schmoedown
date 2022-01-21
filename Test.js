@@ -116,7 +116,6 @@ function pauseTyping()
 
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
-	document.getElementById("JTE").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>ROUND ONE</font><br/></br>12 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
@@ -248,6 +247,7 @@ function begin001() {
                 document.getElementById("round002").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("message005").style.position = "relative";
+		document.getElementById("JTE").style.display = "initial";
 	    document.getElementById("message005").style.top = "-120px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "-120px";
@@ -272,36 +272,36 @@ else if (j == 2) {
   if (h == 1) {
 	    c = 16;
             j--;
-	    document.getElementById("background").src = "Singles - 2JTEChal.png";
+	    document.getElementById("background").src = "Singles/Singles - 2JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles - 2JTE.png";
+	    document.getElementById("background").src = "Singles/Singles/Singles - 2JTE.png";
 	    }
 }
 else if (j == 1) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles - 1JTEChal.png";
+	    document.getElementById("background").src = "Singles/Singles - 1JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles-1JTE.png";
+	    document.getElementById("background").src = "Singles/Singles/Singles-1JTE.png";
 	    }
 }
 else if (j == 0) {
  if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles - NoJTEChal.png";
+	    document.getElementById("background").src = "Singles/Singles - NoJTEChal.png";
 	     }
  else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles - NoJTE.png";
+	    document.getElementById("background").src = "Singles/Singles - NoJTE.png";
 	    }
 }
 else if (j < 0) {

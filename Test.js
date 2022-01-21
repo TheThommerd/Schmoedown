@@ -719,6 +719,8 @@ function speedquestions2() {
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 time001.innerHTML = 5;
+	document.getElementById("message002").style.top = "-190px";
+	document.getElementById("message003").style.top = "-210px";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
@@ -791,6 +793,7 @@ posspoints++;
             message006.innerHTML = "The correct answer is " + question001[vraag].answ2; 
 	document.getElementById("message004").style.top = "-210px";
 	document.getElementById("message006").style.top = "-210px";
+	document.getElementById("message003").style.top = "-210px";
         }
 }
 function start2(){

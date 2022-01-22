@@ -277,7 +277,7 @@ else if (j == 2) {
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles/IM_2JTE.png";
+	    document.getElementById("background").src = "Singles/IM_2JTE.png";
 	    }
 }
 else if (j == 1) {
@@ -289,7 +289,7 @@ else if (j == 1) {
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/Singles/IM_1JTE.png";
+	    document.getElementById("background").src = "Singles/IM_1JTE.png";
 	    }
 }
 else if (j == 0) {

@@ -913,9 +913,9 @@ else {
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
-	    document.getElementById("message002").style.top = "-170px";
-	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";
+	    document.getElementById("message002").style.top = "-175px";
+	    document.getElementById("message004").style.top = "-210px";
+	    document.getElementById("message003").style.top = "-240px";
 	    document.getElementById("JTE").style.display = "initial";
 	    document.getElementById("JTE").style.visibility = "visible";
                 update = setInterval("timer001()", 1000);
@@ -943,7 +943,7 @@ else {
 
 function checkersuddendeath(){
 	    document.getElementById("message003").style.top = "-200px";
-	    document.getElementById("message004").style.top = "-210px";
+	    document.getElementById("message004").style.top = "-230px";
 	    similarity1 = 0;
 	    similarity2 = 0;
 	    quescount++;

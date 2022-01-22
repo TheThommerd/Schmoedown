@@ -893,8 +893,8 @@ function overtime(){
 	document.getElementById("message004").style.top = "-225px";
 	    document.getElementById("JTE").style.display = "none";
  	    round002.innerHTML = "OVERTIME";
-	    var j = 1;
-	    var speed = 0;
+	    j = 0;
+	    speed = 0;
 	    suddendeath++;
 	    document.getElementById("time001").style.visibility = "hidden";
             message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";

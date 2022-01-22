@@ -495,6 +495,7 @@ similarity2 = 0;
 	document.getElementById("message005").style.top = "-120px";
 	document.getElementById("message004").style.position = "relative";
   document.getElementById("message004").style.top = "-230px";
+		  document.getElementById("message003").style.top = "-220px";
 
 	}
         else if (speed1 != question001[vraag].answ)  {
@@ -507,6 +508,7 @@ similarity2 = 0;
 	document.getElementById("message005").style.top = "-120px";
 	document.getElementById("message004").style.position = "relative";
   document.getElementById("message004").style.top = "-230px";
+		  document.getElementById("message003").style.top = "-220px";
 	}
  	chance = 0 ;
 }
@@ -948,7 +950,7 @@ else {
 
 function checkersuddendeath(){
 	    document.getElementById("message003").style.top = "-200px";
-	    document.getElementById("message004").style.top = "-230px";
+	    document.getElementById("message004").style.top = "-210px";
 	    similarity1 = 0;
 	    similarity2 = 0;
 	    quescount++;

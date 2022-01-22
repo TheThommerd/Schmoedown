@@ -886,7 +886,7 @@ function overtime(){
 	message001.innerHTML = "Click Next to proceed.";
 	message002.innerHTML = "";
 	message003.innerHTML = "";
-	message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</strong>";
+	message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>1 REPEAT AVAILABLE</strong>";
         document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-220px";
 	document.getElementById("message004").style.position = "relative";
@@ -898,6 +898,8 @@ function overtime(){
 	    var suddendeath = 1;
 	    document.getElementById("time001").style.visibility = "hidden";
             message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+  	    if (h == 1) {document.getElementById("background").src = "Singles/IM_1JTEChal.png";}
+            else if (h < 1) {document.getElementById("background").src = "Singles/IM_1JTE.png";}
 }
 function startsuddendeath() {
 if (b -s > 0){win();}
@@ -908,10 +910,12 @@ else {
 	else if (typeof(question001[vraag]) != "undefined"){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+	    document.getElementById("JTE").style.display = "initial";
 	    document.getElementById("JTE").style.visibility = "visible";
                 update = setInterval("timer001()", 1000);
                 c = 20;

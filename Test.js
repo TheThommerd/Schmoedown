@@ -571,8 +571,16 @@ quescountopp++;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
 	    message006.innerHTML =  "";
-if (speed == 0){
+if ((speed == 0) & (suddendeath == 0)){
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+var correct = Math.random() * 100;
+if (correct < competitorlist[0].percentage){
+score002.innerHTML = s+=1;
+quescoropp++;
+}
+}
+if ((speed == 0) & (suddendeath == 1)){
+            message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 var correct = Math.random() * 100;
 if (correct < competitorlist[0].percentage){
 score002.innerHTML = s+=1;
@@ -869,4 +877,122 @@ function lose(){
 		document.getElementById("message003").style.top = "-220px";
 		document.getElementById("message006").style.top = "-120px";
 		document.getElementById("message006").style.fontSize = "110%";
+}
+function suddendeath(){
+	message001.innerHTML = "Click Next to proceed.";
+	message002.innerHTML = "";
+	message003.innerHTML = "";
+	message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</strong>";
+        document.getElementById("message005").style.position = "relative";
+	document.getElementById("message005").style.top = "-220px";
+	document.getElementById("message004").style.position = "relative";
+	document.getElementById("message004").style.top = "-225px";
+	    document.getElementById("JTE").style.display = "none";
+ 	    round002.innerHTML = "OVERTIME";
+	    var j = 1;
+	    var speed = 0;
+	    var suddendeath = 1;
+	    document.getElementById("time001").style.visibility = "hidden";
+            message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+}
+function startsuddendeath() {
+if (b -s > 0){win();}
+else if (b -s < 0){lose();}
+else {
+			vraag++;
+	if (typeof(question001[vraag]) == "undefined"){if (b -s > 0){win();}else if (b -s < 0){lose();}}
+	else if (typeof(question001[vraag]) != "undefined"){
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+	        document.getElementById("chalacc").style.display = "initial";
+	    	document.getElementById("chalden").style.display = "initial";
+	   	document.getElementById("message004").style.display = "initial";
+	    	document.getElementById("message005").style.display = "initial";
+	    	document.getElementById("JTE").style.visibility = "visible";
+                update = setInterval("timer001()", 1000);
+                c = 20;
+                time001.innerHTML = 20;
+                message001.innerHTML = question001[vraag].ques;
+                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checkersuddendeath()>Submit Answer</button>";
+	        document.getElementById("q1").focus();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                 a++;
+            	qu001.innerHTML = "QUESTION " + a + " - " + question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+                if (c < 1) {
+                    window.clearInterval(update);
+                    message001.innerHTML = "Time's up";
+                    message002.innerHTML = "";
+                    message003.innerHTML = "";
+            	    message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+                }
+}
+}
+}
+
+function checkersuddendeath(){
+	    document.getElementById("message003").style.top = "-200px";
+	    document.getElementById("message004").style.top = "-210px";
+	    similarity1 = 0;
+	    similarity2 = 0;
+	    quescount++;
+	    posspoints++;
+	    posspointsopp++;
+	    quescountopp++;
+	    var question01 = document.getElementById("q1").value.toUpperCase();
+	    var question1 = myTrim(question01);
+	    question1 = question1.replace(":"," ");
+	    question1 = question1.replace("!","");
+	    question1 = question1.replace("$","");
+	    question1 = question1.replace("?","");
+	    question1 = question1.replace(","," ");
+	    question1 = question1.replace("&","AND");
+	    question1 = question1.replace(".","");
+	    question1 = question1.replace("-"," ");
+	    question1 = question1.replace("   "," ");
+	    question1 = question1.replace("  "," ");
+	    question1 = question1.replace("É","E");
+	    question1 = question1.replace("Ó","O");
+	    question1 = question1.replace("Í","I");
+	    question1 = question1.replace("Á","A");
+	    question1 = question1.replace("Ñ","N");
+	    question1 = question1.replace("È","E");
+	    question1 = question1.replace("Ç","C");
+	    question1 = myTrim(question1);
+	if (question1.length > 4){
+	similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
+	if (typeof(question001[vraag].answ3) != 'undefined'){
+	similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
+	}
+	}
+	else if (question1.length <= 4){
+	similarity1 = 0;
+	similarity2 = 0;
+	}
+            window.clearInterval(update);
+            c = "-";
+	    document.getElementById("submit2").style.display = "none";
+	    document.getElementById("q1").disabled = true;
+	    document.getElementById("JTE").style.visibility = "hidden";
+	if ((question1 == question001[vraag].answ) || (question1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+            score001.innerHTML = b+=1;
+	    quescor++;
+	    cormusic.play();
+            message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	}
+	     
+        else if (question1 != question001[vraag].answ)  {
+            message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
+	    message005.innerHTML = "";
+	    incmusic.play();
+            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+	}
+    	var correct = Math.random()*100;
+	if (correct < competitorlist[0].percentage){
+	score002.innerHTML = s+=1;
+	quescoropp++;
+	}        	   
 }

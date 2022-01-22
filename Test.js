@@ -466,8 +466,9 @@ function checkerspeed(){
             window.clearInterval(update);
 		document.getElementById("submit2").style.display = "none";
 		document.getElementById("message003").style.top = "-210px";
-	    document.getElementById("q1").disabled = true;
-	                message001.innerHTML = question001[vraag].ques;
+	        document.getElementById("message004").style.top = "-230px";
+	        document.getElementById("q1").disabled = true;
+	        message001.innerHTML = question001[vraag].ques;
 	quescount++;
 	posspoints++;
 	if (speed1.length > 4){

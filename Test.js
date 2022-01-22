@@ -662,6 +662,9 @@ win();
 else if (b -s < 0){
 lose();
 }
+else if (b -s == 0){
+suddendeath();
+}
         }
 else {
 	text = "";
@@ -751,6 +754,7 @@ function speedquestions2() {
 }
 var speed = 0;
 var nobody = 0 ;
+var suddendeath = 0;
 function finalround(){
 	message001.innerHTML = "Click Next to proceed.";
 	message002.innerHTML = "";
@@ -904,11 +908,11 @@ else {
 	else if (typeof(question001[vraag]) != "undefined"){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	        document.getElementById("chalacc").style.display = "initial";
-	    	document.getElementById("chalden").style.display = "initial";
-	   	document.getElementById("message004").style.display = "initial";
-	    	document.getElementById("message005").style.display = "initial";
-	    	document.getElementById("JTE").style.visibility = "visible";
+	    document.getElementById("chalacc").style.display = "initial";
+	    document.getElementById("chalden").style.display = "initial";
+	    document.getElementById("message004").style.display = "initial";
+	    document.getElementById("message005").style.display = "initial";
+	    document.getElementById("JTE").style.visibility = "visible";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;

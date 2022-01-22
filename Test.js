@@ -376,7 +376,11 @@ function checker(){
 	document.getElementById("message004").style.top = "-210px";
 similarity1 = 0;
 similarity2 = 0;
-if (speed != 0)
+if (suddendeath != 0)
+{
+checkersuddendeath();
+}
+else if (speed != 0)
 {
 checkerspeed();
 }

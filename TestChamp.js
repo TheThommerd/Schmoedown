@@ -264,36 +264,36 @@ else if (j == 2) {
   if (h == 1) {
 	    c = 16;
             j--;
-	    document.getElementById("background").src = "Singles/IM_2JTEChal.png";
+	    document.getElementById("background").src = "Singles/Singles - 2JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/IM_2JTE.png";
+	    document.getElementById("background").src = "Singles/Singles - 2JTE.png";
 	    }
 }
 else if (j == 1) {
   if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/IM_1JTEChal.png";
+	    document.getElementById("background").src = "Singles/Singles - 1JTEChal.png";
 	    }
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/IM_1JTE.png";
+	    document.getElementById("background").src = "Singles/Singles - 1JTE.png";
 	    }
 }
 else if (j == 0) {
  if (h == 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/IM_NoJTEChal.png";
+	    document.getElementById("background").src = "Singles/Singles - NoJTEChal.png";
 	     }
  else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles/IM_NoJTE.png";
+	    document.getElementById("background").src = "Singles/Singles - NoJTE.png";
 	    }
 }
 else if (j < 0) {
@@ -345,16 +345,16 @@ function ChallengeDenied(){
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
 if (j == 2) {
-	    document.getElementById("background").src = "Singles/IM_3JTE.png";
+	    document.getElementById("background").src = "Singles/Singles - NoChal.png";
 }
 else if (j == 1) {
-	    document.getElementById("background").src = "Singles/IM_2JTE.png";
+	    document.getElementById("background").src = "Singles/Singles - 2JTE.png";
 	          }
 else if (j == 0) {
-	    document.getElementById("background").src = "Singles/IM_1JTE.png";
+	    document.getElementById("background").src = "Singles/Singles - 1JTE.png";
 	          }
  else if (j < 0) {
-	    document.getElementById("background").src = "Singles/IM_NoJTE.png";
+	    document.getElementById("background").src = "Singles/Singles - NoJTE.png";
 	      }
 }
 
@@ -897,8 +897,8 @@ function overtime(){
 	    suddendeath++;
 	    document.getElementById("time001").style.visibility = "hidden";
             message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-  	    if (h == 1) {document.getElementById("background").src = "Singles/IM_1JTEChal.png";}
-            else if (h < 1) {document.getElementById("background").src = "Singles/IM_1JTE.png";}
+  	    if (h == 1) {document.getElementById("background").src = "Singles/Singles - 1JTEChal.png";}
+            else if (h < 1) {document.getElementById("background").src = "Singles/Singles - 1JTE.png";}
 }
 function startsuddendeath() {
 if (b -s > 0){win();}

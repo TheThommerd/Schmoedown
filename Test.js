@@ -662,8 +662,8 @@ win();
 else if (b -s < 0){
 lose();
 }
-else if (b -s == 0){
-suddendeath();
+else if ((b - s) == 0){
+overtime();
 }
         }
 else {
@@ -882,7 +882,7 @@ function lose(){
 		document.getElementById("message006").style.top = "-120px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
-function suddendeath(){
+function overtime(){
 	message001.innerHTML = "Click Next to proceed.";
 	message002.innerHTML = "";
 	message003.innerHTML = "";

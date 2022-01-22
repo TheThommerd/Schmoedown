@@ -579,7 +579,7 @@ score002.innerHTML = s+=1;
 quescoropp++;
 }
 }
-if ((speed == 0) & (suddendeath == 1)){
+else if ((speed == 0) & (suddendeath == 1)){
             message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 var correct = Math.random() * 100;
 if (correct < competitorlist[0].percentage){
@@ -895,7 +895,7 @@ function overtime(){
  	    round002.innerHTML = "OVERTIME";
 	    var j = 1;
 	    var speed = 0;
-	    var suddendeath = 1;
+	    suddendeath++;
 	    document.getElementById("time001").style.visibility = "hidden";
             message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
   	    if (h == 1) {document.getElementById("background").src = "Singles/IM_1JTEChal.png";}
@@ -913,6 +913,7 @@ else {
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
+	    document.getElementById("message002").style.top = "-170px";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 	    document.getElementById("JTE").style.display = "initial";

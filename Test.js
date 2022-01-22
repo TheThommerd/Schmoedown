@@ -490,7 +490,7 @@ similarity2 = 0;
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-120px";
 	document.getElementById("message004").style.position = "relative";
-	document.getElementById("message004").style.top = "-210px";
+  document.getElementById("message004").style.top = "-230px";
 
 	}
         else if (speed1 != question001[vraag].answ)  {
@@ -502,7 +502,7 @@ similarity2 = 0;
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-120px";
 	document.getElementById("message004").style.position = "relative";
-	document.getElementById("message004").style.top = "-210px";
+  document.getElementById("message004").style.top = "-230px";
 	}
  	chance = 0 ;
 }

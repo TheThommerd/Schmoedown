@@ -64,18 +64,18 @@ wheelie[3]= competitorlist[0].strength4;
 wheelie[4]= competitorlist[0].strength5;
 wheelie[5]= competitorlist[0].strength6;
 wheelie = shuffle(wheelie);
-	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>" + "He/she selected the following wheel slices: " + wheelie[0] + ", " +  wheelie[1] + " and " +  wheelie[2] + "." + "</br></br>" + "Select 3 categories to put on the wheel.";
+	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>" + "He/she selected the following wheel slices: " + wheelie[0] + " and " +  wheelie[1] + "." + "</br></br>" + "Select 2 categories to put on the wheel.";
 	document.getElementById("message004").style.top = "-180px";
         document.getElementById("message004").style.visibility = "hidden";
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 $('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 6) {
+    if ($('input[type=checkbox]:checked').length > 4) {
 	    if (navigator.userAgent.includes('Firefox')) {
 	  document.getElementById("checkboxes").style.top = "430px";
 	}	
         $(this).prop('checked', false);
     }
-    if ($('input[type=checkbox]:checked').length == 6) {
+    if ($('input[type=checkbox]:checked').length == 4) {
 	    if (navigator.userAgent.includes('Firefox')) {
 	  document.getElementById("checkboxes").style.top = "430px";
 	}	
@@ -93,7 +93,7 @@ if (checkcount < 3){
 var m = 1;
 var cat = "cat";
 for (m = 1; m < 71; m++) {
-if ((document.getElementById(cat + m).value == wheelie[0]) || (document.getElementById(cat + m).value ==  wheelie[1]) || (document.getElementById(cat + m).value ==  wheelie[2])) {
+if ((document.getElementById(cat + m).value == wheelie[0]) || (document.getElementById(cat + m).value ==  wheelie[1])) {
 document.getElementById(cat + m).checked = true;
 document.getElementById(cat + m).disabled = true;
 checkcount++;
@@ -390,11 +390,7 @@ else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[4]) {picked = "5";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[5]) {picked = "7";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-          round2();
+round2();
 }
 else 
 {
@@ -522,24 +518,12 @@ if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
 else if (wheelie[0] == storage[2]) {random = "3";}
 else if (wheelie[0] == storage[3]) {random = "4";}
-else if (wheelie[0] == storage[4]) {random = "5";}
-else if (wheelie[0] == storage[5]) {random = "7";}
 assigncompcat();}
 else if (data[picked] != wheelie[1]) {
 if (wheelie[1] == storage[0]) {random = "1";}
 else if (wheelie[1] == storage[1]) {random = "2";}
 else if (wheelie[1] == storage[2]) {random = "3";}
 else if (wheelie[1] == storage[3]) {random = "4";}
-else if (wheelie[1] == storage[4]) {random = "5";}
-else if (wheelie[1] == storage[5]) {random = "7";}
-assigncompcat();}
-else if (data[picked] != wheelie[2]) {
-if (wheelie[2] == storage[0]) {random = "1";}
-else if (wheelie[2] == storage[1]) {random = "2";}
-else if (wheelie[2] == storage[2]) {random = "3";}
-else if (wheelie[2] == storage[3]) {random = "4";}
-else if (wheelie[2] == storage[4]) {random = "5";}
-else if (wheelie[2] == storage[5]) {random = "7";}
 assigncompcat();}
 }
 if (data[random] == "Opponent's Choice"){opponentspun = "1";}
@@ -625,11 +609,7 @@ else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[4]) {picked = "5";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[5]) {picked = "7";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-          round2();
+round2();
 }
 else {
 document.getElementById("respin").style.visibility = "hidden"; 
@@ -4571,12 +4551,6 @@ if ( chosen[i] == storage[2]){
 chosen.splice(i, 1);
 }
 if ( chosen[i] == storage[3]){ 
-chosen.splice(i, 1);
-}
-if ( chosen[i] == storage[4]){ 
-chosen.splice(i, 1);
-}
-if ( chosen[i] == storage[5]){ 
 chosen.splice(i, 1);
 }
 }

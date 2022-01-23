@@ -3017,14 +3017,14 @@ function next001() {
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
-                message001.innerHTML = question001[1].ques;
+                message001.innerHTML = question001[18].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 	        document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-            qu001.innerHTML = "QUESTION 2 - " +question001[1].cat.toUpperCase();
+            qu001.innerHTML = "QUESTION 2 - " +question001[18].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
 		   document.getElementById("JTE").style.visibility = "hidden";
@@ -3041,14 +3041,14 @@ function next001() {
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
-                message001.innerHTML = question001[18].ques;
+                message001.innerHTML = question001[19].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;
-                qu001.innerHTML = "QUESTION 3 - " +question001[18].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 3 - " +question001[19].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
 		   document.getElementById("JTE").style.visibility = "hidden";
@@ -3065,14 +3065,14 @@ function next001() {
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
-                message001.innerHTML = question001[19].ques;
+                message001.innerHTML = question001[1].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;
-                qu001.innerHTML = "QUESTION 4 - " +question001[19].cat.toUpperCase();
+                qu001.innerHTML = "QUESTION 4 - " +question001[1].cat.toUpperCase();
                 message004.innerHTML = "";
                 if (c < 1) {
 		   document.getElementById("JTE").style.visibility = "hidden";

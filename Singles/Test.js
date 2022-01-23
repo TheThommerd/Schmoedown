@@ -4704,6 +4704,9 @@ else if (open == 4)
 	        incmusic.play();
 	   posspoints+=2;
 stealopp--;
+if (stealopp > 0){
+            	    message004.innerHTML = "<button class=buttons002 onclick=openquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}
 if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
@@ -4878,8 +4881,8 @@ else if (mc == 4)
 	        incmusic.play();
 	   posspoints+=1;
 stealmc--;
-if ((stealopp == 0) && (stealmc > 0)){
-            	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+if (stealmc > 0){
+            	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if ((stealmc == 0) && (stealopp == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -5857,88 +5860,6 @@ function mcquestion(){
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
-                message001.innerHTML = compcat[4].ques;
-                message002.innerHTML = input + compcat[4].option;
-		document.getElementById("q1").style.display = "none";
-var element1 =  document.getElementById('incop1');
-var element2 =  document.getElementById('incop2');
-var element3 =  document.getElementById('incop3');
-var element4 =  document.getElementById('incop4');
-document.getElementById("corop").style.display = "initial";
-hidechance = Math.random() *100;
-if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
-{		
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
-else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
-else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
-}
-if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
-if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
-else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
-else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
-}
-if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
-if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
-else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
-else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
-}
-if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
-if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
-else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
-else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
-}
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
-                message004.innerHTML = "";		
- 	        qu001.innerHTML = "STEAL - " +compcat[4].cat.toUpperCase();
-		open = 0;
-		mc++;
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-		    stealmc--;
-if (stealmc > 0){
-            	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if (stealmc == 0){
-            	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-}
-}
-function mcquestion2(){
-if (s - b > 13){
-loseKO();
-}
-else if (b -s > 13){
-winKO();
-}
-else{
-	    	document.getElementById("JTE").style.display = "initial";
-		document.getElementById("JTE").style.visibility = "visible";
-	    	document.getElementById("time001").style.display = "initial";
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
-                update = setInterval("timer001()", 1000);
-                c = 20;
-                time001.innerHTML = 20;
                 message001.innerHTML = compcat[5].ques;
                 message002.innerHTML = input + compcat[5].option;
 		document.getElementById("q1").style.display = "none";
@@ -5987,9 +5908,9 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-                message004.innerHTML = "";
-		
+                message004.innerHTML = "";		
  	        qu001.innerHTML = "STEAL - " +compcat[5].cat.toUpperCase();
+		open = 0;
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5998,19 +5919,18 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                     message003.innerHTML = "";
 		    stealmc--;
 if (stealmc > 0){
-            	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if (stealmc == 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
 }
-}
-function mcquestion3(){
-if (s - b > 12){
+function mcquestion2(){
+if (s - b > 14){
 loseKO();
 }
-else if (b -s > 12){
+else if (b -s > 14){
 winKO();
 }
 else{
@@ -6073,6 +5993,89 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message004.innerHTML = "";
 		
  	        qu001.innerHTML = "STEAL - " +compcat[6].cat.toUpperCase();
+		mc++;
+                if (c < 1) {
+                    window.clearInterval(update);
+                    message001.innerHTML = "Time's up";
+                    message002.innerHTML = "";
+                    message003.innerHTML = "";
+		    stealmc--;
+if (stealmc > 0){
+            	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}
+else if (stealmc == 0){
+            	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}
+}
+}
+}
+function mcquestion3(){
+if (s - b > 13){
+loseKO();
+}
+else if (b -s > 13){
+winKO();
+}
+else{
+	    	document.getElementById("JTE").style.display = "initial";
+		document.getElementById("JTE").style.visibility = "visible";
+	    	document.getElementById("time001").style.display = "initial";
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+                update = setInterval("timer001()", 1000);
+                c = 20;
+                time001.innerHTML = 20;
+                message001.innerHTML = compcat[7].ques;
+                message002.innerHTML = input + compcat[7].option;
+		document.getElementById("q1").style.display = "none";
+var element1 =  document.getElementById('incop1');
+var element2 =  document.getElementById('incop2');
+var element3 =  document.getElementById('incop3');
+var element4 =  document.getElementById('incop4');
+document.getElementById("corop").style.display = "initial";
+hidechance = Math.random() *100;
+if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
+{		
+document.getElementById("incop1").style.display = "initial";
+document.getElementById("incop2").style.display = "initial";
+document.getElementById("incop3").style.display = "initial";
+if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
+else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
+else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
+}
+if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
+{
+document.getElementById("incop1").style.display = "initial";
+document.getElementById("incop2").style.display = "initial";
+document.getElementById("incop4").style.display = "initial";
+if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
+else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
+else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
+}
+if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
+{
+document.getElementById("incop1").style.display = "initial";
+document.getElementById("incop3").style.display = "initial";
+document.getElementById("incop4").style.display = "initial";
+if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
+else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
+else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
+}
+if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
+{
+document.getElementById("incop2").style.display = "initial";
+document.getElementById("incop3").style.display = "initial";
+document.getElementById("incop4").style.display = "initial";
+if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
+else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
+else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
+}
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                message004.innerHTML = "";
+		
+ 	        qu001.innerHTML = "STEAL - " +compcat[7].cat.toUpperCase();
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);

@@ -1518,6 +1518,7 @@ next001();
 }
 function winKO(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1552,6 +1553,7 @@ function winKO(){
 }
 function loseKO(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1585,6 +1587,7 @@ function loseKO(){
 }
 function winTKO(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1619,6 +1622,7 @@ function winTKO(){
 }
 function loseTKO(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1652,6 +1656,7 @@ function loseTKO(){
 }
 function win(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1685,6 +1690,7 @@ function win(){
 }
 function lose(){
 	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";

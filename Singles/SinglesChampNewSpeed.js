@@ -1676,7 +1676,8 @@ function newLoc() {
 }
 
 function winKO(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
+		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1703,14 +1704,15 @@ function winKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message002").style.top = "-275px";
 		document.getElementById("message004").style.top = "-455px";
-		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseKO(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
+		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1736,14 +1738,15 @@ function loseKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message002").style.top = "-275px";
 		document.getElementById("message004").style.top = "-455px";
-		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
+		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1770,14 +1773,15 @@ function winTKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message002").style.top = "-275px";
 		document.getElementById("message004").style.top = "-455px";
-		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseTKO(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
+		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1803,14 +1807,15 @@ function loseTKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message002").style.top = "-275px";
 		document.getElementById("message004").style.top = "-455px";
-		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
+		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1836,14 +1841,15 @@ function win(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message002").style.top = "-275px";
 		document.getElementById("message004").style.top = "-455px";
-		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.display = "none";
+		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
                 c = "-";
                 message001.innerHTML = "End of Match";
@@ -1868,9 +1874,9 @@ function lose(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-280px";
+		document.getElementById("message002").style.top = "-275px";
 		document.getElementById("message004").style.top = "-455px";
-		document.getElementById("message003").style.top = "-280px";
+		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message006").style.fontSize = "110%";
 }

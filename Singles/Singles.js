@@ -2012,7 +2012,7 @@ quescor++;
 	    cormusic.play();
 if (b == 8) {
             	message003.innerHTML = "Perfect Round! You'll get a bonus question.";
-	    	message006.innerHTML =  "Next category is " +question001[9].cat;
+	    	message006.innerHTML =  "";
 }
 else if (b != 8) {
 	    	message003.innerHTML = "Correct!" ;

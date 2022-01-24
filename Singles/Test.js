@@ -442,8 +442,8 @@ data[picked] = "Spinner's Choice";
             })
             .attr("text-anchor", "end")
             .attr("font-weight", "bold")
-            .text( function(d, i) {
-                return data[i];
+            .text( function(d, picked) {
+                return data[picked];
             });
 	   	document.getElementById("chart").style.visibility = "hidden";
 }

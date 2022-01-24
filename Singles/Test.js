@@ -409,6 +409,10 @@ round2();
 function takewildcard(){
 var rand = Math.random() * 100;
 if (rand < 100){
+data[picked] = "Spinner's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Spinner's Choice")
+document.getElementById("chart").style.visibility = "hidden";
 message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
@@ -433,10 +437,6 @@ $('input[type=checkbox]').on('change', function (e) {
 	document.getElementById("confirm").style.visibility= "hidden"; 
     }
 });
-data[picked] = "Spinner's Choice";
-d3.select(".slice:nth-child(" + (picked + 1) + ") text")
-.text("Spinner's Choice")
-document.getElementById("chart").style.visibility = "hidden";
 }
 if (rand < 99){
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
@@ -450,9 +450,11 @@ else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
 }
 }
+
 function confirm(){
 message001.innerHTML = "Press Next to proceed";
 document.getElementById("message002").style.display= "none"; 

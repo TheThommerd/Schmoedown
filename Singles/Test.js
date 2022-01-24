@@ -434,6 +434,7 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 data[picked] = "Spinner's Choice";
+        arcs.append("text").attr("transform", function(d){})
             .text( function(d, picked) {
                 return data[picked];
             });

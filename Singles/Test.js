@@ -434,15 +434,8 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 data[picked] = "Spinner's Choice";
-        arcs.append("text").attr("transform", function(d){
-                d.innerRadius = 0;
-                d.outerRadius = rot;
-                d.angle = (d.startAngle + d.endAngle)/2;
-                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius -10) +")";
-            })
-            .text( function(d, picked) {
-	     text.replace("Wildcard", "Spinner's Choice")
-            });
+                    d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+                            .text("Spinner's Choice")
 	   	document.getElementById("chart").style.visibility = "hidden";
 }
 }

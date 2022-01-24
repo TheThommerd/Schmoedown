@@ -1440,7 +1440,7 @@ function winKO(){
 		document.getElementById("passwordsaverR2").value = "BLUE FAIRY";
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Blue Fairy' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";		
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -1474,7 +1474,7 @@ function loseKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -1509,7 +1509,7 @@ function winTKO(){
 		document.getElementById("passwordsaverR2").value = "BLUE FAIRY";
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Blue Fairy' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";		
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -1543,7 +1543,7 @@ function loseTKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -1577,7 +1577,7 @@ function win(){
 		document.getElementById("passwordsaverR2").value = "BLUE FAIRY";
 		document.getElementById("save").click();
 message004.innerHTML = "You have unlocked the next round. Use the password 'Blue Fairy' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";		
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -1610,7 +1610,7 @@ function lose(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -3663,6 +3663,7 @@ userfive++;
                 else if (a == 21) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3687,6 +3688,7 @@ userfive++;
     else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3719,6 +3721,7 @@ userfive++;
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3751,6 +3754,7 @@ userfive++;
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3783,6 +3787,7 @@ userfive++;
   else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3815,6 +3820,7 @@ userfive++;
   else if ((a == 26) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3847,6 +3853,7 @@ userfive++;
   else if ((a == 27) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3879,6 +3886,7 @@ userfive++;
     else if ((a == 28) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3945,7 +3953,7 @@ userfive++;
                 message003.innerHTML = "";
                 message006.innerHTML = "";
 		document.getElementById("message004").style.top = "-225px";
-		document.getElementById("message005").style.top = "-165px";
+		document.getElementById("message005").style.top = "-240px";
 		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
                  a++;
 		 j = 0;

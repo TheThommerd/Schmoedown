@@ -108,7 +108,7 @@ function winKO(){
 document.getElementById("passwordsaverSemi").value = "SHIREWOLVES";
 message004.innerHTML = "You have unlocked the next round. Use the password 'Shirewolves' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("save").click();
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -142,7 +142,7 @@ function loseKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -177,7 +177,7 @@ function winTKO(){
 document.getElementById("passwordsaverSemi").value = "SHIREWOLVES";
 message004.innerHTML = "You have unlocked the next round. Use the password 'Shirewolves' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("save").click();
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -211,7 +211,7 @@ function loseTKO(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -245,7 +245,7 @@ function win(){
 document.getElementById("passwordsaverSemi").value = "SHIREWOLVES";
 message004.innerHTML = "You have unlocked the next round. Use the password 'Shirewolves' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
 		document.getElementById("save").click();
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";
@@ -278,7 +278,7 @@ function lose(){
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
-		document.getElementById("message002").style.top = "-275px";
+		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
 		document.getElementById("message006").style.top = "-180px";

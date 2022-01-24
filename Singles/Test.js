@@ -356,7 +356,7 @@ return "white" ;
                     oldrotation = rotation;
 message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
 if (data[picked] == "Wildcard"){
-message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons002 id=takewildcard onclick=takewildcard()>Choose Wildcard</button>" + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
+message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Choose Wildcard</button>" + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
 }
 else if (data[picked] == "Spinner's Choice"){
 message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
@@ -408,13 +408,45 @@ round2();
 
 function takewildcard(){
 var rand = Math.random() * 100;
-if (rand < 100){r2question001 = r2Q67;}		
-if (rand < 75){r2question001 = r2Q68;}
-if (rand < 50){r2question001 = r2Q69;}
-if (rand < 25){r2question001 = r2Q70;}
-r2question001 = shuffle(r2question001); 
-message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-data[picked] = r2question001[0].cat;
+if (rand < 100){
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-200px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[4];
+document.getElementById("box5").value = data[5];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[8];
+document.getElementById("box8").value = data[9];
+document.getElementById("box9").value = data[10];
+document.getElementById("box10").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 5) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 5) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 5) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+data[picked] = "Spinner's Choice";
+        arcs.append("text").attr("transform", function(d){
+                d.innerRadius = 0;
+                d.outerRadius = rot;
+                d.angle = (d.startAngle + d.endAngle)/2;
+                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius -10) +")";
+            })
+            .attr("text-anchor", "end")
+            .attr("font-weight", "bold")
+	    .attr("fill", function(i){ return colorpicktext(); })
+            .text( function(d, i) {
+                return data[i];
+            });
+}
 }
 function confirm(){
 message001.innerHTML = "Press Next to proceed";
@@ -589,7 +621,7 @@ assigncompcat();
 	message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
 	document.getElementById("respin").style.visibility = "visible"; 
 if (data[picked] == "Wildcard"){
-message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons002 id=takewildcard onclick=takewildcard()>Reveal Wildcard</button>";
+message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Reveal Wildcard</button>";
 }
 else if (data[picked] == "Spinner's Choice"){
 message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";

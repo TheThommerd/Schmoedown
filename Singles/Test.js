@@ -442,10 +442,10 @@ data[picked] = "Spinner's Choice";
             })
             .attr("text-anchor", "end")
             .attr("font-weight", "bold")
-	    .attr("fill", function(i){ return colorpicktext(); })
             .text( function(d, i) {
                 return data[i];
             });
+	   	document.getElementById("chart").style.visibility = "hidden";
 }
 }
 function confirm(){

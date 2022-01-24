@@ -434,14 +434,6 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 data[picked] = "Spinner's Choice";
-        arcs.append("text").attr("transform", function(d){
-                d.innerRadius = 0;
-                d.outerRadius = rot;
-                d.angle = (d.startAngle + d.endAngle)/2;
-                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius -10) +")";
-            })
-            .attr("text-anchor", "end")
-            .attr("font-weight", "bold")
             .text( function(d, picked) {
                 return data[picked];
             });

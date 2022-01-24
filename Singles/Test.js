@@ -434,9 +434,23 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 data[picked] = "Spinner's Choice";
-                    d3.select(".slice:nth-child(" + (picked + 1) + ") text")
-                            .text("Spinner's Choice")
-	   	document.getElementById("chart").style.visibility = "hidden";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Spinner's Choice")
+document.getElementById("chart").style.visibility = "hidden";
+}
+if (rand < 99){
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Opponent's Choice")
+document.getElementById("chart").style.visibility = "hidden";
+if (wheelie[0] == storage[0]) {picked = "1";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[3]) {picked = "4";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+round2();
 }
 }
 function confirm(){

@@ -591,9 +591,9 @@ random = Math.floor(Math.random() * numbers.length);
 console.log("random: " + random);
 console.log("picked: " + picked);
 if (data[random] == data[picked]){simulatecomputerround2();}
-if ((data[random] == "Spinner's Choice") && (compwildspinners == "1")){simulatecomputerround2();}
-if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){simulatecomputerround2();}
-if ((data[random] != data[picked]) && (data[random] == "Wildcard")){
+else if ((data[random] == "Spinner's Choice") && (compwildspinners == "1")){simulatecomputerround2();}
+else if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){simulatecomputerround2();}
+else if ((data[random] != data[picked]) && (data[random] == "Wildcard")){
 var rand = Math.random() * 100;
 if (compwildspinners = "1"){
 if (rand < 50){
@@ -666,7 +666,7 @@ opponentspun = "1";
 }
 }
 }
-if ((compwildopponent == "0") && (compwildspinners == "0") && (compwildmystery == "0") && (data[random] != data[picked])){
+else if ((data[random] != "Wildcard") && (data[random] != data[picked])){
 assigncompcat();
 }
 }

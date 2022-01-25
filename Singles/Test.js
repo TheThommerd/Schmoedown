@@ -593,6 +593,8 @@ if (data[random] == "Wildcard"){
 var rand = Math.random() * 100;
 if (compwildspinners = "1"){
 if (rand < 100){
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text("Opponent's Choice")
 opponentspun = "1";
 }
 if (rand < 50){
@@ -601,12 +603,16 @@ if (rand2 < 100){compcat  = r2Q67;}
 if (rand2 < 75){compcat  = r2Q68;}
 if (rand2 < 50){compcat  = r2Q69;}
 if (rand2 < 25){compcat  = r2Q70;}
-compcat = shuffle(compcat); 
+compcat = shuffle(compcat);
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text(compcat[0].cat) 
 }
 }
 if (compwildopponent = "1"){
 if (rand < 100){
 spinners = "1";
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text("Spinner's Choice")
 if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
@@ -627,11 +633,15 @@ if (rand2 < 75){compcat  = r2Q68;}
 if (rand2 < 50){compcat  = r2Q69;}
 if (rand2 < 25){compcat  = r2Q70;}
 compcat = shuffle(compcat); 
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text(compcat[0].cat) 
 }
 }
 if (compwildmystery = "1"){
 if (rand < 100){
 spinners = "1";
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text("Spinner's Choice")
 if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
@@ -646,6 +656,8 @@ else if (wheelie[1] == storage[3]) {random = "4";}
 assigncompcat();}
 }
 if (rand < 50){
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text("Opponent's Choice")
 opponentspun = "1";
 }
 }
@@ -681,7 +693,7 @@ assigncompcat();
             rotation = (Math.round(rng / ps) * ps);  
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
-                        console.log(picked+1);
+                        console.log(picked);
             rotation += 90 - Math.round(ps/2);
             vis.transition()
                 .duration(3000)
@@ -5242,7 +5254,6 @@ else if (b -s >= 0){
 }
 function next004 () {
 		simulatecomputerround2();
-		
 	    	document.getElementById("message006").style.top = "-180px";
 		document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("message003").style.top = "-180px";
@@ -5255,12 +5266,12 @@ function next004 () {
                 message004.innerHTML = "";
 		message005.innerHTML = "";
 if (spinners == "1"){
-	    	message006.innerHTML = competitorlist[0].id + " spun Spinner's Choice and chose " +compcat[0].cat;
+	    	message006.innerHTML = competitorlist[0].id + " spun a Wildcard and got Spinner's Choice. He chose " +compcat[0].cat;
 		document.getElementById("message003").style = "initial";
 }
 if (opponentspun == "1"){
 	    	message006.innerHTML = "";
-message002.innerHTML = competitorlist[0].id + " spun Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
+message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
 document.getElementById("message003").style.visibility = "hidden";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("box1").value = data[1];

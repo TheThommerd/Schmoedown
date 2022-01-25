@@ -408,7 +408,7 @@ round2();
 
 function takewildcard(){
 var rand = Math.random() * 100;
-if (rand < 100){
+if (rand < 1){
 compwildspinners++;
 data[picked] = "Spinner's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
@@ -439,7 +439,7 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 }
-if (rand < 2){
+else if (rand < 2){
 compwildopponent++;
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Opponent's Choice")
@@ -455,13 +455,13 @@ message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorli
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
 }
-if (rand < 1){
+else if (rand < 100){
 compwildmystery++;
-var rand = Math.random() * 100;
-if (rand < 100){r2question001 = r2Q67;}		
-if (rand < 75){r2question001 = r2Q68;}
-if (rand < 50){r2question001 = r2Q69;}
-if (rand < 25){r2question001 = r2Q70;}
+var rand2 = Math.random() * 100;
+if (rand2 < 25){r2question001 = r2Q67;}		
+else if (rand2 < 50){r2question001 = r2Q68;}
+else if (rand2 < 75){r2question001 = r2Q69;}
+else if (rand2 < 100){r2question001 = r2Q70;}
 r2question001 = shuffle(r2question001); 
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 data[picked] = r2question001[0].cat;
@@ -595,24 +595,24 @@ if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){simulate
 if ((data[random] != data[picked]) && (data[random] == "Wildcard")){
 var rand = Math.random() * 100;
 if (compwildspinners = "1"){
-if (rand < 100){
+if (rand < 50){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")
 opponentspun = "1";
 }
-if (rand < 50){
+else if (rand < 100){
 var rand2 = Math.random() * 100;
-if (rand2 < 100){compcat  = r2Q67;}		
-if (rand2 < 75){compcat  = r2Q68;}
-if (rand2 < 50){compcat  = r2Q69;}
-if (rand2 < 25){compcat  = r2Q70;}
+if (rand2 < 25){compcat  = r2Q67;}		
+else if (rand2 < 50){compcat  = r2Q68;}
+else if (rand2 < 75){compcat  = r2Q69;}
+else if (rand2 < 100){compcat  = r2Q70;}
 compcat = shuffle(compcat);
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
 }
 }
 if (compwildopponent == "1"){
-if (rand < 100){
+if (rand < 50){
 spinners = "1";
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Spinner's Choice")
@@ -629,19 +629,19 @@ else if (wheelie[1] == storage[2]) {random = "3";}
 else if (wheelie[1] == storage[3]) {random = "4";}
 assigncompcat();}
 }
-if (rand < 50){
+else if (rand < 100){
 var rand2 = Math.random() * 100;
-if (rand2 < 100){compcat  = r2Q67;}		
-if (rand2 < 75){compcat  = r2Q68;}
-if (rand2 < 50){compcat  = r2Q69;}
-if (rand2 < 25){compcat  = r2Q70;}
+if (rand2 < 25){compcat  = r2Q67;}		
+else if (rand2 < 50){compcat  = r2Q68;}
+else if (rand2 < 75){compcat  = r2Q69;}
+else if (rand2 < 100){compcat  = r2Q70;}
 compcat = shuffle(compcat); 
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
 }
 }
 if (compwildmystery == "1"){
-if (rand < 100){
+if (rand < 50){
 spinners = "1";
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Spinner's Choice")
@@ -658,7 +658,7 @@ else if (wheelie[1] == storage[2]) {random = "3";}
 else if (wheelie[1] == storage[3]) {random = "4";}
 assigncompcat();}
 }
-if (rand < 50){
+else if (rand < 100){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")
 opponentspun = "1";

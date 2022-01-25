@@ -347,7 +347,7 @@ return "white" ;
             
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
-                        console.log(picked+1);
+                        console.log(picked);
             rotation += 90 - Math.round(ps/2);
             vis.transition()
                 .duration(3000)
@@ -587,6 +587,8 @@ var oppwildmystery = "0";
 function simulatecomputerround2(){
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);
+console.log(random);
+if (random == picked){simulatecomputerround2();}
 if (data[random] == "Wildcard"){
 var rand = Math.random() * 100;
 if (compwildspinners = "1"){
@@ -627,8 +629,6 @@ if (rand2 < 25){compcat  = r2Q70;}
 compcat = shuffle(compcat); 
 }
 }
-
-
 if (compwildmystery = "1"){
 if (rand < 100){
 spinners = "1";
@@ -650,8 +650,6 @@ opponentspun = "1";
 }
 }
 }
-if ((compwildopponent = "0") && (compwildspinners = "0") && (compwildmystery = "0") && (data[random] == data[picked])){
-simulatecomputerround2();}
 if ((compwildopponent = "0") && (compwildspinners = "0") && (compwildmystery = "0") && (data[random] != data[picked])){
 assigncompcat();
 }

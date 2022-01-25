@@ -409,6 +409,7 @@ round2();
 function takewildcard(){
 var rand = Math.random() * 100;
 if (rand < 100){
+compwildspinners++;
 data[picked] = "Spinner's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Spinner's Choice")
@@ -438,7 +439,8 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 }
-if (rand < 99){
+if (rand < 2){
+compwildopponent++;
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Opponent's Choice")
 document.getElementById("chart").style.visibility = "hidden";
@@ -452,6 +454,17 @@ else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
+}
+if (rand < 1){
+compwildmystery++;
+var rand = Math.random() * 100;
+if (rand < 100){r2question001 = r2Q67;}		
+if (rand < 75){r2question001 = r2Q68;}
+if (rand < 50){r2question001 = r2Q69;}
+if (rand < 25){r2question001 = r2Q70;}
+r2question001 = shuffle(r2question001); 
+message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+data[picked] = r2question001[0].cat;
 }
 }
 
@@ -563,10 +576,34 @@ compcat = shuffle(compcat);
 var opponentspun = "0";
 var random = "6";
 var spinners = "0";
+var compwildspinners = "0";
+var compwildopponent = "0";
+var compwildmystery = "0";
+var oppwildspinners = "0";
+var oppwildopponent = "0";
+var oppwildmystery = "0";
+
+
 function simulatecomputerround2(){
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);
-if (data[random] == "Spinner's Choice"){
+if (data[random] == "Wildcard"){
+var rand = Math.random() * 100;
+if (compwildspinners = "1"){
+if (rand < 100){
+opponentspun = "1";
+}
+if (rand < 50){
+var rand2 = Math.random() * 100;
+if (rand2 < 100){compcat  = r2Q67;}		
+if (rand2 < 75){compcat  = r2Q68;}
+if (rand2 < 50){compcat  = r2Q69;}
+if (rand2 < 25){compcat  = r2Q70;}
+compcat = shuffle(compcat); 
+}
+}
+if (compwildopponent = "1"){
+if (rand < 100){
 spinners = "1";
 if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
@@ -581,10 +618,41 @@ else if (wheelie[1] == storage[2]) {random = "3";}
 else if (wheelie[1] == storage[3]) {random = "4";}
 assigncompcat();}
 }
-if (data[random] == "Opponent's Choice"){opponentspun = "1";}
-if ((data[random] != "Spinner's Choice") && (data[random] != "Opponent's Choice") && (data[random] == data[picked])){
+if (rand < 50){
+var rand2 = Math.random() * 100;
+if (rand2 < 100){compcat  = r2Q67;}		
+if (rand2 < 75){compcat  = r2Q68;}
+if (rand2 < 50){compcat  = r2Q69;}
+if (rand2 < 25){compcat  = r2Q70;}
+compcat = shuffle(compcat); 
+}
+}
+
+
+if (compwildmystery = "1"){
+if (rand < 100){
+spinners = "1";
+if (data[picked] != wheelie[0]) {
+if (wheelie[0] == storage[0]) {random = "1";}
+else if (wheelie[0] == storage[1]) {random = "2";}
+else if (wheelie[0] == storage[2]) {random = "3";}
+else if (wheelie[0] == storage[3]) {random = "4";}
+assigncompcat();}
+else if (data[picked] != wheelie[1]) {
+if (wheelie[1] == storage[0]) {random = "1";}
+else if (wheelie[1] == storage[1]) {random = "2";}
+else if (wheelie[1] == storage[2]) {random = "3";}
+else if (wheelie[1] == storage[3]) {random = "4";}
+assigncompcat();}
+}
+if (rand < 50){
+opponentspun = "1";
+}
+}
+}
+if ((compwildopponent = "0") && (compwildspinners = "0") && (compwildmystery = "0") && (data[random] == data[picked])){
 simulatecomputerround2();}
-if ((data[random] != "Spinner's Choice") && (data[random] != "Opponent's Choice") && (data[random] != data[picked])){
+if ((compwildopponent = "0") && (compwildspinners = "0") && (compwildmystery = "0") && (data[random] != data[picked])){
 assigncompcat();
 }
 }

@@ -464,7 +464,8 @@ else if (rand2 < 75){r2question001 = r2Q69;}
 else if (rand2 < 100){r2question001 = r2Q70;}
 r2question001 = shuffle(r2question001); 
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-data[picked] = r2question001[0].cat;
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text(r2question001[0].cat) 
 }
 }
 

@@ -5303,18 +5303,18 @@ else if (s == 0){betpercentage = competitorlist[0].strengthpercentage;betchoice 
 else {
 if (s >= 3) {
 if (chance1 < 5){betchoice = 0;}		
-if (chance1 < 35){betchoice = 3;}
-if (chance1 < 70){betchoice = 2;}
-if (chance1 < 100){betchoice = 1;}
+else if (chance1 < 40){betchoice = 3;}
+else if (chance1 < 75){betchoice = 2;}
+else if (chance1 < 100){betchoice = 1;}
 }
 else if (s == 2) {
 if (chance1 < 5){betchoice = 0;}		
-if (chance1 < 60){betchoice = 1;}
-if (chance1 < 100){betchoice = 2;}
+else if (chance1 < 60){betchoice = 1;}
+else if (chance1 < 100){betchoice = 2;}
 }
 else if (s == 1) {
 if (chance1 < 5){betchoice = 0;}		
-if (chance1 < 100){betchoice = 1;}
+else if (chance1 < 100){betchoice = 1;}
 }
 else if (s == 0) {betchoice = 0;}
 }

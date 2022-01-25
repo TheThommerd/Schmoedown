@@ -608,7 +608,7 @@ d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
 }
 }
-if (compwildopponent = "1"){
+if (compwildopponent == "1"){
 if (rand < 100){
 spinners = "1";
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
@@ -637,7 +637,7 @@ d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
 }
 }
-if (compwildmystery = "1"){
+if (compwildmystery == "1"){
 if (rand < 100){
 spinners = "1";
 d3.select(".slice:nth-child(" + (random + 1) + ") text")

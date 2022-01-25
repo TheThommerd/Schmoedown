@@ -408,7 +408,7 @@ round2();
 
 function takewildcard(){
 var rand = Math.random() * 100;
-if (rand < 1){
+if (rand < 33){
 compwildspinners++;
 data[picked] = "Spinner's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
@@ -439,7 +439,7 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 }
-else if (rand < 2){
+else if (rand < 66){
 compwildopponent++;
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Opponent's Choice")

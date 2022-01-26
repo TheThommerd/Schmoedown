@@ -599,6 +599,7 @@ if (compwildspinners == "1"){
 if (rand < 50){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")
+data[random] = "Spinner's Choice";
 opponentspun = "1";
 oppwildopponent++;
 }
@@ -611,7 +612,8 @@ else if (rand2 < 75){compcat  = r2Q69;}
 else if (rand2 < 100){compcat  = r2Q70;}
 compcat = shuffle(compcat);
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
-.text(compcat[0].cat) 
+.text(compcat[0].cat)
+data[random] = compcat[0].cat;
 }
 }
 if (compwildopponent == "1"){
@@ -620,6 +622,7 @@ spinners = "1";
 oppwildspinners++;
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Spinner's Choice")
+data[random] = "Spinner's Choice";
 if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
@@ -643,6 +646,7 @@ else if (rand2 < 100){compcat  = r2Q70;}
 compcat = shuffle(compcat); 
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
+data[random] = compcat[0].cat;
 }
 }
 if (compwildmystery == "1"){
@@ -651,6 +655,7 @@ spinners = "1";
 oppwildspinners++;
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Spinner's Choice")
+data[random] = "Spinner's Choice";
 if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
@@ -667,10 +672,51 @@ assigncompcat();}
 else if (rand < 100){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")
+data[random] = "Opponent's Choice";
 opponentspun = "1";
 oppwildopponent++;
 }
 }
+if ((compwildmystery == "0") && (compwildspinners == "0") && (compwildopponent == "0")){
+if (rand < 33){
+oppwildmystery++;
+var rand2 = Math.random() * 100;
+if (rand2 < 25){compcat  = r2Q67;}		
+else if (rand2 < 50){compcat  = r2Q68;}
+else if (rand2 < 75){compcat  = r2Q69;}
+else if (rand2 < 100){compcat  = r2Q70;}
+compcat = shuffle(compcat);
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text(compcat[0].cat) 
+data[random] = compcat[0].cat;
+}
+else if (rand < 66){
+spinners = "1";
+oppwildspinners++;
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text("Spinner's Choice")
+data[random] = "Spinner's Choice";
+if (data[picked] != wheelie[0]) {
+if (wheelie[0] == storage[0]) {random = "1";}
+else if (wheelie[0] == storage[1]) {random = "2";}
+else if (wheelie[0] == storage[2]) {random = "3";}
+else if (wheelie[0] == storage[3]) {random = "4";}
+assigncompcat();}
+else if (data[picked] != wheelie[1]) {
+if (wheelie[1] == storage[0]) {random = "1";}
+else if (wheelie[1] == storage[1]) {random = "2";}
+else if (wheelie[1] == storage[2]) {random = "3";}
+else if (wheelie[1] == storage[3]) {random = "4";}
+assigncompcat();}
+}
+else if (rand < 100){
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text("Opponent's Choice")
+data[random] = "Opponent's Choice";
+opponentspun = "1";
+oppwildopponent++;
+}
+}	
 }
 else if ((data[random] != "Wildcard") && (data[random] != data[picked])){assigncompcat();}
 }

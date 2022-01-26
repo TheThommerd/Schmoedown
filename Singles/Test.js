@@ -588,9 +588,9 @@ var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);
 console.log("random: " + random);
 console.log("picked: " + picked);
-if (data[random] == data[picked]){simulatecomputerround2();}
-else if ((data[random] == "Spinner's Choice") && (compwildspinners == "1")){simulatecomputerround2();}
-else if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){simulatecomputerround2();}
+if (data[random] == data[picked]){console.log("repeat1"); simulatecomputerround2();}
+else if ((data[random] == "Spinner's Choice") && (compwildspinners == "1")){console.log("repeat2"); simulatecomputerround2();}
+else if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){console.log("repeat3"); simulatecomputerround2();}
 else if ((data[random] != data[picked]) && (data[random] == "Wildcard")){
 var rand = Math.random() * 100;
 if (compwildspinners = "1"){
@@ -670,9 +670,7 @@ oppwildopponent++;
 }
 }
 }
-else if ((data[random] != "Wildcard") && (data[random] != data[picked])){
-assigncompcat();
-}
+else if ((data[random] != "Wildcard") && (data[random] != data[picked])){assigncompcat();}
 }
         svg.append("g")
             .attr("transform", "translate(" + (wid + padding.left + padding.right) + "," + ((hei/2)+padding.top) + ")")

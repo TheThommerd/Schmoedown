@@ -595,7 +595,7 @@ else if ((data[random] == "Spinner's Choice") && (compwildspinners == "1")){cons
 else if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){console.log("repeat3"); simulatecomputerround2();}
 else if ((data[random] != data[picked]) && (data[random] == "Wildcard")){
 var rand = Math.random() * 100;
-if (compwildspinners = "1"){
+if (compwildspinners == "1"){
 if (rand < 50){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")

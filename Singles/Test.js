@@ -440,6 +440,7 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 else if (rand < 66){
 compwildopponent++;
+data[picked] = "Opponent's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Opponent's Choice")
 if (wheelie[0] == storage[0]) {picked = "1";
@@ -464,6 +465,7 @@ r2question001 = shuffle(r2question001);
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
+data[picked] = r2question001[0].cat;
 }
 }
 

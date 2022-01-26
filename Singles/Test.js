@@ -586,8 +586,8 @@ var oppwildmystery = "0";
 function simulatecomputerround2(){
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);
-console.log("random: " + random);
-console.log("picked: " + picked);
+console.log("random: " + data[random]);
+console.log("picked: " + data[picked]);
 if (data[random] == data[picked]){console.log("repeat1"); simulatecomputerround2();}
 else if ((data[random] == "Spinner's Choice") && (compwildspinners == "1")){console.log("repeat2"); simulatecomputerround2();}
 else if ((data[random] == "Opponent's Choice") && (compwildopponent == "1")){console.log("repeat3"); simulatecomputerround2();}

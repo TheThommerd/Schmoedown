@@ -601,8 +601,8 @@ else if (rand2 < 50){compcat = r2Q68;}
 else if (rand2 < 75){compcat = r2Q69;}
 else if (rand2 < 100){compcat = r2Q70;}
 compcat = shuffle(compcat);
-d3.select(".slice:nth-child(" + (random + 1) + ") text");
-.text(compcat[0].cat);
+d3.select(".slice:nth-child(" + (random + 1) + ") text")
+.text(compcat[0].cat)
 data[random] = compcat[0].cat;
 }
 else if (rand < 66){

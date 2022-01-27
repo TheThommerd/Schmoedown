@@ -590,8 +590,7 @@ var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);	
 if (oppspinfirst == "1"){
 console.log("random: " + data[random]);
-if (data[random] != "Wildcat"){assigncompcat();}	
-else if (data[random] == "Wildcat"){	
+if (data[random] == "Wildcat"){	
 var rand = Math.random() * 100;
 console.log("rand: " + rand);
 if (rand < 33){
@@ -616,7 +615,8 @@ if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
 else if (wheelie[0] == storage[2]) {random = "3";}
 else if (wheelie[0] == storage[3]) {random = "4";}
-assigncompcat();}
+assigncompcat();
+}
 else if (rand < 100){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")
@@ -625,6 +625,7 @@ opponentspun = "1";
 oppwildopponent++;
 }	
 }
+else if (data[random] != "Wildcat"){assigncompcat();}	
 }
 else if (oppspinfirst != "1") {	
 console.log("random: " + data[random]);

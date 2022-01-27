@@ -5306,6 +5306,7 @@ document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("nextbutton").style.visibility = "hidden";  
 		document.getElementById("message002").style.top = "-220px";
 		document.getElementById("message003").style.top = "-220px";
+	if ((oppspinfirst == "0"){
 var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {
   storage.push(checkboxes[i].value)
@@ -5351,6 +5352,7 @@ data[11] = "Wildcard";
                 return data[i];
             });
 }
+}
 function next002() {
 document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("chart").style.visibility = "hidden";
@@ -5377,6 +5379,50 @@ var oppspinfirst = 0;
 
 function spinsecond(){
 oppspinfirst++;
+var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+for (var i = 0; i < checkboxes.length; i++) {
+  storage.push(checkboxes[i].value)
+}
+var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q13[0].cat, r2Q14[0].cat, r2Q15[0].cat, r2Q16[0].cat, r2Q17[0].cat, r2Q18[0].cat, r2Q19[0].cat, r2Q20[0].cat, r2Q21[0].cat, r2Q22[0].cat, r2Q23[0].cat, r2Q24[0].cat, r2Q25[0].cat, r2Q26[0].cat, r2Q27[0].cat, r2Q28[0].cat, r2Q29[0].cat, r2Q30[0].cat, r2Q31[0].cat, r2Q32[0].cat, r2Q33[0].cat, r2Q34[0].cat, r2Q35[0].cat, r2Q36[0].cat, r2Q37[0].cat, r2Q38[0].cat, r2Q39[0].cat, r2Q40[0].cat, r2Q41[0].cat, r2Q42[0].cat, r2Q43[0].cat, r2Q44[0].cat, r2Q45[0].cat, r2Q46[0].cat, r2Q47[0].cat, r2Q48[0].cat, r2Q49[0].cat, r2Q50[0].cat, r2Q51[0].cat, r2Q52[0].cat, r2Q53[0].cat, r2Q54[0].cat, r2Q55[0].cat, r2Q56[0].cat, r2Q57[0].cat, r2Q58[0].cat, r2Q59[0].cat, r2Q60[0].cat, r2Q61[0].cat, r2Q62[0].cat, r2Q63[0].cat, r2Q64[0].cat, r2Q65[0].cat, r2Q66[0].cat, r2Q67[0].cat, r2Q68[0].cat, r2Q69[0].cat, r2Q70[0].cat];
+for( var i = chosen.length-1; i >= 0; i--){
+if ( chosen[i] == storage[0]){ 
+chosen.splice(i, 1);
+}
+if ( chosen[i] == storage[1]){ 
+chosen.splice(i, 1);
+}
+if ( chosen[i] == storage[2]){ 
+chosen.splice(i, 1);
+}
+if ( chosen[i] == storage[3]){ 
+chosen.splice(i, 1);
+}
+}
+chosen= shuffle(chosen); 
+data[0] = "Wildcard";
+data[1] = storage[0];
+data[2] = storage[1];
+data[3] = storage[2];
+data[4] = storage[3];
+data[5] = "Wildcard";
+data[6] = "Wildcard";
+data[7] = "Wildcard";
+data[8] = "Wildcard";
+data[9] = "Wildcard";
+data[10] = "Wildcard";
+data[11] = "Wildcard";
+        arcs.append("text").attr("transform", function(d){
+                d.innerRadius = 0;
+                d.outerRadius = rot;
+                d.angle = (d.startAngle + d.endAngle)/2;
+                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius -10) +")";
+            })
+            .attr("text-anchor", "end")
+            .attr("font-weight", "bold")
+	    .attr("fill", function(i){ return colorpicktext(); })
+            .text( function(d, i) {
+                return data[i];
+            });
 next004();
 }
 

@@ -593,13 +593,14 @@ console.log("random: " + data[random]);
 if (data[random] != "Wildcat"){assigncompcat();}	
 else if (data[random] == "Wildcat"){	
 var rand = Math.random() * 100;
+console.log("rand: " + rand);
 if (rand < 33){
 oppwildmystery++;
 var rand2 = Math.random() * 100;
-if (rand2 < 25){compcat  = r2Q67;}		
-else if (rand2 < 50){compcat  = r2Q68;}
-else if (rand2 < 75){compcat  = r2Q69;}
-else if (rand2 < 100){compcat  = r2Q70;}
+if (rand2 < 25){compcat = r2Q67;}		
+else if (rand2 < 50){compcat = r2Q68;}
+else if (rand2 < 75){compcat = r2Q69;}
+else if (rand2 < 100){compcat = r2Q70;}
 compcat = shuffle(compcat);
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 

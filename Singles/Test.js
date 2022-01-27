@@ -588,7 +588,7 @@ var oppwildmystery = "0";
 function simulatecomputerround2(){
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);	
-if (oppspinfirst == "1"){
+if (oppspinfirst == 1){
 console.log("random: " + data[random]);
 if (data[random] == "Wildcard"){	
 var rand = Math.random() * 100;
@@ -1152,10 +1152,10 @@ if (mc == 1){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }	
 }
@@ -1163,10 +1163,10 @@ if (mc == 2){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -1174,10 +1174,10 @@ if (mc == 3){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -1185,17 +1185,17 @@ if (mc == 4){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
-else if ((mc == 5) && (oppspinfirst == "0")){
+else if ((mc == 5) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((mc == 5) && (oppspinfirst == "1")){
+else if ((mc == 5) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	
@@ -1322,10 +1322,10 @@ if (mc == 1){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -1341,10 +1341,10 @@ if (mc == 2){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -1360,10 +1360,10 @@ if (mc == 3){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -1379,10 +1379,10 @@ if (mc == 4){
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
  message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -1395,8 +1395,8 @@ if (mc == 5){
 	    message006.innerHTML = "";
             message005.innerHTML = "";
 	    stealmc--;
-	if (oppspinfirst == "0"){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
-	else if (oppspinfirst == "1"){message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+	if (oppspinfirst == 0){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+	else if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }  
 }
 }
@@ -4919,10 +4919,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -4944,8 +4944,11 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0)){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}
+	else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
+            	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
 else if (open == 3)
@@ -4966,10 +4969,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -4991,10 +4994,10 @@ if (stealopp > 0){
 if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -5013,10 +5016,10 @@ stealopp--;
 if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -5033,10 +5036,10 @@ stealmc--;
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 var element1 =  document.getElementById('incop1');
@@ -5082,10 +5085,10 @@ stealmc--;
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 var element1 =  document.getElementById('incop1');
@@ -5131,10 +5134,10 @@ stealmc--;
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 var element1 =  document.getElementById('incop1');
@@ -5180,10 +5183,10 @@ stealmc--;
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 var element1 =  document.getElementById('incop1');
@@ -5226,16 +5229,16 @@ else if (mc == 5)
 	        incmusic.play();
 	   posspoints+=1;
 stealmc--;
-if ((stealopp == 0) && (stealmc > 0)  && (oppspinfirst == "0")){
+if ((stealopp == 0) && (stealmc > 0)  && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealopp == 0) && (stealmc > 0) && (oppspinfirst == "1")){
+else if ((stealopp == 0) && (stealmc > 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 var element1 =  document.getElementById('incop1');
@@ -5308,7 +5311,7 @@ document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("nextbutton").style.visibility = "hidden";  
 		document.getElementById("message002").style.top = "-220px";
 		document.getElementById("message003").style.top = "-220px";
-	if (oppspinfirst == "0"){
+	if (oppspinfirst == 0){
 var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {
   storage.push(checkboxes[i].value)
@@ -5485,7 +5488,7 @@ else if (oppwildmystery == "1"){
 	    	message006.innerHTML = competitorlist[0].id + " spun a Wildcard and got " + compcat[0].cat;
 		document.getElementById("message003").style = "initial";
 }
-else if ((opponentspun == "1") && (oppspinfirst == "0")){
+else if ((opponentspun == "1") && (oppspinfirst == 0)){
 	    	message006.innerHTML = "";
 message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
 document.getElementById("message003").style.visibility = "hidden";
@@ -5552,7 +5555,7 @@ $('input[type=checkbox]').on('change', function (e) {
     }
 });
 }
-	else if ((opponentspun == "1") && (oppspinfirst == "1")){
+	else if ((opponentspun == "1") && (oppspinfirst == 1)){
 	    	message006.innerHTML = "";
 message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
 document.getElementById("message003").style.visibility = "hidden";
@@ -5660,10 +5663,10 @@ openquestion();
 if ((stealmc > 0) && (stealopp == 0)){
 mcquestion();
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
 next005();
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 next003();
 }
 }
@@ -5702,10 +5705,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	}
@@ -5725,10 +5728,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }	   
@@ -5768,10 +5771,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	}
@@ -5791,10 +5794,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }	   
@@ -5834,10 +5837,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	}
@@ -5857,10 +5860,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }	   
@@ -5904,10 +5907,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	}
@@ -5927,10 +5930,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }	   
@@ -5971,10 +5974,10 @@ stealopp--;
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	}
@@ -5991,10 +5994,10 @@ stealopp--;
 if (stealmc > 0){
             	    message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }	   
@@ -6044,10 +6047,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6103,10 +6106,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6163,10 +6166,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6225,10 +6228,10 @@ if (stealopp > 0){
 else if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6283,10 +6286,10 @@ if (typeof(element4) != 'undefined' && element4 != null)
 if ((stealopp == 0) && (stealmc > 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6362,10 +6365,10 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "0")){
+else if ((stealmc == 0)  && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "1")){
+else if ((stealmc == 0)  && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6447,10 +6450,10 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "0")){
+else if ((stealmc == 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0) && (oppspinfirst == "1")){
+else if ((stealmc == 0) && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6533,10 +6536,10 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "0")){
+else if ((stealmc == 0)  && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "1")){
+else if ((stealmc == 0)  && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6620,10 +6623,10 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 if (stealmc > 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "0")){
+else if ((stealmc == 0)  && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "1")){
+else if ((stealmc == 0)  && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
@@ -6704,16 +6707,16 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                     message002.innerHTML = "";
                     message003.innerHTML = "";
 		    stealmc--;
-if ((stealmc > 0) && (oppspinfirst == "0")){
+if ((stealmc > 0) && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc > 0)  && (oppspinfirst == "1")){
+else if ((stealmc > 0)  && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "0")){
+else if ((stealmc == 0)  && (oppspinfirst == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if ((stealmc == 0)  && (oppspinfirst == "1")){
+else if ((stealmc == 0)  && (oppspinfirst == 1)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }

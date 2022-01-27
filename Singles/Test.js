@@ -5384,6 +5384,7 @@ var oppspinfirst = "0";
 
 function spinsecond(){
 oppspinfirst++;
+a = 17;	
 var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {
   storage.push(checkboxes[i].value)

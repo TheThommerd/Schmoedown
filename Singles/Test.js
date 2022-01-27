@@ -354,6 +354,16 @@ return "white" ;
                 .attrTween("transform", rotTween)
                 .each("end", function(){
                     oldrotation = rotation;
+if (oppspinfirst == 1){
+a = 13;
+console.log("random: " + data[random]);
+console.log("picked: " + data[picked]);
+if (data[picked] == data[random]){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin()>Spin Again</button>";}
+else if (data[picked] != data[random]){message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";}
+else if (data[picked] == "Wildcard"){message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Choose Wildcard</button>" + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";}
+else if (data[picked] == "Spinner's Choice"){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin()>Spin Again</button>";}
+else if (data[picked] == "Opponent's Choice"){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin()>Spin Again</button>";}
+}	   
 message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
 if (data[picked] == "Wildcard"){
 message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Choose Wildcard</button>" + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
@@ -397,10 +407,7 @@ else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 round2();
 }
-else 
-{
-document.getElementById("nextbutton").style.visibility= "visible"; 
-round2();
+else {document.getElementById("nextbutton").style.visibility= "visible"; round2();}
 }
 			mess = picked+1;     
                 });

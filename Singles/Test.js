@@ -590,8 +590,8 @@ var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);	
 if (oppspinfirst == "1"){
 console.log("random: " + data[random]);
-if (data[random] == "Wildcat"){	
-var rand = "20";
+if (data[random] == "Wildcard"){	
+var rand = Math.random() * 100;
 console.log("rand: " + rand);
 if (rand < 33){
 oppwildmystery++;
@@ -625,7 +625,7 @@ opponentspun = "1";
 oppwildopponent++;
 }	
 }
-else if (data[random] != "Wildcat"){assigncompcat();}	
+else if (data[random] != "Wildcard"){assigncompcat();}	
 }
 else if (oppspinfirst != "1") {	
 console.log("random: " + data[random]);

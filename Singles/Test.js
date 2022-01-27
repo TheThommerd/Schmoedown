@@ -5306,7 +5306,7 @@ document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("nextbutton").style.visibility = "hidden";  
 		document.getElementById("message002").style.top = "-220px";
 		document.getElementById("message003").style.top = "-220px";
-	if ((oppspinfirst == "0"){
+	if (oppspinfirst == "0"){
 var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {
   storage.push(checkboxes[i].value)

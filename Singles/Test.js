@@ -581,13 +581,13 @@ document.getElementById("box10").checked = true;
 document.getElementById("box10").disabled = true;
 }	
 $('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 5) {
+    if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
     }
-    if ($('input[type=checkbox]:checked').length == 5) {
+    if ($('input[type=checkbox]:checked').length == 6) {
 	document.getElementById("confirm").style.visibility= "visible"; 
     }
-    if ($('input[type=checkbox]:checked').length < 5) {
+    if ($('input[type=checkbox]:checked').length < 6) {
 	document.getElementById("confirm").style.visibility= "hidden"; 
     }
 });
@@ -666,13 +666,13 @@ document.getElementById("box10").checked = true;
 document.getElementById("box10").disabled = true;
 }	
 $('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 5) {
+    if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
     }
-    if ($('input[type=checkbox]:checked').length == 5) {
+    if ($('input[type=checkbox]:checked').length == 6) {
 	document.getElementById("confirm").style.visibility= "visible"; 
     }
-    if ($('input[type=checkbox]:checked').length < 5) {
+    if ($('input[type=checkbox]:checked').length < 6) {
 	document.getElementById("confirm").style.visibility= "hidden"; 
     }
 });

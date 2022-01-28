@@ -355,7 +355,7 @@ return "white" ;
                 .each("end", function(){
                     oldrotation = rotation;
 if (oppspinfirst == 1){
-a = 13;
+a = 12;
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if ((data[picked] == data[random]) || (data[picked] == "Spinner's Choice") || (data[picked] == "Opponent's Choice")){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin()>Spin Again</button>";}
@@ -806,7 +806,7 @@ else if ((data[random] != "Wildcard") && (data[random] != data[picked])){assignc
                 mess = picked+1;
 	document.getElementById("message002").style.visibility = "visible";  
 		    if (oppspinfirst == 1){
-a = 13;
+a = 12;
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if ((data[picked] == data[random]) || (data[picked] == "Spinner's Choice") || (data[picked] == "Opponent's Choice")){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";}
@@ -2783,7 +2783,10 @@ quescor++;
 	    cormusic.play();
 	    message005.innerHTML = "";
             message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	     }
+	    if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	   }
+	
+	}
             else if (question12 != r2question001[3].answ) {
 	    document.getElementById("JTE").style.visibility = "hidden";
 	    document.getElementById("mc").style.display = "none";
@@ -3830,7 +3833,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
                     message002.innerHTML = "";
                     message003.innerHTML = "";
             	    message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
+                    if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	  
+		}
             } 
             else if (a == 17) {
 if ((s - b > 10) && (answeredtwo == 0)){
@@ -4696,7 +4701,8 @@ else if ((a == 17) && (open == 0) && (mc == 0)){
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-if (document.getElementById("mc").style.display == 'none') {
+	    if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	if (document.getElementById("mc").style.display == 'none') {
 if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }

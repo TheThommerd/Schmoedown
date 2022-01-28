@@ -5326,7 +5326,7 @@ document.getElementById("message004").style.top = "-180px";
 		round001.innerHTML = 2;
 		var place = " ";
  		qu001.innerHTML = "QUESTION";
-	if (oppspinfirst == 1){a = 12;}
+	if (oppspinfirst == 1){a = 12; open = 0; mc = 0;}
                 message001.innerHTML = "Spin the Wheel.";
 		message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin onclick=spin()>Spin</button>";
                 message004.innerHTML = "";

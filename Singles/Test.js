@@ -355,7 +355,7 @@ return "white" ;
                 .each("end", function(){
                     oldrotation = rotation;
 if (oppspinfirst == 1){
-a = 12;
+a += 5;
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if ((data[picked] == data[random]) || (data[picked] == "Spinner's Choice") || (data[picked] == "Opponent's Choice")){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin()>Spin Again</button>";}
@@ -806,7 +806,7 @@ else if ((data[random] != "Wildcard") && (data[random] != data[picked])){assignc
                 mess = picked+1;
 	document.getElementById("message002").style.visibility = "visible";  
 		    if (oppspinfirst == 1){
-a = 12;
+a += 5;
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if ((data[picked] == data[random]) || (data[picked] == "Spinner's Choice") || (data[picked] == "Opponent's Choice")){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";}
@@ -1152,7 +1152,9 @@ if (mc == 0){
 	}  
 	if (a == 17){
             message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+    	    if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}  
+	}
 }
 if (mc != 0){
 	    document.getElementById("message004").style.top = "-180px";
@@ -1323,7 +1325,9 @@ score002.innerHTML = s+=1;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
             message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-		}  
+	    if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}  	
+	}  
 }
 else if (mc != 0){
 	    document.getElementById("message004").style.top = "-180px";

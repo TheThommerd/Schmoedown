@@ -355,7 +355,6 @@ return "white" ;
                 .each("end", function(){
                     oldrotation = rotation;
 if (oppspinfirst == 1){
-a += 5;
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if ((data[picked] == data[random]) || (data[picked] == "Spinner's Choice") || (data[picked] == "Opponent's Choice")){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin()>Spin Again</button>";}
@@ -806,7 +805,6 @@ else if ((data[random] != "Wildcard") && (data[random] != data[picked])){assignc
                 mess = picked+1;
 	document.getElementById("message002").style.visibility = "visible";  
 		    if (oppspinfirst == 1){
-a += 5;
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if ((data[picked] == data[random]) || (data[picked] == "Spinner's Choice") || (data[picked] == "Opponent's Choice")){message002.innerHTML = competitorlist[0].id + " already spun " + data[picked] + ". Spin Again."+ "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";}
@@ -5328,6 +5326,7 @@ document.getElementById("message004").style.top = "-180px";
 		round001.innerHTML = 2;
 		var place = " ";
  		qu001.innerHTML = "QUESTION";
+	if (oppspinfirst == 1){a += 5};
                 message001.innerHTML = "Spin the Wheel.";
 		message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin onclick=spin()>Spin</button>";
                 message004.innerHTML = "";

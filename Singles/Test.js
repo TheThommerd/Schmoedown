@@ -482,6 +482,7 @@ compwildopponent++;
 data[picked] = "Opponent's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Opponent's Choice")
+if (compcat[0].cat != wheelie[0]) {
 if (wheelie[0] == storage[0]) {picked = "1";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[1]) {picked = "2";
@@ -492,6 +493,19 @@ else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
+}
+if (compcat[0].cat != wheelie[1]) {
+if (wheelie[0] == storage[0]) {picked = "1";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[3]) {picked = "4";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+document.getElementById("nextbutton").style.visibility= "visible"; 
+round2();
+}
 }
 else if (rand < 100){
 compwildmystery++;
@@ -526,6 +540,46 @@ document.getElementById("box7").value = data[8];
 document.getElementById("box8").value = data[9];
 document.getElementById("box9").value = data[10];
 document.getElementById("box10").value = data[11];
+if (document.getElementById("box1").value == compcat[0].cat) {
+document.getElementById("box1").checked = true;
+document.getElementById("box1").disabled = true;
+}
+if (document.getElementById("box2").value == compcat[0].cat) {
+document.getElementById("box2").checked = true;
+document.getElementById("box2").disabled = true;
+}
+if (document.getElementById("box3").value == compcat[0].cat) {
+document.getElementById("box3").checked = true;
+document.getElementById("box3").disabled = true;
+}
+if (document.getElementById("box4").value == compcat[0].cat) {
+document.getElementById("box4").checked = true;
+document.getElementById("box4").disabled = true;
+}
+if (document.getElementById("box5").value == compcat[0].cat) {
+document.getElementById("box5").checked = true;
+document.getElementById("box5").disabled = true;
+}
+if (document.getElementById("box6").value == compcat[0].cat) {
+document.getElementById("box6").checked = true;
+document.getElementById("box6").disabled = true;
+}
+if (document.getElementById("box7").value == compcat[0].cat) {
+document.getElementById("box7").checked = true;
+document.getElementById("box7").disabled = true;
+}
+if (document.getElementById("box8").value == compcat[0].cat) {
+document.getElementById("box8").checked = true;
+document.getElementById("box8").disabled = true;
+}
+if (document.getElementById("box9").value == compcat[0].cat) {
+document.getElementById("box9").checked = true;
+document.getElementById("box9").disabled = true;
+}
+if (document.getElementById("box10").value == compcat[0].cat) {
+document.getElementById("box10").checked = true;
+document.getElementById("box10").disabled = true;
+}	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
@@ -571,6 +625,46 @@ document.getElementById("box7").value = data[8];
 document.getElementById("box8").value = data[9];
 document.getElementById("box9").value = data[10];
 document.getElementById("box10").value = data[11];
+if (document.getElementById("box1").value == compcat[0].cat) {
+document.getElementById("box1").checked = true;
+document.getElementById("box1").disabled = true;
+}
+if (document.getElementById("box2").value == compcat[0].cat) {
+document.getElementById("box2").checked = true;
+document.getElementById("box2").disabled = true;
+}
+if (document.getElementById("box3").value == compcat[0].cat) {
+document.getElementById("box3").checked = true;
+document.getElementById("box3").disabled = true;
+}
+if (document.getElementById("box4").value == compcat[0].cat) {
+document.getElementById("box4").checked = true;
+document.getElementById("box4").disabled = true;
+}
+if (document.getElementById("box5").value == compcat[0].cat) {
+document.getElementById("box5").checked = true;
+document.getElementById("box5").disabled = true;
+}
+if (document.getElementById("box6").value == compcat[0].cat) {
+document.getElementById("box6").checked = true;
+document.getElementById("box6").disabled = true;
+}
+if (document.getElementById("box7").value == compcat[0].cat) {
+document.getElementById("box7").checked = true;
+document.getElementById("box7").disabled = true;
+}
+if (document.getElementById("box8").value == compcat[0].cat) {
+document.getElementById("box8").checked = true;
+document.getElementById("box8").disabled = true;
+}
+if (document.getElementById("box9").value == compcat[0].cat) {
+document.getElementById("box9").checked = true;
+document.getElementById("box9").disabled = true;
+}
+if (document.getElementById("box10").value == compcat[0].cat) {
+document.getElementById("box10").checked = true;
+document.getElementById("box10").disabled = true;
+}	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
@@ -588,6 +682,7 @@ compwildopponent++;
 data[picked] = "Opponent's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Opponent's Choice")
+if (compcat[0].cat != wheelie[0]) {
 if (wheelie[0] == storage[0]) {picked = "1";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[1]) {picked = "2";
@@ -598,6 +693,19 @@ else if (wheelie[0] == storage[3]) {picked = "4";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
+}
+if (compcat[0].cat != wheelie[1]) {
+if (wheelie[0] == storage[0]) {picked = "1";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+else if (wheelie[0] == storage[3]) {picked = "4";
+message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
+document.getElementById("nextbutton").style.visibility= "visible"; 
+round2();
+}
 }
 }
 }

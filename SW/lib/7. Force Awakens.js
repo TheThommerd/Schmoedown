@@ -438,7 +438,7 @@ var r2Q7 = [
 "ques":"Kylo Ren's First Order Star Destroyer goes by what name?",
 "answ":"THE FINALIZER",
 "answ2":"The Finalizer.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Conqueror</button><button id=incop2 class=buttons003 onclick=qinc()>The Supremacy</button><button id=corop class=buttons003 onclick=qcor()>The Supremacy</button><button id=incop4 class=buttons003 onclick=qinc()>The Fulminatrix</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Conqueror</button><button id=incop2 class=buttons003 onclick=qinc()>The Supremacy</button><button id=corop class=buttons003 onclick=qcor()>The Finalizer</button><button id=incop4 class=buttons003 onclick=qinc()>The Fulminatrix</button><br/>",
 },
 {
 "cat":"The Force Awakens",

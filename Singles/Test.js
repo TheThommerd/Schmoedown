@@ -434,13 +434,13 @@ document.getElementById("box8").value = data[9];
 document.getElementById("box9").value = data[10];
 document.getElementById("box10").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 5) {
+    if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
     }
-    if ($('input[type=checkbox]:checked').length == 5) {
+    if ($('input[type=checkbox]:checked').length == 6) {
 	document.getElementById("confirm").style.visibility= "visible"; 
     }
-    if ($('input[type=checkbox]:checked').length < 5) {
+    if ($('input[type=checkbox]:checked').length < 6) {
 	document.getElementById("confirm").style.visibility= "hidden"; 
     }
 });

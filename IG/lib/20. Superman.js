@@ -277,14 +277,6 @@ var superman = [
 var r2Q20 = [
 {
 "cat":"Superman",
-"ques":"What is the name of the internet blogger that Lois give her alien story to in Man of Steel?",
-"answ":"WOODBURN",
-"answ3":"GLEN WOODBURN",
-"answ2":"Woodburn.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Johnson</button><button id=incop2 class=buttons003 onclick=qinc()>Smith</button><button id=corop class=buttons003 onclick=qcor()>Woodburn</button><button id=incop4 class=buttons003 onclick=qinc()>Campbell</button><br/>",
-},
-{
-"cat":"Superman",
 "ques":"In Superman: The Movie, the film begins with a black and white prologue in June of what year?",
 "answ":"1938",
 "answ2":"1938.",

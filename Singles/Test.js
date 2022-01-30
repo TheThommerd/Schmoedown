@@ -365,19 +365,18 @@ else {
 message002.innerHTML = "You spun " +data[picked] + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";
 if (data[picked] == "Wildcard"){message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Choose Wildcard</button>" + "<br/></br>" + "<button class=buttons008 id=respin onclick=spin2()>Spin Again</button>";}
 else if (data[picked] == "Spinner's Choice"){
-message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
@@ -399,7 +398,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 round2();
 }
@@ -420,19 +419,18 @@ compwildspinners++;
 data[picked] = "Spinner's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Spinner's Choice")
-message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
@@ -456,7 +454,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
@@ -489,7 +487,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
@@ -501,7 +499,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
@@ -527,19 +525,18 @@ compwildspinners++;
 data[picked] = "Spinner's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Spinner's Choice")
-message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == compcat[0].cat) {
 document.getElementById("box1").checked = true;
 document.getElementById("box1").disabled = true;
@@ -575,10 +572,6 @@ document.getElementById("box8").disabled = true;
 if (document.getElementById("box9").value == compcat[0].cat) {
 document.getElementById("box9").checked = true;
 document.getElementById("box9").disabled = true;
-}
-if (document.getElementById("box10").value == compcat[0].cat) {
-document.getElementById("box10").checked = true;
-document.getElementById("box10").disabled = true;
 }	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
@@ -612,19 +605,18 @@ compwildspinners++;
 data[picked] = "Spinner's Choice";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text("Spinner's Choice")
-message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == compcat[0].cat) {
 document.getElementById("box1").checked = true;
 document.getElementById("box1").disabled = true;
@@ -660,10 +652,6 @@ document.getElementById("box8").disabled = true;
 if (document.getElementById("box9").value == compcat[0].cat) {
 document.getElementById("box9").checked = true;
 document.getElementById("box9").disabled = true;
-}
-if (document.getElementById("box10").value == compcat[0].cat) {
-document.getElementById("box10").checked = true;
-document.getElementById("box10").disabled = true;
 }	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
@@ -689,7 +677,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
@@ -701,7 +689,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();
@@ -715,16 +703,15 @@ function confirm(){
 message001.innerHTML = "Press Next to proceed";
 document.getElementById("message002").style.display= "none"; 
 document.getElementById("chart").style.visibility = "hidden";
-if (document.getElementById("box1").checked ){picked = 1;}
-if (document.getElementById("box2").checked ){picked = 2;}
-if (document.getElementById("box3").checked ){picked = 3;}
-if (document.getElementById("box4").checked ){picked = 4;}
-if (document.getElementById("box5").checked ){picked = 5;}
-if (document.getElementById("box6").checked ){picked = 7;}
-if (document.getElementById("box7").checked ){picked = 8;}
-if (document.getElementById("box8").checked ){picked = 9;}
-if (document.getElementById("box9").checked ){picked = 10;}
-if (document.getElementById("box10").checked ){picked = 11;}
+if ((document.getElementById("box1").checked) && (document.getElementById("box1").disabled != true)){picked = 1;}
+if ((document.getElementById("box2").checked) && (document.getElementById("box2").disabled != true)){picked = 2;}
+if ((document.getElementById("box3").checked) && (document.getElementById("box3").disabled != true)){picked = 3;}
+if ((document.getElementById("box4").checked) && (document.getElementById("box4").disabled != true)){picked = 5;}
+if ((document.getElementById("box5").checked) && (document.getElementById("box5").disabled != true)){picked = 6;}
+if ((document.getElementById("box6").checked) && (document.getElementById("box6").disabled != true)){picked = 7;}
+if ((document.getElementById("box7").checked) && (document.getElementById("box7").disabled != true)){picked = 9;}
+if ((document.getElementById("box8").checked) && (document.getElementById("box8").disabled != true)){picked = 10;}
+if ((document.getElementById("box9").checked) && (document.getElementById("box9").disabled != true)){picked = 11;}
 message003.innerHTML = "You selected " + data[picked] + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 round2();
 }
@@ -733,13 +720,12 @@ document.getElementById("message003").style.visibility = "visible";
 if ((document.getElementById("box1").checked) && (document.getElementById("box1").disabled != true)){random = 1;}
 if ((document.getElementById("box2").checked) && (document.getElementById("box2").disabled != true)){random = 2;}
 if ((document.getElementById("box3").checked) && (document.getElementById("box3").disabled != true)){random = 3;}
-if ((document.getElementById("box4").checked) && (document.getElementById("box4").disabled != true)){random = 4;}
-if ((document.getElementById("box5").checked) && (document.getElementById("box5").disabled != true)){random = 5;}
+if ((document.getElementById("box4").checked) && (document.getElementById("box4").disabled != true)){random = 5;}
+if ((document.getElementById("box5").checked) && (document.getElementById("box5").disabled != true)){random = 6;}
 if ((document.getElementById("box6").checked) && (document.getElementById("box6").disabled != true)){random = 7;}
-if ((document.getElementById("box7").checked) && (document.getElementById("box7").disabled != true)){random = 8;}
-if ((document.getElementById("box8").checked) && (document.getElementById("box8").disabled != true)){random = 9;}
-if ((document.getElementById("box9").checked) && (document.getElementById("box9").disabled != true)){random = 10;}
-if ((document.getElementById("box10").checked) && (document.getElementById("box10").disabled != true)){random = 11;}
+if ((document.getElementById("box7").checked) && (document.getElementById("box7").disabled != true)){random = 9;}
+if ((document.getElementById("box8").checked) && (document.getElementById("box8").disabled != true)){random = 10;}
+if ((document.getElementById("box9").checked) && (document.getElementById("box9").disabled != true)){random = 11;}
 message002.innerHTML = "You selected " + data[random] + "<br>" + "<button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 assigncompcat();
 }
@@ -856,7 +842,7 @@ data[random] = "Spinner's Choice";
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
 else if (wheelie[0] == storage[2]) {random = "3";}
-else if (wheelie[0] == storage[3]) {random = "4";}
+else if (wheelie[0] == storage[3]) {random = "5";}
 assigncompcat();
 }
 else if (rand < 100){
@@ -909,13 +895,13 @@ if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
 else if (wheelie[0] == storage[2]) {random = "3";}
-else if (wheelie[0] == storage[3]) {random = "4";}
+else if (wheelie[0] == storage[3]) {random = "5";}
 assigncompcat();}
 else if (data[picked] != wheelie[1]) {
 if (wheelie[1] == storage[0]) {random = "1";}
 else if (wheelie[1] == storage[1]) {random = "2";}
 else if (wheelie[1] == storage[2]) {random = "3";}
-else if (wheelie[1] == storage[3]) {random = "4";}
+else if (wheelie[1] == storage[3]) {random = "5";}
 assigncompcat();}
 }
 else if (rand < 100){
@@ -942,13 +928,13 @@ if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
 else if (wheelie[0] == storage[2]) {random = "3";}
-else if (wheelie[0] == storage[3]) {random = "4";}
+else if (wheelie[0] == storage[3]) {random = "5";}
 assigncompcat();}
 else if (data[picked] != wheelie[1]) {
 if (wheelie[1] == storage[0]) {random = "1";}
 else if (wheelie[1] == storage[1]) {random = "2";}
 else if (wheelie[1] == storage[2]) {random = "3";}
-else if (wheelie[1] == storage[3]) {random = "4";}
+else if (wheelie[1] == storage[3]) {random = "5";}
 assigncompcat();}
 }
 else if (rand < 100){
@@ -982,13 +968,13 @@ if (data[picked] != wheelie[0]) {
 if (wheelie[0] == storage[0]) {random = "1";}
 else if (wheelie[0] == storage[1]) {random = "2";}
 else if (wheelie[0] == storage[2]) {random = "3";}
-else if (wheelie[0] == storage[3]) {random = "4";}
+else if (wheelie[0] == storage[3]) {random = "5";}
 assigncompcat();}
 else if (data[picked] != wheelie[1]) {
 if (wheelie[1] == storage[0]) {random = "1";}
 else if (wheelie[1] == storage[1]) {random = "2";}
 else if (wheelie[1] == storage[2]) {random = "3";}
-else if (wheelie[1] == storage[3]) {random = "4";}
+else if (wheelie[1] == storage[3]) {random = "5";}
 assigncompcat();}
 }
 else if (rand < 100){
@@ -1054,19 +1040,18 @@ if (data[picked] == "Wildcard"){
 message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Reveal Wildcard</button>";
 }
 else if (data[picked] == "Spinner's Choice"){
-message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
+message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
@@ -1088,7 +1073,7 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 round2();
 }
@@ -5599,8 +5584,8 @@ data[0] = "Wildcard";
 data[1] = storage[0];
 data[2] = storage[1];
 data[3] = storage[2];
-data[4] = storage[3];
-data[5] = "Wildcard";
+data[4] = "Wildcard";
+data[5] = storage[3];
 data[6] = "Wildcard";
 data[7] = "Wildcard";
 data[8] = "Wildcard";
@@ -5672,8 +5657,8 @@ data[0] = "Wildcard";
 data[1] = storage[0];
 data[2] = storage[1];
 data[3] = storage[2];
-data[4] = storage[3];
-data[5] = "Wildcard";
+data[4] = "Wildcard";
+data[5] = storage[3];
 data[6] = "Wildcard";
 data[7] = "Wildcard";
 data[8] = "Wildcard";
@@ -5754,19 +5739,18 @@ else if (oppwildmystery == "1"){
 }
 else if ((opponentspun == "1") && (oppspinfirst == 0)){
 	    	message006.innerHTML = "";
-message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
+message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
 document.getElementById("message003").style.visibility = "hidden";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == r2question001[0].cat) {
 document.getElementById("box1").checked = true;
 document.getElementById("box1").disabled = true;
@@ -5803,10 +5787,6 @@ if (document.getElementById("box9").value == r2question001[0].cat) {
 document.getElementById("box9").checked = true;
 document.getElementById("box9").disabled = true;
 }
-if (document.getElementById("box10").value == r2question001[0].cat) {
-document.getElementById("box10").checked = true;
-document.getElementById("box10").disabled = true;
-}
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
@@ -5821,19 +5801,18 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 	else if ((opponentspun == "1") && (oppspinfirst == 1)){
 	    	message006.innerHTML = "";
-message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10 id=label10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
+message002.innerHTML = competitorlist[0].id + " spun a Wildcard and got Opponent's Choice" + "<br/><br/>" + "Select which category you want to give " + competitorlist[0].id + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1 id=label1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2 id=label2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3 id=label3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4 id=label4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5 id=label5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6 id=label6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7 id=label7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8 id=label8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9 id=label9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmopp()>Confirm</button>";
 document.getElementById("message003").style.visibility = "hidden";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);

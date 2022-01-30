@@ -394,13 +394,13 @@ document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 6) {
+    if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
     }
-    if ($('input[type=checkbox]:checked').length == 6) {
+    if ($('input[type=checkbox]:checked').length == 5) {
 	document.getElementById("confirm").style.visibility= "visible"; 
     }
-    if ($('input[type=checkbox]:checked').length < 6) {
+    if ($('input[type=checkbox]:checked').length < 5) {
 	document.getElementById("confirm").style.visibility= "hidden"; 
     }
 });
@@ -579,42 +579,6 @@ document.getElementById("box6").value = data[7];
 document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
-if (document.getElementById("box1").value == compcat[0].cat) {
-document.getElementById("box1").checked = true;
-document.getElementById("box1").disabled = true;
-}
-if (document.getElementById("box2").value == compcat[0].cat) {
-document.getElementById("box2").checked = true;
-document.getElementById("box2").disabled = true;
-}
-if (document.getElementById("box3").value == compcat[0].cat) {
-document.getElementById("box3").checked = true;
-document.getElementById("box3").disabled = true;
-}
-if (document.getElementById("box4").value == compcat[0].cat) {
-document.getElementById("box4").checked = true;
-document.getElementById("box4").disabled = true;
-}
-if (document.getElementById("box5").value == compcat[0].cat) {
-document.getElementById("box5").checked = true;
-document.getElementById("box5").disabled = true;
-}
-if (document.getElementById("box6").value == compcat[0].cat) {
-document.getElementById("box6").checked = true;
-document.getElementById("box6").disabled = true;
-}
-if (document.getElementById("box7").value == compcat[0].cat) {
-document.getElementById("box7").checked = true;
-document.getElementById("box7").disabled = true;
-}
-if (document.getElementById("box8").value == compcat[0].cat) {
-document.getElementById("box8").checked = true;
-document.getElementById("box8").disabled = true;
-}
-if (document.getElementById("box9").value == compcat[0].cat) {
-document.getElementById("box9").checked = true;
-document.getElementById("box9").disabled = true;
-}	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
@@ -913,7 +877,7 @@ oppwildopponent++;
 }
 else if (data[random] != "Wildcard"){assigncompcat();}	
 }
-else if (oppspinfirst != "1") {	
+else if (oppspinfirst != 1) {	
 console.log("random: " + data[random]);
 console.log("picked: " + data[picked]);
 if (data[random] == data[picked]){simulatecomputerround2();}
@@ -1096,44 +1060,6 @@ else {
 	document.getElementById("respin").style.visibility = "visible"; 
 if (data[picked] == "Wildcard"){
 message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takewildcard()>Reveal Wildcard</button>";
-}
-else if (data[picked] == "Spinner's Choice"){
-message002.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirm()>Confirm</button>";
-document.getElementById("confirm").style.visibility= "hidden"; 
-document.getElementById("confirm").style.top= "-200px"; 
-document.getElementById("box1").value = data[1];
-document.getElementById("box2").value = data[2];
-document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[5];
-document.getElementById("box5").value = data[6];
-document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[9];
-document.getElementById("box8").value = data[10];
-document.getElementById("box9").value = data[11];
-$('input[type=checkbox]').on('change', function (e) {
-    if ($('input[type=checkbox]:checked').length > 5) {
-        $(this).prop('checked', false);
-    }
-    if ($('input[type=checkbox]:checked').length == 5) {
-	document.getElementById("confirm").style.visibility= "visible"; 
-    }
-    if ($('input[type=checkbox]:checked').length < 5) {
-	document.getElementById("confirm").style.visibility= "hidden"; 
-    }
-});
-}
-else if (data[picked] == "Opponent's Choice"){
-document.getElementById("respin").style.visibility = "hidden"; 
-document.getElementById("nextbutton").style.visibility= "visible"; 
-if (wheelie[0] == storage[0]) {picked = "1";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[1]) {picked = "2";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[2]) {picked = "3";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "5";
-message002.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-round2();
 }
 else {
 document.getElementById("respin").style.visibility = "hidden"; 

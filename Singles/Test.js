@@ -435,7 +435,7 @@ d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 data[picked] = r2question001[0].cat;
 }
 }
-else if ((oppspinfirst == 1) && ((oppwildmystery != 0) || (oppwildspinners != 0) || (oppwildopponent == 0))){
+else if ((oppspinfirst == 1) && ((oppwildmystery != 0) || (oppwildspinners != 0) || (oppwildopponent != 0))){
 if (oppwildspinners == 1){	
 if (rand < 50){
 compwildopponent++;

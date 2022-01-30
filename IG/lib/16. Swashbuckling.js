@@ -399,7 +399,7 @@ var r2Q16 = [
 "answ":"THE BROTHERHOOD OF THE CRUCIFORM SWORD",
 "answ3":"BROTHERHOOD OF THE CRUCIFORM SWORD",
 "answ2":"The Brotherhood of the Cruciform Sword.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>0</button><button id=corop class=buttons003 onclick=qcor()>1</button><button id=incop3 class=buttons003 onclick=qinc()>2</button><button id=incop4 class=buttons003 onclick=qinc()>3</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>The Knights of Pythias</button><button id=corop class=buttons003 onclick=qcor()>The Brotherhood of the Cruciform Sword</button><button id=incop3 class=buttons003 onclick=qinc()>The Knights Templar</button><button id=incop4 class=buttons003 onclick=qinc()>The Freemasons</button><br/>",
 },
 {
 "cat":"Swashbuckling Adventure",

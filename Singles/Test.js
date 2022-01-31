@@ -5777,6 +5777,20 @@ if (document.getElementById("box9").value == r2question001[0].cat) {
 document.getElementById("box9").checked = true;
 document.getElementById("box9").disabled = true;
 }
+	if (compwildmystery == 1){
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 5) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 5) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 5) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}	
+else if (compwildmystery != 1){
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
@@ -5788,6 +5802,7 @@ $('input[type=checkbox]').on('change', function (e) {
 	document.getElementById("confirm").style.visibility= "hidden"; 
     }
 });
+}	
 }
 	else if ((opponentspun == "1") && (oppspinfirst == 1)){
 	    	message006.innerHTML = "";

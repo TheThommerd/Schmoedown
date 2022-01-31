@@ -3791,6 +3791,7 @@ userfive++;
                 else if (a == 18) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+			document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3815,6 +3816,7 @@ userfive++;
     else if ((a == 19) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3847,6 +3849,7 @@ else if ((a == 19) && (b != s )){
   else if ((a == 20) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3879,6 +3882,7 @@ else if ((a == 19) && (b != s )){
   else if ((a == 21) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3911,6 +3915,7 @@ else if ((a == 19) && (b != s )){
   else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3943,6 +3948,7 @@ else if ((a == 19) && (b != s )){
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3975,6 +3981,7 @@ else if ((a == 19) && (b != s )){
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4007,6 +4014,7 @@ else if ((a == 19) && (b != s )){
     else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4071,8 +4079,11 @@ else if ((a == 19) && (b != s )){
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
-		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</strong>";
+		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
                  a++;
+		 j = 0;
+  	   	 if (h == 1) {document.getElementById("background").src = "Singles - 1JTEChal.png";}
+            	 else if (h < 1) {document.getElementById("background").src = "Singles - 1JTE.png";}
 		round001.innerHTML = r++;
 		document.getElementById("round001").style.display = "none";
  		round002.innerHTML = "OVERTIME";
@@ -5294,33 +5305,29 @@ function simulatebetting() {
 	var betchoice = 0;
 	var chance1 = Math.random() * 100;
 	var chance2 = Math.random() * 100;
+if ((competitorlist[0].strength1 == bettingquestion001[0].cat) || (competitorlist[0].strength2 == bettingquestion001[0].cat) || (competitorlist[0].strength3 == bettingquestion001[0].cat)|| (competitorlist[0].strength4 == bettingquestion001[0].cat)|| (competitorlist[0].strength5 == bettingquestion001[0].cat)|| (competitorlist[0].strength6 == bettingquestion001[0].cat)){
+if (s >= 3){betpercentage = competitorlist[0].strengthpercentage;betchoice = 3;}
+else if (s == 2){betpercentage = competitorlist[0].strengthpercentage;betchoice = 2;}
+else if (s == 1){betpercentage = competitorlist[0].strengthpercentage;betchoice = 1;}
+else if (s == 0){betpercentage = competitorlist[0].strengthpercentage;betchoice = 0;}
+}
+else {
 if (s >= 3) {
-if (chance1 < 100){betchoice = 1;}		
-if (chance1 < 70){betchoice = 2;}
-if (chance1 < 35){betchoice = 3;}
-if (chance1 < 5){betchoice = 0;}
+if (chance1 < 5){betchoice = 0;}		
+else if (chance1 < 40){betchoice = 3;}
+else if (chance1 < 75){betchoice = 2;}
+else if (chance1 < 100){betchoice = 1;}
 }
-else if (s >= 2) {
-if (chance1 < 100){betchoice = 1;}		
-if (chance1 < 60){betchoice = 2;}
-if (chance1 < 5){betchoice = 0;}
+else if (s == 2) {
+if (chance1 < 5){betchoice = 0;}		
+else if (chance1 < 60){betchoice = 1;}
+else if (chance1 < 100){betchoice = 2;}
 }
-else if (s >= 1) {
-if (chance1 < 100){betchoice = 1;}		
-if (chance1 < 5){betchoice = 0;}
+else if (s == 1) {
+if (chance1 < 5){betchoice = 0;}		
+else if (chance1 < 100){betchoice = 1;}
 }
-else if (s >= 0) {betchoice = 0;}
-if ((s >= 3) && ((competitorlist[0].strength1 == bettingquestion001[0].cat) || (competitorlist[0].strength2 == bettingquestion001[0].cat) || (competitorlist[0].strength3 == bettingquestion001[0].cat))){
-betpercentage = competitorlist[0].strengthpercentage;
-betchoice = 3;
-}
-else if ((s >= 2) && ((competitorlist[0].strength1 == bettingquestion001[0].cat) || (competitorlist[0].strength2 == bettingquestion001[0].cat) || (competitorlist[0].strength3 == bettingquestion001[0].cat))){
-betpercentage = competitorlist[0].strengthpercentage;
-betchoice = 2;
-}
-else if ((s >= 1) && ((competitorlist[0].strength1 == bettingquestion001[0].cat) || (competitorlist[0].strength2 == bettingquestion001[0].cat) || (competitorlist[0].strength3 == bettingquestion001[0].cat))){
-betpercentage = competitorlist[0].strengthpercentage;
-betchoice = 1;
+else if (s == 0) {betchoice = 0;}
 }
 if (chance2 < betpercentage){
 		score002.innerHTML = s+= betchoice;

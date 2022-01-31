@@ -984,7 +984,7 @@ if (mc == 0){
             message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
-if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat)){
+if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat) || (competitorlist[0].strength4 == r2question001[0].cat) || (competitorlist[0].strength6 == r2question001[0].cat) || (competitorlist[0].strength5 == r2question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -1003,7 +1003,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
-if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat)){
+if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat) || (competitorlist[0].strength4 == r2question001[1].cat) || (competitorlist[0].strength6 == r2question001[1].cat) || (competitorlist[0].strength5 == r2question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -1022,7 +1022,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
-if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat)){
+if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat) || (competitorlist[0].strength4 == r2question001[2].cat) || (competitorlist[0].strength5 == r2question001[2].cat) || (competitorlist[0].strength6 == r2question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -1041,7 +1041,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
-if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
+if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat) || (competitorlist[0].strength4 == r2question001[3].cat) || (competitorlist[0].strength5 == r2question001[3].cat) || (competitorlist[0].strength6 == r2question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -1148,7 +1148,7 @@ function simulateq2(){
 document.getElementById("message004").style.top = "-230px";
 	   quescountopp++;
 	   posspointsopp+=2;
-if ((competitorlist[0].strength1 == question001[8].cat) || (competitorlist[0].strength2 == question001[8].cat) || (competitorlist[0].strength3 == question001[8].cat)){
+if ((competitorlist[0].strength1 == question001[8].cat) || (competitorlist[0].strength2 == question001[8].cat) || (competitorlist[0].strength3 == question001[8].cat) || (competitorlist[0].strength4 == question001[8].cat) || (competitorlist[0].strength5 == question001[8].cat) || (competitorlist[0].strength6 == question001[8].cat)){
 percentage = competitorlist[0].strengthpercentage3;
 }
 var chance = Math.random() * 100;
@@ -1210,7 +1210,7 @@ function simulateq3(){
 document.getElementById("message004").style.top = "-230px";
 	   quescountopp++;
 	   posspointsopp+=3;
-if ((competitorlist[0].strength1 == threepointer001[1].cat) || (competitorlist[0].strength2 == threepointer001[1].cat) || (competitorlist[0].strength3 == threepointer001[1].cat)){
+if ((competitorlist[0].strength1 == threepointer001[1].cat) || (competitorlist[0].strength2 == threepointer001[1].cat) || (competitorlist[0].strength3 == threepointer001[1].cat) || (competitorlist[0].strength4 == threepointer001[1].cat) || (competitorlist[0].strength5 == threepointer001[1].cat) || (competitorlist[0].strength6 == threepointer001[1].cat)){
 percentage3 = competitorlist[0].strengthpercentage3;
 }
 var chance = Math.random() * 100;
@@ -1272,7 +1272,7 @@ function simulateq5(){
 document.getElementById("message004").style.top = "-230px";
 	   quescountopp++;
 	   posspointsopp+=5;
-if ((competitorlist[0].strength1 == fivepointer001[1].cat) || (competitorlist[0].strength2 == fivepointer001[1].cat) || (competitorlist[0].strength3 == fivepointer001[1].cat)){
+if ((competitorlist[0].strength1 == fivepointer001[1].cat) || (competitorlist[0].strength2 == fivepointer001[1].cat) || (competitorlist[0].strength3 == fivepointer001[1].cat) || (competitorlist[0].strength4 == fivepointer001[1].cat) || (competitorlist[0].strength5 == fivepointer001[1].cat) || (competitorlist[0].strength6 == fivepointer001[1].cat)){
 percentage5 = competitorlist[0].strengthpercentage5;
 }
 var chance = Math.random() * 100;
@@ -1632,7 +1632,7 @@ if ((question1 == question001[0].answ) || (question1 == question001[0].answ3) ||
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat)){
+if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat) || (competitorlist[0].strength4 == question001[0].cat) || (competitorlist[0].strength5 == question001[0].cat) || (competitorlist[0].strength6 == question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1648,7 +1648,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[0].answ2;
 	    message006.innerHTML =  "Next category is " +question001[1].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat)){
+if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat) || (competitorlist[0].strength4 == question001[0].cat) || (competitorlist[0].strength5 == question001[0].cat) || (competitorlist[0].strength6 == question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1687,7 +1687,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
+if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat) || (competitorlist[0].strength4 == question001[1].cat) || (competitorlist[0].strength5 == question001[1].cat) || (competitorlist[0].strength6 == question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1703,7 +1703,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[1].answ2;
 	    message006.innerHTML =  "Next category is " +question001[2].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
+if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat) || (competitorlist[0].strength4 == question001[1].cat) || (competitorlist[0].strength5 == question001[1].cat) || (competitorlist[0].strength6 == question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1742,7 +1742,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
+if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat) || (competitorlist[0].strength4 == question001[2].cat) || (competitorlist[0].strength5 == question001[2].cat) || (competitorlist[0].strength6 == question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1759,7 +1759,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[2].answ2;
 	    message006.innerHTML =  "Next category is " +question001[3].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
+if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat) || (competitorlist[0].strength4 == question001[2].cat) || (competitorlist[0].strength5 == question001[2].cat) || (competitorlist[0].strength6 == question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1798,7 +1798,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
+if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat) || (competitorlist[0].strength4 == question001[3].cat) || (competitorlist[0].strength5 == question001[3].cat) || (competitorlist[0].strength6 == question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1814,7 +1814,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[3].answ2;
 	    message006.innerHTML =  "Next category is " +question001[4].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
+if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat) || (competitorlist[0].strength4 == question001[3].cat) || (competitorlist[0].strength5 == question001[3].cat) || (competitorlist[0].strength6 == question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1853,7 +1853,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
+if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat) || (competitorlist[0].strength4 == question001[4].cat) || (competitorlist[0].strength5 == question001[4].cat) || (competitorlist[0].strength6 == question001[4].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1870,7 +1870,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[4].answ2;
 	    message006.innerHTML =  "Next category is " +question001[5].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
+if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat) || (competitorlist[0].strength4 == question001[4].cat) || (competitorlist[0].strength5 == question001[4].cat) || (competitorlist[0].strength6 == question001[4].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -1908,7 +1908,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
+if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat) || (competitorlist[0].strength4 == question001[5].cat) || (competitorlist[0].strength5 == question001[5].cat) || (competitorlist[0].strength6 == question001[5].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() *100;
@@ -1925,7 +1925,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[5].answ2;
 	    message006.innerHTML =  "Next category is " +question001[6].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
+if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat) || (competitorlist[0].strength4 == question001[5].cat) || (competitorlist[0].strength5 == question001[5].cat) || (competitorlist[0].strength6 == question001[5].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -1963,7 +1963,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
+if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat) || (competitorlist[0].strength4 == question001[6].cat) || (competitorlist[0].strength5 == question001[6].cat) || (competitorlist[0].strength6 == question001[6].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -1980,7 +1980,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[6].answ2;
 	    message006.innerHTML =  "Next category is " +question001[7].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
+if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat) || (competitorlist[0].strength4 == question001[6].cat) || (competitorlist[0].strength5 == question001[6].cat) || (competitorlist[0].strength6 == question001[6].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2024,7 +2024,7 @@ else if (b != 8) {
 	    	message003.innerHTML = "Correct!" ;
 	    	message006.innerHTML =  "";
 }
-if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
+if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat) || (competitorlist[0].strength4 == question001[7].cat) || (competitorlist[0].strength5 == question001[7].cat) || (competitorlist[0].strength6 == question001[7].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2041,7 +2041,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[7].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
+if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat) || (competitorlist[0].strength4 == question001[7].cat) || (competitorlist[0].strength5 == question001[7].cat) || (competitorlist[0].strength6 == question001[7].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2077,7 +2077,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
+if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat) || (competitorlist[0].strength4 == question001[9].cat) || (competitorlist[0].strength5 == question001[9].cat) || (competitorlist[0].strength6 == question001[9].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 if (s == 8){
@@ -2097,7 +2097,7 @@ if (chance < percentage) {
             message003.innerHTML = "Incorrect. The correct answer is " + question001[9].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
+if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat) || (competitorlist[0].strength4 == question001[9].cat) || (competitorlist[0].strength5 == question001[9].cat) || (competitorlist[0].strength6 == question001[9].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 if (s == 8){
@@ -2155,7 +2155,7 @@ quescor++;
 	   quescountopp++;
 	   posspointsopp+=2;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat)){
+if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat) || (competitorlist[0].strength4 == r2question001[0].cat) || (competitorlist[0].strength5 == r2question001[0].cat) || (competitorlist[0].strength6 == r2question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2212,7 +2212,7 @@ quescor++;
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
-if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat)){
+if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat) || (competitorlist[0].strength4 == r2question001[1].cat) || (competitorlist[0].strength5 == r2question001[1].cat) || (competitorlist[0].strength6 == r2question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2269,7 +2269,7 @@ quescor++;
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
-if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat)){
+if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat) || (competitorlist[0].strength4 == r2question001[2].cat) || (competitorlist[0].strength5 == r2question001[2].cat) || (competitorlist[0].strength6 == r2question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2326,7 +2326,7 @@ quescor++;
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
-if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
+if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[3].cat) || (competitorlist[0].strength4 == r2question001[3].cat) || (competitorlist[0].strength5 == r2question001[3].cat) || (competitorlist[0].strength6 == r2question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2485,7 +2485,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat)){
+if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat) || (competitorlist[0].strength4 == question001[10].cat) || (competitorlist[0].strength5 == question001[10].cat) || (competitorlist[0].strength6 == question001[10].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2501,7 +2501,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[10].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat)){
+if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat) || (competitorlist[0].strength4 == question001[10].cat) || (competitorlist[0].strength5 == question001[10].cat) || (competitorlist[0].strength6 == question001[10].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2539,7 +2539,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
+if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat) || (competitorlist[0].strength4 == question001[11].cat) || (competitorlist[0].strength5 == question001[11].cat) || (competitorlist[0].strength6 == question001[11].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2555,7 +2555,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[11].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
+if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat) || (competitorlist[0].strength4 == question001[11].cat) || (competitorlist[0].strength5 == question001[11].cat) || (competitorlist[0].strength6 == question001[11].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2593,7 +2593,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
+if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat) || (competitorlist[0].strength4 == question001[12].cat) || (competitorlist[0].strength5 == question001[12].cat) || (competitorlist[0].strength6 == question001[12].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2609,7 +2609,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[12].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
+if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat) || (competitorlist[0].strength4 == question001[12].cat) || (competitorlist[0].strength5 == question001[12].cat) || (competitorlist[0].strength6 == question001[12].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2647,7 +2647,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
+if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat) || (competitorlist[0].strength4 == question001[13].cat) || (competitorlist[0].strength5 == question001[13].cat) || (competitorlist[0].strength6 == question001[13].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2663,7 +2663,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[13].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
+if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat) || (competitorlist[0].strength4 == question001[13].cat) || (competitorlist[0].strength5 == question001[13].cat) || (competitorlist[0].strength6 == question001[13].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2701,7 +2701,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
+if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat) || (competitorlist[0].strength4 == question001[14].cat) || (competitorlist[0].strength5 == question001[14].cat) || (competitorlist[0].strength6 == question001[14].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2717,7 +2717,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[14].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
+if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat) || (competitorlist[0].strength4 == question001[14].cat) || (competitorlist[0].strength5 == question001[14].cat) || (competitorlist[0].strength6 == question001[14].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2755,7 +2755,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
+if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat) || (competitorlist[0].strength4 == question001[15].cat) || (competitorlist[0].strength5 == question001[15].cat) || (competitorlist[0].strength6 == question001[15].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2771,7 +2771,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[15].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
+if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat) || (competitorlist[0].strength4 == question001[15].cat) || (competitorlist[0].strength5 == question001[15].cat) || (competitorlist[0].strength6 == question001[15].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2809,7 +2809,7 @@ similarity2 = 0;
             score001.innerHTML = b+=1;
 quescor++;
 	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
+if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat) || (competitorlist[0].strength4 == question001[16].cat) || (competitorlist[0].strength5 == question001[16].cat) || (competitorlist[0].strength6 == question001[16].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -2825,7 +2825,7 @@ score002.innerHTML = s+=1;
             message003.innerHTML = "Incorrect. The correct answer is " + question001[16].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
+if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat) || (competitorlist[0].strength4 == question001[16].cat) || (competitorlist[0].strength5 == question001[16].cat) || (competitorlist[0].strength6 == question001[16].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random()*100;
@@ -3693,7 +3693,7 @@ document.getElementById("message004").style.top = "-180px";
 document.getElementById("message006").style.top = "-180px";
 document.getElementById("JTE").style.visibility = "hidden";
 if (a == 2){
-if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat)){
+if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat) || (competitorlist[0].strength4 == question001[0].cat) || (competitorlist[0].strength5 == question001[0].cat) || (competitorlist[0].strength6 == question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3713,7 +3713,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 3){
-if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
+if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat) || (competitorlist[0].strength4 == question001[1].cat) || (competitorlist[0].strength5 == question001[1].cat) || (competitorlist[0].strength6 == question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3733,7 +3733,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 4){
-if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
+if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat) || (competitorlist[0].strength4 == question001[2].cat) || (competitorlist[0].strength5 == question001[2].cat) || (competitorlist[0].strength6 == question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3753,7 +3753,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 5){
-if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
+if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat) || (competitorlist[0].strength4 == question001[3].cat) || (competitorlist[0].strength5 == question001[3].cat) || (competitorlist[0].strength6 == question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3773,7 +3773,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 6){
-if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
+if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat) || (competitorlist[0].strength4 == question001[4].cat) || (competitorlist[0].strength5 == question001[4].cat) || (competitorlist[0].strength6 == question001[4].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3793,7 +3793,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 7){
-if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
+if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat) || (competitorlist[0].strength4 == question001[5].cat) || (competitorlist[0].strength5 == question001[5].cat) || (competitorlist[0].strength6 == question001[5].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3813,7 +3813,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 8){
-if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
+if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat) || (competitorlist[0].strength4 == question001[6].cat) || (competitorlist[0].strength5 == question001[6].cat) || (competitorlist[0].strength6 == question001[6].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3833,7 +3833,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 9){
-if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
+if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat) || (competitorlist[0].strength4 == question001[7].cat) || (competitorlist[0].strength5 == question001[7].cat) || (competitorlist[0].strength6 == question001[7].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -3853,7 +3853,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 10){
-if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
+if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat) || (competitorlist[0].strength4 == question001[9].cat) || (competitorlist[0].strength5 == question001[9].cat) || (competitorlist[0].strength6 == question001[9].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 	   posspoints+=1;
@@ -3882,7 +3882,7 @@ else if (a == 11){
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 if (document.getElementById("mc").style.display == 'none') {
-if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat)){
+if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat) || (competitorlist[0].strength4 == r2question001[0].cat) || (competitorlist[0].strength5 == r2question001[0].cat) || (competitorlist[0].strength6 == r2question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -3897,7 +3897,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
 else {
-if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat)){
+if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat) || (competitorlist[0].strength4 == r2question001[0].cat) || (competitorlist[0].strength5 == r2question001[0].cat) || (competitorlist[0].strength6 == r2question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 0.9 * percentage;
@@ -3935,7 +3935,7 @@ else if (a == 12){
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 if (document.getElementById("mc").style.display == 'none') {
-if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat)){
+if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat) || (competitorlist[0].strength4 == r2question001[1].cat) || (competitorlist[0].strength5 == r2question001[1].cat) || (competitorlist[0].strength6 == r2question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -3950,7 +3950,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
 else {
-if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat)){
+if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat) || (competitorlist[0].strength4 == r2question001[1].cat) || (competitorlist[0].strength5 == r2question001[1].cat) || (competitorlist[0].strength6 == r2question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 0.9 * percentage;
@@ -3988,7 +3988,7 @@ else if (a == 13){
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 if (document.getElementById("mc").style.display == 'none') {
-if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat)){
+if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat) || (competitorlist[0].strength4 == r2question001[2].cat) || (competitorlist[0].strength5 == r2question001[2].cat) || (competitorlist[0].strength6 == r2question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -4003,7 +4003,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
 else {
-if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat)){
+if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat) || (competitorlist[0].strength4 == r2question001[2].cat) || (competitorlist[0].strength5 == r2question001[2].cat) || (competitorlist[0].strength6 == r2question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 0.9 * percentage;
@@ -4042,7 +4042,7 @@ else if ((a == 14) && (open == 0) && (mc == 0)){
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 if (document.getElementById("mc").style.display == 'none') {
-if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
+if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat) || (competitorlist[0].strength4 == r2question001[3].cat) || (competitorlist[0].strength5 == r2question001[3].cat) || (competitorlist[0].strength6 == r2question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 1.1 * percentage;
@@ -4057,7 +4057,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
 else {
-if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
+if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat) || (competitorlist[0].strength4 == r2question001[3].cat) || (competitorlist[0].strength5 == r2question001[3].cat) || (competitorlist[0].strength6 == r2question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 percentage1pnt = 0.9 * percentage;
@@ -4115,7 +4115,7 @@ else if (a == 17){
             	message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if (a == 19){
-if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat)){
+if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat) || (competitorlist[0].strength4 == question001[10].cat) || (competitorlist[0].strength5 == question001[10].cat) || (competitorlist[0].strength6 == question001[10].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4135,7 +4135,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 20){
-if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
+if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat) || (competitorlist[0].strength4 == question001[11].cat) || (competitorlist[0].strength5 == question001[11].cat) || (competitorlist[0].strength6 == question001[11].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4155,7 +4155,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 21){
-if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
+if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat) || (competitorlist[0].strength4 == question001[12].cat) || (competitorlist[0].strength5 == question001[12].cat) || (competitorlist[0].strength6 == question001[12].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4175,7 +4175,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 22){
-if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
+if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat) || (competitorlist[0].strength4 == question001[13].cat) || (competitorlist[0].strength5 == question001[13].cat) || (competitorlist[0].strength6 == question001[13].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4195,7 +4195,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 23){
-if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
+if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat) || (competitorlist[0].strength4 == question001[14].cat) || (competitorlist[0].strength5 == question001[14].cat) || (competitorlist[0].strength6 == question001[14].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4215,7 +4215,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 24){
-if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
+if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat) || (competitorlist[0].strength4 == question001[15].cat) || (competitorlist[0].strength5 == question001[15].cat) || (competitorlist[0].strength6 == question001[15].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4235,7 +4235,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 25){
-if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
+if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat) || (competitorlist[0].strength4 == question001[16].cat) || (competitorlist[0].strength5 == question001[16].cat) || (competitorlist[0].strength6 == question001[16].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;
@@ -4807,7 +4807,7 @@ function simulateq1(){
 quescountopp++;
 posspointsopp+=2;
 	percentage = competitorlist[0].percentage;
-if ((competitorlist[0].strength1 == compcat[0].cat) || (competitorlist[0].strength2 == compcat[0].cat) || (competitorlist[0].strength3 == compcat[0].cat)){
+if ((competitorlist[0].strength1 == compcat[0].cat) || (competitorlist[0].strength2 == compcat[0].cat) || (competitorlist[0].strength3 == compcat[0].cat) || (competitorlist[0].strength4 == compcat[0].cat) || (competitorlist[0].strength5 == compcat[0].cat) || (competitorlist[0].strength6 == compcat[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
 var chance = Math.random() * 100;

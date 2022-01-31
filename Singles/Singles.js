@@ -3379,6 +3379,7 @@ userfive++;
                 else if (a == 18) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+		document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3403,6 +3404,7 @@ userfive++;
     else if ((a == 19) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3435,6 +3437,7 @@ userfive++;
   else if ((a == 20) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3467,6 +3470,7 @@ userfive++;
   else if ((a == 21) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3499,6 +3503,7 @@ userfive++;
   else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3531,6 +3536,7 @@ userfive++;
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3563,6 +3569,7 @@ userfive++;
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	  	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3595,6 +3602,7 @@ userfive++;
     else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	    	document.getElementById("message005").style.top = "-165px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3659,8 +3667,11 @@ userfive++;
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
-		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</strong>";
+		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
                  a++;
+		 j = 0;
+  	   	 if (h == 1) {document.getElementById("background").src = "Singles - 1JTEChal.png";}
+            	 else if (h < 1) {document.getElementById("background").src = "Singles - 1JTE.png";}
 		round001.innerHTML = r++;
 		document.getElementById("round001").style.display = "none";
  		round002.innerHTML = "OVERTIME";

@@ -295,7 +295,7 @@ var r2Q11 = [
 "answ":"JAMILLIA",
 "answ3":"QUEEN OF NABOO",
 "answ2":"Queen of Naboo/Jamillia.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chancellor Palpatine</button><button id=incop2 class=buttons003 onclick=qinc()>Padmé Amidala</button><button id=corop class=buttons003 onclick=qcor()>Queen of Naboo</button><button id=incop4 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><br/>",
+"option":["Queen of Naboo", "Chancellor Palpatine", "Padmé Amidala", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
@@ -303,7 +303,7 @@ var r2Q11 = [
 "answ":"QUI GON JINN",
 "answ3":"QUI GON",
 "answ2":"Qui-Gon Jinn.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Yoda</button><button id=corop class=buttons003 onclick=qcor()>Qui-Gon Jinn</button><button id=incop4 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><br/>",
+"option":["Qui-Gon Jinn", "Mace Windu", "Yoda", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
@@ -311,7 +311,7 @@ var r2Q11 = [
 "answ":"OBI WAN KENOBI",
 "answ3":"OBI WAN",
 "answ2":"Obi-Wan Kenobi.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Lando Calrissian</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Obi-Wan Kenobi</button><button id=incop4 class=buttons003 onclick=qinc()>Han Solo</button><br/>",
+"option":["Obi-Wan Kenobi", "Lando Calrissian", "Luke Skywalker", "Han Solo"],
 },
 {
 "cat":"Who said it?",
@@ -319,7 +319,7 @@ var r2Q11 = [
 "answ":"JABBA THE HUTT",
 "answ3":"JABBA",
 "answ2":"Jabba the Hutt.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Darth Vader</button><button id=incop2 class=buttons003 onclick=qinc()>Grand Moff Tarkin</button><button id=corop class=buttons003 onclick=qcor()>Jabba the Hutt</button><button id=incop4 class=buttons003 onclick=qinc()>Han Solo</button><br/>",
+"option":["Jabba the Hutt", "Darth Vader", "Grand Moff Tarkin", "Han Solo"],
 },
 {
 "cat":"Who said it?",
@@ -327,7 +327,7 @@ var r2Q11 = [
 "answ":"LOR SAN TEKKA",
 "answ3":"TEKKA",
 "answ2":"Lor San Tekka.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Han Solo</button><button id=incop2 class=buttons003 onclick=qinc()>Poe Dameron</button><button id=corop class=buttons003 onclick=qcor()>Lor San Tekka</button><button id=incop4 class=buttons003 onclick=qinc()>Finn</button><br/>",
+"option":["Lor San Tekka", "Han Solo", "Poe Dameron", "Finn"],
 },
 {
 "cat":"Who said it?",
@@ -335,7 +335,7 @@ var r2Q11 = [
 "answ":"GRAND MOFF TARKIN",
 "answ3":"GOVERNOR TARKIN",
 "answ2":"Grand Moff Tarkin.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Darth Vader</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=incop3 class=buttons003 onclick=qinc()>Han Solo</button><button id=corop class=buttons003 onclick=qcor()>Grand Moff Tarkin</button><br/>",
+"option":["Grand Moff Tarkin", "Darth Vader", "Luke Skywalker", "Han Solo"],
 },
 {
 "cat":"Who said it?",
@@ -343,7 +343,7 @@ var r2Q11 = [
 "answ":"PALPATINE",
 "answ3":"DARTH SIDIOUS",
 "answ2":"Palpatine/Darth Sidious.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=corop class=buttons003 onclick=qcor()>Darth Sidious</button><button id=incop3 class=buttons003 onclick=qinc()>Count Dooku</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><br/>",
+"option":["Darth Sidious", "Mace Windu", "Count Dooku", "Qui-Gon Jinn"],
 },
 {
 "cat":"Who said it?",
@@ -351,7 +351,7 @@ var r2Q11 = [
 "answ":"PADME",
 "answ3":"PADME AMIDALA",
 "answ2":"Padme Amidala.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=corop class=buttons003 onclick=qcor()>Padme Amidala</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><br/>",
+"option":["Padme Amidala", "Mace Windu", "Obi-Wan Kenobi", "Qui-Gon Jinn"],
 },
 {
 "cat":"Who said it?",
@@ -359,7 +359,7 @@ var r2Q11 = [
 "answ":"OBI WAN",
 "answ3":"OBI WAN KENOBI",
 "answ2":"Obi-Wan Kenobi.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Anakin Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Obi-Wan Kenobi</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><br/>",
+"option":["Obi-Wan Kenobi", "Mace Windu", "Anakin Skywalker", "Qui-Gon Jinn"],
 },
 {
 "cat":"Who said it?",
@@ -367,7 +367,7 @@ var r2Q11 = [
 "answ":"HAN",
 "answ3":"HAN SOLO",
 "answ2":"Han Solo.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Rey</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Han Solo</button><button id=incop4 class=buttons003 onclick=qinc()>Finn</button><br/>",
+"option":["Han Solo", "Rey", "Luke Skywalker", "Finn"],
 },
 {
 "cat":"Who said it?",
@@ -375,7 +375,7 @@ var r2Q11 = [
 "answ":"ATTACK OF THE CLONES",
 "answ3":"STAR WARS EPISODE III ATTACK OF THE CLONES",
 "answ2":"Attack of the Clones.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Revenge of the Sith</button><button id=incop2 class=buttons003 onclick=qinc()>The Phantom Menace</button><button id=corop class=buttons003 onclick=qcor()>Attack of the Clones</button><button id=incop4 class=buttons003 onclick=qinc()>The Clone Wars</button><br/>",
+"option":["Attack of the Clones", "Revenge of the Sith", "The Phantom Menace", "The Clone Wars"],
 },
 {
 "cat":"Who said it?",
@@ -383,7 +383,7 @@ var r2Q11 = [
 "answ":"ANAKIN SKYWALKER",
 "answ3":"ANAKIN",
 "answ2":"Anakin Skywalker.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=corop class=buttons003 onclick=qcor()>Anakin Skywalker</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><br/>",
+"option":["Anakin Skywalker", "Mace Windu", "Obi-Wan Kenobi", "Qui-Gon Jinn"],
 },
 {
 "cat":"Who said it?",
@@ -391,14 +391,14 @@ var r2Q11 = [
 "answ":"OBI WAN",
 "answ3":"OBI WAN KENOBI",
 "answ2":"Obi-Wan Kenobi.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Obi-Wan Kenobi</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><br/>",
+"option":["Obi-Wan Kenobi", "Mace Windu", "Luke Skywalker", "Qui-Gon Jinn"],
 },
 {
 "cat":"Who said it?",
 "ques":"Who said: 'I’m just a simple man trying to make my way in the universe'?",
 "answ":"JANGO FETT",
 "answ2":"Jango Fett.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Watto</button><button id=incop2 class=buttons003 onclick=qinc()>Lando Calrissian</button><button id=corop class=buttons003 onclick=qcor()>Jango Fett</button><button id=incop4 class=buttons003 onclick=qinc()>Han Solo</button><br/>",
+"option":["Jango Fett", "Watto", "Lando Calrissian", "Han Solo"],
 },
 {
 "cat":"Who said it?",
@@ -406,7 +406,7 @@ var r2Q11 = [
 "answ":"QUI GON JINN",
 "answ3":"QUI GON",
 "answ2":"Qui-Gon Jinn.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Yoda</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=corop class=buttons003 onclick=qcor()>Qui-Gon Jinn</button><br/>",
+"option":["Qui-Gon Jinn", "Yoda", "Luke Skywalker", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
@@ -414,7 +414,7 @@ var r2Q11 = [
 "answ":"EMPEROR",
 "answ3":"PALPATINE",
 "answ2":"Emperor/Palpatine.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Yoda</button><button id=incop2 class=buttons003 onclick=qinc()>Darth Vader</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=corop class=buttons003 onclick=qcor()>Palpatine</button><br/>",
+"option":["Palpatine", "Yoda", "Darth Vader", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
@@ -422,7 +422,7 @@ var r2Q11 = [
 "answ":"LEIA",
 "answ3":"PRINCESS LEIA",
 "answ2":"Princess Leia.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=incop2 class=buttons003 onclick=qinc()>Han Solo</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=corop class=buttons003 onclick=qcor()>Princess Leia</button><br/>",
+"option":["Princess Leia", "Luke Skywalker", "Han Solo", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
@@ -430,7 +430,7 @@ var r2Q11 = [
 "answ":"LEIA",
 "answ3":"PRINCESS LEIA",
 "answ2":"Princess Leia.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=incop2 class=buttons003 onclick=qinc()>Han Solo</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=corop class=buttons003 onclick=qcor()>Princess Leia</button><br/>",
+"option":["Princess Leia", "Luke Skywalker", "Han Solo", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
@@ -438,14 +438,14 @@ var r2Q11 = [
 "answ":"SHMI SKYWALKER",
 "answ3":"SHMI",
 "answ2":"Shmi Skywalker.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Padmé Amidala</button><button id=incop2 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><button id=incop3 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=corop class=buttons003 onclick=qcor()>Shmi Skywalker</button><br/>",
+"option":["Shmi Skywalker", "Padmé Amidala", "Qui-Gon Jinn", "Obi-Wan Kenobi"],
 },
 {
 "cat":"Who said it?",
 "ques":"What place was C-3PO referring to when he asked 'are you sure this is the right place?'",
 "answ":"JABBA'S PALACE",
 "answ2":"Jabba's Palace.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Endor</button><button id=incop2 class=buttons003 onclick=qinc()>Tatooine</button><button id=incop3 class=buttons003 onclick=qinc()>Death Star</button><button id=corop class=buttons003 onclick=qcor()>Jabba's Palace</button><br/>",
+"option":["Jabba's Palace", "Endor", "Tatooine", "Death Star"],
 },
 {
 "cat":"Who said it?",
@@ -453,7 +453,7 @@ var r2Q11 = [
 "answ":"PALPATINE",
 "answ3":"CHANCELLOR PALPATINE",
 "answ2":"Palpatine.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><button id=incop2 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop3 class=buttons003 onclick=qinc()>Yoda</button><button id=corop class=buttons003 onclick=qcor()>Palpatine</button><br/>",
+"option":["Palpatine", "Qui-Gon Jinn", "Mace Windu", "Yoda"],
 },
 {
 "cat":"Who said it?",
@@ -461,7 +461,7 @@ var r2Q11 = [
 "answ":"HAN SOLO",
 "answ3":"HAN",
 "answ2":"Han Solo.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Luke</button><button id=incop2 class=buttons003 onclick=qinc()>Lando</button><button id=incop3 class=buttons003 onclick=qinc()>Leia</button><button id=corop class=buttons003 onclick=qcor()>Han</button><br/>",
+"option":["Han", "Luke", "Lando", "Leia"],
 },
 {
 "cat":"Who said it?",
@@ -469,7 +469,7 @@ var r2Q11 = [
 "answ":"POE DAMERON",
 "answ3":"POE",
 "answ2":"Poe Dameron.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Lando Calrissian</button><button id=incop2 class=buttons003 onclick=qinc()>General Leia</button><button id=incop3 class=buttons003 onclick=qinc()>Han Solo</button><button id=corop class=buttons003 onclick=qcor()>Poe Dameron</button><br/>",
+"option":["Poe Dameron", "Lando Calrissian", "General Leia", "Han Solo"],
 },
 {
 "cat":"Who said it?",
@@ -477,42 +477,42 @@ var r2Q11 = [
 "answ":"REVENGE OF THE SITH",
 "answ3":"STAR WARS EPISODE III REVENGE OF THE SITH",
 "answ2":"Revenge of the Sith.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Attack of the Clones</button><button id=incop2 class=buttons003 onclick=qinc()>Empire Strikes Back</button><button id=corop class=buttons003 onclick=qcor()>Revenge of the Sith</button><button id=incop4 class=buttons003 onclick=qinc()>Return of the Jedi</button><br/>",
+"option":["Revenge of the Sith", "Attack of the Clones", "Empire Strikes Back", "Return of the Jedi"],
 },
 {
 "cat":"Who said it?",
 "ques":"Which character in The Last Jedi says the following words: 'I'm sure you are! The Resistance is dead, the war is over...'?",
 "answ":"KYLO REN",
 "answ2":"Kylo Ren.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=incop2 class=buttons003 onclick=qinc()>Snoke</button><button id=corop class=buttons003 onclick=qcor()>Kylo Ren</button><button id=incop4 class=buttons003 onclick=qinc()>Han Solo</button><br/>",
+"option":["Kylo Ren", "Luke Skywalker", "Snoke", "Han Solo"],
 },
 {
 "cat":"Who said it?",
 "ques":"Who said the following line: 'The dark side is in our nature. Surrender to it.'?",
 "answ":"KYLO REN",
 "answ2":"Kylo Ren.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Palpatine</button><button id=incop2 class=buttons003 onclick=qinc()>Snoke</button><button id=corop class=buttons003 onclick=qcor()>Kylo Ren</button><button id=incop4 class=buttons003 onclick=qinc()>Count Dooku</button><br/>",
+"option":["Kylo Ren", "Palpatine", "Snoke", "Count Dooku"],
 },
 {
 "cat":"Who said it?",
 "ques":"In which film will you hear the quote: 'I should think you Jedi would have more respect for the difference between knowledge and wisdom'?",
 "answ":"ATTACK OF THE CLONES",
 "answ2":"Attack of the Clones.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Return of the Jedi</button><button id=incop2 class=buttons003 onclick=qinc()>The Phantom Menace</button><button id=corop class=buttons003 onclick=qcor()>Attack of the Clones</button><button id=incop4 class=buttons003 onclick=qinc()>Revenge of the Sith</button><br/>",
+"option":["Attack of the Clones", "Return of the Jedi", "The Phantom Menace", "Revenge of the Sith"],
 },
 {
 "cat":"Who said it?",
 "ques":"In Solo, which character said: 'Have you ever tried to disinvite a Wookie to anything? Not a good idea.'?",
 "answ":"RIO DURANT",
 "answ2":"Rio Durant.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Qi'ra</button><button id=incop2 class=buttons003 onclick=qinc()>Han Solo</button><button id=corop class=buttons003 onclick=qcor()>Rio Durant</button><button id=incop4 class=buttons003 onclick=qinc()>Lando Calrissian</button><br/>",
+"option":["Rio Durant", "Qi'ra", "Han Solo", "Lando Calrissian"],
 },
 {
 "cat":"Who said it?",
 "ques":"What Jedi Master says: 'What about the droid attack on the Wookies?' in Revenge of the Sith?",
 "answ":"KI ADI MUNDI",
 "answ2":"Ki-Adi-Mundi.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Kit Fisto</button><button id=corop class=buttons003 onclick=qcor()>Ki-Adi-Mundi</button><button id=incop4 class=buttons003 onclick=qinc()>Yoda</button><br/>",
+"option":["Ki-Adi-Mundi", "Mace Windu", "Kit Fisto", "Yoda"],
 },
 {
 "cat":"Who said it?",
@@ -520,7 +520,7 @@ var r2Q11 = [
 "answ":"VICE ADMIRAL HOLDO",
 "answ3":"HOLDO",
 "answ2":"Vice-Admiral Holdo.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Finn</button><button id=incop2 class=buttons003 onclick=qinc()>Leia</button><button id=corop class=buttons003 onclick=qcor()>Vice-Admiral Holdo</button><button id=incop4 class=buttons003 onclick=qinc()>Poe Dameron</button><br/>",
+"option":["Vice-Admiral Holdo", "Finn", "Leia", "Poe Dameron"],
 },
 {
 "cat":"Who said it?",
@@ -528,7 +528,7 @@ var r2Q11 = [
 "answ":"QUI GON JINN",
 "answ3":"QUI GON",
 "answ2":"Qui-Gon Jinn.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Padmé Amidala</button><button id=corop class=buttons003 onclick=qcor()>Qui-Gon Jinn</button><button id=incop4 class=buttons003 onclick=qinc()>Jango Fett</button><br/>",
+"option":["Qui-Gon Jinn", "Mace Windu", "Padmé Amidala", "Jango Fett"],
 },
 {
 "cat":"Who said it?",
@@ -536,7 +536,7 @@ var r2Q11 = [
 "answ":"OBI WAN KENOBI",
 "answ3":"OBI WAN",
 "answ2":"Obi-Wan Kenobi.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Luke Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Obi-Wan Kenobi</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon Jinn</button><br/>",
+"option":["Obi-Wan Kenobi", "Mace Windu", "Luke Skywalker", "Qui-Gon Jinn"],
 },
 ];
 r2Q11 = shuffle(r2Q11);

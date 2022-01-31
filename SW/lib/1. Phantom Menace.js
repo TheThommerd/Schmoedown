@@ -5,7 +5,7 @@
                 var wins = document.getElementById("wins_SW").value;
                 var losses = document.getElementById("losses_SW").value;
 	    	message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
-	    	document.getElementById("JTE").style.visibility = "hidden";
+		document.getElementById("JTE").style.visibility = "hidden";
 		document.getElementById("time001").style.visibility = "hidden";
 		document.getElementById("chart").style.visibility = "hidden";
 		document.getElementById("JTE").style.display = "none";
@@ -361,7 +361,7 @@ var r2Q1 = [
 "answ":"20 000",
 "answ3":"20000",
 "answ2":"20,000.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>20,000</button><button id=incop2 class=buttons003 onclick=qinc()>10,000</button><button id=incop3 class=buttons003 onclick=qinc()>40,000</button><button id=incop4 class=buttons003 onclick=qinc()>50,000</button><br/>",
+"option":["20,000", "10,000", "40,000", "50,000"],
 },
 {
 "cat":"The Phantom Menace",
@@ -369,7 +369,7 @@ var r2Q1 = [
 "answ":"CAPTAIN TARPALS",
 "answ3":"ROOS TARPALS",
 "answ2":"Captain Tarpals.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Captain Tarpals</button><button id=incop2 class=buttons003 onclick=qinc()>Rugor Nass</button><button id=incop3 class=buttons003 onclick=qinc()>Captain Noz</button><button id=incop4 class=buttons003 onclick=qinc()>Captain Sharr</button><br/>",
+"option":["Captain Tarpals", "Rugor Nass", "Captain Noz", "Captain Sharr"],
 },
 {
 "cat":"The Phantom Menace",
@@ -377,7 +377,7 @@ var r2Q1 = [
 "answ":"5",
 "answ3":"FIVE",
 "answ2":"5.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=corop class=buttons003 onclick=qcor()>5</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=incop4 class=buttons003 onclick=qinc()>7</button><br/>",
+"option":["5", "4", "6", "7"],
 },
 {
 "cat":"The Phantom Menace",
@@ -385,7 +385,7 @@ var r2Q1 = [
 "answ":"8",
 "answ3":"EIGHT",
 "answ2":"8.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>4</button><button id=incop2 class=buttons003 onclick=qinc()>5</button><button id=incop3 class=buttons003 onclick=qinc()>6</button><button id=corop class=buttons003 onclick=qcor()>8</button><br/>",
+"option":["8", "4", "5", "6"],
 },
 {
 "cat":"The Phantom Menace",
@@ -393,7 +393,7 @@ var r2Q1 = [
 "answ":"QUI GONS NOBLE END",
 "answ3":"QUI GON'S NOBLE END",
 "answ2":"Qui-Gon's Noble End.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Qui-Gon's Noble End</button><button id=incop2 class=buttons003 onclick=qinc()>Qui-Gon's Funeral</button><button id=incop3 class=buttons003 onclick=qinc()>Qui-Gon's Demise</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon's Passing</button><br/>",
+"option":["Qui-Gon's Noble End", "Qui-Gon's Funeral", "Qui-Gon's Demise", "Qui-Gon's Passing"],
 },
 {
 "cat":"The Phantom Menace",
@@ -401,7 +401,7 @@ var r2Q1 = [
 "answ":"QUADINAROS",
 "answ3":"BEN QUADINAROS",
 "answ2":"Ben Quadinaros.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Ben Quadinaros</button><button id=incop2 class=buttons003 onclick=qinc()>Aldar Beedo</button><button id=incop3 class=buttons003 onclick=qinc()>Ody Mandrell</button><button id=incop4 class=buttons003 onclick=qinc()>Wan Sandage</button><br/>",
+"option":["Ben Quadinaros", "Aldar Beedo", "Ody Mandrell", "Wan Sandage"],
 },
 {
 "cat":"The Phantom Menace",
@@ -409,49 +409,49 @@ var r2Q1 = [
 "answ":"WATTO'S JUNKYARD",
 "answ3":"WATTO'S JUNKSHOP",
 "answ2":"Watto's junk shop/junkyard.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Watto's junkyard</button><button id=incop2 class=buttons003 onclick=qinc()>Dex's Diner</button><button id=incop3 class=buttons003 onclick=qinc()>Huttza Parlor</button><button id=incop4 class=buttons003 onclick=qinc()>Miss Mylla's Saloon</button><br/>",
+"option":["Watto's junkyard", "Dex's Diner", "Huttza Parlor", "Miss Mylla's Saloon"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Who was the top racer to beat in the pod race in The Phantom Menace?",
 "answ":"SEBULBA",
 "answ2":"Sebulba.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ahsoka</button><button id=incop2 class=buttons003 onclick=qinc()>Greedo</button><button id=corop class=buttons003 onclick=qcor()>Sebulba</button><button id=incop4 class=buttons003 onclick=qinc()>Nina</button><br/>",
+"option":["Sebulba", "Ahsoka", "Greedo", "Nina"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Who played Queen Amidala's decoy in The Phantom Menace?",
 "answ":"KEIRA KNIGHTLEY",
 "answ2":"Keira Knightley.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mila Kunis</button><button id=incop2 class=buttons003 onclick=qinc()>Amy Adams</button><button id=incop3 class=buttons003 onclick=qinc()>Zooey Deschanel</button><button id=corop class=buttons003 onclick=qcor()>Keira Knightley</button><br/>",
+"option":["Keira Knightley", "Mila Kunis", "Amy Adams", "Zooey Deschanel"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Who provides the voice of Jar Jar Binks?",
 "answ":"AHMED BEST",
 "answ2":"Ahmed Best.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Silas Carson</button><button id=incop2 class=buttons003 onclick=qinc()>Ray Park</button><button id=incop3 class=buttons003 onclick=qinc()>Michael Jackson</button><button id=corop class=buttons003 onclick=qcor()>Ahmed Best</button><br/>",
+"option":["Ahmed Best", "Silas Carson", "Ray Park", "Michael Jackson"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phentom Menace, Anakin has a young human friend on Tatooine named what?",
 "answ":"KITSTER",
 "answ2":"Kitster.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Dak</button><button id=corop class=buttons003 onclick=qcor()>Kitster</button><button id=incop3 class=buttons003 onclick=qinc()>Zam Wesell</button><button id=incop4 class=buttons003 onclick=qinc()>Quinlan Vos</button><br/>",
+"option":["Kitster", "Dak", "Zam Wesell", "Quinlan Vos"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, Qui-Gon Jinn said that there is podracing on what other planet?",
 "answ":"MALASTARE",
 "answ2":"Malastare.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Coruscant</button><button id=incop2 class=buttons003 onclick=qinc()>Alderaan</button><button id=corop class=buttons003 onclick=qcor()>Malastare</button><button id=incop4 class=buttons003 onclick=qinc()>Hoth</button><br/>",
+"option":["Malastare", "Coruscant", "Alderaan", "Hoth"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"What is the first word in the opening crawl in The Phantom Menace?",
 "answ":"TURMOIL",
 "answ2":"Turmoil.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Violence</button><button id=incop2 class=buttons003 onclick=qinc()>War</button><button id=incop3 class=buttons003 onclick=qinc()>The</button><button id=corop class=buttons003 onclick=qcor()>Turmoil</button><br/>",
+"option":["Turmoil", "Violence", "War", "The"],
 },
 {
 "cat":"The Phantom Menace",
@@ -459,7 +459,7 @@ var r2Q1 = [
 "answ":"3",
 "answ3":"THREE",
 "answ2":"3.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>3</button><button id=incop2 class=buttons003 onclick=qinc()>4</button><button id=incop3 class=buttons003 onclick=qinc()>5</button><button id=incop4 class=buttons003 onclick=qinc()>6</button><br/>",
+"option":["3", "4", "5", "6"],
 },
 {
 "cat":"The Phantom Menace",
@@ -467,21 +467,21 @@ var r2Q1 = [
 "answ":"R2D2",
 "answ3":"R2 D2",
 "answ2":"R2-D2.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jar Jar Binks</button><button id=corop class=buttons003 onclick=qcor()>R2-D2</button><button id=incop3 class=buttons003 onclick=qinc()>C-3PO</button><button id=incop4 class=buttons003 onclick=qinc()>Qui-Gon</button><br/>",
+"option":["R2-D2", "Jar Jar Binks", "C-3PO", "Qui-Gon"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"What was the name of the most famous podrace event on Tatooine?",
 "answ":"BOONTA EVE CLASSIC",
 "answ2":"Boonta Eve Classic.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Dune Sea Rally</button><button id=corop class=buttons003 onclick=qcor()>Boonta Eve Classic</button><button id=incop3 class=buttons003 onclick=qinc()>Mos Eisley Run</button><button id=incop4 class=buttons003 onclick=qinc()>Anchorhead 500</button><br/>",
+"option":["Boonta Eve Classic", "Dune Sea Rally", "Mos Eisley Run", "Anchorhead 500"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, what is the name of a Gungan submarine?",
 "answ":"BONGO",
 "answ2":"Bongo.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Bonga</button><button id=corop class=buttons003 onclick=qcor()>Bongo</button><button id=incop3 class=buttons003 onclick=qinc()>Tanga</button><button id=incop4 class=buttons003 onclick=qinc()>Tonga</button><br/>",
+"option":["Bongo", "Bonga", "Tanga", "Tonga"],
 },
 {
 "cat":"The Phantom Menace",
@@ -489,14 +489,14 @@ var r2Q1 = [
 "answ":"RIC OLIE",
 "answ3":"RICK OLIE",
 "answ2":"Ric Olié.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Gavyn Sykes</button><button id=corop class=buttons003 onclick=qcor()>Ric Olié</button><button id=incop3 class=buttons003 onclick=qinc()>Gregar Typho</button><button id=incop4 class=buttons003 onclick=qinc()>Quarsh Panaka</button><br/>",
+"option":["Ric Olié", "Gavyn Sykes", "Gregar Typho", "Quarsh Panaka"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Just prior to the battle of Naboo, Boss Nass gives Jar Jar Binks what rank in the Gungan army?",
 "answ":"BOMBAD GENERAL",
 "answ2":"Bombad General.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Honored Overlord</button><button id=corop class=buttons003 onclick=qcor()>Bombad General</button><button id=incop3 class=buttons003 onclick=qinc()>High General</button><button id=incop4 class=buttons003 onclick=qinc()>Gunnery Sergeant</button><br/>",
+"option":["Bombad General", "Honored Overlord", "High General", "Gunnery Sergeant"],
 },
 {
 "cat":"The Phantom Menace",
@@ -504,7 +504,7 @@ var r2Q1 = [
 "answ":"TWILEK",
 "answ3":"TWI'LEK",
 "answ2":"Twi'lek.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>B'nishi</button><button id=incop2 class=buttons003 onclick=qinc()>Togruta</button><button id=corop class=buttons003 onclick=qcor()>Twi'lek</button><button id=incop4 class=buttons003 onclick=qinc()>Cathar</button><br/>",
+"option":["Twi'lek", "B'nishi", "Togruta", "Cathar"],
 },
 {
 "cat":"The Phantom Menace",
@@ -512,14 +512,14 @@ var r2Q1 = [
 "answ":"RADIANT VII",
 "answ3":"RADIANT 7",
 "answ2":"Radiant VII.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Monitor III</button><button id=incop2 class=buttons003 onclick=qinc()>Prominence</button><button id=corop class=buttons003 onclick=qcor()>Radiant VII</button><button id=incop4 class=buttons003 onclick=qinc()>Tantine IV</button><br/>",
+"option":["Radiant VII", "Monitor III", "Prominence", "Tantine IV"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, who tells Anakin that they can see through him?",
 "answ":"YODA",
 "answ2":"Yoda.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=corop class=buttons003 onclick=qcor()>Yoda</button><button id=incop4 class=buttons003 onclick=qinc()>Palpatine</button><br/>",
+"option":["Yoda", "Mace Windu", "Obi-Wan Kenobi", "Palpatine"],
 },
 {
 "cat":"The Phantom Menace",
@@ -527,7 +527,7 @@ var r2Q1 = [
 "answ":"7 WUPIUPI",
 "answ3":"SEVEN WUPIUPI",
 "answ2":"7 wupiupi.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>7 wupiupi</button><button id=incop2 class=buttons003 onclick=qinc()>7 Republic credits</button><button id=incop3 class=buttons003 onclick=qinc()>10 druggats</button><button id=incop4 class=buttons003 onclick=qinc()>20 zemids</button><br/>",
+"option":["7 wupiupi", "7 Republic credits", "10 druggats", "20 zemids"],
 },
 {
 "cat":"The Phantom Menace",
@@ -535,14 +535,14 @@ var r2Q1 = [
 "answ":"TC 14",
 "answ3":"TC14",
 "answ2":"TC-14.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>TC-14</button><button id=incop2 class=buttons003 onclick=qinc()>U-3PO</button><button id=incop3 class=buttons003 onclick=qinc()>C4-ZX</button><button id=incop4 class=buttons003 onclick=qinc()>D-3P8</button><br/>",
+"option":["TC-14", "U-3PO", "C4-ZX", "D-3P8"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Finish Queen Amidala's quote: 'I will not condone a course of action that will lead _____'?",
 "answ":"US TO WAR",
 "answ2":"Us to war.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Us to war</button><button id=incop2 class=buttons003 onclick=qinc()>To our defeat</button><button id=incop3 class=buttons003 onclick=qinc()>Us to the Dark Side</button><button id=incop4 class=buttons003 onclick=qinc()>To our demise</button><br/>",
+"option":["Us to war", "To our defeat", "Us to the Dark Side", "To our demise"],
 },
 {
 "cat":"The Phantom Menace",
@@ -550,14 +550,14 @@ var r2Q1 = [
 "answ":"RUNE HAAKO",
 "answ3":"RUNE HAKKO",
 "answ2":"Rune Haako.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Rune Haako</button><button id=incop2 class=buttons003 onclick=qinc()>Rackham Sear</button><button id=incop3 class=buttons003 onclick=qinc()>Darts D'Nar</button><button id=incop4 class=buttons003 onclick=qinc()>Lushros Dofine</button><br/>",
+"option":["Rune Haako", "Rackham Sear", "Darts D'Nar", "Lushros Dofine"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"What system did R2-D2 have to bypass in order to restore the shields on the Naboo cruiser as they blasted through the blockade?",
 "answ":"MAIN POWER DRIVE",
 "answ2":"Main power drive.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ion drive</button><button id=corop class=buttons003 onclick=qcor()>Main power drive</button><button id=incop3 class=buttons003 onclick=qinc()>Sublight engine</button><button id=incop4 class=buttons003 onclick=qinc()>1L10 drive</button><br/>",
+"option":["Main power drive", "Ion drive", "Sublight engine", "1L10 drive"],
 },
 {
 "cat":"The Phantom Menace",
@@ -565,7 +565,7 @@ var r2Q1 = [
 "answ":"IT WAS FREE FROM THE TRADE FEDERATION",
 "answ3":"IT IS FREE FROM THE TRADE FEDERATION",
 "answ2":"It was free from the Trade Federation.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>It was protected by the Hutts</button><button id=corop class=buttons003 onclick=qcor()>It was free from the Trade Federation</button><button id=incop3 class=buttons003 onclick=qinc()>It was the nearest planet</button><button id=incop4 class=buttons003 onclick=qinc()>It gave him a good feeling</button><br/>",
+"option":["It was free from the Trade Federation", "It was protected by the Hutts", "It was the nearest planet", "It gave him a good feeling"],
 },
 {
 "cat":"The Phantom Menace",
@@ -573,21 +573,21 @@ var r2Q1 = [
 "answ":"T14",
 "answ3":"T 14",
 "answ2":"T-14.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>SSP05</button><button id=corop class=buttons003 onclick=qcor()>T-14</button><button id=incop3 class=buttons003 onclick=qinc()>ATX-5</button><button id=incop4 class=buttons003 onclick=qinc()>MT-5</button><br/>",
+"option":["T-14", "SSP05", "ATX-5", "MT-5"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"What species is Darth Maul?",
 "answ":"ZABRAK",
 "answ2":"Zabrak.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Chiss</button><button id=corop class=buttons003 onclick=qcor()>Zabrak</button><button id=incop3 class=buttons003 onclick=qinc()>Myke</button><button id=incop4 class=buttons003 onclick=qinc()>Argazdan</button><br/>",
+"option":["Zabrak", "Chiss", "Myke", "Argazdan"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Who tries to convince Amidala to vote against Chancellor Valorum?",
 "answ":"PALPATINE",
 "answ2":"Palpatine.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Palpatine</button><button id=incop2 class=buttons003 onclick=qinc()>Jar Jar Binks</button><button id=incop3 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop4 class=buttons003 onclick=qinc()>Anakin</button><br/>",
+"option":["Palpatine", "Jar Jar Binks", "Mace Windu", "Anakin"],
 },
 {
 "cat":"The Phantom Menace",
@@ -595,7 +595,7 @@ var r2Q1 = [
 "answ":"HE'S TOO OLD",
 "answ3":"TOO OLD",
 "answ2":"He's too old.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>He's too old</button><button id=incop2 class=buttons003 onclick=qinc()>He's too arrogant</button><button id=incop3 class=buttons003 onclick=qinc()>He's too young</button><button id=incop4 class=buttons003 onclick=qinc()>He can't be trusted</button><br/>",
+"option":["He's too old", "He's too arrogant", "He's too young", "He can't be trusted"],
 },
 {
 "cat":"The Phantom Menace",
@@ -603,7 +603,7 @@ var r2Q1 = [
 "answ":"QUI GON JINN",
 "answ3":"QUI GON",
 "answ2":"Qui-Gon Jinn.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Qui-Gon Jinn</button><button id=incop2 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=incop3 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop4 class=buttons003 onclick=qinc()>Yoda</button><br/>",
+"option":["Qui-Gon Jinn", "Obi-Wan Kenobi", "Mace Windu", "Yoda"],
 },
 {
 "cat":"The Phantom Menace",
@@ -611,14 +611,14 @@ var r2Q1 = [
 "answ":"RIC OLIE",
 "answ3":"RICK OLIE",
 "answ2":"Ric Olié.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Ric Olié</button><button id=incop2 class=buttons003 onclick=qinc()>Mariek Panaka</button><button id=incop3 class=buttons003 onclick=qinc()>Gregar Typho</button><button id=incop4 class=buttons003 onclick=qinc()>Tonra</button><br/>",
+"option":["Ric Olié", "Mariek Panaka", "Gregar Typho", "Tonra"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, what does Shmi Skywalker tell Padmé that everything revolves around when it comes to podracing?",
 "answ":"GAMBLING",
 "answ2":"Gambling.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Gambling</button><button id=incop2 class=buttons003 onclick=qinc()>Winning</button><button id=incop3 class=buttons003 onclick=qinc()>Speed</button><button id=incop4 class=buttons003 onclick=qinc()>Entertainment</button><br/>",
+"option":["Gambling", "Winning", "Speed", "Entertainment"],
 },
 {
 "cat":"The Phantom Menace",
@@ -626,14 +626,14 @@ var r2Q1 = [
 "answ":"HITMAN",
 "answ3":"HIT MAN",
 "answ2":"Hitman.",
-"option":"<button id=corop class=buttons003 onclick=qcor()>Hitman</button><button id=incop2 class=buttons003 onclick=qinc()>Thunder</button><button id=incop3 class=buttons003 onclick=qinc()>Speedy</button><button id=incop4 class=buttons003 onclick=qinc()>Lightning</button><br/>",
+"option":["Hitman", "Thunder", "Speedy", "Lightning"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"What character says the line: 'Which was destroyed, the master or the apprentice'?",
 "answ":"MACE WINDU",
 "answ2":"Mace Windu.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=incop2 class=buttons003 onclick=qinc()>Anakin Skywalker</button><button id=incop3 class=buttons003 onclick=qinc()>Yoda</button><button id=corop class=buttons003 onclick=qcor()>Mace Windu</button><br/>",
+"option":["Mace Windu", "Obi-Wan Kenobi", "Anakin Skywalker", "Yoda"],
 },
 {
 "cat":"The Phantom Menace",
@@ -641,14 +641,14 @@ var r2Q1 = [
 "answ":"EOPIE",
 "answ3":"EOPI",
 "answ2":"Eopie.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Blurrg</button><button id=incop2 class=buttons003 onclick=qinc()>Dewback</button><button id=incop3 class=buttons003 onclick=qinc()>Bantha</button><button id=corop class=buttons003 onclick=qcor()>Eopie</button><br/>",
+"option":["Eopie", "Blurrg", "Dewback", "Bantha"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"What is the name of the spaceport settlement that's the home of Watto and Anakin Skywalker?",
 "answ":"MOS ESPA",
 "answ2":"Mos Espa.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mos Shuuta</button><button id=incop2 class=buttons003 onclick=qinc()>Mos Pelgo</button><button id=incop3 class=buttons003 onclick=qinc()>Mos Eisley</button><button id=corop class=buttons003 onclick=qcor()>Mos Espa</button><br/>",
+"option":["Mos Espa", "Mos Shuuta", "Mos Pelgo", "Mos Eisley"],
 },
 {
 "cat":"The Phantom Menace",
@@ -656,7 +656,7 @@ var r2Q1 = [
 "answ":"QUARSH PANAKA",
 "answ3":"CAPTAIN PANAKA",
 "answ2":"Quarsh Panaka.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Gregar Typho</button><button id=incop2 class=buttons003 onclick=qinc()>Gavyn Sykes</button><button id=incop3 class=buttons003 onclick=qinc()>Ric Olié</button><button id=corop class=buttons003 onclick=qcor()>Quarsh Panaka</button><br/>",
+"option":["Quarsh Panaka", "Gregar Typho", "Gavyn Sykes", "Ric Olié"],
 },
 {
 "cat":"The Phantom Menace",
@@ -664,7 +664,7 @@ var r2Q1 = [
 "answ":"THE GREAT MUNICIPAL BAND",
 "answ3":"GREAT MUNICIPAL BAND",
 "answ2":"The Great Municipal Band.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Augie and the Jazz-wailers</button><button id=incop2 class=buttons003 onclick=qinc()>The Great Gungan Marching Band</button><button id=incop3 class=buttons003 onclick=qinc()>The Bonzo Dog-Doo-Da Band</button><button id=corop class=buttons003 onclick=qcor()>The Great Municipal Band</button><br/>",
+"option":["The Great Municipal Band", "Augie and the Jazz-wailers", "The Great Gungan Marching Band", "The Bonzo Dog-Doo-Da Band"],
 },
 {
 "cat":"The Phantom Menace",
@@ -672,42 +672,42 @@ var r2Q1 = [
 "answ":"C9979 LANDING CRAFT",
 "answ3":"C 9979 LANDING CRAFT",
 "answ2":"C-9979 landing craft.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>CR-20 landing craft</button><button id=incop2 class=buttons003 onclick=qinc()>H-2 executive landing craft</button><button id=incop3 class=buttons003 onclick=qinc()>BC-714 landing craft</button><button id=corop class=buttons003 onclick=qcor()>C-9979 landing craft</button><br/>",
+"option":["C-9979 landing craft", "CR-20 landing craft", "H-2 executive landing craft", "BC-714 landing craft"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Naboo pilot Ric Olié is played by which actor?",
 "answ":"RALPH BROWN",
 "answ2":"Ralph Brown.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Matthew Wood</button><button id=incop2 class=buttons003 onclick=qinc()>Alan Ruscoe</button><button id=incop3 class=buttons003 onclick=qinc()>Dominic West</button><button id=corop class=buttons003 onclick=qcor()>Ralph Brown</button><br/>",
+"option":["Ralph Brown", "Matthew Wood", "Alan Ruscoe", "Dominic West"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Which actor provides the voice of TC-14?",
 "answ":"LINDSAY DUNCAN",
 "answ2":"Lindsay Duncan.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Bronagh Gallagher</button><button id=incop2 class=buttons003 onclick=qinc()>Candace Orwell</button><button id=incop3 class=buttons003 onclick=qinc()>Celia Imrie</button><button id=corop class=buttons003 onclick=qcor()>Lindsay Duncan</button><br/>",
+"option":["Lindsay Duncan", "Bronagh Gallagher", "Candace Orwell", "Celia Imrie"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"Name the Jedi Master that first appears in The Phantom Menace before going on to train Caleb Dume?",
 "answ":"DEPA BILLABA",
 "answ2":"Depa Billaba.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Ki-Adi-Mundi</button><button id=incop2 class=buttons003 onclick=qinc()>Kit Fisto</button><button id=incop3 class=buttons003 onclick=qinc()>Aayla Secura</button><button id=corop class=buttons003 onclick=qcor()>Depa Billaba</button><br/>",
+"option":["Depa Billaba", "Ki-Adi-Mundi", "Kit Fisto", "Aayla Secura"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"The Phantom Menace opening crawl states: 'Hoping to resolve the matter with a blockade of deadly battleships, the ___ Trade Federation has stopped all shipping to the small planet of Naboo'?",
 "answ":"GREEDY",
 "answ2":"Greedy.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Voracious</button><button id=incop2 class=buttons003 onclick=qinc()>Evil</button><button id=incop3 class=buttons003 onclick=qinc()>Powerful</button><button id=corop class=buttons003 onclick=qcor()>Greedy</button><br/>",
+"option":["Greedy", "Voracious", "Evil", "Powerful"],
 },
 {
 "cat":"The Phantom Menace",
 "ques":"In The Phantom Menace, what is the homeworld of podracer Elan Mak?",
 "answ":"PLOO IV",
 "answ2":"Ploo IV.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Tund</button><button id=incop2 class=buttons003 onclick=qinc()>Xagobah</button><button id=incop3 class=buttons003 onclick=qinc()>Ciasi</button><button id=corop class=buttons003 onclick=qcor()>Ploo IV</button><br/>",
+"option":["Ploo IV", "Tund", "Xagobah", "Ciasi"],
 },
 {
 "cat":"The Phantom Menace",
@@ -715,7 +715,7 @@ var r2Q1 = [
 "answ":"QUEEN AMIDALA",
 "answ3":"PADME AMIDALA",
 "answ2":"Queen Amidala.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Mace Windu</button><button id=incop2 class=buttons003 onclick=qinc()>Obi-Wan Kenobi</button><button id=incop3 class=buttons003 onclick=qinc()>Anakin Skywalker</button><button id=corop class=buttons003 onclick=qcor()>Queen Amidala</button><br/>",
+"option":["Queen Amidala", "Mace Windu", "Obi-Wan Kenobi", "Anakin Skywalker"],
 },
 ];
 r2Q1 = shuffle(r2Q1);

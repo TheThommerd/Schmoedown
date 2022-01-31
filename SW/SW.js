@@ -570,7 +570,109 @@ round2();
             }
             return arraywheel;
         }
-var compcat = [];  
+var compcat = [];
+var input = "<input type=text id=q1 /><br />";
+var buttons = "<button id=sub class=buttons001 onclick=checker()>Submit Answer</button><br /><br /><button id=mc class=buttons007 onclick=setvis()>Multiple Choice</button>";
+var type1 = input + "<button id=corop class=buttons003 onclick=qcor()></button><button id=incop2 class=buttons003 onclick=qinc()></button><button id=incop3 class=buttons003 onclick=qinc()></button><button id=incop4 class=buttons003 onclick=qinc()></button><br/>" + buttons;
+var type2 = input + "<button id=incop1 class=buttons003 onclick=qinc()></button><button id=corop class=buttons003 onclick=qcor()></button><button id=incop3 class=buttons003 onclick=qinc()></button><button id=incop4 class=buttons003 onclick=qinc()></button><br/>" + buttons;
+var type3 = input + "<button id=incop1 class=buttons003 onclick=qinc()></button><button id=incop2 class=buttons003 onclick=qinc()></button><button id=corop class=buttons003 onclick=qcor()></button><button id=incop4 class=buttons003 onclick=qinc()></button><br/>" + buttons;
+var type4 = input + "<button id=incop1 class=buttons003 onclick=qinc()></button><button id=incop2 class=buttons003 onclick=qinc()></button><button id=incop3 class=buttons003 onclick=qinc()></button><button id=corop class=buttons003 onclick=qcor()></button><br/>" + buttons;
+function generateR2(i) {
+hidechance = Math.random() *100;
+if (hidechance < 25){
+message002.innerHTML = type1;
+var inc2 = document.getElementById("incop2");
+var inc3 = document.getElementById("incop3")
+var inc4 = document.getElementById("incop4");
+inc2.innerHTML = r2question001[i].option[1];
+inc3.innerHTML = r2question001[i].option[2];
+inc4.innerHTML = r2question001[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = r2question001[i].option[0];
+}
+else if (hidechance < 50){
+message002.innerHTML = type2;
+var inc1 = document.getElementById("incop1");
+var inc3 = document.getElementById("incop3")
+var inc4 = document.getElementById("incop4");
+inc1.innerHTML = r2question001[i].option[1];
+inc3.innerHTML = r2question001[i].option[2];
+inc4.innerHTML = r2question001[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = r2question001[i].option[0];
+}
+else if (hidechance < 75){
+message002.innerHTML = type3;
+var inc1 = document.getElementById("incop1");
+var inc2 = document.getElementById("incop2");
+var inc4 = document.getElementById("incop4");
+inc1.innerHTML = r2question001[i].option[1];
+inc2.innerHTML = r2question001[i].option[2];
+inc4.innerHTML = r2question001[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = r2question001[i].option[0];
+
+}
+else if (hidechance < 100){
+message002.innerHTML = type4;
+var inc1 = document.getElementById("incop1");
+var inc2 = document.getElementById("incop2");
+var inc3 = document.getElementById("incop3");
+inc1.innerHTML = r2question001[i].option[1];
+inc2.innerHTML = r2question001[i].option[2];
+inc3.innerHTML = r2question001[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = r2question001[i].option[0];
+}
+}
+function generatecompcat(i) {
+hidechance = Math.random() *100;
+if (hidechance < 25){
+message002.innerHTML = type1;
+var inc2 = document.getElementById("incop2");
+var inc3 = document.getElementById("incop3")
+var inc4 = document.getElementById("incop4");
+inc2.innerHTML = compcat[i].option[1];
+inc3.innerHTML = compcat[i].option[2];
+inc4.innerHTML = compcat[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = compcat[i].option[0];
+}
+else if (hidechance < 50){
+message002.innerHTML = type2;
+var inc1 = document.getElementById("incop1");
+var inc3 = document.getElementById("incop3")
+var inc4 = document.getElementById("incop4");
+inc1.innerHTML = compcat[i].option[1];
+inc3.innerHTML = compcat[i].option[2];
+inc4.innerHTML = compcat[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = compcat[i].option[0];
+}
+else if (hidechance < 75){
+message002.innerHTML = type3;
+var inc1 = document.getElementById("incop1");
+var inc2 = document.getElementById("incop2");
+var inc4 = document.getElementById("incop4");
+inc1.innerHTML = compcat[i].option[1];
+inc2.innerHTML = compcat[i].option[2];
+inc4.innerHTML = compcat[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = compcat[i].option[0];
+
+}
+else if (hidechance < 100){
+message002.innerHTML = type4;
+var inc1 = document.getElementById("incop1");
+var inc2 = document.getElementById("incop2");
+var inc3 = document.getElementById("incop3");
+inc1.innerHTML = compcat[i].option[1];
+inc2.innerHTML = compcat[i].option[2];
+inc3.innerHTML = compcat[i].option[3];
+var cor = document.getElementById("corop");
+cor.innerHTML = compcat[i].option[0];
+}
+}  
 function round2(){
 if (data[picked] == r2Q1[0].cat){r2question001 = r2Q1;}
 else if (data[picked] == r2Q2[0].cat){r2question001 = r2Q2;}
@@ -3070,8 +3172,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
 document.getElementById("sub").style.display = "none";
 document.getElementById("mc").style.display = "none";
 }
-var input = "<input type=text id=q1 /><br />";
-var buttons = "<button id=sub class=buttons001 onclick=checker()>Submit Answer</button><br /><br /><button id=mc class=buttons007 onclick=setvis()>Multiple Choice</button>";
 function next001() {
 	document.getElementById("message002").style.top = "-150px";
         document.getElementById("message002").style.display= "block";
@@ -3340,7 +3440,7 @@ next002();
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[0].ques;
-                message002.innerHTML = input + r2question001[0].option + buttons;
+                generateR2(0);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -3378,7 +3478,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[4].ques;
-                message002.innerHTML = input + r2question001[4].option + buttons;
+                generateR2(4);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -3414,7 +3514,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[1].ques;
-                message002.innerHTML = input + r2question001[1].option + buttons;
+                generateR2(1);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -3450,7 +3550,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[2].ques;
-                message002.innerHTML = input + r2question001[2].option + buttons;
+                generateR2(2);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -3486,7 +3586,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[3].ques;
-                message002.innerHTML = input + r2question001[3].option + buttons;
+                generateR2(3);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -3621,6 +3721,7 @@ userfive++;
                       else if (a == 21) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+		document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3645,6 +3746,7 @@ userfive++;
     else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3677,6 +3779,7 @@ userfive++;
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3709,6 +3812,7 @@ userfive++;
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3741,6 +3845,7 @@ userfive++;
   else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3773,6 +3878,7 @@ userfive++;
   else if ((a == 26) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3805,6 +3911,7 @@ userfive++;
   else if ((a == 27) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3837,6 +3944,7 @@ userfive++;
     else if ((a == 28) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3901,9 +4009,11 @@ userfive++;
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
-		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</strong>";
-	    	
-                 a++;
+		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
+		a++;
+		j = 0;
+  	   	 if (h == 1) {document.getElementById("background").src = "1JTEChal.png";}
+            	 else if (h < 1) {document.getElementById("background").src = "1JTE.png";}
 		round001.innerHTML = r++;
 		document.getElementById("round001").style.display = "none";
  		round002.innerHTML = "OVERTIME";
@@ -5521,7 +5631,7 @@ function openquestion(){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[0].ques;
-                message002.innerHTML = input + compcat[0].option + buttons;
+                generatecompcat(0);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5578,7 +5688,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[1].ques;
-                message002.innerHTML = input + compcat[1].option + buttons;
+                generatecompcat(1);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5635,7 +5745,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[2].ques;
-                message002.innerHTML = input + compcat[2].option + buttons;
+                generatecompcat(2);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5692,7 +5802,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[3].ques;
-                message002.innerHTML = input + compcat[3].option + buttons;
+                generatecompcat(3);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5749,7 +5859,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[4].ques;
-                message002.innerHTML = input + compcat[4].option + buttons;
+                generatecompcat(4);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5798,8 +5908,10 @@ function mcquestion(){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[5].ques;
-                message002.innerHTML = input + compcat[5].option;
+                 generatecompcat(5);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5881,8 +5993,10 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[6].ques;
-                message002.innerHTML = input + compcat[6].option;
+                generatecompcat(6);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -5964,8 +6078,10 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[7].ques;
-                message002.innerHTML = input + compcat[7].option;
+                generatecompcat(7);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -6047,7 +6163,9 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[8].ques;
-                message002.innerHTML = input + compcat[8].option;
+                generatecompcat(8);
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 		document.getElementById("q1").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -6130,7 +6248,9 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[9].ques;
-                message002.innerHTML = input + compcat[9].option;
+                generatecompcat(9);
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 		document.getElementById("q1").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');

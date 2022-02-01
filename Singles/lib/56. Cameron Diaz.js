@@ -79,14 +79,6 @@ var r2Q56 = [
 },
 {
 "cat":"Cameron Diaz",
-"ques":"What is the name of Cameron Diaz's character in the Shrek films?",
-"answ":"FIONA",
-"answ3":"PRINCESS FIONA",
-"answ2":"Fiona.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Amy</button><button id=incop2 class=buttons003 onclick=qinc()>Lillian</button><button id=corop class=buttons003 onclick=qcor()>Fiona</button><button id=incop4 class=buttons003 onclick=qinc()>Phoebe</button><br/>",
-},
-{
-"cat":"Cameron Diaz",
 "ques":"Who directed 2000's Charlie's Angels?",
 "answ":"MCG",
 "answ2":"McG.",

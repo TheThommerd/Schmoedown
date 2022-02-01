@@ -150,7 +150,7 @@ var r2Q70 = [
 "ques":"In Bee Movie, what type of shop does Vanessa have?",
 "answ":"FLOWER SHOP",
 "answ2":"Flower shop.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Trolls World Tour</button><button id=incop2 class=buttons003 onclick=qinc()>Mr. Peabody and Sherman</button><button id=incop3 class=buttons003 onclick=qinc()>Penguins of Madagascar</button><button id=corop class=buttons003 onclick=qcor()>Abominable</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Antique shop</button><button id=incop2 class=buttons003 onclick=qinc()>Gift shop</button><button id=incop3 class=buttons003 onclick=qinc()>Book shop</button><button id=corop class=buttons003 onclick=qcor()>Flower shop</button><br/>",
 },
 {
 "cat":"DreamWorks Animation",

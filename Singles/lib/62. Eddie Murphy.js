@@ -104,7 +104,7 @@ var r2Q62 = [
 "ques":"In 1996's The Nutty Professor, what is the false identity that Professor Sherman assumes when he is his thinner self?",
 "answ":"BUDDY LOVE",
 "answ2":"Buddy Love.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Jon Voight</button><button id=incop2 class=buttons003 onclick=qinc()>Leslie Nielsen</button><button id=incop3 class=buttons003 onclick=qinc()>Martin Lawrence</button><button id=corop class=buttons003 onclick=qcor()>Steve Martin</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Reggie Hammond</button><button id=incop2 class=buttons003 onclick=qinc()>Axel Foley</button><button id=incop3 class=buttons003 onclick=qinc()>Sherman Klump</button><button id=corop class=buttons003 onclick=qcor()>Buddy Love</button><br/>",
 },
 {
 "cat":"Eddie Murphy",

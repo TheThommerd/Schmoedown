@@ -84,7 +84,7 @@ var r2Q61 = [
 "ques":"Who directed Cate Blanchett in 2019's Where'd You Go, Bernadette?",
 "answ":"RICHARD LINKLATER",
 "answ2":"Richard Linklater.",
-"option":"<button id=incop1 class=buttons003 onclick=qinc()>Adam McKay</button><button id=incop2 class=buttons003 onclick=qinc()>Steven Soderbergh</button><button id=corop class=buttons003 onclick=qcor()>Eli Roth</button><button id=incop4 class=buttons003 onclick=qinc()>James Vanderbilt</button><br/>",
+"option":"<button id=incop1 class=buttons003 onclick=qinc()>Adam McKay</button><button id=incop2 class=buttons003 onclick=qinc()>Steven Soderbergh</button><button id=corop class=buttons003 onclick=qcor()>Richard Linklater</button><button id=incop4 class=buttons003 onclick=qinc()>James Vanderbilt</button><br/>",
 },
 {
 "cat":"Cate Blanchett",

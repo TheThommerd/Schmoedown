@@ -1306,7 +1306,7 @@ else if (j == 1) {
   else if (h < 1) {
 	    c = 16;
              j--;
-	    document.getElementById("background").src = "Singles-1JTE.png";
+	    document.getElementById("background").src = "Singles - 1JTE.png";
 	    }
 }
 else if (j == 0) {

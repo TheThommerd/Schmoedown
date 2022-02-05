@@ -6652,6 +6652,8 @@ function mcquestion(){
                 message001.innerHTML = compcat[5].ques;
                 generatecompcat(5);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -6737,6 +6739,8 @@ else{
                 message001.innerHTML = compcat[6].ques;
                 generatecompcat(6);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -6823,6 +6827,8 @@ else{
                 message001.innerHTML = compcat[7].ques;
                 generatecompcat(7);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -6910,6 +6916,8 @@ else{
                 message001.innerHTML = compcat[8].ques;
                 generatecompcat(8);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -6997,6 +7005,8 @@ else{
                 message001.innerHTML = compcat[9].ques;
                 generatecompcat(9);
 		document.getElementById("q1").style.display = "none";
+		document.getElementById("sub").style.display = "none";
+		document.getElementById("mc").style.display = "none";
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');

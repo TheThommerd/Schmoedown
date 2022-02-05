@@ -1,0 +1,470 @@
+.flash {
+   animation-name: flash;
+    animation-duration: 1.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes flash {
+    from {color: #fbfbfb;}
+    to {color: black;}
+}
+.row4{ 
+display: none;
+}
+.tableborder{
+display: none;
+}
+       body {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #222;
+	margin:0px;
+	padding:0px;
+	background-color:#E1E1E1;
+	}
+.background{
+  width: 950px;
+  height:auto;
+  top:0%;
+  left:0%;
+  position:relative;
+}
+	    
+.background img{
+   width: 950px;
+}
+        #frame001 {
+	    margin: auto;
+            border-radius: 5px;
+            background-color: #fbfbfb;
+	    background-position: center top;
+            border: none;
+            height: 1500px;
+            width: 950px;
+	    position: relative;
+	    zoom: 1.4;
+        }
+        .buttons001 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons003 {
+	    border-color: white;
+    	    border-width: 1px;
+            background-color: #232223;
+            color: white;
+	    font-weight: bold;
+            width: 500px;
+            height: 40px;
+        }
+        .buttons004 {
+            background-color: limegreen;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+ 	   visibility: hidden;
+        }
+        .buttons009 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons005 {
+            background-color: crimson;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+ 	   visibility: hidden;
+        }
+        .buttons007 {
+            background-color: #232223;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons008 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons006 {
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .buttons002 {
+            background-color: #232223;
+            color: white;
+            width: 70px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        #font001 {
+            text-align: center;
+            font-size: 18px;
+            color: black;
+        }
+	.buzzer {
+            background-color: #A20714;
+            color: white;
+	    font-weight: bold;
+            font-size: 300%;
+            width: 500px;
+            height: 400px;
+        }
+      #player001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 11.6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #player002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 66.6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    width: 200px;
+    margin: auto;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;		
+        }  
+        #record001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 35.2%;
+    left: 0;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #record002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 35.2%;
+    left: 88%;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }	
+        #score001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 32.8%;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #score002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 34.5%;
+    left: 56.5%;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 95px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #twitter001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 45.4%;
+    left: 0%;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #twitter002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 45.4%;
+    left: 88%;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    width: 110px;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #faction001 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 56.8%;
+    left: 0%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #faction002 {
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 56.8%;
+    left: 88%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 108px;
+    height: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        }
+        #time001 {
+	   position: relative;
+	    top : -160px;
+            font-size: 200%;
+	    font-weight: bold;
+            color: black;
+        }
+        #message002{
+	   position: relative;
+	    top : -150px;
+        }
+        #message003{
+	   position: relative;
+	    top : -160px;
+        }
+        #message004{
+	   position: relative;
+	    top : -160px;
+        }
+        #message006{
+	   position: relative;
+	    top : -160px;
+        }
+        #JTE{
+	   position: relative;
+	    top : -150px;
+            background-color: #232223;
+            color: white;
+            width: 120px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .smaller {
+            text-align: center;
+            font-size: 80%;
+            color: black;
+        }
+        #message005 {
+	   position: relative;
+	    top : -170px;
+            text-align: center;
+            font-size: 90%;
+            color: black;
+        }
+            #message001 {
+            text-align: center;
+            font-size: 90%;
+	    top: -164px;
+            color: white;
+	   position: relative;
+	    height: 37.714px;
+        }
+   #qu001 {
+	   background: none repeat scroll 0;
+	    position: absolute;
+	    top : 0%;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+	    font-weight: bold;
+	    margin: auto;
+	    width: 100%; 
+        }
+        #round002 {
+	 background: none repeat scroll 0;
+   	 position: absolute;
+    	 top: 64%;
+   	 left: 42.5%;
+   	 font-size: 90%;
+   	 color: black;
+   	 font-weight: bold;
+   	 margin: auto;
+   	 width: 125px;
+   	 height: 20px;
+   	 text-align: center;
+  	 align-items: center;
+  	 display: flex;
+  	 justify-content: center;
+        }
+	    #round001 {
+	   position: absolute;
+	    top : 0%;
+ 	    left: 78%;
+            text-align: center;
+            font-size: 100%;
+            color: black;
+	    font-weight: bold;
+	    display: inline-block;
+        }
+        #choose{
+	   position: relative;
+ 	    left: 0px;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
+            width: 150px;
+            height: 30px;
+            border-radius: 5px;
+        }
+	input {
+  	width: 30%;
+  	font-size: 16px;
+	}
+    #chart{
+        position:relative;
+        width:100px;
+        height:100px;
+        top:0;
+        left:275px;
+	font-weight: bold;
+  	font-size: 13px;
+    }
+	    ul.aligner  { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 250px; 
+  list-style: none; 
+              width: 700px;
+margin-block-end: 4em;
+font-size: 13px
+} 
+ul.aligner li input { 
+  margin-right: 1px;
+  text-align: left;
+   width: 10%;
+} 
+ul.aligner li { 
+  display:inline-block;
+   text-align: left; 
+   width: 350px;
+} 
+ul.aligner li label { 
+  margin-left: ; 
+  text-align: left;
+}
+ body:fullscreen {
+  overflow: scroll !important;
+}
+body:-ms-fullscreen {
+  overflow: scroll !important;
+}
+body:-webkit-full-screen {
+  overflow: scroll !important;
+   zoom: 0.4;
+}
+body:-moz-full-screen {
+overflow: scroll !important;
+scale: 0.4;
+transform-origin: top center;
+}
+ .goFS{
+   display : none;
+ }
+@media (max-width: 767px) {
+ .goFS{
+ display: inline-block;
+   background-color: #A20714;
+   color: white;
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+ }
+}
+@media (min-width: 800px) {
+ #frame001{
+	-moz-transform: scale(1.4);
+	-moz-transform-origin: top center;
+ }
+}

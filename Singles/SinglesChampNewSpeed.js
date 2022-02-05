@@ -479,6 +479,7 @@ round2();
 function confirm(){
 message001.innerHTML = "Press Next to proceed";
 document.getElementById("message002").style.display= "none"; 
+document.getElementById("message003").style.top = "-230px";
 document.getElementById("chart").style.visibility = "hidden";
 if (document.getElementById("box1").checked ){picked = 1;}
 if (document.getElementById("box2").checked ){picked = 2;}

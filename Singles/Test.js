@@ -1,5 +1,7 @@
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 document.getElementById("q2").focus();
+var qmusic = document.getElementById("QMusic"); 
+document.getElementById("QMusic").volume = 0.02;
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
@@ -1267,8 +1269,9 @@ else if (data[picked] == r2Q70[0].cat){r2question001 = r2Q70;}
 r2question001 = shuffle(r2question001); 
 }
 function begin001() {
+	    qmusic.play();
             c = 21;
-time001.innerHTML = 20;
+	    time001.innerHTML = 20;
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("message005").style.position = "relative";
@@ -1442,6 +1445,8 @@ else if (j == 0) {
 	      }
 }
         function qcor() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-190px";
 		document.getElementById("message004").style.top = "-190px";
 		document.getElementById("message006").style.top = "-190px";
@@ -1532,6 +1537,8 @@ else if ((mc == 5) && (oppspinfirst == 1)){
 }
 }
         function qinc() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-190px";
 		document.getElementById("message004").style.top = "-190px";
 		document.getElementById("message006").style.top = "-190px";
@@ -2211,6 +2218,8 @@ var open = 0;
 var similarity1 = 0;
 var similarity2 = 0;
 function checker() {
+qmusic.pause();
+qmusic.currentTime = 0;	
 similarity1 = 0;
 similarity2 = 0;
 document.getElementById("message003").style.top = "-180px";
@@ -3705,6 +3714,7 @@ document.getElementById("sub").style.display = "none";
 document.getElementById("mc").style.display = "none";
 }
 function next001() {
+	qmusic.play();
 	document.getElementById("message002").style.top = "-170px";
         document.getElementById("message002").style.display= "block";
 	document.getElementById("message004").style.top = "-180px";
@@ -4567,7 +4577,9 @@ function timer001() {
                 time001.innerHTML = c;
             }
             if (c < 1) {
-	   quescount++;
+	    qmusic.pause();
+	    qmusic.currentTime = 0;
+	    quescount++;
 document.getElementById("message003").style.top = "-180px";
 document.getElementById("message004").style.top = "-180px";
 document.getElementById("message006").style.top = "-180px";
@@ -5625,7 +5637,7 @@ $("#message002").keypress(function(event) {
 });
    var storage = [];  
 function next003() {
-document.getElementById("message004").style.top = "-180px";
+		document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("JTE").style.display = "none";
 		document.getElementById("chart").style.position = "relative";
 		document.getElementById("chart").style.top = "-220px";
@@ -5696,11 +5708,12 @@ data[11] = "Wildcard";
 }
 }
 function next002() {
-document.getElementById("message004").style.top = "-180px";
+		qmusic.pause();
+		qmusic.currentTime = 0;
+		document.getElementById("message004").style.top = "-180px";
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
-		
 		round001.innerHTML = 2;
  		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click the Next button";
@@ -5770,8 +5783,10 @@ next004();
 }
 
 function next005() {	
-        open = 0;
- mc = 0;
+open = 0;
+mc = 0;
+qmusic.pause();
+qmusic.currentTime = 0;
 document.getElementById("message004").style.top = "-180px";
 if (s - b > 10){
 loseKO();
@@ -5780,7 +5795,6 @@ else if (b -s > 10){
 winKO();
 }
 else{
-	    	
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
@@ -6018,8 +6032,8 @@ next003();
 }
 }
 function checkerq1(){
-	similarity1 = 0;
-similarity2 = 0;
+	    similarity1 = 0;
+	    similarity2 = 0;
 	    var stealer01 = document.getElementById("q1").value.toUpperCase();
 	    var stealer1 = myTrim(stealer01);
 	    stealer1 = myTrim(stealer1);
@@ -6350,6 +6364,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function openquestion(){
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6410,6 +6425,7 @@ else if (b -s > 18){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -6470,6 +6486,7 @@ else if (b -s > 16){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -6530,7 +6547,7 @@ else if (b -s > 14){
 winKO();
 }
 else{
- 
+ 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -6591,7 +6608,7 @@ else if (b -s > 12){
 winKO();
 }
 else{
- 
+ 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -6641,6 +6658,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 }
 function mcquestion(){
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6728,6 +6746,7 @@ else if (b -s > 14){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6816,6 +6835,7 @@ else if (b -s > 13){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6904,7 +6924,7 @@ else if (b -s > 12){
 winKO();
 }
 else{
- 
+ 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6993,7 +7013,7 @@ else if (b -s > 11){
 winKO();
 }
 else{
- 
+ 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";

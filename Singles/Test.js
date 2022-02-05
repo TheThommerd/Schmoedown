@@ -428,12 +428,7 @@ round2();
 }
 else if (rand < 100){
 compwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){r2question001 = r2Q67;}		
-else if (rand2 < 50){r2question001 = r2Q68;}
-else if (rand2 < 75){r2question001 = r2Q69;}
-else if (rand2 < 100){r2question001 = r2Q70;}
-r2question001 = shuffle(r2question001); 
+mystery();
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
@@ -466,12 +461,7 @@ round2();
 }
 else if (rand < 100){
 compwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){r2question001 = r2Q67;}		
-else if (rand2 < 50){r2question001 = r2Q68;}
-else if (rand2 < 75){r2question001 = r2Q69;}
-else if (rand2 < 100){r2question001 = r2Q70;}
-r2question001 = shuffle(r2question001); 
+mystery();
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
@@ -546,12 +536,7 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 else if (rand < 100){
 compwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){r2question001 = r2Q67;}		
-else if (rand2 < 50){r2question001 = r2Q68;}
-else if (rand2 < 75){r2question001 = r2Q69;}
-else if (rand2 < 100){r2question001 = r2Q70;}
-r2question001 = shuffle(r2question001); 
+mystery();
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
@@ -718,12 +703,7 @@ round2();
 }
 else if (rand < 100){
 compwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){r2question001 = r2Q67;}		
-else if (rand2 < 50){r2question001 = r2Q68;}
-else if (rand2 < 75){r2question001 = r2Q69;}
-else if (rand2 < 100){r2question001 = r2Q70;}
-r2question001 = shuffle(r2question001); 
+mystery(); 
 message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
@@ -857,12 +837,7 @@ var rand = Math.random() * 100;
 console.log("rand: " + rand);
 if (rand < 33){
 oppwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){compcat = r2Q67;}		
-else if (rand2 < 50){compcat = r2Q68;}
-else if (rand2 < 75){compcat = r2Q69;}
-else if (rand2 < 100){compcat = r2Q70;}
-compcat = shuffle(compcat);
+mysterycompcat();
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat)
 data[random] = compcat[0].cat;
@@ -907,12 +882,7 @@ oppwildopponent++;
 }
 else if (rand < 100){
 oppwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){compcat  = r2Q67;}		
-else if (rand2 < 50){compcat  = r2Q68;}
-else if (rand2 < 75){compcat  = r2Q69;}
-else if (rand2 < 100){compcat  = r2Q70;}
-compcat = shuffle(compcat);
+mysterycompcat();
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat)
 data[random] = compcat[0].cat;
@@ -940,12 +910,7 @@ assigncompcat();}
 }
 else if (rand < 100){
 oppwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){compcat  = r2Q67;}		
-else if (rand2 < 50){compcat  = r2Q68;}
-else if (rand2 < 75){compcat  = r2Q69;}
-else if (rand2 < 100){compcat  = r2Q70;}
-compcat = shuffle(compcat); 
+mysterycompcat();
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
 data[random] = compcat[0].cat;
@@ -982,12 +947,7 @@ oppwildopponent++;
 if ((compwildmystery == "0") && (compwildspinners == "0") && (compwildopponent == "0")){
 if (rand < 33){
 oppwildmystery++;
-var rand2 = Math.random() * 100;
-if (rand2 < 25){compcat  = r2Q67;}		
-else if (rand2 < 50){compcat  = r2Q68;}
-else if (rand2 < 75){compcat  = r2Q69;}
-else if (rand2 < 100){compcat  = r2Q70;}
-compcat = shuffle(compcat);
+mysterycompcat();
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text(compcat[0].cat) 
 data[random] = compcat[0].cat;
@@ -1271,6 +1231,30 @@ else if (data[picked] == r2Q68[0].cat){r2question001 = r2Q68;}
 else if (data[picked] == r2Q69[0].cat){r2question001 = r2Q69;}
 else if (data[picked] == r2Q70[0].cat){r2question001 = r2Q70;}
 r2question001 = shuffle(r2question001); 
+}
+function mystery() {
+var rand2 = Math.random() * 100;
+if (rand2 < 12.5){r2question001 = r2Q71;}		
+else if (rand2 < 25){r2question001 = r2Q72;}
+else if (rand2 < 37.5){r2question001 = r2Q73;}
+else if (rand2 < 50){r2question001 = r2Q74;}
+else if (rand2 < 62.5){r2question001 = r2Q76;}		
+else if (rand2 < 75){r2question001 = r2Q78;}
+else if (rand2 < 87.5){r2question001 = r2Q79;}
+else if (rand2 < 100){r2question001 = r2Q80;}
+r2question001 = shuffle(r2question001); 
+}
+function mysterycompcat() {
+var rand2 = Math.random() * 100;
+if (rand2 < 12.5){compcat = r2Q71;}		
+else if (rand2 < 25){compcat = r2Q72;}
+else if (rand2 < 37.5){compcat = r2Q73;}
+else if (rand2 < 50){compcat = r2Q74;}
+else if (rand2 < 62.5){compcat = r2Q76;}		
+else if (rand2 < 75){compcat = r2Q78;}
+else if (rand2 < 87.5){compcat = r2Q79;}
+else if (rand2 < 100){compcat = r2Q80;}
+compcat = shuffle(compcat); 
 }
 function begin001() {
 	    intromusic.pause();

@@ -2,7 +2,7 @@ message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><
 document.getElementById("q2").focus();
 var qmusic = document.getElementById("QMusic"); 
 document.getElementById("QMusic").volume = 0.02;
-var intromusic = document.getElementById("QMusic"); 
+var intromusic = document.getElementById("Intro"); 
 document.getElementById("Intro").volume = 0.02;
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {

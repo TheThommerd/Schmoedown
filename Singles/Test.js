@@ -2,11 +2,14 @@ message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><
 document.getElementById("q2").focus();
 var qmusic = document.getElementById("QMusic"); 
 document.getElementById("QMusic").volume = 0.02;
+var intromusic = document.getElementById("QMusic"); 
+document.getElementById("Intro").volume = 0.02;
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
   }, false);
 function load(){
+	intromusic.play();
 	if (document.getElementById("wins").value.length < 1)
 	{
 	document.getElementById("wins").value = 0;
@@ -1269,6 +1272,8 @@ else if (data[picked] == r2Q70[0].cat){r2question001 = r2Q70;}
 r2question001 = shuffle(r2question001); 
 }
 function begin001() {
+	    intromusic.pause();
+	    intromusic.currentTime = 0;
 	    qmusic.play();
             c = 21;
 	    time001.innerHTML = 20;

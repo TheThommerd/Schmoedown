@@ -429,7 +429,7 @@ round2();
 else if (rand < 100){
 compwildmystery++;
 mystery();
-message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message002.innerHTML = "You got the category " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
 data[picked] = r2question001[0].cat;
@@ -462,7 +462,7 @@ round2();
 else if (rand < 100){
 compwildmystery++;
 mystery();
-message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message002.innerHTML = "You got the category " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
 data[picked] = r2question001[0].cat;
@@ -537,7 +537,7 @@ $('input[type=checkbox]').on('change', function (e) {
 else if (rand < 100){
 compwildmystery++;
 mystery();
-message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message002.innerHTML = "You got the category " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
 data[picked] = r2question001[0].cat;
@@ -704,7 +704,7 @@ round2();
 else if (rand < 100){
 compwildmystery++;
 mystery(); 
-message002.innerHTML = "You got " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message002.innerHTML = "You got the category " + r2question001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(r2question001[0].cat) 
 data[picked] = r2question001[0].cat;

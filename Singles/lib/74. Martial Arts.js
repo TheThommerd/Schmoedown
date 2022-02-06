@@ -60,7 +60,7 @@ var r2Q74 = [
 "ques":"Who plays the character Tang Lung in 1972's The Way Of The Dragon?",
 "answ":"BRUCE LEE",
 "answ2":"Bruce Lee.",
-"option":["Bruce Lee", "", "", ""],
+"option":["Bruce Lee", "Jackie Chan", "Jet Li", "Donnie Yen"],
 },
 {
 "cat":"Martial Arts",

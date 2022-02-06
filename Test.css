@@ -431,6 +431,11 @@ transform-origin: top center;
 -moz-transform: scale(1.2);
 -moz-transform-origin: top center;}
 }
+@media (max-device-width: 800px) and (orientation: portrait) { 
+ #frame001{
+-moz-transform: scale(1.0);
+-moz-transform-origin: top center;}
+}
 @media (min-width: 1024px) {
  #frame001{
 -moz-transform: scale(1.4);

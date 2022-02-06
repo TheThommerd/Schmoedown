@@ -896,6 +896,7 @@ var compwildmystery = "0";
 var oppwildspinners = "0";
 var oppwildopponent = "0";
 var oppwildmystery = "0";
+
 function simulatecomputerround2(){
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 random = Math.floor(Math.random() * numbers.length);	
@@ -1324,6 +1325,18 @@ else if (rand2 < 87.5){compcat = r2Q79;}
 else if (rand2 < 100){compcat = r2Q80;}
 compcat = shuffle(compcat); 
 }
+function mysterybetting() {
+var rand2 = Math.random() * 100;
+if (rand2 < 12.5){bettingquestion001 = r2Q71;}		
+else if (rand2 < 25){bettingquestion001 = r2Q72;}
+else if (rand2 < 37.5){bettingquestion001 = r2Q73;}
+else if (rand2 < 50){bettingquestion001 = r2Q74;}
+else if (rand2 < 62.5){bettingquestion001 = r2Q76;}		
+else if (rand2 < 75){bettingquestion001 = r2Q78;}
+else if (rand2 < 87.5){bettingquestion001 = r2Q79;}
+else if (rand2 < 100){bettingquestion001 = r2Q80;}
+bettingquestion001 = shuffle(bettingquestion001); 
+}
 function bettingspin(d){
             document.getElementById("spin").style.visibility = "hidden";
             container.on("click", null);
@@ -1346,19 +1359,18 @@ function bettingspin(d){
 			mess = picked+1;
 	message003.innerHTML = "You spun " +data[picked] + "<br/><br/>" + "Select how many points you want to bet";
 if (data[picked] == "Spinner's Choice"){
-message003.innerHTML = "You spun Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[4] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[5] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[8] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[9] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[10] + "</label></li><li><input type=checkbox id=box10 value=/><label for=box10>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";
 document.getElementById("confirm").style.visibility= "hidden"; 
 document.getElementById("confirm").style.top= "-200px"; 
 document.getElementById("box1").value = data[1];
 document.getElementById("box2").value = data[2];
 document.getElementById("box3").value = data[3];
-document.getElementById("box4").value = data[4];
-document.getElementById("box5").value = data[5];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
 document.getElementById("box6").value = data[7];
-document.getElementById("box7").value = data[8];
-document.getElementById("box8").value = data[9];
-document.getElementById("box9").value = data[10];
-document.getElementById("box10").value = data[11];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
         $(this).prop('checked', false);
@@ -1378,38 +1390,19 @@ else if (wheelie[0] == storage[1]) {picked = "2";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
 else if (wheelie[0] == storage[2]) {picked = "3";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == storage[3]) {picked = "4";
+else if (wheelie[0] == storage[3]) {picked = "5";
 message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == storage[4]) {picked = "5";
-message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-else if (wheelie[0] == storage[5]) {picked = "7";
-message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
-if (b >= 3){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; 
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
-else if (b >= 2){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; 
-}
-else if (b >= 1){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; 
-}
-else if (b >= 0){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; 
-}
-}
+else if (data[picked] == "Wildcard"){message002.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>";}
 else {          	
-if (b >= 3){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; 
-}
-else if (b >= 2){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; 
-}
-else if (b >= 1){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; 
-}
-else if (b >= 0){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; 
-}
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }    
                 });
         }
@@ -1420,26 +1413,17 @@ document.getElementById("chart").style.visibility = "hidden";
 if (document.getElementById("box1").checked ){picked = 1;}
 if (document.getElementById("box2").checked ){picked = 2;}
 if (document.getElementById("box3").checked ){picked = 3;}
-if (document.getElementById("box4").checked ){picked = 4;}
-if (document.getElementById("box5").checked ){picked = 5;}
+if (document.getElementById("box4").checked ){picked = 5;}
+if (document.getElementById("box5").checked ){picked = 6;}
 if (document.getElementById("box6").checked ){picked = 7;}
-if (document.getElementById("box7").checked ){picked = 8;}
-if (document.getElementById("box8").checked ){picked = 9;}
-if (document.getElementById("box9").checked ){picked = 10;}
-if (document.getElementById("box10").checked ){picked = 11;}
+if (document.getElementById("box7").checked ){picked = 9;}
+if (document.getElementById("box8").checked ){picked = 10;}
+if (document.getElementById("box9").checked ){picked = 11;}
 message003.innerHTML = "You selected " + data[picked] + "<br/><br/>" + "Select how many points you want to bet" + "<br/>" + "<button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-if (b >= 3){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; 
-}
-else if (b >= 2){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; 
-}
-else if (b >= 1){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; 
-}
-else if (b >= 0){
-message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; 
-}
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
 function betting(){
 if (data[picked] == r2Q1[0].cat){bettingquestion001 = r2Q1;}
@@ -1513,6 +1497,225 @@ else if (data[picked] == r2Q68[0].cat){bettingquestion001 = r2Q68;}
 else if (data[picked] == r2Q69[0].cat){bettingquestion001 = r2Q69;}
 else if (data[picked] == r2Q70[0].cat){bettingquestion001 = r2Q70;}
 bettingquestion();
+}
+function takebettingwildcard() {
+var rand = Math.random() * 100;
+if ((compwildspinners == 0) && (compwildmystery == 0) && (compwildopponent == 0) && (oppwildmystery == 0) && (oppwildspinners == 0) && (oppwildopponent == 0)){
+if (rand < 33){
+data[picked] = "Spinner's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Spinner's Choice")
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-200px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 5) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 5) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 5) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}
+else if (rand < 66){
+data[picked] = "Opponent's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Opponent's Choice")
+if (wheelie[0] == storage[0]) {picked = "1";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[3]) {picked = "5";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
+}
+else if (rand < 100){
+mysterybetting();
+message002.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text(bettingquestion001[0].cat) 
+data[picked] = bettingquestion001[0].cat;
+}
+}
+else if (((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0) && (compwildopponent == 0) && (oppwildopponent == 0))){
+if (rand < 50){
+data[picked] = "Opponent's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Opponent's Choice")
+if (wheelie[0] == storage[0]) {picked = "1";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[3]) {picked = "5";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
+}
+else if (rand < 100){
+mysterybetting();
+message002.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text(bettingquestion001[0].cat) 
+data[picked] = bettingquestion001[0].cat;
+}
+}
+else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildopponent == 0) && (oppwildopponent == 0))){
+if (rand < 50){
+data[picked] = "Opponent's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Opponent's Choice")
+if (wheelie[0] == storage[0]) {picked = "1";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[3]) {picked = "5";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
+}
+else if (rand < 100){
+data[picked] = "Spinner's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Spinner's Choice")
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-200px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 5) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 5) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 5) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}
+}
+else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildmystery == 0) && (oppwildmystery == 0))){
+if (rand < 50){
+mysterybetting();
+message002.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text(bettingquestion001[0].cat) 
+data[picked] = bettingquestion001[0].cat;
+}
+else if (rand < 100){
+data[picked] = "Spinner's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Spinner's Choice")
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-200px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 5) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 5) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 5) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}
+}
+else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0))){
+mysterybetting();
+message002.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text(bettingquestion001[0].cat) 
+data[picked] = bettingquestion001[0].cat;
+}
+else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildopponent == 0) && (oppwildopponent == 0))){
+data[picked] = "Opponent's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Opponent's Choice")
+if (wheelie[0] == storage[0]) {picked = "1";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[1]) {picked = "2";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[2]) {picked = "3";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+else if (wheelie[0] == storage[3]) {picked = "5";
+message003.innerHTML = "You spun Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " chose " + data[picked] + "<br/><br/>" + "Select how many points you want to bet"; }
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
+}
+else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0))){
+data[picked] = "Spinner's Choice";
+d3.select(".slice:nth-child(" + (picked + 1) + ") text")
+.text("Spinner's Choice")
+message002.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";
+document.getElementById("confirm").style.visibility= "hidden"; 
+document.getElementById("confirm").style.top= "-200px"; 
+document.getElementById("box1").value = data[1];
+document.getElementById("box2").value = data[2];
+document.getElementById("box3").value = data[3];
+document.getElementById("box4").value = data[5];
+document.getElementById("box5").value = data[6];
+document.getElementById("box6").value = data[7];
+document.getElementById("box7").value = data[9];
+document.getElementById("box8").value = data[10];
+document.getElementById("box9").value = data[11];
+$('input[type=checkbox]').on('change', function (e) {
+    if ($('input[type=checkbox]:checked').length > 5) {
+        $(this).prop('checked', false);
+    }
+    if ($('input[type=checkbox]:checked').length == 5) {
+	document.getElementById("confirm").style.visibility= "visible"; 
+    }
+    if ($('input[type=checkbox]:checked').length < 5) {
+	document.getElementById("confirm").style.visibility= "hidden"; 
+    }
+});
+}	
 }
 function begin001() {
 	    intromusic.pause();

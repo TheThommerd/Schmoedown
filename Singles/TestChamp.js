@@ -1496,6 +1496,14 @@ else if (data[picked] == r2Q67[0].cat){bettingquestion001 = r2Q67;}
 else if (data[picked] == r2Q68[0].cat){bettingquestion001 = r2Q68;}
 else if (data[picked] == r2Q69[0].cat){bettingquestion001 = r2Q69;}
 else if (data[picked] == r2Q70[0].cat){bettingquestion001 = r2Q70;}
+else if (data[picked] == r2Q71[0].cat){bettingquestion001 = r2Q71;}
+else if (data[picked] == r2Q72[0].cat){bettingquestion001 = r2Q72;}
+else if (data[picked] == r2Q73[0].cat){bettingquestion001 = r2Q73;}
+else if (data[picked] == r2Q74[0].cat){bettingquestion001 = r2Q74;}
+else if (data[picked] == r2Q76[0].cat){bettingquestion001 = r2Q76;}
+else if (data[picked] == r2Q78[0].cat){bettingquestion001 = r2Q78;}
+else if (data[picked] == r2Q79[0].cat){bettingquestion001 = r2Q79;}
+else if (data[picked] == r2Q80[0].cat){bettingquestion001 = r2Q80;}
 bettingquestion();
 }
 function takebettingwildcard() {

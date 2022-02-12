@@ -1445,7 +1445,12 @@ else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
-else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>"+ "<br/></br>" + "<button class=buttons008 id=respin onclick=bettingspin2()>Spin Again</button>";}    
+else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>"+ "<br/></br>" + "<button class=buttons008 id=respin onclick=bettingspin2()>Spin Again</button>";
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
+}    
 });
 }
 function bettingspin2(d){
@@ -1509,7 +1514,12 @@ else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
-else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>";}    
+else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>";
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
+}    
 else{
 if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
 else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
@@ -1575,7 +1585,12 @@ else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button>"; }
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
-else if (data[picked] == "Wildcard"){message003.innerHTML = competitorlist[0].id + " spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=opptakebettingwildcard onclick=opptakebettingwildcard()>Reveal Wildcard</button>";}    
+else if (data[picked] == "Wildcard"){message003.innerHTML = competitorlist[0].id + " spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=opptakebettingwildcard onclick=opptakebettingwildcard()>Reveal Wildcard</button>";
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
+}
 else{
 if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
 else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }
@@ -6925,7 +6940,34 @@ document.getElementById("message006").style.top = "-260px";
 message003.innerHTML = "You bet 3 points." + "<br/><br/></br>";
 message001.innerHTML = "Click Next to proceed.";
 }
-
+function bet0mystery() {
+betpoints = 0;
+message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bettingquestion()>Next</button>";
+document.getElementById("message006").style.top = "-260px";
+message003.innerHTML = "You bet 0 points." + "<br/><br/></br>";
+message001.innerHTML = "Click Next to proceed.";
+}
+function bet1mystery() {
+betpoints = 1;
+message006.innerHTML = "<button id=bet1 class=buttons002 onclick=bettingquestion()>Next</button>";
+document.getElementById("message006").style.top = "-260px";
+message003.innerHTML = "You bet 1 point." + "<br/><br/></br>";
+message001.innerHTML = "Click Next to proceed.";
+}
+function bet2mystery() {
+betpoints = 2;
+message006.innerHTML = "<button id=bet2 class=buttons002 onclick=bettingquestion()>Next</button>";
+document.getElementById("message006").style.top = "-260px";
+message003.innerHTML = "You bet 2 points." + "<br/><br/></br>";
+message001.innerHTML = "Click Next to proceed.";
+}
+function bet3mystery() {
+betpoints = 3;
+message006.innerHTML = "<button id=bet3 class=buttons002 onclick=bettingquestion()>Next</button>";
+document.getElementById("message006").style.top = "-260px";
+message003.innerHTML = "You bet 3 points." + "<br/><br/></br>";
+message001.innerHTML = "Click Next to proceed.";
+}
 function bettingquestion() {	
 	document.getElementById("message002").style.top = "-170px";
 	document.getElementById("message003").style.top = "-180px";

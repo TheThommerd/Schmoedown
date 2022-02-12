@@ -1446,10 +1446,6 @@ else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
 else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>"+ "<br/></br>" + "<button class=buttons008 id=respin onclick=bettingspin2()>Spin Again</button>";
-if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
-else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
-else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
-else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }    
 });
 }
@@ -1515,10 +1511,6 @@ else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
 else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=takewildcard onclick=takebettingwildcard()>Reveal Wildcard</button>";
-if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
-else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
-else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
-else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }    
 else{
 if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
@@ -1586,10 +1578,6 @@ else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
 else if (data[picked] == "Wildcard"){message003.innerHTML = competitorlist[0].id + " spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=opptakebettingwildcard onclick=opptakebettingwildcard()>Reveal Wildcard</button>";
-if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
-else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
-else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
-else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 else{
 if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
@@ -1763,10 +1751,14 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 }
 else if (rand < 100){
 mysterybetting();
-message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 }
 else if (((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0) && (compwildopponent == 0) && (oppwildopponent == 0))){
@@ -1789,10 +1781,14 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 }
 else if (rand < 100){
 mysterybetting();
-message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 }
 else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildopponent == 0) && (oppwildopponent == 0))){
@@ -1845,10 +1841,14 @@ $('input[type=checkbox]').on('change', function (e) {
 else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildmystery == 0) && (oppwildmystery == 0))){
 if (rand < 50){
 mysterybetting();
-message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 else if (rand < 100){
 data[picked] = "Spinner's Choice";
@@ -1881,10 +1881,14 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0))){
 mysterybetting();
-message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = "You got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildopponent == 0) && (oppwildopponent == 0))){
 data[picked] = "Opponent's Choice";
@@ -1982,10 +1986,14 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 }
 else if (rand < 100){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 }
 else if (((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0) && (compwildopponent == 0) && (oppwildopponent == 0))){
@@ -2019,10 +2027,14 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 else if (rand < 100){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 }
 else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildopponent == 0) && (oppwildopponent == 0))){
@@ -2075,10 +2087,14 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildmystery == 0) && (oppwildmystery == 0))){
 if (rand < 50){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 else if (rand < 100){
 data[picked] = "Spinner's Choice";
@@ -2100,10 +2116,14 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 }
 else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0))){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "<button id=nextbutton class=buttons002 onclick=next001()>Next</button><br><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
+if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button><button id=bet3 class=buttons002 onclick=bet3mystery()>3</button>"; }
+else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button><button id=bet2 class=buttons002 onclick=bet2mystery()>2</button>"; }
+else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button><button id=bet1 class=buttons002 onclick=bet1mystery()>1</button>"; }
+else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0mystery()>0</button>"; }
 }
 else if (((compwildmystery != 0) || (oppwildmystery != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildopponent == 0) && (oppwildopponent == 0))){
 data[picked] = "Opponent's Choice";

@@ -814,6 +814,28 @@ else if (data[random] == r2Q67[0].cat){compcat = r2Q67;}
 else if (data[random] == r2Q68[0].cat){compcat = r2Q68;}
 else if (data[random] == r2Q69[0].cat){compcat = r2Q69;}
 else if (data[random] == r2Q70[0].cat){compcat = r2Q70;}
+else if (data[random] == r2Q71[0].cat){compcat = r2Q71;}
+else if (data[random] == r2Q72[0].cat){compcat = r2Q72;}
+else if (data[random] == r2Q73[0].cat){compcat = r2Q73;}
+else if (data[random] == r2Q74[0].cat){compcat = r2Q74;}
+else if (data[random] == r2Q75[0].cat){compcat = r2Q75;}
+else if (data[random] == r2Q76[0].cat){compcat = r2Q76;}
+else if (data[random] == r2Q77[0].cat){compcat = r2Q77;}
+else if (data[random] == r2Q78[0].cat){compcat = r2Q78;}
+else if (data[random] == r2Q79[0].cat){compcat = r2Q79;}
+else if (data[random] == r2Q80[0].cat){compcat = r2Q80;}
+else if (data[random] == r2Q81[0].cat){compcat = r2Q81;}
+else if (data[random] == r2Q82[0].cat){compcat = r2Q82;}
+else if (data[random] == r2Q83[0].cat){compcat = r2Q83;}
+else if (data[random] == r2Q84[0].cat){compcat = r2Q84;}
+else if (data[random] == r2Q85[0].cat){compcat = r2Q85;}
+else if (data[random] == r2Q86[0].cat){compcat = r2Q86;}
+else if (data[random] == r2Q87[0].cat){compcat = r2Q87;}
+else if (data[random] == r2Q88[0].cat){compcat = r2Q88;}
+else if (data[random] == r2Q89[0].cat){compcat = r2Q89;}
+else if (data[random] == r2Q90[0].cat){compcat = r2Q90;}
+else if (data[random] == r2Q91[0].cat){compcat = r2Q91;}
+else if (data[random] == r2Q92[0].cat){compcat = r2Q92;}
 compcat = shuffle(compcat);
 }
 var opponentspun = "0";
@@ -1230,6 +1252,28 @@ else if (data[picked] == r2Q67[0].cat){r2question001 = r2Q67;}
 else if (data[picked] == r2Q68[0].cat){r2question001 = r2Q68;}
 else if (data[picked] == r2Q69[0].cat){r2question001 = r2Q69;}
 else if (data[picked] == r2Q70[0].cat){r2question001 = r2Q70;}
+else if (data[picked] == r2Q71[0].cat){r2question001 = r2Q71;}
+else if (data[picked] == r2Q72[0].cat){r2question001 = r2Q72;}
+else if (data[picked] == r2Q73[0].cat){r2question001 = r2Q73;}
+else if (data[picked] == r2Q74[0].cat){r2question001 = r2Q74;}
+else if (data[picked] == r2Q75[0].cat){r2question001 = r2Q75;}
+else if (data[picked] == r2Q76[0].cat){r2question001 = r2Q76;}
+else if (data[picked] == r2Q77[0].cat){r2question001 = r2Q77;}
+else if (data[picked] == r2Q78[0].cat){r2question001 = r2Q78;}
+else if (data[picked] == r2Q79[0].cat){r2question001 = r2Q79;}
+else if (data[picked] == r2Q80[0].cat){r2question001 = r2Q80;}
+else if (data[picked] == r2Q81[0].cat){r2question001 = r2Q81;}
+else if (data[picked] == r2Q82[0].cat){r2question001 = r2Q82;}
+else if (data[picked] == r2Q83[0].cat){r2question001 = r2Q83;}
+else if (data[picked] == r2Q84[0].cat){r2question001 = r2Q84;}
+else if (data[picked] == r2Q85[0].cat){r2question001 = r2Q85;}
+else if (data[picked] == r2Q86[0].cat){r2question001 = r2Q86;}
+else if (data[picked] == r2Q87[0].cat){r2question001 = r2Q87;}
+else if (data[picked] == r2Q88[0].cat){r2question001 = r2Q88;}
+else if (data[picked] == r2Q89[0].cat){r2question001 = r2Q89;}
+else if (data[picked] == r2Q90[0].cat){r2question001 = r2Q90;}
+else if (data[picked] == r2Q91[0].cat){r2question001 = r2Q91;}
+else if (data[picked] == r2Q92[0].cat){r2question001 = r2Q92;}
 r2question001 = shuffle(r2question001); 
 }
 function mystery() {

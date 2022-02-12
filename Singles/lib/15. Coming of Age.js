@@ -1,12 +1,6 @@
 var comingofage = [
 {
 "cat":"Coming of Age",
-"ques":"Who directed Stand By Me?",
-"answ":"ROB REINER",
-"answ2":"Rob Reiner.",
-},
-{
-"cat":"Coming of Age",
 "ques":"Who directed 2000's Billy Elliot?",
 "answ":"STEPHEN DALDRY",
 "answ2":"Stephen Daldry.",

@@ -121,12 +121,6 @@ var threepointer001 = [
 "answ2":"Ben Affleck.",
 },
 {
-"cat":"Ridley Scott",
-"ques":"Who played Prince John in Ridley Scott's Robin Hood?",
-"answ":"OSCAR ISAAC",
-"answ2":"Oscar Isaac.",
-},
-{
 "cat":"Adam Sandler",
 "ques":"Adam Sandler stars as a comedian who is dying of cancer in what film?",
 "answ":"FUNNY PEOPLE",
@@ -200,13 +194,6 @@ var threepointer001 = [
 "ques":"Ned Beatty, Ronny Cox, Burt Reynolds and what other star round out the foursome of friends who take an ill-fated canoe trip in Deliverance?",
 "answ":"JON VOIGHT",
 "answ2":"Jon Voight.",
-},
-{
-"cat":"80s",
-"ques":"What actor plays Sergeant Al Powell in Die Hard?",
-"answ":"REGINALD VELJOHNSON",
-"answ3":"REGINALD VEL JOHNSON",
-"answ2":"Reginald VelJohnson.",
 },
 {
 "cat":"80s",
@@ -2265,12 +2252,6 @@ var threepointer001 = [
 },
 {
 "cat":"Julia Roberts",
-"ques":"Who co-starred with Julia Roberts in I Love Trouble?",
-"answ":"NICK NOLTE",
-"answ2":"Nick Nolte.",
-},
-{
-"cat":"Julia Roberts",
 "ques":"Who stars as Dan, an unsuccessful writer caught in a love triangle between Julia Roberts and Natalie Portman, in 2004's Closer?",
 "answ":"JUDE LAW",
 "answ2":"Jude Law.",
@@ -2893,12 +2874,6 @@ var threepointer001 = [
 "answ2":"The Artist.",
 },
 {
-"cat":"Ridley Scott",
-"ques":"What was the first name of Russell Crowe's character in Gladiator?",
-"answ":"MAXIMUS",
-"answ2":"Maximus.",
-},
-{
 "cat":"Oscar Movies",
 "ques":"An overweight, abused, illiterate teen enrolls in an alternative school in what 2009 Oscar nominated film?",
 "answ":"PRECIOUS",
@@ -3167,22 +3142,9 @@ var threepointer001 = [
 },
 {
 "cat":"Rom-coms",
-"ques":"In Look Who's Talking, who plays James, the cab driver who ultimately becomes Mikey's step-father?",
-"answ":"JOHN TRAVOLTA",
-"answ2":"John Travolta.",
-},
-{
-"cat":"Rom-coms",
 "ques":"Who plays the woman out of Jay Baruchel's league, in She's Out of My League?",
 "answ":"ALICE EVE",
 "answ2":"Alice Eve.",
-},
-{
-"cat":"Rom-coms",
-"ques":"Who played the overachieving high schooler Tracy Flick in the movie Election?",
-"answ":"REESE WITHERSPOON",
-"answ3":"REESE WITHERSPOONE",
-"answ2":"Reese Witherspoon.",
 },
 {
 "cat":"Rom-coms",
@@ -3202,13 +3164,6 @@ var threepointer001 = [
 "ques":"Who plays the legendary comedian kidnapped by De Niro in The King of Comedy?",
 "answ":"JERRY LEWIS",
 "answ2":"Jerry Lewis.",
-},
-{
-"cat":"Ridley Scott",
-"ques":"Who starred as Marian in Ridley Scott's 2010 version of Robin Hood?",
-"answ":"CATE BLANCHETT",
-"answ3":"CATE BLANCHET",
-"answ2":"Cate Blanchett.",
 },
 {
 "cat":"Ridley Scott",

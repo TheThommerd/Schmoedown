@@ -1557,14 +1557,6 @@ var r2Q37 = [
 },
 {
 "cat":"2010s",
-"ques":"What Saturday Night Live alum stars alongside Anne Hathaway in Colossal?",
-"answ":"JASON SUDEIKIS",
-"answ3":"JASON SUDEKIS",
-"answ2":"Jason Sudeikis.",
-"option":["Jason Sudeikis", "Adam Sandler", "Bill Hader", "Will Forte"],
-},
-{
-"cat":"2010s",
 "ques":"What 2017 awards contender has the tagline: 'There's no need to have class when you have talent'?",
 "answ":"I TONYA",
 "answ2":"I, Tonya.",

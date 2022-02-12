@@ -1251,9 +1251,9 @@ var fivepointer001 = [
 },
 {
 "cat":"Denzel Washington",
-"ques":"Who plays US Army Major General William Devereaux in The Siege?",
-"answ":"BRUCE WILLIS",
-"answ2":"Bruce Willis.",
+"ques":"Denzel Washington played which real-life freedom fighter in the 1987 film Cry Freedom?",
+"answ":"STEVE BIKO",
+"answ2":"Steve Biko.",
 },
 {
 "cat":"Denzel Washington",
@@ -1491,12 +1491,6 @@ var fivepointer001 = [
 "ques":"What famous company do Forrest Gump and Lieutenant Dan invest in?",
 "answ":"APPLE",
 "answ2":"Apple.",
-},
-{
-"cat":"Dramas",
-"ques":"Who plays Warden Drumgoole in 1989's Lock Up?",
-"answ":"DONALD SUTHERLAND",
-"answ2":"Donald Sutherland.",
 },
 {
 "cat":"Dramas",
@@ -2463,12 +2457,6 @@ var fivepointer001 = [
 },
 {
 "cat":"Leonardo DiCaprio",
-"ques":"You will find DiCaprio playing a character by the name of Calvin Candie in what film?",
-"answ":"DJANGO UNCHAINED",
-"answ2":"Django Unchained.",
-},
-{
-"cat":"Leonardo DiCaprio",
 "ques":"Who directed Leonardo DiCaprio in The Man in the Iron Mask?",
 "answ":"RANDALL WALLACE",
 "answ2":"Randall Wallace.",
@@ -2637,7 +2625,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Movie Quotes",
-"ques":"What 80s film features the quote: 'Why's he calling me meat? I'm the one driving a Porsche.'?",
+"ques":"What 80s film features the quote: 'Why's he calling me Meat? I'm the one driving a Porsche.'?",
 "answ":"BULL DURHAM",
 "answ2":"Bull Durham.",
 },
@@ -3380,12 +3368,6 @@ var fivepointer001 = [
 },
 {
 "cat":"Oscar Movies",
-"ques":"What was the first color film to win a Best Picture Oscar?",
-"answ":"GONE WITH THE WIND",
-"answ2":"Gone With The Wind.",
-},
-{
-"cat":"Oscar Movies",
 "ques":"For which film did Ang Lee win his first Best Director Oscar?",
 "answ":"BROKEBACK MOUNTAIN",
 "answ2":"Brokeback Mountain.",
@@ -3551,12 +3533,6 @@ var fivepointer001 = [
 "answ":"THE GREEN BERETS",
 "answ3":"GREEN BERETS",
 "answ2":"The Green Berets.",
-},
-{
-"cat":"War",
-"ques":"In what war film will you find the phrase 'Born to Kill' written on combat helmets?",
-"answ":"FULL METAL JACKET",
-"answ2":"Full Metal Jacket.",
 },
 {
 "cat":"Westerns",

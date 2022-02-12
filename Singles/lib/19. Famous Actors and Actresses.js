@@ -1310,14 +1310,6 @@ var r2Q19 = [
 },
 {
 "cat":"Famous Actors and Actresses",
-"ques":"Mel Brooks makes a cameo as Professor Max Krassman in which Muppet film?",
-"answ":"THE MUPPET MOVIE",
-"answ3":"MUPPET MOVIE",
-"answ2":"The Muppet Movie.",
-"option":["The Muppet Movie", "Muppets Most Wanted", "The Muppets Take Manhattan", "The Muppets"],
-},
-{
-"cat":"Famous Actors and Actresses",
 "ques":"What Oscar winning actor co-stars with Nicole Kidman in the films Before I Go To Sleep, The Railway Man and Genius?",
 "answ":"COLIN FIRTH",
 "answ2":"Colin Firth.",

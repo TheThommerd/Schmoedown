@@ -915,6 +915,55 @@ var r2Q18 = [
 "answ2":"Charles Grodin.",
 "option":["Charles Grodin", "John Cleese", "Michael Caine", "Chris Cooper"],
 },
+{
+"cat":"Family Films",
+"ques":"In which movie does a loveable stray dog save two kidnapped kids?",
+"answ":"BENJI",
+"answ2":"Benji.",
+"option":["Benji", "Homeward Bound", "Lassie", "The Adventures Of Milo And Otis"],
+},
+{
+"cat":"Family Films",
+"ques":"Who played nefarious oil salesman Tex Richman in 2011's The Muppets?",
+"answ":"CHRIS COOPER",
+"answ2":"Chris Cooper.",
+"option":["Chris Cooper", "Jack Nicholson", "Tom Hanks", "Jeff Bridges"],
+},
+{
+"cat":"Family Films",
+"ques":"What 2010 film was based on a 2007 book that began as a popular children's series?",
+"answ":"DIARY OF A WIMPY KID",
+"answ2":"Diary of a Wimpy Kid.",
+"option":["Diary of a Wimpy Kid", "Goosebumps", "Captain Underpants", "Stuart Little"],
+},
+{
+"cat":"Family Films",
+"ques":"Who played Speed Racer in 2008's Speed Racer?",
+"answ":"EMILE HIRSCH",
+"answ2":"Emile Hirsch.",
+"option":["Emile Hirsch", "Timothy Olyphant", "Taylor Kitsch", "Zac Efron"],
+},
+{
+"cat":"Family Films",
+"ques":"Who plays Velma in 2002's live-action film Scooby-Doo?",
+"answ":"LINDA CARDELLINI",
+"answ2":"Linda Cardellini.",
+"option":["Linda Cardellini", "Jennifer Love Hewitt", "Reese Witherspoon", "Sarah Michelle Gellar"],
+},
+{
+"cat":"Family Films",
+"ques":"Who provided the voice of the panther Bagheera in 2016's The Jungle Book?",
+"answ":"BEN KINGSLEY",
+"answ2":"Ben Kingsley.",
+"option":["Ben Kingsley", "Mark Strong", "Patrick Stewart", "Tom Hiddleston"],
+},
+{
+"cat":"Family Films",
+"ques":"What was the subtitle for Agent Cody Banks 2?",
+"answ":"DESTINATION LONDON",
+"answ2":"Destination London.",
+"option":["Destination London", "Better Late Than Never", "Operation Paris", "The Deadly Art of Illusion"],
+},
 ];
 familyfilms = shuffle(familyfilms);
 r2Q18 = shuffle(r2Q18);

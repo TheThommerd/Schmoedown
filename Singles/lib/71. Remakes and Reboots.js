@@ -97,7 +97,7 @@ var r2Q71 = [
 "ques":"What 2014 remake of a 1980s romance movie stars Gabriella Wilde, Alex Pettyfer and Bruce Greenwood?",
 "answ":"ENDLESS LOVE",
 "answ2":"Endless Love.",
-"option":["Endless Love", "", "", ""],
+"option":["Endless Love", "Valley Girl", "Working Girl", "Can't Buy Me Love"],
 },
 {
 "cat":"Remakes and Reboots",

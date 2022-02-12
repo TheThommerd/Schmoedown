@@ -651,7 +651,7 @@ var nineties = [
 },
 {
 "cat":"90s",
-"ques":"Who plays Faye, the love interest of the lead guitarist/singer Jimmy, in That Thing you Do!?",
+"ques":"Who plays Faye, the love interest of the lead guitarist/singer Jimmy, in That Thing You Do!?",
 "answ":"LIV TYLER",
 "answ2":"Liv Tyler.",
 },
@@ -1891,13 +1891,6 @@ var r2Q8 = [
 "answ":"UNFORGIVEN",
 "answ2":"Unforgiven.",
 "option":["Unforgiven", "Dances with Wolves", "Platoon", "The Last Emperor"],
-},
-{
-"cat":"90s",
-"ques":"Who plays Dracula in 1995's Dracula, Dead and Loving It?",
-"answ":"LESLIE NIELSEN",
-"answ2":"Leslie Nielsen.",
-"option":["Leslie Nielsen", "Mel Brooks", "Steve Martin", "John Cleese"],
 },
 {
 "cat":"90s",

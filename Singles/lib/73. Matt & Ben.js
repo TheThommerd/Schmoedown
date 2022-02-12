@@ -54,7 +54,7 @@ var r2Q73 = [
 "answ":"GAVIN O'CONNOR",
 "answ3":"GAVIN O CONNOR",
 "answ2":"Gavin O'Connor.",
-"option":["Gavin O'Connor", "", "", ""],
+"option":["Gavin O'Connor", "Ben Affleck", "Paul Greengrass", "Doug Liman"],
 },
 {
 "cat":"Matt & Ben",
@@ -133,6 +133,13 @@ var r2Q73 = [
 "answ":"THE COMPANY MEN",
 "answ2":"The Company Men.",
 "option":["The Company Men", "Argo", "The Town", "Runner Runner"],
+},
+{
+"cat":"Matt & Ben",
+"ques":"Ben Affleck plays Count Pierre d'Alençon in what 2021 film?",
+"answ":"THE LAST DUEL",
+"answ2":"The Last Duel.",
+"option":["The Last Duel", "The Power of the Dog", "The Mauritanian", "The Tragedy of Macbeth"],
 },
 ];
 r2Q73 = shuffle(r2Q73);

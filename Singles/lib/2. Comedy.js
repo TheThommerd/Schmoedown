@@ -2926,13 +2926,6 @@ var r2Q2 = [
 },
 {
 "cat":"Comedies",
-"ques":"Who played Frankenstein's monster in Young Frankenstein?",
-"answ":"PETER BOYLE",
-"answ2":"Peter Boyle.",
-"option":["Peter Boyle", "Gene Wilder", "Gene Hackman", "Mel Brooks"],
-},
-{
-"cat":"Comedies",
 "ques":"Who gets a bomb dropped on them at the end of Hot Shots!?",
 "answ":"SADDAM HUSSEIN",
 "answ2":"Saddam Hussein.",
@@ -3782,13 +3775,6 @@ var r2Q2 = [
 "answ":"SAN FRANCISCO",
 "answ2":"San Francisco.",
 "option":["San Francisco", "Los Angeles", "Seattle", "San Diego"],
-},
-{
-"cat":"Comedies",
-"ques":"Who starred opposite Anne Hathaway as Penny Rust in 2019's The Hustle?",
-"answ":"REBEL WILSON",
-"answ2":"Rebel Wilson.",
-"option":["Rebel Wilson", "Melissa McCarthy", "Mila Kunis", "Kathryn Hahn"],
 },
 {
 "cat":"Comedies",

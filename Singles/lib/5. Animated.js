@@ -45,12 +45,6 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"Who directed 2010's Legend of the Guardians: The Owls of Ga'Hoole?",
-"answ":"ZACK SNYDER",
-"answ2":"Zack Snyder.",
-},
-{
-"cat":"Animated",
 "ques":"Which Oscar-winning actress voiced Queen Nyra in Legend of the Guardians: The Owls of Ga'Hoole?",
 "answ":"HELEN MIRREN",
 "answ2":"Helen Mirren.",
@@ -60,12 +54,6 @@ var animated = [
 "ques":"Which actress voiced nature documentary filmmaker Rachel Johnson in 2010's Yogi Bear?",
 "answ":"ANNA FARIS",
 "answ2":"Anna Faris.",
-},
-{
-"cat":"Animated",
-"ques":"In Toy Story 3, what is the name of the little girl that Andy donates his toys to at the end of the film?",
-"answ":"BONNIE",
-"answ2":"Bonnie.",
 },
 {
 "cat":"Animated",
@@ -2360,7 +2348,7 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"What is the name the yellow creatures that assist Gru in Despicable Me?",
+"ques":"What is the name of the yellow creatures that assist Gru in Despicable Me?",
 "answ":"MINIONS",
 "answ2":"Minions.",
 },
@@ -2368,6 +2356,7 @@ var animated = [
 "cat":"Animated",
 "ques":"What 2014 film duo used the WABAC time machine to embark on an outrageous adventure?",
 "answ":"PEABODY AND SHERMAN",
+"answ3":"MR PEABODY AND SHERMAN",
 "answ2":"Peabody & Sherman.",
 },
 {
@@ -2905,6 +2894,70 @@ var r2Q5 = [
 "answ3":"ENVIRONMENTAL PROTECTION AGENCY",
 "answ2":"EPA.",
 "option":["EPA", "CIA", "NSA", "FBI"],
+},
+{
+"cat":"Animated",
+"ques":"Which Batman animated film sees the caped crusader deal with the return of Bruce Wayne's mysterious ex-girlfriend Andrea?",
+"answ":"BATMAN MASK OF THE PHANTASM",
+"answ3":"MASK OF THE PHANTASM",
+"option":["Mask of the Phantasm", "Return of the Caped Crusaders", "The Killing Joke", "Batman and Harley Quinn"],
+},
+{
+"cat":"Animated",
+"ques":"Who provide the voice of Charlie B. Barkin in the Don Bluth film All Dogs Go to Heaven?",
+"answ":"BURT REYNOLDS",
+"answ2":"Burt Reynolds.",
+"option":["Burt Reynolds", "John Cusack", "Charlie Sheen", "Dom Deluise"],
+},
+{
+"cat":"Animated",
+"ques":"Which Disney animated film features the vocal talents of Tate Donovan, James Woods and Danny DeVito?",
+"answ":"HERCULES",
+"answ2":"Hercules.",
+"option":["Hercules", "Home on the Range", "Treasure Planet", "Bolt"],
+},
+{
+"cat":"Animated",
+"ques":"What is the name of the 2004 Hayao Miyazaki feature film that stars a wizard named Howl?",
+"answ":"HOWL'S MOVING CASTLE",
+"answ2":"Howl's Moving Castle.",
+"option":["Howl's Moving Castle", "Ponyo", "Spirited Away", "Princess Mononoke"],
+},
+{
+"cat":"Animated",
+"ques":"What is the name of the villain in the first Shrek film, voiced by John Lithgow?",
+"answ":"LORD FARQUAAD",
+"answ3":"FARQUAAD",
+"answ2":"Lord Farquaad.",
+"option":["Lord Farquaad", "Baron Bomburst", "Prince Humperdink", "The Right Ordinary Horatio Jackson"],
+},
+{
+"cat":"Animated",
+"ques":"Name the movie: Stuart, Kevin, and Bob are recruited by Scarlet Overkill, a super-villain, who, alongside her inventor husband Herb, hatches a plot to take over the World.",
+"answ":"MINIONS",
+"answ2":"Minions.",
+"option":["Minions", "Wreck-it-Ralph", "Shrek", "The Lego Movie"],
+},
+{
+"cat":"Animated",
+"ques":"Who provided the voice of Unicron in 1986's Transformers: The Movie?",
+"answ":"ORSON WELLES",
+"answ2":"Orson Welles.",
+"option":["Orson Welles", "Corey Burton", "Leonard Nimoy", "Marlon Brando"],
+},
+{
+"cat":"Animated",
+"ques":"What superhero does the Iron Giant compare himself to in the Iron Giant?",
+"answ":"SUPERMAN",
+"answ2":"Superman.",
+"option":["Superman", "Iron Man", "Batman", "Captain America"],
+},
+{
+"cat":"Animated",
+"ques":"What comedian voiced comic-book fan and team mascot Fred in Big Hero 6?",
+"answ":"TJ MILLER",
+"answ2":"TJ Miller.",
+"option":["TJ Miller", "Ryan Reynolds", "Jim Carrey", "Jason Biggs"],
 },
 ];
 animated = shuffle(animated);

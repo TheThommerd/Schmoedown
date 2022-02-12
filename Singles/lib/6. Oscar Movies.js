@@ -1301,14 +1301,6 @@ var r2Q6 = [
 },
 {
 "cat":"Oscar Movies",
-"ques":"For which film did James Stewart receive his only Best Actor Oscar win?",
-"answ":"THE PHILADELPHIA STORY",
-"answ3":"PHILADELPHIA STORY",
-"answ2":"The Philadelphia Story.",
-"option":["The Philadelphia Story", "Harvey", "It's a Wonderful Life", "Anatomy of a Murder"],
-},
-{
-"cat":"Oscar Movies",
 "ques":"What actress won an Oscar for her role as Mona Lisa in My Cousin Vinny?",
 "answ":"MARISA TOMEI",
 "answ2":"Marisa Tomei.",
@@ -1901,13 +1893,6 @@ var r2Q6 = [
 "answ3":"THE LAST EMPEROR",
 "answ2":"The Last Emperor.",
 "option":["The Last Emperor", "Rain Man", "Platoon", "Moonstruck"],
-},
-{
-"cat":"Oscar Movies",
-"ques":"Anne Hathaway received her first Oscar nomination for playing a woman recently released from rehab in what 2000s drama?",
-"answ":"RACHEL GETTING MARRIED",
-"answ2":"Rachel Getting Married.",
-"option":["Rachel Getting Married", "Colossal", "Becoming Jane", "Love & Other Drugs"],
 },
 {
 "cat":"Oscar Movies",

@@ -1503,13 +1503,6 @@ var dramas = [
 },
 {
 "cat":"Dramas",
-"ques":"Who plays the title role in 1939's Mr. Smith Goes to Washington?",
-"answ":"JIMMY STEWART",
-"answ3":"JAMES STEWART",
-"answ2":"James Stewart.",
-},
-{
-"cat":"Dramas",
 "ques":"Who played radio shock jock Jack Lucas in 1991's The Fisher King?",
 "answ":"JEFF BRIDGES",
 "answ2":"Jeff Bridges.",

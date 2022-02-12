@@ -566,13 +566,6 @@ var romcoms = [
 },
 {
 "cat":"Rom-coms",
-"ques":"What law school does Elle Woods attend in Legally Blonde?",
-"answ":"HARVARD",
-"answ3":"HARVARD LAW SCHOOL",
-"answ2":"Harvard.",
-},
-{
-"cat":"Rom-coms",
 "ques":"What actress played Sarah Huttinger in 2005's Rumor Has It?",
 "answ":"JENNIFER ANISTON",
 "answ2":"Jennifer Aniston.",
@@ -962,13 +955,6 @@ var r2Q12 = [
 },
 {
 "cat":"Rom-coms",
-"ques":"Which sorority was Elle Woods from Legally Blonde president of?",
-"answ":"DELTA NU",
-"answ2":"Delta Nu.",
-"option":["Delta Nu", "Phi Lambda", "Kappa Kappa Delta", "Zeta Alpha Zeta"],
-},
-{
-"cat":"Rom-coms",
 "ques":"Which color M&Ms are Mary's favorite in The Wedding Planner?",
 "answ":"BROWN",
 "answ2":"Brown.",
@@ -1284,14 +1270,6 @@ var r2Q12 = [
 "answ3":"NEW YORK",
 "answ2":"New York City.",
 "option":["New York City", "San Francisco", "Chicago", "Washington DC"],
-},
-{
-"cat":"Rom-coms",
-"ques":"In Love & Other Drugs, Anne Hathaway's character is afflicted with what disease?",
-"answ":"PARKINSON",
-"answ3":"PARKINSON'S DISEASE",
-"answ2":"Parkinson's disease.",
-"option":["Parkinson's disease", "Diabetes", "Huntington's disease", "Celiac disease"],
 },
 {
 "cat":"Rom-coms",

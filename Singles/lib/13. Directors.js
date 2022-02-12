@@ -1026,12 +1026,6 @@ var directors = [
 },
 {
 "cat":"Directors",
-"ques":"Who directed The Greatest Show on Earth?",
-"answ":"CECIL B DEMILLE",
-"answ2":"Cecil B. DeMille.",
-},
-{
-"cat":"Directors",
 "ques":"Who directed 1996's Mission Impossible?",
 "answ":"BRIAN DE PALMA",
 "answ3":"BRIAN DEPALMA",
@@ -1883,24 +1877,10 @@ var r2Q13 = [
 },
 {
 "cat":"Directors",
-"ques":"Who directed Charlize Theron and Ben Affleck in Reindeer Games?",
-"answ":"JOHN FRANKENHEIMER",
-"answ2":"John Frankenheimer.",
-"option":["John Frankenheimer", "Wolfgang Petersen", "John Woo", "William Friedkin"],
-},
-{
-"cat":"Directors",
 "ques":"Who directed Charlize Theron in the 1998 film Celebrity?",
 "answ":"WOODY ALLEN",
 "answ2":"Woody Allen.",
 "option":["Woody Allen", "Taylor Hackford", "Lasse Hallstrom", "Ivan Reitman"],
-},
-{
-"cat":"Directors",
-"ques":"Who directed the Russell Crowe-starring martial arts movie The Man with the Iron Fists?",
-"answ":"RZA",
-"answ2":"RZA.",
-"option":["RZA", "Rob Bowman", "Gavin O'Connor", "Frank Coraci"],
 },
 {
 "cat":"Directors",

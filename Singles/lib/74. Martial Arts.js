@@ -119,5 +119,26 @@ var r2Q74 = [
 "answ2":"Chuck Norris.",
 "option":["Chuck Norris", "Jean Claude Van Damme", "Jackie Chan", "Steven Seagal"],
 },
+{
+"cat":"Martial Arts",
+"ques":"Who played the titular character in 2021's Snake Eyes?",
+"answ":"HENRY GOLDING",
+"answ2":"Henry Golding.",
+"option":["Henry Golding", "Lewis Tan", "Simu Liu", "Benedict Wong"],
+},
+{
+"cat":"Martial Arts",
+"ques":"Who plays the titular character in 2008's Ip Man?",
+"answ":"DONNIE YEN",
+"answ2":"Donnie Yen.",
+"option":["Donnie Yen", "Jackie Chan", "Jet Li", "Tony Leung"],
+},
+{
+"cat":"Martial Arts",
+"ques":"Who directed the Russell Crowe-starring martial arts movie The Man with the Iron Fists?",
+"answ":"RZA",
+"answ2":"RZA.",
+"option":["RZA", "Rob Bowman", "Gavin O'Connor", "Frank Coraci"],
+},
 ];
 r2Q74 = shuffle(r2Q74);

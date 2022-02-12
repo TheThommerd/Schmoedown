@@ -1445,7 +1445,7 @@ else if (data[picked] == "Wildcard"){message003.innerHTML = "You spun a Wildcard
 });
 }
 function bettingspin2(d){
-            document.getElementById("respin").style.visibility = "hidden";
+	    document.getElementById("message003").style.visibility = "hidden"; 
             container.on("click", null);
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
@@ -1464,6 +1464,7 @@ function bettingspin2(d){
                     oldrotation = rotation;
 			message002.innerHTML = "";
 			mess = picked+1;
+	    document.getElementById("message003").style.visibility = "visible"; 
 message003.innerHTML = "You spun " +data[picked] + "<br/><br/>" + "Select how many points you want to bet";
 if (data[picked] == "Spinner's Choice"){
 message003.innerHTML = "You got Spinner's Choice" + "<br/></br>" + "Select which category you want to pick:" + "<br/></br>" + "<ul id=boxes class=aligner><li><input type=checkbox id=box1 value= /><label for=box1>" + data[1] +"</label></li><li><input type=checkbox id=box2 value=/><label for=box2>" +data[2] +"</label></li><li><input type=checkbox id=box3 value=/><label for=box3>" + data[3] + "</label></li><li><input type=checkbox id=box4 value=/><label for=box4>" + data[5] + "</label></li><li><input type=checkbox id=box5 value=/><label for=box5>" + data[6] + "</label></li><li><input type=checkbox id=box6 value=/><label for=box6>" + data[7] + "</label></li><li><input type=checkbox id=box7 value=/><label for=box7>" + data[9] + "</label></li><li><input type=checkbox id=box8 value=/><label for=box8>" + data[10] + "</label></li><li><input type=checkbox id=box9 value=/><label for=box9>" + data[11] + "</label></li></ul>" + "<button class=buttons008 id=confirm onclick=confirmbetting()>Confirm</button>";

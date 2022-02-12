@@ -6635,22 +6635,25 @@ data[11] = chosen[4];
 }
 }
 function bettinground() {
-        open = 0;
-	mc = 0 ;
+        	open = 0;
+		mc = 0 ;
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
 		
-	document.getElementById("message004").style.top = "-180px";
+		document.getElementById("message004").style.top = "-180px";
 		round001.innerHTML = 2;
  		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click Next to proceed.";
 		message002.innerHTML = "";
                 message004.innerHTML = "";
                 round001.innerHTML = r++;
-message005.innerHTML = "<strong><font size=4>ROUND THREE</font><br/></br>COMPETITOR SPINS THE WHEEL ONCE TO DETERMINE CATEGORY</br></br>EACH COMPETITOR WAGERS BETWEEN 0-3 POINTS</br></br>POINTS GO UP OR DOWN BY THE</br>WAGERED AMOUNT BASED ON THE ANSWER</br></br>REPEATS & CHALLENGES STILL IN EFFECT</strong>";
+		message005.innerHTML = "<strong><font size=4>ROUND THREE</font><br/></br>COMPETITOR IN THE LEAD SPINS THE WHEEL TO DETERMINE CATEGORY</br>YOU CAN RE-SPIN ONCE</br></br>EACH COMPETITOR WAGERS BETWEEN 0-3 POINTS</br></br>POINTS GO UP OR DOWN BY THE</br>WAGERED AMOUNT BASED ON THE ANSWER</br></br>REPEATS & CHALLENGES STILL IN EFFECT</strong>";
                 message006.innerHTML = "";
             	message003.innerHTML = "<button id=bet0 class=buttons002 onclick=bettinground2()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		if (s > b){
+		message003.innerHTML = "<button id=bet0 class=buttons002 onclick=bettinground2()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>" + "<br/></br>" + competitorlist[0].id + " gets to spin the wheel.";
+		}		
 		document.getElementById("message003").style = "initial";
 	    	document.getElementById("message006").style.top = "-180px";
 	    	document.getElementById("chalacc").style.display = "none";

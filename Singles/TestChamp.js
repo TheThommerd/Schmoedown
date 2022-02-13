@@ -1703,6 +1703,7 @@ bettingquestion();
 }
 function takebettingwildcard() {
 var rand = Math.random() * 100;
+rand = 90;
 if ((compwildspinners == 0) && (compwildmystery == 0) && (compwildopponent == 0) && (oppwildmystery == 0) && (oppwildspinners == 0) && (oppwildopponent == 0)){
 if (rand < 33){
 data[picked] = "Spinner's Choice";

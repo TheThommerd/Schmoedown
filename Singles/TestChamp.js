@@ -2056,7 +2056,7 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 }
 else if (rand < 100){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
+message003.innerHTML = "The category is " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
@@ -2097,7 +2097,7 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 else if (rand < 100){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
+message003.innerHTML = "The category is " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
@@ -2157,7 +2157,7 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners == 0) && (oppwildspinners == 0) && (compwildmystery == 0) && (oppwildmystery == 0))){
 if (rand < 50){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
+message003.innerHTML = "The category is " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;
@@ -2186,7 +2186,7 @@ else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 }
 else if (((compwildopponent != 0) || (oppwildopponent != 0)) && ((compwildspinners != 0) || (oppwildspinners != 0)) && ((compwildmystery == 0) && (oppwildmystery == 0))){
 mysterybetting();
-message003.innerHTML = competitorlist[0].id + " got the category " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
+message003.innerHTML = "The category is " + bettingquestion001[0].cat + "<br/><br/>" + "Select how many points you want to bet";
 d3.select(".slice:nth-child(" + (picked + 1) + ") text")
 .text(bettingquestion001[0].cat) 
 data[picked] = bettingquestion001[0].cat;

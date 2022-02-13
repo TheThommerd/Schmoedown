@@ -1581,7 +1581,7 @@ else if (data[picked] == "Wildcard"){
 if ((compwildspinners != 0) || (oppwildspinners != 0)){message003.innerHTML = competitorlist[0].id + " spun a Wildcard and chose to re-spin." + "<br/><br/>"; setTimeout(function(){ oppbettingspin2(); }, 3000);}
 else{message003.innerHTML = competitorlist[0].id + " spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=opptakebettingwildcard onclick=opptakebettingwildcard()>Reveal Wildcard</button>";}
 }
-else if ((data[picked] != wheelie[0])  && (data[picked] != wheelie[1])){message003.innerHTML = competitorlist[0].id + " spun " +data[picked] + " and chose to re-spin the wheel." + "<br/><br/>";setTimeout(function(){ oppbettingspin2(); }, 3000);}
+else if ((data[picked] != wheelie[0])  && (data[picked] != wheelie[1]) && (data[picked] != wheelie[2]) && (data[picked] != wheelie[3]) && (data[picked] != wheelie[4]) && (data[picked] != wheelie[5])){message003.innerHTML = competitorlist[0].id + " spun " +data[picked] + " and chose to re-spin the wheel." + "<br/><br/>";setTimeout(function(){ oppbettingspin2(); }, 3000);}
 else{
 if (b >= 3){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button><button id=bet3 class=buttons002 onclick=bet3()>3</button>"; }
 else if (b >= 2){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button><button id=bet1 class=buttons002 onclick=bet1()>1</button><button id=bet2 class=buttons002 onclick=bet2()>2</button>"; }

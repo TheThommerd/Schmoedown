@@ -7168,5 +7168,5 @@ function tweetbutton() {
     a.click();
   });
 document.getElementById("message006").style.top = "-120px";
-window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown game and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia", "_blank");
+window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia", "_blank");
 }

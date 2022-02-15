@@ -2128,7 +2128,7 @@ function loseKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "<br/><br/>" + "<div class='tooltip'><a id='tweetbutton' class='twitter-share-button' target='_blank' href='https://twitter.com/intent/tweet?text=Hello%20world'>Tweet result</a><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "<br/><br/>" + "<div class='tooltip'><button class=buttons001>Tweet Result<a id='tweetbutton' class='twitter-share-button' target='_blank' href='https://twitter.com/intent/tweet?text=Hello%20world'></a></button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 		tweetbutton.href = "https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown game and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia";
 		$("#tweetbutton").click(function() {
   		html2canvas($('#frame001')[0], {
@@ -2144,7 +2144,7 @@ function loseKO(){
 		document.getElementById("message002").style.top = "-260px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
-		document.getElementById("message006").style.top = "-180px";
+		document.getElementById("message006").style.top = "-120px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){

@@ -2112,7 +2112,7 @@ function loseKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
  		var ppe = ((b / posspoints) * 100)
@@ -7158,7 +7158,7 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 function tweetbutton() {
  document.getElementById("message006").style.top = "-270px";
- document.getElementsByClassName("flash").style.animationName = "none";
+ document.getElementById("KO").style.animationName = "none";
   html2canvas($('#frame001')[0], {
     width: 950,
     height: 650
@@ -7169,6 +7169,6 @@ function tweetbutton() {
     a.click();
   });
 document.getElementById("message006").style.top = "-120px";
-document.getElementsByClassName("flash").style.animationName = "flash";
+document.getElementById("KO").style.animationName = "flash";
 window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia", "_blank");
 }

@@ -7157,10 +7157,11 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 }
 function tweetbutton() {
-  document.getElementById("message006").style.top = "-270px";
+ document.getElementById("message006").style.top = "-270px";
+ document.getElementsByClassName("flash).style.animationName = "none";
   html2canvas($('#frame001')[0], {
     width: 950,
-    height: 800
+    height: 650
   }).then(function(canvas) {
     var a = document.createElement('a');
     a.href = canvas.toDataURL("image/png");
@@ -7168,5 +7169,6 @@ function tweetbutton() {
     a.click();
   });
 document.getElementById("message006").style.top = "-120px";
+document.getElementsByClassName("flash).style.animationName = "flash";
 window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia", "_blank");
 }

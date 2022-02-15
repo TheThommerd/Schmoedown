@@ -6977,7 +6977,7 @@ else if (stealmc == 0){
 }
 }
 $('#save2').click(function() {
-  html2canvas($('#container')[0], {
+  html2canvas($('#frame001')[0], {
     width: 950,
     height: 585
   }).then(function(canvas) {

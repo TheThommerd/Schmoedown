@@ -6976,7 +6976,7 @@ else if (stealmc == 0){
 }
 }
 }
-$('#save2').click(function() {
+$('#tweetbutton').click(function() {
   html2canvas($('#frame001')[0], {
     width: 950,
     height: 585

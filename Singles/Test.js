@@ -2128,19 +2128,7 @@ function loseKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "<br/><br/>" + "<div class='tooltip'><button class=buttons001>Tweet Result<a id='tweetbutton' class='twitter-share-button' target='_blank' href='https://twitter.com/intent/tweet?text=Hello%20world'></a></button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		tweetbutton.href = "https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown game and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia";
-		$("#tweetbutton").click(function() {
-  		html2canvas($('#frame001')[0], {
-    		width: 950,
-    		height: 700
-  		}).then(function(canvas) {
-    		var a = document.createElement('a');
-    		a.href = canvas.toDataURL("image/png");
-    		a.download = 'Schmoedown.png';
-    		a.click();
-  		});
-		});	
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "<br/><br/>" + "<div class='tooltip'><button class=buttons001 onclick=tweetbutton()>Tweet Result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 		document.getElementById("message002").style.top = "-260px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -7166,4 +7154,16 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 }
 }
+}
+function tweetbutton() {
+  html2canvas($('#frame001')[0], {
+    width: 950,
+    height: 585
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    a.href = canvas.toDataURL("image/png");
+    a.download = 'myfile.png';
+    a.click();
+  });
+window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown game and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia", "_blank");
 }

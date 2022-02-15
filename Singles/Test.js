@@ -7158,7 +7158,7 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 function tweetbutton() {
   html2canvas($('#frame001')[0], {
     width: 950,
-    height: 700
+    height: 800
   }).then(function(canvas) {
     var a = document.createElement('a');
     a.href = canvas.toDataURL("image/png");

@@ -7162,7 +7162,7 @@ function tweetbutton() {
   }).then(function(canvas) {
     var a = document.createElement('a');
     a.href = canvas.toDataURL("image/png");
-    a.download = 'myfile.png';
+    a.download = 'Schmoedown.png';
     a.click();
   });
 window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown game and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia", "_blank");

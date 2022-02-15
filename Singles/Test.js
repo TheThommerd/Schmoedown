@@ -2077,7 +2077,7 @@ function winKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
  		var ppe = ((b / posspoints) * 100)
@@ -2148,7 +2148,7 @@ function winTKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
  		var ppe = ((b / posspoints) * 100)
@@ -2184,7 +2184,7 @@ function loseTKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
  		var ppe = ((b / posspoints) * 100)
@@ -7179,6 +7179,6 @@ if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none"
 document.getElementById("message006").style.top = "-120px";
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
-if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out  yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
-else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out  yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }

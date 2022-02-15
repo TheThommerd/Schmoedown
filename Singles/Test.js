@@ -2133,7 +2133,7 @@ function loseKO(){
 		$("#tweetbutton").click(function() {
   		html2canvas($('#frame001')[0], {
     		width: 950,
-    		height: 585
+    		height: 700
   		}).then(function(canvas) {
     		var a = document.createElement('a');
     		a.href = canvas.toDataURL("image/png");

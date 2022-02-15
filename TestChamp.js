@@ -6976,3 +6976,32 @@ else if (stealmc == 0){
 }
 }
 }
+$('#save2').click(function() {
+  html2canvas($('#container')[0], {
+    width: 950,
+    height: 585
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    a.href = canvas.toDataURL("image/png");
+    a.download = 'myfile.png';
+    a.click();
+bannerImage = document.getElementById('Picture');
+imgData = getBase64Image(bannerImage);
+localStorage.setItem("imgData", imgData);
+  });
+});
+
+
+function getBase64Image(img) {
+    var canvas = document.createElement("canvas");
+    canvas.width = img.width;
+    canvas.height = img.height;
+
+    var ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0);
+
+    var dataURL = canvas.toDataURL("image/png");
+
+    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+}
+tweetbutton.href = "https://twitter.com/intent/tweet?text=" + "I just won a Schmoedown game with " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia";

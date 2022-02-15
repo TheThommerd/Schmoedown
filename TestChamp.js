@@ -7004,4 +7004,5 @@ function getBase64Image(img) {
 
     return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
 }
-tweetbutton.href = "https://twitter.com/intent/tweet?text=" + "I just won a Schmoedown game with " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia";
+tweetbutton.href = "https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown game and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out for yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown%23MovieTrivia";
+		

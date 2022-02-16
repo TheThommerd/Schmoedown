@@ -4802,6 +4802,10 @@ if (open == 4)
 {
 checkerq4();
 }
+if (open == 5)
+{
+checkerq5();
+}
 if (bettingbool == 1)
 {
 checkerbetting();

@@ -5704,7 +5704,7 @@ function next003() {
 		document.getElementById("message004").style.top = "10px";
 	    	document.getElementById("JTE").style.display = "none";
 		document.getElementById("chart").style.position = "relative";
-		document.getElementById("chart").style.top = "-220px";
+		document.getElementById("chart").style.top = "-40px";
 	    	document.getElementById("chart").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "none";
 	    	document.getElementById("message004").style.display = "none";

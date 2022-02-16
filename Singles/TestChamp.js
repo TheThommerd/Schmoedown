@@ -8521,10 +8521,10 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 }
 function openquestion2(){
-if (s - b > 18){
+if (s - b > 29){
 loseKO();
 }
-else if (b -s > 18){
+else if (b -s > 29){
 winKO();
 }
 else{
@@ -8582,10 +8582,10 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 }
 function openquestion3(){
-if (s - b > 16){
+if (s - b > 27){
 loseKO();
 }
-else if (b -s > 16){
+else if (b -s > 27){
 winKO();
 }
 else{
@@ -8643,10 +8643,10 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 }
 function openquestion4(){
-if (s - b > 14){
+if (s - b > 25){
 loseKO();
 }
-else if (b -s > 14){
+else if (b -s > 25){
 winKO();
 }
 else{
@@ -8704,10 +8704,10 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 }
 function openquestion5(){
-if (s - b > 12){
+if (s - b > 23){
 loseKO();
 }
-else if (b -s > 12){
+else if (b -s > 23){
 winKO();
 }
 else{
@@ -8842,10 +8842,10 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 }
 function mcquestion2(){
-if (s - b > 14){
+if (s - b > 25){
 loseKO();
 }
-else if (b -s > 14){
+else if (b -s > 25){
 winKO();
 }
 else{
@@ -8931,10 +8931,10 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 function mcquestion3(){
-if (s - b > 13){
+if (s - b > 24){
 loseKO();
 }
-else if (b -s > 13){
+else if (b -s > 24){
 winKO();
 }
 else{
@@ -9020,10 +9020,10 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 }
 function mcquestion4(){
-if (s - b > 12){
+if (s - b > 23){
 loseKO();
 }
-else if (b -s > 12){
+else if (b -s > 23){
 winKO();
 }
 else{
@@ -9109,10 +9109,10 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 }
 function mcquestion5(){
-if (s - b > 11){
+if (s - b > 22){
 loseKO();
 }
-else if (b -s > 11){
+else if (b -s > 22){
 winKO();
 }
 else{

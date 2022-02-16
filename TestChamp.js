@@ -3978,9 +3978,9 @@ similarity2 = 0;
 	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-30px";
-		document.getElementById("message004").style.top = "-20px";
-		document.getElementById("message006").style.top = "-30px";
+		document.getElementById("message003").style.top = "-50px";
+		document.getElementById("message004").style.top = "-40px";
+		document.getElementById("message006").style.top = "-50px";
             score001.innerHTML = b+=2;
 quescor++;
 	    cormusic.play();
@@ -3992,9 +3992,9 @@ quescor++;
 	    document.getElementById("mc").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[4].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-30px";
-		document.getElementById("message004").style.top = "-20px";
-		document.getElementById("message006").style.top = "-30px";
+		document.getElementById("message003").style.top = "-50px";
+		document.getElementById("message004").style.top = "-40px";
+		document.getElementById("message006").style.top = "-50px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
@@ -5980,9 +5980,9 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 14){
-		document.getElementById("message003").style.top = "-30px";
-		document.getElementById("message004").style.top = "-20px";
-		document.getElementById("message006").style.top = "-30px";
+		document.getElementById("message003").style.top = "-50px";
+		document.getElementById("message004").style.top = "-40px";
+		document.getElementById("message006").style.top = "-50px";
             	message003.innerHTML = "The correct answer is " + r2question001[4].answ2;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -6471,9 +6471,9 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 else if (opened == 5)
 {
-		document.getElementById("message003").style.top = "-30px";
-		document.getElementById("message004").style.top = "-20px";
-		document.getElementById("message006").style.top = "-30px";
+		document.getElementById("message003").style.top = "-50px";
+		document.getElementById("message004").style.top = "-40px";
+		document.getElementById("message006").style.top = "-50px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
            	message003.innerHTML = "The correct answer is " + compcat[4].answ2;
@@ -6689,9 +6689,9 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 5) && (bettingbool == 0))
 {
-		document.getElementById("message003").style.top = "-30px";
-		document.getElementById("message004").style.top = "-20px";
-		document.getElementById("message006").style.top = "-30px";
+		document.getElementById("message003").style.top = "-50px";
+		document.getElementById("message004").style.top = "-40px";
+		document.getElementById("message006").style.top = "-50px";
            	message003.innerHTML = "The correct answer is " +compcat[9].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();

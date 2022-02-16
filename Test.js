@@ -7169,7 +7169,7 @@ if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "none";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none";}
 if (navigator.userAgent.includes('Firefox')) {
   html2canvas($('#frame001')[0], {
-    width: 1500,
+    width: 1330,
     height: 900
   }).then(function(canvas) {
     var a = document.createElement('a');

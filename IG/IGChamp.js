@@ -5537,6 +5537,13 @@ message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin 
 		document.getElementById("message003").style.top = "-200px";
 }
 function bettinground() {
+if (s - b > 21){
+loseKO();
+}
+else if (b - s > 21){
+winKO();
+}
+else{
         open = 0;
 mc = 0 ;
 	    	document.getElementById("chart").style.visibility = "hidden";
@@ -5557,6 +5564,7 @@ message005.innerHTML = "<strong><font size=4>ROUND THREE</font><br/></br>COMPETI
 	    	document.getElementById("message006").style.top = "-160px";
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
+}
 }
 function bet0() {
 betpoints = 0;

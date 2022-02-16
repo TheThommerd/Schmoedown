@@ -5299,6 +5299,13 @@ data[11] = chosen[3];
 }
 
 function bettinground() {
+if (s - b > 21){
+loseKO();
+}
+else if (b - s > 21){
+winKO();
+}
+else{
         open = 0;
 	mc = 0 ;
 	    	document.getElementById("chart").style.visibility = "hidden";
@@ -5319,6 +5326,7 @@ message005.innerHTML = "<strong><font size=4>ROUND THREE</font><br/></br>COMPETI
 	    	document.getElementById("message006").style.top = "-180px";
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
+}
 }
 
 function bet0() {

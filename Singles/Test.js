@@ -7162,6 +7162,7 @@ else if ((stealmc == 0)  && (oppspinfirst == 1)){
 }
 }
 function tweetbutton() {
+document.getElementById("message006").style.top = "-270px";
 var KO = document.getElementById("KO");
 var TKO = document.getElementById("TKO");
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "none";}
@@ -7179,6 +7180,7 @@ if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none"
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });
+document.getElementById("message006").style.top = "-220px";
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}

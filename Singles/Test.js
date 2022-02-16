@@ -7172,10 +7172,10 @@ if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none"
     height: 650
   }).then(function(canvas) {
     var a = document.createElement('a');
-	  var month = (new Date()).getMonth();
-	  var day = (new Date()).getDate();
-	  var hours = (new Date()).getHours();
-	  var minutes = (new Date()).getMinutes();
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
     a.href = canvas.toDataURL("image/png");
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();

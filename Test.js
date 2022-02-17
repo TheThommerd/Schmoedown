@@ -7189,8 +7189,8 @@ else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just 
 }	
 else if ((navigator.userAgent.includes('Firefox')) && (document.getElementById("frame001").style.scale == 1.2)) {
   html2canvas($('#frame001')[0], {
-    width: 1140,
-    height: 800
+    width: 1200,
+    height: 900
   }).then(function(canvas) {
     var a = document.createElement('a');
     var month = (new Date()).getMonth() + 1;

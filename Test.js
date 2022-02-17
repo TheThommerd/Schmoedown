@@ -7187,10 +7187,10 @@ if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }	
-else if ((navigator.userAgent.includes('Firefox')) && (document.getElementById("frame001").style.scale == 1.2)) {
+else if ((navigator.userAgent.includes('Firefox')) && ((document.getElementById("frame001").style.scale == 1.2) || (document.getElementById("frame001").style.scale == 1.0))) {
   html2canvas($('#frame001')[0], {
     width: 1200,
-    height: 900
+    height: 950
   }).then(function(canvas) {
     var a = document.createElement('a');
     var month = (new Date()).getMonth() + 1;

@@ -7167,7 +7167,7 @@ var KO = document.getElementById("KO");
 var TKO = document.getElementById("TKO");
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "none";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none";}
-if (navigator.userAgent.includes('Firefox')) {
+if ((navigator.userAgent.includes('Firefox')) && (document.getElementById("frame001").style.scale == 1.4)) {
   html2canvas($('#frame001')[0], {
     width: 1330,
     height: 900
@@ -7187,6 +7187,26 @@ if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }	
+else if ((navigator.userAgent.includes('Firefox')) && (document.getElementById("frame001").style.scale == 1.2)) {
+  html2canvas($('#frame001')[0], {
+    width: 1140,
+    height: 800
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-40px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+}		
 else {	
   html2canvas($('#frame001')[0], {
     width: 950,

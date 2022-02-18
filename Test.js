@@ -7181,7 +7181,7 @@ if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "-40px";
+document.getElementById("message006").style.top = "15px";
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
@@ -7201,7 +7201,7 @@ else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "-40px";
+document.getElementById("message006").style.top = "15px";
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
@@ -7221,7 +7221,7 @@ else {
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "-40px";
+document.getElementById("message006").style.top = "15px";
 if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
 if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}

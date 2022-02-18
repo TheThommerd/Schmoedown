@@ -213,7 +213,7 @@ function submitname () {
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Erwin>Ethan Erwin</option><option value=McKee>Marisol McKee</option><option value=Murrell>Dan Murrell</option><option value=Murrell>Dan Murrell</option><option value=Newman>Griffin Newman</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Erwin>Ethan Erwin</option><option value=McKee>Marisol McKee</option><option value=Murrell>Dan Murrell</option><option value=Newman>Griffin Newman</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
 function submitpassword() {
@@ -234,7 +234,7 @@ document.getElementById("message006").style.top = "0px";
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Erwin>Ethan Erwin</option><option value=McKee>Marisol McKee</option><option value=Murrell>Dan Murrell</option><option value=Murrell>Dan Murrell</option><option value=Newman>Griffin Newman</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Erwin>Ethan Erwin</option><option value=McKee>Marisol McKee</option><option value=Murrell>Dan Murrell</option><option value=Newman>Griffin Newman</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 message001.innerHTML = "Choose your opponent.";
 }
  	var a = 0;

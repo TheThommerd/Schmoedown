@@ -2240,7 +2240,7 @@ function win(){
 		document.getElementById("message002").style.top = "-70px";
 		document.getElementById("message004").style.top = "-250px";
 		document.getElementById("message003").style.top = "-80px";
-		document.getElementById("message006").style.top = "-15px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
@@ -2274,7 +2274,7 @@ function lose(){
 		document.getElementById("message002").style.top = "-70px";
 		document.getElementById("message004").style.top = "-250px";
 		document.getElementById("message003").style.top = "-80px";
-		document.getElementById("message006").style.top = "-15px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 var mc = 0;

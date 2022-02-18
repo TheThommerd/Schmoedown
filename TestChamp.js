@@ -3175,10 +3175,10 @@ function win(){
 		document.getElementById("save").click();
 		message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
 		message004.setAttribute("data-html2canvas-ignore", true);	
-		document.getElementById("message002").style.top = "-85px";
-		document.getElementById("message004").style.top = "-265px";
-		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message002").style.top = "-70px";
+		document.getElementById("message004").style.top = "-250px";
+		document.getElementById("message003").style.top = "-80px";
+		document.getElementById("message006").style.top = "-15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
@@ -3209,10 +3209,10 @@ function lose(){
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 		message004.setAttribute("data-html2canvas-ignore", true);	
-		document.getElementById("message002").style.top = "-85px";
-		document.getElementById("message004").style.top = "-265px";
-		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message002").style.top = "-70px";
+		document.getElementById("message004").style.top = "-250px";
+		document.getElementById("message003").style.top = "-80px";
+		document.getElementById("message006").style.top = "-15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 var mc = 0;

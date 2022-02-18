@@ -6138,7 +6138,7 @@ if (typeof(element3) != 'undefined' && element3 != null)
 if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
-else if ((a == 17) && (opened == 0) && (mc == 0)){
+else if ((a == 17) && (opened == 0) && (mc == 0) && (bettingbool == 0)){
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";

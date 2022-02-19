@@ -507,7 +507,7 @@ function pregame(){
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-75px";
 message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
-	document.getElementById("message003").style.top = "15px";
+	document.getElementById("message003").style.top = "-25px";
 	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-115px";

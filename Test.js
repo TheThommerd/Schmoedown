@@ -6,6 +6,7 @@
 		document.getElementById("time001").style.visibility = "hidden";
 		document.getElementById("time001").style.display = "none";
 		document.getElementById("q2").focus();
+		document.getElementById("message004").style.top = "-20px";
 var qmusic = document.getElementById("QMusic"); 
 document.getElementById("QMusic").volume = 0.02;
 var intromusic = document.getElementById("Intro"); 

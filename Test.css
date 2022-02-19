@@ -35,48 +35,44 @@ display: none;
 .tableborder{
 display: none;
 }
-  body {
+      body {
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 	color: #222;
 	margin:0px;
 	padding:0px;
 	background-color:#E1E1E1;
- 
-}
-.background{
-  width: 950px;
-  height:auto;
-  top:0%;
-  left:0%;
-  position:relative;
-}
-	    
-.background img{
-   width: 950px;
-}
+	}
         #frame001 {
 	    margin: auto;
             border-radius: 5px;
             background-color: #fbfbfb;
 	    background-position: center top;
+	    position: relative;
             border: none;
             height: 1500px;
             width: 950px;
-	    position: relative;
 	    zoom: 1.4;
         }
         .buttons001 {
-            background-color: #A20714;
+            background-color: #188F1F;
             color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
+        .buzzer {
+            background-color: #A20714;
+            color: white;
+	    font-weight: bold;
+            font-size: 300%;
+            width: 500px;
+            height: 400px;
+        }
         .buttons003 {
 	    border-color: white;
     	    border-width: 1px;
-            background-color: #232223;
+           background-color: #232223;
             color: white;
 	    font-weight: bold;
             width: 500px;
@@ -91,7 +87,7 @@ display: none;
  	   visibility: hidden;
         }
         .buttons009 {
-            background-color: #A20714;
+            background-color: #188F1F;
             color: white;
             width: 120px;
             height: 30px;
@@ -113,14 +109,14 @@ display: none;
             border-radius: 5px;
         }
         .buttons008 {
-            background-color: #A20714;
+            background-color: #188F1F;
             color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
         .buttons006 {
-            background-color: #A20714;
+            background-color: #188F1F;
             color: white;
             width: 120px;
             height: 30px;
@@ -135,13 +131,13 @@ display: none;
         }
         #font001 {
             text-align: center;
-            font-size: 18px;
+            font-size: large;
             color: black;
-        }    
-       #player001 {
+        }
+        #player001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 44.5%;
+    top: 5.3%;
     left: 11.6%;
     font-size: 20px;
     font-weight: bold;
@@ -158,7 +154,7 @@ display: none;
         #player002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 44.5%;
+    top: 5.3%;
     left: 66.6%;
     font-size: 20px;
     font-weight: bold;
@@ -175,7 +171,7 @@ display: none;
         #record001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 46%;
+    top: 5.4%;
     left: 0;
     font-size: 14px;
     color: white;
@@ -192,7 +188,7 @@ display: none;
         #record002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 46%;
+    top: 5.4%;
     left: 88%;
     font-size: 14px;
     color: white;
@@ -208,7 +204,7 @@ display: none;
         #score001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 43%;
+    top: 5.3%;
     left: 32.8%;
     font-size: 34px;
     font-weight: bold;
@@ -225,7 +221,7 @@ display: none;
         #score002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 43%;
+    top: 5.3%;
     left: 56.5%;
     font-size: 34px;
     font-weight: bold;
@@ -242,7 +238,7 @@ display: none;
         #twitter001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 59%;
+    top: 7%;
     left: 0%;
     font-size: 11px;
     color: white;
@@ -259,7 +255,7 @@ display: none;
         #twitter002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 59%;
+    top: 7%;
     left: 88%;
     font-size: 11px;
     color: white;
@@ -276,7 +272,7 @@ display: none;
         #faction001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 72%;
+    top: 8.7%;
     left: 0%;
     text-align: center;
     font-size: 12px;
@@ -293,14 +289,14 @@ display: none;
         #faction002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 72%;
+    top: 8.7%;
     left: 88%;
     text-align: center;
     font-size: 12px;
     color: white;
     font-weight: bold;
     margin: auto;
-    width: 110px;
+    width: 108px;
     height: 25px;
     align-items: center;
     display: flex;
@@ -308,58 +304,58 @@ display: none;
     align-content: center;
         }
         #time001 {
-	    position: relative;
-	    top : 5px;
+	   position: relative;
+	    top : -160px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
-	    display: inline-block;
         }
-	    #message001 {
-            text-align: center;
-            font-size: 90%;
-            color: white;
-	    height: 37.714px;
-	    background: none repeat scroll 0;
-	    position: absolute;
-	    top : 16%;
-	    margin: auto;
-	    width: 100%; 
-        }
-       #message002{
+        #message002{
 	   position: relative;
-	    top : 10px;
+	    top : -150px;
         }
         #message003{
 	   position: relative;
-	    top : 0px;
+	    top : -160px;
         }
         #message004{
 	   position: relative;
-	    top : 10px;
-        }
-	   #message005 {
-	   position: relative;
-	    top : 0px;
-            text-align: center;
-            font-size: 90%;
-            color: black;
+	    top : -160px;
         }
         #message006{
 	   position: relative;
-	    top : 0px;
+	    top : -160px;
         }
         #JTE{
 	   position: relative;
-	    top : 10px;
+	    top : -150px;
             background-color: #232223;
             color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
-	    display: inline-block;
         }
-        #qu001 {
+        .smaller {
+            text-align: center;
+            font-size: 80%;
+            color: black;
+        }
+        #message005 {
+	   position: relative;
+	    top : -170px;
+            text-align: center;
+            font-size: 90%;
+            color: black;
+        }
+        #message001 {
+            text-align: center;
+            font-size: 90%;
+	    top: -164px;
+            color: white;
+	   position: relative;
+	    height: 37.714px;
+        }
+     #qu001 {
 	   background: none repeat scroll 0;
 	    position: absolute;
 	    top : 0%;
@@ -373,7 +369,7 @@ display: none;
         #round002 {
 	 background: none repeat scroll 0;
    	 position: absolute;
-    	 top: 83%;
+    	 top: 10%;
    	 left: 42.5%;
    	 font-size: 90%;
    	 color: white;
@@ -396,10 +392,14 @@ display: none;
 	    font-weight: bold;
 	    display: inline-block;
         }
+        #select{
+	   position: relative;
+ 	    left: 0px;
+        }
         #choose{
 	   position: relative;
  	    left: 0px;
-            background-color: #A20714;
+            background-color: #188F1F;
             color: white;
             width: 150px;
             height: 30px;
@@ -409,14 +409,6 @@ display: none;
   	width: 30%;
   	font-size: 16px;
 	}
-        .buzzer {
-            background-color: #A20714;
-            color: white;
-	    font-weight: bold;
-            font-size: 300%;
-            width: 500px;
-            height: 400px;
-        }
     #chart{
         position:relative;
         width:100px;
@@ -426,41 +418,6 @@ display: none;
 	font-weight: bold;
   	font-size: 13px;
     }
-    label.checkbox-label input[type=checkbox]{
-    position: relative;
-    vertical-align: middle;
-    left: 0px;
-    width: 15%;
-    }
-    label.checkbox2 input[type=checkbox]{
-        position: relative;
-        vertical-align: middle;
-        left:0px;
-	width: 15%;
-    }
-#checkboxes {
-    position: absolute;
-    top: 390px;
-    height: 700px;
-    width: 440px;
-    left: 300px;
-}
-#row1 {
-    position: absolute;
-    height: 700px;
-    width: 220px;
-    margin: auto;
-    left: 0px;
-    top: 0px;
-}
-#row2 {
-    position: absolute;
-    height: 700px;
-    width: 220px;
-    margin: auto;
-    left: 265px;
-    top: 0px;
-}
 ul.aligner  { 
   margin: 0; 
   padding: 0; 
@@ -484,7 +441,8 @@ ul.aligner li label {
   margin-left: ; 
   text-align: left;
 }
-body:fullscreen {
+
+   body:fullscreen {
   overflow: scroll !important;
 }
 body:-ms-fullscreen {
@@ -492,7 +450,7 @@ body:-ms-fullscreen {
 }
 body:-webkit-full-screen {
   overflow: scroll !important;
-  zoom: 0.4;
+   zoom: 0.4;
 }
 body:-moz-full-screen {
 overflow: scroll !important;

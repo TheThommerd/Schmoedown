@@ -155,10 +155,10 @@ var competitorlist2 = [
 "percentage": "72",
 },
 {
-"id": "Goddard",
-"lowercase": "Ben Goddard",
-"twitter": "@TheBenGoddard",
-"percentage": "70",
+"id": "Horowitz",
+"lowercase": "Josh Horowitz",
+"twitter": "@joshuahorowitz",
+"percentage": "72",
 },
 {
 "id": "Ghai",

@@ -35,14 +35,27 @@ display: none;
 .tableborder{
 display: none;
 }
-       body {
+	    body {
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 	color: #222;
 	margin:0px;
 	padding:0px;
 	background-color:#E1E1E1;
-	}
+	text-align:center;
+}
+        #frame001 {
+            border-radius: 0px;
+            background-position: center top;
+            background-color: #fbfbfb;
+            border: none;
+            height: auto;
+            width: 950px;
+            margin:auto;
+	    position: relative;
+	    zoom: 1.4;
+        }
+	 
 .background{
   width: 950px;
   height:auto;
@@ -54,32 +67,18 @@ display: none;
 .background img{
    width: 950px;
 }
-        #frame001 {
-	    margin: auto;
-            border-radius: 5px;
-            background-color: #fbfbfb;
-	    background-position: center top;
-            border: none;
-            height: 1500px;
-            width: 950px;
-	    position: relative;
-	    zoom: 1.4;
-        }
         .buttons001 {
-            background-color: #FCA600;
-            color: black;
-	    font-weight: bold;
+            background-color: #232223;
+            color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
         .buttons003 {
-	    border-color: white;
-    	    border-width: 1px;
             background-color: #232223;
             color: white;
 	    font-weight: bold;
-            width: 500px;
+            width: 120px;
             height: 40px;
         }
         .buttons004 {
@@ -91,9 +90,8 @@ display: none;
  	   visibility: hidden;
         }
         .buttons009 {
-            background-color: #FCA600;
-            color: black;
-	    font-weight: bold;
+            background-color: limegreen;
+            color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
@@ -107,24 +105,22 @@ display: none;
  	   visibility: hidden;
         }
         .buttons007 {
-            background-color: #232223;
+            background-color: crimson;
             color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
         .buttons008 {
-            background-color: #FCA600;
-            color: black;
-	    font-weight: bold;
+            background-color: crimson;
+            color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
         .buttons006 {
-            background-color: #FCA600;
-            color: black;
-	    font-weight: bold;
+            background-color: darkorange;
+            color: white;
             width: 120px;
             height: 30px;
             border-radius: 5px;
@@ -138,322 +134,446 @@ display: none;
         }
         #font001 {
             text-align: center;
-            font-size: 18px;
+            font-size: large;
             color: black;
         }
-	.buzzer {
-            background-color: #A20714;
-            color: white;
-	    font-weight: bold;
-            font-size: 300%;
-            width: 500px;
-            height: 400px;
-        }
       #player001 {
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 34.5%;
-    left: 11.6%;
-    font-size: 20px;
+    font-size: 60%;
     font-weight: bold;
     color: black;
-    margin: auto;
-    width: 200px;
-    height: 45px;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 12.9%;
     text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-        }
-        #player002 {
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 34.5%;
-    left: 66.6%;
-    font-size: 20px;
+}
+#player002 {
+    font-size: 60%;
     font-weight: bold;
     color: black;
-    width: 200px;
-    margin: auto;
-    height: 45px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;		
-        }  
-        #record001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 35.2%;
-    left: 0;
-    font-size: 14px;
-    color: black;
-    font-weight: bold;
-    margin: auto;
-    width: 108px;
-    height: 20px;
+    top: 47.1%;
+    left: 30.3%;
     text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-        }
-        #record002 {
+}
+#player003 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
     background: none repeat scroll 0;
     position: absolute;
-    top: 35.2%;
-    left: 88%;
-    font-size: 14px;
-    color: black;
-    font-weight: bold;
+    top: 47.1%;
+    left: 47.7%;
+    text-align: center;
     margin: auto;
-    width: 108px;
-    height: 20px;
+    width: 87px;
+    height: 42px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-        }	
-        #score001 {
+}
+#player004 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
     background: none repeat scroll 0;
     position: absolute;
-    top: 34.5%;
-    left: 32.8%;
-    font-size: 34px;
+    top: 47.1%;
+    left: 65.2%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#player005 {
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 82.6%;
+    text-align: center;
+    margin: auto;
+    width: 87px;
+    height: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score001 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
-    margin: auto;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 22.3%;
     text-align: center;
-    width: 95px;
-    height: 80px;
+    margin: auto;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-        }
-        #score002 {
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 34.5%;
-    left: 56.5%;
-    font-size: 34px;
+}
+#score002 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
-    margin: auto;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 39.7%;
     text-align: center;
-    width: 95px;
-    height: 80px;
+    margin: auto;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-        }
-        #twitter001 {
+}
+#score003 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
     background: none repeat scroll 0;
     position: absolute;
-    top: 45.4%;
+    top: 47.1%;
+    left: 57.1%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score004 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 74.5%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#score005 {
+    font-size: 180%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 47.1%;
+    left: 92%;
+    text-align: center;
+    margin: auto;
+    width: 73px;
+    height: 62px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter001 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 13.1%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter002 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 30.5%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter003 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 47.9%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter004 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 65.5%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#twitter005 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 82.7%;
+    left: 82.9%;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    height: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#round002 {
+    font-size: 90%;
+    color: black;
+    font-weight: bold;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 85.5%;
+    left: -1%;
+    text-align: center;
+    margin: auto;
+    width: 120px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#round001 {
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    text-align: center;
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+}
+#qu001 {
+    background: none repeat scroll 0;
+    top: 2%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+#message001 {
+    height: 37.714px;
+    text-align: center;
+    font-size: 90%;
+    color: white;
+    background: none repeat scroll 0;
+    top: 18.5%;
     left: 0%;
-    font-size: 11px;
-    color: black;
-    font-weight: bold;
     margin: auto;
-    width: 108px;
-    text-align: center;
-    height: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-        }
-        #twitter002 {
-    background: none repeat scroll 0;
+    width: 100%;
     position: absolute;
-    top: 45.4%;
-    left: 88%;
-    font-size: 11px;
-    color: black;
-    font-weight: bold;
-    margin: auto;
-    width: 110px;
-    text-align: center;
-    height: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-        }
-        #faction001 {
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 56.8%;
-    left: 0%;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-    font-weight: bold;
-    margin: auto;
-    width: 108px;
-    height: 25px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-        }
-        #faction002 {
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 56.8%;
-    left: 88%;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-    font-weight: bold;
-    margin: auto;
-    width: 108px;
-    height: 25px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-        }
+}
         #time001 {
 	   position: relative;
-	    top : -160px;
+	    top : -420px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
         }
         #message002{
 	   position: relative;
-	    top : -150px;
+	    top : -160px;
         }
         #message003{
 	   position: relative;
-	    top : -160px;
+	    top : -380px;
         }
         #message004{
 	   position: relative;
-	    top : -160px;
+	    top : -420px;
         }
         #message006{
 	   position: relative;
-	    top : -160px;
+	    top : -380px;
         }
-        #JTE{
+        #q1{
 	   position: relative;
-	    top : -150px;
-            background-color: #232223;
-            color: white;
-            width: 120px;
-            height: 30px;
-            border-radius: 5px;
+	    top : -300px;
+        }
+        #submit2{
+	   position: relative;
+	    top : -300px;
         }
         .smaller {
             text-align: center;
             font-size: 80%;
             color: black;
         }
+    #nummer1 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 13.3%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer2 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 30.7%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer3 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 48.1%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer4 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 65.6%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#nummer5 {
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+    background: none repeat scroll 0;
+    position: absolute;
+    top: 71.2%;
+    left: 83%;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    height: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
         #message005 {
 	   position: relative;
-	    top : -170px;
+	    top : -380px;
             text-align: center;
             font-size: 90%;
             color: black;
-        }
-            #message001 {
-            text-align: center;
-            font-size: 90%;
-	    top: -164px;
-            color: white;
-	   position: relative;
-	    height: 37.714px;
-        }
-   #qu001 {
-	   background: none repeat scroll 0;
-	    position: absolute;
-	    top : 0%;
-            text-align: center;
-            font-size: 18px;
-            color: white;
-	    font-weight: bold;
-	    margin: auto;
-	    width: 100%; 
-        }
-        #round002 {
-	 background: none repeat scroll 0;
-   	 position: absolute;
-    	 top: 64%;
-   	 left: 42.5%;
-   	 font-size: 90%;
-   	 color: black;
-   	 font-weight: bold;
-   	 margin: auto;
-   	 width: 125px;
-   	 height: 20px;
-   	 text-align: center;
-  	 align-items: center;
-  	 display: flex;
-  	 justify-content: center;
-        }
-	    #round001 {
-	   position: absolute;
-	    top : 0%;
- 	    left: 78%;
-            text-align: center;
-            font-size: 100%;
-            color: black;
-	    font-weight: bold;
-	    display: inline-block;
-        }
-        #choose{
-	   position: relative;
- 	    left: 0px;
-            background-color: #FCA600;
-            color: black;
-	    font-weight: bold;
-            width: 150px;
-            height: 30px;
-            border-radius: 5px;
         }
 	input {
   	width: 30%;
   	font-size: 16px;
 	}
-    #chart{
-        position:relative;
-        width:100px;
-        height:100px;
-        top:0;
-        left:275px;
-	font-weight: bold;
-  	font-size: 13px;
-    }
-	    ul.aligner  { 
-  margin: 0; 
-  padding: 0; 
-  margin-left: 250px; 
-  list-style: none; 
-              width: 700px;
-margin-block-end: 4em;
-font-size: 13px
-} 
-ul.aligner li input { 
-  margin-right: 1px;
-  text-align: left;
-   width: 10%;
-} 
-ul.aligner li { 
-  display:inline-block;
-   text-align: left; 
-   width: 350px;
-} 
-ul.aligner li label { 
-  margin-left: ; 
-  text-align: left;
-}
- body:fullscreen {
+	    	    body:fullscreen {
   overflow: scroll !important;
 }
 body:-ms-fullscreen {

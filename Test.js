@@ -1522,7 +1522,7 @@ function winKO(){
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "0px";
+		document.getElementById("message006").style.top = "-40px";	
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseKO(){
@@ -1557,7 +1557,7 @@ function loseKO(){
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "0px";
+		document.getElementById("message006").style.top = "-40px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -1593,7 +1593,7 @@ function winTKO(){
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "0px";
+		document.getElementById("message006").style.top = "-40px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseTKO(){
@@ -1628,7 +1628,7 @@ function loseTKO(){
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "0px";
+		document.getElementById("message006").style.top = "-40px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
@@ -1663,7 +1663,7 @@ function win(){
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "0px";
+		document.getElementById("message006").style.top = "-40px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
@@ -1697,7 +1697,7 @@ function lose(){
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "0px";
+		document.getElementById("message006").style.top = "-40px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 var mc = 0;

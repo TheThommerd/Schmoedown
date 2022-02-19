@@ -247,7 +247,7 @@ function begin001() {
 	    intromusic.pause();
 	    intromusic.currentTime = 0;
 	    qmusic.play();
-    var Minutes = 60 * 12,
+    var Minutes = 60 * 3,
         display = document.querySelector('#round002');
     startTimer(Minutes, display);
              c = 21;

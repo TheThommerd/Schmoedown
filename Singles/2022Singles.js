@@ -161,7 +161,7 @@ message004.innerHTML = "<select id=select><option value=Hauser>Paul Walter Hause
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Hauser>Paul Walter Hauser</option><option value=Schloth>Jessica Schlothy</option><option value=Silvestrini>Rachel Silvestrini</option><option value=Young>Britney Young</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+message004.innerHTML = "<select id=select><option value=Hauser>Paul Walter Hauser</option><option value=Schloth>Jessica Schloth</option><option value=Silvestrini>Rachel Silvestrini</option><option value=Young>Britney Young</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
  	var a = 0;

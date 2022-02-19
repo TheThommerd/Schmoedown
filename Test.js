@@ -493,8 +493,8 @@ var accuracy = ((quescor / quescount) * 100)
 		document.getElementById("TotalPoints_F4").value = parseInt(document.getElementById("TotalPoints_F4").value) +  quescor;
 	        message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message006").style.top = "-360px";
-		document.getElementById("message004").style.top = "-620px";
+		document.getElementById("message006").style.top = "-65px";
+		document.getElementById("message004").style.top = "-195px";
 }
 function newLoc() {
   window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");
@@ -504,12 +504,12 @@ function pregame(){
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>FREE4ALL</font><br/></br>5 COMPETITORS EACH ROUND, 45 COMPETITORS IN TOTAL</br></br>COMPETITORS RECEIVE 5 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>PLAYERS WITH THE LOWEST POINT TOTAL EACH ROUND ARE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
-	document.getElementById("message005").style.top = "-500px";
+	document.getElementById("message005").style.top = "-75px";
 message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
-	document.getElementById("message003").style.top = "-450px";
+	document.getElementById("message003").style.top = "-25px";
 	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
-	document.getElementById("message006").style.top = "-540px";
+	document.getElementById("message006").style.top = "-115px";
 	message004.innerHTML = "";
 }
 
@@ -558,7 +558,7 @@ if ((b > s) && (s == t) && (t == u)  && (u == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
@@ -1026,7 +1026,7 @@ else if ((b > t) && (t == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1178,7 +1178,7 @@ else if ((b > s) && (s == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1330,7 +1330,7 @@ else if ((b > s) && (s == t) && (t == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1480,7 +1480,7 @@ else if ((b > s) && (s == t) && (t == u) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1629,7 +1629,7 @@ else if ((b > u) && (u == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1702,7 +1702,7 @@ else if ((b > t) && (t == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-55x";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1775,7 +1775,7 @@ else if ((b > t) && (t == u)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1846,7 +1846,7 @@ else if ((b > s) && (s == v)){
                 message003.innerHTML = "";
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("save").click();
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
@@ -1917,7 +1917,7 @@ else if ((b > s) && (s == u)){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -1989,7 +1989,7 @@ else if ((b > s) && (s == t)){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2060,7 +2060,7 @@ else if (b > v){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2087,7 +2087,7 @@ else if (b > u){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2115,7 +2115,7 @@ else if (b > t){
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2143,7 +2143,7 @@ else if (b > s){
                 message002.innerHTML = "";
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2164,7 +2164,7 @@ else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminat
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML;
                 message003.innerHTML = "";
                 message005.innerHTML = "";
-	    document.getElementById("message002").style.top = "-470px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
@@ -2312,15 +2312,15 @@ function begin001() {
             c = 21;
                 time001.innerHTML = 20;
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-430px";
+	    document.getElementById("time001").style.top = "-7px";
 	    document.getElementById("message005").style.position = "relative";
-	    document.getElementById("message005").style.top = "-480px";
+	    document.getElementById("message005").style.top = "-55px";
 	    document.getElementById("message006").style.position = "relative";
-	    document.getElementById("message006").style.top = "-480px";
+	    document.getElementById("message006").style.top = "-55px";
 	    document.getElementById("message003").style.position = "relative";
-	    document.getElementById("message003").style.top = "-480px";
+	    document.getElementById("message003").style.top = "-55px";
 	    document.getElementById("message004").style.position = "relative";
-	    document.getElementById("message004").style.top = "-480px";
+	    document.getElementById("message004").style.top = "-55px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 document.getElementById("q1").focus();
@@ -2477,7 +2477,7 @@ function next001() {
 	qmusic.play();
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("time001").style.top = "-430px";
+	    document.getElementById("time001").style.top = "-7px";
 	    document.getElementById("chalacc").style.display = "initial";
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
@@ -3285,7 +3285,7 @@ $("#message002").keypress(function(event) {
             } 
 });
 function tweetbutton() {
-document.getElementById("message006").style.top = "-460px";
+document.getElementById("message006").style.top = "-55px";
 if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
   html2canvas($('#frame001')[0], {
     width: 1330,
@@ -3300,7 +3300,7 @@ if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "-360px";
+document.getElementById("message006").style.top = "65px";
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }	
@@ -3318,7 +3318,7 @@ else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "-360px";
+document.getElementById("message006").style.top = "65px";
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }
@@ -3336,7 +3336,7 @@ else {
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "-360px";
+document.getElementById("message006").style.top = "65px";
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }

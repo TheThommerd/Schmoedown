@@ -2882,13 +2882,6 @@ var r2Q5 = [
 },
 {
 "cat":"Animated",
-"ques":"Mel Brooks voices the character of Bigweld in what 2005 animated film?",
-"answ":"ROBOTS",
-"answ2":"Robots.",
-"option":["Robots", "A Bug's Life", "Madagascar", "Corpse Bride"],
-},
-{
-"cat":"Animated",
 "ques":"What government agency is after The Simpsons in The Simpsons Movie?",
 "answ":"EPA",
 "answ3":"ENVIRONMENTAL PROTECTION AGENCY",

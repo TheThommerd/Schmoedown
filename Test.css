@@ -35,7 +35,7 @@ display: none;
 .tableborder{
 display: none;
 }
-      body {
+       body {
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 	color: #222;
@@ -43,36 +43,40 @@ display: none;
 	padding:0px;
 	background-color:#E1E1E1;
 	}
+.background{
+  width: 950px;
+  height:auto;
+  top:0%;
+  left:0%;
+  position:relative;
+}
+	    
+.background img{
+   width: 950px;
+}
         #frame001 {
 	    margin: auto;
             border-radius: 5px;
             background-color: #fbfbfb;
 	    background-position: center top;
-	    position: relative;
             border: none;
             height: 1500px;
             width: 950px;
+	    position: relative;
 	    zoom: 1.4;
         }
         .buttons001 {
-            background-color: #188F1F;
-            color: white;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
-        .buzzer {
-            background-color: #A20714;
-            color: white;
-	    font-weight: bold;
-            font-size: 300%;
-            width: 500px;
-            height: 400px;
-        }
         .buttons003 {
 	    border-color: white;
     	    border-width: 1px;
-           background-color: #232223;
+            background-color: #232223;
             color: white;
 	    font-weight: bold;
             width: 500px;
@@ -87,14 +91,15 @@ display: none;
  	   visibility: hidden;
         }
         .buttons009 {
-            background-color: #188F1F;
-            color: white;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
         .buttons005 {
-            background-color: #A20714;
+            background-color: crimson;
             color: white;
             width: 120px;
             height: 40px;
@@ -109,15 +114,17 @@ display: none;
             border-radius: 5px;
         }
         .buttons008 {
-            background-color: #188F1F;
-            color: white;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
             width: 120px;
             height: 30px;
             border-radius: 5px;
         }
         .buttons006 {
-            background-color: #188F1F;
-            color: white;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
             width: 120px;
             height: 30px;
             border-radius: 5px;
@@ -131,17 +138,25 @@ display: none;
         }
         #font001 {
             text-align: center;
-            font-size: large;
+            font-size: 18px;
             color: black;
         }
-        #player001 {
+	.buzzer {
+            background-color: #A20714;
+            color: white;
+	    font-weight: bold;
+            font-size: 300%;
+            width: 500px;
+            height: 400px;
+        }
+      #player001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 5.3%;
+    top: 34.5%;
     left: 11.6%;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
     margin: auto;
     width: 200px;
     height: 45px;
@@ -154,11 +169,11 @@ display: none;
         #player002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 5.3%;
+    top: 34.5%;
     left: 66.6%;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
     width: 200px;
     margin: auto;
     height: 45px;
@@ -171,10 +186,10 @@ display: none;
         #record001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 5.4%;
+    top: 35.2%;
     left: 0;
     font-size: 14px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin: auto;
     width: 108px;
@@ -188,10 +203,10 @@ display: none;
         #record002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 5.4%;
+    top: 35.2%;
     left: 88%;
     font-size: 14px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin: auto;
     width: 108px;
@@ -204,7 +219,7 @@ display: none;
         #score001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 5.3%;
+    top: 34.5%;
     left: 32.8%;
     font-size: 34px;
     font-weight: bold;
@@ -221,7 +236,7 @@ display: none;
         #score002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 5.3%;
+    top: 34.5%;
     left: 56.5%;
     font-size: 34px;
     font-weight: bold;
@@ -238,10 +253,10 @@ display: none;
         #twitter001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 7%;
+    top: 45.4%;
     left: 0%;
     font-size: 11px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin: auto;
     width: 108px;
@@ -255,10 +270,10 @@ display: none;
         #twitter002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 7%;
+    top: 45.4%;
     left: 88%;
     font-size: 11px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin: auto;
     width: 110px;
@@ -272,7 +287,7 @@ display: none;
         #faction001 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 8.7%;
+    top: 56.8%;
     left: 0%;
     text-align: center;
     font-size: 12px;
@@ -289,7 +304,7 @@ display: none;
         #faction002 {
     background: none repeat scroll 0;
     position: absolute;
-    top: 8.7%;
+    top: 56.8%;
     left: 88%;
     text-align: center;
     font-size: 12px;
@@ -347,7 +362,7 @@ display: none;
             font-size: 90%;
             color: black;
         }
-        #message001 {
+            #message001 {
             text-align: center;
             font-size: 90%;
 	    top: -164px;
@@ -355,7 +370,7 @@ display: none;
 	   position: relative;
 	    height: 37.714px;
         }
-     #qu001 {
+   #qu001 {
 	   background: none repeat scroll 0;
 	    position: absolute;
 	    top : 0%;
@@ -369,10 +384,10 @@ display: none;
         #round002 {
 	 background: none repeat scroll 0;
    	 position: absolute;
-    	 top: 10%;
+    	 top: 64%;
    	 left: 42.5%;
    	 font-size: 90%;
-   	 color: white;
+   	 color: black;
    	 font-weight: bold;
    	 margin: auto;
    	 width: 125px;
@@ -388,19 +403,16 @@ display: none;
  	    left: 78%;
             text-align: center;
             font-size: 100%;
-            color: white;
+            color: black;
 	    font-weight: bold;
 	    display: inline-block;
-        }
-        #select{
-	   position: relative;
- 	    left: 0px;
         }
         #choose{
 	   position: relative;
  	    left: 0px;
-            background-color: #188F1F;
-            color: white;
+            background-color: #FCA600;
+            color: black;
+	    font-weight: bold;
             width: 150px;
             height: 30px;
             border-radius: 5px;
@@ -418,7 +430,7 @@ display: none;
 	font-weight: bold;
   	font-size: 13px;
     }
-ul.aligner  { 
+	    ul.aligner  { 
   margin: 0; 
   padding: 0; 
   margin-left: 250px; 
@@ -441,8 +453,7 @@ ul.aligner li label {
   margin-left: ; 
   text-align: left;
 }
-
-   body:fullscreen {
+ body:fullscreen {
   overflow: scroll !important;
 }
 body:-ms-fullscreen {

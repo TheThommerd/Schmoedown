@@ -1,4 +1,5 @@
-<!DOCTYPE html><head><meta name="viewport" content="width=device-width, height=device-height">
+<!DOCTYPE html>
+<head><meta name="viewport" content="width=device-width, height=device-height">
 <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 <link rel="stylesheet" href="Test.css">
 </head> 
@@ -6,88 +7,40 @@
 <audio id="myAudio"><source src="/Schmoedown/Media/Ding_Sound_Effect.mp3" type="audio/mpeg"></audio>
 <audio id="myAudio2"><source src="/Schmoedown/Media/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg"></audio>
 <audio id="QMusic"><source src="/Schmoedown/Media/Question.mp3" type="audio/mpeg"></audio>	
-<audio id="Intro"><source src="/Schmoedown/Media/Intro.wav" type="audio/wav"></audio>	
+<audio id="Intro"><source src="/Schmoedown/Media/Intro.wav" type="audio/wav"></audio>
 <button id="goFS" class="goFS">Go fullscreen</button>
-<div id="frame001"><div id="font001"><div class="background"><img id="background" src="Singles/Singles_Background.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">ROUND <text id="round001">1</text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><text id="time001"></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div></br></div>
-<form id="save-later-form-test"><input name="Name" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="Twitter" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChampion" required hidden><input name="AnsweredQuestions" value="0" type="number" id="AnsweredQuestions" required hidden><input name="CorrectQuestions" value="0" type="number" id="CorrectQuestions" required hidden><input name="PossiblePoints" value="0" type="number" id="PossiblePoints" required hidden><input name="TotalPoints" value="0" type="number" id="TotalPoints" required hidden></input><input name="Wins" value="0" type="number" id="wins" required hidden><input name="Losses" value="0" type="number" id="losses" required hidden><input name="TKOs" value="0" type="number" id="TKOs" required hidden><input name="TKOd" value="0" type="number" id="TKOd" required hidden><input name="KOs" value="0" type="number" id="KOs" required hidden><input name="KOd" value="0" type="number" id="KOd" required hidden><input name="championships" value="0" type="number" id="championships" required hidden></form><button type="submit" id="save" hidden>Save</button></br><div id="checkboxes"></div></div></div>
+<div id="frame001"><div id="font001"><div class="background"><img id="background" src="IG/IG_background.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">ROUND <text id="round001">1</text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><br><br><br><br><text id="time001"></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div>
+<form id="save-later-form-test"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="PasswordR2" value="wachtwoordR2" type="text" id="passwordsaverR2" required hidden></input><input name="PasswordR3" value="wachtwoordR3" type="text" id="passwordsaverR3" required hidden></input><input name="PasswordEight" value="wachtwoordEight" type="text" id="passwordsaverEight" required hidden></input><input name="PasswordQuarter" value="wachtwoordQuarter" type="text" id="passwordsaverQuarter" required hidden></input><input name="PasswordSemi" value="wachtwoordSemi" type="text" id="passwordsaverSemi" required hidden></input><input name="PasswordChampion" value="wachtwoordChampion" type="text" id="passwordsaverChamp" required hidden></input><input name="AnsweredQuestions_IG" value="0" type="number" id="AnsweredQuestions_IG" required hidden><input name="CorrectQuestions_IG" value="0" type="number" id="CorrectQuestions_IG" required hidden><input name="PossiblePoints_IG" value="0" type="number" id="PossiblePoints_IG" required hidden><input name="TotalPoints_IG" value="0" type="number" id="TotalPoints_IG" required hidden></input><input name="Wins_IG" value="0" type="number" id="wins_IG" required hidden><input name="Losses_IG" value="0" type="number" id="losses_IG" required hidden><input name="TKOs_IG" value="0" type="number" id="TKOs_IG" required hidden><input name="TKOd_IG" value="0" type="number" id="TKOd_IG" required hidden><input name="KOs_IG" value="0" type="number" id="KOs_IG" required hidden><input name="KOd_IG" value="0" type="number" id="KOd_IG" required hidden><input name="championships_IG" value="0" type="number" id="championships_IG" required hidden></form><button type="submit" id="save" hidden>Save</button></div>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="Singles/lib/1. FantasyScifi.js" charset="utf-8"></script>
-<script src="Singles/lib/2. Comedy.js" charset="utf-8"></script>
-<script src="Singles/lib/2 pointer.js" charset="utf-8"></script>
-<script src="Singles/lib/3 pointer.js" charset="utf-8"></script>
-<script src="Singles/lib/3. Horror.js" charset="utf-8"></script>
-<script src="Singles/lib/4. ActionAdventure.js" charset="utf-8"></script>
-<script src="Singles/lib/5 Pointers.js" charset="utf-8"></script>
-<script src="Singles/lib/5. Animated.js" charset="utf-8"></script>
-<script src="Singles/lib/6. Oscar Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/7. 80s.js" charset="utf-8"></script>
-<script src="Singles/lib/8. 90s.js" charset="utf-8"></script>
-<script src="Singles/lib/9. Drama.js" charset="utf-8"></script>
-<script src="Singles/lib/10. Comic Book Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/11. Holiday Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/12. Romcoms.js" charset="utf-8"></script>
-<script src="Singles/lib/13. Directors.js" charset="utf-8"></script>
-<script src="Singles/lib/14. Biopics.js" charset="utf-8"></script>
-<script src="Singles/lib/15. Coming of Age.js" charset="utf-8"></script>
-<script src="Singles/lib/16. Crime.js" charset="utf-8"></script>
-<script src="Singles/lib/17. Disney.js" charset="utf-8"></script>
-<script src="Singles/lib/18. Family Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/19. Famous Actors and Actresses.js" charset="utf-8"></script>
-<script src="Singles/lib/20. Martin Scorcese.js" charset="utf-8"></script>
-<script src="Singles/lib/21. 70s.js" charset="utf-8"></script>
-<script src="Singles/lib/22. Movie Release Dates.js" charset="utf-8"></script>
-<script src="Singles/lib/23. Movie Quotes.js" charset="utf-8"></script>
-<script src="Singles/lib/24. Movie Taglines.js" charset="utf-8"></script>
-<script src="Singles/lib/25. Romance.js" charset="utf-8"></script>
-<script src="Singles/lib/26. Sly & Arnie.js" charset="utf-8"></script>
-<script src="Singles/lib/27. Spielberg.js" charset="utf-8"></script>
-<script src="Singles/lib/28. Pixar.js" charset="utf-8"></script>
-<script src="Singles/lib/29. Spy Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/30. Sports.js" charset="utf-8"></script>
-<script src="Singles/lib/31. Sandra Bullock.js" charset="utf-8"></script>
-<script src="Singles/lib/32. Thrillers.js" charset="utf-8"></script>
-<script src="Singles/lib/33. Scores & Soundtracks.js" charset="utf-8"></script>
-<script src="Singles/lib/34. Tom Hanks.js" charset="utf-8"></script>
-<script src="Singles/lib/35. War.js" charset="utf-8"></script>
-<script src="Singles/lib/36. Musicals.js" charset="utf-8"></script>
-<script src="Singles/lib/37. 2010s.js" charset="utf-8"></script>
-<script src="Singles/lib/38. Classics.js" charset="utf-8"></script>
-<script src="Singles/lib/39. Westerns.js" charset="utf-8"></script>
-<script src="Singles/lib/40. Monster Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/41. 2000s.js" charset="utf-8"></script>
-<script src="Singles/lib/42. Will Smith.js" charset="utf-8"></script>
-<script src="Singles/lib/43. Quentin Tarantino.js" charset="utf-8"></script>
-<script src="Singles/lib/44. Tim Burton.js" charset="utf-8"></script>
-<script src="Singles/lib/45. Kevin Smith.js" charset="utf-8"></script>
-<script src="Singles/lib/46. Tom Cruise.js" charset="utf-8"></script>
-<script src="Singles/lib/47. Julia Roberts.js" charset="utf-8"></script>
-<script src="Singles/lib/48. Denzel Washington.js" charset="utf-8"></script>
-<script src="Singles/lib/49. Disaster Movies.js" charset="utf-8"></script>
-<script src="Singles/lib/50. Dance.js" charset="utf-8"></script>
-<script src="Singles/lib/51. Scarlett Johansson.js" charset="utf-8"></script>
-<script src="Singles/lib/52. Hitchcock.js" charset="utf-8"></script>
-<script src="Singles/lib/53. Stanley Kubrick.js" charset="utf-8"></script>
-<script src="Singles/lib/54. Video Games.js" charset="utf-8"></script>
-<script src="Singles/lib/55. Christopher Nolan.js" charset="utf-8"></script>
-<script src="Singles/lib/56. Cameron Diaz.js" charset="utf-8"></script>
-<script src="Singles/lib/57. Meryl Streep.js" charset="utf-8"></script>
-<script src="Singles/lib/58. James Bond.js" charset="utf-8"></script>
-<script src="Singles/lib/59. Matthew McConaughey.js" charset="utf-8"></script>
-<script src="Singles/lib/60. Festival Darlings.js" charset="utf-8"></script>
-<script src="Singles/lib/61. Cate Blanchett.js" charset="utf-8"></script>
-<script src="Singles/lib/62. Eddie Murphy.js" charset="utf-8"></script>
-<script src="Singles/lib/63. Audrey Hepburn.js" charset="utf-8"></script>
-<script src="Singles/lib/64. Kurt Russell.js" charset="utf-8"></script>
-<script src="Singles/lib/65. Adam Sandler.js" charset="utf-8"></script>
-<script src="Singles/lib/66. John Carpenter.js" charset="utf-8"></script>
-<script src="Singles/lib/67. Clint Eastwood.js" charset="utf-8"></script>
-<script src="Singles/lib/68. Black Cinema.js" charset="utf-8"></script>
-<script src="Singles/lib/69. YA Adaptations.js" charset="utf-8"></script>
-<script src="Singles/lib/70. DreamWorks Animation.js" charset="utf-8"></script>
-<script src="Singles/lib/Mixed Bag.js" charset="utf-8"></script>
+<script src="IG/lib/1. DC.js" charset="utf-8"></script>
+<script src="IG/lib/2. Star Wars.js" charset="utf-8"></script>
+<script src="IG/lib/3 pointer.js" charset="utf-8"></script>
+<script src="IG/lib/3. Wizarding World.js" charset="utf-8"></script>
+<script src="IG/lib/4. Star Trek.js" charset="utf-8"></script>
+<script src="IG/lib/5 pointer.js" charset="utf-8"></script>
+<script src="IG/lib/5. Marvel.js" charset="utf-8"></script>
+<script src="IG/lib/6. Middle Earth.js" charset="utf-8"></script>
+<script src="IG/lib/7. Mixed Bag.js" charset="utf-8"></script>
+<script src="IG/lib/8. Heroes & Villains.js" charset="utf-8"></script>
+<script src="IG/lib/9. Scores & Soundtracks.js" charset="utf-8"></script>
+<script src="IG/lib/10. Who Said It.js" charset="utf-8"></script>
+<script src="IG/lib/11. Jurassic Park.js" charset="utf-8"></script>
+<script src="IG/lib/12. Transformers.js" charset="utf-8"></script>
+<script src="IG/lib/13. AlienPredator.js" charset="utf-8"></script>
+<script src="IG/lib/14. Planet of the Apes.js" charset="utf-8"></script>
+<script src="IG/lib/15. Animated.js" charset="utf-8"></script>
+<script src="IG/lib/16. Swashbuckling.js" charset="utf-8"></script>
+<script src="IG/lib/17. Teenage Mutant Turtles.js" charset="utf-8"></script>
+<script src="IG/lib/18. Graphic Novels.js" charset="utf-8"></script>
+<script src="IG/lib/19. Dystopian Future Time Travel.js" charset="utf-8"></script>
+<script src="IG/lib/20. Superman.js" charset="utf-8"></script>
+<script src="IG/lib/21. Batman.js" charset="utf-8"></script>
+<script src="IG/lib/22. X-Men.js" charset="utf-8"></script>
+<script src="IG/lib/23. Spider-Man.js" charset="utf-8"></script>
+<script src="IG/lib/Speed.js" charset="utf-8"></script>
 <script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="Singles/competitorlistSingles.js"></script>
+<script src="IG/competitorlistIG.js"></script>
 <script src="TestChamp.js"></script>
 <script src="new_record_test.js"></script>
 </body>

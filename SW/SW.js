@@ -2,7 +2,12 @@ var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
   }, false);
+var qmusic = document.getElementById("QMusic"); 
+document.getElementById("QMusic").volume = 0.02;
+var intromusic = document.getElementById("Intro"); 
+document.getElementById("Intro").volume = 0.02;
 function load(){
+intromusic.play();
 	if (document.getElementById("wins_SW").value.length < 1)
 	{
 	document.getElementById("wins_SW").value = 0;
@@ -691,6 +696,9 @@ else if (data[picked] == r2Q15[0].cat){r2question001 = r2Q15;}
 r2question001 = shuffle(r2question001);
 }
 function begin001() {
+	    intromusic.pause();
+	    intromusic.currentTime = 0;
+	    qmusic.play();
 time001.innerHTML = 20;
             c = 21;
 	    document.getElementById("JTE").style.visibility = "visible";
@@ -865,6 +873,8 @@ else if (j == 0) {
 	      }
 }
          function qcor() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-170px";
 		document.getElementById("message004").style.top = "-170px";
 		document.getElementById("message006").style.top = "-170px";
@@ -937,6 +947,8 @@ if (mc == 5){
 }
 }
         function qinc() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-170px";
 		document.getElementById("message004").style.top = "-170px";
 		document.getElementById("message006").style.top = "-170px";
@@ -1386,7 +1398,7 @@ function winKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
  		var ppe = ((b / posspoints) * 100)
@@ -1403,7 +1415,8 @@ function winKO(){
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
-message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+		message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-220px";
 		document.getElementById("message004").style.top = "-395px";
 		document.getElementById("message003").style.top = "-250px";
@@ -1421,7 +1434,7 @@ function loseKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
  		var ppe = ((b / posspoints) * 100)
@@ -1437,7 +1450,8 @@ function loseKO(){
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-240px";
 		document.getElementById("message004").style.top = "-415px";
 		document.getElementById("message003").style.top = "-240px";
@@ -1455,7 +1469,7 @@ function winTKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
  		var ppe = ((b / posspoints) * 100)
@@ -1472,7 +1486,8 @@ function winTKO(){
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
-message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+		message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-240px";
 		document.getElementById("message004").style.top = "-415px";
 		document.getElementById("message003").style.top = "-240px";
@@ -1490,7 +1505,7 @@ function loseTKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
  		var ppe = ((b / posspoints) * 100)
@@ -1506,7 +1521,8 @@ function loseTKO(){
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-240px";
 		document.getElementById("message004").style.top = "-415px";
 		document.getElementById("message003").style.top = "-240px";
@@ -1540,7 +1556,8 @@ function win(){
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
-message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+		message004.innerHTML = "You have unlocked the next round. Use the password 'Threepio' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-240px";
 		document.getElementById("message004").style.top = "-415px";
 		document.getElementById("message003").style.top = "-240px";
@@ -1573,7 +1590,8 @@ function lose(){
 		document.getElementById("PossiblePoints_SW").value = parseInt(document.getElementById("PossiblePoints_SW").value)  +  posspoints;
 		document.getElementById("TotalPoints_SW").value = parseInt(document.getElementById("TotalPoints_SW").value) +  b
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-240px";
 		document.getElementById("message004").style.top = "-415px";
 		document.getElementById("message003").style.top = "-240px";
@@ -1581,8 +1599,10 @@ function lose(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 var mc = 0;
-var open = 0;
+var opened = 0;
 function checker() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 	similarity1 = 0;
 similarity2 = 0;
 document.getElementById("message003").style.top = "-160px";
@@ -2493,7 +2513,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
             }
 }
-if ((a == 17) && (open == 0) && (mc == 0)){
+if ((a == 17) && (opened == 0) && (mc == 0)){
 	    var question012 = document.getElementById("q1").value.toUpperCase();
 	    var question12 = myTrim(question012);
 	    question12 = myTrim(question12);
@@ -3132,23 +3152,23 @@ quescor++;
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
             }
 }
-if (open == 1)
+if (opened == 1)
 {
 checkerq1();
 }
-if (open == 2)
+if (opened == 2)
 {
 checkerq2();
 }
-if (open == 3)
+if (opened == 3)
 {
 checkerq3();
 }
-if (open == 4)
+if (opened == 4)
 {
 checkerq4();
 }
-if (open == 5)
+if (opened == 5)
 {
 checkerq5();
 }
@@ -3173,6 +3193,7 @@ document.getElementById("sub").style.display = "none";
 document.getElementById("mc").style.display = "none";
 }
 function next001() {
+	qmusic.play();
 	document.getElementById("message002").style.top = "-150px";
         document.getElementById("message002").style.display= "block";
 	    document.getElementById("message004").style.top = "-160px";
@@ -4029,6 +4050,8 @@ function timer001() {
                 time001.innerHTML = c;
             }
             if (c < 1) {
+	    qmusic.pause();
+	    qmusic.currentTime = 0;
 	   quescount++;
 document.getElementById("message003").style.top = "-160px";
 document.getElementById("message004").style.top = "-160px";
@@ -4468,7 +4491,7 @@ if (typeof(element3) != 'undefined' && element3 != null)
 if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
-else if ((a == 17) && (open == 0) && (mc == 0)){
+else if ((a == 17) && (opened == 0) && (mc == 0)){
 		document.getElementById("message003").style.top = "-210px";
 		document.getElementById("message004").style.top = "-210px";
 		document.getElementById("message006").style.top = "-210px";
@@ -4698,7 +4721,7 @@ else if (a == 29){
 	   posspoints+=1;
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-else if (open == 1)
+else if (opened == 1)
 {
 		document.getElementById("message003").style.top = "-210px";
 		document.getElementById("message004").style.top = "-210px";
@@ -4720,7 +4743,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
-else if (open == 2)
+else if (opened == 2)
 {
 		document.getElementById("message003").style.top = "-210px";
 		document.getElementById("message004").style.top = "-210px";
@@ -4742,7 +4765,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
-else if (open == 3)
+else if (opened == 3)
 {
 		document.getElementById("message003").style.top = "-210px";
 		document.getElementById("message004").style.top = "-210px";
@@ -4764,7 +4787,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
-else if (open == 4)
+else if (opened == 4)
 {
 		document.getElementById("message003").style.top = "-210px";
 		document.getElementById("message004").style.top = "-210px";
@@ -4786,7 +4809,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
-else if (open == 5)
+else if (opened == 5)
 {
 		document.getElementById("message003").style.top = "-210px";
 		document.getElementById("message004").style.top = "-210px";
@@ -5079,6 +5102,8 @@ message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin 
 		document.getElementById("message003").style.top = "-200px";
 }
 function next002() {
+ 		qmusic.pause();
+		qmusic.currentTime = 0;
 	    document.getElementById("message004").style.top = "-160px";
         document.getElementById("message001").style.fontSize = "90%";
 	    	document.getElementById("chart").style.visibility = "hidden";
@@ -5097,8 +5122,10 @@ function next002() {
 	    	document.getElementById("chalden").style.display = "none";
 }
 function next005() {
-        open = 0;
+        opened = 0;
 mc = 0;
+ 		qmusic.pause();
+		qmusic.currentTime = 0;
 	document.getElementById("message004").style.top = "-160px";
         document.getElementById("message001").style.fontSize = "90%";
 if (s - b > 10){
@@ -5620,6 +5647,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }	   
 }
 function openquestion(){
+ qmusic.play();
 	document.getElementById("message003").style.top = "-160px";
         document.getElementById("message001").style.fontSize = "90%";
 	    	document.getElementById("JTE").style.display = "initial";
@@ -5653,7 +5681,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message006.innerHTML = "";
 		
  		qu001.innerHTML = "STEAL - " +compcat[0].cat.toUpperCase();
-		open++;
+		opened++;
                 if (c < 1) {
                     window.clearInterval(update);
                     message001.innerHTML = "Time's up";
@@ -5679,6 +5707,7 @@ else if (b -s > 18){
 winKO();
 }
 else{
+ qmusic.play();
         document.getElementById("message001").style.fontSize = "90%";
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
@@ -5710,7 +5739,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message006.innerHTML = "";
 		
  		qu001.innerHTML = "STEAL - " +compcat[1].cat.toUpperCase();
-		open++;
+		opened++;
                 if (c < 1) {
                     window.clearInterval(update);
                     message001.innerHTML = "Time's up";
@@ -5737,6 +5766,7 @@ else if (b -s > 16){
 winKO();
 }
 else{
+ qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -5767,7 +5797,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message006.innerHTML = "";
 		
  		qu001.innerHTML = "STEAL - " +compcat[2].cat.toUpperCase();
-		open++;
+		opened++;
                 if (c < 1) {
                     window.clearInterval(update);
                     message001.innerHTML = "Time's up";
@@ -5794,6 +5824,7 @@ else if (b -s > 14){
 winKO();
 }
 else{
+ qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -5824,7 +5855,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message006.innerHTML = "";
 		
  		qu001.innerHTML = "STEAL - " +compcat[3].cat.toUpperCase();
-		open++;
+		opened++;
                 if (c < 1) {
                     window.clearInterval(update);
                     message001.innerHTML = "Time's up";
@@ -5851,6 +5882,7 @@ else if (b -s > 12){
 winKO();
 }
 else{
+ qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -5881,7 +5913,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 message006.innerHTML = "";
 		
  		qu001.innerHTML = "STEAL - " +compcat[4].cat.toUpperCase();
-		open++;
+		opened++;
                 if (c < 1) {
                     window.clearInterval(update);
                     message001.innerHTML = "Time's up";
@@ -5898,6 +5930,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 }
 function mcquestion(){
+ qmusic.play();
 	document.getElementById("message003").style.top = "-160px";
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
@@ -5960,7 +5993,7 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
                 message004.innerHTML = "";
 		
  		qu001.innerHTML = "STEAL - " +compcat[5].cat.toUpperCase();
-		open = 0;
+		opened = 0;
 		mc++;
                 if (c < 1) {
                     window.clearInterval(update);
@@ -5983,7 +6016,8 @@ loseKO();
 else if (b -s > 14){
 winKO();
 }
-else{
+else{ 
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6069,6 +6103,7 @@ else if (b -s > 13){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6154,6 +6189,7 @@ else if (b -s > 12){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6239,6 +6275,7 @@ else if (b -s > 11){
 winKO();
 }
 else{
+		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -6314,5 +6351,72 @@ else if (stealmc == 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 }
+}
+}
+function tweetbutton() {
+document.getElementById("message006").style.top = "-250px";
+var KO = document.getElementById("KO");
+var TKO = document.getElementById("TKO");
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "none";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none";}
+if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
+  html2canvas($('#frame001')[0], {
+    width: 1330,
+    height: 900
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-140px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+}	
+else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)) {
+  html2canvas($('#frame001')[0], {
+    width: 950,
+    height: 700
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-140px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+}
+else {	
+  html2canvas($('#frame001')[0], {
+    width: 950,
+    height: 650
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-140px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }
 }

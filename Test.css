@@ -49,7 +49,7 @@ display: none;
             background-position: center top;
             background-color: #fbfbfb;
             border: none;
-            height: auto;
+            height: 1000px;
             width: 950px;
             margin:auto;
 	    position: relative;
@@ -443,26 +443,26 @@ display: none;
 }
         #time001 {
 	   position: relative;
-	    top : -420px;
+	    top : -7px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
         }
         #message002{
 	   position: relative;
-	    top : -160px;
+	    top : 265px;
         }
         #message003{
 	   position: relative;
-	    top : -380px;
+	    top : -55px;
         }
         #message004{
 	   position: relative;
-	    top : -420px;
+	    top : -55px;
         }
         #message006{
 	   position: relative;
-	    top : -380px;
+	    top : -55px;
         }
         #q1{
 	   position: relative;

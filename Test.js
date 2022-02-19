@@ -558,7 +558,7 @@ if ((b > s) && (s == t) && (t == u)  && (u == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
@@ -1026,7 +1026,7 @@ else if ((b > t) && (t == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1178,7 +1178,7 @@ else if ((b > s) && (s == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1330,7 +1330,7 @@ else if ((b > s) && (s == t) && (t == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1480,7 +1480,7 @@ else if ((b > s) && (s == t) && (t == u) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
@@ -1629,7 +1629,7 @@ else if ((b > u) && (u == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55px";
+	    document.getElementById("message002").style.top = "-45px";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100
@@ -1702,7 +1702,7 @@ else if ((b > t) && (t == v)){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-55x";
+	    document.getElementById("message002").style.top = "-45x";
 rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //100

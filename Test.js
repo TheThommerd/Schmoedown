@@ -1,10 +1,15 @@
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 document.getElementById("q2").focus();
+var qmusic = document.getElementById("QMusic"); 
+document.getElementById("QMusic").volume = 0.02;
+var intromusic = document.getElementById("Intro"); 
+document.getElementById("Intro").volume = 0.02;
   var goFS = document.getElementById("goFS");
   goFS.addEventListener("click", function() {
       document.body.requestFullscreen();
   }, false);
 function load(){
+intromusic.play();
 	if (document.getElementById("wins").value.length < 1)
 	{
 	document.getElementById("wins").value = 0;
@@ -831,6 +836,9 @@ else if (data[picked] == r2Q70[0].cat){r2question001 = r2Q70;}
 r2question001 = shuffle(r2question001); 
 }
 function begin001() {
+	    intromusic.pause();
+	    intromusic.currentTime = 0;
+	    qmusic.play();
             c = 21;
 time001.innerHTML = 20;
 	    document.getElementById("JTE").style.visibility = "visible";
@@ -1006,6 +1014,8 @@ else if (j == 0) {
 	      }
 }
         function qcor() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-10px";
 		document.getElementById("message004").style.top = "0px";
 		document.getElementById("message006").style.top = "-10px";
@@ -1070,6 +1080,8 @@ if (mc == 4){
 }
 }
         function qinc() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-10px";
 		document.getElementById("message004").style.top = "0px";
 		document.getElementById("message006").style.top = "-10px";
@@ -1705,6 +1717,8 @@ var opened = 0;
 var similarity1 = 0;
 var similarity2 = 0;
 function checker() {
+qmusic.pause();
+qmusic.currentTime = 0;	
 similarity1 = 0;
 similarity2 = 0;
 document.getElementById("message003").style.top = "0px";
@@ -3021,6 +3035,7 @@ document.getElementById("sub").style.display = "none";
 document.getElementById("mc").style.display = "none";
 }
 function next001() {
+	qmusic.play();
 	document.getElementById("message002").style.top = "10px";
         document.getElementById("message002").style.display= "block";
 	document.getElementById("message004").style.top = "10px";
@@ -3794,6 +3809,8 @@ function timer001() {
                 time001.innerHTML = c;
             }
             if (c < 1) {
+	    qmusic.pause();
+	    qmusic.currentTime = 0;
 	   quescount++;
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
@@ -4731,6 +4748,8 @@ data[11] = chosen[3];
             });
 }
 function next002() {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 document.getElementById("message004").style.top = "10px";
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
@@ -4750,6 +4769,8 @@ document.getElementById("message004").style.top = "10px";
 function next005() {
         opened = 0;
  mc = 0;
+		qmusic.pause();
+		qmusic.currentTime = 0;
 document.getElementById("message004").style.top = "10px";
 if (s - b > 10){
 loseKO();
@@ -5187,6 +5208,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }	   
 }
 function openquestion(){
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -5244,6 +5266,7 @@ else if (b -s > 16){
 winKO();
 }
 else{
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -5301,6 +5324,7 @@ else if (b -s > 14){
 winKO();
 }
 else{
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -5358,6 +5382,7 @@ else if (b -s > 12){
 winKO();
 }
 else{
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
@@ -5405,6 +5430,7 @@ else if ((stealmc == 0) && (stealopp == 0)){
 }
 }
 function mcquestion(){
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -5490,6 +5516,7 @@ else if (b -s > 13){
 winKO();
 }
 else{
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -5575,6 +5602,7 @@ else if (b -s > 12){
 winKO();
 }
 else{
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";
@@ -5660,6 +5688,7 @@ else if (b -s > 11){
 winKO();
 }
 else{
+qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
 		document.getElementById("JTE").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "initial";

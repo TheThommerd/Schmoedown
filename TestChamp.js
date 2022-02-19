@@ -1789,7 +1789,7 @@ function winKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
  		var ppe = ((b / posspoints) * 100)
@@ -1806,7 +1806,8 @@ function winKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+		message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
+		message004.setAttribute("data-html2canvas-ignore", true);	
 		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -1824,7 +1825,7 @@ function loseKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
  		var ppe = ((b / posspoints) * 100)
@@ -1840,7 +1841,8 @@ function loseKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -1858,7 +1860,7 @@ function winTKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
                 message003.innerHTML = player001.innerHTML;
  		var ppe = ((b / posspoints) * 100)
@@ -1875,7 +1877,8 @@ function winTKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+		message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
+		message004.setAttribute("data-html2canvas-ignore", true);	
 		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -1893,7 +1896,7 @@ function loseTKO(){
 		document.getElementById("message002").style.fontWeight = "bold";
 		document.getElementById("message003").style.fontSize = "200%";
 		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
+                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
 		var winner = competitorlist[0].lowercase;
 		message003.innerHTML = winner.toUpperCase();
  		var ppe = ((b / posspoints) * 100)
@@ -1909,7 +1912,8 @@ function loseTKO(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -1943,7 +1947,8 @@ function win(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+		message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
+		message004.setAttribute("data-html2canvas-ignore", true);	
 		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -1976,7 +1981,8 @@ function lose(){
 		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
 		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
 		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-265px";
 		document.getElementById("message004").style.top = "-455px";
 		document.getElementById("message003").style.top = "-275px";
@@ -7089,5 +7095,72 @@ if (stealmc > 0){
 else if (stealmc == 0){
             	    message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
+}
+}
+function tweetbutton() {
+document.getElementById("message006").style.top = "-270px";
+var KO = document.getElementById("KO");
+var TKO = document.getElementById("TKO");
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "none";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "none";}
+if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
+  html2canvas($('#frame001')[0], {
+    width: 1330,
+    height: 900
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-120px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+}	
+else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)) {
+  html2canvas($('#frame001')[0], {
+    width: 950,
+    height: 700
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-120px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+}
+else {	
+  html2canvas($('#frame001')[0], {
+    width: 950,
+    height: 650
+  }).then(function(canvas) {
+    var a = document.createElement('a');
+    var month = (new Date()).getMonth() + 1;
+    var day = (new Date()).getDate();
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    a.href = canvas.toDataURL("image/png");
+    a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
+    a.click();
+  });	
+document.getElementById("message006").style.top = "-120px";
+if (typeof(KO) != 'undefined' && KO != null){ KO.style.animationName = "flash";}
+if (typeof(TKO) != 'undefined' && TKO != null){ TKO.style.animationName = "flash";}
+if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and won " + b.toString() + "-" + s.toString() + "!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown match and lost " + b.toString() + "-" + s.toString() + "..." + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }
 }

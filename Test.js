@@ -493,7 +493,7 @@ var accuracy = ((quescor / quescount) * 100)
 		document.getElementById("TotalPoints_F4").value = parseInt(document.getElementById("TotalPoints_F4").value) +  quescor;
 	        message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message006").style.top = "-65px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message004").style.top = "-195px";
 }
 function newLoc() {
@@ -3300,7 +3300,7 @@ if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "65px";
+document.getElementById("message006").style.top = "15px";
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }	
@@ -3318,7 +3318,7 @@ else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "65px";
+document.getElementById("message006").style.top = "15px";
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }
@@ -3336,7 +3336,7 @@ else {
     a.download = "Schmoedown_" + day + month + hours + minutes + ".png";
     a.click();
   });	
-document.getElementById("message006").style.top = "65px";
+document.getElementById("message006").style.top = "15px";
 if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }

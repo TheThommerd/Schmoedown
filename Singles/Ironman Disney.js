@@ -909,7 +909,7 @@ function overtime(){
         document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-50px";
 	document.getElementById("message004").style.position = "relative";
-	document.getElementById("message004").style.top = "-75px";
+	document.getElementById("message004").style.top = "-55px";
 	    document.getElementById("JTE").style.display = "none";
  	    round002.innerHTML = "OVERTIME";
 	    j = 0;

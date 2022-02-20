@@ -113,42 +113,7 @@ document.getElementById("passwordsaverChampion").value = "REMEMBER THE TITANS";
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
-		document.getElementById("message006").style.fontSize = "110%";
-}
-function loseKO(){
-		document.getElementById("JTE").style.display = "none";
-		document.getElementById("time001").style.display = "none";
-                window.clearInterval(update);
-                c = "-";
-                message001.innerHTML = "End of Match";
-                time001.innerHTML = "";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-		document.getElementById("message003").style.fontSize = "200%";
-		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
-		var winner = competitorlist[0].lowercase;
-		message003.innerHTML = winner.toUpperCase();
- 		var ppe = ((b / posspoints) * 100)
-		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / posspointsopp) * 100)
-		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
-                message005.innerHTML = "";
-		document.getElementById("losses").stepUp(1);
-			document.getElementById("KOd").stepUp(1);
-		document.getElementById("AnsweredQuestions").value = parseInt(document.getElementById("AnsweredQuestions").value) +  quescount;
-		document.getElementById("CorrectQuestions").value = parseInt(document.getElementById("CorrectQuestions").value) +  quescor;
-		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
-		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
-		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-85px";
-		document.getElementById("message004").style.top = "-265px";
-		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -184,42 +149,7 @@ document.getElementById("passwordsaverChampion").value = "REMEMBER THE TITANS";
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
-		document.getElementById("message006").style.fontSize = "110%";
-}
-function loseTKO(){
-		document.getElementById("JTE").style.display = "none";
-		document.getElementById("time001").style.display = "none";
-                window.clearInterval(update);
-                c = "-";
-                message001.innerHTML = "End of Match";
-                time001.innerHTML = "";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-		document.getElementById("message003").style.fontSize = "200%";
-		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
-		var winner = competitorlist[0].lowercase;
-		message003.innerHTML = winner.toUpperCase();
- 		var ppe = ((b / posspoints) * 100)
-		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / posspointsopp) * 100)
-		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
-                message005.innerHTML = "";
-		document.getElementById("losses").stepUp(1);
-			document.getElementById("TKOd").stepUp(1);
-		document.getElementById("AnsweredQuestions").value = parseInt(document.getElementById("AnsweredQuestions").value) +  quescount;
-		document.getElementById("CorrectQuestions").value = parseInt(document.getElementById("CorrectQuestions").value) +  quescor;
-		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
-		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
-		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-85px";
-		document.getElementById("message004").style.top = "-265px";
-		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
@@ -254,41 +184,7 @@ document.getElementById("passwordsaverChampion").value = "REMEMBER THE TITANS";
 		document.getElementById("message002").style.top = "-85px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
-		document.getElementById("message006").style.fontSize = "110%";
-}
-function lose(){
-		document.getElementById("JTE").style.display = "none";
-		document.getElementById("time001").style.display = "none";
-                window.clearInterval(update);
-                c = "-";
-                message001.innerHTML = "End of Match";
-                time001.innerHTML = "";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-		document.getElementById("message003").style.fontSize = "200%";
-		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "And your winner...."
-		var winner = competitorlist[0].lowercase;
-		message003.innerHTML = winner.toUpperCase();
-		var ppe = ((b / posspoints) * 100)
-		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / posspointsopp) * 100)
-		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
-                message005.innerHTML = "";
-		document.getElementById("losses").stepUp(1);
-		document.getElementById("AnsweredQuestions").value = parseInt(document.getElementById("AnsweredQuestions").value) +  quescount;
-		document.getElementById("CorrectQuestions").value = parseInt(document.getElementById("CorrectQuestions").value) +  quescor;
-		document.getElementById("PossiblePoints").value = parseInt(document.getElementById("PossiblePoints").value)  +  posspoints;
-		document.getElementById("TotalPoints").value = parseInt(document.getElementById("TotalPoints").value) +  b;
-		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-85px";
-		document.getElementById("message004").style.top = "-265px";
-		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 $("#message004").keypress(function(event) { 

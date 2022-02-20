@@ -113,7 +113,7 @@ function winKO(){
 		document.getElementById("message002").style.top = "-80px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -149,7 +149,7 @@ function winTKO(){
 		document.getElementById("message002").style.top = "-80px";
 		document.getElementById("message004").style.top = "-265px";
 		document.getElementById("message003").style.top = "-95px";
-		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){

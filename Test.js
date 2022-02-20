@@ -506,7 +506,7 @@ similarity2 = 0;
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "50px";
 	document.getElementById("message004").style.position = "relative";
-  document.getElementById("message004").style.top = "-230px";
+  document.getElementById("message004").style.top = "-60px";
 		  document.getElementById("message003").style.top = "-50px";
 
 	}
@@ -519,7 +519,7 @@ similarity2 = 0;
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "50px";
 	document.getElementById("message004").style.position = "relative";
-  document.getElementById("message004").style.top = "-230px";
+  document.getElementById("message004").style.top = "-60px";
 		  document.getElementById("message003").style.top = "-50px";
 	}
  	chance = 0 ;

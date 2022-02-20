@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head><meta name="viewport" content="width=device-width, height=device-height">
+  <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<link rel="stylesheet" href="2022Singles.css">
+</head> 
+<body onload="load()">
+<audio id="myAudio"><source src="/Schmoedown/Media/Ding_Sound_Effect.mp3" type="audio/mpeg"></audio>
+<audio id="myAudio2"><source src="/Schmoedown/Media/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg"></audio>
+<audio id="QMusic"><source src="/Schmoedown/Media/Question.mp3" type="audio/mpeg"></audio>	
+<audio id="Intro"><source src="/Schmoedown/Media/Intro.wav" type="audio/wav"></audio>	
+<button id="goFS" class="goFS">Go fullscreen</button>
+<div id="frame001"><div id="font001"><div class="background"><img id="background" src="Singles_Background.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">ROUND <text id="round001">1</text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><text id="time001"></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><div id=chart></div></br></div>
+<form id="save-later-form-singles"><input name="Name" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="Twitter" value="@Challenger" type="text" id="twitt" required hidden></input><input name="2022PasswordR2" value="2022wachtwoordR2" type="text" id="2022passwordsaverR2" required hidden></input><input name="2022PasswordR3" value="2022wachtwoordR3" type="text" id="2022passwordsaverR3" required hidden></input><input name="2022PasswordEight" value="2022wachtwoordEight" type="text" id="2022passwordsaverEight" required hidden></input><input name="2022PasswordQuarter" value="2022wachtwoordQuarter" type="text" id="2022passwordsaverQuarter" required hidden></input><input name="2022PasswordSemi" value="2022wachtwoordSemi" type="text" id="2022passwordsaverSemi" required hidden></input><input name="2022PasswordChampion" value="2022wachtwoordChampion" type="text" id="2022passwordsaverChampion" required hidden><input name="AnsweredQuestions" value="0" type="number" id="AnsweredQuestions" required hidden><input name="CorrectQuestions" value="0" type="number" id="CorrectQuestions" required hidden><input name="PossiblePoints" value="0" type="number" id="PossiblePoints" required hidden><input name="TotalPoints" value="0" type="number" id="TotalPoints" required hidden></input><input name="Wins" value="0" type="number" id="wins" required hidden><input name="Losses" value="0" type="number" id="losses" required hidden><input name="TKOs" value="0" type="number" id="TKOs" required hidden><input name="TKOd" value="0" type="number" id="TKOd" required hidden><input name="KOs" value="0" type="number" id="KOs" required hidden><input name="KOd" value="0" type="number" id="KOd" required hidden></form><button type="submit" id="save" hidden>Save</button></br>
+<div id="checkboxes"></div></div></div>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="lib/1. FantasyScifi.js" charset="utf-8"></script>
+<script src="lib/2. Comedy.js" charset="utf-8"></script>
+<script src="lib/2 pointer.js" charset="utf-8"></script>
+<script src="lib/3 pointer.js" charset="utf-8"></script>
+<script src="lib/3. Horror.js" charset="utf-8"></script>
+<script src="lib/4. ActionAdventure.js" charset="utf-8"></script>
+<script src="lib/5 Pointers.js" charset="utf-8"></script>
+<script src="lib/5. Animated.js" charset="utf-8"></script>
+<script src="lib/6. Oscar Movies.js" charset="utf-8"></script>
+<script src="lib/7. 80s.js" charset="utf-8"></script>
+<script src="lib/8. 90s.js" charset="utf-8"></script>
+<script src="lib/9. Drama.js" charset="utf-8"></script>
+<script src="lib/10. Comic Book Movies.js" charset="utf-8"></script>
+<script src="lib/11. Holiday Movies.js" charset="utf-8"></script>
+<script src="lib/12. Romcoms.js" charset="utf-8"></script>
+<script src="lib/13. Directors.js" charset="utf-8"></script>
+<script src="lib/14. Biopics.js" charset="utf-8"></script>
+<script src="lib/15. Coming of Age.js" charset="utf-8"></script>
+<script src="lib/16. Crime.js" charset="utf-8"></script>
+<script src="lib/17. Disney.js" charset="utf-8"></script>
+<script src="lib/18. Family Movies.js" charset="utf-8"></script>
+<script src="lib/19. Famous Actors and Actresses.js" charset="utf-8"></script>
+<script src="lib/20. Martin Scorcese.js" charset="utf-8"></script>
+<script src="lib/21. 70s.js" charset="utf-8"></script>
+<script src="lib/22. Movie Release Dates.js" charset="utf-8"></script>
+<script src="lib/23. Movie Quotes.js" charset="utf-8"></script>
+<script src="lib/24. Movie Taglines.js" charset="utf-8"></script>
+<script src="lib/25. Romance.js" charset="utf-8"></script>
+<script src="lib/26. Sly & Arnie.js" charset="utf-8"></script>
+<script src="lib/27. Spielberg.js" charset="utf-8"></script>
+<script src="lib/28. Pixar.js" charset="utf-8"></script>
+<script src="lib/29. Spy Movies.js" charset="utf-8"></script>
+<script src="lib/30. Sports.js" charset="utf-8"></script>
+<script src="lib/31. Sandra Bullock.js" charset="utf-8"></script>
+<script src="lib/32. Thrillers.js" charset="utf-8"></script>
+<script src="lib/33. Scores & Soundtracks.js" charset="utf-8"></script>
+<script src="lib/34. Tom Hanks.js" charset="utf-8"></script>
+<script src="lib/35. War.js" charset="utf-8"></script>
+<script src="lib/36. Musicals.js" charset="utf-8"></script>
+<script src="lib/37. 2010s.js" charset="utf-8"></script>
+<script src="lib/38. Classics.js" charset="utf-8"></script>
+<script src="lib/39. Westerns.js" charset="utf-8"></script>
+<script src="lib/40. Monster Movies.js" charset="utf-8"></script>
+<script src="lib/41. 2000s.js" charset="utf-8"></script>
+<script src="lib/42. Will Smith.js" charset="utf-8"></script>
+<script src="lib/43. Quentin Tarantino.js" charset="utf-8"></script>
+<script src="lib/44. Tim Burton.js" charset="utf-8"></script>
+<script src="lib/45. Kevin Smith.js" charset="utf-8"></script>
+<script src="lib/46. Tom Cruise.js" charset="utf-8"></script>
+<script src="lib/47. Julia Roberts.js" charset="utf-8"></script>
+<script src="lib/48. Denzel Washington.js" charset="utf-8"></script>
+<script src="lib/49. Disaster Movies.js" charset="utf-8"></script>
+<script src="lib/50. Dance.js" charset="utf-8"></script>
+<script src="lib/51. Scarlett Johansson.js" charset="utf-8"></script>
+<script src="lib/52. Hitchcock.js" charset="utf-8"></script>
+<script src="lib/53. Stanley Kubrick.js" charset="utf-8"></script>
+<script src="lib/54. Video Games.js" charset="utf-8"></script>
+<script src="lib/55. Christopher Nolan.js" charset="utf-8"></script>
+<script src="lib/56. Cameron Diaz.js" charset="utf-8"></script>
+<script src="lib/57. Meryl Streep.js" charset="utf-8"></script>
+<script src="lib/58. James Bond.js" charset="utf-8"></script>
+<script src="lib/59. Matthew McConaughey.js" charset="utf-8"></script>
+<script src="lib/60. Festival Darlings.js" charset="utf-8"></script>
+<script src="lib/61. Cate Blanchett.js" charset="utf-8"></script>
+<script src="lib/62. Eddie Murphy.js" charset="utf-8"></script>
+<script src="lib/63. Audrey Hepburn.js" charset="utf-8"></script>
+<script src="lib/64. Kurt Russell.js" charset="utf-8"></script>
+<script src="lib/65. Adam Sandler.js" charset="utf-8"></script>
+<script src="lib/66. John Carpenter.js" charset="utf-8"></script>
+<script src="lib/67. Clint Eastwood.js" charset="utf-8"></script>
+<script src="lib/68. Black Cinema.js" charset="utf-8"></script>
+<script src="lib/69. YA Adaptations.js" charset="utf-8"></script>
+<script src="lib/70. DreamWorks Animation.js" charset="utf-8"></script>
+<script src="lib/71. Remakes and Reboots.js" charset="utf-8"></script>
+<script src="lib/72. Mystery.js" charset="utf-8"></script>
+<script src="lib/73. Matt & Ben.js" charset="utf-8"></script>
+<script src="lib/74. Martial Arts.js" charset="utf-8"></script>
+<script src="lib/75. Keanu Reeves.js" charset="utf-8"></script>
+<script src="lib/76. Natalie Portman.js" charset="utf-8"></script>
+<script src="lib/77. Bruce Willis.js" charset="utf-8"></script>
+<script src="lib/78. Russell Crowe.js" charset="utf-8"></script>
+<script src="lib/79. Leonardo DiCaprio.js" charset="utf-8"></script>
+<script src="lib/80. Sean Penn.js" charset="utf-8"></script>
+<script src="lib/Wildcards.js" charset="utf-8"></script>
+<script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="2022competitorlistSingles.js"></script>
+<script src="2022Singles.js"></script>
+<script src="2022SinglesSemi.js"></script>
+<script src="new_record.js"></script>
+</body>
+</html>

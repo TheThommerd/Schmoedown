@@ -82,7 +82,7 @@ display: none;
         }
 	   #JTE{
 	   position: relative;
-	    top : -170px;
+	    top : 0px;
             background-color: #232223;
             color: white;
             width: 120px;
@@ -331,30 +331,30 @@ display: none;
         }
         #time001 {
 	   position: relative;
-	    top : -170px;
+	    top : 0px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
         }
         #message002{
 	   position: relative;
-	    top : -175px;
+	    top : -5px;
         }
         #message003{
 	   position: relative;
-	    top : -160px;
+	    top : 10px;
         }
         #message004{
 	   position: relative;
-	    top : -190px;
+	    top : -20px;
         }
         #message006{
 	   position: relative;
-	    top : -160px;
+	    top : 10px;
         }
         #message005 {
 	   position: relative;
-	    top : -180px;
+	    top : -10px;
             text-align: center;
             font-size: 90%;
             color: black;
@@ -473,7 +473,7 @@ transform-origin: top center;
 <audio id="QMusic"><source src="/Schmoedown/Media/Question.mp3" type="audio/mpeg"></audio>	
 <audio id="Intro"><source src="/Schmoedown/Media/Intro.wav" type="audio/wav"></audio>
 <button id="goFS" class="goFS">Go fullscreen</button>
-<div id="frame001"><div id="font001"><div class="background"><img id="background" src="Singles/ironmanback.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">12:00<text id="round001"></text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><br><br><br><br><br><br><br><br><text id="time001"></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><br></div>
+<div id="frame001"><div id="font001"><div class="background"><img id="background" src="Singles/ironmanback.png" alt=""><div><p id="qu001">QUESTION 0</p><p id="player001">CHALLENGER</p><p id="message001">Enter your name and twitter, or press Skip to proceed.</p><p id="player002">OPPONENT</p><p id="record001">0-0</p><p id="record002">0-0</p><p id="score001">0</p><p id="score002">0</p><p id="twitter001">@Challenger</p><p id="twitter002">@Opponent</p><p id="round002">12:00<text id="round001"></text></p><p id="faction001">ROOKIE</p><p id="faction002">UNKNOWN</p></div></div><text id="time001"></text><br><button id=JTE onclick=JTE()>Repeat Question</button><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br><p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p><br></div>
 <form id="save-later-form-test"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="AnsweredQuestions_IM" value="0" type="number" id="AnsweredQuestions_IM" required hidden><input name="CorrectQuestions_IM" value="0" type="number" id="CorrectQuestions_IM" required hidden><input name="PossiblePoints_IM" value="0" type="number" id="PossiblePoints_IM" required hidden><input name="TotalPoints_IM" value="0" type="number" id="TotalPoints_IM" required hidden></input><input name="Wins_IM" value="0" type="number" id="wins_IM" required hidden><input name="Losses_IM" value="0" type="number" id="losses_IM" required hidden></form><button type="submit" id="save" hidden>Save</button></br></div>
 <script src="Singles/lib/Movie Release Dates Iron.js" charset="utf-8"></script>
 <script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>

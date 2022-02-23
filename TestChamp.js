@@ -5555,7 +5555,6 @@ function speedquestions2() {
                 message005.innerHTML = "";
                 message006.innerHTML = "";
 	        message004.innerHTML = "";
-		document.getElementById("q1").focus();
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
             	window.clearInterval(update);
@@ -5567,6 +5566,7 @@ function speedquestions2() {
 	    	document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-190px";
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+		document.getElementById("q1").focus();
 		speed++;
 if (speed == 1){qu001.innerHTML = "SPEED ROUND - " + "QUESTION 1";}
 else if (speed == 2){qu001.innerHTML = "SPEED ROUND - " + "QUESTION 2";}

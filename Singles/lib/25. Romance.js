@@ -236,7 +236,7 @@ var romance = [
 },
 {
 "cat":"Romance",
-"ques":"Who plays business focused Linus Larrabe in 1995's Sabrina?",
+"ques":"Who plays business focused Linus Larrabee in 1995's Sabrina?",
 "answ":"HARRISON FORD",
 "answ2":"Harrison Ford.",
 },

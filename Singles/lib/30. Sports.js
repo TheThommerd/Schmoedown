@@ -7,6 +7,24 @@ var sports = [
 },
 {
 "cat":"Sports",
+"ques":"Will Smith and Jon Voight were both nominated for Academy Awards for what 2001 Michael Mann sports biopic?",
+"answ":"ALI",
+"answ2":"Ali.",
+},
+{
+"cat":"Sports",
+"ques":"Josh Lucas plays a coach by the name of Don Haskins in what basketball film?",
+"answ":"GLORY ROAD",
+"answ2":"Glory Road.",
+},
+{
+"cat":"Sports",
+"ques":"Which actor plays Joel Edgerton's trainer in Warrior?",
+"answ":"JON BERNTHAL",
+"answ2":"Jon Bernthal.",
+},
+{
+"cat":"Sports",
 "ques":"The films Seabiscuit and Secretariat both depict what sport?",
 "answ":"HORSE RACING",
 "answ2":"Horse racing.",

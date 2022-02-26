@@ -891,6 +891,70 @@ var r2Q16 = [
 "answ2":"Ulcers/Stomach ulcer.",
 "option":["Ulcers", "Seizures", "Migraines", "Hair loss"],
 },
+
+{
+"cat":"Crime",
+"ques":"Name the movie from the quote: 'You try and get something to eat around here and some son-of-a-bitch comes up to you with a meat cleaver.'",
+"answ":"BONNIE AND CLYDE",
+"answ2":"Bonnie and Clyde.",
+"option":["Bonnie and Clyde", "Scarface", "Goodfellas", "Chinatown"],
+},
+{
+"cat":"Crime",
+"ques":"Who plays the young officer Detective Alonzo Harris is assigned to evaluate in Training Day?",
+"answ":"ETHAN HAWKE",
+"answ2":"Ethan Hawke.",
+"option":["Ethan Hawke", "Skeet Ulrich", "Keanu Reeves", "Brad Renfro"],
+},
+{
+"cat":"Crime",
+"ques":"Although they both appeared in The Godfather: Part II, Al Pacino and Robert De Niro had never shared a scene together until what movie?",
+"answ":"HEAT",
+"answ2":"Heat.",
+"option":["Heat", "Carlito's Way", "Dick Tracy", "Cop Land"],
+},
+{
+"cat":"Crime",
+"ques":"Who played Terry Leather in 2007's The Bank Job?",
+"answ":"JASON STATHAM",
+"answ2":"Jason Statham.",
+"option":["Jason Statham", "Michael Fassbender", "Robert De Niro", "Michael Shannon"],
+},
+{
+"cat":"Crime",
+"ques":"Name the movie from the quote: 'If there's one thing this last week as taught me, it's better to have a gun and not need it than to need a gun and not have it.'",
+"answ":"TRUE ROMANCE",
+"answ2":"True Romance.",
+"option":["True Romance", "The Godfather Part III", "Pulp Fiction", "Bugsy"],
+},
+{
+"cat":"Crime",
+"ques":"In Baby Driver who plays handsome party animal and frequent member of Doc’s gang, Buddy?",
+"answ":"JON HAMM",
+"answ2":"Jon Hamm.",
+"option":["Jon Hamm", "Jon Bernthal", "Jamie Foxx", "Ansel Elgort"],
+},
+{
+"cat":"Crime",
+"ques":"Who plays Viggo Mortensen's wife in A History of Violence?",
+"answ":"MARIA BELLO",
+"answ2":"Maria Bello.",
+"option":["Maria Bello", "Jessica Chastain", "Rachel Weisz", "Diane Lane"],
+},
+{
+"cat":"Crime",
+"ques":"Who is sent to collect Viggo Mortensen in A History of Violence?",
+"answ":"ED HARRIS",
+"answ2":"Ed Harris.",
+"option":["Ed Harris", "John Hurt", "William Hurt", "Sean Bean"],
+},
+{
+"cat":"Crime",
+"ques":"Name the film: In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths: one becomes a photographer, the other a drug dealer.",
+"answ":"CITY OF GOD",
+"answ2":"City of God.",
+"option":["City of God", "Irreversible", "Tzosi", "The Interpreter"],
+},
 ];
 crime = shuffle(crime);
 r2Q16 = shuffle(r2Q16);

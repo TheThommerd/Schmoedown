@@ -3614,12 +3614,6 @@ var threepointer001 = [
 },
 {
 "cat":"Tom Hanks",
-"ques":"Who plays Ernie Capadino, the AAGPBL scout, in A League of Their Own?",
-"answ":"JON LOVITZ",
-"answ2":"Jon Lovitz.",
-},
-{
-"cat":"Tom Hanks",
 "ques":"Tom Hanks and Dan Aykroyd star in what 1987 comedy as Sgt. Joe Friday and Pep Streebeck?",
 "answ":"DRAGNET",
 "answ2":"Dragnet.",

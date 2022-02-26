@@ -742,6 +742,14 @@ var r2Q86 = [
 },
 {
 "cat":"James Stewart",
+"ques":"This James Stewart rom-com inspired a remake in 1998 titled 'You've Got Mail'.",
+"answ":"THE SHOP AROUND THE CORNER",
+"answ3":"SHOP AROUND THE CORNER",
+"answ2":"The Shop Around The Corner.",
+"option":["The Shop Around The Corner", "The Philadelphia Story", "Mr. Smith Goes to Washington", "Magic Town"],
+},
+{
+"cat":"James Stewart",
 "ques":"Who directed James Stewart in the films Rope and The Man Who Knew To Much?",
 "answ":"ALFRED HITCHCOCK",
 "answ2":"Alfred Hitchcock.",

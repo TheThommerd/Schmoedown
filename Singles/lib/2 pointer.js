@@ -1038,12 +1038,6 @@ var twopointer = [
 "answ2":"FBI.",
 },
 {
-"cat":"Paul Thomas Anderson",
-"ques":"Who plays adult actress Amber Waves in Boogie Nights?",
-"answ":"JULIANNE MOORE",
-"answ2":"Julianne Moore.",
-},
-{
 "cat":"Keanu Reeves",
 "ques":"What is the title of the 2020 entry in the Bill and Ted franchise?",
 "answ":"BILL AND TED FACE THE MUSIC",

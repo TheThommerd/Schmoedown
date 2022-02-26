@@ -1285,6 +1285,35 @@ var r2Q12 = [
 "answ2":"Betty.",
 "option":["Betty", "Babe", "Kate", "Shelly"],
 },
+{
+"cat":"Rom-coms",
+"ques":"Who was the female star of 2011's Friends with Benefits?",
+"answ":"MILA KUNIS",
+"answ2":"Mila Kunis.",
+"option":["Mila Kunis", "Eva Mendes", "Katherine Heigl", "Natalie Portman"],
+},
+{
+"cat":"Rom-coms",
+"ques":"At the end of Bridget Jones's Diary, what did Mark Darcy buy for Bridget?",
+"answ":"NEW DIARY",
+"answ3":"DIARY",
+"answ2":"New Diary.",
+"option":["New Diary", "Handbag", "Cup of Coffee", "Jewelry"],
+},
+{
+"cat":"Rom-coms",
+"ques":"Robbie Hart falls in love with Julia Sullivan in which movie?",
+"answ":"THE WEDDING SINGER",
+"answ2":"The Wedding Singer.",
+"option":["The Wedding Singer", "Never Been Kissed", "While You Were Sleeping", "It Could Happen to You"],
+},
+{
+"cat":"Rom-coms",
+"ques":"To rediscover his manhood after his wife asks for a divorce, Cal, with the help of his newfound friend, Jacob, learns how to pick up girls at bars in what film?",
+"answ":"CRAZY STUPID LOVE",
+"answ2":"Crazy, Stupid, Love.",
+"option":["Crazy, Stupid, Love", "Just Go With It", "Leap Year", "Going the Distance"],
+},
 ];
 romcoms = shuffle(romcoms);
 r2Q12 = shuffle(r2Q12);

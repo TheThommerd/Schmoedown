@@ -1383,6 +1383,27 @@ var r2Q19 = [
 "answ2":"The Other Guys.",
 "option":["The Other Guys", "Talladega Nights", "Anchorman 2", "The Gambler"],
 },
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Name the 1996 movie in which a woman suffering from amnesia discovers her true identity starring actress Geena Davis.",
+"answ":"THE LONG KISS GOODNIGHT",
+"answ2":"The Long Kiss Good Night.",
+"option":["The Long Kiss Goodnight", "The Professional", "Cutthroat Island", "Point of No Return"],
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Who plays the skilled hacker Stanley in Swordfish?",
+"answ":"HUGH JACKMAN",
+"answ2":"Hugh Jackman.",
+"option":["Hugh Jackman", "John Travolta", "Don Cheadle", "Clive Owen"],
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Val Kilmer made his big screen debut in which 1984 spy comedy?",
+"answ":"TOP SECRET",
+"answ2":"Top Secret.",
+"option":["Top Secret", "The Cleaner", "The Man With One Red Shoe", "Spies Like Us"],
+},
 ];
 famousactors = shuffle(famousactors);
 r2Q19 = shuffle(r2Q19);

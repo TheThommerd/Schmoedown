@@ -7,6 +7,18 @@ var classics = [
 },
 {
 "cat":"Classics",
+"ques":"Private eye Sam Spade hunts for 'the stuff that dreams are made of' in what noir mystery movie?",
+"answ":"THE MALTESE FALCON",
+"answ2":"The Maltese Falcon.",
+},
+{
+"cat":"Classics",
+"ques":"Which character in The Wizard of Oz needed a heart?",
+"answ":"TIN MAN",
+"answ2":"Tin Man.",
+},
+{
+"cat":"Classics",
 "ques":"What famous comedy troupe starred in the classic films Horse Feathers, Duck Soup and A Night At The Opera?",
 "answ":"THE MARX BROTHERS",
 "answ3":"MARX BROTHERS",
@@ -279,7 +291,7 @@ var r2Q38 = [
 "cat":"Classics",
 "ques":"In The Wizard of Oz, besides her dog Toto what does Dorothy carry with her to Oz?",
 "answ":"BASKET",
-"answ3":"A BASKET",
+"answ3":"PICNIC BASKET",
 "answ2":"A basket.",
 "option":["Basket", "Roses", "Shovel", "Torch"],
 },
@@ -456,7 +468,7 @@ var r2Q38 = [
 },
 {
 "cat":"Classics",
-"ques":"A Streetcare Named Desire is set in what city?",
+"ques":"A Streetcar Named Desire is set in what city?",
 "answ":"NEW ORLEANS",
 "answ2":"New Orleans.",
 "option":["New Orleans", "New York", "Detroit", "Houston"],
@@ -873,6 +885,21 @@ var r2Q38 = [
 "answ":"MICHAEL CURTIZ",
 "answ2":"Michael Curtiz.",
 "option":["Michael Curtiz", "Billy Wilder", "Frank Capra", "George Cukor"],
+},
+{
+"cat":"Classics",
+"ques":"Who played super spy Derek Flint in the 1966 action thriller Our Man Flint, and the 1967 sequel In Like Flint?",
+"answ":"JAMES COBURN",
+"answ2":"James Coburn.",
+"option":["James Coburn", "Dean Martin", "Lee Marvin", "Frank Sinatra"],
+},
+{
+"cat":"Classics",
+"ques":"Famous crooner Dean Martin played the super spy Matt Helm in how many movies?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4.",
+"option":["4", "3", "2", "5"],
 },
 ];
 classics = shuffle(classics);

@@ -7,6 +7,18 @@ var spymovies = [
 },
 {
 "cat":"Spy Movies",
+"ques":"Who played 006 in GoldenEye?",
+"answ":"SEAN BEAN",
+"answ2":"Sean Bean.",
+},
+{
+"cat":"Spy Movies",
+"ques":"What was the second Bond movie to star Pierce Brosnan?",
+"answ":"TOMORROW NEVER DIES",
+"answ2":"Tomorrow Never Dies.",
+},
+{
+"cat":"Spy Movies",
 "ques":"Who directed 2008's Eagle Eye?",
 "answ":"D J CARUSO",
 "answ3":"DJ CARUSO",

@@ -1830,7 +1830,7 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"Which Disney movie features a dog named Pongo and his owner Richard?",
+"ques":"Which Disney movie features a dog named Pongo and his owner Roger?",
 "answ":"101 DALMATIANS",
 "answ3":"ONE HUNDRED AND ONE DALMATIANS",
 "answ2":"101 Dalmatians.",
@@ -1841,12 +1841,6 @@ var animated = [
 "answ":"FIEVEL",
 "answ3":"FIVEL",
 "answ2":"Fievel.",
-},
-{
-"cat":"Animated",
-"ques":"Which Pixar character provides advice through the line 'just keep swimming, just keep swimming'?",
-"answ":"DORY",
-"answ2":"Dory.",
 },
 {
 "cat":"Animated",

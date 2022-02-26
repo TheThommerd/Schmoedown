@@ -715,6 +715,27 @@ var r2Q14 = [
 "answ2":"Ted Demme.",
 "option":["Ted Demme", "Martin Campbell", "Gary Ross", "Robert Schwentke"],
 },
+{
+"cat":"Biopics",
+"ques":"Which 2004 war movie was directed by Terry George and starred Don Cheadle?",
+"answ":"HOTEL RWANDA",
+"answ2":"Hotel Rwanda.",
+"option":["Hotel Rwanda", "Hawking", "Innocent Voices", "Downfall"],
+},
+{
+"cat":"Biopics",
+"ques":"Nicolas Winding Refn directed whom in the title role of Bronson?",
+"answ":"TOM HARDY",
+"answ2":"Tom Hardy.",
+"option":["Tom Hardy", "Christian Bale", "Ryan Gosling", "Mads Mikkelsen"],
+},
+{
+"cat":"Biopics",
+"ques":"Who played real-life game show host Chuck Barris, who claims he was really a spy, in Confessions of a Dangerous Mind?",
+"answ":"SAM ROCKWELL",
+"answ2":"Sam Rockwell.",
+"option":["Sam Rockwell", "Edward Norton", "George Clooney", "Robert Pattinson"],
+},
 ];
 biopics = shuffle(biopics);
 r2Q14 = shuffle(r2Q14);

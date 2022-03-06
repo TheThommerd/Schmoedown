@@ -449,12 +449,6 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"Who provided the score for 1979's Alien?",
-"answ":"JERRY GOLDSMITH",
-"answ2":"Jerry Goldsmith.",
-},
-{
-"cat":"Mixed Bag",
 "ques":"Who played Ash Williams in Army of Darkness?",
 "answ":"BRUCE CAMPBELL",
 "answ2":"Bruce Campbell.",
@@ -1050,13 +1044,6 @@ var speedquestion001 = [
 "ques":"In what year were the comedies Anchorman, Dodgeball and Mean Girls released?",
 "answ":"2004",
 "answ2":"2004.",
-},
-{
-"cat":"Mixed Bag",
-"ques":"Who plays Grocer, the chief rival to John Cusack's character in Grosse Pointe Blank?",
-"answ":"DAN AYKROYD",
-"answ3":"DAN AKROYD",
-"answ2":"Dan Aykroyd.",
 },
 {
 "cat":"Mixed Bag",
@@ -2056,12 +2043,6 @@ var speedquestion001 = [
 "answ":"CROSSBONES",
 "answ3":"BROCK RUMLOW",
 "answ2":"Crossbones.",
-},
-{
-"cat":"Mixed Bag",
-"ques":"What 90s comedy features the quote: 'We got no food, we got no jobs, our pet's heads are falling off!'",
-"answ":"DUMB AND DUMBER",
-"answ2":"Dumb and Dumber.",
 },
 {
 "cat":"Mixed Bag",

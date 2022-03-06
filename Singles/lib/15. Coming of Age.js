@@ -7,6 +7,13 @@ var comingofage = [
 },
 {
 "cat":"Coming of Age",
+"ques":"Who plays Juno in the film Juno?",
+"answ":"ELLEN PAGE",
+"answ3":"ELLIOT PAGE",
+"answ2":"Elliot Page.",
+},
+{
+"cat":"Coming of Age",
 "ques":"Who plays Hailee Steinfeld's brother in The Edge of Seventeen?",
 "answ":"BLAKE JENNER",
 "answ2":"Blake Jenner.",

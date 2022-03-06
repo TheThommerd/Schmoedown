@@ -8,6 +8,13 @@ var r2Q66 = [
 },
 {
 "cat":"John Carpenter",
+"ques":"Who plays Frank Armitage in 1988's They Live?",
+"answ":"KEITH DAVID",
+"answ2":"Keith David.",
+"option":["Keith David", "Nick Nolte", "Brian Dennehy", "Jeff Bridges"],
+},
+{
+"cat":"John Carpenter",
 "ques":"What is the name of the cursed coastal town in The Fog?",
 "answ":"ANTONIO BAY",
 "answ2":"Antonio Bay.",

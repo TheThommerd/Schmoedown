@@ -922,6 +922,13 @@ var r2Q16 = [
 },
 {
 "cat":"Crime",
+"ques":"One of the cons in 2013's American Hustle involved catching politicians taking illegal bribes. What state were these politicians from?",
+"answ":"NEW JERSEY",
+"answ2":"New Jersey.",
+"option":["New Jersey", "New York", "Florida", "Pennsylvania"],
+},
+{
+"cat":"Crime",
 "ques":"Name the movie from the quote: 'If there's one thing this last week as taught me, it's better to have a gun and not need it than to need a gun and not have it.'",
 "answ":"TRUE ROMANCE",
 "answ2":"True Romance.",

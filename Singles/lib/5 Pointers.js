@@ -302,7 +302,7 @@ var fivepointer001 = [
 },
 {
 "cat":"2010s",
-"ques":"Who played the conductor of the train, Minister Wilfrod, in Snowpiercer?",
+"ques":"Who played the conductor of the train, Minister Wilford, in Snowpiercer?",
 "answ":"ED HARRIS",
 "answ2":"Ed Harris.",
 },
@@ -842,6 +842,13 @@ var fivepointer001 = [
 "ques":"Who directed Charlize Theron in the 2011 comedy Young Adult?",
 "answ":"JASON REITMAN",
 "answ2":"Jason Reitman.",
+},
+{
+"cat":"The Coen Brothers",
+"ques":"In The Big Lebowski, what type of sports car does Walter destroy thinking it was purchased with the stolen money?",
+"answ":"CHEVROLET CORVETTE",
+"answ3":"CORVETTE",
+"answ2":"Chevrolet Corvette.",
 },
 {
 "cat":"Comic Book Movies",

@@ -1,5 +1,23 @@
 var twopointer = [
 {
+"cat":"Nicolas Cage",
+"ques":"What is the name that is given to the Ford Mustang Shelby GT500 in Gone in 60 Seconds?",
+"answ":"ELEANOR",
+"answ2":"Eleanor.",
+},
+{
+"cat":"Jennifer Lopez",
+"ques":"In the Jennifer Lopez comedy Monster-in-Law, who played the overbearing mother-in-law?",
+"answ":"JANE FONDA",
+"answ2":"Jane Fonda.",
+},
+{
+"cat":"Dwayne Johnson",
+"ques":"Who plays the character Ray Templeton opposite Dwayne Johnson in the movie Walking Tall?",
+"answ":"JOHNNY KNOXVILLE",
+"answ2":"Johnny Knoxville.",
+},
+{
 "cat":"Amy Adams",
 "ques":"Who plays Amy Adams' sister in the 2008 dramedy Sunshine Cleaning?",
 "answ":"EMILY BLUNT",
@@ -163,7 +181,7 @@ var twopointer = [
 },
 {
 "cat":"Julia Roberts",
-"ques":"Name the Julia Roberts movie that features the quote: 'I’m just a girl. Standing in front of a boy. Asking him to love her.'",
+"ques":"Name the Julia Roberts movie that features the quote: 'I'm just a girl. Standing in front of a boy. Asking him to love her.'",
 "answ":"NOTTING HILL",
 "answ3":"NOTHING HILL",
 "answ2":"Notting Hill.",
@@ -1138,12 +1156,6 @@ var twopointer = [
 "answ":"BONESAW",
 "answ3":"BONESAW MCGRAW",
 "answ2":"Bonesaw.",
-},
-{
-"cat":"Wrestlers in Film",
-"ques":"In which 1991 film does Hulk Hogan play an interstellar hero from a distant world who visits Earth?",
-"answ":"SUBURBAN COMMANDO",
-"answ2":"Suburban Commando.",
 },
 {
 "cat":"Wrestlers in Film",

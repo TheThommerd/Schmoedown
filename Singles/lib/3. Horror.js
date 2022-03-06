@@ -378,12 +378,6 @@ var horror = [
 },
 {
 "cat":"Horror",
-"ques":"Who stars as a serial killer called The Butcher, who switches bodies with a teenage girl in 2020's Freaky?",
-"answ":"VINCE VAUGHN",
-"answ2":"Vince Vaughn.",
-},
-{
-"cat":"Horror",
 "ques":"Which actress stars as Evelyn Abbot in the film A Quiet Place?",
 "answ":"EMILY BLUNT",
 "answ2":"Emily Blunt.",
@@ -937,7 +931,7 @@ var horror = [
 },
 {
 "cat":"Horror",
-"ques":"Which 2018 film is a spinoff of the Conjuring franchise and stars Demián Bichir and Taissa Farmiga?",
+"ques":"Which 2018 film is a spinoff of the Conjuring franchise and stars Demi�n Bichir and Taissa Farmiga?",
 "answ":"THE NUN",
 "answ2":"The Nun.",
 },
@@ -1342,12 +1336,6 @@ var horror = [
 "ques":"Nathan Fillion and Elizabeth Banks take on an alien parasite in what 2006 film directed by James Gunn?",
 "answ":"SLITHER",
 "answ2":"Slither.",
-},
-{
-"cat":"Horror",
-"ques":"Who stars as Johnny Smith, a man who awakens from a coma to find he has psychic abilities, in The Dead Zone?",
-"answ":"CHRISTOPHER WALKEN",
-"answ2":"Christopher Walken.",
 },
 {
 "cat":"Horror",
@@ -2081,9 +2069,9 @@ var horror = [
 {
 "cat":"Horror",
 "ques":"To date, how many Scream films have been released?",
-"answ":"FOUR",
-"answ3":"4",
-"answ2":"4.",
+"answ":"FIVE",
+"answ3":"5",
+"answ2":"5.",
 },
 {
 "cat":"Horror",
@@ -2849,19 +2837,11 @@ var r2Q3 = [
 },
 {
 "cat":"Horror",
-"ques":"Who directed The Dead Zone?",
-"answ":"DAVID CRONENBERG",
-"answ3":"DAVID KRONENBERG",
-"answ2":"David Cronenberg.",
-"option":["David Cronenberg", "John Carpenter", "Wes Craven", "Sam Raimi"],
-},
-{
-"cat":"Horror",
 "ques":"How many Saw films have been theatrically released?",
-"answ":"8",
-"answ3":"EIGHT",
-"answ2":"8.",
-"option":["8", "7", "6", "9"],
+"answ":"9",
+"answ3":"NINE",
+"answ2":"9.",
+"option":["9", "7", "6", "8"],
 },
 {
 "cat":"Horror",
@@ -2897,7 +2877,7 @@ var r2Q3 = [
 "ques":"Who directed the 2016 horror movie The Witch?",
 "answ":"ROBERT EGGERS",
 "answ2":"Robert Eggers.",
-"option":["Robert Eggers", "Fede Álvarez", "David F. Sandberg", "Dario Argento"],
+"option":["Robert Eggers", "Fede Alvarez", "David F. Sandberg", "Dario Argento"],
 },
 {
 "cat":"Horror",
@@ -3302,8 +3282,8 @@ var r2Q3 = [
 "cat":"Horror",
 "ques":"Who directed 2013's Evil Dead?",
 "answ":"FEDE ALVAREZ",
-"answ2":"Fede Álvarez.",
-"option":["Fede Álvarez", "Rob Zombie", "John Woo", "Sam Raimi"],
+"answ2":"Fede Alvarez.",
+"option":["Fede Alvarez", "Rob Zombie", "John Woo", "Sam Raimi"],
 },
 {
 "cat":"Horror",

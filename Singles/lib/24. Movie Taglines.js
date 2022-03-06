@@ -8,6 +8,13 @@ var r2Q24 = [
 },
 {
 "cat":"Movie Taglines",
+"ques":"What cult classic had the tagline: 'Does for rock and roll what The Sound of Music did for hills'?",
+"answ":"THIS IS SPINAL TAP",
+"answ2":"This is Spinal Tap.",
+"option":["This is Spinal Tap", "School of Rock", "Almost Famous", "Rock n Roll High School"],
+},
+{
+"cat":"Movie Taglines",
 "ques":"Name the 2015 film with the tagline: 'Bring Him Home'?",
 "answ":"THE MARTIAN",
 "answ2":"The Martian.",

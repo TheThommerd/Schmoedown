@@ -7,6 +7,36 @@ var comedy = [
 },
 {
 "cat":"Comedies",
+"ques":"Which actor played the lead role in Tootsie?",
+"answ":"DUSTIN HOFFMAN",
+"answ2":"Dustin Hoffman.",
+},
+{
+"cat":"Comedies",
+"ques":"While clashing with her high-school clique, Veronica learns her boyfriend J.D. has been killing students he doesn't like in what 1980's classic?",
+"answ":"HEATHERS",
+"answ2":"Heathers.",
+},
+{
+"cat":"Comedies",
+"ques":"Who plays Ashton Kutcher's co-lead in Dude, Where's My Car?",
+"answ":"SEANN WILLIAM SCOTT",
+"answ2":"Seann William Scott.",
+},
+{
+"cat":"Comedies",
+"ques":"'Big cops. Small Town. Moderate Violence' is the tagline to which 2007 action comedy?",
+"answ":"HOT FUZZ",
+"answ2":"Hot Fuzz.",
+},
+{
+"cat":"Comedies",
+"ques":"Who plays the character of Reggie Hammond in 48 Hrs.?",
+"answ":"EDDIE MURPHY",
+"answ2":"Eddie Murphy.",
+},
+{
+"cat":"Comedies",
 "ques":"Steve Coogan stars as Sir Richard McCreadie, a billionaire high-street fashion mogul in what satrical film released in 2020?",
 "answ":"GREED",
 "answ2":"Greed.",
@@ -1980,12 +2010,6 @@ var comedy = [
 },
 {
 "cat":"Comedies",
-"ques":"Who played Jesse Montgomery III in Dude, Where's My Car?",
-"answ":"ASHTON KUTCHER",
-"answ2":"Ashton Kutcher.",
-},
-{
-"cat":"Comedies",
 "ques":"What actor played Scott Evil, the son of Dr. Evil in the Austin Powers franchise?",
 "answ":"SETH GREENE",
 "answ3":"SETH GREEN",
@@ -2012,7 +2036,7 @@ var comedy = [
 },
 {
 "cat":"Comedies",
-"ques":"Who played Bruto in National Lampoon's Animal House?",
+"ques":"Who played Bluto in National Lampoon's Animal House?",
 "answ":"JOHN BELUSHI",
 "answ2":"John Belushi.",
 },
@@ -3897,6 +3921,42 @@ var r2Q2 = [
 "answ2":"Crazy Stupid Love.",
 "option":["Crazy Stupid Love", "Get Smart", "Date Night", "Evan Almighty"],
 },
+{
+"cat":"Comedies",
+"ques":"Which actress co-starred with Richard Dreyfuss and Emilio Estevez in the 1993 comedy sequel Another Stakeout?",
+"answ":"ROSIE O'DONNELL",
+"answ2":"Rosie O'Donnell.",
+"option":["Rosie O'Donnell", "Rene Russo", "Janeane Garofalo", "Sandra Bullock"],
+},
+{
+"cat":"Comedies",
+"ques":"In Caddyshack, what kind of candy bar gets thrown into the pool and mistaken for poop?",
+"answ":"BABY RUTH",
+"answ2":"Baby Ruth.",
+"option":["Baby Ruth", "Almond Joy", "100 Grand", "Snickers"],
+},
+{
+"cat":"Comedies",
+"ques":"In what Steve Martin comedy does a magical freeway sign pose the riddle: 'U will know what 2 do when U unscramble how daddy is doing'?",
+"answ":"LA STORY",
+"answ2":"L.A. Story.",
+"option":["L.A. Story", "Roxanne", "The Jerk", "Planes, Trains & Automobiles"],
+},
+{
+"cat":"Comedies",
+"ques":"Who played Mother Superior in Sister Act?",
+"answ":"MAGGIE SMITH",
+"answ2":"Maggie Smith.",
+"option":["Maggie Smith", "Ellen Green", "Swoosie Kurtz", "Miranda Richardson"],
+},
+{
+"cat":"Comedies",
+"ques":"In National Lampoon's Vacation, the Griswolds set out in their station wagon toward a fun-filled time at __________",
+"answ":"WALLEY WORLD",
+"answ2":"Walley World.",
+"option":["Walley World", "Future World", "Six Flags", "Itchy and Scratchy Land"],
+},
+
 ];
 comedy = shuffle(comedy);
 r2Q2 = shuffle(r2Q2);

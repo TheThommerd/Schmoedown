@@ -8,6 +8,28 @@ var r2Q77 = [
 },
 {
 "cat":"Bruce Willis",
+"ques":"In The Whole Nine Yards, Bruce Willis plays an infamous contract killer who shares a nickname with what kind of flower?",
+"answ":"TULIP",
+"answ2":"Tulip.",
+"option":["Tulip", "Gladiolus", "Rose", "Snapdragon"],
+},
+{
+"cat":"Bruce Willis",
+"ques":"What is the name of the dictator who lands at the airport in Die Hard 2?",
+"answ":"RAMON ESPERANZA",
+"answ3":"ESPERANZA",
+"answ2":"Ramon Esperanza.",
+"option":["Ramon Esperanza", "Vicente Benavides", "Ferdinand Marcos", "Pablo Escobar"],
+},
+{
+"cat":"Bruce Willis",
+"ques":"In which city does Die Hard take place?",
+"answ":"LOS ANGELES",
+"answ2":"Los Angeles.",
+"option":["Los Angeles", "New York", "Seattle", "San Diego"],
+},
+{
+"cat":"Bruce Willis",
 "ques":"Bruce Willis plays undercover FBI agent Art Jeffries in what 1998 thriller?",
 "answ":"MERCURY RISING",
 "answ2":"Mercury Rising.",

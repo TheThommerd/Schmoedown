@@ -78,13 +78,6 @@ var pixar = [
 },
 {
 "cat":"Pixar",
-"ques":"Who composed the score for Up?",
-"answ":"MICHAEL GIACCHINO",
-"answ3":"MICHAEL GIACHINO",
-"answ2":"Michael Giacchino.",
-},
-{
-"cat":"Pixar",
 "ques":"What was Pixar's third theatrically released film that was released in 1999?",
 "answ":"TOY STORY 2",
 "answ2":"Toy Story 2.",

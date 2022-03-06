@@ -20,13 +20,6 @@ var jamesbond = [
 },
 {
 "cat":"James Bond",
-"ques":"What type of animal is Felix fed to after he is captured at his wedding in License to Kill?",
-"answ":"SHARK",
-"answ3":"SHARKS",
-"answ2":"Shark.",
-},
-{
-"cat":"James Bond",
 "ques":"In which of the Daniel Craig James Bond films does 007 first face off against the famous villain Blofeld?",
 "answ":"SPECTRE",
 "answ2":"Spectre.",
@@ -108,6 +101,13 @@ var r2Q58 = [
 "answ":"FENCING",
 "answ2":"Fencing.",
 "option":["Fencing", "Swimming", "Judo", "Sailing"],
+},
+{
+"cat":"James Bond",
+"ques":"Who plays nuclear physicist Christmas Jones in the 1999 James Bond film The World is Not Enough?",
+"answ":"DENISE RICHARDS",
+"answ2":"Denise Richards.",
+"option":["Denise Richards", "Sophie Marceau", "Gemma Arterton", "Rosamund Pike"],
 },
 {
 "cat":"James Bond",

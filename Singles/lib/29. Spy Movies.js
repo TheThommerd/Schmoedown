@@ -7,6 +7,18 @@ var spymovies = [
 },
 {
 "cat":"Spy Movies",
+"ques":"Who plays the young CIA assistant who believes his boss might be a Russian spy in the 2007 film Breach?",
+"answ":"RYAN PHILLIPPE",
+"answ2":"Ryan Phillippe.",
+},
+{
+"cat":"Spy Movies",
+"ques":"In the spy drama The Tailor of Panama, who plays the tailor?",
+"answ":"GEOFFREY RUSH",
+"answ2":"Geoffrey Rush.",
+},
+{
+"cat":"Spy Movies",
 "ques":"Who played 006 in GoldenEye?",
 "answ":"SEAN BEAN",
 "answ2":"Sean Bean.",
@@ -349,6 +361,13 @@ var r2Q29 = [
 "answ":"ALEC BALDWIN",
 "answ2":"Alec Baldwin.",
 "option":["Alec Baldwin", "Ben Affleck", "Harrison Ford", "Pierce Brosnan"],
+},
+{
+"cat":"Spy Movies",
+"ques":"Who directed the Jack Ryan reboot The Sum of All Fears?",
+"answ":"PHIL ALDEN ROBINSON",
+"answ2":"Phil Alden Robinson.",
+"option":["Phil Alden Robinson", "Peter Weir", "Kenneth Branagh", "Michael Apted"],
 },
 {
 "cat":"Spy Movies",

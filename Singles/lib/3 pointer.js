@@ -2562,8 +2562,8 @@ var threepointer001 = [
 {
 "cat":"Horror",
 "ques":"Who plays the lead Sawyer Valentini in Unsane?",
-"answ":"UNSANE",
-"answ2":"Unsane.",
+"answ":"CLAIRE FOY",
+"answ2":"Claire Foy.",
 },
 {
 "cat":"Horror",
@@ -3363,12 +3363,6 @@ var threepointer001 = [
 "ques":"Who performed the closing credits song May It Be, from The Lord of the Rings: Fellowship of the Ring?",
 "answ":"ENYA",
 "answ2":"Enya.",
-},
-{
-"cat":"Scores & Soundtracks",
-"ques":"Who conducted the score for the 1995 film Braveheart?",
-"answ":"JAMES HORNER",
-"answ2":"James Horner.",
 },
 {
 "cat":"Scores & Soundtracks",

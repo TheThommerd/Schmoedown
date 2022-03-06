@@ -7,6 +7,42 @@ var oscarmovies = [
 },
 {
 "cat":"Oscar Movies",
+"ques":"Naomi Watts earned an Oscar nomination for starring in which 2012 disaster movie?",
+"answ":"THE IMPOSSIBLE",
+"answ2":"The Impossible.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"Robin Williams won an Academy Award for Best Supporting Actor in what 90s film?",
+"answ":"GOOD WILL HUNTING",
+"answ2":"Good Will Hunting.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"Shakespeare in Love won Best Picture over which Steven Spielberg film in 1998?",
+"answ":"SAVING PRIVATE RYAN",
+"answ2":"Saving Private Ryan.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"For which film did George Lucas get his first Oscar Nomination?",
+"answ":"AMERICAN GRAFFITI",
+"answ2":"American Graffiti.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"Which 1970 disaster movie was nominated for ten Academy Awards, and won for Best Supporting Actress?",
+"answ":"AIRPORT",
+"answ2":"Airport.",
+},
+{
+"cat":"Oscar Movies",
+"ques":"Who received a Best Actor Oscar nomination for his role in Tinker Tailor Soldier Spy?",
+"answ":"GARY OLDMAN",
+"answ2":"Gary Oldman.",
+},
+{
+"cat":"Oscar Movies",
 "ques":"Which actor earned a Best Actor nomination for his performance as Jacob Yi in 2020's Minari?",
 "answ":"STEVEN YEUN",
 "answ2":"Steven Yeun.",
@@ -366,12 +402,6 @@ var oscarmovies = [
 "answ":"THE SIXTH SENSE",
 "answ3":"SIXTH SENSE",
 "answ2":"The Sixth Sense.",
-},
-{
-"cat":"Oscar Movies",
-"ques":"The song 'You'll Be In My Heart' won Best Original Song for which animated film?",
-"answ":"TARZAN",
-"answ2":"Tarzan.",
 },
 {
 "cat":"Oscar Movies",
@@ -1896,6 +1926,22 @@ var r2Q6 = [
 },
 {
 "cat":"Oscar Movies",
+"ques":"How many Academy Awards has the Matrix won?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4.",
+"option":["4", "4", "2", "5"],
+},
+{
+"cat":"Oscar Movies",
+"ques":"How many Academy Awards did the movie Rocky win?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+"option":["3", "1", "0", "2"],
+},
+{
+"cat":"Oscar Movies",
 "ques":"Spike Lee received his first Oscar nomination in which category?",
 "answ":"BEST ORIGINAL SCREENPLAY",
 "answ3":"ORIGINAL SCREENPLAY",
@@ -1937,6 +1983,14 @@ var r2Q6 = [
 "answ":"AMERICAN HUSTLE",
 "answ2":"American Hustle.",
 "option":["American Hustle", "Silver Linings Playbook", "La La Land", "Network"],
+},
+{
+"cat":"Oscar Movies",
+"ques":"What was the first film starring Charlton Heston to win Best Picture?",
+"answ":"THE GREATEST SHOW ON EARTH",
+"answ3":"GREATEST SHOW ON EARTH",
+"answ2":"The Greatest Show on Earth.",
+"option":["The Greatest Show on Earth", "Ben-Hur", "The Ten Commandments", "Planet of the Apes"],
 },
 ];
 oscarmovies = shuffle(oscarmovies);

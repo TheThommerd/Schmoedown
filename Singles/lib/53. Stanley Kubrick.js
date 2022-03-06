@@ -8,6 +8,14 @@ var r2Q53 = [
 },
 {
 "cat":"Stanley Kubrick",
+"ques":"You'll find the characters of President Muffley and Captain Mandrake in which Kubrick film?",
+"answ":"DR STRANGELOVE",
+"answ3":"DR STRANGELOVE OR HOW I LEARNED TO STOP WORRYING AND LOVE THE BOMB",
+"answ2":"Dr. Strangelove.",
+"option":["Dr. Strangelove", "Wag the Dog", "Airplane", "Dave"],
+},
+{
+"cat":"Stanley Kubrick",
 "ques":"Who composed the score for Lolita?",
 "answ":"ENNIO MORRICONE",
 "answ2":"Ennio Morricone.",

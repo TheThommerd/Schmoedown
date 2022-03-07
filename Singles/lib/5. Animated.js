@@ -511,13 +511,6 @@ var animated = [
 },
 {
 "cat":"Animated",
-"ques":"What 2019 animated film features the Oscar-nominated song 'Into the Unknown'?",
-"answ":"FROZEN 2",
-"answ3":"FROZEN II",
-"answ2":"Frozen 2.",
-},
-{
-"cat":"Animated",
 "ques":"In what animated film will you see a gingerbread man being tortured by having his 'gumdrop buttons' removed?",
 "answ":"SHREK",
 "answ2":"Shrek.",

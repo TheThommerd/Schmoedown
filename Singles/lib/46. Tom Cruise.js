@@ -630,13 +630,6 @@ var r2Q46 = [
 },
 {
 "cat":"Tom Cruise",
-"ques":"Which Oscar-winning actor provides the voice-over narration for the Tom Cruise film War of the Worlds?",
-"answ":"MORGAN FREEMAN",
-"answ2":"Morgan Freeman.",
-"option":["Morgan Freeman", "Richard Dreyfuss", "Jeremy Irons", "Tom Hanks"],
-},
- {
-"cat":"Tom Cruise",
 "ques":"Which celebrated director plays the villain 'The Zec' in the Tom Cruise thriller Jack Reacher?",
 "answ":"WERNER HERZOG",
 "answ2":"Werner Herzog.",
@@ -659,6 +652,14 @@ var r2Q46 = [
 },
 {
 "cat":"Tom Cruise",
+"ques":"Which Top Gun character has a Ph.D in astrophysics?",
+"answ":"CHARLOTTE",
+"answ3":"CHARLIE",
+"answ2":"Charlotte/Charlie.",
+"option":["Charlie", "Iceman", "Goose", "Viper"],
+},
+{
+"cat":"Tom Cruise",
 "ques":"Tom Cruise plays teenaged football player Stefen Djordjevic in which 1983 film?",
 "answ":"ALL THE RIGHT MOVES",
 "answ2":"All the Right Moves.",
@@ -673,17 +674,10 @@ var r2Q46 = [
 },
 {
 "cat":"Tom Cruise",
-"ques":"Tom Cruise is on a road trip to which North American city in the 1983 film Losin' It?",
+"ques":"Tom Cruise is on a road trip to which Mexican city in the 1983 film Losin' It?",
 "answ":"TIJUANA",
 "answ2":"Tijuana.",
-"option":["Tijuana", "Las Vegas", "Reno", "Atlantic City"],
-},
-{
-"cat":"Tom Cruise",
-"ques":"Miranda Otto played the mother of Tom Cruise’s children in what movie?",
-"answ":"WAR OF THE WORLDS",
-"answ2":"War of the Worlds.",
-"option":["War of the Worlds", "Valkyrie", "The Firm", "Minority Report"],
+"option":["Tijuana", "Mexico City", "Monterrey", "Puebla"],
 },
 ];
 tomcruise = shuffle(tomcruise);

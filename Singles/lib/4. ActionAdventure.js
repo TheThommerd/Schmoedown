@@ -14,12 +14,6 @@ var actionadventure = [
 },
 {
 "cat":"Action/Adventure",
-"ques":"What 2001 adventure movie starring Heath Ledger asks the question: 'Can a man change his stars?'",
-"answ":"A KNIGHT'S TALE",
-"answ2":"A Knight's Tale.",
-},
-{
-"cat":"Action/Adventure",
 "ques":"You will find the character of Chong Li in what Jean Claude Van Damme film?",
 "answ":"BLOODSPORT",
 "answ2":"Bloodsport.",
@@ -425,7 +419,7 @@ var actionadventure = [
 },
 {
 "cat":"Action/Adventure",
-"ques":"What action franchise featuers the characters Letty Ortiz, Tej Parker, Han Lue and Brian O'Conner?",
+"ques":"What action franchise features the characters Letty Ortiz, Tej Parker, Han Lue and Brian O'Conner?",
 "answ":"FAST AND FURIOUS",
 "answ3":"THE FAST AND THE FURIOUS",
 "answ2":"Fast & Furious.",
@@ -841,12 +835,6 @@ var actionadventure = [
 "ques":"Wolfgang Petersen directed this 1997 action film starring Harrison Ford and Gary Oldman.",
 "answ":"AIR FORCE ONE",
 "answ2":"Air Force One.",
-},
-{
-"cat":"Action/Adventure",
-"ques":"In 2000's Gone in 60 Seconds, who plays Nicolas Cage's old flame, Sway?",
-"answ":"ANGELINA JOLIE",
-"answ2":"Angelina Jolie.",
 },
 {
 "cat":"Action/Adventure",

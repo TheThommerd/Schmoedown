@@ -1282,12 +1282,6 @@ var fantasyscifi = [
 },
 {
 "cat":"Fantasy/Sci-fi",
-"ques":"Will Smith plays General Cypher Raige in what film directed by M. Night Shyamalan?",
-"answ":"AFTER EARTH",
-"answ2":"After Earth.",
-},
-{
-"cat":"Fantasy/Sci-fi",
 "ques":"Who plays General Pentecost in Pacific Rim?",
 "answ":"IDRIS ELBA",
 "answ2":"Idris Elba.",

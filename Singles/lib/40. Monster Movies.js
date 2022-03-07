@@ -354,14 +354,6 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"What actress played the mummy in 2017's The Mummy?",
-"answ":"SOFIA BOUTELLA",
-"answ3":"SOPHIA BOUTELLA",
-"answ2":"Sofia Boutella.",
-"option":["Sofia Boutella", "Cara Delevingne", "Naomie Harris", "Naomi Scott"],
-},
-{
-"cat":"Monster Movies",
 "ques":"Who played Victor Frankenstein in 1994's Mary Shelley's Frankenstein?",
 "answ":"KENNETH BRANAGH",
 "answ3":"KENNETH BRANAUGH",
@@ -643,7 +635,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1987 monster movie was directed by Clive Barker and starred Andrew Robinson?",
+"ques":"Which 1987 monster movie was directed by Clive Barker and starred Clare Higgins and Andrew Robinson?",
 "answ":"HELLRAISER",
 "answ2":"Hellraiser.",
 "option":["Hellraiser", "Nightbreed", "The Monster Squad", "Friday the 13th"],
@@ -657,7 +649,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1999 monster movie was directed by Steve Miner and starred Bridget Fonda?",
+"ques":"Which 1999 monster movie was directed by Steve Miner and starred Bridget Fonda, Oliver Platt and Brendan Gleeson?",
 "answ":"LAKE PLACID",
 "answ2":"Lake Placid.",
 "option":["Lake Placid", "Gremlins", "Tremors", "Swamp Thing"],
@@ -685,7 +677,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1990 monster movie was directed by Clive Barker and starred Craig Sheffer?",
+"ques":"Which 1990 monster movie was directed by Clive Barker and starred Craig Sheffer and David Cronenberg?",
 "answ":"NIGHTBREED",
 "answ2":"Nightbreed.",
 "option":["Nightbreed", "Hellraiser", "The Resurrected", "Candyman"],
@@ -699,7 +691,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1978 monster movie was directed by Joe Dante and starred Bradford Dillman?",
+"ques":"Which 1978 monster movie was directed by Joe Dante and starred Bradford Dillman and Heather Menzies?",
 "answ":"PIRANHA",
 "answ2":"Piranha.",
 "option":["Piranha", "Dragonslayer", "Island of Lost Souls", "An American Werewolf in London"],
@@ -721,7 +713,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1985 monster movie was directed by Stuart Gordon and starred Jeffrey Combs?",
+"ques":"Which 1985 monster movie was directed by Stuart Gordon and starred Jeffrey Combs and Bruce Abbott?",
 "answ":"RE ANIMATOR",
 "answ2":"Re-Animator.",
 "option":["Re-Animator", "Lake Placid", "Jurassic Park", "Jaws"],
@@ -735,7 +727,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1982 monster movie was directed by Wes Craven and starred Louis Jourdan?",
+"ques":"Which 1982 monster movie was directed by Wes Craven and starred Ray Wise and Louis Jourdan?",
 "answ":"SWAMP THING",
 "answ2":"Swamp Thing.",
 "option":["Swamp Thing", "The Mist", "Gremlins", "Night of the Lepus"],
@@ -764,7 +756,7 @@ var r2Q40 = [
 },
 {
 "cat":"Monster Movies",
-"ques":"Which 1959 monster movie was directed by Terence Fisher and starred Peter Cushing?",
+"ques":"Which 1959 monster movie was directed by Terence Fisher and starred Peter Cushing and Christopher Lee?",
 "answ":"THE MUMMY",
 "answ2":"The Mummy.",
 "option":["The Mummy", "The Howling", "Jaws", "Legend"],

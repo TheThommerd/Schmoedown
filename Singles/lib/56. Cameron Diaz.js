@@ -124,13 +124,6 @@ var r2Q56 = [
 },
 {
 "cat":"Cameron Diaz",
-"ques":"What film saw Cameron portray a thief by the name of Jenny Everdeen?",
-"answ":"GANGS OF NEW YORK",
-"answ2":"Gangs of New York.",
-"option":["Gangs of New York", "Charlie's Angels", "Knight and Day", "Bad Teacher"],
-},
-{
-"cat":"Cameron Diaz",
 "ques":"What supermodel stars alongside Cameron Diaz and Leslie Mann in The Other Woman?",
 "answ":"KATE UPTON",
 "answ2":"Kate Upton.",
@@ -387,13 +380,6 @@ var r2Q56 = [
 "answ":"I JUST DON'T KNOW WHAT TO DO WITH MYSELF",
 "answ2":"I Just Don't Know What To Do With Myself.",
 "option":["I Just Don't Know What To Do With Myself", "I Say a Little Prayer", "I Am Woman", "Do You Know The Way to San Jose?"],
-},
-{
-"cat":"Cameron Diaz",
-"ques":"Cameron Diaz plays June Havens in what 2010 action film?",
-"answ":"KNIGHT AND DAY",
-"answ2":"Knight and Day.",
-"option":["Knight and Day", "Charlie's Angels", "The Green Hornet", "The Mask"],
 },
 {
 "cat":"Cameron Diaz",

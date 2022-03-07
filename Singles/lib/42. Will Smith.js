@@ -261,13 +261,6 @@ var r2Q42 = [
 },
 {
 "cat":"Will Smith",
-"ques":"In what film does Will play a character named Cypher Raige?",
-"answ":"AFTER EARTH",
-"answ2":"After Earth.",
-"option":["After Earth", "I, Robot", "Gemini Man", "I Am Legend"],
-},
-{
-"cat":"Will Smith",
 "ques":"What actress played 'Love' in Collateral Beauty?",
 "answ":"KEIRA KNIGHTLEY",
 "answ2":"Keira Knightley.",
@@ -477,6 +470,13 @@ var r2Q42 = [
 "answ":"I ROBOT",
 "answ2":"I, Robot.",
 "option":["I, Robot", "Hancock", "After Earth", "Men in Black 3"],
+},
+{
+"cat":"Will Smith",
+"ques":"Which drug is stolen from the police vault in Bad Boys?",
+"answ":"HEROIN",
+"answ2":"Heroin.",
+"option":["Heroin", "Crystal meth", "LSD", "Cocaine"],
 },
 {
 "cat":"Will Smith",

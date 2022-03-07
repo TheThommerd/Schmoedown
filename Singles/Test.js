@@ -2345,10 +2345,12 @@ document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";
 clearTimeout(hidemessage);
+clearTimeout(typeTimer);
 document.getElementById("message001").style.visibility = "visible";
 percentage = competitorlist[0].percentage;
 steal = 0;
 if (a == 2){
+	    message001.innerHTML = question001[0].ques;
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
 	    question1 = myTrim(question1);
@@ -4514,12 +4516,14 @@ function timer001() {
 	    qmusic.currentTime = 0;
 	    quescount++;
 clearTimeout(hidemessage);
+clearTimeout(typeTimer);
 document.getElementById("message001").style.visibility = "visible";
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";
 document.getElementById("JTE").style.visibility = "hidden";
 if (a == 2){
+	message001.innerHTML = question001[0].ques;
 if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat) || (competitorlist[0].strength4 == question001[0].cat) || (competitorlist[0].strength5 == question001[0].cat) || (competitorlist[0].strength6 == question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }

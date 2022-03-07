@@ -75,7 +75,6 @@ function startTyping(textParam, delayParam, destinationParam)
     currentChar=1;
     destination=destinationParam;
     type(delay);
-    setTimeout(function() { message001.innterHTML = " "; }, 5000);
 }
 function pauseTyping()
 {
@@ -1383,6 +1382,7 @@ function begin001() {
 	    document.getElementById("message006").style.top = "40px";
             message001.innerHTML = " ";
 	    startTyping(question001[0].ques, 60, "message001");
+	    setTimeout(function() { message001.innterHTML = " "}, 5000);
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";

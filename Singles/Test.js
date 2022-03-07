@@ -75,6 +75,7 @@ function startTyping(textParam, delayParam, destinationParam)
     currentChar=1;
     destination=destinationParam;
     type(delay);
+    setTimeout(function() { message001.innterHTML = " "; }, 5000);
 }
 function pauseTyping()
 {

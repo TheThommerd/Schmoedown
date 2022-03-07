@@ -36,6 +36,12 @@ function shuffle(array) {
     }
   return array;
 }
+
+function message()
+{
+message001.innerHTML = " ";
+}
+
 var text = "";
 var delay = 40;
 var currentChar = 1;
@@ -1381,8 +1387,8 @@ function begin001() {
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
             message001.innerHTML = " ";
+	    setTimeout(function() { message()}, 5000);
 	    startTyping(question001[0].ques, 60, "message001");
-	    setTimeout(function() { message001.innterHTML = " "}, 5000);
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";

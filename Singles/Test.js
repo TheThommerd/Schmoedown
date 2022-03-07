@@ -39,7 +39,7 @@ function shuffle(array) {
 
 function message()
 {
-message001.innerHTML = " ";
+document.getElementById("message001").style.visibility = "hidden";
 }
 
 var text = "";
@@ -1387,7 +1387,7 @@ function begin001() {
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
             message001.innerHTML = " ";
-	    setTimeout(function() { message()}, 5000);
+	    setTimeout(function() { message()}, 10000);
 	    startTyping(question001[0].ques, 60, "message001");
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";

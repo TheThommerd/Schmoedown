@@ -173,7 +173,9 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-80px";
 	message004.innerHTML = "<div class=tooltip>Increased difficulty<span class=tooltiptext>Enabling this button makes the questions disappear after they've been read</span></div>" + "<br>" + "<label class=switch><input id=toggleButton type=checkbox ><span class='slider round'></span></label>";
-	document.getElementById("message004").style.display = "initial";
+	document.getElementById("message004").style.top = "-495px";
+	document.getElementById("message004").style.left = "-387px";
+	document.getElementById("message004").style.fontSize = "70%";
 }
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();
@@ -1385,6 +1387,7 @@ function begin001() {
 	    time001.innerHTML = 20;
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
+	    document.getElementById("message004").style = "initial";
 	    document.getElementById("message004").style.display = "none";
 	    document.getElementById("message005").style.position = "relative";
 	    document.getElementById("message005").style.top = "0px";

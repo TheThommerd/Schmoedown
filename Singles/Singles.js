@@ -3036,6 +3036,7 @@ document.getElementById("mc").style.display = "none";
 }
 function next001() {
 	qmusic.play();
+	document.getElementById("message005").style.top = "0px";
 	document.getElementById("message002").style.top = "10px";
         document.getElementById("message002").style.display= "block";
 	document.getElementById("message004").style.top = "10px";
@@ -3789,6 +3790,7 @@ userfive++;
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
+		document.getElementById("message005").style.top = "0px";
 		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
                  a++;
 		 j = 0;
@@ -4754,7 +4756,7 @@ document.getElementById("message004").style.top = "10px";
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
-		
+		document.getElementById("message005").style.top = "0px";
 		round001.innerHTML = 2;
  		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Click the Next button";
@@ -4779,7 +4781,7 @@ else if (b -s > 10){
 winKO();
 }
 else{
-	    	
+	    	document.getElementById("message005").style.top = "0px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";

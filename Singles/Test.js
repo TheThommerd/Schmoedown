@@ -1408,7 +1408,7 @@ function begin001() {
 function JTE(){
 document.getElementById("q1").focus();
 if ((c != "0") && (c < 15)) {
-if (j > 0) {
+if (j >= 0) {
 	if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
@@ -1499,7 +1499,7 @@ else if (j == 0) {
 	    }
 }
 }
-else if (j <= 0) {
+else if (j < 0) {
             message005.innerHTML = "No repeats left!";
 	    }
 }        

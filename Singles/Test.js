@@ -3974,6 +3974,7 @@ function next001() {
 	document.getElementById("message002").style.top = "10px";
         document.getElementById("message002").style.display= "block";
 	document.getElementById("message004").style.top = "10px";
+	document.getElementById("message005").style.top = "15px";
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("chart").style.visibility = "hidden";
 	    document.getElementById("JTE").style.display = "initial";
@@ -5865,6 +5866,7 @@ function next002() {
 		qmusic.pause();
 		qmusic.currentTime = 0;
 		document.getElementById("message004").style.top = "10px";
+		document.getElementById("message005").style.top = "0px";
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
@@ -5954,6 +5956,7 @@ else{
 	    	document.getElementById("time001").style.display = "none";
 		round001.innerHTML = 3;
  		qu001.innerHTML = "QUESTION";
+		document.getElementById("message005").style.top = "0px";
                 message001.innerHTML = "Click the Next button";
 		message002.innerHTML = "";
                 message004.innerHTML = "";

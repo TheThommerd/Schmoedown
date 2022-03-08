@@ -172,8 +172,8 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-80px";
-	message004.innerHTML = "<label class=switch><input id=toggleButton type=checkbox ><span class='slider round'></span></label>";
-	document.getElementById("message004").style = "initial";
+	message004.innerHTML = "<div class=tooltip>Increased difficulty<span class=tooltiptext>Enabling this button makes the questions disappear after they've been read</span></div>" + "<br>" + "<label class=switch><input id=toggleButton type=checkbox ><span class='slider round'></span></label>";
+	document.getElementById("message004").style.display = "initial";
 }
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();

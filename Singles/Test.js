@@ -4420,7 +4420,6 @@ userfive++;
                 else if (a == 21) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4439,7 +4438,6 @@ userfive++;
     else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4466,7 +4464,6 @@ userfive++;
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4493,7 +4490,6 @@ userfive++;
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4520,7 +4516,6 @@ userfive++;
   else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4547,7 +4542,6 @@ userfive++;
   else if ((a == 26) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4574,7 +4568,6 @@ userfive++;
   else if ((a == 27) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4601,7 +4594,6 @@ userfive++;
     else if ((a == 28) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    		document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;

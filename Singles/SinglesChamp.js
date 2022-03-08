@@ -3914,7 +3914,6 @@ userfive++;
                 else if (a == 18) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-			document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3939,7 +3938,6 @@ userfive++;
     else if ((a == 19) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3972,7 +3970,6 @@ else if ((a == 19) && (b != s )){
   else if ((a == 20) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4005,7 +4002,6 @@ else if ((a == 19) && (b != s )){
   else if ((a == 21) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4038,7 +4034,6 @@ else if ((a == 19) && (b != s )){
   else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4071,7 +4066,6 @@ else if ((a == 19) && (b != s )){
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4104,7 +4098,6 @@ else if ((a == 19) && (b != s )){
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	  document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4137,7 +4130,6 @@ else if ((a == 19) && (b != s )){
     else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    document.getElementById("message005").style.top = "25px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4202,7 +4194,8 @@ else if ((a == 19) && (b != s )){
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
-		document.getElementById("message005").style.top = "0px";
+		document.getElementById("message004").style.top = "-35px";
+		document.getElementById("message005").style.top = "-50px";
 		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
                  a++;
 		 j = 0;

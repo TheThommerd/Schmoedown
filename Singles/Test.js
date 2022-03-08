@@ -1499,10 +1499,10 @@ else if (j == 0) {
 	    }
 }
 }
-}
 else if (j <= 0) {
             message005.innerHTML = "No repeats left!";
 	    }
+}        
 }
 function Challenge(){
 	     var question1 = document.getElementById("q1").value;

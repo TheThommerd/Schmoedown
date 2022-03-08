@@ -2250,7 +2250,7 @@ function begin001() {
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("message005").style.position = "relative";
-	    document.getElementById("message005").style.top = "0px";
+	    document.getElementById("message005").style.top = "15px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
             message001.innerHTML = question001[0].ques;

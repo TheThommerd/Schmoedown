@@ -3779,6 +3779,7 @@ document.getElementById("mc").style.display = "none";
 }
 function next001() {
 	qmusic.play();
+	document.getElementById("message005").style.top = "15px";
 	document.getElementById("message002").style.top = "10px";
         document.getElementById("message002").style.display= "block";
 	document.getElementById("message004").style.top = "10px";
@@ -5586,6 +5587,7 @@ data[11] = chosen[4];
 function next002() {
 		qmusic.pause();
 		qmusic.currentTime = 0;
+	document.getElementById("message005").style.top = "0px";
 		document.getElementById("message004").style.top = "10px";
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
@@ -5671,6 +5673,7 @@ else if (b -s > 10){
 winKO();
 }
 else{
+	document.getElementById("message005").style.top = "0px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";

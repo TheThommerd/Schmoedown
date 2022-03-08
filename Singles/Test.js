@@ -1412,7 +1412,12 @@ if (j >= 0) {
 	if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 message001.innerHTML = " ";
 document.getElementById("message001").style.visibility = "visible";
 if (a == 2){startTyping(question001[0].ques, 40, "message001");}
@@ -1611,7 +1616,12 @@ else if (j == 0) {
 			if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-				typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 		qmusic.pause();
@@ -1720,7 +1730,12 @@ else if ((mc == 5) && (oppspinfirst == 1)){
 			if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-				typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 		qmusic.pause();
@@ -2431,7 +2446,12 @@ document.getElementById("message006").style.top = "0px";
 	if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-		typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 percentage = competitorlist[0].percentage;
@@ -3965,7 +3985,12 @@ function next001() {
 		if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
             if (a == 2) {
@@ -4663,7 +4688,12 @@ function timer001() {
 		    if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			    typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 		    }
 document.getElementById("message004").style.display = "initial";
@@ -6159,7 +6189,12 @@ function checkerq1(){
 		if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 		    message001.innerHTML = compcat[0].ques;
@@ -6232,7 +6267,12 @@ function checkerq2(){
 		if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 	message001.innerHTML = compcat[1].ques;
@@ -6305,7 +6345,12 @@ function checkerq3(){
 		if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 	message001.innerHTML = compcat[2].ques;
@@ -6378,7 +6423,12 @@ function checkerq4(){
 		if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 	message001.innerHTML = compcat[3].ques;
@@ -6455,7 +6505,12 @@ function checkerq5(){
 		if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
-			typing = false;
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
 document.getElementById("message001").style.visibility = "visible";
 	}
 	message001.innerHTML = compcat[4].ques;

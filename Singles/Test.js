@@ -2354,6 +2354,7 @@ qmusic.pause();
 qmusic.currentTime = 0;	
 similarity1 = 0;
 similarity2 = 0;
+document.getElementById("message004").style.display = "initial";
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";
@@ -4535,6 +4536,7 @@ clearTimeout(hidemessage);
 clearTimeout(typeTimer);
 document.getElementById("message001").style.visibility = "visible";
 		    }
+document.getElementById("message004").style.display = "initial";
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";

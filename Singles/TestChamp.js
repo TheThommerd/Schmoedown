@@ -70,12 +70,16 @@ function type(tick)
         {
             currentChar = 1;
             tick = 9999999999999999;
+	    hidemessage = setTimeout(function() { message()}, 3000);
         }
         
         typeTimer = setTimeout(function() { type(delay); }, tick);
     }
 }
-
+function message()
+{
+document.getElementById("message001").style.visibility = "hidden";
+}
 function startTyping(textParam, delayParam, destinationParam)
 {
     if (currentChar > 1) {
@@ -178,8 +182,10 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-80px";
-	message004.innerHTML = "";
-	document.getElementById("message004").style = "initial";
+	message004.innerHTML = "<div class=tooltip>Increased difficulty<span class=tooltiptext>Enabling this button makes the questions disappear after they've been read</span></div>" + "<br>" + "<label class=switch><input id=toggleButton type=checkbox ><span class='slider round'></span></label>";
+	document.getElementById("message004").style.top = "-495px";
+	document.getElementById("message004").style.left = "-387px";
+	document.getElementById("message004").style.fontSize = "70%";
 }
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();
@@ -2253,7 +2259,9 @@ function begin001() {
 	    document.getElementById("message005").style.top = "15px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
-            message001.innerHTML = question001[0].ques;
+	if (document.getElementById("toggleButton").checked == true){difficult++;}
+	message001.innerHTML = question001[0].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";
@@ -2265,7 +2273,58 @@ function begin001() {
         }
 function JTE(){
 document.getElementById("q1").focus();
-if ((c != 0) && (c < 15)) {
+if ((c != "0") && (c < 15)) {
+if (j >= 0) {
+	if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+message001.innerHTML = " ";
+document.getElementById("message001").style.visibility = "visible";
+if ((a == 2) && (bettingbool == 0)){startTyping(question001[0].ques, 40, "message001");}
+if ((a == 3) && (bettingbool == 0)){startTyping(question001[18].ques, 40, "message001");}
+if ((a == 4) && (bettingbool == 0)){startTyping(question001[19].ques, 40, "message001");}
+if ((a == 5) && (bettingbool == 0)){startTyping(question001[1].ques, 40, "message001");}
+if ((a == 6) && (bettingbool == 0)){startTyping(question001[2].ques, 40, "message001");}
+if ((a == 7) && (bettingbool == 0)){startTyping(question001[3].ques, 40, "message001");}
+if ((a == 8) && (bettingbool == 0)){startTyping(question001[4].ques, 40, "message001");}
+if ((a == 9) && (bettingbool == 0)){startTyping(question001[5].ques, 40, "message001");}
+if ((a == 10) && (bettingbool == 0)){startTyping(question001[6].ques, 40, "message001");}
+if ((a == 11) && (bettingbool == 0)){startTyping(question001[7].ques, 40, "message001");}
+if ((a == 12) && (bettingbool == 0)){startTyping(question001[9].ques, 40, "message001");}
+if ((a == 13) && (bettingbool == 0)){startTyping(r2question001[0].ques, 40, "message001");}
+if ((a == 14) && (bettingbool == 0)){startTyping(r2question001[4].ques, 40, "message001");}
+if ((a == 15) && (bettingbool == 0)){startTyping(r2question001[1].ques, 40, "message001");}
+if ((a == 16) && (bettingbool == 0)){startTyping(r2question001[2].ques, 40, "message001");}
+if ((a == 17) && (opened == 0) && (mc == 0) && (bettingbool == 0)){startTyping(r2question001[3].ques, 40, "message001");}
+if ((a == 18) && (bettingbool == 0)){startTyping(question001[8].ques, 40, "message001");}
+if ((a == 19) && (bettingbool == 0)){startTyping(threepointer001[0].ques, 40, "message001");}
+if ((a == 20) && (bettingbool == 0)){startTyping(fivepointer001[0].ques, 40, "message001");}
+if ((a == 22) && (bettingbool == 0)){startTyping(question001[10].ques, 40, "message001");}
+if ((a == 23) && (bettingbool == 0)){startTyping(question001[11].ques, 40, "message001");}
+if ((a == 24) && (bettingbool == 0)){startTyping(question001[12].ques, 40, "message001");}
+if ((a == 25) && (bettingbool == 0)){startTyping(question001[13].ques, 40, "message001");}
+if ((a == 26) && (bettingbool == 0)){startTyping(question001[14].ques, 40, "message001");}
+if ((a == 27) && (bettingbool == 0)){startTyping(question001[15].ques, 40, "message001");}
+if ((a == 28) && (bettingbool == 0)){startTyping(question001[16].ques, 40, "message001");}
+if ((a == 29) && (bettingbool == 0)){startTyping(question001[17].ques, 40, "message001");}
+if ((opened == 1) && (bettingbool == 0)){startTyping(compcat[0].ques, 40, "message001");}
+if ((opened == 2) && (bettingbool == 0)){startTyping(compcat[1].ques, 40, "message001");}
+if ((opened == 3) && (bettingbool == 0)){startTyping(compcat[2].ques, 40, "message001");}
+if ((opened == 4) && (bettingbool == 0)){startTyping(compcat[3].ques, 40, "message001");}
+if ((opened == 5) && (bettingbool == 0)){startTyping(compcat[4].ques, 40, "message001");}
+if ((mc == 1) && (bettingbool == 0)){startTyping(compcat[5].ques, 40, "message001");}
+if ((mc == 2) && (bettingbool == 0)){startTyping(compcat[6].ques, 40, "message001");}
+if ((mc == 3) && (bettingbool == 0)){startTyping(compcat[7].ques, 40, "message001");}
+if ((mc == 4) && (bettingbool == 0)){startTyping(compcat[8].ques, 40, "message001");}
+if ((mc == 5) && (bettingbool == 0)){startTyping(compcat[9].ques, 40, "message001");}
+if (bettingbool == 1){startTyping(bettingquestion001[8].ques, 40, "message001");}
+	}
 if (j == 3) {
             c = 16;
              j--;
@@ -2306,10 +2365,11 @@ else if (j == 0) {
 	    document.getElementById("background").src = "Singles - NoJTE.png";
 	    }
 }
+}
 else if (j < 0) {
             message005.innerHTML = "No repeats left!";
 	    }
-}
+}        
 }
 var bettingbool = 0;
 var betpoints = 0;
@@ -2441,6 +2501,17 @@ else if (j == 0) {
 	      }
 }
         function qcor() {
+if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+}
 		qmusic.pause();
 		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-10px";
@@ -2461,8 +2532,13 @@ if (mc == 0){
             score001.innerHTML = b+=1;
 	if ((a == 13) ||(a == 14)||(a == 15)||(a == 16)){
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	}  
+	}
+	if (a == 13) {message001.innerHTML = r2question001[0].ques;}  
+	if (a == 14) {message001.innerHTML = r2question001[4].ques;}  
+	if (a == 15) {message001.innerHTML = r2question001[1].ques;}  
+	if (a == 16) {message001.innerHTML = r2question001[2].ques;}  
 	if (a == 17){
+	    message001.innerHTML = r2question001[3].ques;
             message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
     	    if (oppspinfirst == 1){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }  
@@ -2480,6 +2556,7 @@ if (mc != 0){
             score001.innerHTML = b+=1;
 	    stealmc--;
 if (mc == 1){
+	message001.innerHTML = compcat[5].ques;
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
@@ -2491,6 +2568,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }	
 }
 if (mc == 2){
+	message001.innerHTML = compcat[6].ques;
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
@@ -2502,6 +2580,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 if (mc == 3){
+	message001.innerHTML = compcat[7].ques;
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
@@ -2513,6 +2592,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 if (mc == 4){
+	message001.innerHTML = compcat[8].ques;
 if (stealmc > 0) {
  message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
@@ -2524,15 +2604,28 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 else if ((mc == 5) && (oppspinfirst == 0)){
+	message001.innerHTML = compcat[9].ques;
  message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if ((mc == 5) && (oppspinfirst == 1)){
+	message001.innerHTML = compcat[9].ques;
  message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 	
 }
 }
         function qinc() {
+if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+}
 		qmusic.pause();
 		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-10px";
@@ -2546,6 +2639,7 @@ else if ((mc == 5) && (oppspinfirst == 1)){
             c = "-";
 if (mc == 0){
 	if (a == 13){
+		message001.innerHTML = r2question001[0].ques;
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[0].answ2 ;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -2565,6 +2659,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 14){
+		message001.innerHTML = r2question001[4].ques;
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[4].answ2 ;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -2584,6 +2679,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		} 
 	if (a == 15){
+		message001.innerHTML = r2question001[1].ques;
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[1].answ2 ;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -2603,6 +2699,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		} 
 	if (a == 16){
+		message001.innerHTML = r2question001[2].ques;
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[2].answ2 ;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -2622,6 +2719,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 17){
+		message001.innerHTML = r2question001[3].ques;
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[3].answ2;
             message002.innerHTML = "";
 	    message006.innerHTML = "";
@@ -2646,6 +2744,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 else if (mc != 0){
 	    document.getElementById("message004").style.top = "10px";
 if (mc == 1){
+	message001.innerHTML = compcat[5].ques;
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -2665,6 +2764,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 if (mc == 2){
+	message001.innerHTML = compcat[6].ques;
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -2684,6 +2784,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 if (mc == 3){
+	message001.innerHTML = compcat[7].ques;
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -2703,6 +2804,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 if (mc == 4){
+	message001.innerHTML = compcat[8].ques;
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -2722,6 +2824,7 @@ else if ((stealmc == 0) && (oppspinfirst == 1)){
 }
 }
 if (mc == 5){
+	message001.innerHTML = compcat[9].ques;
 	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
@@ -3223,16 +3326,29 @@ function checker() {
 		qmusic.currentTime = 0;	
 		similarity1 = 0;
 		similarity2 = 0;
+		document.getElementById("message004").style.display = "initial";
 		document.getElementById("message003").style.top = "0px";
 		document.getElementById("message004").style.top = "10px";
 		document.getElementById("message006").style.top = "0px";
 		percentage = competitorlist[0].percentage;
 	    	steal = 0;
+if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+}
 if (speed != 0)
 {
 checkerspeed();
 }
 if ((a == 2) && (bettingbool == 0)){
+	message001.innerHTML = question001[0].ques;
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
 	    question1 = myTrim(question1);
@@ -3293,6 +3409,7 @@ score002.innerHTML = s+=1;
 	   
 }
 if ((a == 3) && (bettingbool == 0)){
+	message001.innerHTML = question001[18].ques;
 	    var question025 = document.getElementById("q1").value.toUpperCase();
 	    var question25 = myTrim(question025);
 	    question25 = myTrim(question25);
@@ -3348,6 +3465,7 @@ score002.innerHTML = s+=1;
 	
 }
 if ((a == 4) && (bettingbool == 0)){
+	message001.innerHTML = question001[19].ques;
 	    var question026 = document.getElementById("q1").value.toUpperCase();
 	    var question26 = myTrim(question026);
 	    question26 = myTrim(question26);
@@ -3403,6 +3521,7 @@ score002.innerHTML = s+=1;
 	
 }
 if ((a == 5) && (bettingbool == 0)){
+	message001.innerHTML = question001[1].ques;
 	    var question02 = document.getElementById("q1").value.toUpperCase();
 	    var question2 = myTrim(question02);
 	    question2 = myTrim(question2);
@@ -3463,6 +3582,7 @@ score002.innerHTML = s+=1;
 	
 }
 if ((a == 6) && (bettingbool == 0)){
+	message001.innerHTML = question001[2].ques;
 	    var question03 = document.getElementById("q1").value.toUpperCase();
 	    var question3 = myTrim(question03);
 	    question3 = myTrim(question3);
@@ -3524,6 +3644,7 @@ score002.innerHTML = s+=1;
 	  
 }
 if ((a == 7) && (bettingbool == 0)){
+	message001.innerHTML = question001[3].ques;
 	    var question04 = document.getElementById("q1").value.toUpperCase();
 	    var question4 = myTrim(question04);
 	    question4 = myTrim(question4);
@@ -3584,6 +3705,7 @@ score002.innerHTML = s+=1;
 	   
 }
 if ((a == 8) && (bettingbool == 0)){
+	message001.innerHTML = question001[4].ques;
 	    var question05 = document.getElementById("q1").value.toUpperCase();
 	    var question5 = myTrim(question05);
 	    question5 = myTrim(question5);
@@ -3644,6 +3766,7 @@ score002.innerHTML = s+=1;
 	    
 }
 if ((a == 9) && (bettingbool == 0)){
+	message001.innerHTML = question001[5].ques;
 	    var question06 = document.getElementById("q1").value.toUpperCase();
 	    var question6 = myTrim(question06);
 	    question6 = myTrim(question6);
@@ -3704,6 +3827,7 @@ score002.innerHTML = s+=1;
 	  
 }
 if ((a == 10) && (bettingbool == 0)){
+	message001.innerHTML = question001[6].ques;
 	    var question07 = document.getElementById("q1").value.toUpperCase();
 	    var question7 = myTrim(question07);
 	    question7 = myTrim(question7);
@@ -3763,6 +3887,7 @@ score002.innerHTML = s+=1;
 	
 }
 if ((a == 11) && (bettingbool == 0)){
+	message001.innerHTML = question001[7].ques;
 	    var question08 = document.getElementById("q1").value.toUpperCase();
 	    var question8 = myTrim(question08);
 	    question8 = myTrim(question8);
@@ -3828,6 +3953,7 @@ score002.innerHTML = s+=1;
 	 
 }
 if ((a == 12) && (bettingbool == 0)){
+	message001.innerHTML = question001[9].ques;
 	    var question017 = document.getElementById("q1").value.toUpperCase();
 	    var question17 = myTrim(question017);
 	    question17 = myTrim(question17);
@@ -3893,6 +4019,7 @@ if (chance < percentage) {
             }
 }
 if ((a == 13) && (bettingbool == 0)){
+	message001.innerHTML = r2question001[0].ques;
 	    var question09 = document.getElementById("q1").value.toUpperCase();
 	    var question9 = myTrim(question09);
 	    question9 = myTrim(question9);
@@ -3954,6 +4081,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
 if ((a == 14) && (bettingbool == 0)){
+	message001.innerHTML = r2question001[4].ques;
 	    var question029 = document.getElementById("q1").value.toUpperCase();
 	    var question29 = myTrim(question029);
 	    question29 = myTrim(question29);
@@ -4014,6 +4142,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
 if ((a == 15) && (bettingbool == 0)){
+	message001.innerHTML = r2question001[1].ques;
 	    var question010 = document.getElementById("q1").value.toUpperCase();
 	    var question10 = myTrim(question010);
 	    question10 = myTrim(question10);
@@ -4076,6 +4205,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
             }
 }
 if ((a == 16) && (bettingbool == 0)){
+	message001.innerHTML = r2question001[2].ques;
 	    var question011 = document.getElementById("q1").value.toUpperCase();
 	    var question11 = myTrim(question011);
 	    question11 = myTrim(question11);
@@ -4138,6 +4268,7 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
             }
 }
 if ((a == 17) && (opened == 0) && (mc == 0) && (bettingbool == 0)){
+	message001.innerHTML = r2question001[3].ques;
 	    var question012 = document.getElementById("q1").value.toUpperCase();
 	    var question12 = myTrim(question012);
 	    question12 = myTrim(question12);
@@ -4204,6 +4335,7 @@ if (oppspinfirst == 1){message004.innerHTML = "<button id=chal class=buttons006 
             }
 }
 if ((a == 18) && (bettingbool == 0)){
+	message001.innerHTML = question001[8].ques;
 	    var question013 = document.getElementById("q1").value.toUpperCase();
 	    var question13 = myTrim(question013);
 	    question13 = myTrim(question13);
@@ -4252,6 +4384,7 @@ else if ((s - b == 0) && (answeredfive == 1)){
             }
 }
 if ((a == 19) && (bettingbool == 0)){
+	message001.innerHTML = threepointer001[0].ques;
 	    var question014 = document.getElementById("q1").value.toUpperCase();
 	    var question14 = myTrim(question014);
 	    question14 = myTrim(question14);
@@ -4300,6 +4433,7 @@ else if ((s - b == 0) && (answeredfive == 1)){
             }
 }
 if ((a == 20) && (bettingbool == 0)){
+	message001.innerHTML = fivepointer001[0].ques;
 	    var question015 = document.getElementById("q1").value.toUpperCase();
 	    var question15 = myTrim(question015);
 	    question15 = myTrim(question15);
@@ -4338,6 +4472,7 @@ quescor++;
             }
 }
 if ((a == 22) && (bettingbool == 0)){
+	message001.innerHTML = question001[10].ques;
 	    var question016 = document.getElementById("q1").value.toUpperCase();
 	    var question16 = myTrim(question016);
 	    question16 = myTrim(question16);
@@ -4397,6 +4532,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 23) && (bettingbool == 0)){
+	message001.innerHTML = question001[11].ques;
 	    var question018 = document.getElementById("q1").value.toUpperCase();
 	    var question18 = myTrim(question018);
 	    question18 = myTrim(question18);
@@ -4456,6 +4592,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 24) && (bettingbool == 0)){
+	message001.innerHTML = question001[12].ques;
 	    var question019 = document.getElementById("q1").value.toUpperCase();
 	    var question19 = myTrim(question019);
 	    question19 = myTrim(question19);
@@ -4515,6 +4652,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 25) && (bettingbool == 0)){
+	message001.innerHTML = question001[13].ques;
 	    var question020 = document.getElementById("q1").value.toUpperCase();
 	    var question20 = myTrim(question020);
 	    question20 = myTrim(question20);
@@ -4574,6 +4712,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 26) && (bettingbool == 0)){
+	message001.innerHTML = question001[14].ques;
 	    var question021 = document.getElementById("q1").value.toUpperCase();
 	    var question21 = myTrim(question021);
 	    question21 = myTrim(question21);
@@ -4633,6 +4772,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 27) && (bettingbool == 0)){
+	message001.innerHTML = question001[15].ques;
 	    var question022 = document.getElementById("q1").value.toUpperCase();
 	    var question22 = myTrim(question022);
 	    question22 = myTrim(question22);
@@ -4692,6 +4832,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 28) && (bettingbool == 0)){
+	message001.innerHTML = question001[16].ques;
 	    var question023 = document.getElementById("q1").value.toUpperCase();
 	    var question23 = myTrim(question023);
 	    question23 = myTrim(question23);
@@ -4751,6 +4892,7 @@ score002.innerHTML = s+=1;
             }
 }
 if ((a == 29) && (bettingbool == 0)){
+	message001.innerHTML = question001[17].ques;
 	    var question024 = document.getElementById("q1").value.toUpperCase();
 	    var question24 = myTrim(question024);
 	    question24 = myTrim(question24);
@@ -4849,6 +4991,17 @@ function next001() {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+}
             if (a == 2) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -4856,6 +5009,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[18].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[18].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 	        document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4872,6 +5026,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[19].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[19].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4888,6 +5043,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[1].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[1].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4904,6 +5060,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[2].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[2].ques, 40, "message001");}		    
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4920,6 +5077,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[3].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[3].ques, 40, "message001");}		    
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4936,6 +5094,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[4].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[4].ques, 40, "message001");}		    
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4952,6 +5111,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[5].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[5].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4968,6 +5128,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[6].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[6].ques, 40, "message001");}		    
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -4984,6 +5145,7 @@ function next001() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[7].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[7].ques, 40, "message001");}		    
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5013,6 +5175,7 @@ next002();
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[9].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[9].ques, 40, "message001");}		
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5032,6 +5195,7 @@ next002();
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[0].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(r2question001[0].ques, 40, "message001");}
                 generateR2(0);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -5063,6 +5227,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[4].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(r2question001[4].ques, 40, "message001");}	 
                 generateR2(4);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -5092,6 +5257,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[1].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(r2question001[1].ques, 40, "message001");}		    
                 generateR2(1);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -5121,6 +5287,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[2].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(r2question001[2].ques, 40, "message001");}
                 generateR2(2);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -5150,6 +5317,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = r2question001[3].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(r2question001[3].ques, 40, "message001");}	    
                 generateR2(3);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -5187,6 +5355,7 @@ usertwo++;
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[8].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[8].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5217,6 +5386,7 @@ userthree++;
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = threepointer001[0].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(threepointer001[0].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5245,6 +5415,7 @@ userfive++;
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = fivepointer001[0].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(fivepointer001[0].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5263,6 +5434,7 @@ userfive++;
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[10].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[10].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5281,6 +5453,7 @@ userfive++;
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[11].ques;
+	    	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[11].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5307,6 +5480,7 @@ else if ((a == 22) && (b != s )){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[12].ques;
+		if (difficult == 1){message001.innerHTML = " ";startTyping(question001[12].ques, 40, "message001");}  
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5333,6 +5507,7 @@ else if ((a == 22) && (b != s )){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[13].ques;
+	  	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[13].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5359,6 +5534,7 @@ else if ((a == 22) && (b != s )){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[14].ques;
+	  	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[14].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5385,6 +5561,7 @@ else if ((a == 22) && (b != s )){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[15].ques;
+	  	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[15].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5411,6 +5588,7 @@ else if ((a == 22) && (b != s )){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[16].ques;
+	  	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[16].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5437,6 +5615,7 @@ else if ((a == 22) && (b != s )){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[17].ques;
+	  	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[17].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -5514,11 +5693,24 @@ function timer001() {
 	    qmusic.pause();
 	    qmusic.currentTime = 0;
 	   quescount++;
+if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+		    }
+document.getElementById("message004").style.display = "initial";
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";
 document.getElementById("JTE").style.visibility = "hidden";
 if (a == 2){
+	message001.innerHTML = question001[0].ques;
 if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat) || (competitorlist[0].strength4 == question001[0].cat) || (competitorlist[0].strength5 == question001[0].cat) || (competitorlist[0].strength6 == question001[0].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5539,6 +5731,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 3){
+	message001.innerHTML = question001[18].ques;
 if ((competitorlist[0].strength1 == question001[18].cat) || (competitorlist[0].strength2 == question001[18].cat) || (competitorlist[0].strength3 == question001[18].cat) || (competitorlist[0].strength4 == question001[18].cat) || (competitorlist[0].strength5 == question001[18].cat) || (competitorlist[0].strength6 == question001[18].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5559,6 +5752,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 4){
+	message001.innerHTML = question001[19].ques;
 if ((competitorlist[0].strength1 == question001[19].cat) || (competitorlist[0].strength2 == question001[19].cat) || (competitorlist[0].strength3 == question001[19].cat) || (competitorlist[0].strength4 == question001[19].cat) || (competitorlist[0].strength5 == question001[19].cat) || (competitorlist[0].strength6 == question001[19].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5579,6 +5773,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 5){
+	message001.innerHTML = question001[1].ques;
 if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat) || (competitorlist[0].strength4 == question001[1].cat) || (competitorlist[0].strength5 == question001[1].cat) || (competitorlist[0].strength6 == question001[1].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5599,6 +5794,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 6){
+	message001.innerHTML = question001[2].ques;
 if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat) || (competitorlist[0].strength4 == question001[2].cat) || (competitorlist[0].strength5 == question001[2].cat) || (competitorlist[0].strength6 == question001[2].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5619,6 +5815,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 7){
+	message001.innerHTML = question001[3].ques;
 if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat) || (competitorlist[0].strength4 == question001[3].cat) || (competitorlist[0].strength5 == question001[3].cat) || (competitorlist[0].strength6 == question001[3].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5639,6 +5836,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 8){
+	message001.innerHTML = question001[4].ques;
 if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat) || (competitorlist[0].strength4 == question001[4].cat) || (competitorlist[0].strength5 == question001[4].cat) || (competitorlist[0].strength6 == question001[4].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5659,6 +5857,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 9){
+	message001.innerHTML = question001[5].ques;
 if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat) || (competitorlist[0].strength4 == question001[5].cat) || (competitorlist[0].strength5 == question001[5].cat) || (competitorlist[0].strength6 == question001[5].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5679,6 +5878,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 10){
+	message001.innerHTML = question001[6].ques;
 if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat) || (competitorlist[0].strength4 == question001[6].cat) || (competitorlist[0].strength5 == question001[6].cat) || (competitorlist[0].strength6 == question001[6].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5699,6 +5899,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 11){
+	message001.innerHTML = question001[7].ques;
 if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat) || (competitorlist[0].strength4 == question001[7].cat) || (competitorlist[0].strength5 == question001[7].cat) || (competitorlist[0].strength6 == question001[7].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5719,6 +5920,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 12){
+	message001.innerHTML = question001[9].ques;
 if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat) || (competitorlist[0].strength4 == question001[9].cat) || (competitorlist[0].strength5 == question001[9].cat) || (competitorlist[0].strength6 == question001[9].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -5741,6 +5943,7 @@ if (chance < percentage) {
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 13){
+	message001.innerHTML = r2question001[0].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -5794,6 +5997,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 14){
+	message001.innerHTML = r2question001[4].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -5847,6 +6051,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 15){
+	message001.innerHTML = r2question001[1].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -5900,6 +6105,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 16){
+	message001.innerHTML = r2question001[2].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -5953,6 +6159,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if ((a == 17) && (opened == 0) && (mc == 0) && (bettingbool == 0)){
+	message001.innerHTML = r2question001[3].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6008,6 +6215,7 @@ if (typeof(element4) != 'undefined' && element4 != null)
 {document.getElementById("incop4").style.display = "none";}
 }
 else if (a == 18){
+	message001.innerHTML = question001[8].ques;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             	message003.innerHTML = "The correct answer is " + question001[8].answ2;
@@ -6018,6 +6226,7 @@ if (s - b > 0){
             	message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if (a == 19){
+	message001.innerHTML = threepointer001[0].ques;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             	message003.innerHTML = "The correct answer is " + threepointer001[0].answ2;
@@ -6028,6 +6237,7 @@ if (s - b > 0){
             	message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if (a == 20){
+	message001.innerHTML = fivepointer001[0].ques;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             	message003.innerHTML = "The correct answer is " + fivepointer001[0].answ2;
@@ -6035,6 +6245,7 @@ else if (a == 20){
             	message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 else if (a == 22){
+	message001.innerHTML = question001[10].ques;
 if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat) || (competitorlist[0].strength4 == question001[10].cat) || (competitorlist[0].strength5 == question001[10].cat) || (competitorlist[0].strength6 == question001[10].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6055,6 +6266,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 23){
+	message001.innerHTML = question001[11].ques;
 if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat) || (competitorlist[0].strength4 == question001[11].cat) || (competitorlist[0].strength5 == question001[11].cat) || (competitorlist[0].strength6 == question001[11].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6075,6 +6287,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 24){
+	message001.innerHTML = question001[12].ques;
 if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat) || (competitorlist[0].strength4 == question001[12].cat) || (competitorlist[0].strength5 == question001[12].cat) || (competitorlist[0].strength6 == question001[12].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6095,6 +6308,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 25){
+	message001.innerHTML = question001[13].ques;
 if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat) || (competitorlist[0].strength4 == question001[13].cat) || (competitorlist[0].strength5 == question001[13].cat) || (competitorlist[0].strength6 == question001[13].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6115,6 +6329,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 26){
+	message001.innerHTML = question001[14].ques;
 if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat) || (competitorlist[0].strength4 == question001[14].cat) || (competitorlist[0].strength5 == question001[14].cat) || (competitorlist[0].strength6 == question001[14].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6135,6 +6350,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 27){
+	message001.innerHTML = question001[15].ques;
 if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat) || (competitorlist[0].strength4 == question001[15].cat) || (competitorlist[0].strength5 == question001[15].cat) || (competitorlist[0].strength6 == question001[15].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6155,6 +6371,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 28){
+	message001.innerHTML = question001[16].ques;
 if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat) || (competitorlist[0].strength4 == question001[16].cat) || (competitorlist[0].strength5 == question001[16].cat) || (competitorlist[0].strength6 == question001[16].cat)){
 percentage = competitorlist[0].strengthpercentage;
 }
@@ -6175,6 +6392,7 @@ score002.innerHTML = s+=1;
 	percentage = competitorlist[0].percentage;
 }
 else if (a == 29){
+	message001.innerHTML = question001[17].ques;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             	message003.innerHTML = "The correct answer is " + question001[17].answ2;
@@ -6185,6 +6403,7 @@ else if (a == 29){
 }
 else if (opened == 1)
 {
+	message001.innerHTML = compcat[0].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6210,6 +6429,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 else if (opened == 2)
 {
+	message001.innerHTML = compcat[1].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6235,6 +6455,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
 }
 else if (opened == 3)
 {
+	message001.innerHTML = compcat[2].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6260,6 +6481,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 else if (opened == 4)
 {
+	message001.innerHTML = compcat[3].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6285,6 +6507,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 else if (opened == 5)
 {
+	message001.innerHTML = compcat[4].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6307,6 +6530,7 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }
 else if ((mc == 1) && (bettingbool == 0))
 {
+	message001.innerHTML = compcat[5].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6356,6 +6580,7 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 2) && (bettingbool == 0))
 {
+	message001.innerHTML = compcat[6].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6405,6 +6630,7 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 3) && (bettingbool == 0))
 {
+	message001.innerHTML = compcat[7].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6454,6 +6680,7 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 4) && (bettingbool == 0))
 {
+	message001.innerHTML = compcat[8].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6503,6 +6730,7 @@ document.getElementById("incop4").style.display = "none";
 }
 else if ((mc == 5) && (bettingbool == 0))
 {
+	message001.innerHTML = compcat[9].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6554,6 +6782,7 @@ document.getElementById("incop4").style.display = "none";
 }
 }
 if (bettingbool == 1){
+	message001.innerHTML = bettingquestion001[8].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6569,6 +6798,7 @@ if (bettingbool == 1){
 	    simulatebetting();
 }
 if (speed == 2){
+	message001.innerHTML = speedquestion001[0].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6584,6 +6814,7 @@ if (speed == 2){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 3){
+	message001.innerHTML = speedquestion001[1].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6599,6 +6830,7 @@ if (speed == 3){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 4){
+	message001.innerHTML = speedquestion001[2].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6614,6 +6846,7 @@ if (speed == 4){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 5){
+	message001.innerHTML = speedquestion001[3].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6629,6 +6862,7 @@ if (speed == 5){
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 6){
+	message001.innerHTML = speedquestion001[4].ques;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -6688,22 +6922,27 @@ else if (nobody == 1){
  		posspoints+=1;
 }
 if (speed == 1) {
+	message001.innerHTML = speedquestion001[0].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
 }
 else if (speed == 2) {
+	message001.innerHTML = speedquestion001[1].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
 }
 else if (speed == 3) {
+	message001.innerHTML = speedquestion001[2].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
 }
 else if (speed == 4) {
+	message001.innerHTML = speedquestion001[3].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
 }
 else if (speed == 5) {
+	message001.innerHTML = speedquestion001[4].ques;
             message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
 }
@@ -6899,6 +7138,7 @@ function bettingquestion() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = bettingquestion001[8].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(bettingquestion001[8].ques, 40, "message001");}
                  message002.innerHTML = input + "<br>" + buttons;
 		document.getElementById("mc").style.display = "none";
 		document.getElementById("q1").focus();
@@ -6950,6 +7190,18 @@ if (chance2 >= betpercentage){
 }
 }
 function checkerbetting(){
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
+	message001.innerHTML = bettingquestion001[8].ques;
 	similarity1 = 0;
 similarity2 = 0;
 	    var betting01 = document.getElementById("q1").value.toUpperCase();
@@ -7138,13 +7390,16 @@ else if (speed == 5){
 }
 }
 var nobody = 0 ; 
-function speedquestions() {	
+function speedquestions() {
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
 text = "";
 delay = 40;
 currentChar = 1;
 destination = "[none]";
 typeTimer = null;
 typing = true;
+document.getElementById("message001").style.visibility = "visible";
 	    document.getElementById("chart").style.visibility = "hidden";
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
@@ -7338,9 +7593,21 @@ update = setInterval("speedtimer001()", 1000);
 function checkerspeed(){
 similarity1 = 0;
 similarity2 = 0;
+if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+}
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 if (speed == 2){
+	message001.innerHTML = speedquestion001[0].ques;
 	    var speed01 = document.getElementById("q1").value.toUpperCase();
 	    var speed1 = myTrim(speed01);
 	    speed1 = myTrim(speed1);
@@ -7381,6 +7648,7 @@ quescor++
 	}
 }	   
 if (speed == 3){
+	message001.innerHTML = speedquestion001[1].ques;
 	    var speed02 = document.getElementById("q1").value.toUpperCase();
 	    var speed2 = myTrim(speed02);
 	    speed2 = myTrim(speed2);
@@ -7421,6 +7689,7 @@ quescor++
 	}
 }	   
 if (speed == 4){
+	message001.innerHTML = speedquestion001[2].ques;
 	    var speed03 = document.getElementById("q1").value.toUpperCase();
 	    var speed3 = myTrim(speed03);
 	    speed3 = myTrim(speed3);
@@ -7461,6 +7730,7 @@ quescor++
 	}
 }	   
 if (speed == 5){
+	message001.innerHTML = speedquestion001[3].ques;
 	    var speed04 = document.getElementById("q1").value.toUpperCase();
 	    var speed4 = myTrim(speed04);
 	    speed4 = myTrim(speed4);
@@ -7501,6 +7771,7 @@ quescor++
 	}
 }	   
 if (speed == 6){
+	message001.innerHTML = speedquestion001[4].ques;
 	    var speed05 = document.getElementById("q1").value.toUpperCase();
 	    var speed5 = myTrim(speed05);
 	    speed5 = myTrim(speed5);
@@ -7905,6 +8176,18 @@ next003();
 }
 
 function checkerq1(){
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
+		    message001.innerHTML = compcat[0].ques;
 	    similarity1 = 0;
 	    similarity2 = 0;
 	    var stealer01 = document.getElementById("q1").value.toUpperCase();
@@ -7971,6 +8254,18 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq2(){
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
+		    message001.innerHTML = compcat[1].ques;
 	similarity1 = 0;
 similarity2 = 0;
 	    var stealer02 = document.getElementById("q1").value.toUpperCase();
@@ -8037,6 +8332,18 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq3(){
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
+		    message001.innerHTML = compcat[2].ques;
 	similarity1 = 0;
 similarity2 = 0;
 	    var stealer03 = document.getElementById("q1").value.toUpperCase();
@@ -8103,6 +8410,18 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq4(){
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
+		    message001.innerHTML = compcat[3].ques;
 	similarity1 = 0;
 similarity2 = 0;
 	    var stealer04 = document.getElementById("q1").value.toUpperCase();
@@ -8173,6 +8492,18 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq5(){
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
+		    message001.innerHTML = compcat[4].ques;
 	similarity1 = 0;
 similarity2 = 0;
 	    var stealer05 = document.getElementById("q1").value.toUpperCase();
@@ -8247,6 +8578,7 @@ function openquestion(){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[0].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[0].ques, 40, "message001");}
                 generatecompcat(0);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -8288,6 +8620,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[1].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[1].ques, 40, "message001");}
                 generatecompcat(1);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -8330,6 +8663,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[2].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[2].ques, 40, "message001");}
                 generatecompcat(2);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -8372,6 +8706,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[3].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[3].ques, 40, "message001");}
                 generatecompcat(3);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -8414,6 +8749,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[4].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[4].ques, 40, "message001");}
                 generatecompcat(4);
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
@@ -8449,6 +8785,7 @@ function mcquestion(){
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[5].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[5].ques, 40, "message001");}
                 generatecompcat(5);
 		document.getElementById("q1").style.display = "none";
 		document.getElementById("sub").style.display = "none";
@@ -8521,6 +8858,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[6].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[6].ques, 40, "message001");}
                 generatecompcat(6);
 		document.getElementById("q1").style.display = "none";
 		document.getElementById("sub").style.display = "none";
@@ -8594,6 +8932,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[7].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[7].ques, 40, "message001");}
                 generatecompcat(7);
 		document.getElementById("q1").style.display = "none";
 		document.getElementById("sub").style.display = "none";
@@ -8667,6 +9006,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[8].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[8].ques, 40, "message001");}
                 generatecompcat(8);
 		document.getElementById("q1").style.display = "none";
 		document.getElementById("sub").style.display = "none";
@@ -8740,6 +9080,7 @@ else{
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = compcat[9].ques;
+	if (difficult == 1){message001.innerHTML = " ";startTyping(compcat[9].ques, 40, "message001");}
                 generatecompcat(9);
 		document.getElementById("q1").style.display = "none";
 		document.getElementById("sub").style.display = "none";

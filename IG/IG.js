@@ -753,6 +753,7 @@ function begin001() {
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("message005").style.position = "relative";
+	   document.getElementById("message005").style.top = "-150px";
 	    document.getElementById("message006").style.position = "relative";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";

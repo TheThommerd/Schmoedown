@@ -1402,8 +1402,11 @@ function begin001() {
 function JTE(){
 document.getElementById("q1").focus();
 if ((c != "0") && (c < 15)) {
+if (j >= 0) {
+message001.innerHTML = " ";
 document.getElementById("message001").style.visibility = "visible";
 hidemessage = setTimeout(function() { message()}, 10000);
+if (a == 2){startTyping(question001[0].ques, 60, "message001");}	
 if (j == 3) {
             c = 16;
              j--;
@@ -1444,10 +1447,11 @@ else if (j == 0) {
 	    document.getElementById("background").src = "Singles - NoJTE.png";
 	    }
 }
+}
+}
 else if (j < 0) {
             message005.innerHTML = "No repeats left!";
 	    }
-}
 }
 function Challenge(){
 	     var question1 = document.getElementById("q1").value;

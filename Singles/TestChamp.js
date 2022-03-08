@@ -2260,6 +2260,8 @@ function begin001() {
 	    document.getElementById("message005").style.top = "15px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
+	    document.getElementById("message004").style = "initial";
+	    document.getElementById("message004").style.display = "none";
 	if (document.getElementById("toggleButton").checked == true){difficult++;}
 	message001.innerHTML = question001[0].ques;
 	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}

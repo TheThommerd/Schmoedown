@@ -1429,7 +1429,7 @@ if (a == 13){startTyping(r2question001[0].ques, 40, "message001");}
 if (a == 14){startTyping(r2question001[4].ques, 40, "message001");}
 if (a == 15){startTyping(r2question001[1].ques, 40, "message001");}
 if (a == 16){startTyping(r2question001[2].ques, 40, "message001");}
-if (a == 17){startTyping(r2question001[3].ques, 40, "message001");}
+if ((a == 17) && (opened == 0) && (mc == 0)){startTyping(r2question001[3].ques, 40, "message001");}
 if (a == 18){startTyping(question001[8].ques, 40, "message001");}
 if (a == 19){startTyping(threepointer001[0].ques, 40, "message001");}
 if (a == 20){startTyping(fivepointer001[0].ques, 40, "message001");}
@@ -1440,7 +1440,17 @@ if (a == 25){startTyping(question001[13].ques, 40, "message001");}
 if (a == 26){startTyping(question001[14].ques, 40, "message001");}
 if (a == 27){startTyping(question001[15].ques, 40, "message001");}
 if (a == 28){startTyping(question001[16].ques, 40, "message001");}
-if (a == 29){startTyping(question001[17].ques, 40, "message001");}		
+if (a == 29){startTyping(question001[17].ques, 40, "message001");}
+if (opened == 1){startTyping(compcat[0].ques, 40, "message001");}
+if (opened == 2){startTyping(compcat[1].ques, 40, "message001");}
+if (opened == 3){startTyping(compcat[2].ques, 40, "message001");}
+if (opened == 4){startTyping(compcat[3].ques, 40, "message001");}
+if (opened == 5){startTyping(compcat[4].ques, 40, "message001");}
+if (mc == 1){startTyping(compcat[5].ques, 40, "message001");}
+if (mc == 2){startTyping(compcat[6].ques, 40, "message001");}
+if (mc == 3){startTyping(compcat[7].ques, 40, "message001");}
+if (mc == 4){startTyping(compcat[8].ques, 40, "message001");}
+if (mc == 5){startTyping(compcat[9].ques, 40, "message001");}
 	}
 if (j == 3) {
             c = 16;
@@ -1597,6 +1607,11 @@ else if (j == 0) {
 	      }
 }
         function qcor() {
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 		qmusic.pause();
 		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-10px";
@@ -1700,6 +1715,11 @@ else if ((mc == 5) && (oppspinfirst == 1)){
 }
 }
         function qinc() {
+			if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 		qmusic.pause();
 		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-10px";
@@ -3938,6 +3958,11 @@ function next001() {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
+		if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
             if (a == 2) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -6125,6 +6150,11 @@ next003();
 }
 }
 function checkerq1(){
+		if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 		    message001.innerHTML = compcat[0].ques;
 	    similarity1 = 0;
 	    similarity2 = 0;
@@ -6192,6 +6222,11 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq2(){
+		if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 	message001.innerHTML = compcat[1].ques;
 	similarity1 = 0;
 similarity2 = 0;
@@ -6259,6 +6294,11 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq3(){
+		if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 	message001.innerHTML = compcat[2].ques;
 	similarity1 = 0;
 similarity2 = 0;
@@ -6326,6 +6366,11 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq4(){
+		if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 	message001.innerHTML = compcat[3].ques;
 	similarity1 = 0;
 similarity2 = 0;
@@ -6397,6 +6442,11 @@ else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
 }	   
 }
 function checkerq5(){
+		if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+document.getElementById("message001").style.visibility = "visible";
+	}
 	message001.innerHTML = compcat[4].ques;
 	similarity1 = 0;
 similarity2 = 0;

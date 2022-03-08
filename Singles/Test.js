@@ -1404,9 +1404,10 @@ function JTE(){
 document.getElementById("q1").focus();
 if ((c != "0") && (c < 15)) {
 if (j >= 0) {
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
 message001.innerHTML = " ";
 document.getElementById("message001").style.visibility = "visible";
-hidemessage = setTimeout(function() { message()}, 10000);
 if (a == 2){startTyping(question001[0].ques, 40, "message001");}	
 if (j == 3) {
             c = 16;

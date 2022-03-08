@@ -3243,6 +3243,7 @@ document.getElementById("mc").style.display = "none";
 }
 function next001() {
 	qmusic.play();
+	    document.getElementById("message005").style.top = "-150px";
 	     document.getElementById("message002").style.display= "block";
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("chart").style.visibility = "hidden";
@@ -3745,7 +3746,6 @@ userthree++;
                 time001.innerHTML = 20;
                 message001.innerHTML = threepointer001[0].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
@@ -3781,7 +3781,6 @@ userfive++;
                 time001.innerHTML = 20;
                 message001.innerHTML = fivepointer001[0].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
@@ -3801,19 +3800,16 @@ userfive++;
        else if (a == 21) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[10].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
              a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 1";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3827,19 +3823,16 @@ document.getElementById("message005").style.top = "-150px";
     else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[11].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 2";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3861,19 +3854,16 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[12].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 3";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3895,19 +3885,16 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[13].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 4";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3929,19 +3916,16 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[16].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 5";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3963,19 +3947,16 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 26) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[17].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 6";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -3997,19 +3978,16 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 27) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[18].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 7";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -4031,19 +4009,16 @@ document.getElementById("message005").style.top = "-150px";
     else if ((a == 28) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[19].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
- 
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                  a++;
-
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 8";
                 message004.innerHTML = "";
                 if (c < 1) {
@@ -4097,6 +4072,8 @@ document.getElementById("message005").style.top = "-150px";
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
+		document.getElementById("message004").style.top = "-210px";
+		document.getElementById("message005").style.top = "-220px";
 		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
 		a++;
 		j = 0;
@@ -5198,7 +5175,7 @@ else if (b -s > 10){
 winKO();
 }
 else{
-
+		document.getElementById("message005").style.top = "-170px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";

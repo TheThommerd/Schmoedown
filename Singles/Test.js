@@ -1390,10 +1390,10 @@ function begin001() {
 	    document.getElementById("message004").style = "initial";
 	    document.getElementById("message004").style.display = "none";
 	    document.getElementById("message005").style.position = "relative";
-	    document.getElementById("message005").style.top = "0px";
+	    document.getElementById("message005").style.top = "15px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
-	if (document.getElementById("toggleButton").checked == true){difficult++; console.log(difficult);}
+	if (document.getElementById("toggleButton").checked == true){difficult++;}
 	message001.innerHTML = question001[0].ques;
 	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";

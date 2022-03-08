@@ -64,6 +64,7 @@ function type(tick)
         {
             currentChar = 1;
             tick = 9999999999999999;
+	    hidemessage = setTimeout(function() { message()}, 3000);
         }
         
         typeTimer = setTimeout(function() { type(delay); }, tick);
@@ -82,7 +83,6 @@ function startTyping(textParam, delayParam, destinationParam)
     currentChar=1;
     destination=destinationParam;
     type(delay);
-    hidemessage = setTimeout(function() { message()}, 3000);
 }
 function pauseTyping()
 {
@@ -1390,7 +1390,7 @@ function begin001() {
 	    document.getElementById("message006").style.top = "40px";
             message001.innerHTML = " ";
 	  //  hidemessage = setTimeout(function() { message()}, 10000);
-	    startTyping(question001[0].ques, 80, "message001");
+	    startTyping(question001[0].ques, 40, "message001");
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";
@@ -1407,7 +1407,7 @@ if (j >= 0) {
 message001.innerHTML = " ";
 document.getElementById("message001").style.visibility = "visible";
 hidemessage = setTimeout(function() { message()}, 10000);
-if (a == 2){startTyping(question001[0].ques, 80, "message001");}	
+if (a == 2){startTyping(question001[0].ques, 40, "message001");}	
 if (j == 3) {
             c = 16;
              j--;

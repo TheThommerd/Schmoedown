@@ -55,6 +55,7 @@ var currentChar = 1;
 var destination = "[none]";
 var typeTimer = null;
 var typing = true;
+var difficult = 0;
 function type(tick)
 {
     var dest = document.getElementById(destination);

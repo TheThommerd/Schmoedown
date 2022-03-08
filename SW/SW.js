@@ -3768,7 +3768,6 @@ userfive++;
     else if ((a == 22) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3801,7 +3800,6 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 23) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3834,7 +3832,6 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 24) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3867,7 +3864,6 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 25) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3900,7 +3896,6 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 26) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3933,7 +3928,6 @@ document.getElementById("message005").style.top = "-150px";
   else if ((a == 27) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3966,7 +3960,6 @@ document.getElementById("message005").style.top = "-150px";
     else if ((a == 28) && (b == s )){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-document.getElementById("message005").style.top = "-150px";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4031,7 +4024,8 @@ document.getElementById("message005").style.top = "-150px";
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
-		document.getElementById("message005").style.top = "-170px";
+		document.getElementById("message004").style.top = "-210px";
+		document.getElementById("message005").style.top = "-220px";
 		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
 		a++;
 		j = 0;

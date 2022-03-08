@@ -940,7 +940,7 @@ function begin001() {
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("message005").style.position = "relative";
-	    document.getElementById("message005").style.top = "-170px";
+	    document.getElementById("message005").style.top = "-150px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "-120px";
 	    document.getElementById("message004").style.top = "-120px";

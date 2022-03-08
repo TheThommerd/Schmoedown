@@ -3447,6 +3447,7 @@ document.getElementById("mc").style.display = "none";
 }
 function next001() {
 qmusic.play();
+	document.getElementById("message005").style.top = "15px";
 	document.getElementById("message002").style.top = "10px";
         document.getElementById("message002").style.display= "block";
 	    document.getElementById("message004").style.top = "10px";
@@ -4201,6 +4202,7 @@ else if ((a == 19) && (b != s )){
                 time001.innerHTML = "";
                 message002.innerHTML = "";
                 message003.innerHTML = "";
+		document.getElementById("message005").style.top = "0px";
 		message005.innerHTML = "<strong><font size=4>SUDDEN DEATH</br></br>QUESTIONS IN RANDOM CATEGORIES GIVEN TO COMPETITORS</br></br>COMPETITORS HAVE 20 SECONDS TO SUBMIT THEIR ANSWER</br></br>ALL QUESTIONS WORTH 1 POINT</br></br>FIRST COMPETITOR WITH A LEAD WINS</br></br>1 REPEAT AVAILABLE</strong>";
                  a++;
 		 j = 0;
@@ -5334,7 +5336,7 @@ else{
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
-		
+		document.getElementById("message005").style.top = "0px";
 	document.getElementById("message004").style.top = "10px";
 		round001.innerHTML = 2;
  		qu001.innerHTML = "QUESTION";
@@ -6102,7 +6104,7 @@ else{
 		mc = 10;
 		opened = 10;
 		speed++;
-	    	
+	    	document.getElementById("message005").style.top = "0px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
@@ -6125,6 +6127,7 @@ message005.innerHTML = "<strong><font size=4>ROUND FOUR</font><br/></br>COMPETIT
 function next002() {
 	    qmusic.pause();
 	    qmusic.currentTime = 0;
+	document.getElementById("message005").style.top = "0px";
 	    document.getElementById("message004").style.top = "10px";
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
@@ -6155,7 +6158,7 @@ winKO();
 }
 else{
 speed = 0;
-	    	
+	    	document.getElementById("message005").style.top = "0px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";

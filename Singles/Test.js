@@ -1385,15 +1385,17 @@ function begin001() {
 	    time001.innerHTML = 20;
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("message004").style.display = "hidden";
+	    document.getElementById("message004").style.display = "none";
 	    document.getElementById("message005").style.position = "relative";
 	    document.getElementById("message005").style.top = "0px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
-            message001.innerHTML = " ";
 	if (document.getElementById("toggleButton").checked == true){difficult++; console.log(difficult);}
-	  //  hidemessage = setTimeout(function() { message()}, 10000);
-	    startTyping(question001[0].ques, 40, "message001");
+	message001.innerHTML = question001[0].ques;
+	if (difficult == 1){
+	message001.innerHTML = " ";
+	startTyping(question001[0].ques, 40, "message001");
+	}
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";
@@ -1407,11 +1409,13 @@ function JTE(){
 document.getElementById("q1").focus();
 if ((c != "0") && (c < 15)) {
 if (j >= 0) {
+	if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
 message001.innerHTML = " ";
 document.getElementById("message001").style.visibility = "visible";
-if (a == 2){startTyping(question001[0].ques, 40, "message001");}	
+if (a == 2){startTyping(question001[0].ques, 40, "message001");}
+	}
 if (j == 3) {
             c = 16;
              j--;
@@ -2353,9 +2357,11 @@ similarity2 = 0;
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";
+	if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
 document.getElementById("message001").style.visibility = "visible";
+	}
 percentage = competitorlist[0].percentage;
 steal = 0;
 if (a == 2){
@@ -4524,9 +4530,11 @@ function timer001() {
 	    qmusic.pause();
 	    qmusic.currentTime = 0;
 	    quescount++;
+		    if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
 document.getElementById("message001").style.visibility = "visible";
+		    }
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
 document.getElementById("message006").style.top = "0px";

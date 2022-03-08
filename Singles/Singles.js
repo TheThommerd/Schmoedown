@@ -3036,7 +3036,7 @@ document.getElementById("mc").style.display = "none";
 }
 function next001() {
 	qmusic.play();
-	document.getElementById("message005").style.top = "0px";
+	document.getElementById("message005").style.top = "15px";
 	document.getElementById("message002").style.top = "10px";
         document.getElementById("message002").style.display= "block";
 	document.getElementById("message004").style.top = "10px";

@@ -7049,7 +7049,7 @@ function bettinground() {
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
-		
+		document.getElementById("message005").style.top = "0px";
 		document.getElementById("message004").style.top = "10px";
 		round001.innerHTML = 2;
  		qu001.innerHTML = "QUESTION";
@@ -7829,7 +7829,7 @@ else{
 		mc = 10;
 		opened = 10;
 		speed++;
-	    	
+	    	document.getElementById("message005").style.top = "0px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";
@@ -7939,7 +7939,7 @@ winKO();
 }
 else{
 speed = 0;
-	    	
+	    	document.getElementById("message005").style.top = "0px";
 	   	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("JTE").style.display = "none";
 	    	document.getElementById("time001").style.display = "none";

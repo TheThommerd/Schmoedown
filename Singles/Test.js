@@ -172,7 +172,7 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	message006.innerHTML =  "First category is " +question001[0].cat;
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-80px";
-	message004.innerHTML = "";
+	message004.innerHTML = "<label class=switch><input id=toggleButton type=checkbox ><span class=slider round></span></label>";
 	document.getElementById("message004").style = "initial";
 }
 function submitname () {
@@ -1376,6 +1376,7 @@ else if (rand2 < 95){compcat = r2Q91;}
 else if (rand2 < 100){compcat = r2Q92;}
 compcat = shuffle(compcat); 
 }
+var difficult = 0;
 function begin001() {
 	    intromusic.pause();
 	    intromusic.currentTime = 0;
@@ -1384,11 +1385,13 @@ function begin001() {
 	    time001.innerHTML = 20;
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
+	    document.getElementById("message004").style.display = "hidden";
 	    document.getElementById("message005").style.position = "relative";
 	    document.getElementById("message005").style.top = "0px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
             message001.innerHTML = " ";
+	if (document.getElementById("toggleButton").checked == true){difficult++; console.log(difficult);}
 	  //  hidemessage = setTimeout(function() { message()}, 10000);
 	    startTyping(question001[0].ques, 40, "message001");
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";

@@ -5612,6 +5612,7 @@ message003.innerHTML = "You bet 3 points." + "<br/><br/></br>";
 message001.innerHTML = "Click Next to proceed.";
 }
 function bettingquestion() {	
+	qmusic.play();
 	document.getElementById("message002").style.top = "-65px";
 	document.getElementById("message003").style.top = "-75px";
 	document.getElementById("message006").style.top = "-75px";
@@ -5689,6 +5690,8 @@ if (chance2 >= betpercentage){
 }
 }
 function checkerbetting(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 	similarity1 = 0;
 similarity2 = 0;
 	    var betting01 = document.getElementById("q1").value.toUpperCase();
@@ -5711,29 +5714,24 @@ similarity2 = 0;
 		posspoints+=3;
 		document.getElementById("sub").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((betting1 == bettingquestion001[8].answ) || (betting1 == bettingquestion001[8].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!" + "<br/></br/>" + "You gained " + betpoints + " points.";
-            score001.innerHTML = b += betpoints;
-quescor++;
-	    cormusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		document.getElementById("message003").style.top = "-125px";
 		document.getElementById("message004").style.top = "-125px";
 		document.getElementById("message006").style.top = "-125px";
-simulatebetting();
+            message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	if ((betting1 == bettingquestion001[8].answ) || (betting1 == bettingquestion001[8].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!" + "<br/></br/>" + "You gained " + betpoints + " points.";
+            score001.innerHTML = b += betpoints;
+		quescor++;
+	    	cormusic.play();
+		simulatebetting();
 	}
         else if (betting1 != bettingquestion001[8].answ)  {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + bettingquestion001[8].answ2 + "<br/></br/>" + "You lost " + betpoints + " points.";
 	    message005.innerHTML = "";
             score001.innerHTML = b -= betpoints;
-	    incmusic.play();
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-		document.getElementById("message003").style.top = "-125px";
-		document.getElementById("message004").style.top = "-125px";
-		document.getElementById("message006").style.top = "-125px";
-simulatebetting();
+	    	incmusic.play();
+		simulatebetting();
 	}	   
 }
 function bettinground2() {

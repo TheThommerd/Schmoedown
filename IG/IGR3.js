@@ -37,7 +37,7 @@ message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 else
 {
 message006.innerHTML = "Password incorrect!";
-document.getElementById("message006").style.top = "-160px";
+document.getElementById("message006").style.top = "-75px";
 }
 }
 function submitname () {
@@ -113,45 +113,10 @@ function winKO(){
 		document.getElementById("save").click();
 		message004.innerHTML = "You have unlocked the next round. Use the password 'Gollum' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
 		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
-		document.getElementById("message006").style.fontSize = "110%";
-}
-function loseKO(){
-		document.getElementById("JTE").style.display = "none";
-		document.getElementById("time001").style.display = "none";
-                window.clearInterval(update);
-                c = "-";
-                message001.innerHTML = "End of Match";
-                time001.innerHTML = "";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-		document.getElementById("message003").style.fontSize = "200%";
-		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span id=KO class=flash style=font-size:240%>KO</span>" + "</br></br>" + "And your winner...."
-		var winner = competitorlist[0].lowercase;
-		message003.innerHTML = winner.toUpperCase();
- 		var ppe = ((b / posspoints) * 100)
-		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / posspointsopp) * 100)
-		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id+ "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
-                message005.innerHTML = "";
-		document.getElementById("losses_IG").stepUp(1);
-		document.getElementById("KOd_IG").stepUp(1);
-		document.getElementById("AnsweredQuestions_IG").value = parseInt(document.getElementById("AnsweredQuestions_IG").value) +  quescount;
-		document.getElementById("CorrectQuestions_IG").value = parseInt(document.getElementById("CorrectQuestions_IG").value) +  quescor;
-		document.getElementById("PossiblePoints_IG").value = parseInt(document.getElementById("PossiblePoints_IG").value)  +  posspoints;
-		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
-		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-155px";
+		document.getElementById("message004").style.top = "-330px";
+		document.getElementById("message003").style.top = "-155px";
+		document.getElementById("message006").style.top = "-55px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
@@ -184,45 +149,10 @@ function winTKO(){
 		document.getElementById("save").click();
 		message004.innerHTML = "You have unlocked the next round. Use the password 'Gollum' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
 		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
-		document.getElementById("message006").style.fontSize = "110%";
-}
-function loseTKO(){
-		document.getElementById("JTE").style.display = "none";
-		document.getElementById("time001").style.display = "none";
-                window.clearInterval(update);
-                c = "-";
-                message001.innerHTML = "End of Match";
-                time001.innerHTML = "";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-		document.getElementById("message003").style.fontSize = "200%";
-		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "<span id=TKO class=flash style=font-size:240%>TKO</span>" + "</br></br>" + "And your winner...."
-		var winner = competitorlist[0].lowercase;
-		message003.innerHTML = winner.toUpperCase();
- 		var ppe = ((b / posspoints) * 100)
-		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / posspointsopp) * 100)
-		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id+ "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
-                message005.innerHTML = "";
-		document.getElementById("losses_IG").stepUp(1);
-		document.getElementById("TKOd_IG").stepUp(1);
-		document.getElementById("AnsweredQuestions_IG").value = parseInt(document.getElementById("AnsweredQuestions_IG").value) +  quescount;
-		document.getElementById("CorrectQuestions_IG").value = parseInt(document.getElementById("CorrectQuestions_IG").value) +  quescor;
-		document.getElementById("PossiblePoints_IG").value = parseInt(document.getElementById("PossiblePoints_IG").value)  +  posspoints;
-		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
-		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-155px";
+		document.getElementById("message004").style.top = "-330px";
+		document.getElementById("message003").style.top = "-155px";
+		document.getElementById("message006").style.top = "-55px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
@@ -254,44 +184,10 @@ function win(){
 		document.getElementById("save").click();
 		message004.innerHTML = "You have unlocked the next round. Use the password 'Gollum' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
 		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
-		document.getElementById("message006").style.fontSize = "110%";
-}
-function lose(){
-		document.getElementById("JTE").style.display = "none";
-		document.getElementById("time001").style.display = "none";
-                window.clearInterval(update);
-                c = "-";
-                message001.innerHTML = "End of Match";
-                time001.innerHTML = "";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-		document.getElementById("message003").style.fontSize = "200%";
-		document.getElementById("message003").style.fontWeight = "bold";
-                message002.innerHTML = "And your winner...."
-		var winner = competitorlist[0].lowercase;
-		message003.innerHTML = winner.toUpperCase();
-		var ppe = ((b / posspoints) * 100)
-		var accuracy = ((quescor / quescount) * 100)
- 		var ppeopp = ((s / posspointsopp) * 100)
-		var accuracyopp = ((quescoropp / quescountopp) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 50%; margin-left: 120px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + document.getElementById("naam").value + "</th><th class=th2>" + competitorlist[0].id+ "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescountopp + "</td></tr class=tr2><tr class=tr2><td class=td2><b>PPE</b></td><td class=td2>" + ppe.toFixed(2) + "%" + "</td><td class=td2>" + ppeopp.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td><td class=td2>" + accuracyopp.toFixed(2) + "%" + "</td></tr></table>";
-                message005.innerHTML = "";
-		document.getElementById("losses_IG").stepUp(1);
-		document.getElementById("AnsweredQuestions_IG").value = parseInt(document.getElementById("AnsweredQuestions_IG").value) +  quescount;
-		document.getElementById("CorrectQuestions_IG").value = parseInt(document.getElementById("CorrectQuestions_IG").value) +  quescor;
-		document.getElementById("PossiblePoints_IG").value = parseInt(document.getElementById("PossiblePoints_IG").value)  +  posspoints;
-		document.getElementById("TotalPoints_IG").value = parseInt(document.getElementById("TotalPoints_IG").value) +  b
-		document.getElementById("save").click();
-            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-240px";
-		document.getElementById("message004").style.top = "-415px";
-		document.getElementById("message003").style.top = "-240px";
-		document.getElementById("message006").style.top = "-140px";
+		document.getElementById("message002").style.top = "-155px";
+		document.getElementById("message004").style.top = "-330px";
+		document.getElementById("message003").style.top = "-155px";
+		document.getElementById("message006").style.top = "-55px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
      	$("#message004").keypress(function(event) { 	

@@ -305,30 +305,30 @@ display: none;
         }
         #time001 {
 	   position: relative;
-	    top : -160px;
+	    top : -75px;
             font-size: 200%;
 	    font-weight: bold;
             color: black;
         }
         #message002{
 	   position: relative;
-	    top : -150px;
+	    top : -65px;
         }
         #message003{
 	   position: relative;
-	    top : -160px;
+	    top : -75px;
         }
         #message004{
 	   position: relative;
-	    top : -160px;
+	    top : -75px;
         }
         #message006{
 	   position: relative;
-	    top : -160px;
+	    top : -75px;
         }
         #JTE{
 	   position: relative;
-	    top : -150px;
+	    top : -65px;
             background-color: #232223;
             color: white;
             width: 120px;
@@ -342,7 +342,7 @@ display: none;
         }
         #message005 {
 	   position: relative;
-	    top : -170px;
+	    top : -85px;
             text-align: center;
             font-size: 90%;
             color: black;

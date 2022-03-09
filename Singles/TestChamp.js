@@ -7202,7 +7202,7 @@ if (chance2 >= betpercentage){
 }
 }
 function checkerbetting(){
-			if (difficult == 1){
+if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
 text = "";
@@ -7212,59 +7212,46 @@ destination = "[none]";
 typeTimer = null;
 typing = true;
 document.getElementById("message001").style.visibility = "visible";
-	}
+}
 		qmusic.pause();
 		qmusic.currentTime = 0;
-	message001.innerHTML = bettingquestion001[8].ques;
-	similarity1 = 0;
-similarity2 = 0;
-	    var betting01 = document.getElementById("q1").value.toUpperCase();
-	    var betting1 = myTrim(betting01);
-	    betting1 = myTrim(betting1);
-if (betting1.length > 4){
-similarity1 = stringSimilarity.compareTwoStrings(betting1, bettingquestion001[8].answ);
-if (typeof(bettingquestion001[8].answ3) != 'undefined'){
-similarity2 = stringSimilarity.compareTwoStrings(betting1, bettingquestion001[8].answ3);
+		message001.innerHTML = bettingquestion001[8].ques;
+		similarity1 = 0;
+		similarity2 = 0;
+	    	var betting01 = document.getElementById("q1").value.toUpperCase();
+	    	var betting1 = myTrim(betting01);
+	    	betting1 = myTrim(betting1);
+if (betting1.length > 4){similarity1 = stringSimilarity.compareTwoStrings(betting1, bettingquestion001[8].answ);
+if (typeof(bettingquestion001[8].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(betting1, bettingquestion001[8].answ3);}
 }
-}
-else if (betting1.length <= 4){
-similarity1 = 0;
-similarity2 = 0;
-}
+else if (betting1.length <= 4){similarity1 = 0;similarity2 = 0;}
             window.clearInterval(update);
-            c = "-";
+            	c = "-";
 		quescount++;
-           console.log(quescount);
 		posspoints+=3;
 		document.getElementById("sub").style.display = "none";
-	    document.getElementById("q1").disabled = true;
-	if ((betting1 == bettingquestion001[8].answ) || (betting1 == bettingquestion001[8].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!" + "<br/></br/>" + "You gained " + betpoints + " points.";
-            score001.innerHTML = b += betpoints;
-quescor++;
-	    cormusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("q1").disabled = true;
+	        message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
-simulatebetting();
+		document.getElementById("JTE").style.visibility = "hidden";
+	if ((betting1 == bettingquestion001[8].answ) || (betting1 == bettingquestion001[8].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            	message003.innerHTML = "Correct!" + "<br/></br/>" + "You gained " + betpoints + " points.";
+            	score001.innerHTML = b += betpoints;
+	    	quescor++;
+	    	cormusic.play();
+		simulatebetting();
 	}
         else if (betting1 != bettingquestion001[8].answ)  {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + bettingquestion001[8].answ2 + "<br/></br/>" + "You lost " + betpoints + " points.";
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= betpoints;
-	    incmusic.play();
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-		document.getElementById("message003").style.top = "-50px";
-		document.getElementById("message004").style.top = "-40px";
-		document.getElementById("message006").style.top = "-50px";
-simulatebetting();
+            	message003.innerHTML = "Incorrect. The correct answer is " + bettingquestion001[8].answ2 + "<br/></br/>" + "You lost " + betpoints + " points.";
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= betpoints;
+	    	incmusic.play();
+		simulatebetting();
 	}	   
 }
 function bettinground2() {
-	    	
 	    	document.getElementById("JTE").style.display = "none";
 		document.getElementById("chart").style.position = "relative";
 		document.getElementById("chart").style.top = "-40px";
@@ -7293,12 +7280,12 @@ oppbettingspin();
 		document.getElementById("message006").style.top = "-40px";
 }
 function speedquestions2() {	
-pauseTyping();
+		pauseTyping();
 		bettingbool = 0;
-	    document.getElementById("chart").style.visibility = "hidden";
-	    document.getElementById("time001").style.display = "initial";
-	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";
+	    	document.getElementById("chart").style.visibility = "hidden";
+	    	document.getElementById("time001").style.display = "initial";
+	    	document.getElementById("message004").style.display = "initial";
+	    	document.getElementById("message005").style.display = "initial";
 		document.getElementById("message002").style.top = "-30px";
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -7306,57 +7293,53 @@ pauseTyping();
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
+	        message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 if (speed == 1){
-            window.clearInterval(update);
+            	window.clearInterval(update);
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 t = "-";
                 time001.innerHTML = 5;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
  	        qu001.innerHTML = "SPEED ROUND - " + "QUESTION 1";
 }
 else if (speed == 2){
-            window.clearInterval(update);
+            	window.clearInterval(update);
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 t = "-";
                 time001.innerHTML = 5;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
  	        qu001.innerHTML = "SPEED ROUND - " + "QUESTION 2";
 }
 else if (speed == 3){
-            window.clearInterval(update);
+            	window.clearInterval(update);
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 t = "-";
                 time001.innerHTML = 5;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
  	        qu001.innerHTML = "SPEED ROUND - " + "QUESTION 3";
 }
 else if (speed == 4){
-            window.clearInterval(update);
+            	window.clearInterval(update);
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 t = "-";
                 time001.innerHTML = 5;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
  	        qu001.innerHTML = "SPEED ROUND - " + "QUESTION 4";
 }
 else if (speed == 5){
-            window.clearInterval(update);
+            	window.clearInterval(update);
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 t = "-";
                 time001.innerHTML = 5;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		speed++;
 		document.getElementById("q1").focus();
  	        qu001.innerHTML = "SPEED ROUND - " + "QUESTION 5";
@@ -7364,32 +7347,31 @@ else if (speed == 5){
 }
 var nobody = 0 ; 
 function speedquestions() {
-clearTimeout(hidemessage);
-clearTimeout(typeTimer);
+if (difficult == 1){clearTimeout(hidemessage);clearTimeout(typeTimer);}
 text = "";
 delay = 40;
 currentChar = 1;
 destination = "[none]";
 typeTimer = null;
 typing = true;
-	    	    qmusic.play();
-		    document.getElementById("message001").style.visibility = "visible";
-	    	    document.getElementById("chart").style.visibility = "hidden";
-		    document.getElementById("message003").style.top = "-50px";
-		    document.getElementById("message004").style.top = "-40px";
-	   	    document.getElementById("message004").style.display = "initial";
-	    	    document.getElementById("message005").style.display = "initial";
-                message002.innerHTML = "";
-                message003.innerHTML = "<button class=buzzer onclick=speedquestions2()>Buzz</button>";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
-                time001.innerHTML = "";
-		    message004.innerHTML = "";
+	    	    	qmusic.play();
+		    	document.getElementById("message001").style.visibility = "visible";
+	    	    	document.getElementById("chart").style.visibility = "hidden";
+		    	document.getElementById("message003").style.top = "-50px";
+		    	document.getElementById("message004").style.top = "-40px";
+	   	    	document.getElementById("message004").style.display = "initial";
+	    	    	document.getElementById("message005").style.display = "initial";
+               	 	message002.innerHTML = "";
+                	message003.innerHTML = "<button class=buzzer onclick=speedquestions2()>Buzz</button>";
+                	message005.innerHTML = "";
+                	message006.innerHTML = "";
+                	time001.innerHTML = "";
+		    	message004.innerHTML = "";
 if (speed == 1){
-            window.clearInterval(update);       
+            	window.clearInterval(update);       
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = " ";
-	 startTyping(speedquestion001[0].ques, 40, "message001");
+             	message001.innerHTML = " ";
+	 	startTyping(speedquestion001[0].ques, 40, "message001");
 	if (speedquestion001[0].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
@@ -7414,24 +7396,24 @@ update = setInterval("speedtimer001()", 1000);
 qu001.innerHTML = "SPEED ROUND - " + "QUESTION 1";
 }
 else if (speed == 2){
-            window.clearInterval(update);
+            	window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = " ";
-	 startTyping(speedquestion001[1].ques, 40, "message001");
+             	message001.innerHTML = " ";
+	 	startTyping(speedquestion001[1].ques, 40, "message001");
 	if (speedquestion001[1].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
 else if (chance < 50){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
-else if (speedquestion001[0].ques.length < 110){
+else if (speedquestion001[1].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
 else if (chance < 50){t = 5; nobody = 0}
 else if (chance < 80){t = 4; nobody = 0}
 else if (chance < 100){t = 3; nobody = 0}
 }
-else if (speedquestion001[0].ques.length >= 110){
+else if (speedquestion001[1].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 50){t = 6; nobody = 0}
@@ -7442,24 +7424,24 @@ update = setInterval("speedtimer001()", 1000);
 qu001.innerHTML = "SPEED ROUND - " + "QUESTION 2";
 }
 else if (speed == 3){
-            window.clearInterval(update);
+            	window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = " ";
-	 startTyping(speedquestion001[2].ques, 40, "message001");
+             	message001.innerHTML = " ";
+	 	startTyping(speedquestion001[2].ques, 40, "message001");
 	if (speedquestion001[2].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
 else if (chance < 50){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
-else if (speedquestion001[0].ques.length < 110){
+else if (speedquestion001[2].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
 else if (chance < 50){t = 5; nobody = 0}
 else if (chance < 80){t = 4; nobody = 0}
 else if (chance < 100){t = 3; nobody = 0}
 }
-else if (speedquestion001[0].ques.length >= 110){
+else if (speedquestion001[2].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 50){t = 6; nobody = 0}
@@ -7470,24 +7452,24 @@ update = setInterval("speedtimer001()", 1000);
 qu001.innerHTML = "SPEED ROUND - " + "QUESTION 3";
 }
 else if (speed == 4){
-            window.clearInterval(update);
+            	window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = " ";
-	 startTyping(speedquestion001[3].ques, 40, "message001");
+             	message001.innerHTML = " ";
+	 	startTyping(speedquestion001[3].ques, 40, "message001");
 	if (speedquestion001[3].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
 else if (chance < 50){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
-else if (speedquestion001[0].ques.length < 110){
+else if (speedquestion001[3].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
 else if (chance < 50){t = 5; nobody = 0}
 else if (chance < 80){t = 4; nobody = 0}
 else if (chance < 100){t = 3; nobody = 0}
 }
-else if (speedquestion001[0].ques.length >= 110){
+else if (speedquestion001[3].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 50){t = 6; nobody = 0}
@@ -7498,24 +7480,24 @@ update = setInterval("speedtimer001()", 1000);
 qu001.innerHTML = "SPEED ROUND - " + "QUESTION 4";
 }
 else if (speed == 5){
-            window.clearInterval(update);
+            	window.clearInterval(update);
 		var chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
-             message001.innerHTML = " ";
-	 startTyping(speedquestion001[4].ques, 40, "message001");
+             	message001.innerHTML = " ";
+	 	startTyping(speedquestion001[4].ques, 40, "message001");
 	if (speedquestion001[4].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
 else if (chance < 50){t = 3; nobody = 0}
 else if (chance < 100){t = 2; nobody = 0}
 }
-else if (speedquestion001[0].ques.length < 110){
+else if (speedquestion001[4].ques.length < 110){
 if (chance < 20){t = 14; nobody = 1}
 else if (chance < 25){t = 9; nobody = 0}
 else if (chance < 50){t = 5; nobody = 0}
 else if (chance < 80){t = 4; nobody = 0}
 else if (chance < 100){t = 3; nobody = 0}
 }
-else if (speedquestion001[0].ques.length >= 110){
+else if (speedquestion001[4].ques.length >= 110){
 if (chance < 20){t = 15; nobody = 1}
 else if (chance < 25){t = 10; nobody = 0}
 else if (chance < 50){t = 6; nobody = 0}
@@ -7528,8 +7510,8 @@ qu001.innerHTML = "SPEED ROUND - " + "QUESTION 5";
 }
 
 function checkerspeed(){
-similarity1 = 0;
-similarity2 = 0;
+		similarity1 = 0;
+		similarity2 = 0;
 		qmusic.pause();
 		qmusic.currentTime = 0;
 if (difficult == 1){
@@ -7546,10 +7528,10 @@ document.getElementById("message001").style.visibility = "visible";
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 if (speed == 2){
-	message001.innerHTML = speedquestion001[0].ques;
-	    var speed01 = document.getElementById("q1").value.toUpperCase();
-	    var speed1 = myTrim(speed01);
-	    speed1 = myTrim(speed1);
+		message001.innerHTML = speedquestion001[0].ques;
+	    	var speed01 = document.getElementById("q1").value.toUpperCase();
+	    	var speed1 = myTrim(speed01);
+	    	speed1 = myTrim(speed1);
 if (speed1.length >  4){
 similarity1 = stringSimilarity.compareTwoStrings(speed1, speedquestion001[0].answ);
 if (typeof(speedquestion001[0].answ3) != 'undefined'){
@@ -7560,35 +7542,34 @@ else if (speed1.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }
-            window.clearInterval(update);
-            c = "-";
-            t = "-";
+            	window.clearInterval(update);
+            	c = "-";
+            	t = "-";
 		quescount++;
-           console.log(quescount);
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
-            message001.innerHTML = speedquestion001[0].ques;
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("q1").disabled = true;
+            	message001.innerHTML = speedquestion001[0].ques;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	if ((speed1 == speedquestion001[0].answ) || (speed1 == speedquestion001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-            message003.innerHTML = "Correct!";
-            score001.innerHTML = b += 1;
-quescor++
-	    cormusic.play();
+            	message003.innerHTML = "Correct!";
+            	score001.innerHTML = b += 1;
+		quescor++
+	    	cormusic.play();
 	}
         else if (speed1 != speedquestion001[0].answ)  {
-            message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[0].answ2;
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= 1;
-	    incmusic.play();
+            	message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[0].answ2;
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= 1;
+	    	incmusic.play();
 	}
 }	   
 if (speed == 3){
-	message001.innerHTML = speedquestion001[1].ques;
-	    var speed02 = document.getElementById("q1").value.toUpperCase();
-	    var speed2 = myTrim(speed02);
-	    speed2 = myTrim(speed2);
+		message001.innerHTML = speedquestion001[1].ques;
+	    	var speed02 = document.getElementById("q1").value.toUpperCase();
+	    	var speed2 = myTrim(speed02);
+	    	speed2 = myTrim(speed2);
 if (speed2.length > 4){
 similarity1 = stringSimilarity.compareTwoStrings(speed2, speedquestion001[1].answ);
 if (typeof(speedquestion001[1].answ3) != 'undefined'){
@@ -7599,35 +7580,34 @@ else if (speed2.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }
-            window.clearInterval(update);
-            c = "-";
-            t = "-";
+            	window.clearInterval(update);
+            	c = "-";
+            	t = "-";
 		quescount++;
-           console.log(quescount);
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
-            message001.innerHTML = speedquestion001[1].ques;
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("q1").disabled = true;
+            	message001.innerHTML = speedquestion001[1].ques;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	if ((speed2 == speedquestion001[1].answ) || (speed2 == speedquestion001[1].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-            message003.innerHTML = "Correct!";
-            score001.innerHTML = b += 1;
-quescor++
-	    cormusic.play();
+            	message003.innerHTML = "Correct!";
+            	score001.innerHTML = b += 1;
+		quescor++
+	    	cormusic.play();
 	}
         else if (speed2 != speedquestion001[1].answ)  {
-            message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[1].answ2;
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= 1;
-	    incmusic.play();
+            	message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[1].answ2;
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= 1;
+	    	incmusic.play();
 	}
 }	   
 if (speed == 4){
-	message001.innerHTML = speedquestion001[2].ques;
-	    var speed03 = document.getElementById("q1").value.toUpperCase();
-	    var speed3 = myTrim(speed03);
-	    speed3 = myTrim(speed3);
+		message001.innerHTML = speedquestion001[2].ques;
+	    	var speed03 = document.getElementById("q1").value.toUpperCase();
+	    	var speed3 = myTrim(speed03);
+	    	speed3 = myTrim(speed3);
 if (speed3.length > 4){
 similarity1 = stringSimilarity.compareTwoStrings(speed3, speedquestion001[2].answ);
 if (typeof(speedquestion001[2].answ3) != 'undefined'){
@@ -7638,35 +7618,34 @@ else if (speed3.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }
-            window.clearInterval(update);
-            c = "-";
-            t = "-";
+            	window.clearInterval(update);
+            	c = "-";
+            	t = "-";
 		quescount++;
-           console.log(quescount);
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
-            message001.innerHTML = speedquestion001[2].ques;
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("q1").disabled = true;
+            	message001.innerHTML = speedquestion001[2].ques;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	if ((speed3 == speedquestion001[2].answ) || (speed3 == speedquestion001[2].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-            message003.innerHTML = "Correct!";
-            score001.innerHTML = b += 1;
-quescor++
-	    cormusic.play();
+           	 message003.innerHTML = "Correct!";
+            	score001.innerHTML = b += 1;
+		quescor++
+	    	cormusic.play();
 	}
         else if (speed3 != speedquestion001[2].answ)  {
-            message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[2].answ2;
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= 1;
-	    incmusic.play();
+            	message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[2].answ2;
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= 1;
+	    	incmusic.play();
 	}
 }	   
 if (speed == 5){
-	message001.innerHTML = speedquestion001[3].ques;
-	    var speed04 = document.getElementById("q1").value.toUpperCase();
-	    var speed4 = myTrim(speed04);
-	    speed4 = myTrim(speed4);
+		message001.innerHTML = speedquestion001[3].ques;
+	    	var speed04 = document.getElementById("q1").value.toUpperCase();
+	    	var speed4 = myTrim(speed04);
+	    	speed4 = myTrim(speed4);
 if (speed4.length > 4){
 similarity1 = stringSimilarity.compareTwoStrings(speed4, speedquestion001[3].answ);
 if (typeof(speedquestion001[3].answ3) != 'undefined'){
@@ -7677,35 +7656,34 @@ else if (speed4.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }
-            window.clearInterval(update);
-            c = "-";
-            t = "-";
+            	window.clearInterval(update);
+            	c = "-";
+            	t = "-";
 		quescount++;
-           console.log(quescount);
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
-            message001.innerHTML = speedquestion001[3].ques;
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("q1").disabled = true;
+            	message001.innerHTML = speedquestion001[3].ques;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	if ((speed4 == speedquestion001[3].answ) || (speed4 == speedquestion001[3].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-            message003.innerHTML = "Correct!";
-            score001.innerHTML = b += 1;
-quescor++
-	    cormusic.play();
+           	message003.innerHTML = "Correct!";
+            	score001.innerHTML = b += 1;
+		quescor++
+	    	cormusic.play();
 	}
         else if (speed4 != speedquestion001[3].answ)  {
-            message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[3].answ2;
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= 1;
-	    incmusic.play();
+            	message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[3].answ2;
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= 1;
+	    	incmusic.play();
 	}
 }	   
 if (speed == 6){
-	message001.innerHTML = speedquestion001[4].ques;
-	    var speed05 = document.getElementById("q1").value.toUpperCase();
-	    var speed5 = myTrim(speed05);
-	    speed5 = myTrim(speed5);
+		message001.innerHTML = speedquestion001[4].ques;
+	    	var speed05 = document.getElementById("q1").value.toUpperCase();
+	    	var speed5 = myTrim(speed05);
+	    	speed5 = myTrim(speed5);
 if (speed5.length > 4){
 similarity1 = stringSimilarity.compareTwoStrings(speed5, speedquestion001[4].answ);
 if (typeof(speedquestion001[4].answ3) != 'undefined'){
@@ -7716,32 +7694,30 @@ else if (speed5.length <= 4){
 similarity1 = 0;
 similarity2 = 0;
 }
-            window.clearInterval(update);
-            c = "-";
-            t = "-";
+            	window.clearInterval(update);
+            	c = "-";
+            	t = "-";
 		quescount++;
-           console.log(quescount);
 		posspoints++;
 		document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
-            message001.innerHTML = speedquestion001[4].ques;
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	document.getElementById("q1").disabled = true;
+            	message001.innerHTML = speedquestion001[4].ques;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+            	message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	if ((speed5 == speedquestion001[4].answ) || (speed5 == speedquestion001[4].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-            message003.innerHTML = "Correct!";
-            score001.innerHTML = b += 1;
-quescor++
-	    cormusic.play();
+            	message003.innerHTML = "Correct!";
+            	score001.innerHTML = b += 1;
+		quescor++
+	    	cormusic.play();
 	}
         else if (speed5 != speedquestion001[4].answ)  {
-            message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[4].answ2;
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= 1;
-	    incmusic.play();
+            	message003.innerHTML = "Incorrect. The correct answer is " + speedquestion001[4].answ2;
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= 1;
+	    	incmusic.play();
 	}
 }	   
 }
-
 function nextspeed() {
 if (s - b > 16){
 loseKO();
@@ -7764,7 +7740,7 @@ else{
 		message002.innerHTML = "";
                 message004.innerHTML = "";
                 message006.innerHTML = "";
-message005.innerHTML = "<strong><font size=4>ROUND FOUR</font><br/></br>COMPETITORS WILL BE ASKED 5 QUESTIONS</br></br>COMPETITORS MUST BUZZ IN AND SUBMIT THEIR ANSWER WITHIN 5 SECONDS</br></br>COMPETITORS EARN 1 POINT FOR CORRECT ANSWERS</br>INCORRECT ANSWERS LOSE 1 POINT</br></br>NO REPEATS AVAILABLE IN THIS ROUND</strong>";
+		message005.innerHTML = "<strong><font size=4>ROUND FOUR</font><br/></br>COMPETITORS WILL BE ASKED 5 QUESTIONS</br></br>COMPETITORS MUST BUZZ IN AND SUBMIT THEIR ANSWER WITHIN 5 SECONDS</br></br>COMPETITORS EARN 1 POINT FOR CORRECT ANSWERS</br>INCORRECT ANSWERS LOSE 1 POINT</br></br>NO REPEATS AVAILABLE IN THIS ROUND</strong>";
             	message003.innerHTML = "<button id=nextbutton class=buttons002 onclick=speedquestions()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		document.getElementById("message003").style = "initial";
 		document.getElementById("message004").style = "initial";

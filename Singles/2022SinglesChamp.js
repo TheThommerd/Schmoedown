@@ -21,14 +21,8 @@ message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 		document.getElementById("q2").focus();
 }
-	if (document.getElementById("wins").value.length < 1)
-	{
-	document.getElementById("wins").value = 0;
-	}
-	if (document.getElementById("losses").value.length < 1)
-	{
-	document.getElementById("losses").value = 0;
-	}
+	if (document.getElementById("wins").value.length < 1){document.getElementById("wins").value = 0;}
+	if (document.getElementById("losses").value.length < 1){document.getElementById("losses").value = 0;}
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
 	var twittername = document.getElementById("twitt").value;
@@ -54,57 +48,44 @@ var delay = 40;
 var currentChar = 1;
 var destination = "[none]";
 var typeTimer = null;
+var hidemessage = null;
 var typing = true;
 var difficult = 0;
 function type(tick)
 {
     var dest = document.getElementById(destination);
-    
     if (!typing) return;
-    
     if (dest)
     {
         dest.innerHTML=text.substr(0, currentChar);
         currentChar++;
-        
         if (currentChar > text.length) 
         {
             currentChar = 1;
             tick = 9999999999999999;
 		if (difficult == 1){hidemessage = setTimeout(function() { message()}, 3000);}
         }
-        
         typeTimer = setTimeout(function() { type(delay); }, tick);
     }
 }
-function message()
-{
-document.getElementById("message001").style.visibility = "hidden";
-}
+function message(){document.getElementById("message001").style.visibility = "hidden";}
 function startTyping(textParam, delayParam, destinationParam)
 {
     if (currentChar > 1) {
         typing = true;
         return type();
     }
-    
     text=textParam;
     delay=delayParam;
     currentChar=1;
     destination=destinationParam;
     type(delay);
 }
-
-function pauseTyping()
-{
-    typing = false;
-}
+function pauseTyping(){typing = false;}
 var wheelie = [];
 function choosecomp() {
-checkboxes.innerHTML = "<div id=row1><label class=checkbox-label><input type=checkbox id=cat1 value=70s>70s</label><br/><label class=checkbox-label><input type=checkbox id=cat2 value=80s>80s</label><br/><label class=checkbox-label><input type=checkbox id=cat3 value=90s>90s</label><br/><label class=checkbox-label><input type=checkbox id=cat4 value=2000s>2000s</label><br/><label class=checkbox-label><input type=checkbox id=cat5 value=2010s>2010s</label><br/><label class=checkbox-label><input type=checkbox id=cat6 value=Action/Adventure>Action/Adventure</label><br/><label class=checkbox-label><input type=checkbox id=cat7 value='Adam Sandler'>Adam Sandler</label><br/><label class=checkbox-label><input type=checkbox id=cat8 value='Alfred Hitchcock'>Alfred Hitchcock</label><br/><label class=checkbox-label><input type=checkbox id=cat9 value=Animated>Animated</label><br/><label class=checkbox-label><input type=checkbox id=cat10 value='Audrey Hepburn'>Audrey Hepburn</label><br/><label class=checkbox-label><input type=checkbox id=cat11 value=Biopics>Biopics</label><br/><label class=checkbox-label><input type=checkbox id=cat12 value='Black Cinema'>Black Cinema</label><br/><label class=checkbox-label><input type=checkbox id=cat71 value='Bruce Willis'>Bruce Willis</label><br/><label class=checkbox-label><input type=checkbox id=cat13 value='Cameron Diaz'>Cameron Diaz</label><br/><label class=checkbox-label><input type=checkbox id=cat14 value='Cate Blanchett'>Cate Blanchett</label><br/><label class=checkbox-label><input type=checkbox id=cat15 value='Christopher Nolan'>Christopher Nolan</label><br/><label class=checkbox-label><input type=checkbox id=cat16 value=Classics>Classics</label><br/><label class=checkbox-label><input type=checkbox id=cat17 value='Clint Eastwood'>Clint Eastwood</label><br/><label class=checkbox-label><input type=checkbox id=cat18 value=Comedies>Comedies</label><br/><label class=checkbox-label><input type=checkbox id=cat19 value='Comic Book Movies'>Comic Book Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat20 value='Coming of Age'>Coming of Age</label><br/><label class=checkbox-label><input type=checkbox id=cat21 value=Crime>Crime</label><br/><label class=checkbox-label><input type=checkbox id=cat22 value='Dance Movies'>Dance Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat23 value='Denzel Washington'>Denzel Washington</label><br/><label class=checkbox-label><input type=checkbox id=cat24 value=Directors>Directors</label><br/><label class=checkbox-label><input type=checkbox id=cat25 value='Disaster Movies'>Disaster Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat26 value=Disney>Disney</label><br/><label class=checkbox-label><input type=checkbox id=cat27 value=Dramas>Dramas</label><br/><label class=checkbox-label><input type=checkbox id=cat28 value='DreamWorks Animation'>DreamWorks Animation</label><br/><label class=checkbox-label><input type=checkbox id=cat29 value='Eddie Murphy'>Eddie Murphy</label><br/><label class=checkbox-label><input type=checkbox id=cat30 value='Family Films'>Family Films</label><br/><label class=checkbox-label><input type=checkbox id=cat31 value='Famous Actors and Actresses'>Famous Actors and Actresses</label><br/><label class=checkbox-label><input type=checkbox id=cat32 value=Fantasy/Sci-fi>Fantasy/Sci-fi</label><br/><label class=checkbox-label><input type=checkbox id=cat33 value='Festival Darlings'>Festival Darlings</label><br/><label class=checkbox-label><input type=checkbox id=cat34 value='Holiday Movies'>Holiday Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat35 value=Horror>Horror</label><br/></div><div id=row2><label class=checkbox2><input type=checkbox id=cat36 value='James Bond'>James Bond</label><br/><label class=checkbox2><input type=checkbox id=cat37 value='John Carpenter'>John Carpenter</label><br/><label class=checkbox2><input type=checkbox id=cat38 value='Julia Roberts'>Julia Roberts</label><br/><label class=checkbox2><input type=checkbox id=cat72 value='Keanu Reeves'>Keanu Reeves</label><br/><label class=checkbox2><input type=checkbox id=cat39 value='Kevin Smith'>Kevin Smith</label><br/><label class=checkbox2><input type=checkbox id=cat40 value='Kurt Russell'>Kurt Russell</label><br/><label class=checkbox2><input type=checkbox id=cat41 value='Martin Scorsese'>Martin Scorsese</label><br/><label class=checkbox2><input type=checkbox id=cat42 value='Matthew McConaughey'>Matthew McConaughey</label><br/><label class=checkbox2><input type=checkbox id=cat43 value='Meryl Streep'>Meryl Streep</label><br/><label class=checkbox2><input type=checkbox id=cat44 value='Monster Movies'>Monster Movies</label><br/><label class=checkbox2><input type=checkbox id=cat45 value='Movie Taglines'>Movie Taglines</label><br/><label class=checkbox2><input type=checkbox id=cat46 value='Movie Quotes'>Movie Quotes</label><br/><label class=checkbox2><input type=checkbox id=cat47 value='Movie Release Dates'>Movie Release Dates</label><br/><label class=checkbox2><input type=checkbox id=cat48 value=Musicals>Musicals</label><br/><label class=checkbox2><input type=checkbox id=cat49 value='Oscar Movies'>Oscar Movies</label><br/><label class=checkbox2><input type=checkbox id=cat50 value=Pixar>Pixar</label><br/><label class=checkbox2><input type=checkbox id=cat51 value='Quentin Tarantino'>Quentin Tarantino</label><br/><label class=checkbox2><input type=checkbox id=cat52 value=Romance>Romance</label><br/><label class=checkbox2><input type=checkbox id=cat53 value=Rom-coms>Rom-coms</label><br/><label class=checkbox2><input type=checkbox id=cat54 value='Sandra Bullock'>Sandra Bullock</label><br/><label class=checkbox2><input type=checkbox id=cat55 value='Scarlett Johansson'>Scarlett Johansson</label><br/><label class=checkbox2><input type=checkbox id=cat56 value='Scores & Soundtracks'>Scores & Soundtracks</label><br/><label class=checkbox2><input type=checkbox id=cat57 value='Sly & Arnie'>Sly & Arnie</label><br/><label class=checkbox2><input type=checkbox id=cat58 value='Stanley Kubrick'>Stanley Kubrick</label><br/><label class=checkbox2><input type=checkbox id=cat59 value='Steven Spielberg'>Steven Spielberg</label><br/><label class=checkbox2><input type=checkbox id=cat60 value=Sports>Sports</label><br/><label class=checkbox2><input type=checkbox id=cat61 value='Spy Movies'>Spy Movies</label><br/><label class=checkbox2><input type=checkbox id=cat62 value=Thrillers>Thrillers</label><br/><label class=checkbox2><input type=checkbox id=cat63 value='Tim Burton'>Tim Burton</label><br/><label class=checkbox2><input type=checkbox id=cat64 value='Tom Cruise'>Tom Cruise</label><br/><label class=checkbox2><input type=checkbox id=cat65 value='Tom Hanks'>Tom Hanks</label><br/><label class=checkbox2><input type=checkbox id=cat66 value='Video Game Movies'>Video Game Movies</label><br/><label class=checkbox2><input type=checkbox id=cat67 value=War>War</label><br/><label class=checkbox2><input type=checkbox id=cat68 value=Westerns>Westerns</label><br/><label class=checkbox2><input type=checkbox id=cat69 value='Will Smith'>Will Smith</label><br/><label class=checkbox2><input type=checkbox id=cat70 value='YA Adaptations'>YA Adaptations</label></div><br/>";
-	if (navigator.userAgent.includes('Firefox')) {
-	  document.getElementById("checkboxes").style.top = "430px";
-	}	
+	checkboxes.innerHTML = "<div id=row1><label class=checkbox-label><input type=checkbox id=cat1 value=70s>70s</label><br/><label class=checkbox-label><input type=checkbox id=cat2 value=80s>80s</label><br/><label class=checkbox-label><input type=checkbox id=cat3 value=90s>90s</label><br/><label class=checkbox-label><input type=checkbox id=cat4 value=2000s>2000s</label><br/><label class=checkbox-label><input type=checkbox id=cat5 value=2010s>2010s</label><br/><label class=checkbox-label><input type=checkbox id=cat6 value=Action/Adventure>Action/Adventure</label><br/><label class=checkbox-label><input type=checkbox id=cat7 value='Adam Sandler'>Adam Sandler</label><br/><label class=checkbox-label><input type=checkbox id=cat8 value='Alfred Hitchcock'>Alfred Hitchcock</label><br/><label class=checkbox-label><input type=checkbox id=cat9 value=Animated>Animated</label><br/><label class=checkbox-label><input type=checkbox id=cat10 value='Audrey Hepburn'>Audrey Hepburn</label><br/><label class=checkbox-label><input type=checkbox id=cat11 value=Biopics>Biopics</label><br/><label class=checkbox-label><input type=checkbox id=cat12 value='Black Cinema'>Black Cinema</label><br/><label class=checkbox-label><input type=checkbox id=cat71 value='Bruce Willis'>Bruce Willis</label><br/><label class=checkbox-label><input type=checkbox id=cat13 value='Cameron Diaz'>Cameron Diaz</label><br/><label class=checkbox-label><input type=checkbox id=cat14 value='Cate Blanchett'>Cate Blanchett</label><br/><label class=checkbox-label><input type=checkbox id=cat15 value='Christopher Nolan'>Christopher Nolan</label><br/><label class=checkbox-label><input type=checkbox id=cat16 value=Classics>Classics</label><br/><label class=checkbox-label><input type=checkbox id=cat17 value='Clint Eastwood'>Clint Eastwood</label><br/><label class=checkbox-label><input type=checkbox id=cat18 value=Comedies>Comedies</label><br/><label class=checkbox-label><input type=checkbox id=cat19 value='Comic Book Movies'>Comic Book Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat20 value='Coming of Age'>Coming of Age</label><br/><label class=checkbox-label><input type=checkbox id=cat21 value=Crime>Crime</label><br/><label class=checkbox-label><input type=checkbox id=cat22 value='Dance Movies'>Dance Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat23 value='Denzel Washington'>Denzel Washington</label><br/><label class=checkbox-label><input type=checkbox id=cat24 value=Directors>Directors</label><br/><label class=checkbox-label><input type=checkbox id=cat25 value='Disaster Movies'>Disaster Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat26 value=Disney>Disney</label><br/><label class=checkbox-label><input type=checkbox id=cat27 value=Dramas>Dramas</label><br/><label class=checkbox-label><input type=checkbox id=cat28 value='DreamWorks Animation'>DreamWorks Animation</label><br/><label class=checkbox-label><input type=checkbox id=cat29 value='Eddie Murphy'>Eddie Murphy</label><br/><label class=checkbox-label><input type=checkbox id=cat30 value='Family Films'>Family Films</label><br/><label class=checkbox-label><input type=checkbox id=cat31 value='Famous Actors and Actresses'>Famous Actors and Actresses</label><br/><label class=checkbox-label><input type=checkbox id=cat32 value=Fantasy/Sci-fi>Fantasy/Sci-fi</label><br/><label class=checkbox-label><input type=checkbox id=cat33 value='Festival Darlings'>Festival Darlings</label><br/><label class=checkbox-label><input type=checkbox id=cat34 value='Holiday Movies'>Holiday Movies</label><br/><label class=checkbox-label><input type=checkbox id=cat35 value=Horror>Horror</label><br/></div><div id=row2><label class=checkbox2><input type=checkbox id=cat36 value='James Bond'>James Bond</label><br/><label class=checkbox2><input type=checkbox id=cat37 value='John Carpenter'>John Carpenter</label><br/><label class=checkbox2><input type=checkbox id=cat38 value='Julia Roberts'>Julia Roberts</label><br/><label class=checkbox2><input type=checkbox id=cat72 value='Keanu Reeves'>Keanu Reeves</label><br/><label class=checkbox2><input type=checkbox id=cat39 value='Kevin Smith'>Kevin Smith</label><br/><label class=checkbox2><input type=checkbox id=cat40 value='Kurt Russell'>Kurt Russell</label><br/><label class=checkbox2><input type=checkbox id=cat41 value='Martin Scorsese'>Martin Scorsese</label><br/><label class=checkbox2><input type=checkbox id=cat42 value='Matthew McConaughey'>Matthew McConaughey</label><br/><label class=checkbox2><input type=checkbox id=cat43 value='Meryl Streep'>Meryl Streep</label><br/><label class=checkbox2><input type=checkbox id=cat44 value='Monster Movies'>Monster Movies</label><br/><label class=checkbox2><input type=checkbox id=cat45 value='Movie Taglines'>Movie Taglines</label><br/><label class=checkbox2><input type=checkbox id=cat46 value='Movie Quotes'>Movie Quotes</label><br/><label class=checkbox2><input type=checkbox id=cat47 value='Movie Release Dates'>Movie Release Dates</label><br/><label class=checkbox2><input type=checkbox id=cat48 value=Musicals>Musicals</label><br/><label class=checkbox2><input type=checkbox id=cat49 value='Oscar Movies'>Oscar Movies</label><br/><label class=checkbox2><input type=checkbox id=cat50 value=Pixar>Pixar</label><br/><label class=checkbox2><input type=checkbox id=cat51 value='Quentin Tarantino'>Quentin Tarantino</label><br/><label class=checkbox2><input type=checkbox id=cat52 value=Romance>Romance</label><br/><label class=checkbox2><input type=checkbox id=cat53 value=Rom-coms>Rom-coms</label><br/><label class=checkbox2><input type=checkbox id=cat54 value='Sandra Bullock'>Sandra Bullock</label><br/><label class=checkbox2><input type=checkbox id=cat55 value='Scarlett Johansson'>Scarlett Johansson</label><br/><label class=checkbox2><input type=checkbox id=cat56 value='Scores & Soundtracks'>Scores & Soundtracks</label><br/><label class=checkbox2><input type=checkbox id=cat57 value='Sly & Arnie'>Sly & Arnie</label><br/><label class=checkbox2><input type=checkbox id=cat58 value='Stanley Kubrick'>Stanley Kubrick</label><br/><label class=checkbox2><input type=checkbox id=cat59 value='Steven Spielberg'>Steven Spielberg</label><br/><label class=checkbox2><input type=checkbox id=cat60 value=Sports>Sports</label><br/><label class=checkbox2><input type=checkbox id=cat61 value='Spy Movies'>Spy Movies</label><br/><label class=checkbox2><input type=checkbox id=cat62 value=Thrillers>Thrillers</label><br/><label class=checkbox2><input type=checkbox id=cat63 value='Tim Burton'>Tim Burton</label><br/><label class=checkbox2><input type=checkbox id=cat64 value='Tom Cruise'>Tom Cruise</label><br/><label class=checkbox2><input type=checkbox id=cat65 value='Tom Hanks'>Tom Hanks</label><br/><label class=checkbox2><input type=checkbox id=cat66 value='Video Game Movies'>Video Game Movies</label><br/><label class=checkbox2><input type=checkbox id=cat67 value=War>War</label><br/><label class=checkbox2><input type=checkbox id=cat68 value=Westerns>Westerns</label><br/><label class=checkbox2><input type=checkbox id=cat69 value='Will Smith'>Will Smith</label><br/><label class=checkbox2><input type=checkbox id=cat70 value='YA Adaptations'>YA Adaptations</label></div><br/>";
+	if (navigator.userAgent.includes('Firefox')) {document.getElementById("checkboxes").style.top = "430px";}	
 	var comp = document.getElementById("select").value;
 	document.getElementById("select").style.visibility = "hidden";
 	document.getElementById("choose").style.visibility = "hidden";
@@ -125,13 +106,13 @@ checkboxes.innerHTML = "<div id=row1><label class=checkbox-label><input type=che
 	percentage5 = competitorlist[0].percentage5;
 	message001.innerHTML = "Choose your wheel slices.";
 	message004.innerHTML = "";
-wheelie[0]= competitorlist[0].strength1;
-wheelie[1]= competitorlist[0].strength2;
-wheelie[2]= competitorlist[0].strength3;
-wheelie[3]= competitorlist[0].strength4;
-wheelie[4]= competitorlist[0].strength5;
-wheelie[5]= competitorlist[0].strength6;
-wheelie = shuffle(wheelie);
+	wheelie[0]= competitorlist[0].strength1;
+	wheelie[1]= competitorlist[0].strength2;
+	wheelie[2]= competitorlist[0].strength3;
+	wheelie[3]= competitorlist[0].strength4;
+	wheelie[4]= competitorlist[0].strength5;
+	wheelie[5]= competitorlist[0].strength6;
+	wheelie = shuffle(wheelie);
 	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>" + "He/she selected the following wheel slices: " + wheelie[0] + " and " +  wheelie[1] + "." + "</br></br>" + "Select 2 categories to put on the wheel.";
 	document.getElementById("message004").style.top = "10px";
         document.getElementById("message004").style.visibility = "hidden";
@@ -416,8 +397,7 @@ return "white" ;
             .data(pie)
             .enter()
             .append("g")
-            .attr("class", "slice");
-            
+            .attr("class", "slice");     
         arcs.append("path")
             .attr("fill", function(i){ return colorpick(); })
             .attr("d", function (d) { return arc(d); });
@@ -427,12 +407,9 @@ return "white" ;
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
                  rng      = Math.floor((Math.random() * 1440) + 360);
-                
             rotation = (Math.round(rng / ps) * ps);
-            
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
-                        console.log(picked);
             rotation += 90 - Math.round(ps/2);
             vis.transition()
                 .duration(3000)
@@ -566,40 +543,31 @@ document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == compcat[0].cat) {
-document.getElementById("box1").checked = true;
-document.getElementById("box1").disabled = true;
+document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;
 }
 if (document.getElementById("box2").value == compcat[0].cat) {
-document.getElementById("box2").checked = true;
-document.getElementById("box2").disabled = true;
+document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;
 }
 if (document.getElementById("box3").value == compcat[0].cat) {
-document.getElementById("box3").checked = true;
-document.getElementById("box3").disabled = true;
+document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;
 }
 if (document.getElementById("box4").value == compcat[0].cat) {
-document.getElementById("box4").checked = true;
-document.getElementById("box4").disabled = true;
+document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;
 }
 if (document.getElementById("box5").value == compcat[0].cat) {
-document.getElementById("box5").checked = true;
-document.getElementById("box5").disabled = true;
+document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;
 }
 if (document.getElementById("box6").value == compcat[0].cat) {
-document.getElementById("box6").checked = true;
-document.getElementById("box6").disabled = true;
+document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;
 }
 if (document.getElementById("box7").value == compcat[0].cat) {
-document.getElementById("box7").checked = true;
-document.getElementById("box7").disabled = true;
+document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;
 }
 if (document.getElementById("box8").value == compcat[0].cat) {
-document.getElementById("box8").checked = true;
-document.getElementById("box8").disabled = true;
+document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;
 }
 if (document.getElementById("box9").value == compcat[0].cat) {
-document.getElementById("box9").checked = true;
-document.getElementById("box9").disabled = true;
+document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;
 }	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
@@ -703,40 +671,31 @@ document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == compcat[0].cat) {
-document.getElementById("box1").checked = true;
-document.getElementById("box1").disabled = true;
+document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;
 }
 if (document.getElementById("box2").value == compcat[0].cat) {
-document.getElementById("box2").checked = true;
-document.getElementById("box2").disabled = true;
+document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;
 }
 if (document.getElementById("box3").value == compcat[0].cat) {
-document.getElementById("box3").checked = true;
-document.getElementById("box3").disabled = true;
+document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;
 }
 if (document.getElementById("box4").value == compcat[0].cat) {
-document.getElementById("box4").checked = true;
-document.getElementById("box4").disabled = true;
+document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;
 }
 if (document.getElementById("box5").value == compcat[0].cat) {
-document.getElementById("box5").checked = true;
-document.getElementById("box5").disabled = true;
+document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;
 }
 if (document.getElementById("box6").value == compcat[0].cat) {
-document.getElementById("box6").checked = true;
-document.getElementById("box6").disabled = true;
+document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;
 }
 if (document.getElementById("box7").value == compcat[0].cat) {
-document.getElementById("box7").checked = true;
-document.getElementById("box7").disabled = true;
+document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;
 }
 if (document.getElementById("box8").value == compcat[0].cat) {
-document.getElementById("box8").checked = true;
-document.getElementById("box8").disabled = true;
+document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;
 }
 if (document.getElementById("box9").value == compcat[0].cat) {
-document.getElementById("box9").checked = true;
-document.getElementById("box9").disabled = true;
+document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;
 }
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
@@ -1175,7 +1134,6 @@ inc2.innerHTML = r2question001[i].option[2];
 inc4.innerHTML = r2question001[i].option[3];
 var cor = document.getElementById("corop");
 cor.innerHTML = r2question001[i].option[0];
-
 }
 else if (hidechance < 100){
 message002.innerHTML = type4;
@@ -1397,9 +1355,7 @@ function bettingspin(d){
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
                  rng      = Math.floor((Math.random() * 1440) + 360);
-                
             rotation = (Math.round(rng / ps) * ps);
-            
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
             rotation += 90 - Math.round(ps/2);
@@ -1461,9 +1417,7 @@ function bettingspin2(d){
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
                  rng      = Math.floor((Math.random() * 1440) + 360);
-                
             rotation = (Math.round(rng / ps) * ps);
-            
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
             rotation += 90 - Math.round(ps/2);
@@ -2261,9 +2215,9 @@ function begin001() {
 	    document.getElementById("message006").style.top = "40px";
 	    document.getElementById("message004").style = "initial";
 	    document.getElementById("message004").style.display = "none";
-	if (document.getElementById("toggleButton").checked == true){difficult++;}
-	message001.innerHTML = question001[0].ques;
-	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}
+	    if (document.getElementById("toggleButton").checked == true){difficult++;}
+	    message001.innerHTML = question001[0].ques;
+	    if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";
@@ -6960,40 +6914,31 @@ document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == r2question001[0].cat) {
-document.getElementById("box1").checked = true;
-document.getElementById("box1").disabled = true;
+document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;
 }
 if (document.getElementById("box2").value == r2question001[0].cat) {
-document.getElementById("box2").checked = true;
-document.getElementById("box2").disabled = true;
+document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;
 }
 if (document.getElementById("box3").value == r2question001[0].cat) {
-document.getElementById("box3").checked = true;
-document.getElementById("box3").disabled = true;
+document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;
 }
 if (document.getElementById("box4").value == r2question001[0].cat) {
-document.getElementById("box4").checked = true;
-document.getElementById("box4").disabled = true;
+document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;
 }
 if (document.getElementById("box5").value == r2question001[0].cat) {
-document.getElementById("box5").checked = true;
-document.getElementById("box5").disabled = true;
+document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;
 }
 if (document.getElementById("box6").value == r2question001[0].cat) {
-document.getElementById("box6").checked = true;
-document.getElementById("box6").disabled = true;
+document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;
 }
 if (document.getElementById("box7").value == r2question001[0].cat) {
-document.getElementById("box7").checked = true;
-document.getElementById("box7").disabled = true;
+document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;
 }
 if (document.getElementById("box8").value == r2question001[0].cat) {
-document.getElementById("box8").checked = true;
-document.getElementById("box8").disabled = true;
+document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;
 }
 if (document.getElementById("box9").value == r2question001[0].cat) {
-document.getElementById("box9").checked = true;
-document.getElementById("box9").disabled = true;
+document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;
 }
 	if (compwildmystery == 1){
 $('input[type=checkbox]').on('change', function (e) {

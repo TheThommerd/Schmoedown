@@ -2037,7 +2037,7 @@ else if ((b - s > 0) && (usertwo == 0) && (answeredtwo == 1) && (answeredfive ==
 else if ((s - b > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 0)){loseTKO();}
 else {next001();}
 }
-function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/SinglesTournament.html");}
+function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/2022SinglesTournament.html");}
 function winKO(){
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";

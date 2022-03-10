@@ -1419,7 +1419,7 @@ function winKO(){
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-135px";
 		document.getElementById("message004").style.top = "-310px";
-		document.getElementById("message003").style.top = "-165px";
+		document.getElementById("message003").style.top = "-145px";
 		document.getElementById("message006").style.top = "-35px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
@@ -1454,7 +1454,7 @@ function loseKO(){
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-135px";
 		document.getElementById("message004").style.top = "-310px";
-		document.getElementById("message003").style.top = "-165px";
+		document.getElementById("message003").style.top = "-145px";
 		document.getElementById("message006").style.top = "-35px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
@@ -1490,7 +1490,7 @@ function winTKO(){
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-135px";
 		document.getElementById("message004").style.top = "-310px";
-		document.getElementById("message003").style.top = "-165px";
+		document.getElementById("message003").style.top = "-145px";
 		document.getElementById("message006").style.top = "-35px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
@@ -1525,7 +1525,7 @@ function loseTKO(){
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-135px";
 		document.getElementById("message004").style.top = "-310px";
-		document.getElementById("message003").style.top = "-165px";
+		document.getElementById("message003").style.top = "-145px";
 		document.getElementById("message006").style.top = "-35px";
 		document.getElementById("message006").style.fontSize = "110%";
 }

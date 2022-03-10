@@ -185,10 +185,10 @@ function win(){
 		document.getElementById("save").click();
 		message004.innerHTML = "You have unlocked the next round. Use the password 'Boonta Eve' to enter." + "</br></br>" + "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";		
 		message004.setAttribute("data-html2canvas-ignore", true);
-		document.getElementById("message002").style.top = "-155px";
-		document.getElementById("message004").style.top = "-330px";
-		document.getElementById("message003").style.top = "-155px";
-		document.getElementById("message006").style.top = "-55px";
+		document.getElementById("message002").style.top = "-145px";
+		document.getElementById("message004").style.top = "-320px";
+		document.getElementById("message003").style.top = "-145px";
+		document.getElementById("message006").style.top = "-45px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
      	$("#message004").keypress(function(event) { 	

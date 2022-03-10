@@ -5713,7 +5713,7 @@ simulatebetting();
 function bettinground2() {
 	    	document.getElementById("JTE").style.display = "none";
 		document.getElementById("chart").style.position = "relative";
-		document.getElementById("chart").style.top = "-200px";
+		document.getElementById("chart").style.top = "-115px";
 	    	document.getElementById("chart").style.visibility = "visible";
 	    	document.getElementById("time001").style.display = "none";
 	    	document.getElementById("message004").style.display = "none";

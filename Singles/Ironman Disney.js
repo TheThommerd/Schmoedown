@@ -97,27 +97,21 @@ function startTyping(textParam, delayParam, destinationParam)
     if (currentChar > 1) {
         typing = true;
         return type();
-    }
-    
+    }  
     text=textParam;
     delay=delayParam;
     currentChar=1;
     destination=destinationParam;
     type(delay);
 }
-
-function pauseTyping()
-{
-    typing = false;
-}
-
+function pauseTyping(){ typing = false;}
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>ROUND ONE</font><br/></br>12 MINUTE CLOCK STARTS COUNTING DOWN ONCE FIRST QUESTION IS ASKED</br></br>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>EACH QUESTION IS WORTH 1 POINT</br></br>DURING THIS ROUND YOU CAN ASK 3 TIMES FOR A QUESTION TO BE REPEATED</br>THIS GIVES YOU AN ADDITIONAL 15 SECONDS TO ANSWER THE QUESTION</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
 	document.getElementById("message005").style.position = "relative";
 	document.getElementById("message005").style.top = "-70px";
-message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
+	message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Begin</button>";
 	document.getElementById("message003").style.top = "-70px";
 	message006.innerHTML =  "";
 	document.getElementById("message006").style.position = "relative";
@@ -126,7 +120,6 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	document.getElementById("message004").style = "initial";
 	document.getElementById("message004").style.top = "-40px";
 }
-
 	var a = 0;
         var r = 0;
         r++;
@@ -146,9 +139,8 @@ var posspoints = 0;
 var posspointsopp = 0;
 var quescountopp = 0 ;
 var quescoropp = 0;
-	var minimum = 0;
+var minimum = 0;
 var number;
-
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();
 	var twitt = document.getElementById("twitt").value;
@@ -158,29 +150,12 @@ function submitname () {
 	var length2 = twittername.length;
 	var twitter = twittername.substring(0, 15);
 	var twitter = twitter.replace(" ","");
-
-	if (length1 < 1){
-	player001.innerHTML = naam ;
-	} 
-	else if (length1 >= 1){
-	player001.innerHTML = name;
-	document.getElementById("naam").value = document.getElementById("q2").value;
-	}
-	if (length2 < 1){
-	twitter001.innerHTML = twitt ;
-	} 
-	else if (length2 >= 1){
-	twitter001.innerHTML = twitter;
-	document.getElementById("twitt").value = document.getElementById("q3").value;
-	}
-	if (document.getElementById("wins_IM").value.length < 1)
-	{
-	document.getElementById("wins_IM").value = 0;
-	}
-	if (document.getElementById("losses_IM").value.length < 1)
-	{
-	document.getElementById("losses_IM").value = 0;
-	}
+	if (length1 < 1){player001.innerHTML = naam ;} 
+	else if (length1 >= 1){player001.innerHTML = name;document.getElementById("naam").value = document.getElementById("q2").value;}
+	if (length2 < 1){twitter001.innerHTML = twitt ;} 
+	else if (length2 >= 1){twitter001.innerHTML = twitter;document.getElementById("twitt").value = document.getElementById("q3").value;}
+	if (document.getElementById("wins_IM").value.length < 1){document.getElementById("wins_IM").value = 0;}
+	if (document.getElementById("losses_IM").value.length < 1){document.getElementById("losses_IM").value = 0;}
 	var record = document.getElementById("wins_IM").value + "-" + document.getElementById("losses_IM").value;
   	record001.innerHTML = record;
 	document.getElementById("skip").style.visibility = "hidden";
@@ -188,7 +163,6 @@ function submitname () {
 message004.innerHTML = "<select id=select><option value=Chandler>Brianne Chandler</option><option value=Ellison>Chance Ellison</option><option value=Silvestrini>Rachel Silvestrini</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 message001.innerHTML = "Choose your opponent.";
 }
-
 function choosecomp() {
   	var comp = document.getElementById("select").value;
 	document.getElementById("select").style.visibility = "hidden";
@@ -212,15 +186,12 @@ function choosecomp() {
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
 	message005.innerHTML = "You selected " +competitorlist[0].lowercase + "." + "</br></br>";
 };
-
-
 function skip () {
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
-message004.innerHTML = "<select id=select><option value=Chandler>Brianne Chandler</option><option value=Ellison>Chance Ellison</option><option value=Silvestrini>Rachel Silvestrini</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
+	message004.innerHTML = "<select id=select><option value=Chandler>Brianne Chandler</option><option value=Ellison>Chance Ellison</option><option value=Silvestrini>Rachel Silvestrini</option></select></br></br><button id=choose onclick=choosecomp()>Choose Opponent</button>";
 	message001.innerHTML = "Choose your opponent.";
 }
-
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
   while (0 !== currentIndex) {
@@ -239,28 +210,27 @@ function begin001() {
 	    intromusic.pause();
 	    intromusic.currentTime = 0;
 	    qmusic.play();
-    var Minutes = 60 * 12,
+    	var Minutes = 60 * 12,
         display = document.querySelector('#round002');
-    startTimer(Minutes, display);
+    	startTimer(Minutes, display);
              c = 21;
                 time001.innerHTML = 20;
                 document.getElementById("round002").style.visibility = "visible";
-	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("message005").style.position = "relative";
+	    	document.getElementById("time001").style.visibility = "visible";
+	    	document.getElementById("message005").style.position = "relative";
 		document.getElementById("JTE").style.display = "initial";
-	    document.getElementById("message005").style.top = "10px";
-	    document.getElementById("message006").style.position = "relative";
-	    document.getElementById("message006").style.top = "50px";
-            message001.innerHTML = question001[0].ques;
-            message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-            message003.innerHTML = "";
-            message005.innerHTML = "";
-            message006.innerHTML = "";
-           a++;
-            qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
-	    document.getElementById("q1").focus();
+	    	document.getElementById("message005").style.top = "10px";
+	    	document.getElementById("message006").style.position = "relative";
+	    	document.getElementById("message006").style.top = "50px";
+            	message001.innerHTML = question001[0].ques;
+            	message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+            	message003.innerHTML = "";
+            	message005.innerHTML = "";
+            	message006.innerHTML = "";
+           	a++;
+            	qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
+	    	document.getElementById("q1").focus();
         }
-
 function JTE(){
 document.getElementById("q1").focus();
 if ((c != "0") && (c < 15)) {
@@ -309,7 +279,6 @@ else if (j < 0) {
 	    }
 }
 }
-
 function Challenge(){
 	     var question1 = document.getElementById("q1").value;
 if (question1.length < 1){
@@ -327,24 +296,23 @@ if (h == 1) {
 }
 function ChallengeAccepted(){
 if (speed == 0) {
-            score001.innerHTML = b+=1;
-quescor++;
-	    document.getElementById("chalacc").style.visibility = "hidden";
-	    document.getElementById("chalden").style.visibility = "hidden";
-	    document.getElementById("chal").style.visibility = "hidden";
-            message003.innerHTML = "Challenge won!";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	document.getElementById("chalacc").style.visibility = "hidden";
+	    	document.getElementById("chalden").style.visibility = "hidden";
+	    	document.getElementById("chal").style.visibility = "hidden";
+            	message003.innerHTML = "Challenge won!";
 }
 if (speed != 0) {
-            score001.innerHTML = b+= 2;
-quescor++;
-	    document.getElementById("chalacc").style.visibility = "hidden";
-	    document.getElementById("chalden").style.visibility = "hidden";
-	    document.getElementById("chal").style.visibility = "hidden";
-            message003.innerHTML = "Challenge won!";
-            message006.innerHTML = "<br>";
+            	score001.innerHTML = b+= 2;
+		quescor++;
+	    	document.getElementById("chalacc").style.visibility = "hidden";
+	    	document.getElementById("chalden").style.visibility = "hidden";
+	    	document.getElementById("chal").style.visibility = "hidden";
+            	message003.innerHTML = "Challenge won!";
+            	message006.innerHTML = "<br>";
 	     }
 }
-
 function ChallengeDenied(){
 	    h--;
 	    h--;
@@ -352,75 +320,49 @@ function ChallengeDenied(){
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
-if (j == 2) {
-	    document.getElementById("background").src = "Singles - NoChal.png";
+if (j == 2) {document.getElementById("background").src = "Singles - NoChal.png";}
+else if (j == 1) {document.getElementById("background").src = "Singles - 2JTE.png";}
+else if (j == 0) {document.getElementById("background").src = "Singles - 1JTE.png";}
+else if (j < 0) {document.getElementById("background").src = "Singles - NoJTE.png";}
 }
-else if (j == 1) {
-	    document.getElementById("background").src = "Singles - 2JTE.png";
-	          }
-else if (j == 0) {
-	    document.getElementById("background").src = "Singles - 1JTE.png";
-	          }
- else if (j < 0) {
-	    document.getElementById("background").src = "Singles - NoJTE.png";
-	      }
-}
-
-function myTrim(x) {
-  return x.replace(/^\s+|\s+$/gm,'');
-}
-
-
+function myTrim(x) {return x.replace(/^\s+|\s+$/gm,'');}
 function checker(){
-qmusic.pause();
-qmusic.currentTime = 0;	
+	qmusic.pause();
+	qmusic.currentTime = 0;	
 	document.getElementById("message003").style.top = "-30px";
 	document.getElementById("message004").style.top = "-40px";
-similarity1 = 0;
-similarity2 = 0;
-if (suddendeath != 0)
-{
-checkersuddendeath();
-}
-else if (speed != 0)
-{
-checkerspeed();
-}
-else {
-quescount++;
-posspoints++;
-posspointsopp++;
-quescountopp++;
-	    var question01 = document.getElementById("q1").value.toUpperCase();
-	    var question1 = myTrim(question01);
-	    question1 = question1.replace(":"," ");
-	    question1 = question1.replace("!","");
-	    question1 = question1.replace("$","");
-	    question1 = question1.replace("?","");
-	    question1 = question1.replace(","," ");
-	    question1 = question1.replace("&","AND");
-	    question1 = question1.replace(".","");
-	    question1 = question1.replace("-"," ");
-	    question1 = question1.replace("   "," ");
-	    question1 = question1.replace("  "," ");
-	    question1 = question1.replace("É","E");
-	    question1 = question1.replace("Ó","O");
-	    question1 = question1.replace("Í","I");
-	    question1 = question1.replace("Á","A");
-	    question1 = question1.replace("Ñ","N");
-	    question1 = question1.replace("È","E");
-	    question1 = question1.replace("Ç","C");
-	    question1 = myTrim(question1);
-if (question1.length > 4){
-similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
-if (typeof(question001[vraag].answ3) != 'undefined'){
-similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
-}
-}
-else if (question1.length <= 4){
-similarity1 = 0;
-similarity2 = 0;
-}
+	similarity1 = 0;
+	similarity2 = 0;
+	if (suddendeath != 0){checkersuddendeath();}
+	else if (speed != 0){checkerspeed();}
+	else {
+		quescount++;
+		posspoints++;
+		posspointsopp++;
+		quescountopp++;
+	    	var question01 = document.getElementById("q1").value.toUpperCase();
+	    	var question1 = myTrim(question01);
+	    	question1 = question1.replace(":"," ");
+	    	question1 = question1.replace("!","");
+	    	question1 = question1.replace("$","");
+	    	question1 = question1.replace("?","");
+	    	question1 = question1.replace(","," ");
+	    	question1 = question1.replace("&","AND");
+	    	question1 = question1.replace(".","");
+	    	question1 = question1.replace("-"," ");
+	    	question1 = question1.replace("   "," ");
+	    	question1 = question1.replace("  "," ");
+	    	question1 = question1.replace("É","E");
+	    	question1 = question1.replace("Ó","O");
+	    	question1 = question1.replace("Í","I");
+	    	question1 = question1.replace("Á","A");
+	    	question1 = question1.replace("Ñ","N");
+	    	question1 = question1.replace("È","E");
+	    	question1 = question1.replace("Ç","C");
+	    	question1 = myTrim(question1);
+if (question1.length > 4){similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
+if (typeof(question001[vraag].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);}}
+else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
             window.clearInterval(update);
             c = "-";
 	    document.getElementById("submit2").style.display = "none";
@@ -429,28 +371,26 @@ similarity2 = 0;
 	if ((question1 == question001[vraag].answ) || (question1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b+=1;
-quescor++;
+	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
-	     
             else if (question1 != question001[vraag].answ)  {
             message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
 	    message005.innerHTML = "";
 	    incmusic.play();
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
-    var correct = Math.random()*100;
+var correct = Math.random()*100;
 if (correct < competitorlist[0].percentage){
 score002.innerHTML = s+=1;
 quescoropp++;
 }        	   
 }
 }
-
 function checkerspeed(){
-qmusic.pause();
-qmusic.currentTime = 0;	
+	    qmusic.pause();
+	    qmusic.currentTime = 0;	
 	    var speed01 = document.getElementById("q1").value.toUpperCase();
 	    var speed1 = myTrim(speed01);
 	    speed1 = speed1.replace(":"," ");
@@ -472,70 +412,52 @@ qmusic.currentTime = 0;
 	    speed1 = speed1.replace("Ç","C");
 	    speed1 = myTrim(speed1);
             window.clearInterval(update);
-		document.getElementById("submit2").style.display = "none";
-		document.getElementById("message003").style.top = "-40px";
-	        document.getElementById("message004").style.top = "-60px";
-	        document.getElementById("q1").disabled = true;
-	        message001.innerHTML = question001[vraag].ques;
-	quescount++;
-	posspoints++;
-	if (speed1.length > 4){
-similarity1 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ);
-if (typeof(question001[vraag].answ3) != 'undefined'){
-similarity2 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ3);
-}
-}
-else if (speed1.length <= 4){
-similarity1 = 0;
-similarity2 = 0;
-}
+	    document.getElementById("submit2").style.display = "none";
+	    document.getElementById("message003").style.top = "-40px";
+	    document.getElementById("message004").style.top = "-60px";
+	    document.getElementById("q1").disabled = true;
+	    message001.innerHTML = question001[vraag].ques;
+	    quescount++;
+	    posspoints++;
+	if (speed1.length > 4){similarity1 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ);
+if (typeof(question001[vraag].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(speed1, question001[vraag].answ3);}}
+else if (speed1.length <= 4){similarity1 = 0;similarity2 = 0;}
+		document.getElementById("message005").style.position = "relative";
+		document.getElementById("message005").style.top = "50px";
+		document.getElementById("message004").style.position = "relative";
+  		document.getElementById("message004").style.top = "-60px";
+		document.getElementById("message003").style.top = "-50px";
 	if ((speed1 == question001[vraag].answ) || (speed1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b += 1;
-	quescor++;
+	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	document.getElementById("message005").style.position = "relative";
-	document.getElementById("message005").style.top = "50px";
-	document.getElementById("message004").style.position = "relative";
-  document.getElementById("message004").style.top = "-60px";
-		  document.getElementById("message003").style.top = "-50px";
-
 	}
         else if (speed1 != question001[vraag].answ)  {
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
-	    message005.innerHTML = "";
-            score001.innerHTML = b -= 1;
-	    incmusic.play();
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	document.getElementById("message005").style.position = "relative";
-	document.getElementById("message005").style.top = "50px";
-	document.getElementById("message004").style.position = "relative";
-  document.getElementById("message004").style.top = "-60px";
-		  document.getElementById("message003").style.top = "-50px";
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
+	    	message005.innerHTML = "";
+            	score001.innerHTML = b -= 1;
+	    	incmusic.play();
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button><br /><br /><button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	}
  	chance = 0 ;
 }
-
-
-
 function next001() {
         display = document.querySelector('#round002');
-                    if (display.textContent == "02:00") {
-				finalround();
-        }
+        if (display.textContent == "02:00") {finalround();}
 else {
-	qmusic.play();
+			qmusic.play();
 			vraag++;
 	if (typeof(question001[vraag]) == "undefined"){if (b -s > 0){win();}else if (b -s < 0){lose();}}
 	else if (typeof(question001[vraag]) != "undefined"){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    document.getElementById("chalacc").style.display = "initial";
-	    document.getElementById("chalden").style.display = "initial";
-	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";
-	    document.getElementById("JTE").style.visibility = "visible";
+	    	document.getElementById("chalacc").style.display = "initial";
+	    	document.getElementById("chalden").style.display = "initial";
+	    	document.getElementById("message004").style.display = "initial";
+	    	document.getElementById("message005").style.display = "initial";
+	    	document.getElementById("JTE").style.visibility = "visible";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -545,21 +467,12 @@ else {
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-                 a++;
+                a++;
             	qu001.innerHTML = "QUESTION " + a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            	    message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
 }
 }
 }
-
-
 function timer001() {
             c = c - 1;
             if (c < 200) {
@@ -568,22 +481,22 @@ function timer001() {
             if (c < 1) {
 	    qmusic.pause();
 	    qmusic.currentTime = 0;
-quescount++;
-posspoints++;
-posspointsopp++;
-quescountopp++;
-      		message003.innerHTML = "The correct answer is " + question001[vraag].answ2; 
-		    document.getElementById("message003").style.top = "-30px";
-           	window.clearInterval(update);
-                time001.innerHTML = "Time's up!";
-		document.getElementById("JTE").style.visibility = "hidden";
-		document.getElementById("time001").style.fontSize = "100%";
-		document.getElementById("time001").style.fontWeight = "normal";
-	    	incmusic.play();
+	    quescount++;
+	    posspoints++;
+	    posspointsopp++;
+	    quescountopp++;
+      	    message003.innerHTML = "The correct answer is " + question001[vraag].answ2; 
+	    document.getElementById("message003").style.top = "-30px";
+            window.clearInterval(update);
+            time001.innerHTML = "Time's up!";
+	    document.getElementById("JTE").style.visibility = "hidden";
+	    document.getElementById("time001").style.fontSize = "100%";
+	    document.getElementById("time001").style.fontWeight = "normal";
+	    incmusic.play();
 	    document.getElementById("q1").disabled = true;
-		  message001.innerHTML = question001[vraag].ques;
-		document.getElementById("submit2").style.visibility = "hidden";
-	    	document.getElementById("submit2").style.display = "none";
+	    message001.innerHTML = question001[vraag].ques;
+	    document.getElementById("submit2").style.visibility = "hidden";
+	    document.getElementById("submit2").style.display = "none";
 	    message006.innerHTML =  "";
 if ((speed == 0) & (suddendeath == 0)){
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
@@ -609,38 +522,28 @@ else if (speed != 0 ){
 }
 }
         update = setInterval("timer001()", 1000);
-      
-
-function repeat001() {
-            location.reload();
-        }
+function repeat001() {location.reload();}
 
 $("#message002").keypress(function(event) { 
          if (event.keyCode === 13){ 
                  $("#submit").click(); 
-
             } 
 });
-
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
  var tijd =   setInterval(function () {
         minutes = parseInt(timer / 60, 10)
         seconds = parseInt(timer % 60, 10);
-
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
-
         display.textContent = minutes + ":" + seconds;
-
         if (--timer < 0) {
             timer = duration;
         }
         display = document.querySelector('#round002');
                     if (display.textContent == "02:00") {
                             window.clearInterval(tijd);
-                           display.textContent = "02:00";
-			
+                           display.textContent = "02:00";	
         		}
     }, 1000);
 }
@@ -649,37 +552,27 @@ function startTimer2(duration, display) {
  var tijd =   setInterval(function () {
         minutes = parseInt(timer / 60, 10)
         seconds = parseInt(timer % 60, 10);
-
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
-
         display.textContent = minutes + ":" + seconds;
-
         if (--timer < 0) {
             timer = duration;
         }
         display = document.querySelector('#round002');
                     if (display.textContent == "00:00") {
                             window.clearInterval(tijd);
-                           display.textContent = "00:00";
-			
+                           display.textContent = "00:00";		
         		}
     }, 1000);
 }
 function next002(){
-       display = document.querySelector('#round002');
-                    if (display.textContent == "00:00") {
-				message001.innerHTML = "Time's Up";
-if (b -s > 0){
-win();
+display = document.querySelector('#round002');
+if (display.textContent == "00:00") {
+message001.innerHTML = "Time's Up";
+if (b -s > 0){win();}
+else if (b -s < 0){lose();}
+else if ((b - s) == 0){overtime();}
 }
-else if (b -s < 0){
-lose();
-}
-else if ((b - s) == 0){
-overtime();
-}
-        }
 else {
 qmusic.play();
 text = "";
@@ -693,16 +586,16 @@ typing = true;
 	else if (typeof(question001[vraag]) != "undefined"){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    document.getElementById("time001").style.display = "initial";
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("chalacc").style.display = "initial";
-	    document.getElementById("chalden").style.display = "initial";
-	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";  
-            message001.innerHTML = " ";
-	 startTyping(question001[vraag].ques, 40, "message001");
-         chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
+	    	document.getElementById("time001").style.display = "initial";
+	    	document.getElementById("JTE").style.visibility = "hidden";
+	    	document.getElementById("time001").style.visibility = "visible";
+	    	document.getElementById("chalacc").style.display = "initial";
+	    	document.getElementById("chalden").style.display = "initial";
+	    	document.getElementById("message004").style.display = "initial";
+	    	document.getElementById("message005").style.display = "initial";  
+            	message001.innerHTML = " ";
+	 	startTyping(question001[vraag].ques, 40, "message001");
+         	chance = Math.floor(Math.random() * 91) + (competitorlist[0].percentage / 10);
 	if (question001[vraag].ques.length < 50){
 if (chance < 20){t = 13; nobody = 1}
 else if (chance < 25){t = 8; nobody = 0}
@@ -737,19 +630,19 @@ update = setInterval("speedtimer001()", 1000);
 }
 
 function speedquestions2() {	
-	pauseTyping();
-	    document.getElementById("time001").style.display = "initial";
-	    document.getElementById("time001").style.visibility = "visible";
+		pauseTyping();
+	    	document.getElementById("time001").style.display = "initial";
+	    	document.getElementById("time001").style.visibility = "visible";
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-            window.clearInterval(update);
+            	window.clearInterval(update);
                 update = setInterval("timer001()", 1000);
                 c = 5;
                 time001.innerHTML = 5;
-	document.getElementById("message002").style.top = "-20px";
-	document.getElementById("message003").style.top = "-40px";
-	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";
+		document.getElementById("message002").style.top = "-20px";
+		document.getElementById("message003").style.top = "-40px";
+	    	document.getElementById("message004").style.display = "initial";
+	    	document.getElementById("message005").style.display = "initial";
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
                 message003.innerHTML = "";
@@ -757,15 +650,6 @@ function speedquestions2() {
                 message006.innerHTML = "";
             	qu001.innerHTML = "QUESTION " + a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	    	document.getElementById("chalacc").style.display = "initial";
-	    	document.getElementById("chalacc").style.display = "initial";
-		}
 }
 var speed = 0;
 var nobody = 0 ;
@@ -779,32 +663,32 @@ function finalround(){
 	document.getElementById("message005").style.top = "-50px";
 	document.getElementById("message004").style.position = "relative";
 	document.getElementById("message004").style.top = "-55px";
-	    document.getElementById("JTE").style.display = "none";
-	    document.getElementById("time001").style.visibility = "hidden";
-            message004.innerHTML = "<button class=buttons002 onclick=start2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-speed++;
+	document.getElementById("JTE").style.display = "none";
+	document.getElementById("time001").style.visibility = "hidden";
+        message004.innerHTML = "<button class=buttons002 onclick=start2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+	speed++;
 }
 function speedtimer001() {
             t = t - 1;
             if (t < 1) {
-	    qmusic.pause();
-	    qmusic.currentTime = 0;
-  	window.clearInterval(update);
+	    	qmusic.pause();
+	    	qmusic.currentTime = 0;
+  		window.clearInterval(update);
 if (nobody == 0){
 		var correctchance = Math.random() * 100;
 	if (correctchance < competitorlist[0].percentage){
 		score002.innerHTML = s += 1;
-quescountopp++;
-quescoropp++;
-posspointsopp++;
+		quescountopp++;
+		quescoropp++;
+		posspointsopp++;
 	    	message005.innerHTML = "";
 		message003.innerHTML = competitorlist[0].id + " hit the question.";
                 time001.innerHTML = "";
                 message002.innerHTML = "";
 		}
 	else if (correctchance >= competitorlist[0].percentage){
-quescountopp++;
-posspointsopp++;
+		quescountopp++;
+		posspointsopp++;
 		score002.innerHTML = s -= 1;
 	    	message005.innerHTML = "";
 		message003.innerHTML = competitorlist[0].id + " missed the question.";
@@ -815,26 +699,23 @@ posspointsopp++;
 else if (nobody == 1){
 		message003.innerHTML = "Nobody hit the question.";
 		nobody = 0;
-posspointsopp++;
-posspoints++;
+		posspointsopp++;
+		posspoints++;
 }
-
-            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-            message006.innerHTML = "The correct answer is " + question001[vraag].answ2; 
-	document.getElementById("message004").style.top = "-40px";
-	document.getElementById("message006").style.top = "-40px";
-	document.getElementById("message003").style.top = "-40px";
-        }
+            	message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            	message006.innerHTML = "The correct answer is " + question001[vraag].answ2; 
+		document.getElementById("message004").style.top = "-40px";
+		document.getElementById("message006").style.top = "-40px";
+		document.getElementById("message003").style.top = "-40px";
+}
 }
 function start2(){
-    var Minutes = 60 * 2,
+    	var Minutes = 60 * 2,
         display = document.querySelector('#round002');
-    startTimer2(Minutes, display);
-next002();
+    	startTimer2(Minutes, display);
+	next002();
     }
-function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Schmoedown/Ironman.html");
-}
+function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/Ironman.html");}
 function win(){
                 window.clearInterval(update);
                 c = "-";
@@ -930,14 +811,14 @@ qmusic.play();
 	else if (typeof(question001[vraag]) != "undefined"){
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
-	    document.getElementById("time001").style.visibility = "visible";
-	    document.getElementById("chalacc").style.display = "initial";
-	    document.getElementById("chalden").style.display = "initial";
-	    document.getElementById("message002").style.top = "-5px";
-	    document.getElementById("message004").style.top = "-40px";
-	    document.getElementById("message003").style.top = "-70px";
-	    document.getElementById("JTE").style.display = "initial";
-	    document.getElementById("JTE").style.visibility = "visible";
+	    	document.getElementById("time001").style.visibility = "visible";
+	    	document.getElementById("chalacc").style.display = "initial";
+	    	document.getElementById("chalden").style.display = "initial";
+	    	document.getElementById("message002").style.top = "-5px";
+	    	document.getElementById("message004").style.top = "-40px";
+	    	document.getElementById("message003").style.top = "-70px";
+	    	document.getElementById("JTE").style.display = "initial";
+	    	document.getElementById("JTE").style.visibility = "visible";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -950,58 +831,43 @@ qmusic.play();
                  a++;
             	qu001.innerHTML = "QUESTION " + a + " - " + question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            	    message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
 }
 }
 }
-
 function checkersuddendeath(){
-qmusic.pause();
-qmusic.currentTime = 0;	
-	    document.getElementById("message003").style.top = "-30px";
-	    document.getElementById("message004").style.top = "-40px";
-	    similarity1 = 0;
-	    similarity2 = 0;
-	    quescount++;
-	    posspoints++;
-	    posspointsopp++;
-	    quescountopp++;
-	    var question01 = document.getElementById("q1").value.toUpperCase();
-	    var question1 = myTrim(question01);
-	    question1 = question1.replace(":"," ");
-	    question1 = question1.replace("!","");
-	    question1 = question1.replace("$","");
-	    question1 = question1.replace("?","");
-	    question1 = question1.replace(","," ");
-	    question1 = question1.replace("&","AND");
-	    question1 = question1.replace(".","");
-	    question1 = question1.replace("-"," ");
-	    question1 = question1.replace("   "," ");
-	    question1 = question1.replace("  "," ");
-	    question1 = question1.replace("É","E");
-	    question1 = question1.replace("Ó","O");
-	    question1 = question1.replace("Í","I");
-	    question1 = question1.replace("Á","A");
-	    question1 = question1.replace("Ñ","N");
-	    question1 = question1.replace("È","E");
-	    question1 = question1.replace("Ç","C");
-	    question1 = myTrim(question1);
-	if (question1.length > 4){
-	similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
-	if (typeof(question001[vraag].answ3) != 'undefined'){
-	similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
-	}
-	}
-	else if (question1.length <= 4){
-	similarity1 = 0;
-	similarity2 = 0;
-	}
+		qmusic.pause();
+		qmusic.currentTime = 0;	
+	    	document.getElementById("message003").style.top = "-30px";
+	    	document.getElementById("message004").style.top = "-40px";
+	    	similarity1 = 0;
+	    	similarity2 = 0;
+	    	quescount++;
+	    	posspoints++;
+	    	posspointsopp++;
+	    	quescountopp++;
+	    	var question01 = document.getElementById("q1").value.toUpperCase();
+	    	var question1 = myTrim(question01);
+	    	question1 = question1.replace(":"," ");
+	    	question1 = question1.replace("!","");
+	    	question1 = question1.replace("$","");
+	    	question1 = question1.replace("?","");
+	    	question1 = question1.replace(","," ");
+	    	question1 = question1.replace("&","AND");
+	    	question1 = question1.replace(".","");
+	    	question1 = question1.replace("-"," ");
+	    	question1 = question1.replace("   "," ");
+	    	question1 = question1.replace("  "," ");
+	    	question1 = question1.replace("É","E");
+	    	question1 = question1.replace("Ó","O");
+	    	question1 = question1.replace("Í","I");
+	    	question1 = question1.replace("Á","A");
+	    	question1 = question1.replace("Ñ","N");
+	    	question1 = question1.replace("È","E");
+	    	question1 = question1.replace("Ç","C");
+	    	question1 = myTrim(question1);
+	if (question1.length > 4){similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
+	if (typeof(question001[vraag].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);}}
+	else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
             window.clearInterval(update);
             c = "-";
 	    document.getElementById("submit2").style.display = "none";
@@ -1013,8 +879,7 @@ qmusic.currentTime = 0;
 	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=startsuddendeath()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	}
-	     
+	}     
         else if (question1 != question001[vraag].answ)  {
             message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
 	    message005.innerHTML = "";

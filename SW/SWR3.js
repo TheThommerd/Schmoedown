@@ -112,7 +112,7 @@ function winKO(){
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-155px";
 		document.getElementById("message004").style.top = "-330px";
-		document.getElementById("message003").style.top = "-145px";
+		document.getElementById("message003").style.top = "-155px";
 		document.getElementById("message006").style.top = "-55px";
 		document.getElementById("message006").style.fontSize = "110%";
 }
@@ -144,7 +144,7 @@ function winTKO(){
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message002").style.top = "-155px";
 		document.getElementById("message004").style.top = "-330px";
-		document.getElementById("message003").style.top = "-145px";
+		document.getElementById("message003").style.top = "-155px";
 		document.getElementById("message006").style.top = "-55px";
 		document.getElementById("message006").style.fontSize = "110%";
 }

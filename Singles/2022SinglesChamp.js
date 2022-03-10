@@ -2920,7 +2920,7 @@ else {
 next001();
 }
 }
-function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/SinglesTournament.html");}
+function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/2022SinglesTournament.html");}
 function winKO(){
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";

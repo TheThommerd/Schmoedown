@@ -19,14 +19,8 @@ message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 		document.getElementById("q2").focus();
 }
-	if (document.getElementById("wins_SW").value.length < 1)
-	{
-	document.getElementById("wins_SW").value = 0;
-	}
-	if (document.getElementById("losses_SW").value.length < 1)
-	{
-	document.getElementById("losses_SW").value = 0;
-	}
+	if (document.getElementById("wins_SW").value.length < 1){document.getElementById("wins_SW").value = 0;}
+	if (document.getElementById("losses_SW").value.length < 1){document.getElementById("losses_SW").value = 0;}
   	record001.innerHTML = document.getElementById("wins_SW").value + "-" + document.getElementById("losses_SW").value;
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
 	var twittername = document.getElementById("twitt").value;
@@ -80,14 +74,12 @@ function pregame(){
 function submitpassword() {
 var ww = document.getElementById("password").value.toUpperCase();
 document.getElementById("passwordsaverChamp").value = document.getElementById("password").value.toUpperCase();
-if (ww == "PORKINS")
-{
+if (ww == "PORKINS"){
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 }
-else
-{
+else{
 message006.innerHTML = "Password incorrect!";
 document.getElementById("message006").style.top = "-75px";
 }
@@ -101,28 +93,18 @@ function submitname () {
 	var length2 = twittername.length;
 	var twitter = twittername.substring(0, 15);
 	var twitter = twitter.replace(" ","");
-	if (length1 < 1){
-	player001.innerHTML = naam ;
-	} 
+	if (length1 < 1){player001.innerHTML = naam ;} 
 	else if (length1 >= 1){
 	player001.innerHTML = name;
 	document.getElementById("naam").value = document.getElementById("q2").value;
 	}
-	if (length2 < 1){
-	twitter001.innerHTML = twitt ;
-	} 
+	if (length2 < 1){twitter001.innerHTML = twitt ;} 
 	else if (length2 >= 1){
 	twitter001.innerHTML = twitter;
 	document.getElementById("twitt").value = document.getElementById("q3").value;
 	}
-	if (document.getElementById("wins_SW").value.length < 1)
-	{
-	document.getElementById("wins_SW").value = 0;
-	}
-	if (document.getElementById("losses_SW").value.length < 1)
-	{
-	document.getElementById("losses_SW").value = 0;
-	}
+	if (document.getElementById("wins_SW").value.length < 1){document.getElementById("wins_SW").value = 0;}
+	if (document.getElementById("losses_SW").value.length < 1){document.getElementById("losses_SW").value = 0;}
   	record001.innerHTML = document.getElementById("wins_SW").value + "-" + document.getElementById("losses_SW").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
@@ -273,9 +255,7 @@ function unique(){
 	threepointer001 = shuffle(threepointer001); 
 		unique();
     	}
-   	else {
-		unique2();
-    	}
+   	else {unique2();}
 }
 var q = "0";
 var p = "0";
@@ -317,8 +297,7 @@ return "white" ;
             .attr("class", "chartholder")
             .attr("transform", "translate(" + (wid/2 + padding.left) + "," + (hei/2 + padding.top) + ")");
         var vis = container
-            .append("g");
-            
+            .append("g"); 
         var pie = d3.layout.pie().sort(null).value(function(d){return 1;});
         var arc = d3.svg.arc().outerRadius(rot);
         var arcs = vis.selectAll("g.slice")
@@ -528,7 +507,6 @@ assigncompcat();
             .append("path")
             .attr("d", "M-" + (rot*.15) + ",0L0," + (rot*.05) + "L0,-" + (rot*.05) + "Z")
             .style({"fill":"black"});
-   
         function rotTween(to) {
           var io = d3.interpolate(oldrotation % 360, rotation);
           return function(t) {
@@ -752,9 +730,7 @@ function bettingspin(d){
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
                  rng      = Math.floor((Math.random() * 1440) + 360);
-                
             rotation = (Math.round(rng / ps) * ps);
-            
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
             rotation += 90 - Math.round(ps/2);
@@ -869,7 +845,7 @@ function begin001() {
 	    intromusic.currentTime = 0;
 	    qmusic.play();
             c = 21;
-                time001.innerHTML = 20;
+            time001.innerHTML = 20;
 	    document.getElementById("JTE").style.visibility = "visible";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("message005").style.position = "relative";
@@ -882,9 +858,9 @@ function begin001() {
             message003.innerHTML = "";
             message005.innerHTML = "";
             message006.innerHTML = "";
-             a++;
+            a++;
             qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
-	document.getElementById("q1").focus();
+	    document.getElementById("q1").focus();
 	    unique();
         }
 function JTE(){
@@ -940,17 +916,13 @@ var betpoints = 0;
 var speed = 0;
 function Challenge(){
 	     var question1 = document.getElementById("q1").value;
-if (question1.length < 1){
-            message003.innerHTML = "You can't challenge because you didn't submit an answer!";
-}
+if (question1.length < 1){message003.innerHTML = "You can't challenge because you didn't submit an answer!";}
 if (question1.length >= 1){
 if (h == 1) {
 	    document.getElementById("chalacc").style.visibility = "visible";
 	    document.getElementById("chalden").style.visibility = "visible";
 	    }
- else if (h < 1) {
-            message003.innerHTML = "No challenges left!";
-	    }
+ else if (h < 1) {message003.innerHTML = "No challenges left!";}
 }
 }
 var steal = 0;
@@ -959,7 +931,7 @@ function ChallengeAccepted(){
 if (bettingbool == 1) {
             score001.innerHTML = b+= betpoints;
             score001.innerHTML = b+= betpoints;
-quescor++;
+	    quescor++;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -968,7 +940,7 @@ quescor++;
 	     }
 if (speed != 0) {
             score001.innerHTML = b+= 2;
-quescor++;
+	    quescor++;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -977,7 +949,7 @@ quescor++;
 	     }
 if (r == 1) {
             score001.innerHTML = b+=1;
-quescor++;
+	    quescor++;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -985,9 +957,9 @@ quescor++;
 	     }
 else if (r == 3) {
             score001.innerHTML = b+=2;
-quescor++;
-quescountopp--;
-posspointsopp-=2;
+	    quescor++;
+	    quescountopp--;
+	    posspointsopp-=2;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -1001,15 +973,15 @@ if (steal == 1){
 else if (r == 5) {
 if (a == 18){
             score001.innerHTML = b+=2;
-quescor++;
+	    quescor++;
 }
 else if (a == 19){
             score001.innerHTML = b+=3;
-quescor++;
+	    quescor++;
 }
 else if (a == 20){
             score001.innerHTML = b+=5;
-quescor++;
+	    quescor++;
 }
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
@@ -1018,7 +990,7 @@ quescor++;
 	     }
 else if (r == 6) {
             score001.innerHTML = b+=1;
-quescor++;
+	    quescor++;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
@@ -1037,8 +1009,8 @@ if (j == 2) {
             message003.innerHTML = "Challenge lost!";
 }
 else if (j == 1) {
-	     document.getElementById("background").src = "2JTE.png";
-	     h--;
+	    document.getElementById("background").src = "2JTE.png";
+	    h--;
 	    h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
@@ -1047,7 +1019,7 @@ else if (j == 1) {
 	          }
 else if (j == 0) {
 	     document.getElementById("background").src = "1JTE.png";
-	    h--;
+	     h--;
 	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
@@ -1080,16 +1052,13 @@ if (mc == 0){
 	    message005.innerHTML = "";
 	    message006.innerHTML = "";
 	   quescount++;
-           console.log(quescount);
 	   posspoints+=1;
 	    quescor++;
             score001.innerHTML = b+=1;
 	if ((a == 13) ||(a == 14)||(a == 15)||(a == 16)){
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	}  
-	if (a == 17){
-            message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+	if (a == 17){message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc != 0){
 	    document.getElementById("message004").style.top = "-75px";
@@ -1127,107 +1096,90 @@ if (mc == 5){message004.innerHTML = "<button class=buttons002 onclick=bettingrou
         function qinc() {
 		qmusic.pause();
 		qmusic.currentTime = 0;
-	   quescount++;
-	   posspoints+=1;
-	    document.getElementById("JTE").style.visibility = "hidden";
-            window.clearInterval(update);
-	    incmusic.play();
-            c = "-";
+	   	quescount++;
+	   	posspoints+=1;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+            	window.clearInterval(update);
+	    	incmusic.play();
+            	c = "-";
 		document.getElementById("message003").style.top = "-85px";
 		document.getElementById("message004").style.top = "-85px";
 		document.getElementById("message006").style.top = "-85px";
 if (mc == 0){
-	if (a == 13){
-            message003.innerHTML = "Incorrect. The correct answer is " + r2question001[0].answ2 ;
-            message002.innerHTML = "";
+	    message002.innerHTML = "";
 	    message006.innerHTML = "";
             message005.innerHTML = "";
+	if (a == 13){
+            message003.innerHTML = "Incorrect. The correct answer is " + r2question001[0].answ2 ;
 	   posspointsopp+=1;
 	   quescountopp++;
 if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 percentage1pnt = 1.1 * percentage;
 var chance = Math.random() * 100;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 14){
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[4].answ2 ;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
 if ((competitorlist[0].strength1 == r2question001[4].cat) || (competitorlist[0].strength2 == r2question001[4].cat) || (competitorlist[0].strength3 == r2question001[4].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 percentage1pnt = 1.1 * percentage;
 var chance = Math.random() * 100;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		} 
 	if (a == 15){
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[1].answ2 ;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
 if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 percentage1pnt = 1.1 * percentage;
 var chance = Math.random() * 100;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 16){
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[2].answ2 ;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
 if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 percentage1pnt = 1.1 * percentage;
 var chance = Math.random() * 100;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
 	if (a == 17){
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[3].answ2;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	   posspointsopp+=1;
 	   quescountopp++;
 if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[3].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 percentage1pnt = 1.1 * percentage;
 var chance = Math.random() * 100;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
             message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -1235,62 +1187,46 @@ message006.innerHTML = "Question was stolen by " +competitorlist[0].lowercase;
 }
 else if (mc != 0){
 	    document.getElementById("message004").style.top = "-75px";
-if (mc == 1){
+	    message002.innerHTML = "";
+	    message006.innerHTML = "";
+            message005.innerHTML = "";
 	    document.getElementById("JTE").style.visibility = "hidden";
+if (mc == 1){
             window.clearInterval(update);
             c = "-";
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[5].answ2;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	    stealmc--;
 if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if (stealmc == 0){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 2){
-	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[6].answ2;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	    stealmc--;
 if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if (stealmc == 0){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 3){
-	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[7].answ2;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	    stealmc--;
 if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if (stealmc == 0){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 4){
-	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[8].answ2;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	    stealmc--;
 if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if (stealmc == 0){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 5){
-	    document.getElementById("JTE").style.visibility = "hidden";
             window.clearInterval(update);
             c = "-";
             message003.innerHTML = "Incorrect. The correct answer is " +compcat[9].answ2;
-            message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	    stealmc--;
  	    message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		}  
@@ -1328,13 +1264,12 @@ document.getElementById("message004").style.top = "-125px";
 	   quescountopp++;
 	   posspointsopp+=2;
 if ((competitorlist[0].strength1 == question001[8].cat) || (competitorlist[0].strength2 == question001[8].cat) || (competitorlist[0].strength3 == question001[8].cat)){
-percentage = competitorlist[0].strengthpercentage3;
-}
+percentage = competitorlist[0].strengthpercentage3;}
 var chance = Math.random() * 100;
 if (chance < percentage3){
                 time001.innerHTML = "";
 		score002.innerHTML = s+=2;
-	    quescoropp++;
+	    	quescoropp++;
 		message002.innerHTML = "";
 		message003.innerHTML = "";
 		message005.innerHTML = "";
@@ -1344,76 +1279,74 @@ else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorli
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){message006.innerHTML = competitorlist[0].id + " hit the 2 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){message006.innerHTML = competitorlist[0].id + " hit the 2 pointer.";}}
 else if (b - s >= 0){message006.innerHTML = competitorlist[0].id + " hit the 2 pointer.";}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-document.getElementById("chal").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		document.getElementById("chal").style.visibility = "hidden";
 		}
 else {
 		message002.innerHTML = "";
                 time001.innerHTML = "";
-message003.innerHTML = "";
-message005.innerHTML = "";
+		message003.innerHTML = "";
+		message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;}
 else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){message006.innerHTML = competitorlist[0].id + " missed the 2 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){message006.innerHTML = competitorlist[0].id + " missed the 2 pointer.";}}
 else if (b - s >= 0){message006.innerHTML = competitorlist[0].id + " missed the 2 pointer.";}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-document.getElementById("chal").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		document.getElementById("chal").style.visibility = "hidden";
 		}
-answeredtwo++;
+		answeredtwo++;
 }
 function simulateq3(){
 document.getElementById("message004").style.top = "-125px";
 	   quescountopp++;
 	   posspointsopp+=3;
 if ((competitorlist[0].strength1 == threepointer001[1].cat) || (competitorlist[0].strength2 == threepointer001[1].cat) || (competitorlist[0].strength3 == threepointer001[1].cat)){
-percentage3 = competitorlist[0].strengthpercentage3;
-}
+percentage3 = competitorlist[0].strengthpercentage3;}
 var chance = Math.random() * 100;
 if (chance < percentage3){
 		score002.innerHTML = s+=3;
-	    quescoropp++;
+	    	quescoropp++;
                 time001.innerHTML = "";
 		message002.innerHTML = "";
-message003.innerHTML = "";
-message005.innerHTML = "";
+		message003.innerHTML = "";
+		message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;}
 else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){message006.innerHTML = competitorlist[0].id + " hit the 3 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){message006.innerHTML = competitorlist[0].id + " hit the 3 pointer.";}}
 else if (b - s >= 0){message006.innerHTML = competitorlist[0].id + " hit the 3 pointer.";}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-document.getElementById("chal").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		document.getElementById("chal").style.visibility = "hidden";
 		}
 else { 
                 time001.innerHTML = "";
 		message002.innerHTML = "";
-message003.innerHTML = "";
-message005.innerHTML = "";
+		message003.innerHTML = "";
+		message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;}
 else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){message006.innerHTML = competitorlist[0].id + " missed the 3 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){message006.innerHTML = competitorlist[0].id + " missed the 3 pointer.";}}
 else if (b - s >= 0){message006.innerHTML = competitorlist[0].id + " missed the 3 pointer.";}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-document.getElementById("chal").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		document.getElementById("chal").style.visibility = "hidden";
 		}
-answeredthree++;
+		answeredthree++;
 }
 function simulateq5(){
-document.getElementById("message004").style.top = "-125px";
-	   quescountopp++;
-	   posspointsopp+=5;
+		document.getElementById("message004").style.top = "-125px";
+	   	quescountopp++;
+	   	posspointsopp+=5;
 if ((competitorlist[0].strength1 == fivepointer001[1].cat) || (competitorlist[0].strength2 == fivepointer001[1].cat) || (competitorlist[0].strength3 == fivepointer001[1].cat)){
-percentage5 = competitorlist[0].strengthpercentage5;
-}
+percentage5 = competitorlist[0].strengthpercentage5;}
 var chance = Math.random() * 100;
 if (chance < percentage5){
 		score002.innerHTML = s+=5;
-	    quescoropp++;
+	    	quescoropp++;
                 time001.innerHTML = "";
 		message002.innerHTML = "";
 		message003.innerHTML = "";
@@ -1424,14 +1357,14 @@ else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorli
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){message006.innerHTML = competitorlist[0].id + " hit the 5 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){message006.innerHTML = competitorlist[0].id + " hit the 5 pointer.";}}
 else if (b - s >= 0){message006.innerHTML = competitorlist[0].id + " hit the 5 pointer.";}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-document.getElementById("chal").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		document.getElementById("chal").style.visibility = "hidden";
 		}
 else { 
                 time001.innerHTML = "";
 		message002.innerHTML = "";
-message003.innerHTML = "";
-message005.innerHTML = "";
+		message003.innerHTML = "";
+		message005.innerHTML = "";
 if (s - b > 0){
 if (usertwo == 0){message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." + "</br></br>" + "Your first category is " + question001[8].cat;}
 else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." + "</br></br>" + "Your next category is " + threepointer001[0].cat;}
@@ -1443,10 +1376,10 @@ else if ((usertwo == 1) && (userthree == 0)){message006.innerHTML = competitorli
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 0)){message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." + "</br></br>" + "Your next category is " + fivepointer001[0].cat;}
 else if ((usertwo == 1) && (userthree == 1) && (userfive == 1)){message006.innerHTML = competitorlist[0].id + " missed the 5 pointer.";}}
 else if (b - s > 0){message006.innerHTML = competitorlist[0].id + " missed the 5 pointer." ;}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-document.getElementById("chal").style.visibility = "hidden";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		document.getElementById("chal").style.visibility = "hidden";
 		}
-answeredfive++;
+		answeredfive++;
 }
 function analyser3 (){
 if ((b - s >= 0) && (answeredtwo == 0)){simulateq2();}
@@ -1676,12 +1609,12 @@ function checker() {
 		qmusic.currentTime = 0;
 		similarity1 = 0;
 		similarity2 = 0;
-document.getElementById("message003").style.top = "-75px";
-document.getElementById("message004").style.top = "-75px";
-document.getElementById("message006").style.top = "-75px";
-	percentage = competitorlist[0].percentage;
-	    steal = 0;
-if (speed != 0){checkerspeed();}
+		document.getElementById("message003").style.top = "-75px";
+		document.getElementById("message004").style.top = "-75px";
+		document.getElementById("message006").style.top = "-75px";
+		percentage = competitorlist[0].percentage;
+	    	steal = 0;
+		if (speed != 0){checkerspeed();}
 if ((a == 2) && (bettingbool == 0)){
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
@@ -1695,44 +1628,33 @@ else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question1 == question001[0].answ) || (question1 == question001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[1].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[1].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question1 != question001[0].answ)  {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[0].answ2;
-	    message006.innerHTML =  "Next category is " +question001[1].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[0].cat) || (competitorlist[0].strength2 == question001[0].cat) || (competitorlist[0].strength3 == question001[0].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[0].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[1].cat;
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
             }
-	   
 }
 if ((a == 3) && (bettingbool == 0)){
 	    var question02 = document.getElementById("q1").value.toUpperCase();
@@ -1747,44 +1669,33 @@ else if (question2.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question2 == question001[1].answ) || (question2 == question001[1].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[2].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+           	message003.innerHTML = "Correct!";
+	   	message006.innerHTML =  "Next category is " +question001[2].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question2 != question001[1].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[1].answ2;
-	    message006.innerHTML =  "Next category is " +question001[2].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[1].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[2].cat;
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
             }
-	
 }
 if ((a == 4) && (bettingbool == 0)){
 	    var question03 = document.getElementById("q1").value.toUpperCase();
@@ -1799,45 +1710,34 @@ else if (question3.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question3 == question001[2].answ) || (question3 == question001[2].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[3].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[3].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question3 != question001[2].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[2].answ2;
-	    message006.innerHTML =  "Next category is " +question001[3].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[2].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[3].cat;
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
-	  
 }
 if ((a == 5) && (bettingbool == 0)){
 	    var question04 = document.getElementById("q1").value.toUpperCase();
@@ -1852,44 +1752,33 @@ else if (question4.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question4 == question001[3].answ) || (question4 == question001[3].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[4].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[4].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question4 != question001[3].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[3].answ2;
-	    message006.innerHTML =  "Next category is " +question001[4].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
-            }
-	   
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[3].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[4].cat;
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
+            }   
 }
 if ((a == 6) && (bettingbool == 0)){
 	    var question05 = document.getElementById("q1").value.toUpperCase();
@@ -1904,44 +1793,33 @@ else if (question5.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question5 == question001[4].answ) || (question5 == question001[4].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[14].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[14].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question5 != question001[4].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + question001[4].answ2;
 	    message006.innerHTML =  "Next category is " +question001[14].cat;
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+	    percentage = competitorlist[0].percentage;
             }
-	    
 }
 if ((a == 7) && (bettingbool == 0)){
 	    var question025 = document.getElementById("q1").value.toUpperCase();
@@ -1956,44 +1834,33 @@ else if (question25.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question25 == question001[14].answ) || (question25 == question001[14].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[15].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[15].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question25 != question001[14].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[14].answ2;
-	    message006.innerHTML =  "Next category is " +question001[15].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
-            }
-	    
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[14].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[15].cat;
+	    	incmusic.play();
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
+            } 
 }
 if ((a == 8) && (bettingbool == 0)){
 	    var question026 = document.getElementById("q1").value.toUpperCase();
@@ -2008,44 +1875,33 @@ else if (question26.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() * 100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question26 == question001[15].answ) || (question26 == question001[15].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[5].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[5].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question26 != question001[15].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[15].answ2;
-	    message006.innerHTML =  "Next category is " +question001[5].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() * 100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
-            }
-	    
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[15].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[5].cat;
+	    	incmusic.play();
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
+            }    
 }
 if ((a == 9) && (bettingbool == 0)){
 	    var question06 = document.getElementById("q1").value.toUpperCase();
@@ -2060,44 +1916,33 @@ else if (question6.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random() *100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question6 == question001[5].answ) || (question6 == question001[5].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[6].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random() *100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[6].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question6 != question001[5].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[5].answ2;
-	    message006.innerHTML =  "Next category is " +question001[6].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
-            }
-	  
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[5].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[6].cat;
+	    	incmusic.play();
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
+            }  
 }
 if ((a == 10) && (bettingbool == 0)){
 	    var question07 = document.getElementById("q1").value.toUpperCase();
@@ -2112,44 +1957,33 @@ else if (question7.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question7 == question001[6].answ) || (question7 == question001[6].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "Next category is " +question001[7].cat;
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "Next category is " +question001[7].cat;
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question7 != question001[6].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[6].answ2;
-	    message006.innerHTML =  "Next category is " +question001[7].cat;
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[6].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[7].cat;
+	    	incmusic.play();
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
-	
 }
 if ((a == 11) && (bettingbool == 0)){
 	    var question08 = document.getElementById("q1").value.toUpperCase();
@@ -2164,48 +1998,32 @@ else if (question8.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question8 == question001[7].answ) || (question8 == question001[7].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if (b == 10) {
-            	message003.innerHTML = "Perfect Round! You'll get a bonus question.";
-	    	message006.innerHTML =  "";
-}
-else if (b != 10) {
-	    	message003.innerHTML = "Correct!" ;
-	    	message006.innerHTML =  "";
-}
-if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+		if (b == 10) {message003.innerHTML = "Perfect Round! You'll get a bonus question.";message006.innerHTML =  "";}
+		else if (b != 10) {message003.innerHTML = "Correct!" ;message006.innerHTML =  "";}
 		message005.innerHTML = "";
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question8 != question001[7].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[7].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[7].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 	 
 }
@@ -2220,50 +2038,29 @@ else if (question17.length <= 4){similarity1 = 0;similarity2 = 0;}
             c = "-";
 	   quescount++;
 	   posspoints+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		if (s == 10){quescountopp++;posspointsopp+=1;var chance = Math.random()*100;
+		if (chance < percentage) {quescoropp++;score002.innerHTML = s+=1;}}
 	if ((question17 == question001[9].answ) || (question17 == question001[9].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-if (s == 10){
-	   quescountopp++;
-	   posspointsopp+=1;
-var chance = Math.random()*100;
-if (chance < percentage) {
-	    quescoropp++;
-            score002.innerHTML = s+=1;
-}
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question17 != question001[9].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[9].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-if (s == 10){
-	   quescountopp++;
-	   posspointsopp+=1;
-var chance = Math.random()*100;
-if (chance < percentage) {
-	    quescoropp++;
-            score002.innerHTML = s+=1;
-}
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[9].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 13) && (bettingbool == 0)){
@@ -2277,43 +2074,36 @@ else if (question9.length <= 4){similarity1 = 0;similarity2 = 0;}
             c = "-";
 	   quescount++;
 	   posspoints+=2;
-	    document.getElementById("q1").disabled = true;
-	if ((question9 == r2question001[0].answ) || (question9 == r2question001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("mc").style.display = "none";
-	    document.getElementById("sub").style.display = "none";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=2;
-quescor++;
+		document.getElementById("q1").disabled = true;
+		document.getElementById("JTE").style.visibility = "hidden";
+	    	document.getElementById("mc").style.display = "none";
+	    	document.getElementById("sub").style.display = "none";
 		document.getElementById("message003").style.top = "-125px";
 		document.getElementById("message004").style.top = "-125px";
 		document.getElementById("message006").style.top = "-125px";
+	if ((question9 == r2question001[0].answ) || (question9 == r2question001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+	    message006.innerHTML =  "";
+            score001.innerHTML = b+=2;
+	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question9 != r2question001[0].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("sub").style.display = "none";
-	    document.getElementById("mc").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[0].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-125px";
-		document.getElementById("message004").style.top = "-125px";
-		document.getElementById("message006").style.top = "-125px";
 	    incmusic.play();
-	   quescountopp++;
-	   posspointsopp+=2;
+	    quescountopp++;
+	    posspointsopp+=2;
 if ((competitorlist[0].strength1 == r2question001[0].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[0].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 var chance = Math.random()*100;
 var percentager2 = 0.9 * percentage;
 if (chance < percentager2){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
-	    steal = 1;
+steal = 1;
 }
 	    message005.innerHTML = "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
@@ -2330,43 +2120,36 @@ else if (question29.length <= 4){similarity1 = 0;similarity2 = 0;}
             c = "-";
 	   quescount++;
 	   posspoints+=2;
-	    document.getElementById("q1").disabled = true;
-	if ((question29 == r2question001[4].answ) || (question29 == r2question001[4].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("mc").style.display = "none";
-	    document.getElementById("sub").style.display = "none";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
+	    document.getElementById("q1").disabled = true;		
+		document.getElementById("JTE").style.visibility = "hidden";
+	    	document.getElementById("mc").style.display = "none";
+	    	document.getElementById("sub").style.display = "none";
 		document.getElementById("message003").style.top = "-125px";
 		document.getElementById("message004").style.top = "-125px";
 		document.getElementById("message006").style.top = "-125px";
+	if ((question29 == r2question001[4].answ) || (question29 == r2question001[4].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
-quescor++;
+	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question29 != r2question001[4].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("sub").style.display = "none";
-	    document.getElementById("mc").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[4].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-125px";
-		document.getElementById("message004").style.top = "-125px";
-		document.getElementById("message006").style.top = "-125px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
 if ((competitorlist[0].strength1 == r2question001[4].cat) || (competitorlist[0].strength2 == r2question001[4].cat) || (competitorlist[0].strength3 == r2question001[4].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 var chance = Math.random()*100;
 var percentager2 = 0.9 * percentage;
 if (chance < percentager2){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
-	    steal = 1;
+steal = 1;
 }
 	    message005.innerHTML = "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
@@ -2384,43 +2167,36 @@ else if (question10.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   quescount++;
 	   posspoints+=2;
 	    document.getElementById("q1").disabled = true;
-	if ((question10 == r2question001[1].answ) || (question10 == r2question001[1].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("sub").style.display = "none";
-	    document.getElementById("mc").style.display = "none";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
+		document.getElementById("JTE").style.visibility = "hidden";
+	    	document.getElementById("mc").style.display = "none";
+	    	document.getElementById("sub").style.display = "none";
 		document.getElementById("message003").style.top = "-125px";
 		document.getElementById("message004").style.top = "-125px";
 		document.getElementById("message006").style.top = "-125px";
+	if ((question10 == r2question001[1].answ) || (question10 == r2question001[1].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
-quescor++;
+	    quescor++;
 	    cormusic.play();
 	    message005.innerHTML = "";
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question10 != r2question001[1].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("sub").style.display = "none";
-	    document.getElementById("mc").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[1].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-125px";
-		document.getElementById("message004").style.top = "-125px";
-		document.getElementById("message006").style.top = "-125px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
 if ((competitorlist[0].strength1 == r2question001[1].cat) || (competitorlist[0].strength2 == r2question001[1].cat) || (competitorlist[0].strength3 == r2question001[1].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 var chance = Math.random()*100;
 var percentager2 = 0.9 * percentage;
 if (chance < percentager2){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
-	    steal = 1;
+steal = 1;
 }
 	    message005.innerHTML = "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
@@ -2438,43 +2214,36 @@ else if (question11.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   quescount++;
 	   posspoints+=2;
 	    document.getElementById("q1").disabled = true;
-	if ((question11 == r2question001[2].answ) || (question11 == r2question001[2].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("mc").style.display = "none";
-	    document.getElementById("sub").style.display = "none";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
+		document.getElementById("JTE").style.visibility = "hidden";
+	    	document.getElementById("mc").style.display = "none";
+	    	document.getElementById("sub").style.display = "none";
 		document.getElementById("message003").style.top = "-125px";
 		document.getElementById("message004").style.top = "-125px";
 		document.getElementById("message006").style.top = "-125px";
+	if ((question11 == r2question001[2].answ) || (question11 == r2question001[2].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
-quescor++;
+	    quescor++;
 	    cormusic.play();
 	    message005.innerHTML = "";
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question11 != r2question001[2].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("mc").style.display = "none";
-	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[2].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-125px";
-		document.getElementById("message004").style.top = "-125px";
-		document.getElementById("message006").style.top = "-125px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
 if ((competitorlist[0].strength1 == r2question001[2].cat) || (competitorlist[0].strength2 == r2question001[2].cat) || (competitorlist[0].strength3 == r2question001[2].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 var chance = Math.random()*100;
 var percentager2 = 0.9 * percentage;
 if (chance < percentager2){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
-	    steal = 1;
+steal = 1;
 }
 	    message005.innerHTML = "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
@@ -2492,43 +2261,36 @@ else if (question12.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   quescount++;
 	   posspoints+=2;
 	    document.getElementById("q1").disabled = true;
-	if ((question12 == r2question001[3].answ) || (question12 == r2question001[3].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("mc").style.display = "none";
-	    document.getElementById("sub").style.display = "none";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
+		document.getElementById("JTE").style.visibility = "hidden";
+	    	document.getElementById("mc").style.display = "none";
+	    	document.getElementById("sub").style.display = "none";
 		document.getElementById("message003").style.top = "-125px";
 		document.getElementById("message004").style.top = "-125px";
 		document.getElementById("message006").style.top = "-125px";
+	if ((question12 == r2question001[3].answ) || (question12 == r2question001[3].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            message003.innerHTML = "Correct!";
+	    message006.innerHTML =  "";
             score001.innerHTML = b+=2;
-quescor++;
+	    quescor++;
 	    cormusic.play();
 	    message005.innerHTML = "";
             message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question12 != r2question001[3].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-	    document.getElementById("mc").style.display = "none";
-	    document.getElementById("sub").style.display = "none";
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[3].answ2;
 	    message006.innerHTML =  "";
-		document.getElementById("message003").style.top = "-125px";
-		document.getElementById("message004").style.top = "-125px";
-		document.getElementById("message006").style.top = "-125px";
 	    incmusic.play();
 	   quescountopp++;
 	   posspointsopp+=2;
 if ((competitorlist[0].strength1 == r2question001[3].cat) || (competitorlist[0].strength2 == r2question001[0].cat) || (competitorlist[0].strength3 == r2question001[3].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
+percentage = competitorlist[0].strengthpercentage;}
 var chance = Math.random()*100;
 var percentager2 = 0.9 * percentage;
 if (chance < percentager2){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
-	    steal = 1;
+steal = 1;
 }
 	    message005.innerHTML = "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
@@ -2547,22 +2309,21 @@ else if (question13.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=2;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question13 == question001[8].answ) || (question13 == question001[8].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
+	if ((question13 == question001[8].answ) || (question13 == question001[8].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b+=2;
-quescor++;
+	    quescor++;
 	    cormusic.play();
-if (s - b > 0){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
-else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
+	    if (s - b > 0){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
+	    else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
             message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question13 != question001[8].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + question001[8].answ2;
 	    incmusic.play();
-if (s - b > 0){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
-else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
+	    if (s - b > 0){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
+	    else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +threepointer001[0].cat;}
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
             }
 }
@@ -2579,22 +2340,21 @@ else if (question14.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=3;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question14 == threepointer001[0].answ) || (question14 == threepointer001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
+	if ((question14 == threepointer001[0].answ) || (question14 == threepointer001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b+=3;
-quescor++;
+	    quescor++;
 	    cormusic.play();
-if (s - b > 0){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
-else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
+	    if (s - b > 0){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
+	    else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
             message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question14 != threepointer001[0].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + threepointer001[0].answ2;
 	    incmusic.play();
-if (s - b > 0){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
-else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
+	    if (s - b > 0){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
+	    else if ((s - b == 0) && (answeredfive == 1)){message006.innerHTML =  "Next category is " +fivepointer001[0].cat;}
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
             }
 }
@@ -2611,17 +2371,16 @@ else if (question15.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=5;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question15 == fivepointer001[0].answ) || (question15 == fivepointer001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
+	if ((question15 == fivepointer001[0].answ) || (question15 == fivepointer001[0].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=5;
-		quescor++;
+	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=analyser3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	     }
             else if (question15 != fivepointer001[0].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + fivepointer001[0].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
@@ -2643,40 +2402,30 @@ else if (question16.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspointsopp+=1;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question16 == question001[10].answ) || (question16 == question001[10].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
+	if ((question16 == question001[10].answ) || (question16 == question001[10].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+	    	quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question16 != question001[10].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[10].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[10].cat) || (competitorlist[0].strength2 == question001[10].cat) || (competitorlist[0].strength3 == question001[10].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[10].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 23) && (bettingbool == 0)){
@@ -2694,40 +2443,30 @@ else if (question18.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspointsopp+=1;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question18 == question001[11].answ) || (question18 == question001[11].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
+	if ((question18 == question001[11].answ) || (question18 == question001[11].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question18 != question001[11].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[11].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[11].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 24) && (bettingbool == 0)){
@@ -2743,42 +2482,32 @@ else if (question19.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question19 == question001[12].answ) || (question19 == question001[12].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question19 != question001[12].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + question001[12].answ2;
 	    message006.innerHTML =  "";
 	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
 	    message005.innerHTML = "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 25) && (bettingbool == 0)){
@@ -2796,40 +2525,30 @@ else if (question20.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspointsopp+=1;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question20 == question001[13].answ) || (question20 == question001[13].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
+	if ((question20 == question001[13].answ) || (question20 == question001[13].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question20 != question001[13].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[13].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[13].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 26) && (bettingbool == 0)){
@@ -2847,40 +2566,30 @@ else if (question21.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspointsopp+=1;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question21 == question001[16].answ) || (question21 == question001[16].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
+	if ((question21 == question001[16].answ) || (question21 == question001[16].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question21 != question001[16].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[16].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[16].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 27) && (bettingbool == 0)){
@@ -2898,40 +2607,30 @@ else if (question22.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspointsopp+=1;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question22 == question001[17].answ) || (question22 == question001[17].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[17].cat) || (competitorlist[0].strength2 == question001[17].cat) || (competitorlist[0].strength3 == question001[17].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		if ((competitorlist[0].strength1 == question001[17].cat) || (competitorlist[0].strength2 == question001[17].cat) || (competitorlist[0].strength3 == question001[17].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
+	if ((question22 == question001[17].answ) || (question22 == question001[17].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question22 != question001[17].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[17].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[17].cat) || (competitorlist[0].strength2 == question001[17].cat) || (competitorlist[0].strength3 == question001[17].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[17].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 28) && (bettingbool == 0)){
@@ -2947,42 +2646,32 @@ else if (question23.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspoints+=1;
 	   quescountopp++;
 	   posspointsopp+=1;
-	    document.getElementById("submit2").style.display = "none";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("submit2").style.display = "none";
+	    	document.getElementById("q1").disabled = true;
+	    	document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[18].cat) || (competitorlist[0].strength2 == question001[18].cat) || (competitorlist[0].strength3 == question001[18].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){
+		quescoropp++;
+		score002.innerHTML = s+=1;
+		}
 	if ((question23 == question001[18].answ) || (question23 == question001[18].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Correct!";
-	    message006.innerHTML =  "";
-            score001.innerHTML = b+=1;
-quescor++;
-	    cormusic.play();
-if ((competitorlist[0].strength1 == question001[18].cat) || (competitorlist[0].strength2 == question001[18].cat) || (competitorlist[0].strength3 == question001[18].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Correct!";
+	    	message006.innerHTML =  "";
+            	score001.innerHTML = b+=1;
+		quescor++;
+	    	cormusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+		percentage = competitorlist[0].percentage;
 	     }
             else if (question23 != question001[18].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
-            message003.innerHTML = "Incorrect. The correct answer is " + question001[18].answ2;
-	    message006.innerHTML =  "";
-	    incmusic.play();
-if ((competitorlist[0].strength1 == question001[18].cat) || (competitorlist[0].strength2 == question001[18].cat) || (competitorlist[0].strength3 == question001[18].cat)){
-percentage = competitorlist[0].strengthpercentage;
-}
-var chance = Math.random()*100;
-if (chance < percentage){
-quescoropp++;
-score002.innerHTML = s+=1;
-}
-	    message005.innerHTML = "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-	percentage = competitorlist[0].percentage;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[18].answ2;
+	    	message006.innerHTML =  "";
+	    	incmusic.play();
+	    	message005.innerHTML = "";
+            	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+		percentage = competitorlist[0].percentage;
             }
 }
 if ((a == 29) && (bettingbool == 0)){
@@ -3001,18 +2690,17 @@ else if (question24.length <= 4){similarity1 = 0;similarity2 = 0;}
 	   posspointsopp+=1;
 	    document.getElementById("submit2").style.display = "none";
 	    document.getElementById("q1").disabled = true;
-	if ((question24 == question001[19].answ) || (question24 == question001[19].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
 	    document.getElementById("JTE").style.visibility = "hidden";
+	if ((question24 == question001[19].answ) || (question24 == question001[19].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
 	    message006.innerHTML =  "";
             score001.innerHTML = b+=1;
-quescor++;
+	    quescor++;
 	    cormusic.play();
             message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+	    percentage = competitorlist[0].percentage;
 	     }
             else if (question24 != question001[19].answ) {
-	    document.getElementById("JTE").style.visibility = "hidden";
             message003.innerHTML = "Incorrect. The correct answer is " + question001[19].answ2;
 	    message006.innerHTML =  "";
 	    message005.innerHTML = "";
@@ -3047,26 +2735,26 @@ document.getElementById("sub").style.display = "none";
 document.getElementById("mc").style.display = "none";
 }
 function next001() {
-	qmusic.play();
-	document.getElementById("message005").style.top = "-65px";
-	document.getElementById("message002").style.top = "-65px";
-        document.getElementById("message002").style.display= "block";
-	document.getElementById("message004").style.top = "-75px";
-	    document.getElementById("time001").style.display = "initial";
-	    document.getElementById("chart").style.visibility = "hidden";
-	    document.getElementById("JTE").style.display = "initial";
-	    document.getElementById("JTE").style.visibility = "visible";
-	    document.getElementById("chalacc").style.display = "initial";
-	    document.getElementById("chalden").style.display = "initial";
-	    document.getElementById("message004").style.display = "initial";
-	    document.getElementById("message005").style.display = "initial";
+		qmusic.play();
+		document.getElementById("message005").style.top = "-65px";
+		document.getElementById("message002").style.top = "-65px";
+        	document.getElementById("message002").style.display= "block";
+		document.getElementById("message004").style.top = "-75px";
+	    	document.getElementById("time001").style.display = "initial";
+	    	document.getElementById("chart").style.visibility = "hidden";
+	    	document.getElementById("JTE").style.display = "initial";
+	    	document.getElementById("JTE").style.visibility = "visible";
+	    	document.getElementById("chalacc").style.display = "initial";
+	    	document.getElementById("chalden").style.display = "initial";
+	    	document.getElementById("message004").style.display = "initial";
+	    	document.getElementById("message005").style.display = "initial";
 	        message003.innerHTML = "";
 		message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
-            if (a == 2) {
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+            if (a == 2) {
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3077,8 +2765,6 @@ function next001() {
             	qu001.innerHTML = "QUESTION 2 - " +question001[1].cat.toUpperCase();
             }
             else if (a == 3) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3089,8 +2775,6 @@ function next001() {
                 qu001.innerHTML = "QUESTION 3 - " +question001[2].cat.toUpperCase();
             }
             else if (a == 4) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3101,8 +2785,6 @@ function next001() {
                 qu001.innerHTML = "QUESTION 4 - " +question001[3].cat.toUpperCase();
             }
             else if (a == 5) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3113,8 +2795,6 @@ function next001() {
  		qu001.innerHTML = "QUESTION 5 - " +question001[4].cat.toUpperCase();
             }
             else if (a == 6) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3125,8 +2805,6 @@ function next001() {
  		qu001.innerHTML = "QUESTION 6 - " +question001[14].cat.toUpperCase();
             }
             else if (a == 7) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3137,8 +2815,6 @@ function next001() {
  		qu001.innerHTML = "QUESTION 7 - " +question001[15].cat.toUpperCase();
             }
             else if (a == 8) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3149,8 +2825,6 @@ function next001() {
  		qu001.innerHTML = "QUESTION 8 - " +question001[5].cat.toUpperCase();
             }
             else if (a == 9) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3161,8 +2835,6 @@ function next001() {
                 qu001.innerHTML = "QUESTION 9 - " +question001[6].cat.toUpperCase();
             }
             else if (a == 10) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3186,8 +2858,6 @@ if (chance < competitorlist[0].percentage) {
 next002();
 }
 		else if ((a == 11) && (b == 10)){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3198,8 +2868,6 @@ next002();
  		qu001.innerHTML = "BONUS QUESTION";
             }
             else if (a == 12) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
 	document.getElementById("message002").style.top = "-65px";
 	document.getElementById("message003").style.top = "-75px";
                 update = setInterval("timer001()", 1000);
@@ -3227,8 +2895,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 round001.innerHTML = r++;
             }
             else if (a == 13) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3252,8 +2918,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
  	        qu001.innerHTML = "QUESTION 2 - " +r2question001[4].cat.toUpperCase();
             }
             else if (a == 14) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3277,8 +2941,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
  	        qu001.innerHTML = "QUESTION 3 - " +r2question001[1].cat.toUpperCase();
             }
             else if (a == 15) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3302,8 +2964,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
  	        qu001.innerHTML = "QUESTION 4 - " +r2question001[2].cat.toUpperCase();
             }
                    else if (a == 16) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3331,8 +2991,6 @@ if ((s - b > 10) && (answeredtwo == 0)){loseTKO();}
 else if ((b -s > 0) && (answeredfive == 1)){winTKO();}
 else{
 usertwo++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3351,8 +3009,6 @@ else if ((b -s > 8) && (answeredfive == 0)){win();}
 else if ((b -s > 0) && (answeredfive == 1)){win();}
 else{
 userthree++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3369,8 +3025,6 @@ else if ((b -s > 5) && (answeredfive == 0)){win();}
 else if ((b -s > 0) && (answeredfive == 1)){win();}
 else{
 userfive++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3382,8 +3036,6 @@ userfive++;
 }
 }
        else if (a == 21) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3394,8 +3046,6 @@ userfive++;
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 1";
 }
     else if ((a == 22) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3410,8 +3060,6 @@ userfive++;
 	else if (b < s){lose();}
 }
   else if ((a == 23) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3426,8 +3074,6 @@ userfive++;
 	else if (b < s){lose();}
 }
   else if ((a == 24) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3442,8 +3088,6 @@ userfive++;
 	else if (b < s){lose();}
 }
   else if ((a == 25) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3458,8 +3102,6 @@ userfive++;
 	else if (b < s){lose();}
 }
   else if ((a == 26) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3474,8 +3116,6 @@ userfive++;
 	else if (b < s){lose();}
 }
   else if ((a == 27) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3490,8 +3130,6 @@ userfive++;
 	else if (b < s){lose();}
 }
     else if ((a == 28) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -3560,7 +3198,6 @@ function timer001() {
 	    qmusic.pause();
 	    qmusic.currentTime = 0;
 	   quescount++;
-           console.log(quescount);
 document.getElementById("message003").style.top = "-75px";
 document.getElementById("message004").style.top = "-75px";
 document.getElementById("message006").style.top = "-75px";
@@ -3578,11 +3215,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[0].answ2;
-	    message006.innerHTML =  "Next category is " +question001[1].cat;
+            	message003.innerHTML = "The correct answer is " + question001[0].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[1].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 3){
 if ((competitorlist[0].strength1 == question001[1].cat) || (competitorlist[0].strength2 == question001[1].cat) || (competitorlist[0].strength3 == question001[1].cat)){
@@ -3597,11 +3234,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[1].answ2;
-	    message006.innerHTML =  "Next category is " +question001[2].cat;
+            	message003.innerHTML = "The correct answer is " + question001[1].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[2].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 4){
 if ((competitorlist[0].strength1 == question001[2].cat) || (competitorlist[0].strength2 == question001[2].cat) || (competitorlist[0].strength3 == question001[2].cat)){
@@ -3616,11 +3253,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[2].answ2;
-	    message006.innerHTML =  "Next category is " +question001[3].cat;
+            	message003.innerHTML = "The correct answer is " + question001[2].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[3].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 5){
 if ((competitorlist[0].strength1 == question001[3].cat) || (competitorlist[0].strength2 == question001[3].cat) || (competitorlist[0].strength3 == question001[3].cat)){
@@ -3635,11 +3272,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[3].answ2;
-	    message006.innerHTML =  "Next category is " +question001[4].cat;
+            	message003.innerHTML = "The correct answer is " + question001[3].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[4].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 6){
 if ((competitorlist[0].strength1 == question001[4].cat) || (competitorlist[0].strength2 == question001[4].cat) || (competitorlist[0].strength3 == question001[4].cat)){
@@ -3654,11 +3291,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[4].answ2;
-	    message006.innerHTML =  "Next category is " +question001[14].cat;
+            	message003.innerHTML = "The correct answer is " + question001[4].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[14].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 7){
 if ((competitorlist[0].strength1 == question001[14].cat) || (competitorlist[0].strength2 == question001[14].cat) || (competitorlist[0].strength3 == question001[14].cat)){
@@ -3673,11 +3310,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[14].answ2;
-	    message006.innerHTML =  "Next category is " +question001[15].cat;
+            	message003.innerHTML = "The correct answer is " + question001[14].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[15].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 8){
 if ((competitorlist[0].strength1 == question001[15].cat) || (competitorlist[0].strength2 == question001[15].cat) || (competitorlist[0].strength3 == question001[15].cat)){
@@ -3692,11 +3329,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[15].answ2;
-	    message006.innerHTML =  "Next category is " +question001[5].cat;
+            	message003.innerHTML = "The correct answer is " + question001[15].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[5].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 9){
 if ((competitorlist[0].strength1 == question001[5].cat) || (competitorlist[0].strength2 == question001[5].cat) || (competitorlist[0].strength3 == question001[5].cat)){
@@ -3711,11 +3348,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[5].answ2;
-	    message006.innerHTML =  "Next category is " +question001[6].cat;
+            	message003.innerHTML = "The correct answer is " + question001[5].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[6].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 10){
 if ((competitorlist[0].strength1 == question001[6].cat) || (competitorlist[0].strength2 == question001[6].cat) || (competitorlist[0].strength3 == question001[6].cat)){
@@ -3730,11 +3367,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[6].answ2;
-	    message006.innerHTML =  "Next category is " +question001[7].cat;
+            	message003.innerHTML = "The correct answer is " + question001[6].answ2;
+	    	message006.innerHTML =  "Next category is " +question001[7].cat;
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 11){
 if ((competitorlist[0].strength1 == question001[7].cat) || (competitorlist[0].strength2 == question001[7].cat) || (competitorlist[0].strength3 == question001[7].cat)){
@@ -3749,11 +3386,11 @@ score002.innerHTML = s+=1;
 }
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + question001[7].answ2;
-	    message006.innerHTML =  "";
+            	message003.innerHTML = "The correct answer is " + question001[7].answ2;
+	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 12){
 if ((competitorlist[0].strength1 == question001[9].cat) || (competitorlist[0].strength2 == question001[9].cat) || (competitorlist[0].strength3 == question001[9].cat)){
@@ -3764,8 +3401,8 @@ if (s == 10){
 	   posspointsopp+=1;
 var chance = Math.random()*100;
 if (chance < percentage) {
-	    quescoropp++;
-            score002.innerHTML = s+=1;
+quescoropp++;
+score002.innerHTML = s+=1;
 }
 }
 		document.getElementById("submit2").style.visibility = "hidden";
@@ -3774,7 +3411,7 @@ if (chance < percentage) {
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next002()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 13){
 		document.getElementById("message003").style.top = "-125px";
@@ -3793,7 +3430,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3807,7 +3444,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3844,7 +3481,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3858,7 +3495,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3895,7 +3532,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3909,7 +3546,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3946,7 +3583,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3960,7 +3597,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -3998,7 +3635,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=1;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -4012,7 +3649,7 @@ var chance = Math.random() * 100;
 	   quescountopp++;
 if (chance < percentage1pnt){
 score002.innerHTML = s+=2;
-	    quescoropp++;
+quescoropp++;
 message006.innerHTML = "Question was stolen by " +competitorlist[0].id;
 }
 }
@@ -4072,7 +3709,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 23){
 if ((competitorlist[0].strength1 == question001[11].cat) || (competitorlist[0].strength2 == question001[11].cat) || (competitorlist[0].strength3 == question001[11].cat)){
@@ -4091,7 +3728,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 24){
 if ((competitorlist[0].strength1 == question001[12].cat) || (competitorlist[0].strength2 == question001[12].cat) || (competitorlist[0].strength3 == question001[12].cat)){
@@ -4110,7 +3747,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 25){
 if ((competitorlist[0].strength1 == question001[13].cat) || (competitorlist[0].strength2 == question001[13].cat) || (competitorlist[0].strength3 == question001[13].cat)){
@@ -4129,7 +3766,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 26){
 if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat)){
@@ -4148,7 +3785,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 27){
 if ((competitorlist[0].strength1 == question001[17].cat) || (competitorlist[0].strength2 == question001[17].cat) || (competitorlist[0].strength3 == question001[17].cat)){
@@ -4167,7 +3804,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 28){
 if ((competitorlist[0].strength1 == question001[18].cat) || (competitorlist[0].strength2 == question001[18].cat) || (competitorlist[0].strength3 == question001[18].cat)){
@@ -4186,7 +3823,7 @@ score002.innerHTML = s+=1;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	percentage = competitorlist[0].percentage;
+		percentage = competitorlist[0].percentage;
 }
 else if (a == 29){
 		document.getElementById("submit2").style.visibility = "hidden";
@@ -4207,8 +3844,8 @@ else if (opened == 1)
            	message003.innerHTML = "The correct answer is " + compcat[0].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
-	   posspoints+=2;
-stealopp--;
+	   	posspoints+=2;
+		stealopp--;
 if (stealopp > 0){message004.innerHTML = "<button class=buttons002 onclick=openquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if ((stealopp == 0) && (stealmc > 0)){message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if ((stealmc == 0) && (stealopp == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
@@ -4255,8 +3892,8 @@ else if (opened == 4)
            	message003.innerHTML = "The correct answer is " + compcat[3].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
-	   posspoints+=2;
-stealopp--;
+	   	posspoints+=2;
+		stealopp--;
 if (stealopp > 0){message004.innerHTML = "<button class=buttons002 onclick=openquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if ((stealopp == 0) && (stealmc > 0)){message004.innerHTML = "<button class=buttons002 onclick=mcquestion()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if ((stealmc == 0) && (stealopp == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
@@ -4310,8 +3947,8 @@ else if ((mc == 2) && (bettingbool == 0))
            	message003.innerHTML = "The correct answer is " +compcat[6].answ2 ;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
-	   posspoints+=1;
-stealmc--;
+	   	posspoints+=1;
+		stealmc--;
 if (stealmc > 0){message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if ((stealmc == 0) && (stealopp == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 var element1 =  document.getElementById('incop1');
@@ -4362,8 +3999,8 @@ else if ((mc == 4) && (bettingbool == 0))
            	message003.innerHTML = "The correct answer is " +compcat[8].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
-	   posspoints+=1;
-stealmc--;
+	   	posspoints+=1;
+		stealmc--;
 if (stealmc > 0){message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 else if ((stealmc == 0) && (stealopp == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 var element1 =  document.getElementById('incop1');
@@ -4388,14 +4025,10 @@ else if ((mc == 5) && (bettingbool == 0))
            	message003.innerHTML = "The correct answer is " +compcat[9].answ2;
 	    	message006.innerHTML =  "";
 	        incmusic.play();
-	   posspoints+=1;
-stealmc--;
-if ((stealopp == 0) && (stealmc > 0)){
-            	    message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (stealopp == 0)){
-            	    message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+	   	posspoints+=1;
+		stealmc--;
+if ((stealopp == 0) && (stealmc > 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (stealopp == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 var element1 =  document.getElementById('incop1');
 var element2 =  document.getElementById('incop2');
 var element3 =  document.getElementById('incop3');
@@ -4416,14 +4049,14 @@ if (bettingbool == 1){
 		document.getElementById("message006").style.top = "-125px";
 		document.getElementById("sub").style.visibility = "hidden";
 	    	document.getElementById("sub").style.display = "none";
-            message003.innerHTML = "The correct answer is " + bettingquestion001[8].answ2 + "<br/></br/>" + "You lost " + betpoints + " points.";
-	    message005.innerHTML = "";
-	    message006.innerHTML = "";
-            score001.innerHTML = b -= betpoints;
- 	posspoints+=3;
-	    incmusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	    simulatebetting();
+            	message003.innerHTML = "The correct answer is " + bettingquestion001[8].answ2 + "<br/></br/>" + "You lost " + betpoints + " points.";
+	    	message005.innerHTML = "";
+	    	message006.innerHTML = "";
+            	score001.innerHTML = b -= betpoints;
+ 		posspoints+=3;
+	    	incmusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=nextspeed()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	simulatebetting();
 }
 if (speed == 2){
 		document.getElementById("message003").style.top = "-125px";
@@ -4431,14 +4064,14 @@ if (speed == 2){
 		document.getElementById("message006").style.top = "-125px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
-	    message005.innerHTML = "";
-	    message006.innerHTML = "";
-	            message001.innerHTML = speedquestion001[0].ques;
-            score001.innerHTML = b -= 1;
- posspoints+=1;
-	    incmusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            	message003.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
+	    	message005.innerHTML = "";
+	    	message006.innerHTML = "";
+	        message001.innerHTML = speedquestion001[0].ques;
+            	score001.innerHTML = b -= 1;
+ 		posspoints+=1;
+	    	incmusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 3){
 		document.getElementById("message003").style.top = "-125px";
@@ -4446,14 +4079,14 @@ if (speed == 3){
 		document.getElementById("message006").style.top = "-125px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
-	    message005.innerHTML = "";
-	    message006.innerHTML = "";
-	            message001.innerHTML = speedquestion001[1].ques;
-            score001.innerHTML = b -= 1;
- posspoints+=1;
-	    incmusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            	message003.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
+	    	message005.innerHTML = "";
+	    	message006.innerHTML = "";
+	     	message001.innerHTML = speedquestion001[1].ques;
+            	score001.innerHTML = b -= 1;
+ 		posspoints+=1;
+	    	incmusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 4){
 		document.getElementById("message003").style.top = "-125px";
@@ -4461,14 +4094,14 @@ if (speed == 4){
 		document.getElementById("message006").style.top = "-125px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
-	    message005.innerHTML = "";
-	    message006.innerHTML = "";
-	            message001.innerHTML = speedquestion001[2].ques;
-            score001.innerHTML = b -= 1;
- posspoints+=1;
-	    incmusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            	message003.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
+	    	message005.innerHTML = "";
+	    	message006.innerHTML = "";
+	     	message001.innerHTML = speedquestion001[2].ques;
+            	score001.innerHTML = b -= 1;
+ 		posspoints+=1;
+	    	incmusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 5){
 		document.getElementById("message003").style.top = "-125px";
@@ -4476,14 +4109,14 @@ if (speed == 5){
 		document.getElementById("message006").style.top = "-125px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
-	    message005.innerHTML = "";
-	    message006.innerHTML = "";
-	            message001.innerHTML = speedquestion001[3].ques;
-            score001.innerHTML = b -= 1;
- posspoints+=1;
-	    incmusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+            	message003.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
+	    	message005.innerHTML = "";
+	    	message006.innerHTML = "";
+	     	message001.innerHTML = speedquestion001[3].ques;
+            	score001.innerHTML = b -= 1;
+ 		posspoints+=1;
+	    	incmusic.play();
+           	message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
 if (speed == 6){
 		document.getElementById("message003").style.top = "-125px";
@@ -4491,14 +4124,14 @@ if (speed == 6){
 		document.getElementById("message006").style.top = "-125px";
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-            message003.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
-	    message005.innerHTML = "";
-	    message006.innerHTML = "";
-	            message001.innerHTML = speedquestion001[4].ques;
-            score001.innerHTML = b -= 1;
+            	message003.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
+	    	message005.innerHTML = "";
+	    	message006.innerHTML = "";
+	        message001.innerHTML = speedquestion001[4].ques;
+            	score001.innerHTML = b -= 1;
  		posspoints+=1;
-	    incmusic.play();
-            message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	    	incmusic.play();
+            	message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 }
                 window.clearInterval(update);
                 time001.innerHTML = "Time's up!";

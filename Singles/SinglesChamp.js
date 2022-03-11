@@ -4073,7 +4073,9 @@ if (speed == 6){
 
 function speedtimer001() {
             t = t - 1;
-            if (t < 1) {
+            if (t < 1) { 
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-50px";
 		document.getElementById("message004").style.top = "-40px";
 		document.getElementById("message006").style.top = "-50px";
@@ -4258,6 +4260,7 @@ message001.innerHTML = "Click Next to proceed.";
 }
 
 function bettingquestion() {	
+		qmusic.play();
 		document.getElementById("message002").style.top = "10px";
 		document.getElementById("message003").style.top = "0px";
 		document.getElementById("message006").style.top = "0px";
@@ -4325,8 +4328,10 @@ if (chance2 >= betpercentage){
 }
 }
 function checkerbetting(){
-	similarity1 = 0;
-	similarity2 = 0;
+		qmusic.pause();
+		qmusic.currentTime = 0;
+		similarity1 = 0;
+		similarity2 = 0;
 	    var betting01 = document.getElementById("q1").value.toUpperCase();
 	    var betting1 = myTrim(betting01);
 	    betting1 = myTrim(betting1);
@@ -4450,7 +4455,8 @@ else if (speed == 5){
 }
 }
 var nobody = 0 ; 
-function speedquestions() {	
+function speedquestions() {
+qmusic.play();
 text = "";
 delay = 40;
 currentChar = 1;
@@ -4610,6 +4616,8 @@ update = setInterval("speedtimer001()", 1000);
 }
 }
 function checkerspeed(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		similarity1 = 0;
 		similarity2 = 0;
 		document.getElementById("message003").style.top = "-50px";
@@ -4770,7 +4778,6 @@ else if (speed5.length <= 4){similarity1 = 0;similarity2 = 0;}
 	}
 }	   
 }
-
 function nextspeed() {
 if (s - b > 16){loseKO();}
 else if (b -s > 16){winKO();}

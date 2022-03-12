@@ -131,9 +131,7 @@ $('input[type=checkbox]').on('change', function (e) {
 	document.getElementById("message004").style.visibility = "visible";
     }
 else{
-	if (navigator.userAgent.includes('Firefox')) {
-	  document.getElementById("checkboxes").style.top = "430px";
-	}	
+	if (navigator.userAgent.includes('Firefox')) {document.getElementById("checkboxes").style.top = "430px";}	
 	document.getElementById("message004").style.visibility = "hidden";
 }
 });
@@ -145,8 +143,7 @@ for (m = 1; m < 73; m++) {
 if ((document.getElementById(cat + m).value == wheelie[0]) || (document.getElementById(cat + m).value ==  wheelie[1])) {
 document.getElementById(cat + m).checked = true;
 document.getElementById(cat + m).disabled = true;
-checkcount++;
-}
+checkcount++;}
 }
 }
 	document.getElementById("checkboxes").style.visibility = "visible";
@@ -176,28 +173,18 @@ function submitname () {
 	var twittername = document.getElementById("q3").value;
 	var length2 = twittername.length;
 	var twitter = twittername.substring(0, 15);
-	if (length1 < 1){
-	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
-	} 
+	if (length1 < 1){player001.innerHTML = document.getElementById("naam").value.toUpperCase();} 
 	else if (length1 >= 1){
 	player001.innerHTML = name;
 	document.getElementById("naam").value = document.getElementById("q2").value;
 	}
-	if (length2 < 1){
-	twitter001.innerHTML = twitt ;
-	} 
+	if (length2 < 1){twitter001.innerHTML = twitt ;} 
 	else if (length2 >= 1){
 	twitter001.innerHTML = twitter.replace(" ","");
 	document.getElementById("twitt").value = document.getElementById("q3").value;
 	}
-	if (document.getElementById("wins").value.length < 1)
-	{
-	document.getElementById("wins").value = 0;
-	}
-	if (document.getElementById("losses").value.length < 1)
-	{
-	document.getElementById("losses").value = 0;
-	}
+	if (document.getElementById("wins").value.length < 1){document.getElementById("wins").value = 0;}
+	if (document.getElementById("losses").value.length < 1){document.getElementById("losses").value = 0;}
   	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
@@ -207,14 +194,12 @@ function submitname () {
 function submitpassword() {
 var ww = document.getElementById("password").value.toUpperCase();
 document.getElementById("2022passwordsaverChampion").value = document.getElementById("password").value.toUpperCase();
-if (ww == "PATRIOTS")
-{
+if (ww == "PATRIOTS"){
 message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 message006.innerHTML = "";
 message001.innerHTML = "Enter your name and twitter, or press Skip to proceed.";
 }
-else
-{
+else{
 message006.innerHTML = "Password incorrect!";
 document.getElementById("message006").style.top = "0px";
 }
@@ -390,7 +375,6 @@ return "white" ;
             .attr("transform", "translate(" + (wid/2 + padding.left) + "," + (hei/2 + padding.top) + ")");
         var vis = container
             .append("g");
-            
         var pie = d3.layout.pie().sort(null).value(function(d){return 1;});
         var arc = d3.svg.arc().outerRadius(rot);
         var arcs = vis.selectAll("g.slice")
@@ -543,32 +527,23 @@ document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == compcat[0].cat) {
-document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;
-}
+document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;}
 if (document.getElementById("box2").value == compcat[0].cat) {
-document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;
-}
+document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;}
 if (document.getElementById("box3").value == compcat[0].cat) {
-document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;
-}
+document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;}
 if (document.getElementById("box4").value == compcat[0].cat) {
-document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;
-}
+document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;}
 if (document.getElementById("box5").value == compcat[0].cat) {
-document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;
-}
+document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;}
 if (document.getElementById("box6").value == compcat[0].cat) {
-document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;
-}
+document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;}
 if (document.getElementById("box7").value == compcat[0].cat) {
-document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;
-}
+document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;}
 if (document.getElementById("box8").value == compcat[0].cat) {
-document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;
-}
+document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;}
 if (document.getElementById("box9").value == compcat[0].cat) {
-document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;
-}	
+document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;}	
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 6) {
         $(this).prop('checked', false);
@@ -1041,14 +1016,12 @@ else if ((data[random] != "Wildcard") && (data[random] != data[picked])){assignc
     	function spin2(d){
 		document.getElementById("nextbutton").style.visibility = "hidden";  
 		document.getElementById("message002").style.visibility = "hidden";  
-        
             var  ps       = 360/data.length,
                  pieslice = Math.round(1440/data.length),
                  rng      = Math.floor((Math.random() * 1440) + 360);
             rotation = (Math.round(rng / ps) * ps);  
             picked = Math.round(data.length - (rotation % 360)/ps);
             picked = picked >= data.length ? (picked % data.length) : picked;
-                        console.log(picked);
             rotation += 90 - Math.round(ps/2);
             vis.transition()
                 .duration(3000)
@@ -2660,60 +2633,36 @@ if (mc == 1){
             	window.clearInterval(update);
             	c = "-";
             	message003.innerHTML = "Incorrect. The correct answer is " +compcat[5].answ2;
-if (stealmc > 0) {
- message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 0)){
- message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 1)){
- message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion2()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 1)){message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 2){
 		message001.innerHTML = compcat[6].ques;
             	window.clearInterval(update);
             	c = "-";
             	message003.innerHTML = "Incorrect. The correct answer is " +compcat[6].answ2;
-if (stealmc > 0) {
- message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 0)){
- message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 1)){
- message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion3()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 1)){message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 3){
 		message001.innerHTML = compcat[7].ques;
             	window.clearInterval(update);
             	c = "-";
             	message003.innerHTML = "Incorrect. The correct answer is " +compcat[7].answ2;
-if (stealmc > 0) {
- message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 0)){
- message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 1)){
- message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion4()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 1)){message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 4){
 		message001.innerHTML = compcat[8].ques;
             	window.clearInterval(update);
             	c = "-";
             	message003.innerHTML = "Incorrect. The correct answer is " +compcat[8].answ2;
-if (stealmc > 0) {
- message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 0)){
- message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
-else if ((stealmc == 0) && (oppspinfirst == 1)){
- message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-}
+if (stealmc > 0) {message004.innerHTML = "<button class=buttons002 onclick=mcquestion5()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 0)){message004.innerHTML = "<button class=buttons002 onclick=bettinground()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
+else if ((stealmc == 0) && (oppspinfirst == 1)){message004.innerHTML = "<button class=buttons002 onclick=next003()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
 }
 if (mc == 5){
 		message001.innerHTML = compcat[9].ques;
@@ -2895,30 +2844,14 @@ else if (b - s > 0){message006.innerHTML = competitorlist[0].id + " missed the 5
 		answeredfive++;
 }
 function analyser3 (){
-if ((b - s >= 0) && (answeredtwo == 0)){
-simulateq2();
-}
-else if ((b - s >= 0) && (answeredtwo == 1) && (answeredthree == 0)){
-simulateq3();
-}
-else if ((b - s >= 0) && (answeredthree == 1) && (answeredfive == 0)){
-simulateq5();
-}
-else if ((s - b > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 1)){
-lose();
-}
-else if ((b - s > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 1)){
-win();
-}
-else if ((b - s > 0) && (usertwo == 0) && (answeredtwo == 1) && (answeredfive == 1) && (answeredthree == 1)){
-winTKO();
-}
-else if ((s - b > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 0)){
-loseTKO();
-}
-else {
-next001();
-}
+if ((b - s >= 0) && (answeredtwo == 0)){simulateq2();}
+else if ((b - s >= 0) && (answeredtwo == 1) && (answeredthree == 0)){simulateq3();}
+else if ((b - s >= 0) && (answeredthree == 1) && (answeredfive == 0)){simulateq5();}
+else if ((s - b > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 1)){lose();}
+else if ((b - s > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 1)){win();}
+else if ((b - s > 0) && (usertwo == 0) && (answeredtwo == 1) && (answeredfive == 1) && (answeredthree == 1)){winTKO();}
+else if ((s - b > 0) && (usertwo == 1) && (userthree == 1) && (userfive == 1) && (answeredtwo == 0)){loseTKO();}
+else {next001();}
 }
 function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/2022SinglesTournament.html");}
 function winKO(){
@@ -3156,10 +3089,7 @@ typeTimer = null;
 typing = true;
 document.getElementById("message001").style.visibility = "visible";
 }
-if (speed != 0)
-{
-checkerspeed();
-}
+if (speed != 0){checkerspeed();}
 if ((a == 2) && (bettingbool == 0)){
 		message001.innerHTML = question001[0].ques;
 	    	var question01 = document.getElementById("q1").value.toUpperCase();
@@ -3201,8 +3131,7 @@ else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	message005.innerHTML = "";
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		percentage = competitorlist[0].percentage;
-            }
-	   
+            }   
 }
 if ((a == 3) && (bettingbool == 0)){
 		message001.innerHTML = question001[18].ques;
@@ -3246,7 +3175,6 @@ else if (question25.length <= 4){similarity1 = 0;similarity2 = 0;}
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		percentage = competitorlist[0].percentage;
             }
-	
 }
 if ((a == 4) && (bettingbool == 0)){
 		message001.innerHTML = question001[19].ques;
@@ -3290,7 +3218,6 @@ else if (question26.length <= 4){similarity1 = 0;similarity2 = 0;}
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		percentage = competitorlist[0].percentage;
             }
-	
 }
 if ((a == 5) && (bettingbool == 0)){
 		message001.innerHTML = question001[1].ques;
@@ -3334,7 +3261,6 @@ else if (question2.length <= 4){similarity1 = 0;similarity2 = 0;}
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 		percentage = competitorlist[0].percentage;
             }
-	
 }
 if ((a == 6) && (bettingbool == 0)){
 		message001.innerHTML = question001[2].ques;
@@ -3378,8 +3304,7 @@ else if (question3.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	message005.innerHTML = "";
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 		percentage = competitorlist[0].percentage;
-            }
-	  
+            }  
 }
 if ((a == 7) && (bettingbool == 0)){
 		message001.innerHTML = question001[3].ques;
@@ -3422,8 +3347,7 @@ else if (question4.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	message005.innerHTML = "";
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 		percentage = competitorlist[0].percentage;
-            }
-	   
+            }   
 }
 if ((a == 8) && (bettingbool == 0)){
 		message001.innerHTML = question001[4].ques;
@@ -3466,8 +3390,7 @@ else if (question5.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	incmusic.play();
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 		percentage = competitorlist[0].percentage;
-            }
-	    
+            }    
 }
 if ((a == 9) && (bettingbool == 0)){
 		message001.innerHTML = question001[5].ques;
@@ -3510,8 +3433,7 @@ else if (question6.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	incmusic.play();
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 		percentage = competitorlist[0].percentage;
-            }
-	  
+            }  
 }
 if ((a == 10) && (bettingbool == 0)){
 		message001.innerHTML = question001[6].ques;
@@ -3555,7 +3477,6 @@ else if (question7.length <= 4){similarity1 = 0;similarity2 = 0;}
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 		percentage = competitorlist[0].percentage;
             }
-	
 }
 if ((a == 11) && (bettingbool == 0)){
 		message001.innerHTML = question001[7].ques;
@@ -3598,8 +3519,7 @@ else if (question8.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	incmusic.play();
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 		percentage = competitorlist[0].percentage;
-            }
-	 
+            } 
 }
 if ((a == 12) && (bettingbool == 0)){
 		message001.innerHTML = question001[9].ques;
@@ -4314,30 +4234,12 @@ else if (question24.length <= 4){similarity1 = 0;similarity2 = 0;}
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
         }
 }
-if (opened == 1)
-{
-checkerq1();
-}
-if (opened == 2)
-{
-checkerq2();
-}
-if (opened == 3)
-{
-checkerq3();
-}
-if (opened == 4)
-{
-checkerq4();
-}
-if (opened == 5)
-{
-checkerq5();
-}
-if (bettingbool == 1)
-{
-checkerbetting();
-}
+if (opened == 1){checkerq1();}
+if (opened == 2){checkerq2();}
+if (opened == 3){checkerq3();}
+if (opened == 4){checkerq4();}
+if (opened == 5){checkerq5();}
+if (bettingbool == 1){checkerbetting();}
 }
 function setvis(){
             c = 16;
@@ -4376,6 +4278,8 @@ function next001() {
 	        message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
 if (difficult == 1){
 clearTimeout(hidemessage);
 clearTimeout(typeTimer);
@@ -4388,8 +4292,6 @@ typing = true;
 document.getElementById("message001").style.visibility = "visible";
 }
             if (a == 2) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4401,8 +4303,6 @@ document.getElementById("message001").style.visibility = "visible";
             	qu001.innerHTML = "QUESTION 2 - " +question001[18].cat.toUpperCase();
             }
 	else if (a == 3) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4414,8 +4314,6 @@ document.getElementById("message001").style.visibility = "visible";
                 qu001.innerHTML = "QUESTION 3 - " +question001[19].cat.toUpperCase();
             }
 	else if (a == 4) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4427,8 +4325,6 @@ document.getElementById("message001").style.visibility = "visible";
                 qu001.innerHTML = "QUESTION 4 - " +question001[1].cat.toUpperCase();
             }
             else if (a == 5) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4440,8 +4336,6 @@ document.getElementById("message001").style.visibility = "visible";
                 qu001.innerHTML = "QUESTION 5 - " +question001[2].cat.toUpperCase();
             }
             else if (a == 6) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4453,8 +4347,6 @@ document.getElementById("message001").style.visibility = "visible";
                 qu001.innerHTML = "QUESTION 6 - " +question001[3].cat.toUpperCase();
             }
             else if (a == 7) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4466,8 +4358,6 @@ document.getElementById("message001").style.visibility = "visible";
  		qu001.innerHTML = "QUESTION 7 - " +question001[4].cat.toUpperCase();
             }
             else if (a == 8) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4479,8 +4369,6 @@ document.getElementById("message001").style.visibility = "visible";
  		qu001.innerHTML = "QUESTION 8 - " +question001[5].cat.toUpperCase();
             }
             else if (a == 9) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4492,8 +4380,6 @@ document.getElementById("message001").style.visibility = "visible";
                 qu001.innerHTML = "QUESTION 9 - " +question001[6].cat.toUpperCase();
             }
             else if (a == 10) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4518,8 +4404,6 @@ document.getElementById("message001").style.visibility = "visible";
 		next002();
              }
 		else if ((a == 11) && (b == 10)){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4531,8 +4415,6 @@ document.getElementById("message001").style.visibility = "visible";
  		qu001.innerHTML = "BONUS QUESTION";
             }
             else if (a == 12) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
 		document.getElementById("message002").style.top = "10px";
 		document.getElementById("message003").style.top = "0px";
                 update = setInterval("timer001()", 1000);
@@ -4561,8 +4443,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
                 round001.innerHTML = r++;
             }
          else if (a == 13) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4613,8 +4493,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
  	        qu001.innerHTML = "QUESTION 3 - " +r2question001[1].cat.toUpperCase();
             }
             else if (a == 15) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4639,8 +4517,6 @@ if (typeof(element4) != 'undefined' && element4 != null)
  	        qu001.innerHTML = "QUESTION 4 - " +r2question001[2].cat.toUpperCase();
             }
             else if (a == 16) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4665,16 +4541,10 @@ if (typeof(element4) != 'undefined' && element4 != null)
  	        qu001.innerHTML = "QUESTION 5 - " +r2question001[3].cat.toUpperCase();
             } 
             else if (a == 17) {
-if ((s - b > 10) && (answeredtwo == 0)){
-loseTKO();
-}
-else if ((b -s > 0) && (answeredfive == 1)){
-winTKO();
-}
+if ((s - b > 10) && (answeredtwo == 0)){loseTKO();}
+else if ((b -s > 0) && (answeredfive == 1)){winTKO();}
 else{
 usertwo++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4689,19 +4559,11 @@ usertwo++;
 }
             } 
             else if (a == 18) {
-if ((s - b > 8) && (answeredtwo == 0)){
-loseTKO();
-}
-else if ((b -s > 8) && (answeredfive == 0)){
-win();
-}
-else if ((b -s > 0) && (answeredfive == 1)){
-win();
-}
+if ((s - b > 8) && (answeredtwo == 0)){loseTKO();}
+else if ((b -s > 8) && (answeredfive == 0)){win();}
+else if ((b -s > 0) && (answeredfive == 1)){win();}
 else{
 userthree++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4714,19 +4576,11 @@ userthree++;
 }
             } 
             else if (a == 19) {
-if ((s - b > 5) && (answeredtwo == 0)){
-loseTKO();
-}
-else if ((b -s > 5) && (answeredfive == 0)){
-win();
-}
-else if ((b -s > 0) && (answeredfive == 1)){
-win();
-}
+if ((s - b > 5) && (answeredtwo == 0)){loseTKO();}
+else if ((b -s > 5) && (answeredfive == 0)){win();}
+else if ((b -s > 0) && (answeredfive == 1)){win();}
 else{
 userfive++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4739,8 +4593,6 @@ userfive++;
 }
 }
                 else if (a == 21) {
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4752,8 +4604,6 @@ userfive++;
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 1";
 }
     else if ((a == 22) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4765,16 +4615,10 @@ userfive++;
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 2";
 }
 else if ((a == 22) && (b != s )){
-		if (b > s){
-                  win();
-	}
-	else if (b < s){
-                 lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
   else if ((a == 23) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4786,16 +4630,10 @@ else if ((a == 22) && (b != s )){
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 3";
 }
  else if ((a == 23) && (b != s )){
-		if (b > s){
-		win();
-	}
-	else if (b < s){
-	    	lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
   else if ((a == 24) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4807,16 +4645,10 @@ else if ((a == 22) && (b != s )){
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 4";
 }
  else if ((a == 24) && (b != s )){
-		if (b > s){
-		win();
-	}
-	else if (b < s){
-	    	lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
   else if ((a == 25) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4829,16 +4661,10 @@ else if ((a == 22) && (b != s )){
 
 }
  else if ((a == 25) && (b != s )){
-		if (b > s){
-		win();
-	}
-	else if (b < s){
-	    	lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
   else if ((a == 26) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4850,16 +4676,10 @@ else if ((a == 22) && (b != s )){
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 6";
 }
  else if ((a == 26) && (b != s )){
-		if (b > s){
-		win();
-	}
-	else if (b < s){
-	    	lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
   else if ((a == 27) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4871,16 +4691,10 @@ else if ((a == 22) && (b != s )){
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 7";
 }
  else if ((a == 27) && (b != s )){
-		if (b > s){
-		win();
-	}
-	else if (b < s){
-	    	lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
     else if ((a == 28) && (b == s )){
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
@@ -4892,12 +4706,8 @@ else if ((a == 22) && (b != s )){
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION 8";
             } 
  else if ((a == 28) && (b != s )){
-		if (b > s){
-		win();
-	}
-	else if (b < s){
-		lose();
-	}
+		if (b > s){win();}
+	else if (b < s){lose();}
 }
    else if ((a == 29) && (b == s )){
 	    	document.getElementById("JTE").style.visibility = "hidden";
@@ -4919,12 +4729,8 @@ else if ((a == 22) && (b != s )){
 		document.getElementById("message006").style.fontSize = "110%";
                 }
       else {
-	if (b > s){
-		win();
-	}
-	else if (b < s){
-		lose();
-	}
+	if (b > s){win();}
+	else if (b < s){lose();}
 	else if (b == s) {
 	    	document.getElementById("JTE").style.visibility = "hidden";
                 window.clearInterval(update);
@@ -6027,9 +5833,7 @@ else if (speed == 5) {
 		speed++;
         }
 }
-function repeat001() {
-            location.reload();
-        }
+function repeat001() {location.reload();}
 $("#message002").keypress(function(event) { 
          if (event.keyCode === 13){ 
                  $("#submit").click(); 
@@ -6053,7 +5857,7 @@ function next003() {
 		round001.innerHTML = 2;
 		var place = " ";
  		qu001.innerHTML = "QUESTION";
-	if (oppspinfirst == 1){a = 12; opened = 0; mc = 0;}
+		if (oppspinfirst == 1){a = 12; opened = 0; mc = 0;}
                 message001.innerHTML = "Spin the Wheel.";
 		message002.innerHTML = place + "<br/></br>" + "<button class=buttons009 id=spin onclick=spin()>Spin</button>";
                 message004.innerHTML = "";
@@ -6066,24 +5870,14 @@ function next003() {
 		document.getElementById("message002").style.top = "-40px";
 		document.getElementById("message003").style.top = "-40px";
 	if (oppspinfirst == 0){
-var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
-for (var i = 0; i < checkboxes.length; i++) {
-  storage.push(checkboxes[i].value)
-}
+		var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+for (var i = 0; i < checkboxes.length; i++) {storage.push(checkboxes[i].value)}
 var chosen = [r2Q1[0].cat, r2Q2[0].cat, r2Q3[0].cat, r2Q4[0].cat, r2Q5[0].cat, r2Q6[0].cat, r2Q7[0].cat, r2Q8[0].cat, r2Q9[0].cat, r2Q10[0].cat, r2Q11[0].cat, r2Q12[0].cat, r2Q13[0].cat, r2Q14[0].cat, r2Q15[0].cat, r2Q16[0].cat, r2Q17[0].cat, r2Q18[0].cat, r2Q19[0].cat, r2Q20[0].cat, r2Q21[0].cat, r2Q22[0].cat, r2Q23[0].cat, r2Q24[0].cat, r2Q25[0].cat, r2Q26[0].cat, r2Q27[0].cat, r2Q28[0].cat, r2Q29[0].cat, r2Q30[0].cat, r2Q31[0].cat, r2Q32[0].cat, r2Q33[0].cat, r2Q34[0].cat, r2Q35[0].cat, r2Q36[0].cat, r2Q37[0].cat, r2Q38[0].cat, r2Q39[0].cat, r2Q40[0].cat, r2Q41[0].cat, r2Q42[0].cat, r2Q43[0].cat, r2Q44[0].cat, r2Q45[0].cat, r2Q46[0].cat, r2Q47[0].cat, r2Q48[0].cat, r2Q49[0].cat, r2Q50[0].cat, r2Q51[0].cat, r2Q52[0].cat, r2Q53[0].cat, r2Q54[0].cat, r2Q55[0].cat, r2Q56[0].cat, r2Q57[0].cat, r2Q58[0].cat, r2Q59[0].cat, r2Q60[0].cat, r2Q61[0].cat, r2Q62[0].cat, r2Q63[0].cat, r2Q64[0].cat, r2Q65[0].cat, r2Q66[0].cat, r2Q67[0].cat, r2Q68[0].cat, r2Q69[0].cat, r2Q70[0].cat, r2Q75[0].cat, r2Q77[0].cat];
 for( var i = chosen.length-1; i >= 0; i--){
-if ( chosen[i] == storage[0]){ 
-chosen.splice(i, 1);
-}
-if ( chosen[i] == storage[1]){ 
-chosen.splice(i, 1);
-}
-if ( chosen[i] == storage[2]){ 
-chosen.splice(i, 1);
-}
-if ( chosen[i] == storage[3]){ 
-chosen.splice(i, 1);
-}
+if ( chosen[i] == storage[0]){ chosen.splice(i, 1);}
+if ( chosen[i] == storage[1]){ chosen.splice(i, 1);}
+if ( chosen[i] == storage[2]){ chosen.splice(i, 1);}
+if ( chosen[i] == storage[3]){ chosen.splice(i, 1);}
 }
 chosen= shuffle(chosen); 
 data[0] = "Wildcard";
@@ -6129,9 +5923,7 @@ function bettinground() {
 		message005.innerHTML = "<strong><font size=4>ROUND THREE</font><br/></br>COMPETITOR IN THE LEAD SPINS THE WHEEL TO DETERMINE CATEGORY</br>YOU CAN RE-SPIN ONCE</br></br>EACH COMPETITOR WAGERS BETWEEN 0-3 POINTS</br></br>POINTS GO UP OR DOWN BY THE</br>WAGERED AMOUNT BASED ON THE ANSWER</br></br>REPEATS & CHALLENGES STILL IN EFFECT</strong>";
                 message006.innerHTML = "";
             	message003.innerHTML = "<button id=bet0 class=buttons002 onclick=bettinground2()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-		if (s > b){
-		message003.innerHTML = "<button id=bet0 class=buttons002 onclick=bettinground2()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>" + "<br/></br>" + competitorlist[0].id + " gets to spin the wheel.";
-		}		
+		if (s > b){message003.innerHTML = "<button id=bet0 class=buttons002 onclick=bettinground2()>Next</button><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>" + "<br/></br>" + competitorlist[0].id + " gets to spin the wheel.";}		
 		document.getElementById("message003").style = "initial";
 	    	document.getElementById("message006").style.top = "0px";
 	    	document.getElementById("chalacc").style.display = "none";
@@ -6211,7 +6003,7 @@ function bettingquestion() {
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = bettingquestion001[8].ques;
-	if (difficult == 1){message001.innerHTML = " ";startTyping(bettingquestion001[8].ques, 40, "message001");}
+		if (difficult == 1){message001.innerHTML = " ";startTyping(bettingquestion001[8].ques, 40, "message001");}
                  message002.innerHTML = input + "<br>" + buttons;
 		document.getElementById("mc").style.display = "none";
 		document.getElementById("q1").focus();
@@ -6325,11 +6117,7 @@ function bettinground2() {
  		qu001.innerHTML = "QUESTION";
                 message001.innerHTML = "Spin the Wheel.";
 		message002.innerHTML = "<button class=buttons009 id=spin onclick=bettingspin()>Spin</button>";
-		if (s > b) {
-		message001.innerHTML = "Opponent gets to spin the Wheel.";
-		message002.innerHTML = "";
-		oppbettingspin();
-		}
+		if (s > b) {message001.innerHTML = "Opponent gets to spin the Wheel.";message002.innerHTML = "";oppbettingspin();}
                 message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
@@ -6753,12 +6541,8 @@ else if (speed5.length <= 4){similarity1 = 0;similarity2 = 0;}
 }	   
 }
 function nextspeed() {
-if (s - b > 16){
-loseKO();
-}
-else if (b -s > 16){
-winKO();
-}
+if (s - b > 16){loseKO();}
+else if (b -s > 16){winKO();}
 else{
 		bettingbool = 0;
 		mc = 10;
@@ -6849,12 +6633,8 @@ mc = 0;
 qmusic.pause();
 qmusic.currentTime = 0;
 	    document.getElementById("message004").style.top = "10px";
-if (s - b > 10){
-loseKO();
-}
-else if (b -s > 10){
-winKO();
-}
+if (s - b > 10){loseKO();}
+else if (b -s > 10){winKO();}
 else{
 		speed = 0;
 	    	document.getElementById("message005").style.top = "0px";
@@ -6914,32 +6694,23 @@ document.getElementById("box7").value = data[9];
 document.getElementById("box8").value = data[10];
 document.getElementById("box9").value = data[11];
 if (document.getElementById("box1").value == r2question001[0].cat) {
-document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;
-}
+document.getElementById("box1").checked = true;document.getElementById("box1").disabled = true;}
 if (document.getElementById("box2").value == r2question001[0].cat) {
-document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;
-}
+document.getElementById("box2").checked = true;document.getElementById("box2").disabled = true;}
 if (document.getElementById("box3").value == r2question001[0].cat) {
-document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;
-}
+document.getElementById("box3").checked = true;document.getElementById("box3").disabled = true;}
 if (document.getElementById("box4").value == r2question001[0].cat) {
-document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;
-}
+document.getElementById("box4").checked = true;document.getElementById("box4").disabled = true;}
 if (document.getElementById("box5").value == r2question001[0].cat) {
-document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;
-}
+document.getElementById("box5").checked = true;document.getElementById("box5").disabled = true;}
 if (document.getElementById("box6").value == r2question001[0].cat) {
-document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;
-}
+document.getElementById("box6").checked = true;document.getElementById("box6").disabled = true;}
 if (document.getElementById("box7").value == r2question001[0].cat) {
-document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;
-}
+document.getElementById("box7").checked = true;document.getElementById("box7").disabled = true;}
 if (document.getElementById("box8").value == r2question001[0].cat) {
-document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;
-}
+document.getElementById("box8").checked = true;document.getElementById("box8").disabled = true;}
 if (document.getElementById("box9").value == r2question001[0].cat) {
-document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;
-}
+document.getElementById("box9").checked = true;document.getElementById("box9").disabled = true;}
 	if (compwildmystery == 1){
 $('input[type=checkbox]').on('change', function (e) {
     if ($('input[type=checkbox]:checked').length > 5) {
@@ -7018,12 +6789,8 @@ else if ((stealopp == 0) && (stealmc == 0)) {
 		message002.innerHTML = "";
 		message003.innerHTML = "One point steals available: " +stealmc;
 	    	message006.innerHTML =  "Two points steals available: " +stealopp;
-if (stealmc == 1) {
-message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].id + "'s" + " multiple choice answer is marked red.";
-}
-if (stealmc > 1) {
-message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].id + "'s" + " multiple choice answers are marked red.";
-}
+if (stealmc == 1) {message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].id + "'s" + " multiple choice answer is marked red.";}
+if (stealmc > 1) {message006.innerHTML =  "Two points steals available: " + stealopp + "<br/><br/>" + competitorlist[0].id + "'s" + " multiple choice answers are marked red.";}
 	    	document.getElementById("chalacc").style.display = "none";
 	    	document.getElementById("chalden").style.display = "none";
 	    	document.getElementById("message004").style.top = "10px";
@@ -7065,21 +6832,11 @@ else if (chance >= percentage){
 var stealopp = 0;
 var stealmc = 0;
 function analyse (){
-if ((stealopp > 0) && (stealmc > 0)){
-openquestion();
-}
-if ((stealopp > 0) && (stealmc == 0)){
-openquestion();
-}
-if ((stealmc > 0) && (stealopp == 0)){
-mcquestion();
-}
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){
-bettinground();
-}
-else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){
-next003();
-}
+if ((stealopp > 0) && (stealmc > 0)){openquestion();}
+if ((stealopp > 0) && (stealmc == 0)){openquestion();}
+if ((stealmc > 0) && (stealopp == 0)){mcquestion();}
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 0)){bettinground();}
+else if ((stealmc == 0) && (stealopp == 0) && (oppspinfirst == 1)){next003();}
 }
 function checkerq1(){
 if (difficult == 1){
@@ -7401,12 +7158,8 @@ if (typeof(element4) != 'undefined' && element4 != null)
 		opened++;
 }
 function openquestion2(){
-if (s - b > 29){
-loseKO();
-}
-else if (b -s > 29){
-winKO();
-}
+if (s - b > 29){loseKO();}
+else if (b -s > 29){winKO();}
 else{
 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7443,12 +7196,8 @@ if (typeof(element4) != 'undefined' && element4 != null)
 }
 }
 function openquestion3(){
-if (s - b > 27){
-loseKO();
-}
-else if (b -s > 27){
-winKO();
-}
+if (s - b > 27){loseKO();}
+else if (b -s > 27){winKO();}
 else{
 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7485,12 +7234,8 @@ if (typeof(element4) != 'undefined' && element4 != null)
 }
 }
 function openquestion4(){
-if (s - b > 25){
-loseKO();
-}
-else if (b -s > 25){
-winKO();
-}
+if (s - b > 25){loseKO();}
+else if (b -s > 25){winKO();}
 else{
  		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7527,12 +7272,8 @@ if (typeof(element4) != 'undefined' && element4 != null)
 }
 }
 function openquestion5(){
-if (s - b > 23){
-loseKO();
-}
-else if (b -s > 23){
-winKO();
-}
+if (s - b > 23){loseKO();}
+else if (b -s > 23){winKO();}
 else{
  		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7591,37 +7332,25 @@ var element4 =  document.getElementById('incop4');
 document.getElementById("corop").style.display = "initial";
 hidechance = Math.random() *100;
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
-{		
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
@@ -7635,12 +7364,8 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 		mc++;
 }
 function mcquestion2(){
-if (s - b > 25){
-loseKO();
-}
-else if (b -s > 25){
-winKO();
-}
+if (s - b > 25){loseKO();}
+else if (b -s > 25){winKO();}
 else{
 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7664,37 +7389,25 @@ var element4 =  document.getElementById('incop4');
 document.getElementById("corop").style.display = "initial";
 hidechance = Math.random() *100;
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
-{		
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
@@ -7708,12 +7421,8 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 }
 }
 function mcquestion3(){
-if (s - b > 24){
-loseKO();
-}
-else if (b -s > 24){
-winKO();
-}
+if (s - b > 24){loseKO();}
+else if (b -s > 24){winKO();}
 else{
 		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7737,37 +7446,25 @@ var element4 =  document.getElementById('incop4');
 document.getElementById("corop").style.display = "initial";
 hidechance = Math.random() *100;
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
-{		
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
@@ -7781,12 +7478,8 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 }
 }
 function mcquestion4(){
-if (s - b > 23){
-loseKO();
-}
-else if (b -s > 23){
-winKO();
-}
+if (s - b > 23){loseKO();}
+else if (b -s > 23){winKO();}
 else{
  		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7810,37 +7503,25 @@ var element4 =  document.getElementById('incop4');
 document.getElementById("corop").style.display = "initial";
 hidechance = Math.random() *100;
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
-{		
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
@@ -7854,12 +7535,8 @@ else if (hidechance < 100){document.getElementById('incop4').style.backgroundCol
 }
 }
 function mcquestion5(){
-if (s - b > 22){
-loseKO();
-}
-else if (b -s > 22){
-winKO();
-}
+if (s - b > 22){loseKO();}
+else if (b -s > 22){winKO();}
 else{
  		qmusic.play();
 	    	document.getElementById("JTE").style.display = "initial";
@@ -7883,37 +7560,25 @@ var element4 =  document.getElementById('incop4');
 document.getElementById("corop").style.display = "initial";
 hidechance = Math.random() *100;
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null))
-{		
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop3').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element2) != 'undefined' && element2 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop2").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element1) != 'undefined' && element1 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop1").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop1").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop1').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}
 }
 if ((typeof(element2) != 'undefined' && element2 != null) && (typeof(element3) != 'undefined' && element3 != null) && (typeof(element4) != 'undefined' && element4 != null))
-{
-document.getElementById("incop2").style.display = "initial";
-document.getElementById("incop3").style.display = "initial";
-document.getElementById("incop4").style.display = "initial";
+{document.getElementById("incop2").style.display = "initial";document.getElementById("incop3").style.display = "initial";document.getElementById("incop4").style.display = "initial";
 if (hidechance < 33.33){document.getElementById('incop2').style.backgroundColor = "crimson"}
 else if (hidechance < 66.66){document.getElementById('incop3').style.backgroundColor = "crimson"}
 else if (hidechance < 100){document.getElementById('incop4').style.backgroundColor = "crimson"}

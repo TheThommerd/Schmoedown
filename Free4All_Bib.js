@@ -497,9 +497,7 @@ var accuracy = ((quescor / quescount) * 100)
 		document.getElementById("message006").style.top = "15px";
 		document.getElementById("message004").style.top = "-195px";
 }
-function newLoc() {
-  window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");
-}
+function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/Free4All.html");}
 function pregame(){
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
@@ -513,7 +511,6 @@ message003.innerHTML = "<button id=begin class=buttons002 onclick=begin001()>Beg
 	document.getElementById("message006").style.top = "-115px";
 	message004.innerHTML = "";
 }
-
 var eliminate2 = 0;
 var eliminate3 = 0;
 var eliminate4 = 0;
@@ -522,7 +519,6 @@ var afvaller1 = "";
 var afvaller2 = "";
 var afvaller3 = "";
 var afvaller4 = "";
-
 	var a = 0;
         a++;
         var r = 0;
@@ -538,9 +534,8 @@ var afvaller4 = "";
 	j--;
 	var h = 2;
 	h--;
-var c;
+	var c;
 	var minimum = 0;
-
 function roundchecker(){
 	remain = (competitorlist.length- afvallers);
 	document.getElementById("time001").style.visibility = "hidden";
@@ -571,15 +566,12 @@ message003.innerHTML = "Nobody will be eliminated this round";
 message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 } //00000 of 11111
-
-
 else if ( (b < s) && (b < t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
 message003.innerHTML = "You have been eliminated";
 document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 document.getElementById("save").click();
-
 }//01111
 else if ( (b == s) && (b < t) && (b < u) && (b < v) ){
 message001.innerHTML = "End of Match.";
@@ -679,68 +671,43 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 document.getElementById("save").click();
 }//00001
-
-
 else if ((s == minimum) && (t != minimum) && (u != minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
 	afvaller1 = afvaller01.charAt(0).toUpperCase() + afvaller01.slice(1);
-
-if (remain >= 1){
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" ;
-}
+if (remain >= 1){message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
-
 else if ((s != minimum) && (t == minimum) && (u != minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
 	afvaller1 = afvaller01.charAt(0).toUpperCase() + afvaller01.slice(1);
-if (remain >= 1){
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" ;
-}
+if (remain >= 1){message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((s != minimum) && (t != minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
 	afvaller1 = afvaller01.charAt(0).toUpperCase() + afvaller01.slice(1);
-if (remain >= 1){
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>";
-}
+if (remain >= 1){message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>";}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 4
-
 else if ((s != minimum) && (t != minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
 	afvaller1 = afvaller01.charAt(0).toUpperCase() + afvaller01.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 1){
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" ;
-}
+if (remain >= 1){message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " has been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
-
 else if ((s == minimum) && (t == minimum) && (u != minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -749,19 +716,12 @@ else if ((s == minimum) && (t == minimum) && (u != minimum) && (v != minimum)){
 	afvaller02 = afvaller002.toLowerCase(); 
 	afvaller2 = afvaller02.charAt(0).toUpperCase() + afvaller02.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 2){
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>";
-}
+if (remain >= 2){message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>";}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 23
-
 else if ((s == minimum) && (t != minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -770,19 +730,12 @@ else if ((s == minimum) && (t != minimum) && (u == minimum) && (v != minimum)){
 	afvaller02 = afvaller002.toLowerCase(); 
 	afvaller2 = afvaller02.charAt(0).toUpperCase() + afvaller02.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 2){
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 2){message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 24
-
 else if ((s == minimum) && (t != minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -791,19 +744,12 @@ else if ((s == minimum) && (t != minimum) && (u != minimum) && (v == minimum)){
 	afvaller02 = afvaller002.toLowerCase(); 
 	afvaller2 = afvaller02.charAt(0).toUpperCase() + afvaller02.slice(1); 
 	remain = (competitorlist.length- afvallers);
-if (remain >= 2){
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 2){message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 25
-
 else if ((s != minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -812,19 +758,12 @@ else if ((s != minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	afvaller02 = afvaller002.toLowerCase(); 
 	afvaller2 = afvaller02.charAt(0).toUpperCase() + afvaller02.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 2){
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 2){message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 34
-
 else if ((s != minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -833,19 +772,12 @@ else if ((s != minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	afvaller02 = afvaller002.toLowerCase(); 
 	afvaller2 = afvaller02.charAt(0).toUpperCase() + afvaller02.slice(1); 
 	remain = (competitorlist.length- afvallers);
-if (remain >= 2){
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 2){message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 35
-
 else if ((s != minimum) && (t != minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -854,19 +786,12 @@ else if ((s != minimum) && (t != minimum) && (u == minimum) && (v == minimum)){
 	afvaller02 = afvaller002.toLowerCase(); 
 	afvaller2 = afvaller02.charAt(0).toUpperCase() + afvaller02.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 2){
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 2){message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML =  afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + " and " + afvaller2 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 45
-
 else if ((s == minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -878,22 +803,13 @@ else if ((s == minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	afvaller03 = afvaller003.toLowerCase(); 
 	afvaller3 = afvaller03.charAt(0).toUpperCase() + afvaller03.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 3){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 2){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 3){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 2){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 234
-
 else if ((s == minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -905,22 +821,13 @@ else if ((s == minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	afvaller03 = afvaller003.toLowerCase(); 
 	afvaller3 = afvaller03.charAt(0).toUpperCase() + afvaller03.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 3){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 2){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 3){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 2){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 235
-
 else if ((s == minimum) && (t != minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -932,23 +839,13 @@ else if ((s == minimum) && (t != minimum) && (u == minimum) && (v == minimum)){
 	afvaller03 = afvaller003.toLowerCase(); 
 	afvaller3 = afvaller03.charAt(0).toUpperCase() + afvaller03.slice(1); 
 	remain = (competitorlist.length- afvallers);
-if (remain >= 3){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 2){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 3){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 2){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 245
-
-
 else if ((s != minimum) && (t == minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -960,22 +857,13 @@ else if ((s != minimum) && (t == minimum) && (u == minimum) && (v == minimum)){
 	afvaller03 = afvaller003.toLowerCase(); 
 	afvaller3 = afvaller03.charAt(0).toUpperCase() + afvaller03.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 3){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 2){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 3){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 2){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + ", " + afvaller2 + " and " + afvaller3 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 345
-
 else if ((s == minimum) && (t == minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -990,29 +878,17 @@ else if ((s == minimum) && (t == minimum) && (u == minimum) && (v == minimum)){
 	afvaller04 = afvaller004.toLowerCase(); 
 	afvaller4 = afvaller04.charAt(0).toUpperCase() + afvaller04.slice(1);
 	remain = (competitorlist.length- afvallers);
-if (remain >= 4){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + ", " + competitorlist[(num + 3)].lowercase + " and " + competitorlist[(num + 4)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 3){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 2){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;
-}
-else if (remain == 1){
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;
-}
-else {
-	message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" ;
-}
+if (remain >= 4){message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + ", " + competitorlist[(num + 3)].lowercase + " and " + competitorlist[(num + 4)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 3){message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + ", " + competitorlist[(num + 2)].lowercase + " and " + competitorlist[(num + 3)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 2){message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 +  " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " and " + competitorlist[(num + 2)].lowercase + " enter the match" + "</br></br>" ;}
+else if (remain == 1){message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" + competitorlist[(num + 1)].lowercase + " enters the match" + "</br></br>" ;}
+else {message003.innerHTML = afvaller1 + ", " + afvaller2 + ", " + afvaller3 + " and " + afvaller4 + " have been eliminated" + "</br></br>" ;}
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2345
 }
-
 else if ((eliminate2 == 1) && (eliminate3 == 0) && (eliminate4 == 0) & (eliminate5 == 0)){
 minimum = Math.min(t, u, v);
-
 if ((b == t) && (b == u) && (b == v) ){
 message003.innerHTML = "Nobody will be eliminated this round";
 message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
@@ -1027,8 +903,8 @@ else if ((b > t) && (t == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-45px";
-rounds++;
+	    	document.getElementById("message002").style.top = "-45px";
+		rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < t) && (b < u) && (b < v) ){
@@ -1080,7 +956,6 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 document.getElementById("save").click();
 }//0100
-
 else if ((t == minimum) && (u != minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1089,7 +964,6 @@ else if ((t == minimum) && (u != minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((t != minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1098,7 +972,6 @@ else if ((t != minimum) && (u == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 4
-
 else if ((t != minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1107,8 +980,6 @@ else if ((t != minimum) && (u != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
-
 else if ((t == minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1121,7 +992,6 @@ else if ((t == minimum) && (u == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 34
-
 else if ((t == minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1133,7 +1003,6 @@ else if ((t == minimum) && (u != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 35
-
 else if ((t != minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1145,7 +1014,6 @@ else if ((t != minimum) && (u == minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 45
-
 else if ((t == minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1161,8 +1029,6 @@ else if ((t == minimum) && (u == minimum) && (v == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 345
 }
-
-
 else if ((eliminate2 == 0) && (eliminate3 == 1) && (eliminate4 == 0) & (eliminate5 == 0)){
 	minimum = Math.min(s, u, v);
 if ((b == s) && (b == u) && (b == v) ){
@@ -1179,8 +1045,8 @@ else if ((b > s) && (s == u) && (u == v) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-45px";
-rounds++;
+	    	document.getElementById("message002").style.top = "-45px";
+		rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < s) && (b < u) && (b < v) ){
@@ -1232,8 +1098,6 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 document.getElementById("save").click();
 }//0100
-
-
 else if ((s == minimum) && (u != minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1242,7 +1106,6 @@ else if ((s == minimum) && (u != minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
 else if ((s != minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1251,7 +1114,6 @@ else if ((s != minimum) && (u == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 4
-
 else if ((s != minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1260,8 +1122,6 @@ else if ((s != minimum) && (u != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
-
 else if ((s == minimum) && (u == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1274,7 +1134,6 @@ else if ((s == minimum) && (u == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 24
-
 else if ((s == minimum) && (u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1286,7 +1145,6 @@ else if ((s == minimum) && (u != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 25
-
 else if ((s != minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1298,7 +1156,6 @@ else if ((s != minimum) && (u == minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 45
-
 else if ((s == minimum) && (u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1314,7 +1171,6 @@ else if ((s == minimum) && (u == minimum) && (v == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 245
 }
-
 else if ((eliminate2 == 0) && (eliminate3 == 0) && (eliminate4 == 1) & (eliminate5 == 0)){
 	minimum = Math.min(s, t, v);
 if ((b == s) && (b == t) && (b == v) ){
@@ -1392,7 +1248,6 @@ else if ((s == minimum) && (t != minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
 else if ((s != minimum) && (t == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1401,7 +1256,6 @@ else if ((s != minimum) && (t == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((s != minimum) && (t != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1410,7 +1264,6 @@ else if ((s != minimum) && (t != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
 else if ((s == minimum) && (t == minimum) && (v != minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1423,7 +1276,6 @@ else if ((s == minimum) && (t == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 23
-
 else if ((s == minimum) && (t != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1435,7 +1287,6 @@ else if ((s == minimum) && (t != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 25
-
 else if ((s != minimum) && (t == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1447,7 +1298,6 @@ else if ((s != minimum) && (t == minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 35
-
 else if ((s == minimum) && (t == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1463,8 +1313,6 @@ else if ((s == minimum) && (t == minimum) && (v == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 235
 }
-
-
 else if ((eliminate2 == 0) && (eliminate3 == 0) && (eliminate4 == 0) & (eliminate5 == 1)){
 	minimum = Math.min(s, t, u);
 if ((b == s) && (b == t) && (b == u) ){
@@ -1481,8 +1329,8 @@ else if ((b > s) && (s == t) && (t == u) ){
                 message005.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
 		document.getElementById("save").click();
-	    document.getElementById("message002").style.top = "-45px";
-rounds++;
+	    	document.getElementById("message002").style.top = "-45px";
+		rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 } //1000
 else if ((b < s) && (b < t) && (b < u) ){
@@ -1542,7 +1390,6 @@ else if ((s == minimum) && (t != minimum) && (u != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
 else if ((s != minimum) && (t == minimum) && (u != minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1551,7 +1398,6 @@ else if ((s != minimum) && (t == minimum) && (u != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((s != minimum) && (t != minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1573,7 +1419,6 @@ else if ((s == minimum) && (t == minimum) && (u != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat; 
 }// 23
-
 else if ((s == minimum) && (t != minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1585,7 +1430,6 @@ else if ((s == minimum) && (t != minimum) && (u == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 24
-
 else if ((s != minimum) && (t == minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1597,7 +1441,6 @@ else if ((s != minimum) && (t == minimum) && (u == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 34
-
 else if ((s == minimum) && (t == minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1613,7 +1456,6 @@ else if ((s == minimum) && (t == minimum) && (u == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 234
 }
-
 else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 0) & (eliminate5 == 0)){
 minimum = Math.min(u, v);
 if ((b == u) && (b == v) ){
@@ -1663,7 +1505,6 @@ else if ((u == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 4
-
 else if ((u != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1672,7 +1513,6 @@ else if ((u != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
 else if ((u == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1685,8 +1525,6 @@ else if ((u == minimum) && (v == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 45
 }
-
-
 else if ((eliminate2 == 1) && (eliminate3 == 0) && (eliminate4 == 1) & (eliminate5 == 0)){
 minimum = Math.min(t, v);
 if ((b == t) && (b == v) ){
@@ -1736,7 +1574,6 @@ else if ((t == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((t != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1745,7 +1582,6 @@ else if ((t != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
 else if ((t == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1758,8 +1594,6 @@ else if ((t == minimum) && (v == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 35
 }
-
-
 else if ((eliminate2 == 1) && (eliminate3 == 0) && (eliminate4 == 0) & (eliminate5 == 1)){
 minimum = Math.min(t, u);
 if ((b == t) && (b == u) ){
@@ -1809,7 +1643,6 @@ else if ((t == minimum) && (u != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((t != minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1818,7 +1651,6 @@ else if ((t != minimum) && (u == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 4
-
 else if ((t == minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1881,7 +1713,6 @@ else if ((s == minimum) && (v != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
 else if ((s != minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player005").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1890,7 +1721,6 @@ else if ((s != minimum) && (v == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 5
-
 else if ((s == minimum) && (v == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1903,7 +1733,6 @@ else if ((s == minimum) && (v == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 25
 }
-
 else if ((eliminate2 == 0) && (eliminate3 == 1) && (eliminate4 == 0) & (eliminate5 == 1)){
 minimum = Math.min(s, u);
 if ((b == s) && (b == u) ){
@@ -1953,7 +1782,6 @@ else if ((s == minimum) && (u != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
 else if ((s != minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player004").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1962,7 +1790,6 @@ else if ((s != minimum) && (u == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 4
-
 else if ((s == minimum) && (u == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -1975,7 +1802,6 @@ else if ((s == minimum) && (u == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 24
 }
-
 else if ((eliminate2 == 0) && (eliminate3 == 0) && (eliminate4 == 1) & (eliminate5 == 1)){
 minimum = Math.min(s, t);
 if ((b == s) && (b == t) ){
@@ -2025,7 +1851,6 @@ else if ((s == minimum) && (t != minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 2
-
 else if ((s != minimum) && (t == minimum)){
 	afvaller001 = document.getElementById("player003").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -2034,7 +1859,6 @@ else if ((s != minimum) && (t == minimum)){
         message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 3
-
 else if ((s == minimum) && (t == minimum)){
 	afvaller001 = document.getElementById("player002").innerHTML;
 	afvaller01 = afvaller001.toLowerCase(); 
@@ -2047,7 +1871,6 @@ else if ((s == minimum) && (t == minimum)){
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 }// 23
 }
-
 else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminate5 == 0)){
 if (b == v){
 message003.innerHTML = "Nobody will be eliminated this round";
@@ -2074,7 +1897,6 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
-
 else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 0) & (eliminate5 == 1)){
 if (b == u){
 message003.innerHTML = "Nobody will be eliminated this round";
@@ -2101,8 +1923,6 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
-
-
 else if ((eliminate2 == 1) && (eliminate3 == 0) && (eliminate4 == 1) & (eliminate5 == 1)){
 if (b == t){
 message003.innerHTML = "Nobody will be eliminated this round";
@@ -2129,7 +1949,6 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
-
 else if ((eliminate2 == 0) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminate5 == 1)){
 if (b == s){
 message003.innerHTML = "Nobody will be eliminated this round";
@@ -2157,7 +1976,6 @@ document.getElementById("losses_F4").stepUp(1);
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
-
 else if ((eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) & (eliminate5 == 1)){
 		message001.innerHTML = "End of Match";
 			document.getElementById("message002").style.fontSize = "200%";
@@ -2172,8 +1990,6 @@ rounds++;
             	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "</br></br>" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>"; stats();
 }
 }
-
-
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();
 	var twitt = document.getElementById("twitt").value;
@@ -2183,17 +1999,12 @@ function submitname () {
 	var length2 = twittername.length;
 	var twitter = twittername.substring(0, 15);
 	var twitter = twitter.replace(" ","");
-
-	if (length1 < 1){
-	player001.innerHTML = naam ;
-	} 
+	if (length1 < 1){player001.innerHTML = naam ;} 
 	else if (length1 >= 1){
 	player001.innerHTML = name;
 	document.getElementById("naam").value = document.getElementById("q2").value;
 	}
-	if (length2 < 1){
-	twitter001.innerHTML = twitt ;
-	} 
+	if (length2 < 1){twitter001.innerHTML = twitt ;} 
 	else if (length2 >= 1){
 	twitter001.innerHTML = twitter;
 	document.getElementById("twitt").value = document.getElementById("q3").value;
@@ -2211,55 +2022,53 @@ function submitname () {
   	twitter002.innerHTML = competitorlist[num].twitter;
 	percentagep2 = competitorlist[num].percentage;
 	afvallers++; 
-num++;
+	num++;
   	nummer3.innerHTML = hastag + ((num + 2)) ;
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	afvallers++; 
-num++;
+	num++;
   	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	afvallers++; 
-num++;
+	num++;
   	nummer5.innerHTML = hastag + ((num +2));
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
 	afvallers++; 
-remain = (competitorlist.length- afvallers);
-pregame();
+	remain = (competitorlist.length- afvallers);
+	pregame();
 }
-
 function skip () {
  	player002.innerHTML = competitorlist[num].id.toUpperCase();
   	twitter002.innerHTML = competitorlist[num].twitter;
 	percentagep2 = competitorlist[num].percentage;
 	afvallers++; 
-num++;
+	num++;
   	nummer3.innerHTML = hastag + ((num + 2)) ;
   	twitter003.innerHTML = competitorlist[num].twitter;
  	player003.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep3 = competitorlist[num].percentage;
 	afvallers++; 
-num++;
+	num++;
   	nummer4.innerHTML = hastag + ((num + 2));
   	twitter004.innerHTML = competitorlist[num].twitter;
  	player004.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep4 = competitorlist[num].percentage;
 	afvallers++; 
-num++;
+	num++;
   	nummer5.innerHTML = hastag + ((num + 2)) ;
   	twitter005.innerHTML = competitorlist[num].twitter;
  	player005.innerHTML = competitorlist[num].id.toUpperCase();
 	percentagep5 = competitorlist[num].percentage;
 	afvallers++; 
-remain = (competitorlist.length- afvallers);
-pregame();
+	remain = (competitorlist.length- afvallers);
+	pregame();
 }
-
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
   while (0 !== currentIndex) {
@@ -2271,41 +2080,21 @@ function shuffle(array) {
   }
   return array;
 }
-
-
 function simulatecomp(){
 var chance1 = Math.random() * 100;
-if (chance1 < percentagep2){
-score002.innerHTML = s+=1;
-}
+if (chance1 < percentagep2){score002.innerHTML = s+=1;}
 var chance2 = Math.random() * 100;
-if (chance2 < percentagep3){
-score003.innerHTML = t+=1;
-}
+if (chance2 < percentagep3){score003.innerHTML = t+=1;}
 var chance3 = Math.random() * 100;
-if (chance3 < percentagep4){
-score004.innerHTML = u+=1;
-}
+if (chance3 < percentagep4){score004.innerHTML = u+=1;}
 var chance4 = Math.random() * 100;
-if (chance4 < percentagep5){
-score005.innerHTML = v+=1;
+if (chance4 < percentagep5){score005.innerHTML = v+=1;}
+if (eliminate2 == 1){score002.innerHTML = "X";}
+if (eliminate3 == 1){score003.innerHTML = "X";}
+if (eliminate4 == 1){score004.innerHTML = "X";}
+if (eliminate5 == 1){score005.innerHTML = "X";}
 }
-if (eliminate2 == 1){
-            score002.innerHTML = "X";
-}
-if (eliminate3 == 1){
-            score003.innerHTML = "X";
-}
-if (eliminate4 == 1){
-            score004.innerHTML = "X";
-}
-if (eliminate5 == 1){
-            score005.innerHTML = "X";
-}
-}
-
 question001 = shuffle(question001); 
-
 function begin001() {
 	    intromusic.pause();
 	    intromusic.currentTime = 0;
@@ -2324,7 +2113,7 @@ function begin001() {
 	    document.getElementById("message004").style.top = "-55px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-document.getElementById("q1").focus();
+		document.getElementById("q1").focus();
 	    document.getElementById("q1").style.position = "relative";
 	    document.getElementById("q1").style.top = "-300px";
 	    document.getElementById("submit2").style.position = "relative";
@@ -2336,7 +2125,6 @@ document.getElementById("q1").focus();
             round001.innerHTML = r++;
             qu001.innerHTML = "QUESTION 1 - " +question001[0].cat.toUpperCase();
         }
-
 function Challenge(){
 	     var question1 = document.getElementById("q1").value;
 if (question1.length < 1){
@@ -2352,16 +2140,14 @@ if (h == 1) {
 	    }
 }
 }
-
 function ChallengeAccepted(){
             score001.innerHTML = b+=1;
-quescor++;
+		quescor++;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge won!";
 }
-
 function ChallengeDenied(){
 if (j == 2) {
 	     h--;
@@ -2396,18 +2182,13 @@ else if (j == 0) {
             message003.innerHTML = "Challenge lost!";
 	      }
 }
-
-function myTrim(x) {
-  return x.replace(/^\s+|\s+$/gm,'');
-}
-
-
+function myTrim(x) {return x.replace(/^\s+|\s+$/gm,'');}
 function checker(){
 		qmusic.pause();
 		qmusic.currentTime = 0;
-quescount++;
-similarity1 = 0;
-similarity2 = 0;
+		quescount++;
+		similarity1 = 0;
+		similarity2 = 0;
 	    var question01 = document.getElementById("q1").value.toUpperCase();
 	    var question1 = myTrim(question01);
 	    question1 = question1.replace(":"," ");
@@ -2428,16 +2209,9 @@ similarity2 = 0;
 	    question1 = question1.replace("È","E");
 	    question1 = question1.replace("Ç","C");
 	    question1 = myTrim(question1);
-if (question1.length > 4){
-similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
-if (typeof(question001[vraag].answ3) != 'undefined'){
-similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);
-}
-}
-else if (question1.length <= 4){
-similarity1 = 0;
-similarity2 = 0;
-}
+if (question1.length > 4){similarity1 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ);
+if (typeof(question001[vraag].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(question1, question001[vraag].answ3);}}
+else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
             window.clearInterval(update);
             c = "-";
 	    document.getElementById("submit2").style.display = "none";
@@ -2445,7 +2219,7 @@ similarity2 = 0;
 	if ((question1 == question001[vraag].answ) || (question1 == question001[vraag].answ3)|| (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             message003.innerHTML = "Correct!";
             score001.innerHTML = b+=1;
-quescor++;
+		quescor++;
 	    cormusic.play();
 if ((a == 6) ||(a == 11)||(a == 16)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 66)||(a == 71)||(a == 76)||(a == 81)||(a == 86)||(a == 91)||(a == 96)||(a == 101)||(a == 106)||(a == 111)||(a == 116)||(a == 121)||(a == 126)||(a == 131)||(a == 136)||(a == 141)||(a == 146)||(a == 151)||(a == 156)||(a == 161)||(a == 166)||(a == 171)||(a == 176)||(a == 181)||(a == 186)||(a == 191)||(a == 196)||(a == 201)||(a == 206)||(a == 211)||(a == 216)||(a == 221)||(a == 226)||(a == 231)) {
 	    message006.innerHTML =  "";
@@ -2473,7 +2247,6 @@ simulatecomp();
             }
 	   
 }
-
 function next001() {
 	qmusic.play();
 	    document.getElementById("time001").style.display = "initial";
@@ -2500,13 +2273,6 @@ document.getElementById("q1").focus();
                  a++;
             	qu001.innerHTML = "QUESTION 2 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            	    message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
             }
 
             else if ((a == 3)||(a == 8)||(a == 13)||(a == 18)||(a == 23)||(a == 28)||(a == 33)||(a == 38)||(a == 43)||(a == 48)||(a == 53)||(a == 58)||(a == 63)||(a == 68)||(a == 73)||(a == 78)||(a == 83)||(a == 88)||(a == 93)||(a == 98)||(a == 103)||(a == 108)||(a == 113)||(a == 118)||(a == 123)||(a == 128)||(a == 133)||(a == 138)||(a == 143)||(a == 148)||(a == 153)||(a == 158)||(a == 163)||(a == 168)||(a == 173)||(a == 178)||(a == 183)||(a == 188)||(a == 193)||(a == 198)||(a == 203)||(a == 208)||(a == 213)||(a == 218)||(a == 223)||(a == 228))  {
@@ -2525,13 +2291,6 @@ document.getElementById("q1").focus();
                  a++;
                 qu001.innerHTML = "QUESTION 3 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
             }
 
             else if ((a == 4) ||(a == 9)||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229))  {
@@ -2550,13 +2309,6 @@ document.getElementById("q1").focus();
                  a++;
                 qu001.innerHTML = "QUESTION 4 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
             }
 
             else if ((a == 5) ||(a == 10)||(a == 15)||(a == 20)||(a == 25)||(a == 30)||(a == 35)||(a == 40)||(a == 45)||(a == 50)||(a == 55)||(a == 60)||(a == 65)||(a == 70)||(a == 75)||(a == 80)||(a == 85)||(a == 90)||(a == 95)||(a == 100)||(a == 105)||(a == 110)||(a == 115)||(a == 120)||(a == 125)||(a == 130)||(a == 135)||(a == 140)||(a == 145)||(a == 150)||(a == 155)||(a == 160)||(a == 165)||(a == 170)||(a == 175)||(a == 180)||(a == 185)||(a == 190)||(a == 195)||(a == 200)||(a == 205)||(a == 210)||(a == 215)||(a == 220)||(a == 225)||(a == 230)) {
@@ -2575,13 +2327,6 @@ document.getElementById("q1").focus();
                  a++;
  		qu001.innerHTML = "QUESTION 5 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
             }
 
             else if ((a == 6) ||(a == 11)||(a == 16)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 66)||(a == 71)||(a == 76)||(a == 81)||(a == 86)||(a == 91)||(a == 96)||(a == 101)||(a == 106)||(a == 111)||(a == 116)||(a == 121)||(a == 126)||(a == 131)||(a == 136)||(a == 141)||(a == 146)||(a == 151)||(a == 156)||(a == 161)||(a == 166)||(a == 171)||(a == 176)||(a == 181)||(a == 186)||(a == 191)||(a == 196)||(a == 201)||(a == 206)||(a == 211)||(a == 216)||(a == 221)||(a == 226)||(a == 231)) {
@@ -2853,7 +2598,6 @@ document.getElementById("q1").focus();
 	percentagep5 = 0;
 	}
 	}// 45
-
 	else if ((s == minimum) && (t == minimum) && (u == minimum) && (v != minimum)){
 	if (remain >= 3 ){
 	num++;
@@ -2915,7 +2659,6 @@ document.getElementById("q1").focus();
 	percentagep4 = 0;
 	}
 	}// 234
-
 	else if ((s == minimum) && (t == minimum) && (u != minimum) && (v == minimum)){
 	if (remain >= 3 ){
 	num++;
@@ -3099,7 +2842,6 @@ document.getElementById("q1").focus();
 	percentagep5 = 0;
 	}
 	}// 345
-
 	else if ((s == minimum) && (t == minimum) && (u == minimum) && (v == minimum) && (b != minimum)){
 	if (remain >= 4 ){
 	num++;
@@ -3207,18 +2949,10 @@ document.getElementById("q1").focus();
 		score003.innerHTML = 0;
 		score004.innerHTML = 0;
 		score005.innerHTML = 0;
-if (eliminate2 == 1){
-            score002.innerHTML = "X";
-}
-if (eliminate3 == 1){
-            score003.innerHTML = "X";
-}
-if (eliminate4 == 1){
-            score004.innerHTML = "X";
-}
-if (eliminate5 == 1){
-            score005.innerHTML = "X";
-}
+if (eliminate2 == 1){score002.innerHTML = "X";}
+if (eliminate3 == 1){score003.innerHTML = "X";}
+if (eliminate4 == 1){score004.innerHTML = "X";}
+if (eliminate5 == 1){score005.innerHTML = "X";}
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
@@ -3235,13 +2969,6 @@ rounds++;
                  a++;
  		qu001.innerHTML = "QUESTION 1 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
-                if (c < 1) {
-                    window.clearInterval(update);
-                    message001.innerHTML = "Time's up";
-                    message002.innerHTML = "";
-                    message003.innerHTML = "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-                }
             }
         }
 function timer001() {
@@ -3275,15 +3002,9 @@ else {
 }
         update = setInterval("timer001()", 1000);
 
-function repeat001() {
-            location.reload();
-        }
-
+function repeat001() {location.reload();}
 $("#message002").keypress(function(event) { 
-         if (event.keyCode === 13){ 
-                 $("#submit").click(); 
-
-            } 
+         if (event.keyCode === 13){ $("#submit").click();} 
 });
 function tweetbutton() {
 document.getElementById("message006").style.top = "-55px";

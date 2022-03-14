@@ -4120,7 +4120,6 @@ else if (b < s){lose();}
  		round002.innerHTML = "OVERTIME";
  		qu001.innerHTML = "QUESTION";
             	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	}
             }
         }
 function timer001() {

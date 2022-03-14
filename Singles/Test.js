@@ -4069,7 +4069,7 @@ else if (((a == 29) || (a == 30) || (a == 31)|| (a == 32) || (a == 33) || (a == 
 		vraag++;
 		sdvraag++;
                 time001.innerHTML = 20;
-		question001[vraag] = suddendeath[vraag2]; 
+		question001[vraag] = suddendeath[sdvraag]; 
                 message001.innerHTML = question001[vraag].ques;
 	    	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[vraag].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";

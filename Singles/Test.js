@@ -3408,7 +3408,7 @@ if ((a == 30) || (a == 31) || (a == 32) || (a == 33) || (a == 34) || (a == 35) |
 		message001.innerHTML = question001[vraag].ques;
 	    	var question025 = document.getElementById("q1").value.toUpperCase();
 	    	var question25 = myTrim(question025);
-	    	question24 = myTrim(question24);
+	    	question25 = myTrim(question25);
 if (question25.length > 4){similarity1 = stringSimilarity.compareTwoStrings(question25, question001[vraag].answ);
 if (typeof(question001[vraag].answ3) != 'undefined'){similarity2 = stringSimilarity.compareTwoStrings(question25, question001[vraag].answ3);}}    
 else if (question25.length <= 4){similarity1 = 0;similarity2 = 0;}
@@ -4062,7 +4062,9 @@ if (b > s){win();}
 else if (b < s){lose();}
 }
 else if (((a == 29) || (a == 30) || (a == 31)|| (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37)) && (b == s)){
-                update = setInterval("timer001()", 1000);
+        	document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";        
+		update = setInterval("timer001()", 1000);
 		question001 = suddendeath;
                 c = 20;
 		sdnr++;
@@ -4074,7 +4076,10 @@ else if (((a == 29) || (a == 30) || (a == 31)|| (a == 32) || (a == 33) || (a == 
 	    	if (difficult == 1){message001.innerHTML = " ";startTyping(question001[vraag].ques, 40, "message001");}
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                 a++;
+	        message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                a++;
  		qu001.innerHTML = "SUDDEN DEATH - QUESTION " + sdnr;
             } 
  else if (((a == 29) || (a == 30) || (a == 31)|| (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37)) && (b != s)){

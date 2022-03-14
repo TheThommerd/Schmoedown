@@ -4077,6 +4077,7 @@ else if (((a == 29) || (a == 30) || (a == 31)|| (a == 32) || (a == 33) || (a == 
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
 	        message003.innerHTML = "";
+	      	message004.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
                 a++;

@@ -3403,6 +3403,7 @@ else if (question24.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	incmusic.play();
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
             }
+}
 if ((a == 30) || (a == 31) || (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37) || (a == 38)) {
 		message001.innerHTML = question001[vraag].ques;
 	    	var question025 = document.getElementById("q1").value.toUpperCase();

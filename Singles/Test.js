@@ -3348,10 +3348,7 @@ else if (question23.length <= 4){similarity1 = 0;similarity2 = 0;}
 		if ((competitorlist[0].strength1 == question001[16].cat) || (competitorlist[0].strength2 == question001[16].cat) || (competitorlist[0].strength3 == question001[16].cat) || (competitorlist[0].strength4 == question001[16].cat) || (competitorlist[0].strength5 == question001[16].cat) || (competitorlist[0].strength6 == question001[16].cat)){
 		percentage = competitorlist[0].strengthpercentage;}
 		var chance = Math.random()*100;
-		if (chance < percentage){
-		quescoropp++;
-		score002.innerHTML = s+=1;
-		}
+		if (chance < percentage){quescoropp++;score002.innerHTML = s+=1;}
 	if ((question23 == question001[16].answ) || (question23 == question001[16].answ3) || (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             	message003.innerHTML = "Correct!";
 	    	message006.innerHTML =  "";
@@ -3387,6 +3384,10 @@ else if (question24.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	document.getElementById("submit2").style.display = "none";
 	    	document.getElementById("q1").disabled = true;
 		document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[17].cat) || (competitorlist[0].strength2 == question001[17].cat) || (competitorlist[0].strength3 == question001[17].cat) || (competitorlist[0].strength4 == question001[17].cat) || (competitorlist[0].strength5 == question001[17].cat) || (competitorlist[0].strength6 == question001[17].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){quescoropp++;score002.innerHTML = s+=1;}
 	if ((question24 == question001[17].answ) || (question24 == question001[17].answ3) || (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             	message003.innerHTML = "Correct!";
 	    	message006.innerHTML =  "";
@@ -3402,7 +3403,8 @@ else if (question24.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	message005.innerHTML = "";
 	    	incmusic.play();
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-            }
+            	percentage = competitorlist[0].percentage;
+	    }
 }
 if ((a == 30) || (a == 31) || (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37) || (a == 38)) {
 		message001.innerHTML = question001[vraag].ques;
@@ -3421,6 +3423,10 @@ else if (question25.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	document.getElementById("submit2").style.display = "none";
 	    	document.getElementById("q1").disabled = true;
 		document.getElementById("JTE").style.visibility = "hidden";
+		if ((competitorlist[0].strength1 == question001[vraag].cat) || (competitorlist[0].strength2 == question001[vraag].cat) || (competitorlist[0].strength3 == question001[vraag].cat) || (competitorlist[0].strength4 == question001[vraag].cat) || (competitorlist[0].strength5 == question001[vraag].cat) || (competitorlist[0].strength6 == question001[vraag].cat)){
+		percentage = competitorlist[0].strengthpercentage;}
+		var chance = Math.random()*100;
+		if (chance < percentage){quescoropp++;score002.innerHTML = s+=1;}
 	if ((question25 == question001[vraag].answ) || (question25 == question001[vraag].answ3) || (similarity1 >= 0.8) || (similarity2 >= 0.8)) {
             	message003.innerHTML = "Correct!";
 	    	message006.innerHTML =  "";
@@ -3436,7 +3442,8 @@ else if (question25.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    	message005.innerHTML = "";
 	    	incmusic.play();
             	message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
-            }
+            	percentage = competitorlist[0].percentage;
+	    }
 }
 if (opened == 1){checkerq1();}
 if (opened == 2){checkerq2();}
@@ -4793,6 +4800,16 @@ score002.innerHTML = s+=1;
 }
 else if (a == 29){
 		message001.innerHTML = question001[17].ques;
+if ((competitorlist[0].strength1 == question001[17].cat) || (competitorlist[0].strength2 == question001[17].cat) || (competitorlist[0].strength3 == question001[17].cat) || (competitorlist[0].strength4 == question001[17].cat) || (competitorlist[0].strength5 == question001[17].cat) || (competitorlist[0].strength6 == question001[17].cat)){
+percentage = competitorlist[0].strengthpercentage;}
+var chance = Math.random() * 100;
+	   posspoints+=1;
+	   posspointsopp+=1;
+	   quescountopp++;
+if (chance < percentage){
+quescoropp++;
+score002.innerHTML = s+=1;
+}	
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             	message003.innerHTML = "The correct answer is " + question001[17].answ2;
@@ -4803,6 +4820,16 @@ else if (a == 29){
 }
 else if ((a == 30) || (a == 31) || (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37) || (a == 38)) {
 		message001.innerHTML = question001[vraag].ques;
+if ((competitorlist[0].strength1 == question001[vraag].cat) || (competitorlist[0].strength2 == question001[vraag].cat) || (competitorlist[0].strength3 == question001[vraag].cat) || (competitorlist[0].strength4 == question001[vraag].cat) || (competitorlist[0].strength5 == question001[vraag].cat) || (competitorlist[0].strength6 == question001[vraag].cat)){
+percentage = competitorlist[0].strengthpercentage;}
+var chance = Math.random() * 100;
+	   posspoints+=1;
+	   posspointsopp+=1;
+	   quescountopp++;
+if (chance < percentage){
+quescoropp++;
+score002.innerHTML = s+=1;
+}
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
             	message003.innerHTML = "The correct answer is " + question001[vraag].answ2;

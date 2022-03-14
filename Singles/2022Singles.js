@@ -4832,6 +4832,14 @@ if (chance < percentage){
 quescoropp++;
 score002.innerHTML = s+=1;
 }
+		document.getElementById("submit2").style.visibility = "hidden";
+	    	document.getElementById("submit2").style.display = "none";
+            	message003.innerHTML = "The correct answer is " + question001[vraag].answ2;
+	    	message006.innerHTML =  "";
+	        incmusic.play();
+	   	posspoints+=1;
+            	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+}
 else if (opened == 1)
 {
 		message001.innerHTML = compcat[0].ques;

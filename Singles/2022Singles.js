@@ -2040,6 +2040,8 @@ else {next001();}
 }
 function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/2022SinglesTournament.html");}
 function winKO(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -2076,6 +2078,8 @@ function winKO(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseKO(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -2111,6 +2115,8 @@ function loseKO(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -2147,6 +2153,8 @@ function winTKO(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function loseTKO(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -2182,6 +2190,8 @@ function loseTKO(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -2217,6 +2227,8 @@ function win(){
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function lose(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -4100,6 +4112,8 @@ else if (b < s){lose();}
 	if (b > s){win();}
 	else if (b < s){lose();}
 	else if (b == s) {
+		qmusic.pause();
+		qmusic.currentTime = 0;
 	    	document.getElementById("JTE").style.visibility = "hidden";
                 window.clearInterval(update);
                 c = "-";

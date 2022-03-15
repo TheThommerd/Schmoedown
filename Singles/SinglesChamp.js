@@ -2836,7 +2836,7 @@ document.getElementById("sub").style.display = "none";
 document.getElementById("mc").style.display = "none";
 }
 var sdnr = 8;
-var vraag = 19;
+var vraag = 17;
 var sdvraag = 7;
 function next001() {
 		qmusic.play();

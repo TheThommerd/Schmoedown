@@ -2597,7 +2597,7 @@ else if (question24.length <= 4){similarity1 = 0;similarity2 = 0;}
 		percentage = competitorlist[0].percentage;
 	     }
             else if (question24 != question001[19].answ) {
-            	message003.innerHTML = "Incorrect. The correct answer is " + question001[17].answ2;
+            	message003.innerHTML = "Incorrect. The correct answer is " + question001[19].answ2;
 	    	message006.innerHTML =  "";
 	    	message005.innerHTML = "";
 	    	incmusic.play();

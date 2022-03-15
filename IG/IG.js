@@ -3128,8 +3128,6 @@ if (b > s){win();}
 else if (b < s){lose();}
 }
 else if (((a == 29) || (a == 30) || (a == 31)|| (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37)) && (b == s)){
-		qmusic.pause();
-		qmusic.currentTime = 0;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";        
 		update = setInterval("timer001()", 1000);

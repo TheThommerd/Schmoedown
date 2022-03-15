@@ -81,6 +81,8 @@ message004.innerHTML = "<select id=select><option value=Andreyko>Marc Andreyko</
 	message001.innerHTML = "Choose your opponent.";
 }
 function winKO(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -117,6 +119,8 @@ document.getElementById("passwordsaverSemi").value = "SHIREWOLVES";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function winTKO(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);
@@ -153,6 +157,8 @@ document.getElementById("passwordsaverSemi").value = "SHIREWOLVES";
 		document.getElementById("message006").style.fontSize = "110%";
 }
 function win(){
+		qmusic.pause();
+		qmusic.currentTime = 0;
 		document.getElementById("JTE").style.display = "none";
 		document.getElementById("time001").style.display = "none";
                 window.clearInterval(update);

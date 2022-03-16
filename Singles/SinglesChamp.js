@@ -1299,12 +1299,12 @@ if (mc == 4){message004.innerHTML = "<button class=buttons002 onclick=bettingrou
             window.clearInterval(update);
 	    incmusic.play();
             c = "-";
+		message002.innerHTML = "";
+	    	message006.innerHTML = "";
+            	message005.innerHTML = "";
 if (mc == 0){
 	   quescount++;
 	   posspoints+=1;
-	    message002.innerHTML = "";
-	    message006.innerHTML = "";
-            message005.innerHTML = "";
 	if (a == 11){
             message003.innerHTML = "Incorrect. The correct answer is " + r2question001[0].answ2 ;
 	   posspointsopp+=1;

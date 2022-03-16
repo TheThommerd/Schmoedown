@@ -1040,6 +1040,9 @@ if (mc == 4){message004.innerHTML = "<button class=buttons002 onclick=next005()>
 		document.getElementById("message003").style.top = "-10px";
 		document.getElementById("message004").style.top = "0px";
 		document.getElementById("message006").style.top = "-10px";
+		message002.innerHTML = "";
+	    	message006.innerHTML = "";
+            	message005.innerHTML = "";
 	   quescount++;
 	   posspoints+=1;
 	    document.getElementById("JTE").style.visibility = "hidden";

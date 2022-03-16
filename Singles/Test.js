@@ -956,6 +956,7 @@ else if (j == 0) {
 	    document.getElementById("background").src = "Singles - NoJTE.png";
 	    }
 }
+}	
 else if (j < 0) {
             message005.innerHTML = "No repeats left!";
 	    }

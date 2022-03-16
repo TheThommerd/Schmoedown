@@ -4371,6 +4371,17 @@ if (speed == 6){
 function speedtimer001() {
             t = t - 1;
             if (t < 1) { 
+		    if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+document.getElementById("message001").style.visibility = "visible";
+	}
 		qmusic.pause();
 		qmusic.currentTime = 0;
 		document.getElementById("message003").style.top = "-50px";

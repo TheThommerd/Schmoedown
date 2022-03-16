@@ -4776,6 +4776,7 @@ else if (speed == 5){
 }
 var nobody = 0 ; 
 function speedquestions() {
+	if (difficult == 1){clearTimeout(hidemessage);clearTimeout(typeTimer);}
 qmusic.play();
 text = "";
 delay = 40;

@@ -3268,6 +3268,7 @@ document.getElementById("message001").style.visibility = "visible";
 	   quescount++;
 document.getElementById("message003").style.top = "0px";
 document.getElementById("message004").style.top = "10px";
+document.getElementById("message004").style.display = "initial";		    
 document.getElementById("message006").style.top = "0px";
 document.getElementById("JTE").style.visibility = "hidden";
 if (a == 2){

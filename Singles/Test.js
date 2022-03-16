@@ -856,6 +856,9 @@ function begin001() {
 	    document.getElementById("message005").style.top = "15px";
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "40px";
+	    document.getElementById("message004").style = "initial";
+	    document.getElementById("message004").style.display = "none";
+	    if (document.getElementById("toggleButton").checked == true){difficult++;}
             message001.innerHTML = question001[0].ques;
 	    if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
@@ -1676,6 +1679,7 @@ document.getElementById("message001").style.visibility = "visible";
 	qmusic.currentTime = 0;	
 	similarity1 = 0;
 	similarity2 = 0;
+	document.getElementById("message004").style.display = "initial";
 	document.getElementById("message003").style.top = "0px";
 	document.getElementById("message004").style.top = "10px";
 	document.getElementById("message006").style.top = "0px";

@@ -21,9 +21,15 @@ intromusic.play();
 var percentage = 0;
 var percentage3 = 0;
 var percentage5 = 0;
+function message(){document.getElementById("message001").style.visibility = "hidden";}
+var text = "";
+var delay = 40;
+var currentChar = 1;
+var destination = "[none]";
+var typeTimer = null;
 var hidemessage = null;
+var typing = true;
 var difficult = 0;
-
 function type(tick)
 {
     var dest = document.getElementById(destination);
@@ -36,7 +42,7 @@ function type(tick)
         {
             currentChar = 1;
             tick = 9999999999999999;
-	    hidemessage = setTimeout(function() { message()}, 3000);
+	    hidemessage = setTimeout(function() { message()}, 2000);
         }
         typeTimer = setTimeout(function() { type(delay); }, tick);
     }

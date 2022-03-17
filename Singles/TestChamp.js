@@ -4711,6 +4711,7 @@ function bettinground2() {
 function speedquestions2() {	
 		pauseTyping();
 		bettingbool = 0;
+		if (difficult == 1){document.getElementById("message001").style.visibility = "hidden";}
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("time001").style.display = "initial";
 	        message003.innerHTML = "";

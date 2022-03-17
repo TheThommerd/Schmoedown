@@ -6139,6 +6139,7 @@ function bettinground2() {
 function speedquestions2() {	
 		pauseTyping();
 		bettingbool = 0;
+		if (difficult == 1){hidemessage = setTimeout(function() { message()}, 2000);}
 	    	document.getElementById("chart").style.visibility = "hidden";
 	    	document.getElementById("time001").style.display = "initial";
 	    	document.getElementById("message004").style.display = "initial";

@@ -1012,11 +1012,11 @@ if (mc == 0){
             score001.innerHTML = b+=1;
 	if ((a == 13) ||(a == 14)||(a == 15)||(a == 16)){message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}  
 	if (a == 17){message004.innerHTML = "<button class=buttons002 onclick=next004()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";}
-	if (a == 13){r2question001[0].ques;}
-	if (a == 14){r2question001[4].ques;}
-	if (a == 15){r2question001[1].ques;}
-	if (a == 16){r2question001[2].ques;}
-	if (a == 17){r2question001[3].ques;}
+	if (a == 13){message001.innerHTML = r2question001[0].ques;}
+	if (a == 14){message001.innerHTML = r2question001[4].ques;}
+	if (a == 15){message001.innerHTML = r2question001[1].ques;}
+	if (a == 16){message001.innerHTML = r2question001[2].ques;}
+	if (a == 17){message001.innerHTML = r2question001[3].ques;}
 }
 if (mc != 0){
 	    document.getElementById("message004").style.top = "-75px";

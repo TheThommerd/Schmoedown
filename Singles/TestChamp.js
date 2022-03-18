@@ -4411,23 +4411,23 @@ else if (nobody == 1){
  		posspointsopp+=1;
  		posspoints+=1;
 }
-if (speed == 1) {
+if (speed == 1) {message001.innerHTML = speedquestion001[0].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[0].answ2;
 }
-else if (speed == 2) {
+else if (speed == 2) {message001.innerHTML = speedquestion001[1].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[1].answ2;
 }
-else if (speed == 3) {
+else if (speed == 3) {message001.innerHTML = speedquestion001[2].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[2].answ2;
 }
-else if (speed == 4) {
+else if (speed == 4) {message001.innerHTML = speedquestion001[3].ques;
             message004.innerHTML = "<button class=buttons002 onclick=speedquestions()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[3].answ2;
 }
-else if (speed == 5) {
+else if (speed == 5) {message001.innerHTML = speedquestion001[4].ques;
             message004.innerHTML = "<button class=buttons002 onclick=next005()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
             message006.innerHTML = "The correct answer is " + speedquestion001[4].answ2;
 }

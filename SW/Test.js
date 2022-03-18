@@ -725,6 +725,7 @@ function begin001() {
 	    document.getElementById("message006").style.position = "relative";
 	    document.getElementById("message006").style.top = "-35px";
             message001.innerHTML = question001[0].ques;
+	    if (difficult == 1){message001.innerHTML = " ";startTyping(question001[0].ques, 40, "message001");}
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
             message003.innerHTML = "";
             message005.innerHTML = "";

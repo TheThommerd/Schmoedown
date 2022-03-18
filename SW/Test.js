@@ -97,7 +97,7 @@ function pregame(){
 	document.getElementById("message006").style.position = "relative";
 	document.getElementById("message006").style.top = "-155px";
 	message004.innerHTML = "<div class=tooltip>Increased difficulty<span class=tooltiptext>Enabling this button makes the questions disappear after they've been read</span></div>" + "<br>" + "<label class=switch><input id=toggleButton type=checkbox ><span class='slider round'></span></label>";
-	document.getElementById("message004").style.top = "-495px";
+	document.getElementById("message004").style.top = "-555px";
 	document.getElementById("message004").style.left = "-387px";
 	document.getElementById("message004").style.fontSize = "70%";
 }

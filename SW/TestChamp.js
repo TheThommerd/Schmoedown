@@ -876,6 +876,58 @@ function begin001() {
 function JTE(){
 document.getElementById("q1").focus();
 if ((c != 0) && (c < 15)) {
+	if (j >= 0) {
+	if (difficult == 1){
+clearTimeout(hidemessage);
+clearTimeout(typeTimer);
+text = "";
+delay = 40;
+currentChar = 1;
+destination = "[none]";
+typeTimer = null;
+typing = true;
+message001.innerHTML = " ";
+document.getElementById("message001").style.visibility = "visible";
+if ((a == 2) && (bettingbool == 0)){startTyping(question001[0].ques, 40, "message001");}
+if ((a == 3) && (bettingbool == 0)){startTyping(question001[1].ques, 40, "message001");}
+if ((a == 4) && (bettingbool == 0)){startTyping(question001[2].ques, 40, "message001");}
+if ((a == 5) && (bettingbool == 0)){startTyping(question001[3].ques, 40, "message001");}
+if ((a == 6) && (bettingbool == 0)){startTyping(question001[4].ques, 40, "message001");}
+if ((a == 7) && (bettingbool == 0)){startTyping(question001[14].ques, 40, "message001");}
+if ((a == 8) && (bettingbool == 0)){startTyping(question001[15].ques, 40, "message001");}
+if ((a == 9) && (bettingbool == 0)){startTyping(question001[5].ques, 40, "message001");}
+if ((a == 10 && (bettingbool == 0))){startTyping(question001[6].ques, 40, "message001");}
+if ((a == 11) && (bettingbool == 0)){startTyping(question001[7].ques, 40, "message001");}
+if ((a == 12) && (bettingbool == 0)){startTyping(question001[9].ques, 40, "message001");}
+if ((a == 13) && (bettingbool == 0)){startTyping(r2question001[0].ques, 40, "message001");}
+if ((a == 14) && (bettingbool == 0)){startTyping(r2question001[4].ques, 40, "message001");}
+if ((a == 15) && (bettingbool == 0)){startTyping(r2question001[1].ques, 40, "message001");}
+if ((a == 16) && (bettingbool == 0)){startTyping(r2question001[2].ques, 40, "message001");}
+if ((a == 17) && (opened == 0) && (mc == 0) && (bettingbool == 0)){startTyping(r2question001[3].ques, 40, "message001");}
+if ((a == 18) && (bettingbool == 0)){startTyping(question001[8].ques, 40, "message001");}
+if ((a == 19) && (bettingbool == 0)){startTyping(threepointer001[0].ques, 40, "message001");}
+if ((a == 20) && (bettingbool == 0)){startTyping(fivepointer001[0].ques, 40, "message001");}
+if ((a == 22) && (bettingbool == 0)){startTyping(question001[10].ques, 40, "message001");}
+if ((a == 23) && (bettingbool == 0)){startTyping(question001[11].ques, 40, "message001");}
+if ((a == 24) && (bettingbool == 0)){startTyping(question001[12].ques, 40, "message001");}
+if ((a == 25) && (bettingbool == 0)){startTyping(question001[13].ques, 40, "message001");}
+if ((a == 26) && (bettingbool == 0)){startTyping(question001[16].ques, 40, "message001");}
+if ((a == 27) && (bettingbool == 0)){startTyping(question001[17].ques, 40, "message001");}
+if ((a == 28) && (bettingbool == 0)){startTyping(question001[18].ques, 40, "message001");}
+if ((a == 29) && (bettingbool == 0)){startTyping(question001[19].ques, 40, "message001");}
+if (((a == 30) || (a == 31) || (a == 32) || (a == 33) || (a == 34) || (a == 35) || (a == 36) || (a == 37) || (a == 38)) && (bettingbool == 0)){ startTyping(question001[vraag].ques, 40, "message001");}
+if ((opened == 1) && (bettingbool == 0)){startTyping(compcat[0].ques, 40, "message001");}
+if ((opened == 2) && (bettingbool == 0)){startTyping(compcat[1].ques, 40, "message001");}
+if ((opened == 3) && (bettingbool == 0)){startTyping(compcat[2].ques, 40, "message001");}
+if ((opened == 4) && (bettingbool == 0)){startTyping(compcat[3].ques, 40, "message001");}
+if ((opened == 5) && (bettingbool == 0)){startTyping(compcat[4].ques, 40, "message001");}
+if ((mc == 1) && (bettingbool == 0)){startTyping(compcat[5].ques, 40, "message001");}
+if ((mc == 2) && (bettingbool == 0)){startTyping(compcat[6].ques, 40, "message001");}
+if ((mc == 3) && (bettingbool == 0)){startTyping(compcat[7].ques, 40, "message001");}
+if ((mc == 4) && (bettingbool == 0)){startTyping(compcat[8].ques, 40, "message001");}
+if ((mc == 5) && (bettingbool == 0)){startTyping(compcat[9].ques, 40, "message001");}
+if (bettingbool == 1){startTyping(bettingquestion001[8].ques, 40, "message001");}		
+	}
 if (j == 3) {
             c = 16;
              j--;
@@ -915,6 +967,7 @@ else if (j == 0) {
              j--;
 	     document.getElementById("background").src = "Nothing.png";
 	    }
+}
 }
 else if (j < 0) {
             message005.innerHTML = "No repeats left!";

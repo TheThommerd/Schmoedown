@@ -63,7 +63,7 @@ function type(tick)
         {
             currentChar = 1;
             tick = 9999999999999999;
-		if (difficult == 1){hidemessage = setTimeout(function() { message()}, 3000);}
+		if (difficult == 1){hidemessage = setTimeout(function() { message()}, 2000);}
         }
         typeTimer = setTimeout(function() { type(delay); }, tick);
     }

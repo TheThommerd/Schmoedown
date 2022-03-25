@@ -868,6 +868,7 @@ else if (data[random] == r2Q89[0].cat){compcat = r2Q89;}
 else if (data[random] == r2Q90[0].cat){compcat = r2Q90;}
 else if (data[random] == r2Q91[0].cat){compcat = r2Q91;}
 else if (data[random] == r2Q92[0].cat){compcat = r2Q92;}
+else if (data[random] == r2Q93[0].cat){compcat = r2Q93;}
 compcat = shuffle(compcat);
 }
 var opponentspun = "0";
@@ -1300,6 +1301,7 @@ else if (data[picked] == r2Q89[0].cat){r2question001 = r2Q89;}
 else if (data[picked] == r2Q90[0].cat){r2question001 = r2Q90;}
 else if (data[picked] == r2Q91[0].cat){r2question001 = r2Q91;}
 else if (data[picked] == r2Q92[0].cat){r2question001 = r2Q92;}
+else if (data[picked] == r2Q93[0].cat){r2question001 = r2Q93;}
 r2question001 = shuffle(r2question001); 
 }
 function mystery() {
@@ -1324,6 +1326,7 @@ else if (rand2 < 85){r2question001 = r2Q89;}
 else if (rand2 < 90){r2question001 = r2Q90;}
 else if (rand2 < 95){r2question001 = r2Q91;}
 else if (rand2 < 100){r2question001 = r2Q92;}
+else if (rand2 < 100){r2question001 = r2Q93;}	
 r2question001 = shuffle(r2question001); 
 }
 function mysterycompcat() {
@@ -1348,6 +1351,7 @@ else if (rand2 < 85){compcat = r2Q89;}
 else if (rand2 < 90){compcat = r2Q90;}
 else if (rand2 < 95){compcat = r2Q91;}
 else if (rand2 < 100){compcat = r2Q92;}
+else if (rand2 < 100){compcat = r2Q93;}	
 compcat = shuffle(compcat); 
 }
 var difficult = 0;

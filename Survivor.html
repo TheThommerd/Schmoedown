@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, height=device-height">
+<script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<link rel="stylesheet" href="Free4All.css">
+</head>
+<body onload="load()">
+<audio id="myAudio"><source src="/Schmoedown/Media/Ding_Sound_Effect.mp3" type="audio/mpeg"></audio>
+<audio id="myAudio2"><source src="/Schmoedown/Media/Wrong_Buzzer_Sound_Effect.mp3" type="audio/mpeg"></audio>
+<audio id="QMusic"><source src="/Schmoedown/Media/Question.mp3" type="audio/mpeg"></audio>	
+<audio id="Intro"><source src="/Schmoedown/Media/Intro.wav" type="audio/wav"></audio>
+<button id="goFS" class="goFS">Go fullscreen</button>
+<div id="frame001"><div id="font001"><div class="background"><img id="background" src="free4all.png" alt=""><div><p id="qu001">QUESTION 0</text><p id="message001">Enter your name.</p><p id="player001">CHALLENGER</p><p id="player002">OPPONENT1</p><p id="player003">OPPONENT2</p><p id="player004">OPPONENT3</p><p id="player005">OPPONENT4</p><p id="score001">0</p><p id="score002">0</p><p id="score003">0</p><p id="score004">0</p><p id="score005">0</p><p id="twitter001">@Challenger1</p><p id="twitter002">@Opponent2</p><p id="twitter003">@Opponent3</p><p id="twitter004">@Opponent4</p><p id="twitter005">@Opponent5</p><p id="round002">ROUND <text id="round001">1</text></p><p id="nummer1">#1</p><p id="nummer2">#2</p><p id="nummer3">#3</p><p id="nummer4">#4</p><p id="nummer5">#5</p></div></div><text id="time001"></text><br><button id=submit class=buttons008 onclick=checker() hidden>Submit</button><br>
+<p id="message005"></p><p id="message002"></p><p id="message003"></p><p id="message006"></p><p id="message004"></p></div>
+<form id="save-later-form-Free4All"><input name="3" value="CHALLENGER" type="text" id="naam" required hidden></input><input name="4" value="@Challenger" type="text" id="twitt" required hidden></input><input name="AnsweredQuestions_F4" value="0" type="number" id="AnsweredQuestions_F4" required hidden><input name="CorrectQuestions_F4" value="0" type="number" id="CorrectQuestions_F4" required hidden><input name="PossiblePoints_F4" value="0" type="number" id="PossiblePoints_F4" required hidden><input name="TotalPoints_F4" value="0" type="number" id="TotalPoints_F4" required hidden></input><input name="Wins_F4" value="0" type="number" id="wins_F4" required hidden><input name="Losses_F4" value="0" type="number" id="losses_F4" required hidden></form><button type="submit" id="save" hidden>Save</button></br></div>
+<script src="Free4all.js" charset="utf-8"></script>
+<script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="Free4All_Bib.js"></script>
+<script src="Free4All_record.js"></script>
+</body>
+</html>

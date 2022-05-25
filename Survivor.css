@@ -386,87 +386,82 @@ display: none;
     display: flex;
     justify-content: center;
     align-content: center;
-}
-#twitter001 {
-    font-size: 60%;
+}#score006 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
     background: none repeat scroll 0;
     position: absolute;
-    top: 82.7%;
-    left: 13.1%;
+    top: 47.1%;
+    left: 92%;
     text-align: center;
     margin: auto;
-    width: 160px;
-    height: 16px;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-}
-#twitter002 {
-    font-size: 60%;
+}#score007 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
     background: none repeat scroll 0;
     position: absolute;
-    top: 82.7%;
-    left: 30.5%;
+    top: 47.1%;
+    left: 92%;
     text-align: center;
     margin: auto;
-    width: 160px;
-    height: 16px;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-}
-#twitter003 {
-    font-size: 60%;
+}#score008 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
     background: none repeat scroll 0;
     position: absolute;
-    top: 82.7%;
-    left: 47.9%;
+    top: 47.1%;
+    left: 92%;
     text-align: center;
     margin: auto;
-    width: 160px;
-    height: 16px;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-}
-#twitter004 {
-    font-size: 60%;
+}#score009 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
     background: none repeat scroll 0;
     position: absolute;
-    top: 82.7%;
-    left: 65.5%;
+    top: 47.1%;
+    left: 92%;
     text-align: center;
     margin: auto;
-    width: 160px;
-    height: 16px;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
-}
-#twitter005 {
-    font-size: 60%;
+}#score010 {
+    font-size: 180%;
     font-weight: bold;
     color: white;
     background: none repeat scroll 0;
     position: absolute;
-    top: 82.7%;
-    left: 82.9%;
+    top: 47.1%;
+    left: 92%;
     text-align: center;
     margin: auto;
-    width: 160px;
-    height: 16px;
+    width: 73px;
+    height: 62px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -557,91 +552,6 @@ display: none;
             font-size: 80%;
             color: black;
         }
-    #nummer1 {
-    font-size: 60%;
-    font-weight: bold;
-    color: white;
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 71.2%;
-    left: 13.3%;
-    text-align: center;
-    margin: auto;
-    width: 80px;
-    height: 18px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#nummer2 {
-    font-size: 60%;
-    font-weight: bold;
-    color: white;
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 71.2%;
-    left: 30.7%;
-    text-align: center;
-    margin: auto;
-    width: 80px;
-    height: 18px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#nummer3 {
-    font-size: 60%;
-    font-weight: bold;
-    color: white;
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 71.2%;
-    left: 48.1%;
-    text-align: center;
-    margin: auto;
-    width: 80px;
-    height: 18px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#nummer4 {
-    font-size: 60%;
-    font-weight: bold;
-    color: white;
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 71.2%;
-    left: 65.6%;
-    text-align: center;
-    margin: auto;
-    width: 80px;
-    height: 18px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-#nummer5 {
-    font-size: 60%;
-    font-weight: bold;
-    color: white;
-    background: none repeat scroll 0;
-    position: absolute;
-    top: 71.2%;
-    left: 83%;
-    text-align: center;
-    margin: auto;
-    width: 80px;
-    height: 18px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
         #message005 {
 	   position: relative;
 	    top : -380px;

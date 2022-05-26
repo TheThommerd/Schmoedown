@@ -23,10 +23,95 @@ intromusic.play();
 var similarity1 = 0;
 var similarity2 = 0;
 var competitorlist = [
+	{
+"id": "Del Rio",
+"lowercase": "David Del Rio",
+"percentage": "62",
+},
+	{
+"id": "Dhandapani",
+"lowercase": "Chandru Dhandapani",
+"percentage": "55",
+},
+	{
+"id": "Dolph",
+"lowercase": "Claudia Dolph",
+"percentage": "53",
+},
+	{
+"id": "Gertler",
+"lowercase": "Adam Gertler",
+"percentage": "50",
+},
+	{
+"id": "Heuck",
+"lowercase": "Marc Edward Heuck",
+"percentage": "66",
+},
+	{
+"id": "Kempe",
+"lowercase": "Jen Kempe",
+"percentage": "60",
+},
+	{
+"id": "Lieberman",
+"lowercase": "Ty Lieberman",
+"percentage": "70",
+},
+	{
+"id": "Kan",
+"lowercase": "Jeffrey Kan",
+"percentage": "70",
+},
+	{
+"id": "Sullivan",
+"lowercase": "Sean Sullivan",
+"percentage": "54",
+},
+	{
+"id": "Wiggins",
+"lowercase": "Klee Wiggins",
+"percentage": "62",
+},
+	{
+"id": "Gubbins",
+"lowercase": "Peggy Gubbins",
+"percentage": "62",
+},
+	{
+"id": "Lomis",
+"lowercase": "Brother Lomis",
+"percentage": "63",
+},
+	{
+"id": "Raddus",
+"lowercase": "Rick Raddus",
+"percentage": "70",
+},
+	{
+"id": "Harley",
+"lowercase": "Nick Harley",
+"percentage": "75",
+},
+	{
+"id": "Frabetti",
+"lowercase": "Paige Frabetti",
+"percentage": "67",
+},
 {
-"id": "Dewberry",
-"lowercase": "Eliot Dewberry",
-"percentage": "52",
+"id": "Alvarez",
+"lowercase": "Frankie Alvarez",
+"percentage": "68",
+},
+	{
+"id": "Database",
+"lowercase": "The Database",
+"percentage": "72",
+},
+	{
+"id": "Schloth",
+"lowercase": "Jessica Schloth",
+"percentage": "65",
 },
 {
 "id": "Bateman",
@@ -174,11 +259,6 @@ var competitorlist = [
 "percentage": "78",
 },
 {
-"id": "Napzok",
-"lowercase": "Ken Napzok",
-"percentage": "59",
-},
-{
 "id": "Preston",
 "lowercase": "Paul Preston",
 "percentage": "80",
@@ -224,19 +304,9 @@ var competitorlist = [
 "percentage": "80",
 },
 {
-"id": "Heuck",
-"lowercase": "Marc Heuck",
-"percentage": "73",
-},
-{
 "id": "Witt",
 "lowercase": "Adam Witt",
 "percentage": "60",
-},
-{
-"id": "Butler III",
-"lowercase": "Robert Butler III",
-"percentage": "45",
 },
 {
 "id": "Smets",
@@ -244,19 +314,9 @@ var competitorlist = [
 "percentage": "67",
 },
 {
-"id": "Franco",
-"lowercase": "Tim Franco",
-"percentage": "70",
-},
-{
 "id": "Knopic",
 "lowercase": "Mara Knopic",
 "percentage": "66",
-},
-{
-"id": "Flouse",
-"lowercase": "Zaflertinflouse",
-"percentage": "30",
 },
 {
 "id": "Collins",
@@ -271,11 +331,6 @@ var competitorlist = [
 {
 "id": "Bancroft",
 "lowercase": "Jacoby Bancroft",
-"percentage": "76",
-},
-{
-"id": "Blunden",
-"lowercase": "Jacob Blunden",
 "percentage": "76",
 },
 {
@@ -297,11 +352,6 @@ var competitorlist = [
 "id": "Saul",
 "lowercase": "Saul",
 "percentage": "63",
-},
-{
-"id": "Smith",
-"lowercase": "Kevin Smith",
-"percentage": "70",
 },
 {
 "id": "Paramo",
@@ -327,31 +377,6 @@ var competitorlist = [
 "id": "White",
 "lowercase": "James White",
 "percentage": "75",
-},
-{
-"id": "Chandler",
-"lowercase": "Brianne Chandler",
-"percentage": "67",
-},
-{
-"id": "Washington",
-"lowercase": "Jay Washington",
-"percentage": "50",
-},
-{
-"id": "Fyffe",
-"lowercase": "Emma Fyffe",
-"percentage": "52",
-},
-{
-"id": "Graves",
-"lowercase": "Sabina Graves",
-"percentage": "45",
-},
-{
-"id": "Montano",
-"lowercase": "Robert Montano",
-"percentage": "62",
 },
 ];
 var percentage = 0;
@@ -431,7 +456,7 @@ function skip () {
 function newLoc() {window.location.assign("https://thethommerd.github.io/Schmoedown/Survivor.html");}
 function choosecomp(){
 		document.getElementById("checkboxes").style.display = "initial";
-checkboxes.innerHTML = "<div id=row1><label class=checkbox-label><input type=checkbox id=Alba value=Alba>Greg Alba</label><br/><label class=checkbox-label><input type=checkbox id=Andreyko value=Andreyko>Marc Andreyko</label><br/><label class=checkbox-label><input type=checkbox id=Atchity value=Atchity>Matt Atchity</label><br/><label class=checkbox-label><input type=checkbox id=Bancroft value=Bancroft>Jacoby Bancroft</label><br/><label class=checkbox-label><input type=checkbox id=Barbarian value=Barbarian>Barbarian</label><br/><label class=checkbox-label><input type=checkbox id=Bateman value=Bateman>Ben Bateman</label><br/><label class=checkbox-label><input type=checkbox id=Bibbiani value=Bibbiani>William Bibbiani</label><br/><label class=checkbox-label><input type=checkbox id=Rio value='Del Rio'>David Del Rio</label><br/><label class=checkbox-label><input type=checkbox id=Dewberry value=Dewberry>Eliot Dewberry</label><br/><label class=checkbox-label><input type=checkbox id=Dhandapani value=Dhandapani>Chandru Dhandapani</label><br/><label class=checkbox-label><input type=checkbox id=Dolph value=Dolph>Claudia Dolph</label><br/><label class=checkbox-label><input type=checkbox id=Drake value=Drake>Grae Drake</label><br/><label class=checkbox-label><input type=checkbox id=Duralde value=Duralde>Alonso Duralde</label><br/><label class=checkbox-label><input type=checkbox id=Ellison value=Ellison>Chance Ellison</label><br/><label class=checkbox-label><input type=checkbox id=Erwin value=Erwin>Ethan Erwin</label><br/><label class=checkbox-label><input type=checkbox id=Foutch value=Foutch>Haleigh Foutch</label><br/><label class=checkbox-label><input type=checkbox id=Gertler value=Gertler>Adam Gertler</label><br/><label class=checkbox-label><input type=checkbox id=Ghai value=Ghai>Andrew Ghai</label><br/><label class=checkbox-label><input type=checkbox id=Grant value=Grant>Drew Grant</label><br/><label class=checkbox-label><input type=checkbox id=Hanna value=Hanna>Brandon Hanna</label><br/><label class=checkbox-label><input type=checkbox id=HarrisJ value=HarrisJ>Jonathan Harris</label><br/><label class=checkbox-label><input type=checkbox id=HarrisL value=HarrisL>Lon Harris</label><br/><label class=checkbox-label><input type=checkbox id=Howard value=Howard>Stacy Howard</label><br/><label class=checkbox-label><input type=checkbox id=Humphrey value=Humphrey>John Humphrey</label><br/><label class=checkbox-label><input type=checkbox id=JTE value=JTE>JTE</label><br/><label class=checkbox-label><input type=checkbox id=Kalinowski value=Kalinowski>Mike Kalinowski</label><br/><label class=checkbox-label><input type=checkbox id=Kempe value=Kempe>Jen Kempe</label><br/><label class=checkbox-label><input type=checkbox id=Lieberman value=Lieberman>Ty Lieberman</label><br/><label class=checkbox-label><input type=checkbox id=Jeannine value=Jeannine>Jeannine</label><br/><label class=checkbox-label><input type=checkbox id=Macuga value=Macuga>Josh Macuga</label><br/><label class=checkbox-label><input type=checkbox id=Mancuso value=Mancuso>Vinnie Mancuso</label><br/><label class=checkbox-label><input type=checkbox id=McKee value=McKee>Marisol McKee</label><br/><label class=checkbox-label><input type=checkbox id=Collins value=Collins>Adam Collins</label><br/><label class=checkbox-label><input type=checkbox id=Newman value=Newman>Griffin Newman</label><br/><label class=checkbox-label><input type=checkbox id=Kan value=Kan>Jeffrey Kan</label><br/><label class=checkbox-label><input type=checkbox id=McWeeny value=McWeeny>Drew McWeeny</label><br/></div><div id=row2><label class=checkbox2><input type=checkbox id=Meyer value=Meyer>Brendan Meyer</label><br/><label class=checkbox2><input type=checkbox id=Miller value=Miller>Liz Shannon Miller</label><br/><label class=checkbox2><input type=checkbox id=Murrell value=Murrell>Dan Murrell</label><br/><label class=checkbox2><input type=checkbox id=Knopic value=Knopic>Mara Knopic</label><br/><label class=checkbox2><input type=checkbox id=Nemiroff value=Nemiroff>Perri Nemiroff</label><br/><label class=checkbox2><input type=checkbox id=Paramo value=Paramo>Jader Paramo</label><br/><label class=checkbox2><input type=checkbox id=Preston value=Preston>Paul Preston</label><br/><label class=checkbox2><input type=checkbox id=Oyama value=Oyama>Paul Oyama</label><br/><label class=checkbox2><input type=checkbox id=Levine value=Levine>Samm Levine</label><br/><label class=checkbox2><input type=checkbox id=Reilly value=Reilly>Mark Reilly</label><br/><label class=checkbox2><input type=checkbox id=Rocha value=Rocha>John Rocha</label><br/><label class=checkbox2><input type=checkbox id=Saul value=Saul>Saul</label><br/><label class=checkbox2><input type=checkbox id=Seibold value=Seibold>Witney Seibold</label><br/><label class=checkbox2><input type=checkbox id=Silvestrini value=Silvestrini>Rachel Silvestrini</label><br/><label class=checkbox2><input type=checkbox id=Smets value=Smets>Kevin Smets</label><br/><label class=checkbox2><input type=checkbox id=Sneider value=Sneider>Jeff Sneider</label><br/><label class=checkbox2><input type=checkbox id=Sullivan value=Sullivan>Sean Sullivan</label><br/><label class=checkbox2><input type=checkbox id=Tom value=Tom>Tom</label><br/><label class=checkbox2><input type=checkbox id=White value=White>James White</label><br/><label class=checkbox2><input type=checkbox id=Wiggins value=Wiggins>Klee Wiggins</label><br/><label class=checkbox2><input type=checkbox id=Zipper value=Zipper>Eric Zipper</label><br/><label class=checkbox2><input type=checkbox id=Wolfe value=Clarke Wolfe>Clarke Wolfe</label><br/><label class=checkbox2><input type=checkbox id=Cushing value=Cushing>Rachel Cushing</label><br/><label class=checkbox2><input type=checkbox id=Witt value=Witt>Adam Witt</label><br/><label class=checkbox2><input type=checkbox id=Gubbins value=Gubbins>Peggy Gubbins</label><br/><label class=checkbox2><input type=checkbox id=Lomis value=Lomis>Brother Lomis</label><br/><label class=checkbox2><input type=checkbox id=Raddus value=Raddus>Rick Raddus</label><br/><label class=checkbox2><input type=checkbox id=Harley value=Harley>Nick Harley</label><br/><label class=checkbox2><input type=checkbox id=Frabetti value=Frabetti>Paige Frabetti</label><br/><label class=checkbox2><input type=checkbox id=Horowitz value=Horowitz>Josh Horowitz</label><br/><label class=checkbox2><input type=checkbox id=Alvarez value=Alvarez>Freddie Alvarez</label><br/><label class=checkbox2><input type=checkbox id=Database value=Database>The Database</label><br/><label class=checkbox2><input type=checkbox id=Schloth value=Schloth>Jessica Schloth</label><br/><label class=checkbox2><input type=checkbox id=Dagnino value=Dagnino>Tom Dagnino</label><br/><label class=checkbox2><input type=checkbox id=Parker value=Parker>Robert Parker</label><br/><label class=checkbox2><input type=checkbox id=Damon value=Damon>Alex Damon</label></div><br/>";
+checkboxes.innerHTML = "<div id=row1><label class=checkbox-label><input type=checkbox id=Alba value=Alba>Greg Alba</label><br/><label class=checkbox-label><input type=checkbox id=Andreyko value=Andreyko>Marc Andreyko</label><br/><label class=checkbox-label><input type=checkbox id=Atchity value=Atchity>Matt Atchity</label><br/><label class=checkbox-label><input type=checkbox id=Bancroft value=Bancroft>Jacoby Bancroft</label><br/><label class=checkbox-label><input type=checkbox id=Barbarian value=Barbarian>Barbarian</label><br/><label class=checkbox-label><input type=checkbox id=Bateman value=Bateman>Ben Bateman</label><br/><label class=checkbox-label><input type=checkbox id=Bibbiani value=Bibbiani>William Bibbiani</label><br/><label class=checkbox-label><input type=checkbox id=Rio value='Del Rio'>David Del Rio</label><br/><label class=checkbox-label><input type=checkbox id=Dewberry value=Dewberry>Eliot Dewberry</label><br/><label class=checkbox-label><input type=checkbox id=Dhandapani value=Dhandapani>Chandru Dhandapani</label><br/><label class=checkbox-label><input type=checkbox id=Dolph value=Dolph>Claudia Dolph</label><br/><label class=checkbox-label><input type=checkbox id=Drake value=Drake>Grae Drake</label><br/><label class=checkbox-label><input type=checkbox id=Duralde value=Duralde>Alonso Duralde</label><br/><label class=checkbox-label><input type=checkbox id=Ellison value=Ellison>Chance Ellison</label><br/><label class=checkbox-label><input type=checkbox id=Erwin value=Erwin>Ethan Erwin</label><br/><label class=checkbox-label><input type=checkbox id=Foutch value=Foutch>Haleigh Foutch</label><br/><label class=checkbox-label><input type=checkbox id=Gertler value=Gertler>Adam Gertler</label><br/><label class=checkbox-label><input type=checkbox id=Ghai value=Ghai>Andrew Ghai</label><br/><label class=checkbox-label><input type=checkbox id=Grant value=Grant>Drew Grant</label><br/><label class=checkbox-label><input type=checkbox id=Hanna value=Hanna>Brandon Hanna</label><br/><label class=checkbox-label><input type=checkbox id=Heuck value=Heuck>Marc Edward Heuck</label><br/><label class=checkbox-label><input type=checkbox id=Harris value=Harris>Lon Harris</label><br/><label class=checkbox-label><input type=checkbox id=Howard value=Howard>Stacy Howard</label><br/><label class=checkbox-label><input type=checkbox id=Humphrey value=Humphrey>John Humphrey</label><br/><label class=checkbox-label><input type=checkbox id=JTE value=JTE>JTE</label><br/><label class=checkbox-label><input type=checkbox id=Kalinowski value=Kalinowski>Mike Kalinowski</label><br/><label class=checkbox-label><input type=checkbox id=Kempe value=Kempe>Jen Kempe</label><br/><label class=checkbox-label><input type=checkbox id=Lieberman value=Lieberman>Ty Lieberman</label><br/><label class=checkbox-label><input type=checkbox id=Jeannine value=Jeannine>Jeannine</label><br/><label class=checkbox-label><input type=checkbox id=Macuga value=Macuga>Josh Macuga</label><br/><label class=checkbox-label><input type=checkbox id=Mancuso value=Mancuso>Vinnie Mancuso</label><br/><label class=checkbox-label><input type=checkbox id=McKee value=McKee>Marisol McKee</label><br/><label class=checkbox-label><input type=checkbox id=Collins value=Collins>Adam Collins</label><br/><label class=checkbox-label><input type=checkbox id=Newman value=Newman>Griffin Newman</label><br/><label class=checkbox-label><input type=checkbox id=Kan value=Kan>Jeffrey Kan</label><br/><label class=checkbox-label><input type=checkbox id=McWeeny value=McWeeny>Drew McWeeny</label><br/></div><div id=row2><label class=checkbox2><input type=checkbox id=Meyer value=Meyer>Brendan Meyer</label><br/><label class=checkbox2><input type=checkbox id=Miller value=Miller>Liz Shannon Miller</label><br/><label class=checkbox2><input type=checkbox id=Murrell value=Murrell>Dan Murrell</label><br/><label class=checkbox2><input type=checkbox id=Knopic value=Knopic>Mara Knopic</label><br/><label class=checkbox2><input type=checkbox id=Nemiroff value=Nemiroff>Perri Nemiroff</label><br/><label class=checkbox2><input type=checkbox id=Paramo value=Paramo>Jader Paramo</label><br/><label class=checkbox2><input type=checkbox id=Preston value=Preston>Paul Preston</label><br/><label class=checkbox2><input type=checkbox id=Oyama value=Oyama>Paul Oyama</label><br/><label class=checkbox2><input type=checkbox id=Levine value=Levine>Samm Levine</label><br/><label class=checkbox2><input type=checkbox id=Reilly value=Reilly>Mark Reilly</label><br/><label class=checkbox2><input type=checkbox id=Rocha value=Rocha>John Rocha</label><br/><label class=checkbox2><input type=checkbox id=Saul value=Saul>Saul</label><br/><label class=checkbox2><input type=checkbox id=Seibold value=Seibold>Witney Seibold</label><br/><label class=checkbox2><input type=checkbox id=Silvestrini value=Silvestrini>Rachel Silvestrini</label><br/><label class=checkbox2><input type=checkbox id=Smets value=Smets>Kevin Smets</label><br/><label class=checkbox2><input type=checkbox id=Sneider value=Sneider>Jeff Sneider</label><br/><label class=checkbox2><input type=checkbox id=Sullivan value=Sullivan>Sean Sullivan</label><br/><label class=checkbox2><input type=checkbox id=Tom value=Tom>Tom</label><br/><label class=checkbox2><input type=checkbox id=White value=White>James White</label><br/><label class=checkbox2><input type=checkbox id=Wiggins value=Wiggins>Klee Wiggins</label><br/><label class=checkbox2><input type=checkbox id=Zipper value=Zipper>Eric Zipper</label><br/><label class=checkbox2><input type=checkbox id=Wolfe value=Clarke Wolfe>Clarke Wolfe</label><br/><label class=checkbox2><input type=checkbox id=Cushing value=Cushing>Rachel Cushing</label><br/><label class=checkbox2><input type=checkbox id=Witt value=Witt>Adam Witt</label><br/><label class=checkbox2><input type=checkbox id=Gubbins value=Gubbins>Peggy Gubbins</label><br/><label class=checkbox2><input type=checkbox id=Lomis value=Lomis>Brother Lomis</label><br/><label class=checkbox2><input type=checkbox id=Raddus value=Raddus>Rick Raddus</label><br/><label class=checkbox2><input type=checkbox id=Harley value=Harley>Nick Harley</label><br/><label class=checkbox2><input type=checkbox id=Frabetti value=Frabetti>Paige Frabetti</label><br/><label class=checkbox2><input type=checkbox id=Horowitz value=Horowitz>Josh Horowitz</label><br/><label class=checkbox2><input type=checkbox id=Alvarez value=Alvarez>Freddie Alvarez</label><br/><label class=checkbox2><input type=checkbox id=Database value=Database>The Database</label><br/><label class=checkbox2><input type=checkbox id=Schloth value=Schloth>Jessica Schloth</label><br/><label class=checkbox2><input type=checkbox id=Dagnino value=Dagnino>Tom Dagnino</label><br/><label class=checkbox2><input type=checkbox id=Parker value=Parker>Robert Parker</label><br/><label class=checkbox2><input type=checkbox id=Damon value=Damon>Alex Damon</label></div><br/>";
 	document.getElementById("message004").style.top = "10px";
         document.getElementById("message004").style.visibility = "hidden";
 	message004.innerHTML = "<button class=buttons002 onclick=pregame()>Next</button>";
@@ -633,7 +658,7 @@ else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
             score001.innerHTML = b+=1;
 		quescor++;
 	    cormusic.play();
-if ((a == 6) ||(a == 11)||(a == 16)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 66)||(a == 71)||(a == 76)||(a == 81)||(a == 86)||(a == 91)||(a == 96)||(a == 101)||(a == 106)||(a == 111)||(a == 116)||(a == 121)||(a == 126)||(a == 131)||(a == 136)||(a == 141)||(a == 146)||(a == 151)||(a == 156)||(a == 161)||(a == 166)||(a == 171)||(a == 176)||(a == 181)||(a == 186)||(a == 191)||(a == 196)||(a == 201)||(a == 206)||(a == 211)||(a == 216)||(a == 221)||(a == 226)||(a == 231)) {
+if ((a == 9) ||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
 	    message006.innerHTML =  "";
             message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
@@ -647,7 +672,7 @@ simulatecomp();
             message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
 	    message005.innerHTML = "";
 	    incmusic.play();
-if ((a == 6) ||(a == 11)||(a == 16)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 66)||(a == 71)||(a == 76)||(a == 81)||(a == 86)||(a == 91)||(a == 96)||(a == 101)||(a == 106)||(a == 111)||(a == 116)||(a == 121)||(a == 126)||(a == 131)||(a == 136)||(a == 141)||(a == 146)||(a == 151)||(a == 156)||(a == 161)||(a == 166)||(a == 171)||(a == 176)||(a == 181)||(a == 186)||(a == 191)||(a == 196)||(a == 201)||(a == 206)||(a == 211)||(a == 216)||(a == 221)||(a == 226)||(a == 231)) {
+if ((a == 9) ||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
 	    message006.innerHTML =  "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
@@ -669,7 +694,7 @@ function next001() {
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
 
-            if ((a == 2) ||(a == 7)||(a == 12)||(a == 17)||(a == 22)||(a == 27)||(a == 32)||(a == 37)||(a == 42)||(a == 47)||(a == 52)||(a == 57)||(a == 62)||(a == 67)||(a == 72)||(a == 77)||(a == 82)||(a == 87)||(a == 92)||(a == 97)||(a == 102)||(a == 107)||(a == 112)||(a == 117)||(a == 122)||(a == 127)||(a == 132)||(a == 137)||(a == 142)||(a == 147)||(a == 152)||(a == 157)||(a == 162)||(a == 167)||(a == 172)||(a == 177)||(a == 182)||(a == 187)||(a == 192)||(a == 197)||(a == 202)||(a == 207)||(a == 212)||(a == 217)||(a == 222)||(a == 227)) {
+            if ((a == 2) ||(a == 9)||(a == 20)||(a == 17)||(a == 22)||(a == 27)||(a == 32)||(a == 37)||(a == 42)||(a == 47)||(a == 52)||(a == 57)||(a == 62)||(a == 67)||(a == 72)||(a == 77)||(a == 82)||(a == 87)||(a == 92)||(a == 97)||(a == 102)||(a == 107)||(a == 112)||(a == 117)||(a == 122)||(a == 127)||(a == 132)||(a == 137)||(a == 142)||(a == 147)||(a == 152)||(a == 157)||(a == 162)||(a == 167)||(a == 172)||(a == 177)||(a == 182)||(a == 187)||(a == 192)||(a == 197)||(a == 202)||(a == 207)||(a == 212)||(a == 217)||(a == 222)||(a == 227)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -678,7 +703,7 @@ function next001() {
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
                 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-document.getElementById("q1").focus();
+		document.getElementById("q1").focus();
                 message003.innerHTML = "";
                 message005.innerHTML = "";
                 message006.innerHTML = "";
@@ -687,7 +712,7 @@ document.getElementById("q1").focus();
                 message004.innerHTML = "";
             }
 
-            else if ((a == 3)||(a == 8)||(a == 13)||(a == 18)||(a == 23)||(a == 28)||(a == 33)||(a == 38)||(a == 43)||(a == 48)||(a == 53)||(a == 58)||(a == 63)||(a == 68)||(a == 73)||(a == 78)||(a == 83)||(a == 88)||(a == 93)||(a == 98)||(a == 103)||(a == 108)||(a == 113)||(a == 118)||(a == 123)||(a == 128)||(a == 133)||(a == 138)||(a == 143)||(a == 148)||(a == 153)||(a == 158)||(a == 163)||(a == 168)||(a == 173)||(a == 178)||(a == 183)||(a == 188)||(a == 193)||(a == 198)||(a == 203)||(a == 208)||(a == 213)||(a == 218)||(a == 223)||(a == 228))  {
+            else if ((a == 3)||(a == 10)||(a == 20)||(a == 18)||(a == 23)||(a == 28)||(a == 33)||(a == 38)||(a == 43)||(a == 48)||(a == 53)||(a == 58)||(a == 63)||(a == 68)||(a == 73)||(a == 78)||(a == 83)||(a == 88)||(a == 93)||(a == 98)||(a == 103)||(a == 108)||(a == 113)||(a == 118)||(a == 123)||(a == 128)||(a == 133)||(a == 138)||(a == 143)||(a == 148)||(a == 153)||(a == 158)||(a == 163)||(a == 168)||(a == 173)||(a == 178)||(a == 183)||(a == 188)||(a == 193)||(a == 198)||(a == 203)||(a == 208)||(a == 213)||(a == 218)||(a == 223)||(a == 228))  {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -705,7 +730,7 @@ document.getElementById("q1").focus();
                 message004.innerHTML = "";
             }
 
-            else if ((a == 4) ||(a == 9)||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229))  {
+            else if ((a == 4) ||(a == 11)||(a == 20)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229))  {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -723,7 +748,7 @@ document.getElementById("q1").focus();
                 message004.innerHTML = "";
             }
 
-            else if ((a == 5) ||(a == 10)||(a == 15)||(a == 20)||(a == 25)||(a == 30)||(a == 35)||(a == 40)||(a == 45)||(a == 50)||(a == 55)||(a == 60)||(a == 65)||(a == 70)||(a == 75)||(a == 80)||(a == 85)||(a == 90)||(a == 95)||(a == 100)||(a == 105)||(a == 110)||(a == 115)||(a == 120)||(a == 125)||(a == 130)||(a == 135)||(a == 140)||(a == 145)||(a == 150)||(a == 155)||(a == 160)||(a == 165)||(a == 170)||(a == 175)||(a == 180)||(a == 185)||(a == 190)||(a == 195)||(a == 200)||(a == 205)||(a == 210)||(a == 215)||(a == 220)||(a == 225)||(a == 230)) {
+            else if ((a == 5) ||(a == 12)||(a == 20)||(a == 20)||(a == 25)||(a == 30)||(a == 35)||(a == 40)||(a == 45)||(a == 50)||(a == 55)||(a == 60)||(a == 65)||(a == 70)||(a == 75)||(a == 80)||(a == 85)||(a == 90)||(a == 95)||(a == 100)||(a == 105)||(a == 110)||(a == 115)||(a == 120)||(a == 125)||(a == 130)||(a == 135)||(a == 140)||(a == 145)||(a == 150)||(a == 155)||(a == 160)||(a == 165)||(a == 170)||(a == 175)||(a == 180)||(a == 185)||(a == 190)||(a == 195)||(a == 200)||(a == 205)||(a == 210)||(a == 215)||(a == 220)||(a == 225)||(a == 230)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
@@ -738,6 +763,57 @@ document.getElementById("q1").focus();
                 message006.innerHTML = "";
                  a++;
  		qu001.innerHTML = "QUESTION 5 - " +question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+            }
+	            else if ((a == 6) ||(a == 13)||(a == 20)||(a == 21)||(a == 26)||(a == 31)||(a == 36)||(a == 41)||(a == 46)||(a == 51)||(a == 56)||(a == 61)||(a == 65)||(a == 70)||(a == 75)||(a == 80)||(a == 85)||(a == 90)||(a == 95)||(a == 100)||(a == 105)||(a == 110)||(a == 115)||(a == 120)||(a == 125)||(a == 130)||(a == 135)||(a == 140)||(a == 145)||(a == 150)||(a == 155)||(a == 160)||(a == 165)||(a == 170)||(a == 175)||(a == 180)||(a == 185)||(a == 190)||(a == 195)||(a == 200)||(a == 205)||(a == 210)||(a == 215)||(a == 220)||(a == 225)||(a == 230)) {
+		vraag++;
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+                update = setInterval("timer001()", 1000);
+                c = 20;
+                time001.innerHTML = 20;
+                message001.innerHTML = question001[vraag].ques;
+                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+		document.getElementById("q1").focus();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                 a++;
+ 		qu001.innerHTML = "QUESTION 6 - " +question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+            }
+	            else if ((a == 7) ||(a == 14)||(a == 20)||(a == 20)||(a == 25)||(a == 30)||(a == 35)||(a == 40)||(a == 45)||(a == 50)||(a == 55)||(a == 60)||(a == 65)||(a == 70)||(a == 75)||(a == 80)||(a == 85)||(a == 90)||(a == 95)||(a == 100)||(a == 105)||(a == 110)||(a == 115)||(a == 120)||(a == 125)||(a == 130)||(a == 135)||(a == 140)||(a == 145)||(a == 150)||(a == 155)||(a == 160)||(a == 165)||(a == 170)||(a == 175)||(a == 180)||(a == 185)||(a == 190)||(a == 195)||(a == 200)||(a == 205)||(a == 210)||(a == 215)||(a == 220)||(a == 225)||(a == 230)) {
+		vraag++;
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+                update = setInterval("timer001()", 1000);
+                c = 20;
+                time001.innerHTML = 20;
+                message001.innerHTML = question001[vraag].ques;
+                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+		document.getElementById("q1").focus();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                 a++;
+ 		qu001.innerHTML = "QUESTION 7 - " +question001[vraag].cat.toUpperCase();
+                message004.innerHTML = "";
+            }
+	            else if ((a == 8) ||(a == 15)||(a == 20)||(a == 20)||(a == 25)||(a == 30)||(a == 35)||(a == 40)||(a == 45)||(a == 50)||(a == 55)||(a == 60)||(a == 65)||(a == 70)||(a == 75)||(a == 80)||(a == 85)||(a == 90)||(a == 95)||(a == 100)||(a == 105)||(a == 110)||(a == 115)||(a == 120)||(a == 125)||(a == 130)||(a == 135)||(a == 140)||(a == 145)||(a == 150)||(a == 155)||(a == 160)||(a == 165)||(a == 170)||(a == 175)||(a == 180)||(a == 185)||(a == 190)||(a == 195)||(a == 200)||(a == 205)||(a == 210)||(a == 215)||(a == 220)||(a == 225)||(a == 230)) {
+		vraag++;
+		document.getElementById("time001").style.fontSize = "200%";
+		document.getElementById("time001").style.fontWeight = "bold";
+                update = setInterval("timer001()", 1000);
+                c = 20;
+                time001.innerHTML = 20;
+                message001.innerHTML = question001[vraag].ques;
+                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+		document.getElementById("q1").focus();
+                message003.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+                 a++;
+ 		qu001.innerHTML = "QUESTION 8 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
             }
         }
@@ -760,7 +836,7 @@ function timer001() {
 	    document.getElementById("q1").disabled = true;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-if ((a == "6") ||(a == "11")||(a == "16")||(a == "21")||(a == "26")||(a == "31")||(a == "36")||(a == "41")||(a == "46")||(a == "51")||(a == "56")||(a == "61")||(a == "66")||(a == "71")||(a == "76")||(a == "81")||(a == "86")||(a == "91")||(a == "96")||(a == "101")||(a == "106")||(a == "111")||(a == "116")||(a == "121")||(a == "126")||(a == "131")||(a == "136")||(a == "141")||(a == "146")||(a == "151")||(a == "156")||(a == "161")||(a == "166")||(a == "171")||(a == "176")||(a == "181")||(a == "186")||(a == "191")||(a == "196")||(a == "201")||(a == "206")||(a == "211")||(a == "216")||(a == "221")||(a == "226")||(a == "231")){
+if ((a == 9) ||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
 	    message006.innerHTML =  "";
             message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }

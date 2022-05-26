@@ -389,15 +389,15 @@ var percentagep7 = 0;
 var percentagep8 = 0;
 var percentagep9 = 0;
 var percentagep10 = 0;
-var eleminate2 = 0;
-var eleminate3 = 0;
-var eleminate4 = 0;
-var eleminate5 = 0;
-var eleminate6 = 0;
-var eleminate7 = 0;
-var eleminate8 = 0;
-var eleminate9 = 0;
-var eleminate10 = 0;
+var eliminate2 = 0;
+var eliminate3 = 0;
+var eliminate4 = 0;
+var eliminate5 = 0;
+var eliminate6 = 0;
+var eliminate7 = 0;
+var eliminate8 = 0;
+var eliminate9 = 0;
+var eliminate10 = 0;
 var vraag = 0;
 var quescount= 0;
 var rounds = 0;
@@ -658,9 +658,9 @@ else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
             score001.innerHTML = b+=1;
 		quescor++;
 	    cormusic.play();
-if ((a == 9) ||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
+if ((a == 9) ||(a == 17)||(a == 25)||(a == 32)||(a == 40)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
 	    message006.innerHTML =  "";
-            message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
 	    message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
@@ -672,9 +672,9 @@ simulatecomp();
             message003.innerHTML = "Incorrect. The correct answer is " + question001[vraag].answ2;
 	    message005.innerHTML = "";
 	    incmusic.play();
-if ((a == 9) ||(a == 14)||(a == 19)||(a == 24)||(a == 29)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
+if ((a == 9) ||(a == 17)||(a == 25)||(a == 32)||(a == 40)||(a == 34)||(a == 39)||(a == 44)||(a == 49)||(a == 54)||(a == 59)||(a == 64)||(a == 69)||(a == 74)||(a == 79)||(a == 84)||(a == 89)||(a == 94)||(a == 99)||(a == 104)||(a == 109)||(a == 114)||(a == 119)||(a == 124)||(a == 129)||(a == 134)||(a == 139)||(a == 144)||(a == 149)||(a == 154)||(a == 159)||(a == 164)||(a == 169)||(a == 174)||(a == 179)||(a == 184)||(a == 189)||(a == 194)||(a == 199)||(a == 204)||(a == 209)||(a == 214)||(a == 219)||(a == 224)||(a == 229)||(a == 234)) {
 	    message006.innerHTML =  "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
 	    message006.innerHTML =  "Next category is " +question001[(vraag +1)].cat;

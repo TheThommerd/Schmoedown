@@ -660,7 +660,7 @@ else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
 	    cormusic.play();
             if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		  message006.innerHTML =  "";
-            message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+            message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
 	    message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
@@ -674,7 +674,7 @@ simulatecomp();
 	    incmusic.play();
             if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		 message006.innerHTML =  "";
-            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+            message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
 	    message006.innerHTML =  "Next category is " +question001[(vraag +1)].cat;
@@ -683,6 +683,15 @@ else {
 simulatecomp();
             }
 	   
+}
+function roundchecker(){
+	document.getElementById("time001").style.visibility = "hidden";
+	document.getElementById("q1").style.visibility = "hidden";
+	message001.innerHTML = "Click Next to proceed.";
+	message005.innerHTML = "";
+	message002.innerHTML = "";
+	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;	
 }
 function next001() {
 	qmusic.play();
@@ -818,6 +827,15 @@ function next001() {
             }
             else if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		vraag++;
+		score001.innerHTML = 0;
+		score002.innerHTML = 0;
+		score003.innerHTML = 0;
+		score004.innerHTML = 0;
+		score005.innerHTML = 0;
+		if (eliminate2 == 1){score002.innerHTML = "X";}
+		if (eliminate3 == 1){score003.innerHTML = "X";}
+		if (eliminate4 == 1){score004.innerHTML = "X";}
+		if (eliminate5 == 1){score005.innerHTML = "X";}
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
@@ -832,6 +850,7 @@ function next001() {
                  a++;
  		qu001.innerHTML = "QUESTION 1 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
+		round001.innerHTML = r++;
             }
         }
 function timer001() {

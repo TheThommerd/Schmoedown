@@ -492,6 +492,12 @@ percentagep7 = competitorlist[1].percentage;
 percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
+	competitorlist.forEach(function(item,i){
+	if(item.id == player002.innerHTML){percentagep2 = item.percentage;}
+	if(item.id == player003.innerHTML){percentagep3 = item.percentage;}
+	if(item.id == player004.innerHTML){percentagep4 = item.percentage;}
+	if(item.id == player005.innerHTML){percentagep5 = item.percentage;}
+	});
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>SURVIVOR</font><br/></br>TWO TEAMS WITH 5 COMPETITORS</br></br>COMPETITORS RECEIVE 8 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>EACH ROUND THE PLAYER WITH THE LOWEST POINT TOTAL WILL BE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";

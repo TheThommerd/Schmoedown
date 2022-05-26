@@ -18,9 +18,6 @@ document.getElementById("Intro").volume = 0.02;
 function load(){
 intromusic.play();
   	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
-	var twittername = document.getElementById("twitt").value;
-	var twitter = twittername.substring(0, 13);
-	twitter001.innerHTML = twitter.replace(" ","");
 }
 var similarity1 = 0;
 var similarity2 = 0;
@@ -28,407 +25,337 @@ var competitorlist2 = [
 {
 "id": "Dewberry",
 "lowercase": "Eliot Dewberry",
-"twitter": "@EliotETC",
 "percentage": "52",
 },
 {
 "id": "Bateman",
 "lowercase": "Ben Bateman",
-"twitter": "@benbatemanmedia",
 "percentage": "85",
 },
 {
 "id": "Bibbiani",
 "lowercase": "William Bibbiani",
-"twitter": "@WilliamBibbiani",
 "percentage": "90",
 },
 {
 "id": "Kalinowski",
 "lowercase": "Mike Kalinowski",
-"twitter": "@MikeKalinowski",
 "percentage": "70",
 },
 {
 "id": "Murrell",
 "lowercase": "Dan Murrell",
-"twitter": "@MurrellDan",
 "percentage": "90",
 },
 {
 "id": "Oyama",
 "lowercase": "Paul Oyama",
-"twitter": "@Paul_Oyama",
 "percentage": "85",
 },
 {
 "id": "Andreyko",
 "lowercase": "Marc Andreyko",
-"twitter": "@marcandreyko",
 "percentage": "70",
 },
 {
 "id": "Cushing",
 "lowercase": "Rachel Cushing",
-"twitter": "@RachelJCushing",
 "percentage": "80",
 },
 {
 "id": "Dagnino",
 "lowercase": "Tom Dagnino",
-"twitter": "@bobfinstock",
 "percentage": "45",
 },
 {
 "id": "Rocha",
 "lowercase": "John Rocha",
-"twitter": "@TheRochaSays",
 "percentage": "75",
 },
 {
 "id": "Erwin",
 "lowercase": "Ethan Erwin",
-"twitter": "@MrEthanErwin",
 "percentage": "83",
 },
 {
 "id": "JTE",
 "lowercase": "JTE",
-"twitter": "@JTEmoviethinks",
 "percentage": "65",
 },
 {
 "id": "Sneider",
 "lowercase": "Jeff Sneider",
-"twitter": "@TheInSneider",
 "percentage": "69",
 },
 {
 "id": "Wolfe",
 "lowercase": "Clarke Wolfe",
-"twitter": "@clarkewolfe",
 "percentage": "71",
 },
 {
 "id": "Levine",
 "lowercase": "Samm Levine",
-"twitter": "@SammLevine",
 "percentage": "80",
 },
 {
 "id": "Macuga",
 "lowercase": "Josh Macuga",
-"twitter": "@JoshMacuga",
 "percentage": "50",
 },
 {
 "id": "Reilly",
 "lowercase": "Mark Reilly",
-"twitter": "@ReillyAround",
 "percentage": "72",
 },
 {
 "id": "Jeannine",
 "lowercase": "Jeannine",
-"twitter": "@JeannineDaBean",
 "percentage": "59",
 },
 {
 "id": "Howard",
 "lowercase": "Stacy Howard",
-"twitter": "@stacyohoward",
 "percentage": "60",
 },
 {
 "id": "Humphrey",
 "lowercase": "John Humphrey",
-"twitter": "@DatJohnHumphrey",
 "percentage": "50",
 },
 {
 "id": "Grant",
 "lowercase": "Drew Grant",
-"twitter": "@videodrew",
 "percentage": "58",
 },
 {
 "id": "Harris",
 "lowercase": "Lon Harris",
-"twitter": "@Lons",
 "percentage": "72",
 },
 {
 "id": "Horowitz",
 "lowercase": "Josh Horowitz",
-"twitter": "@joshuahorowitz",
 "percentage": "72",
 },
 {
 "id": "Ghai",
 "lowercase": "Andrew Ghai",
-"twitter": "@AndrewGhai",
 "percentage": "57",
 },
 {
 "id": "McWeeny",
 "lowercase": "Drew McWeeny",
-"twitter": "@DrewMcWeeny",
 "percentage": "74",
 },
 {
 "id": "Ellison",
 "lowercase": "Chance Ellison",
-"twitter": "@chancewars_91",
 "percentage": "79",
 },
 {
 "id": "Drake",
 "lowercase": "Grae Drake",
-"twitter": "@graedrake",
 "percentage": "50",
 },
 {
 "id": "Miller",
 "lowercase": "Liz Shannon Miller",
-"twitter": "@lizlet",
 "percentage": "68",
 },
 {
 "id": "Foutch",
 "lowercase": "Haleigh Foutch",
-"twitter": "@HaleighFoutch",
 "percentage": "66",
 },
 {
 "id": "Meyer",
 "lowercase": "Brendan Meyer",
-"twitter": "@BrendanMeyer",
 "percentage": "78",
 },
 {
 "id": "Napzok",
 "lowercase": "Ken Napzok",
-"twitter": "@KenNapzok",
 "percentage": "59",
 },
 {
 "id": "Preston",
 "lowercase": "Paul Preston",
-"twitter": "@PPrestonLA",
 "percentage": "80",
 },
 {
 "id": "Seibold",
 "lowercase": "Whitney Seibold",
-"twitter": "@WhitneySeibold",
 "percentage": "56",
 },
 {
 "id": "Zipper",
 "lowercase": "Eric Zipper",
-"twitter": "@Ggrogishere",
 "percentage": "70",
 },
 {
 "id": "Silvestrini",
 "lowercase": "Rachel Silvestrini",
-"twitter": "@RMSilvestrini",
 "percentage": "54",
 },
 {
 "id": "Atchity",
 "lowercase": "Matt Atchity",
-"twitter": "@Matchity",
 "percentage": "60",
 },
 {
 "id": "Duralde",
 "lowercase": "Alonso Duralde",
-"twitter": "@ADuralde",
 "percentage": "70",
 },
 {
 "id": "Tom",
 "lowercase": "Tom",
-"twitter": "@startthemachine",
 "percentage": "80",
 },
 {
 "id": "Alba",
 "lowercase": "Greg Alba",
-"twitter": "@thegregalba",
 "percentage": "52",
 },
 {
 "id": "Barbarian",
 "lowercase": "The Barbarian",
-"twitter": "@BarbarianCraig",
 "percentage": "80",
 },
 {
 "id": "Heuck",
 "lowercase": "Marc Heuck",
-"twitter": "@the_hoyk",
 "percentage": "73",
 },
 {
 "id": "Witt",
 "lowercase": "Adam Witt",
-"twitter": "@Adam_Witt",
 "percentage": "60",
 },
 {
 "id": "Butler III",
 "lowercase": "Robert Butler III",
-"twitter": "@DirectorRB3",
 "percentage": "45",
 },
 {
 "id": "Smets",
 "lowercase": "Kevin Smets",
-"twitter": "@KevSmets",
 "percentage": "67",
 },
 {
 "id": "Franco",
 "lowercase": "Tim Franco",
-"twitter": "@tfranco84",
 "percentage": "70",
 },
 {
 "id": "Knopic",
 "lowercase": "Mara Knopic",
-"twitter": "@ouch_thisMHz",
 "percentage": "66",
 },
 {
 "id": "Flouse",
 "lowercase": "Zaflertinflouse",
-"twitter": "@misterwiggly",
 "percentage": "30",
 },
 {
 "id": "Collins",
 "lowercase": "Adam Collins",
-"twitter": "@Aizanthor",
 "percentage": "87",
 },
 {
 "id": "McKee",
 "lowercase": "Marisol McKee",
-"twitter": "@Marisol_Miriah",
 "percentage": "76",
 },
 {
 "id": "Bancroft",
 "lowercase": "Jacoby Bancroft",
-"twitter": "@jbancroft815",
 "percentage": "76",
 },
 {
 "id": "Blunden",
 "lowercase": "Jacob Blunden",
-"twitter": "@JacobBlunden",
 "percentage": "76",
 },
 {
 "id": "Parker",
 "lowercase": "Robert Parker",
-"twitter": "@rbrtprkr98",
 "percentage": "70",
 },
 {
 "id": "Damon",
 "lowercase": "Alex Damon",
-"twitter": "@StarWarsExplain",
 "percentage": "64",
 },
 {
 "id": "Hanna",
 "lowercase": "Brandon Hanna",
-"twitter": "@BrandonHanna07",
 "percentage": "65",
 },
 {
 "id": "Saul",
 "lowercase": "Saul",
-"twitter": "@SchmoedownSaul",
 "percentage": "63",
 },
 {
 "id": "Smith",
 "lowercase": "Kevin Smith",
-"twitter": "@ThatKevinSmith",
 "percentage": "70",
 },
 {
 "id": "Paramo",
 "lowercase": "Jader Paramo",
-"twitter": "@Infamousj13",
 "percentage": "67",
 },
 {
 "id": "Newman",
 "lowercase": "Griffin Newman",
-"twitter": "@GriffLightning",
 "percentage": "73",
 },
 {
 "id": "Nemiroff",
 "lowercase": "Perri Nemiroff",
-"twitter": "@PNemiroff",
 "percentage": "69",
 },
 {
 "id": "Mancuso",
 "lowercase": "Vinnie Mancuso",
-"twitter": "@VinnieMancuso1",
 "percentage": "60",
 },
 {
 "id": "White",
 "lowercase": "James White",
-"twitter": "@G4TOR24",
 "percentage": "75",
 },
 {
 "id": "Chandler",
 "lowercase": "Brianne Chandler",
-"twitter": "@MissMovies",
 "percentage": "67",
 },
 {
 "id": "Washington",
 "lowercase": "Jay Washington",
-"twitter": "@MrJayWashington",
 "percentage": "50",
 },
 {
 "id": "Fyffe",
 "lowercase": "Emma Fyffe",
-"twitter": "@EmmaFyffe",
 "percentage": "52",
 },
 {
 "id": "Graves",
 "lowercase": "Sabina Graves",
-"twitter": "@SabinaHasNoR",
 "percentage": "45",
 },
 {
 "id": "Montano",
 "lowercase": "Robert Montano",
-"twitter": "@Mr_Rob_LTTP",
 "percentage": "62",
 },
 ];
 function submitname () {
 	var name = document.getElementById("q2").value.toUpperCase();
-	var twitt = document.getElementById("twitt").value;
 	var length1 = name.length;
-	var twittername = document.getElementById("q3").value;
-	var length2 = twittername.length;
-	var twitter = twittername.substring(0, 15);
 	if (length1 < 1){
 	player001.innerHTML = document.getElementById("naam").value.toUpperCase();
 	} 
@@ -436,22 +363,6 @@ function submitname () {
 	player001.innerHTML = name;
 	document.getElementById("naam").value = document.getElementById("q2").value;
 	}
-	if (length2 < 1){
-	twitter001.innerHTML = twitt ;
-	} 
-	else if (length2 >= 1){
-	twitter001.innerHTML = twitter.replace(" ","");
-	document.getElementById("twitt").value = document.getElementById("q3").value;
-	}
-	if (document.getElementById("wins").value.length < 1)
-	{
-	document.getElementById("wins").value = 0;
-	}
-	if (document.getElementById("losses").value.length < 1)
-	{
-	document.getElementById("losses").value = 0;
-	}
-  	record001.innerHTML = document.getElementById("wins").value + "-" + document.getElementById("losses").value;
 	document.getElementById("skip").style.visibility = "hidden";
 	document.getElementById("skip").style.display = "none";
 	message004.innerHTML = "<button id=choose onclick=choosecomp()>Choose Team</button>";

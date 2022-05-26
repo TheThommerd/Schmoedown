@@ -2,7 +2,7 @@
 		var incmusic = document.getElementById("myAudio2"); 
 		document.getElementById("myAudio").volume = 0.1;
 		document.getElementById("myAudio2").volume = 0.05;
-	    	message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><input id=q3 placeholder=@Twitter type=text maxlength=15 /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
+	    	message004.innerHTML = "<input id=q2 type=text maxlength=15 placeholder=Name /><br /><br /><br /><button id=submit3  class=buttons001 onclick=submitname()>Submit </button><br /><br /><button id=skip class=buttons001 onclick=skip()>Skip</button>";
 		document.getElementById("time001").style.visibility = "hidden";
 		document.getElementById("time001").style.display = "none";
 		document.getElementById("q2").focus();

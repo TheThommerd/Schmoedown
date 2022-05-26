@@ -690,6 +690,7 @@ function roundchecker(){
 	message001.innerHTML = "Click Next to proceed.";
 	message005.innerHTML = "";
 	message002.innerHTML = "";
+	message003.innerHTML = "Player X has been eliminated.";
 	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;	
 }
@@ -832,10 +833,21 @@ function next001() {
 		score003.innerHTML = 0;
 		score004.innerHTML = 0;
 		score005.innerHTML = 0;
+		score006.innerHTML = 0;
+		score007.innerHTML = 0;
+		score008.innerHTML = 0;
+		score009.innerHTML = 0;
+		score010.innerHTML = 0;
+		if (eliminate == 1){score001.innerHTML = "X";}
 		if (eliminate2 == 1){score002.innerHTML = "X";}
 		if (eliminate3 == 1){score003.innerHTML = "X";}
 		if (eliminate4 == 1){score004.innerHTML = "X";}
 		if (eliminate5 == 1){score005.innerHTML = "X";}
+		if (eliminate6 == 1){score006.innerHTML = "X";}
+		if (eliminate7 == 1){score007.innerHTML = "X";}
+		if (eliminate8 == 1){score008.innerHTML = "X";}
+		if (eliminate9 == 1){score009.innerHTML = "X";}
+		if (eliminate10 == 1){score010.innerHTML = "X";}
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);

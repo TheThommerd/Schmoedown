@@ -386,7 +386,7 @@ $('input[type=checkbox]').on('change', function (e) {
 }
 var team = [];
 function pregame(){
-document.getElementById("checkboxes").style.visibility = "hidden";
+document.getElementById("checkboxes").style.display = "none";
 var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {team.push(checkboxes[i].value)}
 var opp = ["Alba", "Andreyko", "Atchity", "Bancroft", "Barbarian", "Bateman", "Bibbiani", "Del Rio", "Dewberry", "Dhandapani", "Dolph", "Drake", "Duralde", "Ellison"];

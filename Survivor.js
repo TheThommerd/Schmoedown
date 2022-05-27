@@ -537,7 +537,7 @@ if (chance6 < percentagep7){score007.innerHTML = x+=1;}
 var chance7 = Math.random() * 100;
 if (chance7 < percentagep8){score008.innerHTML = y+=1;}
 var chance8 = Math.random() * 100;
-if (chance9 < percentagep9){score009.innerHTML = z+=1;}
+if (chance8 < percentagep9){score009.innerHTML = z+=1;}
 var chance9 = Math.random() * 100;
 if (chance9 < percentagep10){score010.innerHTML = n+=1;}
 if (eliminate2 == 1){score002.innerHTML = "X";}

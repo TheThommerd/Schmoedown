@@ -855,6 +855,15 @@ function next001() {
 		score008.innerHTML = 0;
 		score009.innerHTML = 0;
 		score010.innerHTML = 0;
+s = 0;
+t = 0;
+u = 0;
+v = 0;
+w = 0;
+x = 0;
+y = 0;
+z = 0;
+n = 0;
 		if (eliminate == 1){score001.innerHTML = "X";}
 		if (eliminate2 == 1){score002.innerHTML = "X";}
 		if (eliminate3 == 1){score003.innerHTML = "X";}

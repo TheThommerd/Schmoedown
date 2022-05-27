@@ -493,10 +493,10 @@ percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
 	competitorlist.forEach(function(item,i){
-	if(item.id.toUpperCase() == document.getElementById("player002").value;){percentagep2 = item.percentage;}
-	if(item.id.toUpperCase() == document.getElementById("player003").value;){percentagep3 = item.percentage;}
-	if(item.id.toUpperCase() == document.getElementById("player004").value;){percentagep4 = item.percentage;}
-	if(item.id.toUpperCase() == document.getElementById("player005").value;){percentagep5 = item.percentage;}
+	if(item.id.toUpperCase() == document.getElementById("player002").value){percentagep2 = item.percentage;}
+	if(item.id.toUpperCase() == document.getElementById("player003").value){percentagep3 = item.percentage;}
+	if(item.id.toUpperCase() == document.getElementById("player004").value){percentagep4 = item.percentage;}
+	if(item.id.toUpperCase() == document.getElementById("player005").value){percentagep5 = item.percentage;}
 	});
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";

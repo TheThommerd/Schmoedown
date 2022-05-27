@@ -473,7 +473,7 @@ document.getElementById("checkboxes").style.display = "none";
 var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {team.push(checkboxes[i].value)}
 competitorlist = shuffle(competitorlist);
-for( var i = competitorlist.length-1; i >= 0; i--){
+for( var i = 0; i < competitorlist.length; i++){
 if ( competitorlist[i].id == team[0]){ percentagep2 = competitorlist[i].percentage;}
 }
 for( var i = competitorlist.length-1; i >= 0; i--){

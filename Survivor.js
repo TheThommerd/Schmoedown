@@ -493,18 +493,18 @@ percentagep7 = competitorlist[1].percentage;
 percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
-	competitorlist.forEach(function(item,i){
-	if(item.id.toUpperCase() == document.getElementById("player002").value){percentagep2 = item.percentage;}
-	});
-		competitorlist.forEach(function(item,i){
-	if(item.id.toUpperCase() == document.getElementById("player003").value){percentagep3 = item.percentage;}
-	});
-		competitorlist.forEach(function(item,i){
-	if(item.id.toUpperCase() == document.getElementById("player004").value){percentagep4 = item.percentage;}
-	});
-		competitorlist.forEach(function(item,i){
-	if(item.id.toUpperCase() == document.getElementById("player005").value){percentagep5 = item.percentage;}
-	});
+	for (var i = 0; i < competitorlist.length; i++){
+	if(competitorlist[i].id.toUpperCase() == document.getElementById("player002").value){percentagep2 = competitorlist[i].percentage;}
+	}
+	for (var i = 0; i < competitorlist.length; i++){
+	if(competitorlist[i].id.toUpperCase() == document.getElementById("player003").value){percentagep3 = competitorlist[i].percentage;}
+	}
+	for (var i = 0; i < competitorlist.length; i++){
+	if(competitorlist[i].id.toUpperCase() == document.getElementById("player004").value){percentagep4 = competitorlist[i].percentage;}
+	}
+	for (var i = 0; i < competitorlist.length; i++){
+	if(competitorlist[i].id.toUpperCase() == document.getElementById("player005").value){percentagep5 = competitorlist[i].percentage;}
+	}
 	console.log(percentagep2);
 	console.log(percentagep3);
 	console.log(percentagep4);

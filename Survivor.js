@@ -474,6 +474,18 @@ var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
 for (var i = 0; i < checkboxes.length; i++) {team.push(checkboxes[i].value)}
 competitorlist = shuffle(competitorlist);
 for( var i = competitorlist.length-1; i >= 0; i--){
+if ( competitorlist[i].id == team[0]){ percentagep2 = competitorlist[i].percentage;}
+}
+for( var i = competitorlist.length-1; i >= 0; i--){
+if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percentage;}
+}
+for( var i = competitorlist.length-1; i >= 0; i--){
+if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
+}
+for( var i = competitorlist.length-1; i >= 0; i--){
+if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
+}
+for( var i = competitorlist.length-1; i >= 0; i--){
 if ( competitorlist[i].id == team[0]){ competitorlist.splice(i, 1);}
 if ( competitorlist[i].id == team[1]){ competitorlist.splice(i, 1);}
 if ( competitorlist[i].id == team[2]){ competitorlist.splice(i, 1);}
@@ -493,26 +505,10 @@ percentagep7 = competitorlist[1].percentage;
 percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
-for( var i = competitorlist.length-1; i >= 0; i--){
-if ( competitorlist[i].id == team[0]){ percentagep2 = competitorlist[i].percentage;}
-}
-for( var i = competitorlist.length-1; i >= 0; i--){
-if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percentage;}
-}
-for( var i = competitorlist.length-1; i >= 0; i--){
-if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
-}
-for( var i = competitorlist.length-1; i >= 0; i--){
-if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
-}
 	console.log(percentagep2);
 	console.log(percentagep3);
 	console.log(percentagep4);
 	console.log(percentagep5);
-	console.log(team[0]);
-	console.log(team[1]);
-	console.log(team[2]);
-	console.log(team[3]);
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>SURVIVOR</font><br/></br>TWO TEAMS WITH 5 COMPETITORS</br></br>COMPETITORS RECEIVE 8 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>EACH ROUND THE PLAYER WITH THE LOWEST POINT TOTAL WILL BE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";

@@ -494,10 +494,10 @@ percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
 	for( var i = competitorlist.length-1; i >= 0; i--){
-if ( competitorlist[i].id == team[0]){ {percentagep2 = competitorlist[i].percentage;}
-if ( competitorlist[i].id == team[1]){ {percentagep3 = competitorlist[i].percentage;}
-if ( competitorlist[i].id == team[2]){ {percentagep4 = competitorlist[i].percentage;}
-if ( competitorlist[i].id == team[3]){ {percentagep5 = competitorlist[i].percentage;}
+if ( competitorlist[i].id == team[0]){ percentagep2 = competitorlist[i].percentage;}
+if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percentage;}
+if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
+if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
 }
 	console.log(percentagep2);
 	console.log(percentagep3);

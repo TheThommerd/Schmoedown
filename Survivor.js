@@ -389,6 +389,7 @@ var percentagep7 = 0;
 var percentagep8 = 0;
 var percentagep9 = 0;
 var percentagep10 = 0;
+var eliminate = 0;
 var eliminate2 = 0;
 var eliminate3 = 0;
 var eliminate4 = 0;
@@ -494,10 +495,20 @@ percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
 	competitorlist.forEach(function(item,i){
 	if(item.id.toUpperCase() == document.getElementById("player002").value){percentagep2 = item.percentage;}
+	});
+		competitorlist.forEach(function(item,i){
 	if(item.id.toUpperCase() == document.getElementById("player003").value){percentagep3 = item.percentage;}
+	});
+		competitorlist.forEach(function(item,i){
 	if(item.id.toUpperCase() == document.getElementById("player004").value){percentagep4 = item.percentage;}
+	});
+		competitorlist.forEach(function(item,i){
 	if(item.id.toUpperCase() == document.getElementById("player005").value){percentagep5 = item.percentage;}
 	});
+	console.log(percentagep2);
+	console.log(percentagep3);
+	console.log(percentagep4);
+	console.log(percentagep5);
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>SURVIVOR</font><br/></br>TWO TEAMS WITH 5 COMPETITORS</br></br>COMPETITORS RECEIVE 8 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>EACH ROUND THE PLAYER WITH THE LOWEST POINT TOTAL WILL BE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";

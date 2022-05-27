@@ -494,21 +494,25 @@ percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
 	for (var i = 0; i < competitorlist.length; i++){
-	if(competitorlist[i].id.toUpperCase() == document.getElementById("player002").value){percentagep2 = competitorlist[i].percentage;}
+	if (competitorlist[i].id.toUpperCase() == document.getElementById("player002").value){percentagep2 = competitorlist[i].percentage;}
 	}
 	for (var i = 0; i < competitorlist.length; i++){
-	if(competitorlist[i].id.toUpperCase() == document.getElementById("player003").value){percentagep3 = competitorlist[i].percentage;}
+	if (competitorlist[i].id.toUpperCase() == document.getElementById("player003").value){percentagep3 = competitorlist[i].percentage;}
 	}
 	for (var i = 0; i < competitorlist.length; i++){
-	if(competitorlist[i].id.toUpperCase() == document.getElementById("player004").value){percentagep4 = competitorlist[i].percentage;}
+	if (competitorlist[i].id.toUpperCase() == document.getElementById("player004").value){percentagep4 = competitorlist[i].percentage;}
 	}
 	for (var i = 0; i < competitorlist.length; i++){
-	if(competitorlist[i].id.toUpperCase() == document.getElementById("player005").value){percentagep5 = competitorlist[i].percentage;}
+	if (competitorlist[i].id.toUpperCase() == document.getElementById("player005").value){percentagep5 = competitorlist[i].percentage;}
 	}
 	console.log(percentagep2);
 	console.log(percentagep3);
 	console.log(percentagep4);
 	console.log(percentagep5);
+	console.log(document.getElementById("player002").value;)
+	console.log(document.getElementById("player003").value;)
+	console.log(document.getElementById("player004").value;)
+	console.log(document.getElementById("player005").value;)
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>SURVIVOR</font><br/></br>TWO TEAMS WITH 5 COMPETITORS</br></br>COMPETITORS RECEIVE 8 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>EACH ROUND THE PLAYER WITH THE LOWEST POINT TOTAL WILL BE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";

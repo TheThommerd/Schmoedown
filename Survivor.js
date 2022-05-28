@@ -723,6 +723,8 @@ function removeItemOnce(arr, value) {
   return arr;
 }
 function win(){
+			qmusic.pause();
+		qmusic.currentTime = 0;
 		message001.innerHTML = "End of Match";
 		document.getElementById("message002").style.fontSize = "200%";
 		document.getElementById("message002").style.fontWeight = "bold";
@@ -737,6 +739,8 @@ function win(){
 		document.getElementById("save").click();	
 }
 function lose(){
+			qmusic.pause();
+		qmusic.currentTime = 0;
 		message001.innerHTML = "End of Match";
 		document.getElementById("message002").style.fontSize = "200%";
 		document.getElementById("message002").style.top = "-70px";

@@ -406,8 +406,26 @@ var eliminate9 = 0;
 var eliminate10 = 0;
 var vraag = 0;
 var quescount= 0;
+var quescount1 = 0;
+var quescount2 = 0;
+var quescount3 = 0;
+var quescount4 = 0;
+var quescount5 = 0;
+var quescount6 = 0;
+var quescount7 = 0;
+var quescount8 = 0;
+var quescount9 = 0;
 var rounds = 0;
 var quescor = 0;
+var quescor1 = 0;
+var quescor2 = 0;
+var quescor3 = 0;
+var quescor4 = 0;
+var quescor5 = 0;
+var quescor6 = 0;
+var quescor7 = 0;
+var quescor8 = 0;
+var quescor9 = 0;
 	var a = 0;
         a++;
         var r = 0;
@@ -432,7 +450,16 @@ var quescor = 0;
 	var minimum = 0;
 function stats() {
 var accuracy = ((quescor / quescount) * 100)
- message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; margin-left: 300px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + "</tr><tr class=tr2><td class=td2><b>Rounds survived</b></td><td class=td2>" + rounds + "</td>" + "</tr class=tr2><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td>" + "</tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td>" + "</tr></table>";
+var accuracy1 = ((quescor1 / quescount1) * 100)
+var accuracy2 = ((quescor2 / quescount2) * 100)
+var accuracy3 = ((quescor3 / quescount3) * 100)
+var accuracy4 = ((quescor4 / quescount4) * 100)
+var accuracy5 = ((quescor5 / quescount5) * 100)
+var accuracy6 = ((quescor6 / quescount6) * 100)
+var accuracy7 = ((quescor7 / quescount7) * 100)
+var accuracy8 = ((quescor8 / quescount8) * 100)
+var accuracy9 = ((quescor9 / quescount9) * 100)
+message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; margin-left: 135px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tr class=tr2><th class=th2></th><th class=th2>" + player001.innerHTML + "</th><th class=th2>" + player002.innerHTML + "</th><th class=th2>" + player003.innerHTML + "</th><th class=th2>" + player004.innerHTML + "</th><th class=th2>" + player005.innerHTML + "</th><th class=th2>" + player006.innerHTML + "</th><th class=th2>" + player007.innerHTML + "</th><th class=th2>" + player008.innerHTML + "</th><th class=th2>" + player009.innerHTML + "</th><th class=th2>" + player010.innerHTML + "</th></tr><tr class=tr2><td class=td2><b>Questions answered</b></td><td class=td2>" + quescount + "</td><td class=td2>" + quescount1 + "</td><td class=td2>" + quescount2 + "</td><td class=td2>" + quescount3 + "</td><td class=td2>" + quescount4 + "</td><td class=td2>" + quescount5 + "</td><td class=td2>" + quescount6 + "</td><td class=td2>" + quescount7 + "</td><td class=td2>" + quescount8 + "</td><td class=td2>" + quescount9 + "</td></tr><tr class=tr2><td class=td2><b>Accuracy</b></td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td>" + "<td class=td2>" + accuracy1.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy2.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy3.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy4.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy5.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy6.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy7.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy8.toFixed(2) + "%" + "</td>" +"<td class=td2>" + accuracy9.toFixed(2) + "%" + "</td></tr></table>";
 		document.getElementById("AnsweredQuestions_F4").value = parseInt(document.getElementById("AnsweredQuestions_F4").value) +  quescount;
 		document.getElementById("CorrectQuestions_F4").value = parseInt(document.getElementById("CorrectQuestions_F4").value) +  quescor;
 		document.getElementById("PossiblePoints_F4").value = parseInt(document.getElementById("PossiblePoints_F4").value)  +  quescount;
@@ -534,15 +561,15 @@ simmatch();
 }
 }
 function simulatecomp(){
-if (eliminate2 != 1){var chance1 = Math.random() * 100;if (chance1 < percentagep2){score002.innerHTML = s+=1;}}
-if (eliminate3 != 1){var chance2 = Math.random() * 100;if (chance2 < percentagep3){score003.innerHTML = t+=1;}}
-if (eliminate4 != 1){var chance3 = Math.random() * 100;if (chance3 < percentagep4){score004.innerHTML = u+=1;}}
-if (eliminate5 != 1){var chance4 = Math.random() * 100;if (chance4 < percentagep5){score005.innerHTML = v+=1;}}
-if (eliminate6 != 1){var chance5 = Math.random() * 100;if (chance5 < percentagep6){score006.innerHTML = w+=1;}}
-if (eliminate7 != 1){var chance6 = Math.random() * 100;if (chance6 < percentagep7){score007.innerHTML = x+=1;}}
-if (eliminate8 != 1){var chance7 = Math.random() * 100;if (chance7 < percentagep8){score008.innerHTML = y+=1;}}
-if (eliminate9 != 1){var chance8 = Math.random() * 100;if (chance8 < percentagep9){score009.innerHTML = z+=1;}}
-if (eliminate10 != 1){var chance9 = Math.random() * 100;if (chance9 < percentagep10){score010.innerHTML = n+=1;}}
+if (eliminate2 != 1){var chance1 = Math.random() * 100; quescount1++;if (chance1 < percentagep2){quescor1++;score002.innerHTML = s+=1;}}
+if (eliminate3 != 1){var chance2 = Math.random() * 100;quescount2++;if (chance2 < percentagep3){quescor2++;score003.innerHTML = t+=1;}}
+if (eliminate4 != 1){var chance3 = Math.random() * 100;quescount3++;if (chance3 < percentagep4){quescor3++;score004.innerHTML = u+=1;}}
+if (eliminate5 != 1){var chance4 = Math.random() * 100;quescount4++;if (chance4 < percentagep5){quescor4++;score005.innerHTML = v+=1;}}
+if (eliminate6 != 1){var chance5 = Math.random() * 100;quescount5++;if (chance5 < percentagep6){quescor5++;score006.innerHTML = w+=1;}}
+if (eliminate7 != 1){var chance6 = Math.random() * 100;quescount6++;if (chance6 < percentagep7){quescor6++;score007.innerHTML = x+=1;}}
+if (eliminate8 != 1){var chance7 = Math.random() * 100;quescount7++;if (chance7 < percentagep8){quescor7++;score008.innerHTML = y+=1;}}
+if (eliminate9 != 1){var chance8 = Math.random() * 100;quescount8++;if (chance8 < percentagep9){quescor8++;score009.innerHTML = z+=1;}}
+if (eliminate10 != 1){var chance9 = Math.random() * 100;quescount9++;if (chance9 < percentagep10){quescor9++;score010.innerHTML = n+=1;}}
 if (eliminate2 == 1){score002.innerHTML = "X";}
 if (eliminate3 == 1){score003.innerHTML = "X";}
 if (eliminate4 == 1){score004.innerHTML = "X";}

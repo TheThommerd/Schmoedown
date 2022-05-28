@@ -828,7 +828,6 @@ if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim)
 }
 function next001() {
 	qmusic.play();
-	else {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("time001").style.top = "-7px";

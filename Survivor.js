@@ -525,10 +525,10 @@ simulatecomp();simulatecomp();simulatecomp();simulatecomp();simulatecomp();simul
 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";	
 roundchecker();
 round001.innerHTML = r++;
-message003.innerHTML = "You have been eliminated.";
+message005.innerHTML = "You have been eliminated.";
 message001.innerHTML = "";
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-message005.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
+message003.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
 stats();	
 simmatch();	
 }
@@ -779,10 +779,10 @@ function roundchecker(){
 	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){
-eliminate = 1; b = 'X'; message003.innerHTML = "You have been eliminated.";message001.innerHTML = "";
+eliminate = 1; b = 'X'; message005.innerHTML = "You have been eliminated.";message001.innerHTML = "";
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 message004.setAttribute("data-html2canvas-ignore", true);
-message005.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
+message003.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
 stats();
 }
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;s = 'X';message003.innerHTML = team[0] + " has been eliminated.";}
@@ -806,7 +806,6 @@ function next001() {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
-
             if ((a == 2) ||(a == 10)||(a == 18)||(a == 26)||(a == 34)||(a == 42)||(a == 50)||(a == 58)||(a == 66)||(a == 74)||(a == 82)||(a == 90)||(a == 98)||(a == 106)||(a == 114)||(a == 122)||(a == 130)||(a == 138)||(a == 146)||(a == 154)||(a == 162)||(a == 170)||(a == 178)||(a == 186)||(a == 194)||(a == 202)||(a == 210)||(a == 218)||(a == 226)||(a == 234)||(a == 242)||(a == 250)||(a == 258)||(a == 266)||(a == 274)||(a == 282)||(a == 290)||(a == 298)||(a == 306)||(a == 314)||(a == 322)||(a == 330)||(a == 338)||(a == 346)||(a == 354)||(a == 362)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
@@ -824,7 +823,6 @@ function next001() {
             	qu001.innerHTML = "QUESTION 2 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
             }
-
             else if ((a == 3) ||(a == 11)||(a == 19)||(a == 27)||(a == 35)||(a == 43)||(a == 51)||(a == 59)||(a == 67)||(a == 75)||(a == 83)||(a == 91)||(a == 99)||(a == 107)||(a == 115)||(a == 123)||(a == 131)||(a == 139)||(a == 147)||(a == 155)||(a == 163)||(a == 171)||(a == 179)||(a == 187)||(a == 195)||(a == 203)||(a == 211)||(a == 219)||(a == 227)||(a == 235)||(a == 243)||(a == 251)||(a == 259)||(a == 267)||(a == 275)||(a == 283)||(a == 291)||(a == 299)||(a == 307)||(a == 315)||(a == 323)||(a == 331)||(a == 339)||(a == 347)||(a == 355)||(a == 363)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
@@ -842,7 +840,6 @@ function next001() {
                 qu001.innerHTML = "QUESTION 3 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
             }
-
             else if ((a == 4) ||(a == 12)||(a == 20)||(a == 28)||(a == 36)||(a == 44)||(a == 52)||(a == 60)||(a == 68)||(a == 76)||(a == 84)||(a == 92)||(a == 100)||(a == 108)||(a == 116)||(a == 124)||(a == 132)||(a == 140)||(a == 148)||(a == 156)||(a == 164)||(a == 172)||(a == 180)||(a == 188)||(a == 196)||(a == 204)||(a == 212)||(a == 220)||(a == 228)||(a == 236)||(a == 244)||(a == 252)||(a == 260)||(a == 268)||(a == 276)||(a == 284)||(a == 292)||(a == 300)||(a == 308)||(a == 316)||(a == 324)||(a == 332)||(a == 340)||(a == 348)||(a == 356)||(a == 364)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
@@ -860,7 +857,6 @@ function next001() {
                 qu001.innerHTML = "QUESTION 4 - " +question001[vraag].cat.toUpperCase();
                 message004.innerHTML = "";
             }
-
             else if ((a == 5) ||(a == 13)||(a == 21)||(a == 29)||(a == 37)||(a == 45)||(a == 53)||(a == 61)||(a == 69)||(a == 77)||(a == 85)||(a == 93)||(a == 101)||(a == 109)||(a == 117)||(a == 125)||(a == 133)||(a == 141)||(a == 149)||(a == 157)||(a == 165)||(a == 173)||(a == 181)||(a == 189)||(a == 197)||(a == 205)||(a == 213)||(a == 221)||(a == 229)||(a == 237)||(a == 245)||(a == 253)||(a == 261)||(a == 269)||(a == 277)||(a == 285)||(a == 293)||(a == 301)||(a == 309)||(a == 317)||(a == 325)||(a == 333)||(a == 341)||(a == 349)||(a == 357)||(a == 365)) {
 		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
@@ -974,12 +970,12 @@ function timer001() {
 	    	incmusic.play();
 		document.getElementById("time001").style.fontSize = "100%";
 		document.getElementById("time001").style.fontWeight = "normal";
-	    document.getElementById("q1").disabled = true;
+	    	document.getElementById("q1").disabled = true;
 		document.getElementById("submit2").style.visibility = "hidden";
 	    	document.getElementById("submit2").style.display = "none";
-           if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
-		 message006.innerHTML =  "";
-            message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
+           	if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
+		message006.innerHTML =  "";
+            	message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
 	    message006.innerHTML =  "Next category is " +question001[(vraag +1)].cat;

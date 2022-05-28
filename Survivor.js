@@ -519,6 +519,7 @@ percentagep10 = competitorlist[4].percentage;
 }
 
 function simmatch(){
+score001.innerHTML = "X";
 if ((eliminate == 1) && (eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) && (eliminate5 == 1)){lose();}
 else if ((eliminate6 == 1) && (eliminate7 == 1) && (eliminate8 == 1) && (eliminate9 == 1) && (eliminate10 == 1)){win();}
 else{

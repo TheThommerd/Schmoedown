@@ -760,8 +760,8 @@ if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim)
 	message002.innerHTML = "";
 	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
-	if (eliminate == 1) && (eliminate2 == 1)  && (eliminate3 == 1)  && (eliminate4 == 1)  && (eliminate5 == 1) {lose();}
-	if (eliminate6 == 1) && (eliminate7 == 1)  && (eliminate8 == 1)  && (eliminate9 == 1)  && (eliminate10 == 1) {win();}
+	if ((eliminate == 1) && (eliminate2 == 1)  && (eliminate3 == 1)  && (eliminate4 == 1)  && (eliminate5 == 1)) {lose();}
+	if ((eliminate6 == 1) && (eliminate7 == 1)  && (eliminate8 == 1)  && (eliminate9 == 1)  && (eliminate10 == 1)) {win();}
 }
 function next001() {
 	qmusic.play();

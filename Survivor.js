@@ -708,24 +708,26 @@ function win(){
 		message001.innerHTML = "End of Match";
 		document.getElementById("message002").style.fontSize = "200%";
 		document.getElementById("message002").style.fontWeight = "bold";
-                message002.innerHTML = "And your winner...." + "<br/><br/>" + 'TEAM ' + player001.innerHTML + '/' + player002.innerHTML + '/' + player003.innerHTML + '/' + player004.innerHTML + '/' + player005.innerHTML;
-                message003.innerHTML = "";
-	        message004.innerHTML = "";
-                message005.innerHTML = "";
-	        message006.innerHTML = "";
-		document.getElementById("losses_F4").stepUp(1);
-		document.getElementById("save").click();	
-}
-function lose(){
-		message001.innerHTML = "End of Match";
-		document.getElementById("message002").style.fontSize = "200%";
-		document.getElementById("message002").style.fontWeight = "bold";
-                message002.innerHTML = "And your winner...." + "<br/><br/>" + 'TEAM ' + player006.innerHTML + '/' + player007.innerHTML + '/' + player008.innerHTML + '/' + player009.innerHTML + '/' + player010.innerHTML;
+		document.getElementById("message002").style.top = "-70px";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML + '/' + player002.innerHTML + '/' + player003.innerHTML + '/' + player004.innerHTML + '/' + player005.innerHTML;
                 message003.innerHTML = "";
 	        message004.innerHTML = "";
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
+		document.getElementById("save").click();	
+}
+function lose(){
+		message001.innerHTML = "End of Match";
+		document.getElementById("message002").style.fontSize = "200%";
+		document.getElementById("message002").style.top = "-70px";
+		document.getElementById("message002").style.fontWeight = "bold";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + player006.innerHTML + '/' + player007.innerHTML + '/' + player008.innerHTML + '/' + player009.innerHTML + '/' + player010.innerHTML;
+                message003.innerHTML = "";
+	        message004.innerHTML = "";
+                message005.innerHTML = "";
+	        message006.innerHTML = "";
+		document.getElementById("losses_F4").stepUp(1);
 		document.getElementById("save").click();	
 }
 function roundchecker(){

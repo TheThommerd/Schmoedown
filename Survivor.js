@@ -518,24 +518,42 @@ percentagep10 = competitorlist[4].percentage;
 	message004.innerHTML = "";
 }
 function simulatecomp(){
+if (eliminate2 != 1){
 var chance1 = Math.random() * 100;
 if (chance1 < percentagep2){score002.innerHTML = s+=1;}
+}
+if (eliminate3 != 1){
 var chance2 = Math.random() * 100;
 if (chance2 < percentagep3){score003.innerHTML = t+=1;}
+}
+if (eliminate4 != 1){
 var chance3 = Math.random() * 100;
 if (chance3 < percentagep4){score004.innerHTML = u+=1;}
+}
+if (eliminate5 != 1){
 var chance4 = Math.random() * 100;
 if (chance4 < percentagep5){score005.innerHTML = v+=1;}
+}
+if (eliminate6 != 1){
 var chance5 = Math.random() * 100;
 if (chance5 < percentagep6){score006.innerHTML = w+=1;}
+}
+if (eliminate7 != 1){
 var chance6 = Math.random() * 100;
 if (chance6 < percentagep7){score007.innerHTML = x+=1;}
+}
+if (eliminate8 != 1){
 var chance7 = Math.random() * 100;
 if (chance7 < percentagep8){score008.innerHTML = y+=1;}
+}
+if (eliminate9 != 1){
 var chance8 = Math.random() * 100;
 if (chance8 < percentagep9){score009.innerHTML = z+=1;}
+}
+if (eliminate10 != 1){
 var chance9 = Math.random() * 100;
 if (chance9 < percentagep10){score010.innerHTML = n+=1;}
+}
 if (eliminate2 == 1){score002.innerHTML = "X";}
 if (eliminate3 == 1){score003.innerHTML = "X";}
 if (eliminate4 == 1){score004.innerHTML = "X";}

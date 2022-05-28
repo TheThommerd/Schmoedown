@@ -517,6 +517,27 @@ percentagep10 = competitorlist[4].percentage;
 	document.getElementById("message006").style.top = "-115px";
 	message004.innerHTML = "";
 }
+
+function simmatch(){
+if ((eliminate == 1) && (eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) && (eliminate5 == 1)){lose();}
+else if ((eliminate6 == 1) && (eliminate7 == 1) && (eliminate8 == 1) && (eliminate9 == 1) && (eliminate10 == 1)){win();}
+else{
+simulatecomp();
+simulatecomp();
+simulatecomp();
+simulatecomp();
+simulatecomp();
+simulatecomp();
+simulatecomp();
+simulatecomp();
+roundchecker();
+message003.innerHTML = "You have been eliminimated.";
+message001.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+message006.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
+simmatch();	
+}
+}
 function simulatecomp(){
 if (eliminate2 != 1){
 var chance1 = Math.random() * 100;
@@ -780,7 +801,19 @@ function roundchecker(){
 	console.log('n' + n);
 	console.log(scores);
 	message003.innerHTML = "Nobody will be eliminated this round.";
-if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; b = 'X'; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
+	document.getElementById("time001").style.visibility = "hidden";
+	document.getElementById("q1").style.visibility = "hidden";
+	message001.innerHTML = "Click Next to proceed.";
+	message005.innerHTML = "";
+	message002.innerHTML = "";
+	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
+	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
+if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){
+eliminate = 1; b = 'X'; message003.innerHTML = "You have been eliminimated.";message001.innerHTML = "";
+message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+message004.setAttribute("data-html2canvas-ignore", true);
+message006.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>";
+}
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;s = 'X';message003.innerHTML = team[0] + " has been eliminimated.";}
 if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;t = 'X';message003.innerHTML = team[1] + " has been eliminimated.";} 
 if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;u = 'X';message003.innerHTML = team[2] + " has been eliminimated.";}
@@ -790,19 +823,11 @@ if ((x == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim)
 if ((y == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (b != minim) && (z != minim) && (n != minim)){eliminate8 = 1;y = 'X';message003.innerHTML = competitorlist[2].id + " has been eliminimated.";}
 if ((z == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (b != minim) && (n != minim)){eliminate9 = 1;z = 'X';message003.innerHTML = competitorlist[3].id + " has been eliminimated.";} 
 if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (b != minim)){eliminate10 = 1;n = 'X';message003.innerHTML = competitorlist[4].id + " has been eliminimated.";} 
-	document.getElementById("time001").style.visibility = "hidden";
-	document.getElementById("q1").style.visibility = "hidden";
-	message001.innerHTML = "Click Next to proceed.";
-	message005.innerHTML = "";
-	message002.innerHTML = "";
-	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 	if ((eliminate == 1) && (eliminate2 == 1)  && (eliminate3 == 1)  && (eliminate4 == 1)  && (eliminate5 == 1)) {lose();}
 	if ((eliminate6 == 1) && (eliminate7 == 1)  && (eliminate8 == 1)  && (eliminate9 == 1)  && (eliminate10 == 1)) {win();}
 }
 function next001() {
 	qmusic.play();
-if (eliminate == 1){lose();}
 	else {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
@@ -962,7 +987,6 @@ if (eliminate == 1){lose();}
                 message004.innerHTML = "";
 		round001.innerHTML = r++;
             }
-	}
         }
 function timer001() {
             c = c - 1;

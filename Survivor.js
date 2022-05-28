@@ -703,7 +703,7 @@ simulatecomp();
 }
 function roundchecker(){
 	var scores = [b, s, t, u, v, w, x, y, z, n];
-	var minim = Math.min(scores);
+	var minim = Math.min.apply(null, scores);
 	message003.innerHTML = "Nobody will be eliminated this round.";
 if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;message003.innerHTML = player002.innerHTML + "has been eliminimated.";}

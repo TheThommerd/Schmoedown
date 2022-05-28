@@ -505,10 +505,6 @@ percentagep7 = competitorlist[1].percentage;
 percentagep8 = competitorlist[2].percentage;
 percentagep9 = competitorlist[3].percentage;
 percentagep10 = competitorlist[4].percentage;
-	console.log(percentagep2);
-	console.log(percentagep3);
-	console.log(percentagep4);
-	console.log(percentagep5);
 	document.getElementById("time001").style.display = "initial";
 	message001.innerHTML = "Click Begin to start the match.";
 	message005.innerHTML = "<strong><font size=4>SURVIVOR</font><br/></br>TWO TEAMS WITH 5 COMPETITORS</br></br>COMPETITORS RECEIVE 8 QUESTIONS PER ROUND<br/><br/>YOU HAVE 20 SECONDS TO READ THE QUESTION AND SUBMIT YOUR ANSWER</br>YOU CAN SUBMIT YOUR ANSWER BY CLICKING THE SUBMIT BUTTON OR BY HITTING THE ENTER KEY</br></br>ALL QUESTIONS ARE WORTH 1 POINT</br></br>EACH ROUND THE PLAYER WITH THE LOWEST POINT TOTAL WILL BE ELIMINATED<br/></br>NO REPEATS AVAILABLE</br></br>YOU CAN CHALLENGE ANY RULING BY CLICKING THE 'CHALLENGE' BUTTON</br>JUDGE YOUR CHALLENGE BY CLICKING THE 'WIN CHALLENGE' OR 'LOSE CHALLENGE' BUTTON</br>REVERSALS LET YOU KEEP YOUR CHALLENGE</strong>";
@@ -721,6 +717,7 @@ function roundchecker(){
 	if (eliminate9 == 1){removeItemOnce(scores, z);}
 	if (eliminate10 == 1){removeItemOnce(scores, n);}
 	var minim = Math.min.apply(null, scores);
+	console.log(minim);
 	message003.innerHTML = "Nobody will be eliminated this round.";
 if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;message003.innerHTML = team[0] + " has been eliminimated.";}
@@ -874,25 +871,6 @@ function next001() {
             }
             else if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		vraag++;
-		score001.innerHTML = 0;
-		score002.innerHTML = 0;
-		score003.innerHTML = 0;
-		score004.innerHTML = 0;
-		score005.innerHTML = 0;
-		score006.innerHTML = 0;
-		score007.innerHTML = 0;
-		score008.innerHTML = 0;
-		score009.innerHTML = 0;
-		score010.innerHTML = 0;
-s = 0;
-t = 0;
-u = 0;
-v = 0;
-w = 0;
-x = 0;
-y = 0;
-z = 0;
-n = 0;
 		if (eliminate == 1){score001.innerHTML = "X";}
 		if (eliminate2 == 1){score002.innerHTML = "X";}
 		if (eliminate3 == 1){score003.innerHTML = "X";}

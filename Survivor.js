@@ -702,12 +702,24 @@ simulatecomp();
 	   
 }
 function roundchecker(){
+	var scores = [b, s, t, u, v, w, x, y, z, n];
+	var min = Math.min(scores);
+	message003.innerHTML = "Nobody will be eliminated this round.";
+if ((b == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate = 1; message003.innerHTML = player001.innerHTML + "has been eliminated.";}
+if ((s == min) && (b != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate2 = 1;message003.innerHTML = player002.innerHTML + "has been eliminated.";}
+if ((t == min) && (s != min) && (b != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate3 = 1;message003.innerHTML = player003.innerHTML + "has been eliminated.";} 
+if ((u == min) && (s != min) && (t != min) && (b != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate4 = 1;message003.innerHTML = player004.innerHTML + "has been eliminated.";}
+if ((v == min) && (s != min) && (t != min) && (u != min) && (b != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate5 = 1;message003.innerHTML = player005.innerHTML + "has been eliminated.";}
+if ((w == min) && (s != min) && (t != min) && (u != min) && (v != min) && (b != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate6 = 1;message003.innerHTML = player006.innerHTML + "has been eliminated.";}
+if ((x == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (b != min) && (y != min) && (z != min) && (n != min)){eliminate7 = 1;message003.innerHTML = player007.innerHTML + "has been eliminated.";}
+if ((y == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (b != min) && (z != min) && (n != min)){eliminate8 = 1;message003.innerHTML = player008.innerHTML + "has been eliminated.";}
+if ((z == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (b != min) && (n != min)){eliminate9 = 1;message003.innerHTML = player009.innerHTML + "has been eliminated.";} 
+if ((n == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (b != min)){eliminate10 = 1;message003.innerHTML = player010.innerHTML + "has been eliminated.";} 
 	document.getElementById("time001").style.visibility = "hidden";
 	document.getElementById("q1").style.visibility = "hidden";
 	message001.innerHTML = "Click Next to proceed.";
 	message005.innerHTML = "";
 	message002.innerHTML = "";
-	message003.innerHTML = "Player X has been eliminated.";
 	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;	
 }

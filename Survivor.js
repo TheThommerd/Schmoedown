@@ -61,12 +61,12 @@ var competitorlist = [
 	{
 "id": "Lieberman",
 "lowercase": "Ty Lieberman",
-"percentage": "70",
+"percentage": "73",
 },
 	{
 "id": "Kan",
 "lowercase": "Jeffrey Kan",
-"percentage": "70",
+"percentage": "73",
 },
 	{
 "id": "Sullivan",
@@ -101,7 +101,7 @@ var competitorlist = [
 	{
 "id": "Frabetti",
 "lowercase": "Paige Frabetti",
-"percentage": "67",
+"percentage": "71",
 },
 {
 "id": "Alvarez",
@@ -131,7 +131,7 @@ var competitorlist = [
 {
 "id": "Kalinowski",
 "lowercase": "Mike Kalinowski",
-"percentage": "70",
+"percentage": "73",
 },
 {
 "id": "Murrell",
@@ -146,7 +146,7 @@ var competitorlist = [
 {
 "id": "Andreyko",
 "lowercase": "Marc Andreyko",
-"percentage": "70",
+"percentage": "74",
 },
 {
 "id": "Cushing",
@@ -166,7 +166,7 @@ var competitorlist = [
 {
 "id": "Erwin",
 "lowercase": "Ethan Erwin",
-"percentage": "83",
+"percentage": "87",
 },
 {
 "id": "JTE",
@@ -176,7 +176,7 @@ var competitorlist = [
 {
 "id": "Sneider",
 "lowercase": "Jeff Sneider",
-"percentage": "69",
+"percentage": "75",
 },
 {
 "id": "Wolfe",
@@ -186,7 +186,7 @@ var competitorlist = [
 {
 "id": "Levine",
 "lowercase": "Samm Levine",
-"percentage": "80",
+"percentage": "87",
 },
 {
 "id": "Macuga",
@@ -226,7 +226,7 @@ var competitorlist = [
 {
 "id": "Horowitz",
 "lowercase": "Josh Horowitz",
-"percentage": "72",
+"percentage": "75",
 },
 {
 "id": "Ghai",
@@ -241,7 +241,7 @@ var competitorlist = [
 {
 "id": "Ellison",
 "lowercase": "Chance Ellison",
-"percentage": "79",
+"percentage": "82",
 },
 {
 "id": "Drake",
@@ -251,7 +251,7 @@ var competitorlist = [
 {
 "id": "Miller",
 "lowercase": "Liz Shannon Miller",
-"percentage": "68",
+"percentage": "70",
 },
 {
 "id": "Foutch",
@@ -271,7 +271,7 @@ var competitorlist = [
 {
 "id": "Seibold",
 "lowercase": "Whitney Seibold",
-"percentage": "56",
+"percentage": "60",
 },
 {
 "id": "Zipper",
@@ -306,7 +306,7 @@ var competitorlist = [
 {
 "id": "Barbarian",
 "lowercase": "The Barbarian",
-"percentage": "80",
+"percentage": "82",
 },
 {
 "id": "Witt",
@@ -331,7 +331,7 @@ var competitorlist = [
 {
 "id": "McKee",
 "lowercase": "Marisol McKee",
-"percentage": "76",
+"percentage": "87",
 },
 {
 "id": "Bancroft",
@@ -366,7 +366,7 @@ var competitorlist = [
 {
 "id": "Newman",
 "lowercase": "Griffin Newman",
-"percentage": "73",
+"percentage": "77",
 },
 {
 "id": "Nemiroff",

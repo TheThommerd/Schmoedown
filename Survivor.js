@@ -28,6 +28,11 @@ var competitorlist = [
 "lowercase": "David Del Rio",
 "percentage": "62",
 },
+		{
+"id": "Dewberry",
+"lowercase": "Eliot Dewberry",
+"percentage": "52",
+},
 	{
 "id": "Dhandapani",
 "lowercase": "Chandru Dhandapani",

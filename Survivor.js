@@ -756,16 +756,16 @@ function roundchecker(){
 	console.log('n' + n);
 	console.log(scores);
 	message003.innerHTML = "Nobody will be eliminated this round.";
-if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
-if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;message003.innerHTML = team[0] + " has been eliminimated.";}
-if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;message003.innerHTML = team[1] + " has been eliminimated.";} 
-if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;message003.innerHTML = team[2] + " has been eliminimated.";}
-if ((v == minim) && (s != minim) && (t != minim) && (u != minim) && (b != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate5 = 1;message003.innerHTML = team[3] + " has been eliminimated.";}
-if ((w == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (b != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate6 = 1;message003.innerHTML = competitorlist[0].id + " has been eliminimated.";}
-if ((x == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (b != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate7 = 1;message003.innerHTML = competitorlist[1].id + " has been eliminimated.";}
-if ((y == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (b != minim) && (z != minim) && (n != minim)){eliminate8 = 1;message003.innerHTML = competitorlist[2].id + " has been eliminimated.";}
-if ((z == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (b != minim) && (n != minim)){eliminate9 = 1;message003.innerHTML = competitorlist[3].id + " has been eliminimated.";} 
-if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (b != minim)){eliminate10 = 1;message003.innerHTML = competitorlist[4].id + " has been eliminimated.";} 
+if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; b = 'X'; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
+if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;s = 'X';message003.innerHTML = team[0] + " has been eliminimated.";}
+if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;t = 'X';message003.innerHTML = team[1] + " has been eliminimated.";} 
+if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;u = 'X';message003.innerHTML = team[2] + " has been eliminimated.";}
+if ((v == minim) && (s != minim) && (t != minim) && (u != minim) && (b != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate5 = 1;v = 'X';message003.innerHTML = team[3] + " has been eliminimated.";}
+if ((w == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (b != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate6 = 1;w = 'X';message003.innerHTML = competitorlist[0].id + " has been eliminimated.";}
+if ((x == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (b != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate7 = 1;x = 'X';;message003.innerHTML = competitorlist[1].id + " has been eliminimated.";}
+if ((y == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (b != minim) && (z != minim) && (n != minim)){eliminate8 = 1;y = 'X';message003.innerHTML = competitorlist[2].id + " has been eliminimated.";}
+if ((z == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (b != minim) && (n != minim)){eliminate9 = 1;z = 'X';message003.innerHTML = competitorlist[3].id + " has been eliminimated.";} 
+if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (b != minim)){eliminate10 = 1;n = 'X';message003.innerHTML = competitorlist[4].id + " has been eliminimated.";} 
 	document.getElementById("time001").style.visibility = "hidden";
 	document.getElementById("q1").style.visibility = "hidden";
 	message001.innerHTML = "Click Next to proceed.";

@@ -798,6 +798,8 @@ if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim)
 }
 function next001() {
 	qmusic.play();
+if (eliminate == 1){lose();}
+	else {
 	    document.getElementById("time001").style.display = "initial";
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("time001").style.top = "-7px";
@@ -930,7 +932,7 @@ function next001() {
             }
             else if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		vraag++;
-		if (eliminate == 1){score001.innerHTML = "X"; lose();}
+		if (eliminate == 1){score001.innerHTML = "X"; }
 		if (eliminate2 == 1){score002.innerHTML = "X";}
 		if (eliminate3 == 1){score003.innerHTML = "X";}
 		if (eliminate4 == 1){score004.innerHTML = "X";}
@@ -956,6 +958,7 @@ function next001() {
                 message004.innerHTML = "";
 		round001.innerHTML = r++;
             }
+	}
         }
 function timer001() {
             c = c - 1;

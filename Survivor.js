@@ -475,16 +475,19 @@ for (var i = 0; i < checkboxes.length; i++) {team.push(checkboxes[i].value)}
 competitorlist = shuffle(competitorlist);
 for( var i = 0; i < competitorlist.length; i++){
 if ( competitorlist[i].id == team[0]){ percentagep2 = competitorlist[i].percentage;}
-}
-for( var i = competitorlist.length-1; i >= 0; i--){
 if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percentage;}
-}
-for( var i = competitorlist.length-1; i >= 0; i--){
+if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
 if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
 }
-for( var i = competitorlist.length-1; i >= 0; i--){
-if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
-}
+//for( var i = 0; i < competitorlist.length; i++){
+//if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percentage;}
+//}
+//for( var i = 0; i < competitorlist.length; i++){
+//if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
+//}
+//for( var i = 0; i < competitorlist.length; i++){
+//if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
+//}
 for( var i = competitorlist.length-1; i >= 0; i--){
 if ( competitorlist[i].id == team[0]){ competitorlist.splice(i, 1);}
 if ( competitorlist[i].id == team[1]){ competitorlist.splice(i, 1);}
@@ -517,24 +520,16 @@ percentagep10 = competitorlist[4].percentage;
 	document.getElementById("message006").style.top = "-115px";
 	message004.innerHTML = "";
 }
-
 function simmatch(){
 score001.innerHTML = "X";
 if ((eliminate == 1) && (eliminate2 == 1) && (eliminate3 == 1) && (eliminate4 == 1) && (eliminate5 == 1)){lose();}
 else if ((eliminate6 == 1) && (eliminate7 == 1) && (eliminate8 == 1) && (eliminate9 == 1) && (eliminate10 == 1)){win();}
 else{
-simulatecomp();
-simulatecomp();
-simulatecomp();
-simulatecomp();
-simulatecomp();
-simulatecomp();
-simulatecomp();
-simulatecomp();
+simulatecomp();simulatecomp();simulatecomp();simulatecomp();simulatecomp();simulatecomp();simulatecomp();simulatecomp();
 message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";	
 roundchecker();
 round001.innerHTML = r++;
-message003.innerHTML = "You have been eliminimated.";
+message003.innerHTML = "You have been eliminated.";
 message001.innerHTML = "";
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 message006.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
@@ -542,42 +537,15 @@ simmatch();
 }
 }
 function simulatecomp(){
-if (eliminate2 != 1){
-var chance1 = Math.random() * 100;
-if (chance1 < percentagep2){score002.innerHTML = s+=1;}
-}
-if (eliminate3 != 1){
-var chance2 = Math.random() * 100;
-if (chance2 < percentagep3){score003.innerHTML = t+=1;}
-}
-if (eliminate4 != 1){
-var chance3 = Math.random() * 100;
-if (chance3 < percentagep4){score004.innerHTML = u+=1;}
-}
-if (eliminate5 != 1){
-var chance4 = Math.random() * 100;
-if (chance4 < percentagep5){score005.innerHTML = v+=1;}
-}
-if (eliminate6 != 1){
-var chance5 = Math.random() * 100;
-if (chance5 < percentagep6){score006.innerHTML = w+=1;}
-}
-if (eliminate7 != 1){
-var chance6 = Math.random() * 100;
-if (chance6 < percentagep7){score007.innerHTML = x+=1;}
-}
-if (eliminate8 != 1){
-var chance7 = Math.random() * 100;
-if (chance7 < percentagep8){score008.innerHTML = y+=1;}
-}
-if (eliminate9 != 1){
-var chance8 = Math.random() * 100;
-if (chance8 < percentagep9){score009.innerHTML = z+=1;}
-}
-if (eliminate10 != 1){
-var chance9 = Math.random() * 100;
-if (chance9 < percentagep10){score010.innerHTML = n+=1;}
-}
+if (eliminate2 != 1){var chance1 = Math.random() * 100;if (chance1 < percentagep2){score002.innerHTML = s+=1;}}
+if (eliminate3 != 1){var chance2 = Math.random() * 100;if (chance2 < percentagep3){score003.innerHTML = t+=1;}}
+if (eliminate4 != 1){var chance3 = Math.random() * 100;if (chance3 < percentagep4){score004.innerHTML = u+=1;}}
+if (eliminate5 != 1){var chance4 = Math.random() * 100;if (chance4 < percentagep5){score005.innerHTML = v+=1;}}
+if (eliminate6 != 1){var chance5 = Math.random() * 100;if (chance5 < percentagep6){score006.innerHTML = w+=1;}}
+if (eliminate7 != 1){var chance6 = Math.random() * 100;if (chance6 < percentagep7){score007.innerHTML = x+=1;}}
+if (eliminate8 != 1){var chance7 = Math.random() * 100;if (chance7 < percentagep8){score008.innerHTML = y+=1;}}
+if (eliminate9 != 1){var chance8 = Math.random() * 100;if (chance8 < percentagep9){score009.innerHTML = z+=1;}}
+if (eliminate10 != 1){var chance9 = Math.random() * 100;if (chance9 < percentagep10){score010.innerHTML = n+=1;}}
 if (eliminate2 == 1){score002.innerHTML = "X";}
 if (eliminate3 == 1){score003.innerHTML = "X";}
 if (eliminate4 == 1){score004.innerHTML = "X";}
@@ -594,7 +562,7 @@ function begin001() {
 	    intromusic.currentTime = 0;
 	    qmusic.play();
             c = 21;
-                time001.innerHTML = 20;
+            time001.innerHTML = 20;
 	    document.getElementById("time001").style.visibility = "visible";
 	    document.getElementById("time001").style.top = "-7px";
 	    document.getElementById("message005").style.position = "relative";
@@ -607,7 +575,7 @@ function begin001() {
 	    document.getElementById("message004").style.top = "-55px";
             message001.innerHTML = question001[0].ques;
             message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
-		document.getElementById("q1").focus();
+	    document.getElementById("q1").focus();
 	    document.getElementById("q1").style.position = "relative";
 	    document.getElementById("q1").style.top = "-300px";
 	    document.getElementById("submit2").style.position = "relative";
@@ -714,7 +682,7 @@ else if (question1.length <= 4){similarity1 = 0;similarity2 = 0;}
 		quescor++;
 	    cormusic.play();
             if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
-		  message006.innerHTML =  "";
+	    message006.innerHTML =  "";
             message004.innerHTML = "<button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
@@ -728,7 +696,7 @@ simulatecomp();
 	    message005.innerHTML = "";
 	    incmusic.play();
             if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
-		 message006.innerHTML =  "";
+	    message006.innerHTML =  "";
             message004.innerHTML = "<button id=chal class=buttons006 onclick=Challenge()>Challenge</button> <br /><br /><button class=buttons002 onclick=roundchecker()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge </button>";
 }
 else {
@@ -747,7 +715,7 @@ function removeItemOnce(arr, value) {
   return arr;
 }
 function win(){
-			qmusic.pause();
+		qmusic.pause();
 		qmusic.currentTime = 0;
 		message001.innerHTML = "End of Match";
 		document.getElementById("message002").style.fontSize = "200%";
@@ -763,7 +731,7 @@ function win(){
 		document.getElementById("save").click();	
 }
 function lose(){
-			qmusic.pause();
+		qmusic.pause();
 		qmusic.currentTime = 0;
 		message001.innerHTML = "End of Match";
 		document.getElementById("message002").style.fontSize = "200%";
@@ -812,22 +780,22 @@ function roundchecker(){
 	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
 if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){
-eliminate = 1; b = 'X'; message003.innerHTML = "You have been eliminimated.";message001.innerHTML = "";
+eliminate = 1; b = 'X'; message003.innerHTML = "You have been eliminated.";message001.innerHTML = "";
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 message004.setAttribute("data-html2canvas-ignore", true);
 message006.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>";
 }
-if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;s = 'X';message003.innerHTML = team[0] + " has been eliminimated.";}
-if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;t = 'X';message003.innerHTML = team[1] + " has been eliminimated.";} 
-if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;u = 'X';message003.innerHTML = team[2] + " has been eliminimated.";}
-if ((v == minim) && (s != minim) && (t != minim) && (u != minim) && (b != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate5 = 1;v = 'X';message003.innerHTML = team[3] + " has been eliminimated.";}
-if ((w == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (b != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate6 = 1;w = 'X';message003.innerHTML = competitorlist[0].id + " has been eliminimated.";}
-if ((x == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (b != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate7 = 1;x = 'X';;message003.innerHTML = competitorlist[1].id + " has been eliminimated.";}
-if ((y == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (b != minim) && (z != minim) && (n != minim)){eliminate8 = 1;y = 'X';message003.innerHTML = competitorlist[2].id + " has been eliminimated.";}
-if ((z == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (b != minim) && (n != minim)){eliminate9 = 1;z = 'X';message003.innerHTML = competitorlist[3].id + " has been eliminimated.";} 
-if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (b != minim)){eliminate10 = 1;n = 'X';message003.innerHTML = competitorlist[4].id + " has been eliminimated.";} 
-	if ((eliminate == 1) && (eliminate2 == 1)  && (eliminate3 == 1)  && (eliminate4 == 1)  && (eliminate5 == 1)) {lose();}
-	if ((eliminate6 == 1) && (eliminate7 == 1)  && (eliminate8 == 1)  && (eliminate9 == 1)  && (eliminate10 == 1)) {win();}
+if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;s = 'X';message003.innerHTML = team[0] + " has been eliminated.";}
+if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;t = 'X';message003.innerHTML = team[1] + " has been eliminated.";} 
+if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;u = 'X';message003.innerHTML = team[2] + " has been eliminated.";}
+if ((v == minim) && (s != minim) && (t != minim) && (u != minim) && (b != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate5 = 1;v = 'X';message003.innerHTML = team[3] + " has been eliminated.";}
+if ((w == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (b != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate6 = 1;w = 'X';message003.innerHTML = competitorlist[0].id + " has been eliminated.";}
+if ((x == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (b != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate7 = 1;x = 'X';;message003.innerHTML = competitorlist[1].id + " has been eliminated.";}
+if ((y == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (b != minim) && (z != minim) && (n != minim)){eliminate8 = 1;y = 'X';message003.innerHTML = competitorlist[2].id + " has been eliminated.";}
+if ((z == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (b != minim) && (n != minim)){eliminate9 = 1;z = 'X';message003.innerHTML = competitorlist[3].id + " has been eliminated.";} 
+if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (b != minim)){eliminate10 = 1;n = 'X';message003.innerHTML = competitorlist[4].id + " has been eliminated.";} 
+if ((eliminate == 1) && (eliminate2 == 1)  && (eliminate3 == 1)  && (eliminate4 == 1)  && (eliminate5 == 1)) {lose();}
+if ((eliminate6 == 1) && (eliminate7 == 1)  && (eliminate8 == 1)  && (eliminate9 == 1)  && (eliminate10 == 1)) {win();}
 }
 function next001() {
 	qmusic.play();

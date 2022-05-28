@@ -742,6 +742,17 @@ function roundchecker(){
 	if (eliminate10 == 1){removeItemOnce(scores, n);}
 	var minim = Math.min.apply(null, scores);
 	console.log(minim);
+	console.log('b' + b);
+	console.log('s' + s);
+	console.log('t' + t);
+	console.log('u' + u);
+	console.log('v' + v);
+	console.log('w' + w);
+	console.log('x' + x);
+	console.log('y' + y);
+	console.log('z' + z);
+	console.log('n' + n);
+	console.log(scores);
 	message003.innerHTML = "Nobody will be eliminated this round.";
 if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;message003.innerHTML = team[0] + " has been eliminimated.";}

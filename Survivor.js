@@ -1057,7 +1057,7 @@ else if (eliminate == 1) {window.open("https://twitter.com/intent/tweet?text=" +
 else {	
   html2canvas($('#frame001')[0], {
     width: 950,
-    height: 450
+    height: 550
   }).then(function(canvas) {
     var a = document.createElement('a');
     var month = (new Date()).getMonth() + 1;

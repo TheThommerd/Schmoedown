@@ -702,9 +702,10 @@ simulatecomp();
 	   
 }
 function roundchecker(){
-	var minim = Math.min(b, s, t, u, v, w, x, y, z, n);
+	var scores = [b, s, t, u, v, w, x, y, z, n];
+	var minim = Math.min(scores);
 	message003.innerHTML = "Nobody will be eliminated this round.";
-if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = player001.innerHTML + "has been eliminimated.";}
+if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = document.getElementById("naam").value + " has been eliminimated.";}
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;message003.innerHTML = player002.innerHTML + "has been eliminimated.";}
 if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;message003.innerHTML = player003.innerHTML + "has been eliminimated.";} 
 if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;message003.innerHTML = player004.innerHTML + "has been eliminimated.";}

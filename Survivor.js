@@ -702,19 +702,18 @@ simulatecomp();
 	   
 }
 function roundchecker(){
-	var scores = [b, s, t, u, v, w, x, y, z, n];
-	var min = Math.min(scores);
+	var minim = Math.min(b, s, t, u, v, w, x, y, z, n);
 	message003.innerHTML = "Nobody will be eliminated this round.";
-if ((b == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate = 1; message003.innerHTML = player001.innerHTML + "has been eliminated.";}
-if ((s == min) && (b != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate2 = 1;message003.innerHTML = player002.innerHTML + "has been eliminated.";}
-if ((t == min) && (s != min) && (b != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate3 = 1;message003.innerHTML = player003.innerHTML + "has been eliminated.";} 
-if ((u == min) && (s != min) && (t != min) && (b != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate4 = 1;message003.innerHTML = player004.innerHTML + "has been eliminated.";}
-if ((v == min) && (s != min) && (t != min) && (u != min) && (b != min) && (w != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate5 = 1;message003.innerHTML = player005.innerHTML + "has been eliminated.";}
-if ((w == min) && (s != min) && (t != min) && (u != min) && (v != min) && (b != min) && (x != min) && (y != min) && (z != min) && (n != min)){eliminate6 = 1;message003.innerHTML = player006.innerHTML + "has been eliminated.";}
-if ((x == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (b != min) && (y != min) && (z != min) && (n != min)){eliminate7 = 1;message003.innerHTML = player007.innerHTML + "has been eliminated.";}
-if ((y == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (b != min) && (z != min) && (n != min)){eliminate8 = 1;message003.innerHTML = player008.innerHTML + "has been eliminated.";}
-if ((z == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (b != min) && (n != min)){eliminate9 = 1;message003.innerHTML = player009.innerHTML + "has been eliminated.";} 
-if ((n == min) && (s != min) && (t != min) && (u != min) && (v != min) && (w != min) && (x != min) && (y != min) && (z != min) && (b != min)){eliminate10 = 1;message003.innerHTML = player010.innerHTML + "has been eliminated.";} 
+if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate = 1; message003.innerHTML = player001.innerHTML + "has been eliminimated.";}
+if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;message003.innerHTML = player002.innerHTML + "has been eliminimated.";}
+if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;message003.innerHTML = player003.innerHTML + "has been eliminimated.";} 
+if ((u == minim) && (s != minim) && (t != minim) && (b != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate4 = 1;message003.innerHTML = player004.innerHTML + "has been eliminimated.";}
+if ((v == minim) && (s != minim) && (t != minim) && (u != minim) && (b != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate5 = 1;message003.innerHTML = player005.innerHTML + "has been eliminimated.";}
+if ((w == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (b != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate6 = 1;message003.innerHTML = player006.innerHTML + "has been eliminimated.";}
+if ((x == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (b != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate7 = 1;message003.innerHTML = player007.innerHTML + "has been eliminimated.";}
+if ((y == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (b != minim) && (z != minim) && (n != minim)){eliminate8 = 1;message003.innerHTML = player008.innerHTML + "has been eliminimated.";}
+if ((z == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (b != minim) && (n != minim)){eliminate9 = 1;message003.innerHTML = player009.innerHTML + "has been eliminimated.";} 
+if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (b != minim)){eliminate10 = 1;message003.innerHTML = player010.innerHTML + "has been eliminimated.";} 
 	document.getElementById("time001").style.visibility = "hidden";
 	document.getElementById("q1").style.visibility = "hidden";
 	message001.innerHTML = "Click Next to proceed.";

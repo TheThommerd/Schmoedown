@@ -704,6 +704,30 @@ function removeItemOnce(arr, value) {
   }
   return arr;
 }
+function win(){
+		message001.innerHTML = "End of Match";
+		document.getElementById("message002").style.fontSize = "200%";
+		document.getElementById("message002").style.fontWeight = "bold";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + 'TEAM ' + player001.innerHTML + '/' + player002.innerHTML + '/' + player003.innerHTML + '/' + player004.innerHTML + '/' + player005.innerHTML;
+                message003.innerHTML = "";
+	        message004.innerHTML = "";
+                message005.innerHTML = "";
+	        message006.innerHTML = "";
+		document.getElementById("losses_F4").stepUp(1);
+		document.getElementById("save").click();	
+}
+function lose(){
+		message001.innerHTML = "End of Match";
+		document.getElementById("message002").style.fontSize = "200%";
+		document.getElementById("message002").style.fontWeight = "bold";
+                message002.innerHTML = "And your winner...." + "<br/><br/>" + 'TEAM ' + player006.innerHTML + '/' + player007.innerHTML + '/' + player008.innerHTML + '/' + player009.innerHTML + '/' + player010.innerHTML;
+                message003.innerHTML = "";
+	        message004.innerHTML = "";
+                message005.innerHTML = "";
+	        message006.innerHTML = "";
+		document.getElementById("wins_F4").stepUp(1);
+		document.getElementById("save").click();	
+}
 function roundchecker(){
 	var scores = [b, s, t, u, v, w, x, y, z, n];
 	if (eliminate == 1){removeItemOnce(scores, b);}
@@ -735,7 +759,9 @@ if ((n == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim)
 	message005.innerHTML = "";
 	message002.innerHTML = "";
 	message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button><br /><br /><button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
-	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;	
+	message006.innerHTML =  "Next category is " +question001[(vraag + 1)].cat;
+	if (eliminate == 1) && (eliminate2 == 1)  && (eliminate3 == 1)  && (eliminate4 == 1)  && (eliminate5 == 1) {lose();}
+	if (eliminate6 == 1) && (eliminate7 == 1)  && (eliminate8 == 1)  && (eliminate9 == 1)  && (eliminate10 == 1) {win();}
 }
 function next001() {
 	qmusic.play();

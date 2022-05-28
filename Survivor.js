@@ -484,15 +484,6 @@ if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percenta
 if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
 if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
 }
-//for( var i = 0; i < competitorlist.length; i++){
-//if ( competitorlist[i].id == team[1]){ percentagep3 = competitorlist[i].percentage;}
-//}
-//for( var i = 0; i < competitorlist.length; i++){
-//if ( competitorlist[i].id == team[3]){ percentagep5 = competitorlist[i].percentage;}
-//}
-//for( var i = 0; i < competitorlist.length; i++){
-//if ( competitorlist[i].id == team[2]){ percentagep4 = competitorlist[i].percentage;}
-//}
 for( var i = competitorlist.length-1; i >= 0; i--){
 if ( competitorlist[i].id == team[0]){ competitorlist.splice(i, 1);}
 if ( competitorlist[i].id == team[1]){ competitorlist.splice(i, 1);}
@@ -537,7 +528,8 @@ round001.innerHTML = r++;
 message003.innerHTML = "You have been eliminated.";
 message001.innerHTML = "";
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
-message006.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
+message005.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
+stats();	
 simmatch();	
 }
 }
@@ -732,8 +724,9 @@ function win(){
 		message004.setAttribute("data-html2canvas-ignore", true);
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
+		stats();
 		document.getElementById("wins_F4").stepUp(1);
-		document.getElementById("save").click();	
+		document.getElementById("save").click();
 }
 function lose(){
 		qmusic.pause();
@@ -748,6 +741,7 @@ function lose(){
 		message004.setAttribute("data-html2canvas-ignore", true);
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
+		stats();
 		document.getElementById("losses_F4").stepUp(1);
 		document.getElementById("save").click();	
 }
@@ -788,7 +782,8 @@ if ((b == minim) && (s != minim) && (t != minim) && (u != minim) && (v != minim)
 eliminate = 1; b = 'X'; message003.innerHTML = "You have been eliminated.";message001.innerHTML = "";
 message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 message004.setAttribute("data-html2canvas-ignore", true);
-message006.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>";
+message005.innerHTML =  "<button class=buttons001 onclick=simmatch()>Simulate match</button>"
+stats();
 }
 if ((s == minim) && (b != minim) && (t != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate2 = 1;s = 'X';message003.innerHTML = team[0] + " has been eliminated.";}
 if ((t == minim) && (s != minim) && (b != minim) && (u != minim) && (v != minim) && (w != minim) && (x != minim) && (y != minim) && (z != minim) && (n != minim)){eliminate3 = 1;t = 'X';message003.innerHTML = team[1] + " has been eliminated.";} 

@@ -729,7 +729,8 @@ function win(){
 		document.getElementById("message002").style.top = "-70px";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player001.innerHTML + '/' + player002.innerHTML + '/' + player003.innerHTML + '/' + player004.innerHTML + '/' + player005.innerHTML;
                 message003.innerHTML = "";
-	        message004.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
 		document.getElementById("wins_F4").stepUp(1);
@@ -742,7 +743,8 @@ function lose(){
 		document.getElementById("message002").style.fontWeight = "bold";
                 message002.innerHTML = "And your winner...." + "<br/><br/>" + player006.innerHTML + '/' + player007.innerHTML + '/' + player008.innerHTML + '/' + player009.innerHTML + '/' + player010.innerHTML;
                 message003.innerHTML = "";
-	        message004.innerHTML = "";
+            	message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
+		message004.setAttribute("data-html2canvas-ignore", true);
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
 		document.getElementById("losses_F4").stepUp(1);
@@ -928,7 +930,7 @@ function next001() {
             }
             else if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		vraag++;
-		if (eliminate == 1){score001.innerHTML = "X";}
+		if (eliminate == 1){score001.innerHTML = "X"; lose();}
 		if (eliminate2 == 1){score002.innerHTML = "X";}
 		if (eliminate3 == 1){score003.innerHTML = "X";}
 		if (eliminate4 == 1){score004.innerHTML = "X";}
@@ -1007,8 +1009,8 @@ if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
     a.click();
   });	
 document.getElementById("message006").style.top = "15px";
-if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
-else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+if (eliminate != 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (eliminate == 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }	
 else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)) {
   html2canvas($('#frame001')[0], {
@@ -1025,8 +1027,8 @@ else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)
     a.click();
   });	
 document.getElementById("message006").style.top = "15px";
-if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
-else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+if (eliminate != 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (eliminate == 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }
 else {	
   html2canvas($('#frame001')[0], {
@@ -1043,7 +1045,7 @@ else {
     a.click();
   });	
 document.getElementById("message006").style.top = "15px";
-if (b > s) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
-else if (s > b) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+if (eliminate != 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (eliminate == 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }
 }

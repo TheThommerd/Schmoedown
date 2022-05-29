@@ -785,18 +785,6 @@ function roundchecker(){
 	if (eliminate9 == 1){removeItemOnce(scores, z);}
 	if (eliminate10 == 1){removeItemOnce(scores, n);}
 	var minim = Math.min.apply(null, scores);
-	console.log(minim);
-	console.log('b' + b);
-	console.log('s' + s);
-	console.log('t' + t);
-	console.log('u' + u);
-	console.log('v' + v);
-	console.log('w' + w);
-	console.log('x' + x);
-	console.log('y' + y);
-	console.log('z' + z);
-	console.log('n' + n);
-	console.log(scores);
 	message003.innerHTML = "Nobody will be eliminated this round.";
 	document.getElementById("time001").style.visibility = "hidden";
 	document.getElementById("q1").style.visibility = "hidden";
@@ -833,124 +821,82 @@ function next001() {
 	    document.getElementById("chalden").style.display = "initial";
 	    document.getElementById("message004").style.display = "initial";
 	    document.getElementById("message005").style.display = "initial";
-            if ((a == 2) ||(a == 10)||(a == 18)||(a == 26)||(a == 34)||(a == 42)||(a == 50)||(a == 58)||(a == 66)||(a == 74)||(a == 82)||(a == 90)||(a == 98)||(a == 106)||(a == 114)||(a == 122)||(a == 130)||(a == 138)||(a == 146)||(a == 154)||(a == 162)||(a == 170)||(a == 178)||(a == 186)||(a == 194)||(a == 202)||(a == 210)||(a == 218)||(a == 226)||(a == 234)||(a == 242)||(a == 250)||(a == 258)||(a == 266)||(a == 274)||(a == 282)||(a == 290)||(a == 298)||(a == 306)||(a == 314)||(a == 322)||(a == 330)||(a == 338)||(a == 346)||(a == 354)||(a == 362)) {
-		vraag++;
 		document.getElementById("time001").style.fontSize = "200%";
 		document.getElementById("time001").style.fontWeight = "bold";
+	        message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+	        message003.innerHTML = "";
+	        message004.innerHTML = "";
+                message005.innerHTML = "";
+                message006.innerHTML = "";
+            if ((a == 2) ||(a == 10)||(a == 18)||(a == 26)||(a == 34)||(a == 42)||(a == 50)||(a == 58)||(a == 66)||(a == 74)||(a == 82)||(a == 90)||(a == 98)||(a == 106)||(a == 114)||(a == 122)||(a == 130)||(a == 138)||(a == 146)||(a == 154)||(a == 162)||(a == 170)||(a == 178)||(a == 186)||(a == 194)||(a == 202)||(a == 210)||(a == 218)||(a == 226)||(a == 234)||(a == 242)||(a == 250)||(a == 258)||(a == 266)||(a == 274)||(a == 282)||(a == 290)||(a == 298)||(a == 306)||(a == 314)||(a == 322)||(a == 330)||(a == 338)||(a == 346)||(a == 354)||(a == 362)) {
+		vraag++;
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
-                message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
+		message001.innerHTML = question001[vraag].ques;
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
             	qu001.innerHTML = "QUESTION 2 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 3) ||(a == 11)||(a == 19)||(a == 27)||(a == 35)||(a == 43)||(a == 51)||(a == 59)||(a == 67)||(a == 75)||(a == 83)||(a == 91)||(a == 99)||(a == 107)||(a == 115)||(a == 123)||(a == 131)||(a == 139)||(a == 147)||(a == 155)||(a == 163)||(a == 171)||(a == 179)||(a == 187)||(a == 195)||(a == 203)||(a == 211)||(a == 219)||(a == 227)||(a == 235)||(a == 243)||(a == 251)||(a == 259)||(a == 267)||(a == 275)||(a == 283)||(a == 291)||(a == 299)||(a == 307)||(a == 315)||(a == 323)||(a == 331)||(a == 339)||(a == 347)||(a == 355)||(a == 363)) {
 		vraag++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
                 qu001.innerHTML = "QUESTION 3 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 4) ||(a == 12)||(a == 20)||(a == 28)||(a == 36)||(a == 44)||(a == 52)||(a == 60)||(a == 68)||(a == 76)||(a == 84)||(a == 92)||(a == 100)||(a == 108)||(a == 116)||(a == 124)||(a == 132)||(a == 140)||(a == 148)||(a == 156)||(a == 164)||(a == 172)||(a == 180)||(a == 188)||(a == 196)||(a == 204)||(a == 212)||(a == 220)||(a == 228)||(a == 236)||(a == 244)||(a == 252)||(a == 260)||(a == 268)||(a == 276)||(a == 284)||(a == 292)||(a == 300)||(a == 308)||(a == 316)||(a == 324)||(a == 332)||(a == 340)||(a == 348)||(a == 356)||(a == 364)) {
 		vraag++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
                 qu001.innerHTML = "QUESTION 4 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 5) ||(a == 13)||(a == 21)||(a == 29)||(a == 37)||(a == 45)||(a == 53)||(a == 61)||(a == 69)||(a == 77)||(a == 85)||(a == 93)||(a == 101)||(a == 109)||(a == 117)||(a == 125)||(a == 133)||(a == 141)||(a == 149)||(a == 157)||(a == 165)||(a == 173)||(a == 181)||(a == 189)||(a == 197)||(a == 205)||(a == 213)||(a == 221)||(a == 229)||(a == 237)||(a == 245)||(a == 253)||(a == 261)||(a == 269)||(a == 277)||(a == 285)||(a == 293)||(a == 301)||(a == 309)||(a == 317)||(a == 325)||(a == 333)||(a == 341)||(a == 349)||(a == 357)||(a == 365)) {
 		vraag++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
  		qu001.innerHTML = "QUESTION 5 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 6) ||(a == 14)||(a == 22)||(a == 30)||(a == 38)||(a == 46)||(a == 54)||(a == 62)||(a == 70)||(a == 78)||(a == 86)||(a == 94)||(a == 102)||(a == 110)||(a == 118)||(a == 126)||(a == 134)||(a == 142)||(a == 150)||(a == 158)||(a == 166)||(a == 174)||(a == 182)||(a == 190)||(a == 198)||(a == 206)||(a == 214)||(a == 222)||(a == 230)||(a == 238)||(a == 246)||(a == 254)||(a == 262)||(a == 270)||(a == 278)||(a == 286)||(a == 294)||(a == 302)||(a == 310)||(a == 318)||(a == 326)||(a == 334)||(a == 342)||(a == 350)||(a == 358)||(a == 366)) {
 		vraag++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
  		qu001.innerHTML = "QUESTION 6 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 7) ||(a == 15)||(a == 23)||(a == 31)||(a == 39)||(a == 47)||(a == 55)||(a == 63)||(a == 71)||(a == 79)||(a == 87)||(a == 95)||(a == 103)||(a == 111)||(a == 119)||(a == 127)||(a == 135)||(a == 143)||(a == 151)||(a == 159)||(a == 167)||(a == 175)||(a == 183)||(a == 191)||(a == 199)||(a == 207)||(a == 215)||(a == 223)||(a == 231)||(a == 239)||(a == 247)||(a == 255)||(a == 263)||(a == 271)||(a == 279)||(a == 287)||(a == 295)||(a == 303)||(a == 311)||(a == 319)||(a == 327)||(a == 335)||(a == 343)||(a == 351)||(a == 359)||(a == 367)) {
 		vraag++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
  		qu001.innerHTML = "QUESTION 7 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 8) ||(a == 16)||(a == 24)||(a == 32)||(a == 40)||(a == 48)||(a == 56)||(a == 64)||(a == 72)||(a == 80)||(a == 88)||(a == 96)||(a == 104)||(a == 112)||(a == 120)||(a == 128)||(a == 136)||(a == 144)||(a == 152)||(a == 160)||(a == 168)||(a == 176)||(a == 184)||(a == 192)||(a == 200)||(a == 208)||(a == 216)||(a == 224)||(a == 232)||(a == 240)||(a == 248)||(a == 256)||(a == 264)||(a == 272)||(a == 280)||(a == 288)||(a == 296)||(a == 304)||(a == 312)||(a == 320)||(a == 328)||(a == 336)||(a == 344)||(a == 352)||(a == 360)||(a == 368)) {
 		vraag++;
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
  		qu001.innerHTML = "QUESTION 8 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
             }
             else if ((a == 9) ||(a == 17)||(a == 25)||(a == 33)||(a == 41)||(a == 49)||(a == 57)||(a == 65)||(a == 73)||(a == 81)||(a == 89)||(a == 97)||(a == 105)||(a == 113)||(a == 121)||(a == 129)||(a == 137)||(a == 145)||(a == 153)||(a == 161)||(a == 169)||(a == 177)||(a == 185)||(a == 193)||(a == 201)||(a == 209)||(a == 217)||(a == 225)||(a == 233)||(a == 241)||(a == 249)||(a == 257)||(a == 265)||(a == 273)||(a == 281)||(a == 289)||(a == 297)||(a == 305)||(a == 313)||(a == 321)||(a == 329)||(a == 337)||(a == 345)||(a == 353)||(a == 361)||(a == 369)) {
 		vraag++;
@@ -964,20 +910,13 @@ function next001() {
 		if (eliminate8 == 1){score008.innerHTML = "X";}
 		if (eliminate9 == 1){score009.innerHTML = "X";}
 		if (eliminate10 == 1){score010.innerHTML = "X";}
-		document.getElementById("time001").style.fontSize = "200%";
-		document.getElementById("time001").style.fontWeight = "bold";
                 update = setInterval("timer001()", 1000);
                 c = 20;
                 time001.innerHTML = 20;
                 message001.innerHTML = question001[vraag].ques;
-                message002.innerHTML = "<input id=q1 type=text /><br /><br /><button id=submit2 class=buttons001 onclick=checker()>Submit Answer</button>";
 		document.getElementById("q1").focus();
-                message003.innerHTML = "";
-                message005.innerHTML = "";
-                message006.innerHTML = "";
                  a++;
  		qu001.innerHTML = "QUESTION 1 - " +question001[vraag].cat.toUpperCase();
-                message004.innerHTML = "";
 		round001.innerHTML = r++;
             }
         }
@@ -1011,7 +950,6 @@ else {
 }
 }
         update = setInterval("timer001()", 1000);
-
 function repeat001() {location.reload();}
 $("#message002").keypress(function(event) { 
          if (event.keyCode === 13){ $("#submit").click();} 

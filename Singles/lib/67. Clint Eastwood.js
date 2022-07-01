@@ -187,13 +187,6 @@ var r2Q67 = [
 },
 {
 "cat":"Clint Eastwood",
-"ques":"In what film does Clint Eastwood utter the line: 'Go ahead, make my day.'?",
-"answ":"SUDDEN IMPACT",
-"answ2":"Sudden Impact.",
-"option":["Sudden Impact", "Magnum Force", "The Enforcer", "Dirty Harry"],
-},
-{
-"cat":"Clint Eastwood",
 "ques":"In what 70s film did Clint Eastwood play a gunfighter simply known as 'The Stranger' who helps a small settlement hold off three outlaws?",
 "answ":"HIGH PLAINS DRIFTER",
 "answ2":"High Plains Drifter.",

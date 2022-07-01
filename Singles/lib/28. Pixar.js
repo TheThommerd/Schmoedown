@@ -7,6 +7,25 @@ var pixar = [
 },
 {
 "cat":"Pixar",
+"ques":"In The Incredibles, the villain Screenslaver controls superheroes by making them wear what?",
+"answ":"GOGGLES",
+"answ2":"Goggles.",
+},
+{
+"cat":"Pixar",
+"ques":"What was the first film in which Michael Keaton voiced a character in a Pixar film?",
+"answ":"CARS",
+"answ2":"Cars.",
+},
+{
+"cat":"Pixar",
+"ques":"Mrs. Potato Head packed an extra pair of shoes and what else into the back of Mr. Potato Head in Toy Story 2?",
+"answ":"HIS ANGRY EYES",
+"answ3":"ANGRY EYES",
+"answ2":"His angry eyes.",
+},
+{
+"cat":"Pixar",
 "ques":"What Pixar film is known for the line: 'We should lock the door and scream that curse word we know. It's a good one.'?",
 "answ":"INSIDE OUT",
 "answ2":"Inside Out.",
@@ -217,6 +236,13 @@ var r2Q28 = [
 "answ":"NED BEATTY",
 "answ2":"Ned Beatty.",
 "option":["Ned Beatty", "Blake Clark", "Timothy Dalton", "Tim Allen"],
+},
+{
+"cat":"Pixar",
+"ques":"Who provides the voice of famous singer Ernesto De La Cruz in Coco?",
+"answ":"BENJAMIN BRATT",
+"answ2":"Benjamin Bratt.",
+"option":["Benjamin Bratt", "Anthony Gonzalez", "Alfonso Arau", "Gael García Bernal"],
 },
 {
 "cat":"Pixar",

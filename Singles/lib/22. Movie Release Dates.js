@@ -7,6 +7,30 @@ var moviereleasedates = [
 },
 {
 "cat":"Movie Release Dates",
+"ques":"What year saw the release of the YA adaptation The Fault in Our Stars?",
+"answ":"2014",
+"answ2":"2014.",
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw the release of the films Tango & Cash, All Dogs Go to Heaven and Honey I Shrunk the Kids?",
+"answ":"1989",
+"answ2":"1989.",
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw the release of The Dead Don't Die, Rambo Last Blood and Avengers Endgame?",
+"answ":"2019",
+"answ2":"2019.",
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw the release of Don't Tell Mom the Babysitter's Dead, My Girl and Career Opportunities?",
+"answ":"1991",
+"answ2":"1991.",
+},
+{
+"cat":"Movie Release Dates",
 "ques":"What year saw the release of Sex and the City 2 and Paranormal Activity 2?",
 "answ":"2010",
 "answ2":"2010.",
@@ -1675,6 +1699,20 @@ var r2Q22 = [
 "answ":"1994",
 "answ2":"1994.",
 "option":["1994", "1991", "1992", "1993"],
+},
+{
+"cat":"Movie Release Dates",
+"ques":"In what year were a Fast and Furious and a XXX film both released?",
+"answ":"2017",
+"answ2":"2017.",
+"option":["2017", "2001", "2011", "2006"],
+},
+{
+"cat":"Movie Release Dates",
+"ques":"Which year saw releases in the Mad Max, James Bond and Nightmare on Elm Street franchises?",
+"answ":"1985",
+"answ2":"1985.",
+"option":["1985", "1989", "1987", "1981"],
 },
 {
 "cat":"Movie Release Dates",

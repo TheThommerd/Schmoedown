@@ -7,6 +7,32 @@ var seventies = [
 },
 {
 "cat":"70s",
+"ques":"What was the first collaboration between director George Lucas and actor Harrison Ford?",
+"answ":"AMERICAN GRAFFITI",
+"answ2":"American Graffiti.",
+},
+{
+"cat":"70s",
+"ques":"Donald Sutherland played Hawkeye Pierce in what 1970 comedy?",
+"answ":"MASH",
+"answ3":"M*A*S*H",
+"answ2":"M*A*S*H.",
+},
+{
+"cat":"70s",
+"ques":"Blake Edwards directed who as the wacky inspector Clouseau in the 1970s films The Return of the Pink Panther and The Pink Panther Strikes Again?",
+"answ":"PETER SELLERS",
+"answ2":"Peter Sellers.",
+},
+{
+"cat":"70s",
+"ques":"This classic Robert Altman film follows a unit of medical personnel during the Korean War.",
+"answ":"MASH",
+"answ3":"M*A*S*H",
+"answ2":"M*A*S*H.",
+},
+{
+"cat":"70s",
 "ques":"What 70s musical includes songs such as 'Summer Nights', 'You're the One That I Want' and 'Beauty School Dropout'?",
 "answ":"GREASE",
 "answ2":"Grease.",
@@ -160,6 +186,13 @@ var r2Q21 = [
 "answ3":"5",
 "answ2":"5.",
 "option":["5", "7", "4", "6"],
+},
+{
+"cat":"70s",
+"ques":"Who plays the male lead Oliver, in the 1970 romance film, Love Story?",
+"answ":"RYAN O'NEAL",
+"answ2":"Ryan O'Neal.",
+"option":["Ryan O'Neal", "Warren Beatty", "Dustin Hoffman", "Robert Redford"],
 },
 {
 "cat":"70s",

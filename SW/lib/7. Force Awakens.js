@@ -8,6 +8,24 @@ var episodevii = [
 },
 {
 "cat":"The Force Awakens",
+"ques":"In The Force Awakens, Lor Son Tekka says that he has traveled too far and seen too much to ignore the ____ in the galaxy.",
+"answ":"DESPAIR",
+"answ2":"Despair.",
+},
+{
+"cat":"The Force Awakens",
+"ques":"Which actress plays a young Rey in the The Force Awakens?",
+"answ":"CAILEY FLEMING",
+"answ2":"Cailey Fleming.",
+},
+{
+"cat":"The Force Awakens",
+"ques":"In The Force Awakens, which character says the following line: 'We've got company. You have to hide.'?",
+"answ":"POE DAMERON",
+"answ2":"Poe Dameron.",
+},
+{
+"cat":"The Force Awakens",
 "ques":"Name the character played by actor Simon Pegg in The Force Awakens.",
 "answ":"UNKAR PLUTT",
 "answ3":"UNKAR PLUT",

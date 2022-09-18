@@ -7,6 +7,13 @@ var vehiclesweapons = [
 },
 {
 "cat":"Vehicles, weapons & tech",
+"ques":"In The Force Awakens, what type of X-wing starfighter does Poe Dameron use on the Battle of Jakku?",
+"answ":"T 70 X WING STARFIGHTER",
+"answ3":"T 70",
+"answ2":"T-70 X-wing starfighter.",
+},
+{
+"cat":"Vehicles, weapons & tech",
 "ques":"In The Clone Wars, what type of cables do the clones use to try and get up to the abandoned monastery on Teth?",
 "answ":"ASCENSION CABLES",
 "answ3":"ASCENSION",
@@ -282,6 +289,22 @@ var r2Q13 = [
 "answ":"CARBONITE",
 "answ2":"Carbonite.",
 "option":["Carbonite", "Tyridium", "Potassium", "Hydrogen"],
+},
+{
+"cat":"Vehicles, weapons & tech",
+"ques":"Qui-Gon enters Watto's shop in search of parts for what model of ship?",
+"answ":"J TYPE 327 NUBIAN",
+"answ3":"J TYPE 327 NUBIAN ROYAL STARSHIP",
+"answ2":"J-type 327 Nubian.",
+"option":["J-type 327 Nubian", "Carrack-class light cruiser", "N-1 starfighter", "F-143 emergency speeder"],
+},
+{
+"cat":"Vehicles, weapons & tech",
+"ques":"In The Force Awakens, Hux says that the droid evaded capture on Jakku by escaping in a stolen Corellian ____-series freighter?",
+"answ":"YT",
+"answ3":"YT SERIES",
+"answ2":"YT-series.",
+"option":["YT-series", "ST-series", "DY-series", "AX-series"],
 },
 ];
 r2Q13 = shuffle(r2Q13);

@@ -54,6 +54,13 @@ var threepointer001 = [
 },
 {
 "cat":"Creatures & Aliens",
+"ques":"How many toes does a Gungan have on each foot?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+},
+{
+"cat":"Creatures & Aliens",
 "ques":"What skeleton can be seen as R2 and C-3PO cross the Tantooine desert in A New Hope?",
 "answ":"KRAYT DRAGON",
 "answ3":"KRAIT DRAGON",
@@ -606,6 +613,12 @@ var threepointer001 = [
 "answ":"LANDO",
 "answ3":"LANDO CALRISSIAN",
 "answ2":"Lando Calrissian.",
+},
+{
+"cat":"Who said it?",
+"ques":"In The Phantom Menace, who says the line: 'With all due respect, the ambassadors for the Supreme Chancellor wish to board immediately'?",
+"answ":"MAOI MADAKOR",
+"answ2":"Maoi Madakor.",
 },
 {
 "cat":"Who said it?",

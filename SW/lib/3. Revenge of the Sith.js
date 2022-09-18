@@ -8,6 +8,18 @@ var episodeiii = [
 },
 {
 "cat":"Revenge of the Sith",
+"ques":"In Revenge of the Sith, what is the last thing Yoda says to Tarfful and Chewbacca?",
+"answ":"MISS YOU I WILL",
+"answ2":"Miss you, I will.",
+},
+{
+"cat":"Revenge of the Sith",
+"ques":"In Revenge of the Sith, Mace Windu says that he senses a great deal of what in young Skywalker?",
+"answ":"CONFUSION",
+"answ2":"Confusion.",
+},
+{
+"cat":"Revenge of the Sith",
 "ques":"Who does the Jedi Council decide to send to the Utapau system to search for General Grievous?",
 "answ":"OBI WAN KENOBI",
 "answ3":"OBI WAN",

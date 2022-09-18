@@ -7,6 +7,13 @@ var solo = [
 },
 {
 "cat":"Solo",
+"ques":"In Solo, as Han and Qi'ra are escaping Moloch, Han mentions that there is a starliner leaving from what spaceport?",
+"answ":"CORONET SPACEPORT",
+"answ3":"CORONET",
+"answ2":"Coronet Spaceport.",
+},
+{
+"cat":"Solo",
 "ques":"What is the name of the droid portrayed by Phoebe Waller-Bridge in Solo?",
 "answ":"L3 37",
 "answ3":"L3",

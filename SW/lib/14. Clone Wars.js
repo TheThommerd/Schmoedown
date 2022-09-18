@@ -8,6 +8,19 @@ var clonewars = [
 },
 {
 "cat":"Clone Wars",
+"ques":"In The Clone Wars, Mace Windu and Yoda are trying to contact Obi-Wan, Admiral Yualren responds by saying they cannot reach him. He gives two reasons as to why this might be, rebooting their communication system or what else?",
+"answ":"A SOLAR STORM",
+"answ3":"SOLAR STORM",
+"answ2":"A solar storm.",
+},
+{
+"cat":"Clone Wars",
+"ques":"In The Clone Wars, what is the last thing Asaj Ventress says to Obi-Wan?",
+"answ":"JEDI SCUM",
+"answ2":"Jedi scum.",
+},
+{
+"cat":"Clone Wars",
 "ques":"In The Clone Wars, while on Tatooine, Ahsoka says she will clean R2's ___ later?",
 "answ":"SERVOS",
 "answ2":"Servos.",

@@ -32,6 +32,13 @@ var episodei = [
 },
 {
 "cat":"The Phantom Menace",
+"ques":"During the Invasion of Naboo, who is in command of the Naboo Royal Security Forces?",
+"answ":"QUARSH PANAKA",
+"answ3":"CAPTAIN PANAKA",
+"answ2":"Quarsh Panaka.",
+},
+{
+"cat":"The Phantom Menace",
 "ques":"In The Phantom Menace what is the last word spoken in the film?",
 "answ":"PEACE",
 "answ2":"Peace.",

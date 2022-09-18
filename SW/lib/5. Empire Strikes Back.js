@@ -8,6 +8,26 @@ var episodev = [
 },
 {
 "cat":"The Empire Strikes Back",
+"ques":"Who are the first Rebel pilot and gunner to bring down an AT-AT during the Battle of Hoth?",
+"answ":"WEDGE ANTILLES AND WES JANSON",
+"answ3":"WES JANSON AND WEDGE ANTILLES",
+"answ2":"Wedge Antilles and Wes Janson.",
+},
+{
+"cat":"The Empire Strikes Back",
+"ques":"In The Empire Strikes Back, Yoda says that a Jedi must have the deepest what?",
+"answ":"COMMITMENT",
+"answ2":"Commitment.",
+},
+{
+"cat":"The Empire Strikes Back",
+"ques":"In The Empire Strikes Back, Luke Skywalker had what callsign while on patrol on Hoth?",
+"answ":"ECHO 3",
+"answ3":"ECHO THREE",
+"answ2":"Echo Three.",
+},
+{
+"cat":"The Empire Strikes Back",
 "ques":"What famous two-word answer does Han give to Leia after she tells him that she loves him?",
 "answ":"I KNOW",
 "answ2":"I know.",

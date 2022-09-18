@@ -8,6 +8,12 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"Who is the only Jedi to address Palpatine as Darth Sidious?",
+"answ":"YODA",
+"answ2":"Yoda.",
+},
+{
+"cat":"Who said it?",
 "ques":"Who tells Anakin 'The fear of loss is a path to the dark side'?",
 "answ":"YODA",
 "answ2":"Yoda.",

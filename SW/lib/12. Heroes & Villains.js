@@ -8,6 +8,24 @@ var heroesvillains = [
 },
 {
 "cat":"Heroes & Villains",
+"ques":"Which actor plays sergeant of the alliance Ruescott Melshi in Rogue One?",
+"answ":"DUNCAN POW",
+"answ2":"Duncan Pow.",
+},
+{
+"cat":"Heroes & Villains",
+"ques":"Which species does Qui-Gon Jinn characterize as 'cowards'?",
+"answ":"NEIMOIDIANS",
+"answ2":"Neimoidians.",
+},
+{
+"cat":"Heroes & Villains",
+"ques":"The character Elan Sleazebaggano appears in which Star Wars film?",
+"answ":"ATTACK OF THE CLONES",
+"answ2":"Attack of the Clones.",
+},
+{
+"cat":"Heroes & Villains",
 "ques":"According to Yoda, what 'matters not'?",
 "answ":"SIZE",
 "answ2":"Size.",

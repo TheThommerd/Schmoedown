@@ -8,6 +8,33 @@ var episodeiv = [
 },
 {
 "cat":"A New Hope",
+"ques":"In A New Hope, Vader tells his officer to send what type of crew aboard the Millennium Falcon to check every part of the ship?",
+"answ":"SCANNING CREW",
+"answ2":"Scanning crew.",
+},
+{
+"cat":"A New Hope",
+"ques":"In A New Hope, who does Luke believe is 'too small to run away'?",
+"answ":"R2 D2",
+"answ3":"R2D2",
+"answ2":"R2-D2.",
+},
+{
+"cat":"A New Hope",
+"ques":"In A New Hope, how many stormtroopers board the Millennium Falcon after Han asks: 'Could you give us a hand with this'?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2.",
+},
+{
+"cat":"A New Hope",
+"ques":"In A New Hope, which Rebel leader explains that 'small one-man fighters might be able to penetrate the Death Star's outer defense'?",
+"answ":"GENERAL DODONNA",
+"answ3":"DODONNA",
+"answ2":"General Dodonna.",
+},
+{
+"cat":"A New Hope",
 "ques":"What is Luke's callsign as an X-Wing pilot during the Battle of Yavin?",
 "answ":"RED FIVE",
 "answ3":"RED 5",
@@ -419,13 +446,6 @@ var episodeiv = [
 "answ":"JABBA",
 "answ3":"JABBA THE HUTT",
 "answ2":"Jabba the Hutt.",
-},
-{
-"cat":"A New Hope",
-"ques":"What pilot was codenamed Red Six during the first Death Star battle?",
-"answ":"PORKINS",
-"answ3":"JEK PORKINS",
-"answ2":"Porkins.",
 },
 {
 "cat":"A New Hope",

@@ -8,6 +8,49 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"In The Clone Wars, how many star cruisers does Mace Windu need from Admiral Wurtz?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Return of the Jedi, what is the language spoken by the Ewoks?",
+"answ":"EWOKESE",
+"answ2":"Ewokese.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In The Phantom Menace, what species is Mas Amedda?",
+"answ":"CHAGRIAN",
+"answ2":"Chagrian.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Attack of the Clones, which character speaks the last line of the film?",
+"answ":"YODA",
+"answ2":"Yoda.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Return of the Jedi, who plays Mon Mothma?",
+"answ":"CAROLINE BLAKISTON",
+"answ2":"Caroline Blakiston.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which Jedi is shown executed on Cato Neimoidia?",
+"answ":"PLO KOON",
+"answ2":"Plo Koon.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"R2-D2 has appeared in how many Star Wars films?",
+"answ":"11",
+"answ2":"11.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Who is the only actor to ever receive an Oscar nomination for a performance in a Star Wars film?",
 "answ":"ALEC GUINNESS",
 "answ2":"Alec Guinness.",
@@ -33,7 +76,7 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"what is Owen Lars' occupation?",
+"ques":"What is Owen Lars' occupation?",
 "answ":"MOISTURE FARMER",
 "answ2":"Moisture farmer.",
 },

@@ -7,6 +7,37 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"Who plays Cliegg Lars in Attack of the Clones?",
+"answ":"JACK THOMPSON",
+"answ2":"Jack Thompson.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what is the first name of Jedi Knight Josall?",
+"answ":"SEPHJET",
+"answ2":"Sephjet.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, during the Battle of Geonosis which Jedi incapacitates the Battle Droid with C-3PO's head?",
+"answ":"KIT FISTO",
+"answ2":"Kit Fisto.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what species are the creatures seen fighting over a bone while Anakin enters a Tusken Raider tent?",
+"answ":"MASSIFFS",
+"answ3":"MASSIFF",
+"answ2":"Massiffs.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"What species is the first beast that dies in the Geonosian execution arena?",
+"answ":"NEXU",
+"answ2":"Nexu.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"What was the name of the decoy that was killed in the first assassination attempt we see on Senator Amidala?",
 "answ":"CORDE",
 "answ2":"Cordé.",

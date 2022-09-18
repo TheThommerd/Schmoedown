@@ -134,6 +134,13 @@ var fivepointer001 = [
 "answ2":"Level 5.",
 },
 {
+"cat":"Attack of the Clones",
+"ques":"What is the model of blaster that Jango Fett dual-wields in Attack of the Clones?",
+"answ":"WESTAR 34 BLASTER PISTOL",
+"answ3":"WESTAR 34",
+"answ2":"WESTAR-34 blaster pistol.",
+},
+{
 "cat":"Revenge of the Sith",
 "ques":"What Jedi was killed by Clone Troopers on Felucia?",
 "answ":"AAYLA SECURA",

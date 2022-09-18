@@ -8,6 +8,30 @@ var episodeix = [
 },
 {
 "cat":"The Rise of Skywalker",
+"ques":"Which actor plays Resistance pilot Seftin Vanik in The Rise of Skywalker?",
+"answ":"JOSEF ALTIN",
+"answ2":"Josef Altin.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, what are the first words spoken in the film?",
+"answ":"AT LAST",
+"answ2":"At last.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, when Poe lightspeed skips he travels to the Mirror-Spires of what famous city?",
+"answ":"IVEXIA",
+"answ2":"Ivexia.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, when the Falcon arrives on Ajan Kloss, what type of crew is needed to attend to the ship?",
+"answ":"FIRE CREW",
+"answ2":"Fire crew.",
+},
+{
+"cat":"The Rise of Skywalker",
 "ques":"What is the name of the former stormtrooper who bonded with Finn after telling the story of how she and her crew defected from the First Order?",
 "answ":"JANNAH",
 "answ2":"Jannah.",
@@ -318,6 +342,21 @@ var r2Q15 = [
 "answ3":"TZ1719",
 "answ2":"TZ-1719.",
 "option":["TZ-1719", "MB-223", "LS-005", "TK-5331"],
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"The actor Mandeep Dhillon plays which Lieutenant in the film?",
+"answ":"GARAN",
+"answ3":"LIEUTENANT GARAN",
+"answ2":"Lt. Garan.",
+"option":["Lt. Garan", "Lt. Draper", "Lt. Quinn", "Lt. Parnadee"],
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"Which actress plays General Bellava Parnadee in the film?",
+"answ":"TANYA MOODIE",
+"answ2":"Tanya Moodie.",
+"option":["Tanya Moodie", "Ashley Beck", "Alison Rose", "Amanda Hale"],
 },
 {
 "cat":"The Rise of Skywalker",

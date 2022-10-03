@@ -14,6 +14,43 @@ var solo = [
 },
 {
 "cat":"Solo",
+"ques":"What nickname does Beckett call Solo when he asks if he 'Wants to live, then shut up' and do what his Captain tells him?",
+"answ":"SPARKY",
+"answ2":"Sparky.",
+},
+{
+"cat":"Solo",
+"ques":"What is the name of the squid-like creature that Han and company encounter in the Akkadese Maelstrom?",
+"answ":"SUMMA VERMINOTH",
+"answ2":"Summa-verminoth.",
+},
+{
+"cat":"Solo",
+"ques":"While Han and Qi'ra are trying to get in line at the spaceport there's a man being detained and taken to what cell?",
+"answ":"3B",
+"answ3":"CELL 3B",
+"answ2":"Cell 3B.",
+},
+{
+"cat":"Solo",
+"ques":"In Solo, an announcement to join the Empire is seen by Han, where they claim that if you join you will bring 'Order and ____ to the galaxy'.",
+"answ":"UNITY",
+"answ2":"Unity.",
+},
+{
+"cat":"Solo",
+"ques":"In Solo, Han pretends that a rock he is holding to threaten Proxima is a what?",
+"answ":"THERMAL DETONATOR",
+"answ2":"Thermal detonator.",
+},
+{
+"cat":"Solo",
+"ques":"Which actress played server Ottilie onboard the First Light?",
+"answ":"SAMANTHA COLLEY",
+"answ2":"Samantha Colley.",
+},
+{
+"cat":"Solo",
 "ques":"What is the name of the droid portrayed by Phoebe Waller-Bridge in Solo?",
 "answ":"L3 37",
 "answ3":"L3",
@@ -312,6 +349,18 @@ var solo = [
 },
 {
 "cat":"Solo",
+"ques":"In Solo, what is the full name of the singing creature inside a formaldehyde flask aboard the First Light?",
+"answ":"LULEO PRIMOC",
+"answ2":"Luleo Primoc.",
+},
+{
+"cat":"Solo",
+"ques":"What was the last line spoken by Han Solo in Solo A Star Wars Story?",
+"answ":"WHEN HAVE I EVER STEERED YOU WRONG",
+"answ2":"When have I ever steered you wrong.",
+},
+{
+"cat":"Solo",
 "ques":"Who played Weazel, a pod race spectator in Phantom Menace that became a marauder in Solo: A Star Wars Story?",
 "answ":"WARWICK DAVIS",
 "answ2":"Warwick Davis.",
@@ -353,6 +402,13 @@ var r2Q10 = [
 "answ":"MOLOCH",
 "answ2":"Moloch.",
 "option":["Moloch", "Jabbat", "Rebolt", "Syke"],
+},
+{
+"cat":"Solo",
+"ques":"After Han gets approved as a pilot he is told to proceed to what number transport for the Naval Academy at Carida?",
+"answ":"83",
+"answ2":"83.",
+"option":["83", "81", "82", "84"],
 },
 {
 "cat":"Solo",

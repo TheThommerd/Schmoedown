@@ -8,6 +8,73 @@ var whosaidit = [
 },
 {
 "cat":"Who said it?",
+"ques":"In A New Hope, C-3PO tells R2-D2 that if they are caught, they will be sent to the spice mines or smashed into ____?",
+"answ":"WHO KNOWS WHAT",
+"answ2":"Who knows what.",
+},
+{
+"cat":"Who said it?",
+"ques":"In Attack of the Clones, what are Shmi Skywalker's first words?",
+"answ":"ANNIE IS IT YOU",
+"answ2":"Annie, is it you.",
+},
+{
+"cat":"Who said it?",
+"ques":"In A New Hope, Daine Jir tells Darth Vader 'If word of this gets out, it could generate ____ for the Rebellion in the Senate.'",
+"answ":"SYMPATHY",
+"answ2":"Sympathy.",
+},
+{
+"cat":"Who said it?",
+"ques":"In The Rise of Skywalker, what does Adi Gallia tell Rey through the Force during her battle with Darth Sidious?",
+"answ":"RISE REY",
+"answ2":"Rise, Rey.",
+},
+{
+"cat":"Who said it?",
+"ques":"Which Star Wars character says the line: 'I'm just a simple man trying to make my way in the universe'?",
+"answ":"JANGO FETT",
+"answ2":"Jango Fett.",
+},
+{
+"cat":"Who said it?",
+"ques":"In Dexter Jettster's opinion, which planet's friendliness depends on 'How good your manners are and how big your pocketbook is'?",
+"answ":"KAMINO",
+"answ2":"Kamino.",
+},
+{
+"cat":"Who said it?",
+"ques":"In The Phantom Menace, what is the name of Anakin's female friend that says 'You've been working on that thing for years'?",
+"answ":"AMEE",
+"answ2":"Amee.",
+},
+{
+"cat":"Who said it?",
+"ques":"In The Force Awakens, according to the opening crawl 'Leia is desperate to find her brother Luke and gain his ____ in restoring peace and justice in the galaxy.'",
+"answ":"HELP",
+"answ2":"Help.",
+},
+{
+"cat":"Who said it?",
+"ques":"In Revenge of the Sith, the opening crawl states 'As the Separatist droid army attempts to flee the ____ capitol'",
+"answ":"BESIEGED",
+"answ2":"Besieged.",
+},
+{
+"cat":"Who said it?",
+"ques":"In Attack of the Clones, what is the first word spoken in the film?",
+"answ":"SENATOR",
+"answ2":"Senator.",
+},
+{
+"cat":"Who said it?",
+"ques":"In A New Hope, before being choked by Vader, Admiral Motti tells him 'Don't try to frighten us with your ____ ways'?",
+"answ":"SORCERER'S",
+"answ3":"SORCERER'S WAYS",
+"answ2":"Sorcerer's.",
+},
+{
+"cat":"Who said it?",
 "ques":"Who is the only Jedi to address Palpatine as Darth Sidious?",
 "answ":"YODA",
 "answ2":"Yoda.",
@@ -68,12 +135,6 @@ var whosaidit = [
 "ques":"Who says the line: 'We're getting reports of a raid at the Festival of Ancestors' in The Rise of Skywalker?",
 "answ":"SNAP WEXLEY",
 "answ2":"Snap Wexley.",
-},
-{
-"cat":"Who said it?",
-"ques":"In A New Hope, who says: 'Computer's locked. Getting a signal. The guns...they've stopped'?",
-"answ":"DEX TIREE",
-"answ2":"Dex Tiree.",
 },
 {
 "cat":"Who said it?",
@@ -293,6 +354,42 @@ var whosaidit = [
 "answ":"KYLO REN",
 "answ2":"Kylo Ren.",
 },
+{
+"cat":"Who said it?",
+"ques":"What is Luke Skywalker's final line in The Rise of Skywalker?",
+"answ":"REY THE FORC WILL BE WITH YOU ALWAYS",
+"answ2":"Rey, the Force will be with you always.",
+},
+{
+"cat":"Who said it?",
+"ques":"In Rogue One, what are Lyra Erso's last words before her death?",
+"answ":"YOU WILL NEVER WIN",
+"answ2":"You will never win.",
+},
+{
+"cat":"Who said it?",
+"ques":"In Attack of the Clones, Count Dooku's first words are: 'We must persuade the Commerce Guild and the ___ to sign the treaty'.",
+"answ":"CORPORATE ALLIANCE",
+"answ2":"Corporate Alliance.",
+},
+{
+"cat":"Who said it?",
+"ques":"In The Phantom Menace, Quarsh Panaka tells the viceroy he can kiss his ______ goodbye as they take him away.",
+"answ":"TRADE FRANCHISE",
+"answ2":"Trade franchise.",
+},
+{
+"cat":"Who said it?",
+"ques":"To date, what original trilogy character's final line of dialogue is 'Nice flyin' Lando'?",
+"answ":"WEDGE ANTILLES",
+"answ2":"Wedge Antilles.",
+},
+{
+"cat":"Who said it?",
+"ques":"In The Phantom Menace, which character's first words are 'I knew it. They're here to force a settlement.'?",
+"answ":"DAULTAY DOFINE",
+"answ2":"Daultay Dofine.",
+},
 ];
 var r2Q11 = [
 {
@@ -302,6 +399,13 @@ var r2Q11 = [
 "answ3":"QUEEN OF NABOO",
 "answ2":"Queen of Naboo/Jamillia.",
 "option":["Queen of Naboo", "Chancellor Palpatine", "Padmé Amidala", "Obi-Wan Kenobi"],
+},
+{
+"cat":"Who said it?",
+"ques":"In Return of the Jedi, what are C-3PO's last words?",
+"answ":"THEY DID IT",
+"answ2":"They did it!",
+"option":["They did it", "We did it", "It's over", "It is done"],
 },
 {
 "cat":"Who said it?",
@@ -326,6 +430,21 @@ var r2Q11 = [
 "answ3":"JABBA",
 "answ2":"Jabba the Hutt.",
 "option":["Jabba the Hutt", "Darth Vader", "Grand Moff Tarkin", "Han Solo"],
+},
+{
+"cat":"Who said it?",
+"ques":"In Return of the Jedi, during the Battle of Endor, Lando says: 'Watch out! Squad at _____?",
+"answ":".06",
+"answ3":"06",
+"answ2":".06.",
+"option":[".06", ".02", ".08", ".04"],
+},
+{
+"cat":"Who said it?",
+"ques":"In The Clone Wars, what are the last words of the caretaker droid before Ahsoka decapitates it?",
+"answ":"DON'T YOU DARE",
+"answ2":"Don't you dare.",
+"option":["Don't you dare", "Please stop", "Let me live", "You will die"],
 },
 {
 "cat":"Who said it?",
@@ -543,6 +662,28 @@ var r2Q11 = [
 "answ3":"OBI WAN",
 "answ2":"Obi-Wan Kenobi.",
 "option":["Obi-Wan Kenobi", "Mace Windu", "Luke Skywalker", "Qui-Gon Jinn"],
+},
+{
+"cat":"Who said it?",
+"ques":"In A New Hope, who says the line: 'I can't abide those Jawas - disgusting creatures'?",
+"answ":"C 3PO",
+"answ3":"C3PO",
+"answ2":"C-3PO.",
+"option":["C-3PO", "Obi-Wan Kenobi", "Luke Skywalker", "Han Solo"],
+},
+{
+"cat":"Who said it?",
+"ques":"Who proclaims: 'I fear nothing, for all is as the Force wills it.'?",
+"answ":"CHIRRUT IMWE",
+"answ2":"Chirrut Îmwe.",
+"option":["Chirrut Îmwe", "Ki-Adi-Mundi", "Mace Windu", "Qui-Gon Jinn"],
+},
+{
+"cat":"Who said it?",
+"ques":"In A New Hope, who says: 'Computer's locked. Getting a signal. The guns...they've stopped'?",
+"answ":"DEX TIREE",
+"answ2":"Dex Tiree.",
+"option":["Dex Tiree", "Wedge Antilles", "Garven Dreis", "Jon Vander"],
 },
 ];
 r2Q11 = shuffle(r2Q11);

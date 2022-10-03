@@ -8,9 +8,23 @@ var episodeix = [
 },
 {
 "cat":"The Rise of Skywalker",
-"ques":"Which actor plays Resistance pilot Seftin Vanik in The Rise of Skywalker?",
-"answ":"JOSEF ALTIN",
-"answ2":"Josef Altin.",
+"ques":"In The Rise of Skywalker, Albrekh the Sith alchemist repaired Kylo Ren's helmet using what type of iron to weld the cracks together?",
+"answ":"SARRASSIAN",
+"answ3":"SARRASSIAN IRON",
+"answ2":"Sarrassian.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"What is the name of the location where Finn, Chewbacca and Poe obtain information from a Resistance informant named Boolio at the beginning of The Rise of Skywalker?",
+"answ":"SINTA GLACIER COLONY",
+"answ2":"Sinta Glacier Colony.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, what Jedi Hunter were Luke and Lando said to be trailing to Pasaana while looking for a Sith wayfinder?",
+"answ":"OCHI OF BESTOON",
+"answ3":"OCHI",
+"answ2":"Ochi of Bestoon.",
 },
 {
 "cat":"The Rise of Skywalker",
@@ -144,12 +158,6 @@ var episodeix = [
 "ques":"In The Rise of Skywalker, what maneuver does Poe use to escape the tie fighters at the beginning of the film, that later made Rey mad?",
 "answ":"LIGHTSPEED SKIPPING",
 "answ2":"Lightspeed Skipping.",
-},
-{
-"cat":"The Rise of Skywalker",
-"ques":"In The Rise of Skywalker, the film opens on what planet?",
-"answ":"MUSTAFAR",
-"answ2":"Mustafar.",
 },
 {
 "cat":"The Rise of Skywalker",
@@ -301,6 +309,38 @@ var episodeix = [
 },
 {
 "cat":"The Rise of Skywalker",
+"ques":"The opening crawl of The Rise of Skywalker has the line: 'The galaxy has heard a mysterious _____, a threat of revenge in the sinister voice of the late Emperor Palpatine'",
+"answ":"BROADCAST",
+"answ2":"Broadcast.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"What is the name of the planet, deep in the Unknown Regions, that the final battle of The Rise of Skywalker takes place on?",
+"answ":"EXEGOL",
+"answ2":"Exegol.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, who is by General Leia's body when it disappears after Ben's death?",
+"answ":"MAZ KANATA",
+"answ2":"Maz Kanata.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"The Rise of Skywalker was nominated for how many Academy Awards?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, when The Knights of Ren travel to Pasaana, what is the name of their ship?",
+"answ":"THE NIGHT BUZZARD",
+"answ3":"NIGHT BUZZARD",
+"answ2":"The Night Buzzard.",
+},
+{
+"cat":"The Rise of Skywalker",
 "ques":"What was the full name of Dominic Monaghan's character in The Rise of Skywalker?",
 "answ":"BEAUMONT KIN",
 "answ2":"Beaumont Kin.",
@@ -334,6 +374,14 @@ var r2Q15 = [
 "answ3":"LARMA D'ACY",
 "answ2":"Commander D'Acy.",
 "option":["Commander D'Acy", "Lieutenant Garan", "Commander Trach", "Snap Wexley"],
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, while trying to escape Pasaana Poe says that they cannot go back to the Falcon because the enemy is waiting for them and Finn says that they will be thrown into the pits of what by the enemy?",
+"answ":"GRIQ",
+"answ3":"PITS OF GRIQ",
+"answ2":"Pits of Griq.",
+"option":["Griq", "Sriq", "Briq", "Zriq"],
 },
 {
 "cat":"The Rise of Skywalker",
@@ -513,6 +561,27 @@ var r2Q15 = [
 "answ3":"6",
 "answ2":"6.",
 "option":["6", "4", "2", "8"],
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"Which actor plays Resistance pilot Seftin Vanik in The Rise of Skywalker?",
+"answ":"JOSEF ALTIN",
+"answ2":"Josef Altin.",
+"option":["Josef Altin", "Martin Wilde", "Elliot Hawkes", "Nigel Godrich"],
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, while inside the caverns of Pasaana, what does Poe say he does not like?",
+"answ":"BONES",
+"answ2":"Bones.",
+"option":["Bones", "The darkness", "Spiders", "Bats"],
+},
+{
+"cat":"The Rise of Skywalker",
+"ques":"In The Rise of Skywalker, the film opens on what planet?",
+"answ":"MUSTAFAR",
+"answ2":"Mustafar.",
+"option":["Mustafar", "Tatooine", "Exegol", "Dathomir"],
 },
 ];
 episodeix = shuffle(episodeix);

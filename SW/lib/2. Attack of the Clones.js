@@ -7,6 +7,18 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what is the last line spoken by Count Dooku?",
+"answ":"THE WAR HAS BEGUN",
+"answ2":"The war has begun.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, the opening crawl states that there is what in the Galactic Senate?",
+"answ":"UNREST",
+"answ2":"Unrest.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"Who plays Cliegg Lars in Attack of the Clones?",
 "answ":"JACK THOMPSON",
 "answ2":"Jack Thompson.",
@@ -325,6 +337,18 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, when Obi-Wan first finds Count Dooku, who is the first Separatist Council member to speak after Dooku?",
+"answ":"NUTE GUNRAY",
+"answ2":"Nute Gunray.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"C-3PO tells R2 that for a mechanic he seems to do an excessive amount of what?",
+"answ":"THINKING",
+"answ2":"Thinking.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"First introduced in Attack of the Clones, what does a military vessel called a LAAT stand for?",
 "answ":"LOW ALTITUDE ASSAULT TRANSPORT",
 "answ2":"Low Altitude Assault Transport.",
@@ -338,6 +362,24 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what species is Jedi Master Pablo-Jill?",
+"answ":"ONGREE",
+"answ2":"Ongree.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, who says 'Senator Amidala, your tragedy on the landing platform, terrible. Seeing you alive brings warm feelings to my heart'?",
+"answ":"YODA",
+"answ2":"Yoda.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what species is Jedi youngling Ashla?",
+"answ":"TOGRUTA",
+"answ2":"Togruta.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"In Attack of the Clones, whose lightsaber absorbs the force lighting from Count Dooku?",
 "answ":"OBI WAN KENOBI",
 "answ3":"OBI WAN",
@@ -345,10 +387,29 @@ var episodeii = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what model of airspeeder does Anakin use to save Obi-Wan's life after he falls on Coruscant?",
+"answ":"XJ 6",
+"answ3":"XJ 6 AIRSPEEDER",
+"answ2":"XJ-6.",
+},
+{
+"cat":"Attack of the Clones",
 "ques":"In Attack of the Clones, who cuts off Anakin's arm in a duel?",
 "answ":"COUNT DOOKU",
 "answ3":"DOOKU",
 "answ2":"Count Dooku.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"Who held plans for a planet killer base that would later become the Death Star and is seen handing those plans over to Count Dooku?",
+"answ":"POGGLE THE LESSER",
+"answ2":"Poggle the Lesser.",
+},
+{
+"cat":"Attack of the Clones",
+"ques":"What is the name of the human female Jedi Knight introduced fighting B1-series battle droid 3464?",
+"answ":"SAR LABOODA",
+"answ2":"Sar Labooda.",
 },
 ];
 var r2Q2 = [
@@ -362,11 +423,40 @@ var r2Q2 = [
 },
 {
 "cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what specific model of courier droid did Zam send to assassinate Padmé?",
+"answ":"ASN 121",
+"answ3":"ASN121",
+"answ2":"ASN-121.",
+"option":["ASN-121", "ASN-141", "ASN-151", "ASN-161"],
+},
+{
+"cat":"Attack of the Clones",
 "ques":"What Jedi Master does Jango Fett blast off the balcony of the Petranaki Arena on Geonosis?",
 "answ":"COLEMAN TREBOR",
 "answ3":"TREBOR",
 "answ2":"Coleman Trebor.",
 "option":["Coleman Trebor", "Cherff Maota", "Chon Actrion", "Kit Fisto"],
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, Obi-Wan says that in his experience Senators focus only on those that ____",
+"answ":"FUND THEIR CAMPAIGNS",
+"answ2":"Fund their campaigns.",
+"option":["Fund their campaigns", "Further their office", "Support their ideas", "Vote for them"],
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, what is the homeworld of Separatist Council member Tikkes?",
+"answ":"MON CALA",
+"answ2":"Mon Cala.",
+"option":["Mon Cala", "Molos", "Miser", "Metellos"],
+},
+{
+"cat":"Attack of the Clones",
+"ques":"In Attack of the Clones, the opening crawl states Senator Amidala is returning to the Galactic Senate to vote on the ___ issue of creating an army of the Republic.",
+"answ":"CRITICAL",
+"answ2":"Critical.",
+"option":["Critical", "Pivotal", "Important", "Vital"],
 },
 {
 "cat":"Attack of the Clones",

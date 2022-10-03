@@ -6,6 +6,12 @@ var fivepointer001 = [
 "answ2":"Hailfire droid.",
 },
 {
+"cat":"Mixed Bag",
+"ques":"What is the first name of Vurk senator Concorkill?",
+"answ":"SWEITT",
+"answ2":"Sweitt.",
+},
+{
 "cat":"Droids",
 "ques":"What is the name of the droid that can be seen torturing a gonk droid in Return of the Jedi?",
 "answ":"8D8",
@@ -275,6 +281,12 @@ var fivepointer001 = [
 "answ":"DELTA",
 "answ3":"ATTACK PATTERN DELTA",
 "answ2":"Attack Pattern Delta.",
+},
+{
+"cat":"The Empire Strikes Back",
+"ques":"What is the first name of Bespin Wing Guard Edian, seen arresting stormtroopers?",
+"answ":"ISDAM",
+"answ2":"Isdam.",
 },
 {
 "cat":"The Empire Strikes Back",

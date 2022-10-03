@@ -1,10 +1,10 @@
 var episodeviii = [
 {
 "cat":"The Last Jedi",
-"ques":"In The Last Jedi, Rose told Finn that she had to stun how many people for trying to jump ship?",
-"answ":"3",
-"answ3":"THREE",
-"answ2":"3.",
+"ques":"In The Last Jedi, who held the rank of Colonel aboard the Mega-class Star Dreadnought Supremacy, played by actor Ralph Ineson?",
+"answ":"ANSIV GARMUTH",
+"answ3":"COLONEL ANSIV GARMUTH",
+"answ2":"Ansiv Garmuth.",
 },
 {
 "cat":"The Last Jedi",
@@ -71,12 +71,6 @@ var episodeviii = [
 },
 {
 "cat":"The Last Jedi",
-"ques":"According to Rey, how long is one system cycle for an Imperial Starship?",
-"answ":"ABOUT 6 MINUTES",
-"answ2":"About 6 minutes.",
-},
-{
-"cat":"The Last Jedi",
 "ques":"In The Last Jedi, what excuse does Rey give Luke as to why her blaster went off?",
 "answ":"SHE WAS CLEANING IT",
 "answ3":"I WAS CLEANING MY BLASTER",
@@ -138,12 +132,6 @@ var episodeviii = [
 "answ":"ANCIENT JEDI TEXTS",
 "answ3":"SACRED JEDI TEXTS",
 "answ2":"Sacred Jedi Texts.",
-},
-{
-"cat":"The Last Jedi",
-"ques":"Poe was demoted to what rank in The Last Jedi?",
-"answ":"CAPTAIN",
-"answ2":"Captain.",
 },
 {
 "cat":"The Last Jedi",
@@ -250,6 +238,62 @@ var episodeviii = [
 },
 {
 "cat":"The Last Jedi",
+"ques":"In The Last Jedi, Rose stunned how many people before trying to jump ship including Finn?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"What is the first thing Luke says in The Last Jedi?",
+"answ":"GO AWAY",
+"answ2":"Go away.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, what is the name of the Resistance Commander played by Amanda Lawrence?",
+"answ":"LARMA D'ACY",
+"answ2":"Larma D'Acy.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, actor Adrian Edmondson portrays which Captain of the Star Destroyer 'Finalizer'?",
+"answ":"PEAVEY",
+"answ3":"EDRISON PEAVEY",
+"answ2":"Peavey.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, what is the full name of the female pilot nicknamed Tallie, during the opening battle?",
+"answ":"TALLISSAN LINTRA",
+"answ2":"Tallissan Lintra.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, Luke tells Kylo: 'Strike me down in ___ and I'll always be with you.'?",
+"answ":"ANGER",
+"answ2":"Anger.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, who says: 'We're going to win this war not by fighting what we hate, but saving what we love!'?",
+"answ":"ROSE TICO",
+"answ2":"Rose Tico.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, who says 'We've pulled crazier stunts than this.'?",
+"answ":"POE DAMERON",
+"answ2":"Poe Dameron.",
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, from what planet is Amilyn Holdo from?",
+"answ":"GATALENTA",
+"answ2":"Gatalenta.",
+},
+{
+"cat":"The Last Jedi",
 "ques":"When Luke asked Rey what she knew about the Force, she replied: 'It's a power that Jedi have that lets them control people and ____'?",
 "answ":"MAKE THINGS FLOAT",
 "answ2":"Make things float.",
@@ -263,6 +307,28 @@ var r2Q8 = [
 "answ3":"TALLISSAN LINTRA",
 "answ2":"Tallie Lintra.",
 "option":["Tallie Lintra", "Larma D'Acy", "Korr Sella", "Temmin Wexley"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, what model of Star Cruiser serves as General Organa's flagship?",
+"answ":"MC85",
+"answ2":"MC85.",
+"option":["MC85", "MV75", "MQ90", "MD80"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, how many total Elite Praetorian Guards protect Snoke in his throne room?",
+"answ":"8",
+"answ3":"EIGHT",
+"answ2":"8.",
+"option":["8", "6", "4", "10"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, which actress plays the role of ground logistics division soldier Koo Millham?",
+"answ":"CHELSEA HAMILL",
+"answ2":"Chelsea Hamill.",
+"option":["Chelsea Hamill", "Leigh Goodoff", "Samantha Alleyne", "Sarah Jane"],
 },
 {
 "cat":"The Last Jedi",
@@ -302,6 +368,13 @@ var r2Q8 = [
 "answ3":"CRAIT",
 "answ2":"Crait.",
 "option":["Crait", "Calderos", "Exegol", "Batuu"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"Nossit Cicer is a Major for the Resistance loyal to Vice Admiral Holdo, which actor plays this character?",
+"answ":"TIM STEED",
+"answ2":"Tim Steed.",
+"option":["Tim Steed", "Simon Lowe", "Gerard Monaco", "Hugh Skinner"],
 },
 {
 "cat":"The Last Jedi",
@@ -398,6 +471,13 @@ var r2Q8 = [
 "answ":"CANTONICA",
 "answ2":"Cantonica.",
 "option":["Cantonica", "Moraband", "Cona", "Corbos"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"According to Rey, how long is one system cycle for an Imperial Starship?",
+"answ":"ABOUT 6 MINUTES",
+"answ2":"About 6 minutes.",
+"option":["About 6 minutes", "About 8 minutes", "About 4 minutes", "About 10 minutes"],
 },
 {
 "cat":"The Last Jedi",
@@ -498,6 +578,28 @@ var r2Q8 = [
 "answ3":"FIVE",
 "answ2":"5.",
 "option":["5", "4", "3", "6"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, Rose told Finn that she had to stun how many people for trying to jump ship?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+"option":["3", "4", "5", "6"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"In The Last Jedi, the first lines of the film are spoken by what flight officer?",
+"answ":"HUETRIN JONES",
+"answ2":"Huetrin Jones.",
+"option":["Huetrin Jones", "Zin Graw", "Pong Krell", "Kaydel Ko Connix"],
+},
+{
+"cat":"The Last Jedi",
+"ques":"Poe was demoted to what rank in The Last Jedi?",
+"answ":"CAPTAIN",
+"answ2":"Captain.",
+"option":["Captain", "Sergeant", "Lieutenant", "Major"],
 },
 ];
 r2Q8 = shuffle(r2Q8);

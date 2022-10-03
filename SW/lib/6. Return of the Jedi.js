@@ -390,9 +390,57 @@ var episodevi = [
 },
 {
 "cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the name of the Rancor that is killed by Luke?",
+"answ":"PATEESA",
+"answ2":"Pateesa.",
+},
+{
+"cat":"Return of the Jedi",
 "ques":"In Return of the Jedi, what did Han tell Chewie to do when they approached the Star Destroyer seeking clearance to land on Endor?",
 "answ":"FLY CASUAL",
 "answ2":"Fly casual.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the fourth planet seen celebrating the destruction of The Empire?",
+"answ":"CORUSCANT",
+"answ2":"Coruscant.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, as soon as C-3PO and R2-D2 enter Jabba's Palace, what bulbous droid is seen walking in the background?",
+"answ":"BT 16 PERIMETER DROID",
+"answ2":"BT-16 perimeter droid.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"Where is the resting place of the 'all-powerful Sarlacc' Jabba the Hutt sentences Luke, Han, and Chewbacca to be fed to?",
+"answ":"THE GREAT PIT OF CARKOON",
+"answ2":"The Great Pit of Carkoon.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the first word of the second paragraph of the opening crawl?",
+"answ":"LITTLE",
+"answ2":"Little.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"What is the full name of the Twi'lek singer from Ryloth in the Max Rebo Band, apart from Oola?",
+"answ":"LYN ME",
+"answ2":"Lyn Me.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the last line of dialogue said between Han and Leia on the Forest Moon of Endor?",
+"answ":"HE'S MY BROTHER",
+"answ2":"He's my brother.",
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the name of the female Jawa that is to the left of Jabba when he is first introduced?",
+"answ":"HERAT",
+"answ2":"Herat.",
 },
 ];
 var r2Q6 = [
@@ -413,6 +461,13 @@ var r2Q6 = [
 },
 {
 "cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, what is the name of the Jawa seen gathered around spectating, as Luke fought the Rancor?",
+"answ":"KALIT",
+"answ2":"Kalit.",
+"option":["Kalit", "Zek", "Piqui", "Quiy"],
+},
+{
+"cat":"Return of the Jedi",
 "ques":"What character references the Battle of Taanab?",
 "answ":"LANDO",
 "answ3":"LANDO CALRISSIAN",
@@ -425,6 +480,13 @@ var r2Q6 = [
 "answ":"BIB FORTUNA",
 "answ2":"Bib Fortuna.",
 "option":["Bib Fortuna", "Princess Leia", "Jabba the Hutt", "Salacious B. Crumb"],
+},
+{
+"cat":"Return of the Jedi",
+"ques":"In Return of the Jedi, the opening crawl states: 'When completed, this ____ weapon will spell certain doom'",
+"answ":"ULTIMATE",
+"answ2":"Ultimate.",
+"option":["Ultimate", "Terminal", "Powerful", "Grave"],
 },
 {
 "cat":"Return of the Jedi",

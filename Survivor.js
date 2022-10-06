@@ -460,10 +460,10 @@ var accuracy7 = ((quescor7 / quescount7) * 100)
 var accuracy8 = ((quescor8 / quescount8) * 100)
 var accuracy9 = ((quescor9 / quescount9) * 100)
 message006.innerHTML = "<b>" + "Stats" + "</b>" + "</br></br>" + "<table class=table2><style>.table2 { border-spacing: 0; width: 30%; margin-left: 275px;} .th2, .td2, .tr2 {padding: 4px; font-size: 90%;}</style><tbody><tr class=tr2><th class=th2></th><th class=th2>Questions answered</th><th class=th2>Accuracy</th></tr><tr class=tr2><td class=td2><b>" + player001.innerHTML + "</b></td><td class=td2>" + quescount + "</td><td class=td2>" + accuracy.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player002.innerHTML + "</b></td><td class=td2>" + quescount1 + "</td><td class=td2>" + accuracy1.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player003.innerHTML + "</b></td><td class=td2>" + quescount2 + "</td><td class=td2>" + accuracy2.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player004.innerHTML + "</b></td><td class=td2>" + quescount3 + "</td><td class=td2>" + accuracy3.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player005.innerHTML + "</b></td><td class=td2>" + quescount4 + "</td><td class=td2>" + accuracy4.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player006.innerHTML + "</b></td><td class=td2>" + quescount5 + "</td><td class=td2>" + accuracy5.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player007.innerHTML + "</b></td><td class=td2>" + quescount6 + "</td><td class=td2>" + accuracy6.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player008.innerHTML + "</b></td><td class=td2>" + quescount7 + "</td><td class=td2>" + accuracy7.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player009.innerHTML + "</b></td><td class=td2>" + quescount8 + "</td><td class=td2>" + accuracy8.toFixed(2) + "%" + "</td></tr><tr class=tr2><td class=td2><b>" + player010.innerHTML + "</b></td><td class=td2>" + quescount9 + "</td><td class=td2>" + accuracy9.toFixed(2) + "%" + "</td></tr></tbody></table>";
-		document.getElementById("AnsweredQuestions_F4").value = parseInt(document.getElementById("AnsweredQuestions_F4").value) +  quescount;
-		document.getElementById("CorrectQuestions_F4").value = parseInt(document.getElementById("CorrectQuestions_F4").value) +  quescor;
-		document.getElementById("PossiblePoints_F4").value = parseInt(document.getElementById("PossiblePoints_F4").value)  +  quescount;
-		document.getElementById("TotalPoints_F4").value = parseInt(document.getElementById("TotalPoints_F4").value) +  quescor;
+		document.getElementById("AnsweredQuestions_Survivor").value = parseInt(document.getElementById("AnsweredQuestions_Survivor").value) +  quescount;
+		document.getElementById("CorrectQuestions_Survivor").value = parseInt(document.getElementById("CorrectQuestions_Survivor").value) +  quescor;
+		document.getElementById("PossiblePoints_Survivor").value = parseInt(document.getElementById("PossiblePoints_Survivor").value)  +  quescount;
+		document.getElementById("TotalPoints_Survivor").value = parseInt(document.getElementById("TotalPoints_Survivor").value) +  quescor;
 	        message004.innerHTML = "<button class=buttons001 onclick=repeat001()>Play again</button>" + "&nbsp" + "<button class=buttons001 onclick=newLoc()>Return to menu</button>" + "&nbsp" + "<div class='tooltip'><button class=buttons001 style='background-color: #1d9bf0;' onclick=tweetbutton()>Tweet result</button><span class='tooltiptext'>Pressing this button automatically saves a printscreen and allows you to share the result on Twitter</span></div>";
 		message004.setAttribute("data-html2canvas-ignore", true);
 		document.getElementById("message006").style.top = "15px";
@@ -751,7 +751,7 @@ function win(){
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
 		stats();
-		document.getElementById("wins_F4").stepUp(1);
+		document.getElementById("wins_Survivor").stepUp(1);
 		document.getElementById("save").click();
 }
 function lose(){
@@ -768,7 +768,7 @@ function lose(){
                 message005.innerHTML = "";
 	        message006.innerHTML = "";
 		stats();
-		document.getElementById("losses_F4").stepUp(1);
+		document.getElementById("losses_Survivor").stepUp(1);
 		document.getElementById("save").click();	
 }
 function roundchecker(){

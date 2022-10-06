@@ -970,8 +970,8 @@ if ((navigator.userAgent.includes('Firefox')) && ($(window).width() > 1024)) {
     a.click();
   });	
 document.getElementById("message006").style.top = "15px";
-if (eliminate != 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
-else if (eliminate == 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played the Schmoedown Free4All! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+if (eliminate != 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown Survivor Match and won!" + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
+else if (eliminate == 1) {window.open("https://twitter.com/intent/tweet?text=" + "I just played a Schmoedown Suvivor Match! " + "%0aTry it out yourself here: https://thethommerd.github.io/Schmoedown/" + "%0a%23Schmoedown %23MovieTrivia", "_blank");}
 }	
 else if ((navigator.userAgent.includes('Firefox')) && ($(window).width() < 1024)) {
   html2canvas($('#frame001')[0], {

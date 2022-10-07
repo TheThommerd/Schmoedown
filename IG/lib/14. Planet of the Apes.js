@@ -7,6 +7,30 @@ var planetoftheapes = [
 },
 {
 "cat":"Planet of the Apes",
+"ques":"In Planet of the Apes (1968), what is the name of the character who is the Minister of Science?",
+"answ":"DR ZAIUS",
+"answ2":"Dr. Zaius.",
+},
+{
+"cat":"Planet of the Apes",
+"ques":"Which Planet of the Apes film was released in 1971?",
+"answ":"ESCAPE FROM THE PLANET OF THE APES",
+"answ2":"Escape from the Planet of the Apes.",
+},
+{
+"cat":"Planet of the Apes",
+"ques":"In Rise of the Planet of the Apes, what is the name of the space shuttle seen entering Mars' atmosphere?",
+"answ":"THE ICARUS",
+"answ2":"The Icarus.",
+},
+{
+"cat":"Planet of the Apes",
+"ques":"Which film in the Planet of the Apes franchise features performances from Don Murray, Roddy McDowall, and Ricardo Montalbán?",
+"answ":"CONQUEST OF THE PLANET OF THE APES",
+"answ2":"Conquest of the Planet of the Apes.",
+},
+{
+"cat":"Planet of the Apes",
 "ques":"In Dawn of the Planet of the Apes, what type of animal attacks Caesar and his son early in the film?",
 "answ":"BEAR",
 "answ2":"Bear.",
@@ -440,6 +464,13 @@ var r2Q14 = [
 "answ3":"PLANET OF THE APES (1968)",
 "answ2":"Planet of the Apes (1968).",
 "option":["Planet of the Apes (1968)", "Planet of the Apes (2001)", "Beneath the Planet of the Apes", "Escape from the Planet of the Apes"],
+},
+{
+"cat":"Planet of the Apes",
+"ques":"What Apes film features the line: 'Tell me Breck, before you die - how do we differ from the dogs and cats that you and your kind used to love? Why did you turn us from pets into slaves?'?",
+"answ":"CONQUEST OF THE PLANET OF THE APES",
+"answ2":"Conquest of the Planet of the Apes.",
+"option":["Conquest of the Planet of the Apes", "Planet of the Apes (2001)", "Beneath the Planet of the Apes", "Escape from the Planet of the Apes"],
 },
 {
 "cat":"Planet of the Apes",

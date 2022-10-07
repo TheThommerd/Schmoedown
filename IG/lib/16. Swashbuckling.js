@@ -60,6 +60,31 @@ var swashbuckling = [
 },
 {
 "cat":"Swashbuckling Adventure",
+"ques":"Who plays Henry Turner in Pirates of the Caribbean: Dead Men Tell No Tales?",
+"answ":"BRENTON THWAITES",
+"answ2":"Brenton Thwaites.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Barry Pepper, James Badge Dale, and Stephen Root appear in what swashbuckling adventure film?",
+"answ":"THE LONE RANGER",
+"answ2":"The Lone Ranger.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"In the film Pirates of the Caribbean: At World's End, Jack Sparrow is first seen in Davy Jones' Locker trying to eat what?",
+"answ":"PEANUT",
+"answ3":"A PEANUT",
+"answ2":"A peanut.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Which Ghostbusters actor has a cameo in Indiana Jones and the Temple of Doom?",
+"answ":"DAN AYKROYD",
+"answ2":"Dan Aykroyd.",
+},
+{
+"cat":"Swashbuckling Adventure",
 "ques":"Who plays Tonto in 2013's The Lone Ranger?",
 "answ":"JOHNNY DEPP",
 "answ2":"Johnny Depp.",
@@ -246,6 +271,25 @@ var swashbuckling = [
 "answ":"KALI",
 "answ3":"KALI MA",
 "answ2":"Kali/Kali Ma.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"Which film features supporting performances from George Harris, Don Fellows, and William Hootkins?",
+"answ":"RAIDERS OF THE LOST ARK",
+"answ2":"Raiders of the Lost Ark.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"You will find the horse Tornado in what 1998 film starring Antonio Banderas?",
+"answ":"THE MASK OF ZORRO",
+"answ3":"MASK OF ZORRO",
+"answ2":"The Mask of Zorro.",
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"What year saw the release of Pirates of the Caribbean: Dead Men Tell No Tales?",
+"answ":"2017",
+"answ2":"2017.",
 },
 {
 "cat":"Swashbuckling Adventure",
@@ -887,6 +931,29 @@ var r2Q16 = [
 "answ":"RONALD LACEY",
 "answ2":"Ronald Lacey.",
 "option":["Ronald Lacey", "Paul Freeman", "Denholm Elliott", "Wolf Kahler"],
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"You will find the extinct language Koihoma that has not been spoken in 3,000 years, in what swashbuckling adventure film?",
+"answ":"INDIANA JONES AND THE KINGDOM OF THE CRYSTAL SKULL",
+"answ2":"Indiana Jones and the Kingdom of the Crystal Skull.",
+"option":["Indiana Jones and the Kingdom of the Crystal Skull", "Indiana Jones and the Temple of Doom", "The Lone Ranger", "Pirates of the Caribbean: Dead Men Tell No Tales"],
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"In The Curse of the Black Pearl, what is the name of of the British ship known as 'the fastest ship in the seas'?",
+"answ":"THE HMS INTERCEPTOR",
+"answ3":"HMS INTERCEPTOR",
+"answ2":"The HMS Interceptor.",
+"option":["The HMS Interceptor", "The HMS Resistance", "The HMS Invincible", "The HMS Goliath"],
+},
+{
+"cat":"Swashbuckling Adventure",
+"ques":"In the film Raiders of the Lost Ark, it is revealed that Dr. Jones went to what university to study under Professor Ravenwood?",
+"answ":"THE UNIVERSITY OF CHICAGO",
+"answ3":"UNIVERSITY OF CHICAGO",
+"answ2":"University of Chicago.",
+"option":["University of Chicago", "Pennsylvania State University", "Ohio State University", "University of Michigan"],
 },
 ];
 swashbuckling = shuffle(swashbuckling);

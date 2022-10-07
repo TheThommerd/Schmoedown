@@ -530,6 +530,24 @@ var dcmovies = [
 },
 {
 "cat":"DC Movies",
+"ques":"In Jonah Hex, who plays the role of Lieutenant Grass, a Union soldier who enlists Hex as a bounty hunter?",
+"answ":"WILL ARNETT",
+"answ2":"Will Arnett.",
+},
+{
+"cat":"DC Movies",
+"ques":"In what DCEU film will you find a villain named Black Manta?",
+"answ":"AQUAMAN",
+"answ2":"Aquaman.",
+},
+{
+"cat":"DC Movies",
+"ques":"Who plays Hal's mentor Sinestro in Green Lantern?",
+"answ":"MARK STRONG",
+"answ2":"Mark Strong.",
+},
+{
+"cat":"DC Movies",
 "ques":"In the opening scene of Aquaman, when the power goes off and on what object does Queen Atlanna destroy with her trident?",
 "answ":"TV",
 "answ3":"TELEVISION",
@@ -2350,6 +2368,13 @@ var r2Q1 = [
 "answ":"CATWOMAN",
 "answ2":"Catwoman.",
 "option":["Catwoman", "Jonah Hex", "Constantine", "The Kitchen"],
+},
+{
+"cat":"DC Movies",
+"ques":"In 2009's Watchmen, what is the name of the perfume made by Adrian Veidt?",
+"answ":"NOSTALGIA",
+"answ2":"Nostalgia.",
+"option":["Nostalgia", "Sorrow", "Yearning", "Reminiscence"],
 },
 ];
 dcmovies = shuffle(dcmovies);

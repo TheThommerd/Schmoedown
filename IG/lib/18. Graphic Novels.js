@@ -8,6 +8,24 @@ var graphicnovels = [
 },
 {
 "cat":"Graphic Novels",
+"ques":"You'll find the female assassin Miho, played by Devon Aoki, in what 2005 film also featuring Jessica Alba?",
+"answ":"SIN CITY",
+"answ2":"Sin City.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Which actor plays Scott's roommate Wallace Wells in Scott Pilgrim vs. the World?",
+"answ":"KIERAN CULKIN",
+"answ2":"Kieran Culkin.",
+},
+{
+"cat":"Graphic Novels",
+"ques":"Which actor plays the God-King Xerxes in the films 300 and 300: Rise of an Empire?",
+"answ":"RODRIGO SANTORO",
+"answ2":"Rodrigo Santoro.",
+},
+{
+"cat":"Graphic Novels",
 "ques":"What was the name of the character played by Bruce Willis in Sin City?",
 "answ":"JOHN HARTIGAN",
 "answ3":"HARTIGAN",

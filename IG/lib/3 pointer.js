@@ -6,6 +6,30 @@ var threepointer001 = [
 "answ2":"Einstein.",
 },
 {
+"cat":"Back to the Future",
+"ques":"In Back to the Future Part II, in alternate 1985 George McFly has been in the same place he's been for the past 12 years. Where is that specifically?",
+"answ":"OAK PARK CEMETERY",
+"answ2":"Oak Park Cemetery.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future III, Marty says that he learned to shoot at what specific place?",
+"answ":"7 ELEVEN",
+"answ2":"7-Eleven.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future, what quippy line does Marty say after his guitar blows up Doc's giant speakers?",
+"answ":"ROCK AND ROLL",
+"answ2":"Rock and roll.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future Part I, what did Doc give the Libyans instead of a bomb?",
+"answ":"USED PINBALL MACHINE PARTS",
+"answ2":"Used pinball machine parts.",
+},
+{
 "cat":"Alien/Predator",
 "ques":"Who directed Alien Resurrection?",
 "answ":"JEAN PIERRE JEUNET",
@@ -17,6 +41,13 @@ var threepointer001 = [
 "answ":"STRICKLAND",
 "answ3":"MR STRICKLAND",
 "answ2":"Strickland.",
+},
+{
+"cat":"Back to the Future",
+"ques":"What was written on the pie pan that Marty throws at Tannen to knock away his gun and save Doc in Back to the Future 3?",
+"answ":"FRISBEE",
+"answ3":"FRISBEE PIES",
+"answ2":"Frisbee Pies.",
 },
 {
 "cat":"Back to the Future",
@@ -43,6 +74,12 @@ var threepointer001 = [
 "ques":"Which actor played The Penguin in 1966's Batman: The Movie?",
 "answ":"BURGESS MEREDITH",
 "answ2":"Burgess Meredith.",
+},
+{
+"cat":"Batman",
+"ques":"In The Lego Batman Movie, Gotham City is located above an infinite abyss that smells like dirty underwear. What is its name?",
+"answ":"THE ETERNAL ABYSS",
+"answ2":"The Eternal Abyss.",
 },
 {
 "cat":"Batman",
@@ -146,6 +183,13 @@ var threepointer001 = [
 "ques":"Who plays the villainous Laurel Hedare in 2004's Catwoman?",
 "answ":"SHARON STONE",
 "answ2":"Sharon Stone.",
+},
+{
+"cat":"Superman",
+"ques":"In Batman v Superman, Bruce and Alfred are chasing what they thought was a dangerous person but turns out to be a ship named what?",
+"answ":"THE WHITE PORTUGUESE",
+"answ3":"WHITE PORTUGUESE",
+"answ2":"The White Portuguese.",
 },
 {
 "cat":"Superman",
@@ -331,6 +375,18 @@ var threepointer001 = [
 "answ2":"Jurassic Park: Fallen Kingdom.",
 },
 {
+"cat":"Jurassic Park",
+"ques":"In Jurassic World: Fallen Kingdom, Zia Rodriguez has what specific scientific job title?",
+"answ":"PALEOVETERINARIAN",
+"answ2":"Paleoveterinarian.",
+},
+{
+"cat":"Jurassic Park",
+"ques":"According to Dr. Grant in Jurassic Park, what does the word 'raptor' mean?",
+"answ":"BIRD OF PREY",
+"answ2":"Bird of prey.",
+},
+{
 "cat":"Marvel Movies",
 "ques":"What did Pepper buy herself as a birthday present from Tony in Iron Man?",
 "answ":"A DRESS",
@@ -487,6 +543,12 @@ var threepointer001 = [
 "ques":"In Thor: The Dark World, who kills the being called Kurse aka Algrim?",
 "answ":"LOKI",
 "answ2":"Loki.",
+},
+{
+"cat":"Marvel Movies",
+"ques":"Which MCU scientist says: 'Just because something works doesn't mean that it cannot be improved.'?",
+"answ":"SHURI",
+"answ2":"Shuri.",
 },
 {
 "cat":"Marvel Movies",
@@ -648,6 +710,18 @@ var threepointer001 = [
 "ques":"What actor appeared in X-Men Origins: Wolverine and Wonder Woman?",
 "answ":"DANNY HUSTON",
 "answ2":"Danny Huston.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What is the name of the fictional town that 2017's Power Rangers takes place in?",
+"answ":"ANGEL GROVE",
+"answ2":"Angel Grove.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Son of the Mask, what is the name of the city the movie takes place in?",
+"answ":"FRINGE CITY",
+"answ2":"Fringe City.",
 },
 {
 "cat":"Mixed Bag",
@@ -1072,9 +1146,10 @@ var threepointer001 = [
 },
 {
 "cat":"Wizarding World",
-"ques":"In The Goblet of Fire, whose is the first name to come out of the Goblet of Fire?",
-"answ":"VIKTOR KRUM",
-"answ2":"Viktor Krum.",
+"ques":"In The Sorcerer's Stone, Professor McGonagall awards 5 points each to Ron and Harry in the girls bathroom and says it's for what?",
+"answ":"SHEER DUMB LUCK",
+"answ3":"DUMB LUCK",
+"answ2":"Sheer dumb luck.",
 },
 {
 "cat":"Wizarding World",
@@ -1141,6 +1216,12 @@ var threepointer001 = [
 "answ":"MILLICENT BULSTRODE",
 "answ3":"MILICENT BULSTRODE",
 "answ2":"Millicent Bulstrode.",
+},
+{
+"cat":"Wizarding World",
+"ques":"Who plays Tom Riddle in The Chamber of Secrets?",
+"answ":"CHRISTIAN COULSON",
+"answ2":"Christian Coulson.",
 },
 {
 "cat":"X-Men",

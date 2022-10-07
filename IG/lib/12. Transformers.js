@@ -87,6 +87,24 @@ var transformers = [
 "answ":"MEGAN FOX",
 "answ2":"Megan Fox.",
 },
+{
+"cat":"Transformers",
+"ques":"Mark Wahlberg plays a struggling inventor in Transformers: Age of Extinction. What is the character's first name?",
+"answ":"CADE",
+"answ2":"Cade.",
+},
+{
+"cat":"Transformers",
+"ques":"Who plays Agent Burns in Bumblebee?",
+"answ":"JOHN CENA",
+"answ2":"John Cena.",
+},
+{
+"cat":"Transformers",
+"ques":"In Transformers (2007), the AllSpark is also referred to by what name?",
+"answ":"THE CUBE",
+"answ2":"The Cube.",
+},
 ];
 var r2Q12 = [
 {
@@ -457,6 +475,20 @@ var r2Q12 = [
 "answ":"TYRESE GIBSON",
 "answ2":"Tyrese Gibson.",
 "option":["Tyrese Gibson", "Omar Sy", "Jamie Foxx", "Anthony Mackie"],
+},
+{
+"cat":"Transformers",
+"ques":"In The Transformers: The Movie, after Unicron upgrades Megatron's troops, which Decepticon is known as the Tracker?",
+"answ":"SCOURGE",
+"answ2":"Scourge.",
+"option":["Scourge", "Starscream", "Brawl", "Bonecrusher"],
+},
+{
+"cat":"Transformers",
+"ques":"In Transformers (2007), the President of the United States is seen only once, and he asks for what type of junk food?",
+"answ":"DING DONGS",
+"answ2":"Ding Dongs.",
+"option":["Ding Dongs", "Twinkies", "Sno Balls", "Yodels"],
 },
 ];
 transformers = shuffle(transformers);

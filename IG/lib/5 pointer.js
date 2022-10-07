@@ -19,6 +19,56 @@ var fivepointer001 = [
 },
 {
 "cat":"Back to the Future",
+"ques":"In Back to the Future Part II, what is the name of the girlie magazine that Biff replaces the Sports Almanac with when Marty finds it in Principal Strickland's office?",
+"answ":"OH LALA",
+"answ2":"Oh LàLà.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In BTTF Part II, when old man Biff gives young Biff the Sports Almanac in 1955, they listen to a UCLA college football game on the radio. What is the final score of that game?",
+"answ":"UCLA 19 WASHINGTON 17",
+"answ2":"UCLA 19, Washington 17.",
+},
+{
+"cat":"Back to the Future",
+"ques":"Which film in the BTFF series features the actors Joe Flaherty and Jason Scott Lee?",
+"answ":"BACK TO THE FUTURE PART II",
+"answ3":"BACK TO THE FUTURE PART 2",
+"answ2":"Back to the Future Part II.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"In Back to the Future, what song is playing when Marty walks across the town square in 1955 for the first time?",
+"answ":"MR SANDMAN",
+"answ2":"Mr. Sandman.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future Part III, what is the name of the stagecoach that Buford and his gang rob the day before he has his duel with Marty?",
+"answ":"THE PINE CITY STAGE",
+"answ3":"PINE CITY STAGE",
+"answ2":"The Pine City Stage.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future Part II, what is the name of the type of hoverboard that Griff is using in 2015?",
+"answ":"PIT BILL",
+"answ2":"Pit Bull.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future, what is Doc's address in 1955 that Marty gets from the directory and asks Lorraine's parents about?",
+"answ":"1640 RIVERSIDE DRIVE",
+"answ2":"1640 Riverside Drive.",
+},
+{
+"cat":"Back to the Future",
+"ques":"In Back to the Future Part II, what is the name of Biff's casino in the alternate 1985?",
+"answ":"BIFF TANNEN'S PLEASURE PARADISE CASINO AND HOTEL",
+"answ2":"Biff Tannen's Pleasure Paradise Casino & Hotel.",
+},
+{
+"cat":"Back to the Future",
 "ques":"What is the name of the company that hauls manure in Hill Valley that Biff crashes into in the first film?",
 "answ":"JONES MANURE HAULING",
 "answ3":"D JONES MANURE HAULING",
@@ -355,6 +405,18 @@ var fivepointer001 = [
 },
 {
 "cat":"Marvel Movies",
+"ques":"What is Tony Stark's father's full name?",
+"answ":"HOWARD ANTHONY WALTER STARK",
+"answ2":"Howard Anthony Walter Stark.",
+},
+{
+"cat":"Marvel Movies",
+"ques":"In Captain America: Civil War, what is the first word of Bucky's activation sequence?",
+"answ":"LONGING",
+"answ2":"Longing.",
+},
+{
+"cat":"Marvel Movies",
 "ques":"In Venom, what is the full name of the bio-engineering corporation that discovers a comet with symbiotic life forms?",
 "answ":"THE LIFE FOUNDATION",
 "answ3":"LIFE FOUNDATION",
@@ -426,6 +488,12 @@ var fivepointer001 = [
 "answ2":"Earth 833.",
 },
 {
+"cat":"Spider-Man",
+"ques":"In Spider-Man 3, the meteorite carrying the symbiote lands at what New York City location?",
+"answ":"CENTRAL PARK",
+"answ2":"Central Park.",
+},
+{
 "cat":"Marvel Movies",
 "ques":"What are the final words in the sequence that actives Bucky as The Winter Soldier?",
 "answ":"FREIGHT CAR",
@@ -472,12 +540,6 @@ var fivepointer001 = [
 "ques":"What script is Stan Lee's character reading in Captain Marvel?",
 "answ":"MALLRATS",
 "answ2":"Mallrats.",
-},
-{
-"cat":"Marvel Movies",
-"ques":"Josh Dallas played what character in the first Thor film?",
-"answ":"FANDRAL",
-"answ2":"Fandral.",
 },
 {
 "cat":"Marvel Movies",
@@ -563,6 +625,24 @@ var fivepointer001 = [
 "answ":"20",
 "answ3":"TWENTY",
 "answ2":"20.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In The Battle of the Five Armies, which citizen of Laketown is entrusted to take the night watch while they are in Dale?",
+"answ":"ALFRED LICKSPITTLE",
+"answ2":"Alfrid Lickspittle.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In The Fellowship of the Ring, Gimli mentions what place that is an impassable labyrinth of sharp rocks?",
+"answ":"EMYN MUIL",
+"answ2":"Emyn Muil.",
+},
+{
+"cat":"Middle Earth",
+"ques":"In The Fellowship of the Ring, Gandalf reads a page about Isildur and the finding of the Ring of Power. In what year of the Second Age did it take place?",
+"answ":"3434",
+"answ2":"3434.",
 },
 {
 "cat":"Middle Earth",
@@ -661,6 +741,43 @@ var fivepointer001 = [
 "ques":"Who plays the gangster Eddie Valentine in 1991's The Rocketeer?",
 "answ":"PAUL SORVINO",
 "answ2":"Paul Sorvino.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In The Crow, what is the name of the band that Eric Draven was in before he was murdered?",
+"answ":"HANGMAN'S JOKE",
+"answ2":"Hangman's Joke.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Tank Girl, the villainous Kesslee is the head of what corporation with the initials W&P?",
+"answ":"WATER AND POWER",
+"answ2":"Water & Power.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In Judge Dredd, what is the name of the penitentiary that Dredd and Fergie are sentenced to serve time at?",
+"answ":"ASPEN",
+"answ3":"ASPEN PENAL COLONY",
+"answ2":"Aspen Penal Colony.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"At the end of The Rocketeer, Howard Hughes gives Cliff a fresh pack of what kind of gum?",
+"answ":"BEEMANS",
+"answ2":"Beemans.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, there are many rules at the mansion the Pevensie children live at: no shouting, no running, but most importantly never do what?",
+"answ":"DISTURB THE PROFESSOR",
+"answ2":"Disturb the Professor.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"In V for Vendetta, what Shakespeare play did Evey appear in when she was nine that her mother was very proud of?",
+"answ":"TWELFTH NIGHT",
+"answ2":"Twelfth Night.",
 },
 {
 "cat":"Mixed Bag",
@@ -843,6 +960,13 @@ var fivepointer001 = [
 "ques":"What is the first name of Leonard McCoy's father?",
 "answ":"DAVID",
 "answ2":"David.",
+},
+{
+"cat":"Star Trek",
+"ques":"In The Search for Spock, what is the name of the science vessel which is brought to investigate the Genesis planet, before being destroyed by the Klingons?",
+"answ":"USS GRISSOM",
+"answ3":"GRISSOM",
+"answ2":"USS Grissom.",
 },
 {
 "cat":"Star Trek",
@@ -1115,9 +1239,16 @@ var fivepointer001 = [
 },
 {
 "cat":"Wizarding World",
-"ques":"What spell does Professor McGonagall refer to when she says 'I've always wanted to use that spell' in Deathly Hallow Part 2?",
+"ques":"What spell does Professor McGonagall refer to when she says 'I've always wanted to use that spell' in Deathly Hallows Part 2?",
 "answ":"PIERTOTUM LOCOMOTOR",
 "answ2":"Piertotum Locomotor.",
+},
+{
+"cat":"Wizarding World",
+"ques":"In The Prisoner of Azkaban, Vernon lies and tells Aunt Marge that Harry attends what school?",
+"answ":"ST BRUTUS",
+"answ3":"ST BRUTUS' SECURE CENTRE FOR INCURABLY CRIMINAL BOYS",
+"answ2":"St Brutus' Secure Centre for Incurably Criminal Boys.",
 },
 {
 "cat":"Wizarding World",
@@ -1167,7 +1298,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Wizarding World",
-"ques":"Name one of the two actors that played Gellert Grindelwald in Deathly Hallow Part 1.",
+"ques":"Name one of the two actors that played Gellert Grindelwald in Deathly Hallows Part 1.",
 "answ":"MICHAEL BYRNE",
 "answ3":"JAMIE CAMPBELL BOWER",
 "answ2":"Michael Byrne/Jamie Campbell Bower.",
@@ -1180,7 +1311,7 @@ var fivepointer001 = [
 },
 {
 "cat":"Wizarding World",
-"ques":"Name one of the two actors that voiced Kreacher in Order of the Phoenix and Deathly Hallow Part 2?",
+"ques":"Name one of the two actors that voiced Kreacher in Order of the Phoenix and Deathly Hallows Part 2?",
 "answ":"SIMON MCBURNEY",
 "answ3":"TIMOTHY BATESON",
 "answ2":"Simon McBurney/Timothy Bateson.",

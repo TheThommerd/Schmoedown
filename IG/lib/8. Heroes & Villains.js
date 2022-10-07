@@ -7,6 +7,12 @@ var heroesvillains = [
 },
 {
 "cat":"Heroes & Villains",
+"ques":"Kris Kristofferson played the role of Abraham Whistler in how many films?",
+"answ":"3",
+"answ2":"3.",
+},
+{
+"cat":"Heroes & Villains",
 "ques":"This actor portrayed villains in The Empire Strikes Back and Indiana Jones and the Last Crusade.",
 "answ":"JULIAN GLOVER",
 "answ2":"Julian Glover.",

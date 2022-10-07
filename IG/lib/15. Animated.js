@@ -8,6 +8,19 @@ var animated = [
 },
 {
 "cat":"Animated",
+"ques":"Actor Spencer Fox voices which character in The Incredibles?",
+"answ":"DASH PARR",
+"answ3":"DASH",
+"answ2":"Dash Parr.",
+},
+{
+"cat":"Animated",
+"ques":"In The Adventures of Tintin, what is the name of the 17th century man-of-war ship commanded by Sir Francis Haddock?",
+"answ":"THE UNICORN",
+"answ2":"The Unicorn.",
+},
+{
+"cat":"Animated",
 "ques":"Who voices Gwen Stacy in Spider-Man: Into the Spider-Verse?",
 "answ":"HAILEE STEINFELD",
 "answ2":"Hailee Steinfeld.",
@@ -67,6 +80,25 @@ var animated = [
 },
 {
 "cat":"Animated",
+"ques":"In what film will you hear the quote: 'To think, all it took was one day in the Sahara! Congratulations, Captain, you're sober!'?",
+"answ":"THE ADVENTURES OF TINTIN",
+"answ3":"ADVENTURES OF TINTIN",
+"answ2":"The Adventures of Tintin.",
+},
+{
+"cat":"Animated",
+"ques":"Who voices Miles' mother, Rio, in Spider-Man: Into the Spider-Verse?",
+"answ":"LUNA LAUREN VELEZ",
+"answ2":"Luna Lauren Velez.",
+},
+{
+"cat":"Animated",
+"ques":"You will find a cat named Squeaker being saved by a superhero in what animated film?",
+"answ":"THE INCREDIBLES",
+"answ2":"The Incredibles.",
+},
+{
+"cat":"Animated",
 "ques":"Who has a subtle cameo as a janitor on the Warner Brothers film lot in Teen Titans Go! To the Movies?",
 "answ":"STAN LEE",
 "answ2":"Stan Lee.",
@@ -88,6 +120,12 @@ var animated = [
 "ques":"Who is appointed as the new Police Commissioner in Jim Gordon's place in The Lego Batman Movie?",
 "answ":"BARBARA GORDON",
 "answ2":"Barbara Gordon.",
+},
+{
+"cat":"Animated",
+"ques":"In The Adventures of Tintin, what is the name of Tintin's pet dog?",
+"answ":"SNOWY",
+"answ2":"Snowy.",
 },
 {
 "cat":"Animated",
@@ -157,6 +195,12 @@ var animated = [
 "ques":"In The Incredibles, to what superhero is Mr. Incredible married?",
 "answ":"ELASTIGIRL",
 "answ2":"Elastigirl.",
+},
+{
+"cat":"Animated",
+"ques":"In what animated film does the villain say the line 'Your Angel of Death awaits' to all of its victims when it first appears to them?",
+"answ":"BATMAN MASK OF THE PHANTASM",
+"answ2":"Batman: Mask of the Phantasm.",
 },
 {
 "cat":"Animated",
@@ -543,6 +587,28 @@ var r2Q15 = [
 "answ":"GREEN LANTERN",
 "answ2":"Green Lantern.",
 "option":["Green Lantern", "Spider-Man", "Batman", "Superman"],
+},
+{
+"cat":"Animated",
+"ques":"In Into the Spider-Verse, when the film begins, how many years has Peter Parker been Spider-Man?",
+"answ":"10",
+"answ3":"10 YEARS",
+"answ2":"10.",
+"option":["10", "8", "6", "5"],
+},
+{
+"cat":"Animated",
+"ques":"In Spider-Man: Into the Spider-Verse, what Charles Dickens book does Miles have to write a book report about, that inspires his graffiti art later in the film?",
+"answ":"GREAT EXPECTATIONS",
+"answ2":"Great Expectations.",
+"option":["Great Expectations", "Oliver Twist", "A Tale of Two Cities", "David Copperfield"],
+},
+{
+"cat":"Animated",
+"ques":"What animated film featured the line: 'Just remember, there's a thin line between being a hero and being a memory.'?",
+"answ":"THE TRANSFORMRS THE MOVIE",
+"answ2":"The Transformers: The Movie.",
+"option":["The Transformers: The Movie", "Spider-Man: Into the Spider-Verse", "Batman: Mask of the Phantasm", "Big Hero 6"],
 },
 ];
 animated = shuffle(animated);

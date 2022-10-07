@@ -7,6 +7,30 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"Who plays Shang-Chi in the MCU?",
+"answ":"SIMU LIU",
+"answ2":"Simu Liu.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who plays Yelena Belova in the MCU?",
+"answ":"FLORENCE PUGH",
+"answ2":"Florence Pugh.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor played Red Guardian in Black Widow?",
+"answ":"DAVID HARBOUR",
+"answ2":"David Harbour.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who plays Thaddeus 'Thunderbolt' Ross in the MCU?",
+"answ":"WILLIAM HURT",
+"answ2":"William Hurt.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Who portrayed Lex Luthor in 2016's Batman v Superman: Dawn of Justice?",
 "answ":"JESSE EISENBERG",
 "answ2":"Jesse Eisenberg.",
@@ -579,13 +603,6 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
-"ques":"In Justice League what is the name of Steppenwolf's minions?",
-"answ":"PARADEMONS",
-"answ3":"PARADEMON",
-"answ2":"Parademons.",
-},
-{
-"cat":"Mixed Bag",
 "ques":"Which actress plays Karen Page in Daredevil?",
 "answ":"ELLEN POMPEO",
 "answ2":"Ellen Pompeo.",
@@ -835,13 +852,6 @@ var speedquestion001 = [
 "ques":"In Back to the Future, in the photograph Marty's sister's sweatshirt says 'Class of _____'?",
 "answ":"1984",
 "answ2":"1984.",
-},
-{
-"cat":"Mixed Bag",
-"ques":"In The Incredible Hulk, what codename was Samuel Stern using during his encrypted communications with Bruce Banner?",
-"answ":"MR BLUE",
-"answ3":"MISTER BLUE",
-"answ2":"Mr. Blue.",
 },
 {
 "cat":"Mixed Bag",

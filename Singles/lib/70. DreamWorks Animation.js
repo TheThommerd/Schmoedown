@@ -8,6 +8,13 @@ var r2Q70 = [
 },
 {
 "cat":"DreamWorks Animation",
+"ques":"In How to Train Your Dragon: The Hidden World, what does Astrid name the white dragon?",
+"answ":"LIGHT FURY",
+"answ2":"Light Fury.",
+"option":["Light Fury", "White Claw", "Cloudjumper", "Hookfang"],
+},
+{
+"cat":"DreamWorks Animation",
 "ques":"In Chicken Run, what movie star provides the voice of the rooster Rocky?",
 "answ":"MEL GIBSON",
 "answ2":"Mel Gibson.",

@@ -121,6 +121,12 @@ var threepointer001 = [
 "answ2":"Ben Affleck.",
 },
 {
+"cat":"Spy Movies",
+"ques":"Donald Moffat plays corrupt United States President Bennett in what 1990s spy action thriller directed by Philip Noyce?",
+"answ":"CLEAR AND PRESENT DANGER",
+"answ2":"Clear and Present Danger.",
+},
+{
 "cat":"Adam Sandler",
 "ques":"Adam Sandler stars as a comedian who is dying of cancer in what film?",
 "answ":"FUNNY PEOPLE",
@@ -175,6 +181,12 @@ var threepointer001 = [
 "ques":"Which Star Wars actor stars as a young car lover in 1978's Corvette Summer?",
 "answ":"MARK HAMILL",
 "answ2":"Mark Hamill.",
+},
+{
+"cat":"Family Films",
+"ques":"Angela Lansbury voices Mayor McGerkle in what 2010s animated film also featuring Kenan Thompson?",
+"answ":"THE GRINCH",
+"answ2":"The Grinch.",
 },
 {
 "cat":"70s",
@@ -426,6 +438,12 @@ var threepointer001 = [
 },
 {
 "cat":"2010s",
+"ques":"In which film does Robert Downey Jr.’s character have a dream about his wife giving birth and a grizzly bear chewing through the umbilical cord?",
+"answ":"DUE DATE",
+"answ2":"Due Date.",
+},
+{
+"cat":"2010s",
 "ques":"Chris Buck and Jennifer Lee directed what 2010s Disney film?",
 "answ":"FROZEN",
 "answ2":"Frozen.",
@@ -593,6 +611,12 @@ var threepointer001 = [
 "answ":"WOLF",
 "answ3":"WOLVES",
 "answ2":"Wolf.",
+},
+{
+"cat":"Pixar",
+"ques":"Who voices Gilbert Huph, Bob's demeaning boss in The Incredibles?",
+"answ":"WALLACE SHAWN",
+"answ2":"Wallace Shawn.",
 },
 {
 "cat":"Pixar",
@@ -1829,6 +1853,31 @@ var threepointer001 = [
 "answ2":"Ever After.",
 },
 {
+"cat":"Eddie Murphy",
+"ques":"In Coming to America, what is the name of Randy Watson's band that plays at the Black Awareness rally?",
+"answ":"SEXUAL CHOCOLATE",
+"answ2":"Sexual Chocolate.",
+},
+{
+"cat":"Eddie Murphy",
+"ques":"In Trading Places, the nefarious plan of the Duke brothers at the end of the film surrounded the trading of what commodity?",
+"answ":"FROZEN CONCENTRATED ORANGE JUICE",
+"answ3":"FROZEN ORANGE JUICE",
+"answ2":"Frozen concentrated orange juice.",
+},
+{
+"cat":"Eddie Murphy",
+"ques":"In Beverly Hills Cop, Axel and Jenny find bags of cocaine hidden within a crate filled with what?",
+"answ":"COFFEE GROUNDS",
+"answ2":"Coffee grounds.",
+},
+{
+"cat":"Eddie Murphy",
+"ques":"In Coming to America, what is the name of the barber shop that Akeem and Semmi hang out at?",
+"answ":"MY T SHARP",
+"answ2":"My-T-Sharp.",
+},
+{
 "cat":"Family Films",
 "ques":"In the film Explorers, what famous actor made his feature film debut as Ben Crandall?",
 "answ":"ETHAN HAWKE",
@@ -2108,6 +2157,12 @@ var threepointer001 = [
 "answ2":"Panic Room.",
 },
 {
+"cat":"Jodie Foster",
+"ques":"Which 1991 film starring Jodie Foster and Adam Hann-Byrd was the first film Jodie Foster ever directed?",
+"answ":"LITTLE MAN TATE",
+"answ2":"Little Man Tate.",
+},
+{
 "cat":"Robert De Niro",
 "ques":"Name the film that co-starred Robin Williams and Robert De Niro, which saw De Niro as a man unable to speak who begins speaking after he is given a new drug.",
 "answ":"AWAKENINGS",
@@ -2243,6 +2298,12 @@ var threepointer001 = [
 "ques":"What 1991 movie saw Julia escaping her past and her abusive husband?",
 "answ":"SLEEPING WITH THE ENEMY",
 "answ2":"Sleeping with the Enemy.",
+},
+{
+"cat":"Julia Roberts",
+"ques":"Julia Roberts stars in what 2000s Steven Soderburgh film, which follows a day in the life of some Hollywood players before a birthday party?",
+"answ":"FULL FRONTAL",
+"answ2":"Full Frontal.",
 },
 {
 "cat":"Julia Roberts",
@@ -2687,6 +2748,42 @@ var threepointer001 = [
 "answ2":"Tom Holland.",
 },
 {
+"cat":"2000s",
+"ques":"What town is the setting for Law Abiding Citizen?",
+"answ":"PHILADELPHIA",
+"answ2":"Philadelphia.",
+},
+{
+"cat":"Jim Carrey",
+"ques":"In Bruce Almighty what's the name of Bruce's dog?",
+"answ":"SAM",
+"answ2":"Sam.",
+},
+{
+"cat":"Ben Stiller",
+"ques":"Who played Attila The Hun in Night at the Museum?",
+"answ":"PATRICK GALLAGHER",
+"answ2":"Patrick Gallagher.",
+},
+{
+"cat":"Tom Cruise",
+"ques":"In Top Gun, Rick Rossovich's character Ron Kerner goes by what call sign?",
+"answ":"SLIDER",
+"answ2":"Slider.",
+},
+{
+"cat":"Tom Cruise",
+"ques":"In Top Gun, Clarence Gilyard Jr.'s character Marcus Williams goes by what callsign?",
+"answ":"SUNDOWN",
+"answ2":"Sundown.",
+},
+{
+"cat":"Tom Cruise",
+"ques":"Who plays Lt. Rick 'Hollywood' Neven, a student from Top Gun and Iceman's wingman during the climax?",
+"answ":"WHIP HUBLEY",
+"answ2":"Whip Hubley.",
+},
+{
 "cat":"Horror",
 "ques":"What was the subtitle of the last Halloween movie Donald Pleasence starred in?",
 "answ":"THE CURSE OF MICHAEL MYERS",
@@ -2704,6 +2801,12 @@ var threepointer001 = [
 "ques":"Who directed On Her Majesty's Secret Service?",
 "answ":"PETER R HUNT",
 "answ2":"Peter R. Hunt.",
+},
+{
+"cat":"James Bond",
+"ques":"In Spectre, what is the name of the global intelligence initiative that is revealed to be part of the Spectre organization's master plan?",
+"answ":"NINE EYES",
+"answ2":"Nine Eyes.",
 },
 {
 "cat":"James Bond",
@@ -2753,6 +2856,12 @@ var threepointer001 = [
 "ques":"Who directed V for Vendetta?",
 "answ":"JAMES MCTEIGUE",
 "answ2":"James McTeigue.",
+},
+{
+"cat":"Nicole Kidman",
+"ques":"Nicole Kidman stars in what 2011 romantic comedy directed by Dennis Dugan?",
+"answ":"JUST GO WITH IT",
+"answ2":"Just Go With It.",
 },
 {
 "cat":"Nicole Kidman",

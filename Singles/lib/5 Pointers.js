@@ -1,5 +1,17 @@
 var fivepointer001 = [
 {
+"cat":"Akira Kurosawa",
+"ques":"Which actor, who famously starred in many Kurosawa films, played the lead character Sanjuro in the films Yojimbo and Sanjuro?",
+"answ":"TOSHIRO MIFUNE",
+"answ2":"Toshiro Mifune.",
+},
+{
+"cat":"Akira Kurosawa",
+"ques":"Which 1949 Kurosawa thriller, that was finally released in 1963 in the US, is about a police detective whose gun is stolen by a criminal?",
+"answ":"STRAY DOG",
+"answ2":"Stray Dog.",
+},
+{
 "cat":"70s",
 "ques":"Released in 1978, F.I.S.T. is the story of union boss Johnny Kovak. Who plays Kovak?",
 "answ":"SYLVESTER STALLONE",
@@ -302,6 +314,13 @@ var fivepointer001 = [
 },
 {
 "cat":"2010s",
+"ques":"In Boyhood, Mason's father gives him an album for his 13th birthday entitled The Black Album, which was a compilation of solo music by members of what former band?",
+"answ":"THE BEATLES",
+"answ3":"BEATLES",
+"answ2":"The Beatles.",
+},
+{
+"cat":"2010s",
 "ques":"Who played the conductor of the train, Minister Wilford, in Snowpiercer?",
 "answ":"ED HARRIS",
 "answ2":"Ed Harris.",
@@ -459,6 +478,13 @@ var fivepointer001 = [
 "answ2":"Goldfinger.",
 },
 {
+"cat":"James Bond",
+"ques":"In the beginning of Die Another Day, Bond is rescued from North Korea in a prisoner exchange. Who does MI6 trade to rescue Bond?",
+"answ":"TANG LING ZAO",
+"answ3":"ZAO",
+"answ2":"Tang Ling Zao.",
+},
+{
 "cat":"Adam Sandler",
 "ques":"According to the film Billy Madison, what is the last name of the family that 'rules'?",
 "answ":"O'DOYLE",
@@ -538,6 +564,12 @@ var fivepointer001 = [
 "ques":"What is the name of the whale in Disney's Pinocchio?",
 "answ":"MONSTRO",
 "answ2":"Monstro.",
+},
+{
+"cat":"Disney",
+"ques":"What is the name of the romantic ballad that plays while Cinderella and Prince Charming dance during the ball?",
+"answ":"SO THIS IS LOVE",
+"answ2":"So This Is Love.",
 },
 {
 "cat":"Disney",
@@ -1148,6 +1180,18 @@ var fivepointer001 = [
 "answ2":"Alice Cooper.",
 },
 {
+"cat":"Christian Bale",
+"ques":"In which year does Equilibrium take place?",
+"answ":"2072",
+"answ2":"2072.",
+},
+{
+"cat":"Christian Bale",
+"ques":"In Equilibrium, what's the name of a drug given to citizens which cancels out all emotion?",
+"answ":"PROZIUM",
+"answ2":"Prozium.",
+},
+{
 "cat":"Comedies",
 "ques":"What name from the reservations list does Ferris Bueller use to get into fancy restaurant Chez Quis?",
 "answ":"ABE FROMAN",
@@ -1248,6 +1292,12 @@ var fivepointer001 = [
 "answ":"BAZZ LUHRMANN",
 "answ3":"BAZ LUHRMAN",
 "answ2":"Baz Luhrmann.",
+},
+{
+"cat":"David Lynch",
+"ques":"Who composed the scores for many David Lynch's films, including Blue Velvet and Mulholland Drive?",
+"answ":"ANGELO BADALAMENTI",
+"answ2":"Angelo Badalamenti.",
 },
 {
 "cat":"Denzel Washington",
@@ -1431,6 +1481,12 @@ var fivepointer001 = [
 "answ2":"Tony Gilroy.",
 },
 {
+"cat":"Spy Movies",
+"ques":"Roger Donaldson directed Kevin Costner in what 1987 neo-noir spy thriller?",
+"answ":"NO WAY OUT",
+"answ2":"No Way Out.",
+},
+{
 "cat":"Directors",
 "ques":"Who directed Liam Neeson in The Grey?",
 "answ":"JOE CARNAHAN",
@@ -1544,6 +1600,12 @@ var fivepointer001 = [
 "answ2":"Extraordinary Measures.",
 },
 {
+"cat":"Harrison Ford",
+"ques":"Who plays Sandra Walker, Ford's wife who mysteriously goes missing in the film Frantic?",
+"answ":"BETTY BUCKLEY",
+"answ2":"Betty Buckley.",
+},
+{
 "cat":"Matt & Ben",
 "ques":"In Argo, at what nations embassy do the six escaped hostages hide out?",
 "answ":"CANADA",
@@ -1614,6 +1676,18 @@ var fivepointer001 = [
 },
 {
 "cat":"Drew Barrymore",
+"ques":"In 50 First Dates, what does Lucy order at the diner every day that she likes to build things out of before eating?",
+"answ":"WAFFLES",
+"answ2":"Waffles.",
+},
+{
+"cat":"Drew Barrymore",
+"ques":"Which famous TV showrunner wrote the screenplay for the 1998 Drew Barrymore film Home Fries?",
+"answ":"VINCE GILLIGAN",
+"answ2":"Vince Gilligan.",
+},
+{
+"cat":"Drew Barrymore",
 "ques":"In Donnie Darko, what two-word phrase does Ms. Pomeroy tell Donnie is the most beautiful combination of words in the English language?",
 "answ":"CELLAR DOOR",
 "answ2":"Cellar Door.",
@@ -1630,6 +1704,12 @@ var fivepointer001 = [
 "ques":"Greg Heffley is the 12 year old protagonist played by actor Zachary Gordon, in what 2010 family film?",
 "answ":"DIARY OF A WIMPY KID",
 "answ2":"Diary of a Wimpy Kid.",
+},
+{
+"cat":"Family Films",
+"ques":"Which Oscar-winning actress plays the Central Park pigeon lady who Kevin befriends in Home Alone 2: Lost in New York?",
+"answ":"BRENDA FRICKER",
+"answ2":"Brenda Fricker.",
 },
 {
 "cat":"Family Films",
@@ -1704,9 +1784,21 @@ var fivepointer001 = [
 },
 {
 "cat":"Famous Actors and Actresses",
+"ques":"Which actor appeared in the films Sky Captain and the World of Tomorrow, The Rum Diary and Boiler Room?",
+"answ":"GIOVANNI RIBISI",
+"answ2":"Giovanni Ribisi.",
+},
+{
+"cat":"Famous Actors and Actresses",
 "ques":"What was the last film that Marilyn Monroe completed before her death?",
 "answ":"THE MISFITS",
 "answ2":"The Misfits.",
+},
+{
+"cat":"Famous Actors and Actresses",
+"ques":"Which actor appears in the films Speed, Twister and Freaky?",
+"answ":"ALAN RUCK",
+"answ2":"Alan Ruck.",
 },
 {
 "cat":"Famous Actors and Actresses",
@@ -1822,6 +1914,12 @@ var fivepointer001 = [
 "answ":"KNOCK YOUR PUNK ASS DOWN",
 "answ3":"KNOCK YOUR PUNKASS DOWN",
 "answ2":"Knock Your Punkass Down.",
+},
+{
+"cat":"Will Smith",
+"ques":"Gerald McRaney plays Will Smith's father Bucky Spurgeon in what film?",
+"answ":"FOCUS",
+"answ2":"Focus.",
 },
 {
 "cat":"Fantasy/Sci-fi",
@@ -1947,6 +2045,12 @@ var fivepointer001 = [
 "answ2":"3.",
 },
 {
+"cat":"Kevin Hart",
+"ques":"What item does Kevin Hall's character Mouse have a weakness for, which causes him to explode, in Jumanji: Welcome to the Jungle?",
+"answ":"CAKE",
+"answ2":"Cake.",
+},
+{
 "cat":"Steven Spielberg",
 "ques":"In which state does E.T. the Extra-Terrestrial take place?",
 "answ":"CALIFORNIA",
@@ -1996,6 +2100,24 @@ var fivepointer001 = [
 "ques":"Who directed the 1983 horror film The Hunger?",
 "answ":"TONY SCOTT",
 "answ2":"Tony Scott.",
+},
+{
+"cat":"Horror",
+"ques":"A zombie fights a shark in a 1979 Italian film directed by whom?",
+"answ":"LUCIO FULCI",
+"answ2":"Lucio Fulci.",
+},
+{
+"cat":"Horror",
+"ques":"Who composed the score for It Follows?",
+"answ":"DISASTERPEACE",
+"answ2":"Disasterpeace.",
+},
+{
+"cat":"Horror",
+"ques":"What is Tallahassee's favorite food in Zombieland?",
+"answ":"TWINKIES",
+"answ2":"Twinkies.",
 },
 {
 "cat":"Horror",
@@ -2146,6 +2268,12 @@ var fivepointer001 = [
 "answ":"DERRY",
 "answ3":"DARRY",
 "answ2":"Derry.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor appears in the sequels Alvin and the Chipmunks: The Squeakquel and Big Momma's House 2?",
+"answ":"ZACHARY LEVI",
+"answ2":"Zachary Levi.",
 },
 {
 "cat":"Horror",
@@ -2553,6 +2681,12 @@ var fivepointer001 = [
 },
 {
 "cat":"Monster Movies",
+"ques":"What is the title of the 1935 Universal werewolf film that stars Henry Hull?",
+"answ":"WEREWOLF OF LONDON",
+"answ2":"Werewolf of London.",
+},
+{
+"cat":"Monster Movies",
 "ques":"What year was The Bride of Frankenstein released?",
 "answ":"1935",
 "answ2":"1935.",
@@ -2745,6 +2879,12 @@ var fivepointer001 = [
 "ques":"Who directed 2004's The Girl Next Door?",
 "answ":"LUKE GREENFIELD",
 "answ2":"Luke Greenfield.",
+},
+{
+"cat":"Rom-coms",
+"ques":"In what 1994 rom-com does Marisa Tomei play a character who is seemingly told the name of the man of her dreams by a Ouija board?",
+"answ":"ONLY YOU",
+"answ2":"Only You.",
 },
 {
 "cat":"Tom Hanks",
@@ -3092,6 +3232,12 @@ var fivepointer001 = [
 "ques":"The murder of a powerful gang leader in New York City that goes by Cyrus serves as the inciting incident of what 70s action thriller?",
 "answ":"THE WARRIORS",
 "answ2":"The Warriors.",
+},
+{
+"cat":"Thrillers",
+"ques":"Journalist Cal McAffrey investigates the murder of a Congressman's mistress, walking headlong into a massive cover-up in what 2009 film featuring Russell Crowe and Helen Mirren?",
+"answ":"STATE OF PLAY",
+"answ2":"State of Play.",
 },
 {
 "cat":"Thrillers",

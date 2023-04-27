@@ -461,78 +461,15 @@ if ((document.getElementById("box10").checked) && (document.getElementById("box1
 message002.innerHTML = "You selected " + data[random] + "<br>" + "<button id=chalacc class=buttons004 onclick=ChallengeAccepted()>Win Challenge</button><button id=chalden class=buttons005 onclick=ChallengeDenied()>Lose Challenge</button>";
 assigncompcat();
 }
-function assigncompcat(){
-if (data[random] == r2Q1[0].cat){compcat = r2Q1;}
-else if (data[random] == r2Q2[0].cat){compcat = r2Q2;}
-else if (data[random] == r2Q3[0].cat){compcat = r2Q3;}
-else if (data[random] == r2Q4[0].cat){compcat = r2Q4;}
-else if (data[random] == r2Q5[0].cat){compcat = r2Q5;}
-else if (data[random] == r2Q6[0].cat){compcat = r2Q6;}
-else if (data[random] == r2Q7[0].cat){compcat = r2Q7;}
-else if (data[random] == r2Q8[0].cat){compcat = r2Q8;}
-else if (data[random] == r2Q9[0].cat){compcat = r2Q9;}
-else if (data[random] == r2Q10[0].cat){compcat = r2Q10;}
-else if (data[random] == r2Q11[0].cat){compcat = r2Q11;}
-else if (data[random] == r2Q12[0].cat){compcat = r2Q12;}
-else if (data[random] == r2Q13[0].cat){compcat = r2Q13;}
-else if (data[random] == r2Q14[0].cat){compcat = r2Q14;}
-else if (data[random] == r2Q15[0].cat){compcat = r2Q15;}
-else if (data[random] == r2Q16[0].cat){compcat = r2Q16;}
-else if (data[random] == r2Q17[0].cat){compcat = r2Q17;}
-else if (data[random] == r2Q18[0].cat){compcat = r2Q18;}
-else if (data[random] == r2Q19[0].cat){compcat = r2Q19;}
-else if (data[random] == r2Q20[0].cat){compcat = r2Q20;}
-else if (data[random] == r2Q21[0].cat){compcat = r2Q21;}
-else if (data[random] == r2Q22[0].cat){compcat = r2Q22;}
-else if (data[random] == r2Q23[0].cat){compcat = r2Q23;}
-else if (data[random] == r2Q24[0].cat){compcat = r2Q24;}
-else if (data[random] == r2Q25[0].cat){compcat = r2Q25;}
-else if (data[random] == r2Q26[0].cat){compcat = r2Q26;}
-else if (data[random] == r2Q27[0].cat){compcat = r2Q27;}
-else if (data[random] == r2Q28[0].cat){compcat = r2Q28;}
-else if (data[random] == r2Q29[0].cat){compcat = r2Q29;}
-else if (data[random] == r2Q30[0].cat){compcat = r2Q30;}
-else if (data[random] == r2Q31[0].cat){compcat = r2Q31;}
-else if (data[random] == r2Q32[0].cat){compcat = r2Q32;}
-else if (data[random] == r2Q33[0].cat){compcat = r2Q33;}
-else if (data[random] == r2Q34[0].cat){compcat = r2Q34;}
-else if (data[random] == r2Q35[0].cat){compcat = r2Q35;}
-else if (data[random] == r2Q36[0].cat){compcat = r2Q36;}
-else if (data[random] == r2Q37[0].cat){compcat = r2Q37;}
-else if (data[random] == r2Q38[0].cat){compcat = r2Q38;}
-else if (data[random] == r2Q39[0].cat){compcat = r2Q39;}
-else if (data[random] == r2Q40[0].cat){compcat = r2Q40;}
-else if (data[random] == r2Q41[0].cat){compcat = r2Q41;}
-else if (data[random] == r2Q42[0].cat){compcat = r2Q42;}
-else if (data[random] == r2Q43[0].cat){compcat = r2Q43;}
-else if (data[random] == r2Q44[0].cat){compcat = r2Q44;}
-else if (data[random] == r2Q45[0].cat){compcat = r2Q45;}
-else if (data[random] == r2Q46[0].cat){compcat = r2Q46;}
-else if (data[random] == r2Q47[0].cat){compcat = r2Q47;}
-else if (data[random] == r2Q48[0].cat){compcat = r2Q48;}
-else if (data[random] == r2Q49[0].cat){compcat = r2Q49;}
-else if (data[random] == r2Q50[0].cat){compcat = r2Q50;}
-else if (data[random] == r2Q51[0].cat){compcat = r2Q51;}
-else if (data[random] == r2Q52[0].cat){compcat = r2Q52;}
-else if (data[random] == r2Q53[0].cat){compcat = r2Q53;}
-else if (data[random] == r2Q54[0].cat){compcat = r2Q54;}
-else if (data[random] == r2Q55[0].cat){compcat = r2Q55;}
-else if (data[random] == r2Q56[0].cat){compcat = r2Q56;}
-else if (data[random] == r2Q57[0].cat){compcat = r2Q57;}
-else if (data[random] == r2Q58[0].cat){compcat = r2Q58;}
-else if (data[random] == r2Q59[0].cat){compcat = r2Q59;}
-else if (data[random] == r2Q60[0].cat){compcat = r2Q60;}
-else if (data[random] == r2Q61[0].cat){compcat = r2Q61;}
-else if (data[random] == r2Q62[0].cat){compcat = r2Q62;}
-else if (data[random] == r2Q63[0].cat){compcat = r2Q63;}
-else if (data[random] == r2Q64[0].cat){compcat = r2Q64;}
-else if (data[random] == r2Q65[0].cat){compcat = r2Q65;}
-else if (data[random] == r2Q66[0].cat){compcat = r2Q66;}
-else if (data[random] == r2Q67[0].cat){compcat = r2Q67;}
-else if (data[random] == r2Q68[0].cat){compcat = r2Q68;}
-else if (data[random] == r2Q69[0].cat){compcat = r2Q69;}
-else if (data[random] == r2Q70[0].cat){compcat = r2Q70;}
-compcat = shuffle(compcat);
+function assigncompcat() {
+var compcatQuestions = [r2Q1, r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13, r2Q14, r2Q15, r2Q16, r2Q17, r2Q18, r2Q19, r2Q20, r2Q21, r2Q22, r2Q23, r2Q24, r2Q25, r2Q26, r2Q27, r2Q28, r2Q29, r2Q30, r2Q31, r2Q32, r2Q33, r2Q34, r2Q35, r2Q36, r2Q37, r2Q38, r2Q39, r2Q40, r2Q41, r2Q42, r2Q43, r2Q44, r2Q45, r2Q46, r2Q47, r2Q48, r2Q49, r2Q50, r2Q51, r2Q52, r2Q53, r2Q54, r2Q55, r2Q56, r2Q57, r2Q58, r2Q59, r2Q60, r2Q61, r2Q62, r2Q63, r2Q64, r2Q65, r2Q66, r2Q67, r2Q68, r2Q69, r2Q70];
+  for (var i = 0; i < compcatQuestions.length; i++) {
+    if (data[random] === compcatQuestions[i][0].cat) {
+      compcat = compcatQuestions[i];
+	compcat = shuffle(compcat);
+      break;
+    }
+  }
 }
 var opponentspun = "0";
 var random = "6";
@@ -777,78 +714,15 @@ var cor = document.getElementById("corop");
 cor.innerHTML = compcat[i].option[0];
 }
 }     
-function round2(){
-if (data[picked] == r2Q1[0].cat){r2question001 = r2Q1;}
-else if (data[picked] == r2Q2[0].cat){r2question001 = r2Q2;}
-else if (data[picked] == r2Q3[0].cat){r2question001 = r2Q3;}
-else if (data[picked] == r2Q4[0].cat){r2question001 = r2Q4;}
-else if (data[picked] == r2Q5[0].cat){r2question001 = r2Q5;}
-else if (data[picked] == r2Q6[0].cat){r2question001 = r2Q6;}
-else if (data[picked] == r2Q7[0].cat){r2question001 = r2Q7;}
-else if (data[picked] == r2Q8[0].cat){r2question001 = r2Q8;}
-else if (data[picked] == r2Q9[0].cat){r2question001 = r2Q9;}
-else if (data[picked] == r2Q10[0].cat){r2question001 = r2Q10;}
-else if (data[picked] == r2Q11[0].cat){r2question001 = r2Q11;}
-else if (data[picked] == r2Q12[0].cat){r2question001 = r2Q12;}
-else if (data[picked] == r2Q13[0].cat){r2question001 = r2Q13;}
-else if (data[picked] == r2Q14[0].cat){r2question001 = r2Q14;}
-else if (data[picked] == r2Q15[0].cat){r2question001 = r2Q15;}
-else if (data[picked] == r2Q16[0].cat){r2question001 = r2Q16;}
-else if (data[picked] == r2Q17[0].cat){r2question001 = r2Q17;}
-else if (data[picked] == r2Q18[0].cat){r2question001 = r2Q18;}
-else if (data[picked] == r2Q19[0].cat){r2question001 = r2Q19;}
-else if (data[picked] == r2Q20[0].cat){r2question001 = r2Q20;}
-else if (data[picked] == r2Q21[0].cat){r2question001 = r2Q21;}
-else if (data[picked] == r2Q22[0].cat){r2question001 = r2Q22;}
-else if (data[picked] == r2Q23[0].cat){r2question001 = r2Q23;}
-else if (data[picked] == r2Q24[0].cat){r2question001 = r2Q24;}
-else if (data[picked] == r2Q25[0].cat){r2question001 = r2Q25;}
-else if (data[picked] == r2Q26[0].cat){r2question001 = r2Q26;}
-else if (data[picked] == r2Q27[0].cat){r2question001 = r2Q27;}
-else if (data[picked] == r2Q28[0].cat){r2question001 = r2Q28;}
-else if (data[picked] == r2Q29[0].cat){r2question001 = r2Q29;}
-else if (data[picked] == r2Q30[0].cat){r2question001 = r2Q30;}
-else if (data[picked] == r2Q31[0].cat){r2question001 = r2Q31;}
-else if (data[picked] == r2Q32[0].cat){r2question001 = r2Q32;}
-else if (data[picked] == r2Q33[0].cat){r2question001 = r2Q33;}
-else if (data[picked] == r2Q34[0].cat){r2question001 = r2Q34;}
-else if (data[picked] == r2Q35[0].cat){r2question001 = r2Q35;}
-else if (data[picked] == r2Q36[0].cat){r2question001 = r2Q36;}
-else if (data[picked] == r2Q37[0].cat){r2question001 = r2Q37;}
-else if (data[picked] == r2Q38[0].cat){r2question001 = r2Q38;}
-else if (data[picked] == r2Q39[0].cat){r2question001 = r2Q39;}
-else if (data[picked] == r2Q40[0].cat){r2question001 = r2Q40;}
-else if (data[picked] == r2Q41[0].cat){r2question001 = r2Q41;}
-else if (data[picked] == r2Q42[0].cat){r2question001 = r2Q42;}
-else if (data[picked] == r2Q43[0].cat){r2question001 = r2Q43;}
-else if (data[picked] == r2Q44[0].cat){r2question001 = r2Q44;}
-else if (data[picked] == r2Q45[0].cat){r2question001 = r2Q45;}
-else if (data[picked] == r2Q46[0].cat){r2question001 = r2Q46;}
-else if (data[picked] == r2Q47[0].cat){r2question001 = r2Q47;}
-else if (data[picked] == r2Q48[0].cat){r2question001 = r2Q48;}
-else if (data[picked] == r2Q49[0].cat){r2question001 = r2Q49;}
-else if (data[picked] == r2Q50[0].cat){r2question001 = r2Q50;}
-else if (data[picked] == r2Q51[0].cat){r2question001 = r2Q51;}
-else if (data[picked] == r2Q52[0].cat){r2question001 = r2Q52;}
-else if (data[picked] == r2Q53[0].cat){r2question001 = r2Q53;}
-else if (data[picked] == r2Q54[0].cat){r2question001 = r2Q54;}
-else if (data[picked] == r2Q55[0].cat){r2question001 = r2Q55;}
-else if (data[picked] == r2Q56[0].cat){r2question001 = r2Q56;}
-else if (data[picked] == r2Q57[0].cat){r2question001 = r2Q57;}
-else if (data[picked] == r2Q58[0].cat){r2question001 = r2Q58;}
-else if (data[picked] == r2Q59[0].cat){r2question001 = r2Q59;}
-else if (data[picked] == r2Q60[0].cat){r2question001 = r2Q60;}
-else if (data[picked] == r2Q61[0].cat){r2question001 = r2Q61;}
-else if (data[picked] == r2Q62[0].cat){r2question001 = r2Q62;}
-else if (data[picked] == r2Q63[0].cat){r2question001 = r2Q63;}
-else if (data[picked] == r2Q64[0].cat){r2question001 = r2Q64;}
-else if (data[picked] == r2Q65[0].cat){r2question001 = r2Q65;}
-else if (data[picked] == r2Q66[0].cat){r2question001 = r2Q66;}
-else if (data[picked] == r2Q67[0].cat){r2question001 = r2Q67;}
-else if (data[picked] == r2Q68[0].cat){r2question001 = r2Q68;}
-else if (data[picked] == r2Q69[0].cat){r2question001 = r2Q69;}
-else if (data[picked] == r2Q70[0].cat){r2question001 = r2Q70;}
-r2question001 = shuffle(r2question001); 
+function round2() {
+var r2Questions = [r2Q1, r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, r2Q11, r2Q12, r2Q13, r2Q14, r2Q15, r2Q16, r2Q17, r2Q18, r2Q19, r2Q20, r2Q21, r2Q22, r2Q23, r2Q24, r2Q25, r2Q26, r2Q27, r2Q28, r2Q29, r2Q30, r2Q31, r2Q32, r2Q33, r2Q34, r2Q35, r2Q36, r2Q37, r2Q38, r2Q39, r2Q40, r2Q41, r2Q42, r2Q43, r2Q44, r2Q45, r2Q46, r2Q47, r2Q48, r2Q49, r2Q50, r2Q51, r2Q52, r2Q53, r2Q54, r2Q55, r2Q56, r2Q57, r2Q58, r2Q59, r2Q60, r2Q61, r2Q62, r2Q63, r2Q64, r2Q65, r2Q66, r2Q67, r2Q68, r2Q69, r2Q70];
+  for (var i = 0; i < r2Questions.length; i++) {
+    if (data[picked] === r2Questions[i][0].cat) {
+      r2question001 = r2Questions[i];
+	r2question001 = shuffle(r2question001);
+      break;
+    }
+  }
 }
 function begin001() {
 	    intromusic.pause();

@@ -7,9 +7,57 @@ var dramas = [
 },
 {
 "cat":"Dramas",
+"ques":"Who played Deck Shifflet, the paralegal who assists Matt Damon's takedown of an insurance company in the 1997 movie The Rainmaker?",
+"answ":"DANNY DEVITO",
+"answ2":"Danny DeVito.",
+},
+{
+"cat":"Dramas",
+"ques":"What Oscar-winning 1980s film has the tagline: 'The man...The music...The madness...The murder...'?",
+"answ":"AMADEUS",
+"answ2":"Amadeus.",
+},
+{
+"cat":"Dramas",
+"ques":"Will Smith, Rosario Dawson and Woody Harrelson star in this 2008 film about a man with a secret who sets out to change the lives of a group of strangers.",
+"answ":"SEVEN POUNDS",
+"answ2":"Seven Pounds.",
+},
+{
+"cat":"Dramas",
+"ques":"What acclaimed 1990s drama features characters named Ellis 'Red' Redding, Tommy Williams and Brooks Hatlen?",
+"answ":"THE SHAWSHANK REDEMPTION",
+"answ2":"The Shawshank Redemption.",
+},
+{
+"cat":"Dramas",
+"ques":"Christopher Plummer played journalist Mike Wallace in what 1999 film co-starring Al Pacino?",
+"answ":"THE INSIDER",
+"answ2":"The Insider.",
+},
+{
+"cat":"Dramas",
+"ques":"Which Oscar winning actress appears in the films Primal Fear, North Country and Promised Land?",
+"answ":"FRANCES MCDORMAND",
+"answ2":"Frances McDormand.",
+},
+{
+"cat":"Dramas",
+"ques":"Which Academy Award winning actress appears in the films The Wrestler, Before the Devil Knows You're Dead and The Lincoln Lawyer?",
+"answ":"MARISA TOMEI",
+"answ2":"Marisa Tomei.",
+},
+{
+"cat":"Dramas",
 "ques":"Who plays Dr. Robert Stonehill, a researcher who has done innovative research for the treatment of a rare disease in 2010's Extraordinary Measures?",
 "answ":"HARRISON FORD",
 "answ2":"Harrison Ford.",
+},
+{
+"cat":"Dramas",
+"ques":"Which actor appeared in these three films: The Last Detail, The Bucket List and Something's Gotta Give?",
+"answ":"JACK NICHOLSON",
+"answ2":"Jack Nicholson.",
 },
 {
 "cat":"Dramas",
@@ -1092,12 +1140,6 @@ var dramas = [
 },
 {
 "cat":"Dramas",
-"ques":"Who played Clementine Kruczynski, the object of Joel's affections, in Eternal Sunshine of the Spotless Mind?",
-"answ":"KATE WINSLET",
-"answ2":"Kate Winslet.",
-},
-{
-"cat":"Dramas",
 "ques":"Who played Stephen Glass in the 2003 film Shattered Glass?",
 "answ":"HAYDEN CHRISTENSEN",
 "answ2":"Hayden Christensen.",
@@ -1394,6 +1436,19 @@ var dramas = [
 "answ":"DARREN ARONOFSKY",
 "answ3":"DARREN ARONOFSKI",
 "answ2":"Darren Aronofsky.",
+},
+{
+"cat":"Dramas",
+"ques":"James Marsden, Bruce Greenwood, Jeffrey Donovan and Casper Phillipson have all portrayed what U.S president on the big screen?",
+"answ":"JOHN F KENNEDY",
+"answ3":"JFK",
+"answ2":"John F. Kennedy.",
+},
+{
+"cat":"Dramas",
+"ques":"Which actress received an Oscar nomination for her performance as a bored housewife named Sarah Pierce in the film Little Children?",
+"answ":"KATE WINSLET",
+"answ2":"Kate Winslet.",
 },
 {
 "cat":"Dramas",
@@ -1944,12 +1999,6 @@ var dramas = [
 },
 {
 "cat":"Dramas",
-"ques":"Name the Hitchcock drama about a San Francisco detective's fear of heights and his obsession over a woman.",
-"answ":"VERTIGO",
-"answ2":"Vertigo.",
-},
-{
-"cat":"Dramas",
 "ques":"Who plays Heath Ledger's wife in Brokeback Mountain?",
 "answ":"MICHELLE WILLIAMS",
 "answ2":"Michelle Williams.",
@@ -2257,6 +2306,20 @@ var r2Q9 = [
 "answ3":"HE IS ELECTROCUTED",
 "answ2":"Electrocution.",
 "option":["Electrocution", "Drowning", "Freezing", "Overdose"],
+},
+{
+"cat":"Dramas",
+"ques":"Who directed the Best Picture-winning film Spotlight?",
+"answ":"TOM MCCARTHY",
+"answ2":"Tom McCarthy.",
+"option":["Tom McCarthy", "David McKenzie", "Martin McDonagh", "Noah Baumbach"],
+},
+{
+"cat":"Dramas",
+"ques":"El Paraiso is the name of the nightclub that Al Pacino's character buys in what 90s film?",
+"answ":"CARLITO'S WAY",
+"answ2":"Carlito's Way.",
+"option":["Carlito's Way", "Dick Tracy", "Righteous Kill", "Donnie Brasco"],
 },
 {
 "cat":"Dramas",
@@ -2719,6 +2782,70 @@ var r2Q9 = [
 "answ2":"Bob Dylan.",
 "option":["Bob Dylan", "David Bowie", "Billy Joel", "Meat Loaf"],
 },
+{
+"cat":"Dramas",
+"ques":"Who played the mysterious Deep Throat in All the President's Men?",
+"answ":"HAL HOLBROOK",
+"answ2":"Hal Holbrook.",
+"option":["Hal Holbrook", "Ned Beatty", "David Strathairn", "Jack Warden"],
+},
+{
+"cat":"Dramas",
+"ques":"Which actor played Hando in the 1992 Australian film Romper Stomper?",
+"answ2":"Russell Crowe.",
+"answ":"RUSSELL CROWE",
+"option":["Russell Crowe","Heath Ledger","Hugh Jackman","Hugo Weaving"],
+},
+{
+"cat":"Dramas",
+"ques":"Which actor played Raymond Babbitt in Rain Man?",
+"answ2":"Dustin Hoffman.",
+"answ":"DUSTIN HOFFMAN",
+"option":["Dustin Hoffman","Tom Cruise","Michael Keaton","Alec Baldwin"],
+},
+{
+"cat":"Dramas",
+"ques":"Which famous actress starred in Heavenly Creatures?",
+"answ2":"Kate Winslet.",
+"answ":"KATE WINSLET",
+"option":["Kate Winslet","Winona Ryder","Julia Roberts","Demi Moore"],
+},
+{
+"cat":"Dramas",
+"ques":"Who was the lead actor in Seven Pounds?",
+"answ2":"Will Smith.",
+"answ":"WILL SMITH",
+"option":["Will Smith","Tom Cruise","Sean Penn","Ethan Hawke"],
+},
+{
+"cat":"Dramas",
+"ques":"The characters in the 2004 film Sideways share a love of what?",
+"answ2":"Wine.",
+"answ":"WINE",
+"option":["Wine","Cheese","Beer","Whiskey"],
+},
+{
+"cat":"Dramas",
+"ques":"Who has the title role in the film Mud?",
+"answ2":"Matthew McConaughey.",
+"answ":"MATTHEW MCCONAUGHEY",
+"option":["Matthew McConaughey","Sam Shepard","John Cusack","Jared Leto"],
+},
+{
+"cat":"Dramas",
+"ques":"In The Virgin Suicides, which of the Lisbon sisters suicidally took an overdose of sleeping pills?",  
+"answ":"THERESE",
+"answ2":"Therese.",
+"option":["Therese","Lux","Mary","Bonnie"],
+},
+{
+"cat":"Dramas",
+"ques":"Which film stars Cuba Gooding Jr. as Carl Brashear, who aspires to be the first African-American U.S. Navy diver?",
+"answ":"MEN OF HONOR",
+"answ2":"Men of Honor.",
+"option":["Men of Honor", "With Honors", "Act of Valor", "The Finest Hour"],
+},
+
 ];
 dramas = shuffle(dramas);
 r2Q9 = shuffle(r2Q9);

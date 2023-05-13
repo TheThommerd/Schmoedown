@@ -211,6 +211,13 @@ var r2Q50 = [
 },
 {
 "cat":"Dance Movies",
+"ques":"Which character did Stockard Channing play in Grease?",
+"answ2":"Rizzo.",
+"answ":"RIZZO",
+"option":["Rizzo","Sandy","Danny","Frenchy"],
+},
+{
+"cat":"Dance Movies",
 "ques":"In Coyote Ugly, what is the first name of the lead character played by Piper Perabo?",
 "answ":"VIOLET",
 "answ2":"Violet.",

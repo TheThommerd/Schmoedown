@@ -8,6 +8,20 @@ var r2Q69 = [
 },
 {
 "cat":"YA Adaptations",
+"ques":"In The Maze Runner, which of the boys attacked Thomas, and appears to remember things about Thomas?",
+"answ2":"Ben.",
+"answ":"BEN",
+"option":["Ben","Alby","Minho","Chuck"],
+},
+{
+"cat":"YA Adaptations",
+"ques":"The Twilight series of movies are based on books by which author?",
+"answ2":"Stephenie Meyer.",
+"answ":"STEPHENIE MEYER",
+"option":["Stephenie Meyer","Richelle Mead","Charlaine Harris","Suzanne Collins"],
+},
+{
+"cat":"YA Adaptations",
 "ques":"In the The Hunger Games series which actress played the part of Primrose Everdeen?",
 "answ":"WILLOW SHIELDS",
 "answ2":"Willow Shields.",

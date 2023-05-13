@@ -8,6 +8,28 @@ var r2Q43 = [
 },
 {
 "cat":"Quentin Tarantino",
+"ques":"What was Quentin Tarantino's first released feature film?",
+"answ2":"Reservoir Dogs.",
+"answ":"RESERVOIR DOGS",
+"option":["Reservoir Dogs","Pulp Fiction","Jackie Brown","Kill Bill"],
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"How many years did The Bride spend in a coma in the Kill Bill films?",
+"answ":"4",
+"answ3":"4 YEARS",
+"answ2":"4 years.",
+"option":["4 years", "3 years", "2 years", "5 years"],
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"Tarantino directed the segment 'The Man from Hollywood' in what anthology film?",
+"answ":"FOUR ROOMS",
+"answ2":"Four Rooms.",
+"option":["Four Rooms", "The Ballad of Buster Scruggs", "Twilight Zone: The Movie", "The French Dispatch"],
+},
+{
+"cat":"Quentin Tarantino",
 "ques":"Who composed the score for The Hateful Eight?",
 "answ":"ENNIO MORRICONE",
 "answ2":"Ennio Morricone.",

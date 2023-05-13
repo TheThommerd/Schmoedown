@@ -8,6 +8,13 @@ var r2Q70 = [
 },
 {
 "cat":"DreamWorks Animation",
+"ques":"In Shrek, which vegetable does Shrek liken ogres to?", 
+"answ":"ONION",
+"answ2":"Onion.",
+"option":["Onion","Potato","Leek","Carrot"],
+},
+{
+"cat":"DreamWorks Animation",
 "ques":"In How to Train Your Dragon: The Hidden World, what does Astrid name the white dragon?",
 "answ":"LIGHT FURY",
 "answ2":"Light Fury.",

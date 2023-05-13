@@ -8,6 +8,13 @@ var r2Q61 = [
 },
 {
 "cat":"Cate Blanchett",
+"ques":"Which alumnus from the film Watchmen plays Cate Blanchett's husband in the film Where'd You Go, Bernadette?",
+"answ":"BILLY CRUDUP",
+"answ2":"Billy Crudup.",
+"option":["Billy Crudup", "Patrick Wilson", "Jeffrey Dean Morgan", "Jackie Earle Haley"],
+},
+{
+"cat":"Cate Blanchett",
 "ques":"What 2013 drama stars Cate Blanchett, Sally Hawkins and Alec Baldwin?",
 "answ":"BLUE JASMINE",
 "answ3":"BLUE JASMIN",

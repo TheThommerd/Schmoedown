@@ -154,6 +154,12 @@ var r2Q82 = [
 },
 {
 "cat":"Charlize Theron",
+"ques":"Charlize Theron's character has what position in the U.S. Government, before she decides to run for U.S. President, in Long Shot?",
+"answ":"SECRETARY OF STATE",
+"answ2":"Secretary of State.",
+},
+{
+"cat":"Charlize Theron",
 "ques":"In A Million Ways to Die in the West, who plays the main villain, the notorious outlaw Clint Leatherwood?",
 "answ":"LIAM NEESON",
 "answ2":"Liam Neeson.",

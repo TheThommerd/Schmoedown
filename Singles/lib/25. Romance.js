@@ -61,6 +61,12 @@ var romance = [
 },
 {
 "cat":"Romance",
+"ques":"Alec Baldwin, Bill Murray, Rachel McAdams, and Danny McBride all appear in what 2015 romantic film?",
+"answ":"ALOHA",
+"answ2":"Aloha.",
+},
+{
+"cat":"Romance",
 "ques":"Richard Gere stars as a successful middle-aged restaurateur and womanizer who falls in love with a young woman who is terminally ill in what 2000 film?",
 "answ":"AUTUMN IN NEW YORK",
 "answ2":"Autumn in New York.",
@@ -310,6 +316,20 @@ var r2Q25 = [
 "answ":"COLLEGE",
 "answ2":"College.",
 "option":["College", "Restaurant", "Swimming Pool", "Summer Camp"],
+},
+{
+"cat":"Romance",
+"ques":"Who directed the 1996 movie Romeo and Juliet?",
+"answ2":"Baz Luhrmann.",
+"answ":"BAZ LUHRMANN",
+"option":["Baz Luhrmann","Sam Mendes","Danny Boyle","Stanley Kubrick"],
+},
+{
+"cat":"Romance",
+"ques":"Which actress played April Wheeler in Revolutionary Road?",
+"answ2":"Kate Winslet.",
+"answ":"KATE WINSLET",
+"option":["Kate Winslet","Natalie Portman","Keira Knightley","Julianne Moore"],
 },
 {
 "cat":"Romance",
@@ -580,6 +600,13 @@ var r2Q25 = [
 "answ":"TIM MCGRAW",
 "answ2":"Tim McGraw.",
 "option":["Tim McGraw", "Garth Brooks", "Keith Urban", "Brad Paisley"],
+},
+{
+"cat":"Romance",
+"ques":"Who plays Helen, a london ad executive who the audience sees on two different tracks of her life stemming from one event, in the 1998 film Sliding Doors?",
+"answ":"GWYNETH PALTROW",
+"answ2":"Gwyneth Paltrow.",
+"option":["Gwyneth Paltrow", "Meryl Streep", "Jennifer Aniston", "Demi Moore"],
 },
 {
 "cat":"Romance",

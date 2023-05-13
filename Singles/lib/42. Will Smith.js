@@ -7,6 +7,12 @@ var willsmith = [
 },
 {
 "cat":"Will Smith",
+"ques":"What actress stars alongside Will Smith as Rita Escobar in the film Wild Wild West?",
+"answ":"SALMA HAYEK",
+"answ2":"Salma Hayek.",
+},
+{
+"cat":"Will Smith",
 "ques":"Fred Schepisi directed Will Smith in what 1993 drama featuring Ian McKellen?",
 "answ":"SIX DEGREES OF SEPARATION",
 "answ2":"Six Degrees of Separation.",
@@ -200,6 +206,14 @@ var r2Q42 = [
 "answ":"LAWYER",
 "answ2":"Lawyer.",
 "option":["Lawyer", "Chef", "Politician", "Teacher"],
+},
+{
+"cat":"Will Smith",
+"ques":"Which famous Los Angeles landmark was destroyed by a pulse beam from a saucer-shaped alien ship in Independence Day?",   
+"answ":"THE LIBRARY TOWER",
+"answ3":"US BANK TOWER",
+"answ2":"The Library Tower/U.S. Bank Tower.",
+"option":["The Library Tower","Disneyland","The Santa Monica Pier","The Hollywood Sign"],
 },
 {
 "cat":"Will Smith",

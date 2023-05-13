@@ -8,6 +8,20 @@ var r2Q67 = [
 },
 {
 "cat":"Clint Eastwood",
+"ques":"Which actress starred as Elizabeth in Paint Your Wagon?",
+"answ2":"Jean Seberg.",
+"answ":"JEAN SEBERG",
+"option":["Jean Seberg","Zsa Zsa Gabor","Joan Collins","Jane Fonda"],
+},
+{
+"cat":"Clint Eastwood",
+"ques":"In which film does Clint Eastwood play Gunnery Sergeant Thomas Highway, that is nearing mandatory retirement from the Marine Corps?",
+"answ":"HEARTBREAK RIDGE",
+"answ2":"Heartbreak Ridge.",
+"option":["Heartbreak Ridge", "A Fistful of Dollars", "High Plains Drifter", "Unforgiven"],
+},
+{
+"cat":"Clint Eastwood",
 "ques":"Which 1964 western was directed by Sergio Leone and starred Clint Eastwood?",
 "answ":"A FISTFUL OF DOLLARS",
 "answ2":"A Fistful of Dollars.",

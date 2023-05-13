@@ -7,6 +7,25 @@ var scoressoundtracks = [
 },
 {
 "cat":"Scores & Soundtracks",
+"ques":"Jerry Goldsmith received a Best Original Score Oscar nomination for which 1979 epic sci-fi film?",
+"answ":"STAR TREK THE MOTION PICTURE",
+"answ2":"Star Trek: The Motion Picture.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"The 2007 musical Across the Universe features songs originally performed by what band?",
+"answ":"THE BEATLES",
+"answ3":"BEATLES",
+"answ2":"The Beatles.",
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Prince won an Oscar for Best Original Song Score for what 1984 film which included such hits as 'Let's Go Crazy' and 'When Doves Cry'?",
+"answ":"PURPLE RAIN",
+"answ2":"Purple Rain.",
+},
+{
+"cat":"Scores & Soundtracks",
 "ques":"What 1995 comic book film skyrocketed Seal's 'Kiss From a Rose' into popularity?",
 "answ":"BATMAN FOREVER",
 "answ2":"Batman Forever.",
@@ -1487,6 +1506,20 @@ var r2Q33 = [
 "answ":"MICHAEL GIACCHINO",
 "answ2":"Michael Giacchino.",
 "option":["Michael Giacchino", "Alan Silvestri", "Alexandre Desplat", "Hans Zimmer"],
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Which movie soundtrack includes the song 'I Just Can't Wait to Be King'?",
+"answ2":"The Lion King.",
+"answ":"THE LION KING",
+"option":["The Lion King","Aladdin","Cinderella","Bambi"],
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"In 2001: A Space Odyssey, what song did supercomputer HAL-9000 sing as he was being deactivated?",    
+"answ":"DAISY BELL",
+"answ2":"Daisy Bell.",
+"option":["Daisy Bell","Danny Boy","Rock-a-Bye, Baby","East Side, West Side"],
 },
 {
 "cat":"Scores & Soundtracks",

@@ -7,6 +7,61 @@ var jamesbond = [
 },
 {
 "cat":"James Bond",
+"ques":"What was the final film in which Roger Moore played James Bond?",
+"answ":"A VIEW TO A KILL",
+"answ2":"A View to a Kill.",
+},
+{
+"cat":"James Bond",
+"ques":"What was the last film to feature Bernard Lee as M?",
+"answ":"MOONRAKER",
+"answ2":"Moonraker.",
+},
+{
+"cat":"James Bond",
+"ques":"What Oscar-winning actor had an early role as the henchman Dario in Licence to Kill?",
+"answ":"BENICIO DEL TORO",
+"answ2":"Benicio del Toro.",
+},
+{
+"cat":"James Bond",
+"ques":"In which film is the NASA spacecraft Jupiter 16 hijacked in orbit?",
+"answ":"YOU ONLY LIVE TWICE",
+"answ2":"You Only Live Twice.",
+},
+{
+"cat":"James Bond",
+"ques":"What Bond villain has been portrayed in the most films?",
+"answ":"ERNST STAVRO BLOFELD",
+"answ3":"BLOFELD",
+"answ2":"Ernst Stavro Blofeld.",
+},
+{
+"cat":"James Bond",
+"ques":"What is the name of the silent henchman Dave Bautista plays in Spectre?",
+"answ":"MR HINX",
+"answ2":"Mr. Hinx.",
+},
+{
+"cat":"James Bond",
+"ques":"What is the name of the henchman who uses his hat as a weapon in Goldfinger?",
+"answ":"ODDJOB",
+"answ2":"Oddjob.",
+},
+{
+"cat":"James Bond",
+"ques":"What is the name of Ursula Andress' character in Dr. No?",
+"answ":"HONEY RIDER",
+"answ2":"Honey Rider.",
+},
+{
+"cat":"James Bond",
+"ques":"In what film in the James Bond franchise will you find Sean Connery's 007 attempting to stop a devious scheme to raid Fort Knox?",
+"answ":"GOLDFINGER",
+"answ2":"Goldfinger.",
+},
+{
+"cat":"James Bond",
 "ques":"Who plays James Bond in the 1983 film Never Say Never Again?",
 "answ":"SEAN CONNERY",
 "answ2":"Sean Connery.",
@@ -93,6 +148,19 @@ var jamesbond = [
 "answ":"SEAN CONNERY",
 "answ2":"Sean Connery.",
 },
+{
+"cat":"James Bond",
+"ques":"Who plays C, the head of the new Joint Intelligence task force in Spectre?",
+"answ":"ANDREW SCOTT",
+"answ2":"Andrew Scott.",
+},
+{
+"cat":"James Bond",
+"ques":"In The Spy Who Loved Me, how does Karl Stromberg kill his secretary when he discovers she has betrayed him?",
+"answ":"HE FEEDS HER TO SHARKS",
+"answ3":"FEEDS HER TO SHARKS",
+"answ2":"He feeds her to sharks.",
+},
 ];
 var r2Q58 = [
 {
@@ -122,6 +190,13 @@ var r2Q58 = [
 "answ":"NEVER SAY NEVER AGAIN",
 "answ2":"Never Say Never Again.",
 "option":["Never Say Never Again", "Moonraker", "For Your Eyes Only", "A View to Kill"],
+},
+{
+"cat":"James Bond",
+"ques":"Which actress played M in Skyfall?",
+"answ2":"Judi Dench.",
+"answ":"JUDI DENCH",
+"option":["Judi Dench","Emma Thompson","Helen Mirren","Meryl Streep"],
 },
 {
 "cat":"James Bond",
@@ -674,6 +749,55 @@ var r2Q58 = [
 "answ":"ASTON MARTIN",
 "answ2":"Aston Martin.",
 "option":["Aston Martin", "Ferrari", "Porsche", "Audi"],
+},
+{
+"cat":"James Bond",
+"ques":"Which 60s and 70s Bond film features scenes set in the following locations: Florida, Kentucky, and Switzerland?",
+"answ":"GOLDFINGER",
+"answ2":"Goldfinger.",
+"option":["Goldfinger", "From Russia With Love", "Dr. No", "Thunderball"],
+},
+{
+"cat":"James Bond",
+"ques":"In Skyfall, while being evaluated by MI6, Bond is given a word association test. When 'Agent' is said, what word does Bond say in response?",
+"answ":"PROVOCATEUR",
+"answ2":"Provocateur.",
+"option":["Provocateur", "Chivalry", "Author", "Martini"],
+},
+{
+"cat":"James Bond",
+"ques":"How many actors portrayed James Bond in official Eon Productions films through the 60s and 70s?",
+"answ":"3",
+"answ2":"3 (Sean Connery, George Lazenby, Roger Moore).",
+"option":["3", "4", "2", "1"],
+},
+{
+"cat":"James Bond",
+"ques":"Which actor has portrayed Bond in the most official Eon Productions Bond films?",
+"answ":"ROGER MOORE",
+"answ2":"Roger Moore.",
+"option":["Roger Moore", "Daniel Craig", "Pierce Brosnan", "Sean Connery"],
+},
+{
+"cat":"James Bond",
+"ques":"In Casino Royale, Le Chiffre organizes a tournament where gamblers play what variant of poker?",
+"answ":"TEXAS HOLD EM",
+"answ2":"Texas hold 'em.",
+"option":["Texas hold 'em", "Omaha hold 'em", "Greek hold 'em", "Six-plus hold 'em"],
+},
+{
+"cat":"James Bond",
+"ques":"In the film Skyfall, Silva was given up by M to which country in exchange for six previously captured agents?",
+"answ":"CHINA",
+"answ2":"China.",
+"option":["China", "Israel", "Russia", "North Korea"],
+},
+{
+"cat":"James Bond",
+"ques":"The opening scene of GoldenEye takes place how many years before the main events of the film?",
+"answ":"9",
+"answ2":"9.",
+"option":["9", "5", "2", "7"],
 },
 ];
 jamesbond = shuffle(jamesbond);

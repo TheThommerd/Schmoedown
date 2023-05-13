@@ -8,6 +8,13 @@ var r2Q24 = [
 },
 {
 "cat":"Movie Taglines",
+"ques":"Which 1998 romantic comedy has the tagline: 'In the history of partying, Huntington Hills High School is about to become legendary'?",
+"answ":"CAN'T HARDLY WAIT",
+"answ2":"Can't Hardly Wait.",
+"option":["Can't Hardly Wait", "10 Things I Hate About You", "American Pie", "Clueless"],
+},
+{
+"cat":"Movie Taglines",
 "ques":"What cult classic had the tagline: 'Does for rock and roll what The Sound of Music did for hills'?",
 "answ":"THIS IS SPINAL TAP",
 "answ2":"This is Spinal Tap.",
@@ -598,6 +605,21 @@ var r2Q24 = [
 "answ":"ZODIAC",
 "answ2":"Zodiac.",
 "option":["Zodiac", "Gone Baby Gone", "American Gangster", "Fracture"],
+},
+{
+"cat":"Movie Taglines",
+"ques":"For which 1990 movie is this tagline: 'A Family Comedy Without The Family.'?",
+"answ2":"Home Alone.",
+"answ":"HOME ALONE",
+"option":["Home Alone","Grandma's Boy","The Holiday","Meet the Robinsons"],
+},
+{
+"cat":"Movie Taglines",
+"ques":"For which 2004 comedy movie is this tagline: 'His news is bigger than your news.'?",
+"answ2":"Anchorman: The Legend of Ron Burgundy.",
+"answ":"ANCHORMAN THE LEGEND OF RON BURGUNDY",
+"answ3":"ANCHORMAN",
+"option":["Anchorman: The Legend of Ron Burgundy","Fantastic Mr. Fox","Post Grad","The Ugly Truth"],
 },
 {
 "cat":"Movie Taglines",

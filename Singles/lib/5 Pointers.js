@@ -832,6 +832,12 @@ var fivepointer001 = [
 "answ2":"Meet Joe Black.",
 },
 {
+"cat":"Brad Pitt",
+"ques":"In what movie does Brad Pitt's character love peanut butter?",
+"answ2":"Meet Joe Black.",
+"answ":"MEET JOE BLACK",
+},
+{
 "cat":"Cameron Diaz",
 "ques":"What is the name of the night club that Cameron Diaz performs at in 1994's The Mask?",
 "answ":"COCO BONGO",
@@ -2692,6 +2698,18 @@ var fivepointer001 = [
 "answ2":"1935.",
 },
 {
+"cat":"Morgan Freeman",
+"ques":"Which tool does Andy ask Red to get for him in The Shawshank Redemption?",
+"answ":"ROCK HAMMER",
+"answ2":"Rock hammer.",
+},
+{
+"cat":"Morgan Freeman",
+"ques":"In The Shawshank Redemption, which classic film was being shown to the prisoners?",
+"answ":"GILDA",
+"answ2":"Gilda.",
+},
+{
 "cat":"Movie Characters",
 "ques":"Name the film in which you'll find suburbian characters with names like Lester Burnham and Frank Fitts.",
 "answ":"AMERICAN BEAUTY",
@@ -2875,6 +2893,12 @@ var fivepointer001 = [
 "answ2":"Harry Potter.",
 },
 {
+"cat":"Jim Carrey",
+"ques":"When Truman Burbank attempted to escape the imprisoning island of Seahaven in The Truman Show, what was the name of his sailboat?",
+"answ":"SANTA MARIA",
+"answ2":"Santa Maria.",
+},
+{
 "cat":"Rom-coms",
 "ques":"Who directed 2004's The Girl Next Door?",
 "answ":"LUKE GREENFIELD",
@@ -3012,6 +3036,78 @@ var fivepointer001 = [
 "ques":"Who played Ralph, the kidnapper in Robert Zemeckis' Romancing The Stone?",
 "answ":"DANNY DEVITO",
 "answ2":"Danny DeVito.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1987 Joseph Ruben movie was remade in 2009?",
+"answ":"THE STEPFATHER",
+"answ2":"The Stepfather.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1986 Robert Harmon movie was remade in 2007?",
+"answ":"THE HITCHER",
+"answ2":"The Hitcher.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1979 Fred Walton movie was remade in 2006?",
+"answ":"WHEN A STRANGER CALLS",
+"answ2":"When a Stranger Calls.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1997 Michael Haneke movie was remade in 2007?",
+"answ":"FUNNY GAMES",
+"answ2":"Funny Games.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1974 Larry Cohen movie was remade in 2008?",
+"answ":"IT'S ALIVE",
+"answ2":"It's Alive.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1973 Phil Karlson's movie was remade in 2004?",
+"answ":"WALKING TALL",
+"answ2":"Walking Tall.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1988 Kevin S. Tenney supernatural horror movie was remade in 2009?",
+"answ":"NIGHT OF THE DEMONS",
+"answ2":"Night of the Demons.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1971 Daniel Mann movie was remade in 2003?",
+"answ":"WILLARD",
+"answ2":"Willard.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1970 Herschell Gordon Lewis horror movie was remade in 2007?",
+"answ":"THE WIZARD OF GORE",
+"answ2":"The Wizard of Gore.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1953 Andre de Toth horror movie was remade in 2005?",
+"answ":"HOUSE OF WAX",
+"answ2":"House of Wax.",
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 1975 Norman Jewison's movie was remade in 2002?",
+"answ":"ROLLERBALL",
+"answ2":"Rollerball.",
+},
+{
+"cat":"Robert De Niro",
+"ques":"Who plays the legendary comedian kidnapped by De Niro in The King of Comedy?",
+"answ":"JERRY LEWIS",
+"answ2":"Jerry Lewis.",
 },
 {
 "cat":"Matthew McConaughey",

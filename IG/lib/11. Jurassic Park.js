@@ -752,6 +752,13 @@ var r2Q11 = [
 },
 {
 "cat":"Jurassic Park",
+"ques":"Jurassic Park is based on a novel by which author?",
+"answ2":"Michael Crichton.",
+"answ":"MICHAEL CRICHTON",
+"option":["Michael Crichton","Richard Preston","Stephen King","James Rollins"],
+},
+{
+"cat":"Jurassic Park",
 "ques":"Who scored Jurassic World?",
 "answ":"MICHAEL GIACCHINO",
 "answ3":"MICHAEL GIACHINO",

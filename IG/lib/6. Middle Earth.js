@@ -1742,6 +1742,13 @@ var r2Q6 = [
 },
 {
 "cat":"Middle Earth",
+"ques":"What stone do the dwarves seek in The Hobbit The Desolation of Smaug?",
+"answ2":"Arkenstone.",
+"answ":"ARKENSTONE",
+"option":["Arkenstone","Dragonstone","Kryptonite","The Silmarils"],
+},
+{
+"cat":"Middle Earth",
 "ques":"Name the Gondorian city that Denethor sends Faramir to re-take from orcs.",
 "answ":"OSGILIAT",
 "answ3":"OSGILIATH",

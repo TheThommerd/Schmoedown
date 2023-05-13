@@ -384,6 +384,13 @@ var r2Q20 = [
 },
 {
 "cat":"Superman",
+"ques":"In Superman Returns, Lex Luthor quoted which writer?",
+"answ":"ARTHUR C CLARKE",
+"answ2":"Arthur C. Clarke.",
+"option":["Arthur C. Clarke","Jules Verne","Karl Marx","Friedrich Nietzche"],
+},
+{
+"cat":"Superman",
 "ques":"Who played Lois Lane in Superman Returns?",
 "answ":"KATE BOSWORTH",
 "answ3":"CATE BOSWORTH",

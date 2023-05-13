@@ -1120,6 +1120,21 @@ var r2Q21 = [
 },
 {
 "cat":"Batman",
+"ques":"Which Batman villain said 'Sometimes I just kill myself'?",
+"answ2":"The Joker.",
+"answ":"THE JOKER",
+"answ3":"JOKER",
+"option":["The Joker","Two-Face","Bane","The Riddler"],
+},
+{
+"cat":"Batman",
+"ques":"In The Dark Knight, what was the name on the Joker's nametag when he impersonated a nurse in Gotham General Hospital?",
+"answ":"MATILDA",
+"answ2":"Matilda.",
+"option":["Matilda","Madison","Michelle","Melissa"],
+},
+{
+"cat":"Batman",
 "ques":"In Batman Begins, Ra's al Ghul says: 'Gentlemen, time to spread the word. And the word is ____'?",
 "answ":"PANIC",
 "answ2":"Panic.",

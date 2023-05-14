@@ -1100,79 +1100,22 @@ var r2Questions = [r2Q1, r2Q2, r2Q3, r2Q4, r2Q5, r2Q6, r2Q7, r2Q8, r2Q9, r2Q10, 
   }
 }
 function mystery() {
-var rand2 = Math.random() * 100;
-if (rand2 < 5){r2question001 = r2Q71;}		
-else if (rand2 < 10){r2question001 = r2Q72;}
-else if (rand2 < 15){r2question001 = r2Q73;}
-else if (rand2 < 20){r2question001 = r2Q74;}
-else if (rand2 < 25){r2question001 = r2Q76;}		
-else if (rand2 < 30){r2question001 = r2Q78;}
-else if (rand2 < 35){r2question001 = r2Q79;}
-else if (rand2 < 40){r2question001 = r2Q80;}
-else if (rand2 < 45){r2question001 = r2Q81;}
-else if (rand2 < 50){r2question001 = r2Q82;}
-else if (rand2 < 55){r2question001 = r2Q83;}
-else if (rand2 < 60){r2question001 = r2Q84;}
-else if (rand2 < 65){r2question001 = r2Q85;}
-else if (rand2 < 70){r2question001 = r2Q86;}
-else if (rand2 < 75){r2question001 = r2Q87;}
-else if (rand2 < 80){r2question001 = r2Q88;}
-else if (rand2 < 85){r2question001 = r2Q89;}
-else if (rand2 < 90){r2question001 = r2Q90;}
-else if (rand2 < 95){r2question001 = r2Q91;}
-else if (rand2 < 100){r2question001 = r2Q92;}
-else if (rand2 < 100){r2question001 = r2Q93;}	
-r2question001 = shuffle(r2question001); 
+  var questionsmys = [r2Q71, r2Q72, r2Q73, r2Q74, r2Q76, r2Q78, r2Q79, r2Q80, r2Q81, r2Q82, r2Q83, r2Q84, r2Q85, r2Q86, r2Q87, r2Q88, r2Q89, r2Q90, r2Q91, r2Q92, r2Q93];
+  var rand2 = Math.floor(Math.random() * questionsmys.length);
+  r2question001 = questionsmys[rand2];
+  r2question001 = shuffle(r2question001);
 }
 function mysterycompcat() {
-var rand2 = Math.random() * 100;
-if (rand2 < 5){compcat = r2Q71;}		
-else if (rand2 < 10){compcat = r2Q72;}
-else if (rand2 < 15){compcat = r2Q73;}
-else if (rand2 < 20){compcat = r2Q74;}
-else if (rand2 < 25){compcat = r2Q76;}		
-else if (rand2 < 30){compcat = r2Q78;}
-else if (rand2 < 35){compcat = r2Q79;}
-else if (rand2 < 40){compcat = r2Q80;}
-else if (rand2 < 45){compcat = r2Q81;}
-else if (rand2 < 50){compcat = r2Q82;}
-else if (rand2 < 55){compcat = r2Q83;}
-else if (rand2 < 60){compcat = r2Q84;}
-else if (rand2 < 65){compcat = r2Q85;}
-else if (rand2 < 70){compcat = r2Q86;}
-else if (rand2 < 75){compcat = r2Q87;}
-else if (rand2 < 80){compcat = r2Q88;}
-else if (rand2 < 85){compcat = r2Q89;}
-else if (rand2 < 90){compcat = r2Q90;}
-else if (rand2 < 95){compcat = r2Q91;}
-else if (rand2 < 100){compcat = r2Q92;}
-else if (rand2 < 100){compcat = r2Q93;}	
-compcat = shuffle(compcat); 
+  var questionsmyscomp = [r2Q71, r2Q72, r2Q73, r2Q74, r2Q76, r2Q78, r2Q79, r2Q80, r2Q81, r2Q82, r2Q83, r2Q84, r2Q85, r2Q86, r2Q87, r2Q88, r2Q89, r2Q90, r2Q91, r2Q92, r2Q93];
+  var rand3 = Math.floor(Math.random() * questionsmyscomp.length);
+  compcat = questionsmyscomp[rand3];
+  compcat = shuffle(compcat);
 }
 function mysterybetting() {
-var rand2 = Math.random() * 100;
-if (rand2 < 5){bettingquestion001 = r2Q71;}		
-else if (rand2 < 10){bettingquestion001 = r2Q72;}
-else if (rand2 < 15){bettingquestion001 = r2Q73;}
-else if (rand2 < 20){bettingquestion001 = r2Q74;}
-else if (rand2 < 25){bettingquestion001 = r2Q76;}		
-else if (rand2 < 30){bettingquestion001 = r2Q78;}
-else if (rand2 < 35){bettingquestion001 = r2Q79;}
-else if (rand2 < 40){bettingquestion001 = r2Q80;}
-else if (rand2 < 45){bettingquestion001 = r2Q81;}
-else if (rand2 < 50){bettingquestion001 = r2Q82;}
-else if (rand2 < 55){bettingquestion001 = r2Q83;}
-else if (rand2 < 60){bettingquestion001 = r2Q84;}
-else if (rand2 < 65){bettingquestion001 = r2Q85;}
-else if (rand2 < 70){bettingquestion001 = r2Q86;}
-else if (rand2 < 75){bettingquestion001 = r2Q87;}
-else if (rand2 < 80){bettingquestion001 = r2Q88;}
-else if (rand2 < 85){bettingquestion001 = r2Q89;}
-else if (rand2 < 90){bettingquestion001 = r2Q90;}
-else if (rand2 < 95){bettingquestion001 = r2Q91;}
-else if (rand2 < 100){bettingquestion001 = r2Q92;}
-else if (rand2 < 100){bettingquestion001 = r2Q93;}	
-bettingquestion001 = shuffle(bettingquestion001); 
+  var questionsmysbet = [r2Q71, r2Q72, r2Q73, r2Q74, r2Q76, r2Q78, r2Q79, r2Q80, r2Q81, r2Q82, r2Q83, r2Q84, r2Q85, r2Q86, r2Q87, r2Q88, r2Q89, r2Q90, r2Q91, r2Q92, r2Q93];
+  var rand4 = Math.floor(Math.random() * questionsmysbet.length);
+  bettingquestion001 = questionsmysbet[rand4];
+  bettingquestion001 = shuffle(bettingquestion001);
 }
 function takebetting(){
 message003.innerHTML = "You selected " +data[picked] + "<br/><br/>" + "Select how many points you want to bet";
@@ -1370,7 +1313,7 @@ else if (b >= 1){message006.innerHTML = "<button id=bet0 class=buttons002 onclic
 else if (b >= 0){message006.innerHTML = "<button id=bet0 class=buttons002 onclick=bet0()>0</button>"; }
 }
 else if (data[picked] == "Wildcard"){
-if ((compwildspinners != 0) || (oppwildspinners != 0)){message003.innerHTML = competitorlist[0].id + " spun a Wildcard and chose to re-spin." + "<br/><br/>"; setTimeout(function(){ oppbettingspin2(); }, 3000);}
+if (compwildspinners != 0){message003.innerHTML = competitorlist[0].id + " spun a Wildcard and chose to re-spin." + "<br/><br/>"; setTimeout(function(){ oppbettingspin2(); }, 3000);}
 else{message003.innerHTML = competitorlist[0].id + " spun a Wildcard" + "<br/></br>" + "<button class=buttons007 id=opptakebettingwildcard onclick=opptakebettingwildcard()>Reveal Wildcard</button>";}
 }
 else if ((data[picked] != wheelie[0])  && (data[picked] != wheelie[1]) && (data[picked] != wheelie[2]) && (data[picked] != wheelie[3]) && (data[picked] != wheelie[4]) && (data[picked] != wheelie[5])){message003.innerHTML = competitorlist[0].id + " spun " +data[picked] + " and chose to re-spin the wheel." + "<br/><br/>";setTimeout(function(){ oppbettingspin2(); }, 3000);}

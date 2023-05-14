@@ -2078,18 +2078,10 @@ if (steal == 1){
 		}
 }
 else if (r == 5) {
-if (a == 18){
-            	score001.innerHTML = b+=2;
+if (a == 18){score001.innerHTML = b+=2;}
+else if (a == 19){score001.innerHTML = b+=3;}
+else if (a == 20){score001.innerHTML = b+=5;}
 		quescor++;
-}
-else if (a == 19){
-            	score001.innerHTML = b+=3;
-		quescor++;
-}
-else if (a == 20){
-            	score001.innerHTML = b+=5;
-		quescor++;
-}
 	    	document.getElementById("chalacc").style.visibility = "hidden";
 	    	document.getElementById("chalden").style.visibility = "hidden";
 	    	document.getElementById("chal").style.visibility = "hidden";
@@ -2106,42 +2098,16 @@ else if (r == 6) {
 }
 function ChallengeDenied(){
 	    document.getElementById("message004").style.top = "-40px";
-if (j == 2) {
-	    document.getElementById("background").src = "Singles - NoChal.png";
-	    h--;
-	     h--;
 	    document.getElementById("chalacc").style.visibility = "hidden";
 	    document.getElementById("chalden").style.visibility = "hidden";
 	    document.getElementById("chal").style.visibility = "hidden";
             message003.innerHTML = "Challenge lost!";
-}
-else if (j == 1) {
-	    document.getElementById("background").src = "Singles - 2JTE.png";
-	     h--;
-	    h--;
-	    document.getElementById("chalacc").style.visibility = "hidden";
-	    document.getElementById("chalden").style.visibility = "hidden";
-	    document.getElementById("chal").style.visibility = "hidden";
-            message003.innerHTML = "Challenge lost!";
-	          }
-else if (j == 0) {
-	    document.getElementById("background").src = "Singles - 1JTE.png";
-	    h--;
-	     h--;
-	    document.getElementById("chalacc").style.visibility = "hidden";
-	    document.getElementById("chalden").style.visibility = "hidden";
-	    document.getElementById("chal").style.visibility = "hidden";
-            message003.innerHTML = "Challenge lost!";
-	          }
- else if (j < 0) {
-	    document.getElementById("background").src = "Singles - NoJTE.png";
 	    h--;
 	    h--;
-	    document.getElementById("chalacc").style.visibility = "hidden";
-	    document.getElementById("chalden").style.visibility = "hidden";
-	    document.getElementById("chal").style.visibility = "hidden";
-            message003.innerHTML = "Challenge lost!";
-	      }
+if (j == 2) {document.getElementById("background").src = "Singles - NoChal.png";}
+else if (j == 1) {document.getElementById("background").src = "Singles - 2JTE.png"; }
+else if (j == 0) {document.getElementById("background").src = "Singles - 1JTE.png";}
+ else if (j < 0) {document.getElementById("background").src = "Singles - NoJTE.png";}
 }
         function qcor() {
 if (difficult == 1){

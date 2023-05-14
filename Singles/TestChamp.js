@@ -1106,54 +1106,16 @@ function mystery() {
   r2question001 = shuffle(r2question001);
 }
 function mysterycompcat() {
-var rand2 = Math.random() * 100;
-if (rand2 < 5){compcat = r2Q71;}		
-else if (rand2 < 10){compcat = r2Q72;}
-else if (rand2 < 15){compcat = r2Q73;}
-else if (rand2 < 20){compcat = r2Q74;}
-else if (rand2 < 25){compcat = r2Q76;}		
-else if (rand2 < 30){compcat = r2Q78;}
-else if (rand2 < 35){compcat = r2Q79;}
-else if (rand2 < 40){compcat = r2Q80;}
-else if (rand2 < 45){compcat = r2Q81;}
-else if (rand2 < 50){compcat = r2Q82;}
-else if (rand2 < 55){compcat = r2Q83;}
-else if (rand2 < 60){compcat = r2Q84;}
-else if (rand2 < 65){compcat = r2Q85;}
-else if (rand2 < 70){compcat = r2Q86;}
-else if (rand2 < 75){compcat = r2Q87;}
-else if (rand2 < 80){compcat = r2Q88;}
-else if (rand2 < 85){compcat = r2Q89;}
-else if (rand2 < 90){compcat = r2Q90;}
-else if (rand2 < 95){compcat = r2Q91;}
-else if (rand2 < 100){compcat = r2Q92;}
-else if (rand2 < 100){compcat = r2Q93;}	
-compcat = shuffle(compcat); 
+  var questionsmyscomp = [r2Q71, r2Q72, r2Q73, r2Q74, r2Q76, r2Q78, r2Q79, r2Q80, r2Q81, r2Q82, r2Q83, r2Q84, r2Q85, r2Q86, r2Q87, r2Q88, r2Q89, r2Q90, r2Q91, r2Q92, r2Q93];
+  var rand3 = Math.floor(Math.random() * questionsmyscomp.length);
+  compcat = questionsmyscomp[rand3];
+  compcat = shuffle(compcat);
 }
 function mysterybetting() {
-var rand2 = Math.random() * 100;
-if (rand2 < 5){bettingquestion001 = r2Q71;}		
-else if (rand2 < 10){bettingquestion001 = r2Q72;}
-else if (rand2 < 15){bettingquestion001 = r2Q73;}
-else if (rand2 < 20){bettingquestion001 = r2Q74;}
-else if (rand2 < 25){bettingquestion001 = r2Q76;}		
-else if (rand2 < 30){bettingquestion001 = r2Q78;}
-else if (rand2 < 35){bettingquestion001 = r2Q79;}
-else if (rand2 < 40){bettingquestion001 = r2Q80;}
-else if (rand2 < 45){bettingquestion001 = r2Q81;}
-else if (rand2 < 50){bettingquestion001 = r2Q82;}
-else if (rand2 < 55){bettingquestion001 = r2Q83;}
-else if (rand2 < 60){bettingquestion001 = r2Q84;}
-else if (rand2 < 65){bettingquestion001 = r2Q85;}
-else if (rand2 < 70){bettingquestion001 = r2Q86;}
-else if (rand2 < 75){bettingquestion001 = r2Q87;}
-else if (rand2 < 80){bettingquestion001 = r2Q88;}
-else if (rand2 < 85){bettingquestion001 = r2Q89;}
-else if (rand2 < 90){bettingquestion001 = r2Q90;}
-else if (rand2 < 95){bettingquestion001 = r2Q91;}
-else if (rand2 < 100){bettingquestion001 = r2Q92;}
-else if (rand2 < 100){bettingquestion001 = r2Q93;}	
-bettingquestion001 = shuffle(bettingquestion001); 
+  var questionsmysbet = [r2Q71, r2Q72, r2Q73, r2Q74, r2Q76, r2Q78, r2Q79, r2Q80, r2Q81, r2Q82, r2Q83, r2Q84, r2Q85, r2Q86, r2Q87, r2Q88, r2Q89, r2Q90, r2Q91, r2Q92, r2Q93];
+  var rand4 = Math.floor(Math.random() * questionsmysbet.length);
+  bettingquestion001 = questionsmysbet[rand4];
+  bettingquestion001 = shuffle(bettingquestion001);
 }
 function takebetting(){
 message003.innerHTML = "You selected " +data[picked] + "<br/><br/>" + "Select how many points you want to bet";

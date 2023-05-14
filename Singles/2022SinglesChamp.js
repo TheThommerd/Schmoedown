@@ -811,7 +811,7 @@ if (compwildspinners == "1"){
 if (rand < 50){
 d3.select(".slice:nth-child(" + (random + 1) + ") text")
 .text("Opponent's Choice")
-data[random] = "Spinner's Choice";
+data[random] = "Opponent's Choice";
 opponentspun = "1";
 oppwildopponent++;
 }

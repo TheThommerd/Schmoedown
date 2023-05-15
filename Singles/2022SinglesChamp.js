@@ -611,13 +611,13 @@ document.getElementById("nextbutton").style.visibility= "visible";
 round2();
 }
 if (compcat[0].cat != wheelie[1]) {
-if (wheelie[0] == storage[0]) {picked = "1";
+if (wheelie[1] == storage[0]) {picked = "1";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[1]) {picked = "2";
+else if (wheelie[1] == storage[1]) {picked = "2";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[2]) {picked = "3";
+else if (wheelie[1] == storage[2]) {picked = "3";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
-else if (wheelie[0] == storage[3]) {picked = "5";
+else if (wheelie[1] == storage[3]) {picked = "5";
 message002.innerHTML = "You got Opponent's Choice" + "<br/></br>" + competitorlist[0].id + " gave you " + data[picked]; }
 document.getElementById("nextbutton").style.visibility= "visible"; 
 round2();

@@ -8,6 +8,13 @@ var r2Q69 = [
 },
 {
 "cat":"YA Adaptations",
+"ques":"In how many installments of the Hunger Games franchise does Lenny Kravitz feature as Cinna?",
+"answ":"2",
+"answ2":"2 (The Hunger Games, Catching Fire).",
+"option":["2", "3", "1", "4"],
+},
+{
+"cat":"YA Adaptations",
 "ques":"In The Maze Runner, which of the boys attacked Thomas, and appears to remember things about Thomas?",
 "answ2":"Ben.",
 "answ":"BEN",

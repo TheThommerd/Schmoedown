@@ -164,6 +164,863 @@ var twopointer = [
 "answ2":"Talladega Nights: The Ballad of Ricky Bobby.",
 },
 {
+"cat":"Gene Hackman",
+"ques":"Gene Hackman featured alongside Harrison Ford, Cindy Williams, and Robert Duvall in this 1974 Best Picture nominee.",
+"answ":"THE CONVERSATION",
+"answ2":"The Conversation."
+},
+{
+"cat":"Gene Hackman",
+"ques":"What year saw Gene Hackman return to the role of NYPD detective Jimmy 'Popeye' Dolan in French Connection II?",
+"answ":"1975",
+"answ2":"1975."
+},
+{
+"cat":"Gene Hackman",
+"ques":"Gene Hackman featured alongside Luke Wilson, Bill Murray, Anjelica Huston, and Danny Glover in this 2001 dramedy directed by Wes Anderson.",
+"answ":"THE ROYAL TENENBAUMS",
+"answ2":"The Royal Tenenbaums."
+},
+{
+"cat":"Gene Hackman",
+"ques":"Who stars opposite Gene Hackman as his daughter and opposing legal counsel in the 1991 legal drama Class Action directed by Michael Apted?",
+"answ":"MARY ELIZABETH MASTRANTONIO",
+"answ2":"Mary Elizabeth Mastrantonio."
+},
+{
+"cat":"Gene Hackman",
+"ques":"Who features as Doc Holliday alongside Kevin Costner in the titular role of the 1994 biographical western Wyatt Earp and Gene Hackman, who portrayed Earp's father?",
+"answ":"DENNIS QUAID",
+"answ2":"Dennis Quaid."
+},
+{
+"cat":"Kevin Hart",
+"ques":"Who plays the character of Doug Harris, a successful tax attorney, alongside Kevin Hart in The Wedding Ringer?",
+"answ":"JOSH GAD",
+"answ2":"Josh Gad."
+},
+{
+"cat":"Kevin Hart",
+"ques":"Kevin Hart voices Snowball in The Secret Life of Pets. What type of animal is Snowball?",
+"answ":"RABBIT",
+"answ3":"BUNNY",
+"answ2":"Rabbit."
+},
+{
+"cat":"Kevin Hart",
+"ques":"Kevin Hart appears as the character CJ in how many films in the Scary Movie franchise?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2."
+},
+{
+"cat":"Kevin Hart",
+"ques":"Kevin Hart has a supporting role as Number 17 in which 2000s sci-fi comedy starring Eddie Murphy?",
+"answ":"MEET DAVE",
+"answ2":"Meet Dave."
+},
+{
+"cat":"Kevin Hart",
+"ques":"Which comedic actor plays A.J., a hacker who aids the heroes in an investigation in Ride Along 2?",
+"answ":"KEN JEONG",
+"answ2":"Ken Jeong."
+},
+{
+"cat":"Gene Hackman",
+"ques":"In which Will Smith action thriller, from director Tony Scott, does Hackman appear as Edward 'Brill' Lyle, a former NSA communications expert?",
+"answ":"ENEMY OF THE STATE",
+"answ2":"Enemy of the State."
+},
+{
+"cat":"Samuel L. Jackson",
+"ques":"Samuel L. Jackson voiced the character of Whiplash opposite Ryan Reynolds and Maya Rudolph in what 2013 animated film?",
+"answ":"TURBO",
+"answ2":"Turbo."
+},
+{
+"cat":"Samuel L. Jackson",
+"ques":"Samuel L. Jackson played the character of Lt. Cmdr. Robby Jackson in which 1992 spy thriller?",
+"answ":"PATRIOT GAMES",
+"answ2":"Patriot Games."
+},
+{
+"cat":"Samuel L. Jackson",
+"ques":"In Unbreakable, Sam Jackson's Elijah Price is often found wearing clothes of various shades of what color?",
+"answ":"PURPLE",
+"answ2":"Purple."
+},
+{
+"cat":"John Hughes",
+"ques":"Who plays the socially awkward Allison in The Breakfast Club?",
+"answ":"ALLY SHEEDY",
+"answ2":"Ally Sheedy."
+},
+{
+"cat":"John Hughes",
+"ques":"John Hughes wrote the screenplay for what 1996 live-action Disney film that starred Glenn Close?",
+"answ":"101 DALMATIANS",
+"answ2":"101 Dalmatians."
+},
+{
+"cat":"John Hughes",
+"ques":"In the John Hughes penned The Great Outdoors, John Candy and his family leave Chicago for a rustic vacation in what Midwestern state?",
+"answ":"WISCONSIN",
+"answ2":"Wisconsin."
+},
+{
+"cat":"John Hughes",
+"ques":"What is the name of the 2008 Owen Wilson comedy that was the last film John Hughes worked on as a writer?",
+"answ":"DRILLBIT TAYLOR",
+"answ2":"Drillbit Taylor."
+},
+{
+"cat":"Historical Epics & Dramas",
+"ques":"Which actress played England's Queen Victoria in two films: Mrs Brown and Victoria & Abdul?",
+"answ":"JUDI DENCH",
+"answ2":"Judi Dench."
+},
+{
+"cat":"Historical Epics & Dramas",
+"ques":"What 1962 epic starred Peter O'Toole and won the Best Picture Oscar?",
+"answ":"LAWRENCE OF ARABIA",
+"answ2":"Lawrence of Arabia."
+},
+{
+"cat":"Historical Epics & Dramas",
+"ques":"In what film does Benedict Cumberbatch portray the real-life person Alan Turing?",
+"answ":"THE IMITATION GAME",
+"answ2":"The Imitation Game."
+},
+{
+"cat":"Samuel L. Jackson",
+"ques":"In 2000, Samuel L. Jackson starred in the fourth film of what crime action franchise, alongside Richard Roundtree, Christian Bale, and Jeffrey Wright?",
+"answ":"SHAFT",
+"answ2":"Shaft."
+},
+{
+"cat":"Jodie Foster",
+"ques":"Jodie Foster plays a teen who swaps bodies with her mother in what 1976 Disney film?",
+"answ":"FREAKY FRIDAY",
+"answ2":"Freaky Friday."
+},
+{
+"cat":"Jodie Foster",
+"ques":"Jodie Foster co-stars in what 2006 crime film that co-stars Denzel Washington and Clive Owen?",
+"answ":"INSIDE MAN",
+"answ2":"Inside Man."
+},
+{
+"cat":"Jodie Foster",
+"ques":"What 1976 drama has the tagline 'On every street in every city, there's a nobody who dreams of being a somebody.'?",
+"answ":"TAXI DRIVER",
+"answ2":"Taxi Driver."
+},
+{
+"cat":"Jodie Foster",
+"ques":"Jodie Foster directed Mel Gibson in what 2011 box office flop alongside Anton Yelchin?",
+"answ":"THE BEAVER",
+"answ2":"The Beaver."
+},
+{
+"cat":"Harrison Ford",
+"ques":"Harrison Ford becomes the co-host of a morning show called DayBreak in what film featuring Rachel McAdams and Diane Keaton?",
+"answ":"MORNING GLORY",
+"answ2":"Morning Glory."
+},
+{
+"cat":"Rocky",
+"ques":"How many films in the Rocky franchise did Sylvester Stallone receive a writing credit on?",
+"answ":"7",
+"answ3":"SEVEN",
+"answ2":"7 (Rocky, II, III, IV, V, Rocky Balboa, Creed II)."
+},
+{
+"cat":"Rocky",
+"ques":"Who replaced Lavelle Roby and Sylvia Meals as Mary Anne Creed, the wife and widow of Apollo Creed in the Creed films?",
+"answ":"PHYLICIA RASHAD",
+"answ2":"Phylicia Rashad."
+},
+{
+"cat":"Rocky",
+"ques":"What is the name of the restaurant Rocky has opened and is running in Rocky Balboa?",
+"answ":"ADRIAN'S RESTAURANT",
+"answ2":"Adrian's Restaurant."
+},
+{
+"cat":"Rocky",
+"ques":"Paul Micale's Father Carmine is first seen in Rocky II. In what film in the franchise does he next appear?",
+"answ":"ROCKY V",
+"answ2":"Rocky V."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"What 1993 horror comedy marks Jennifer Aniston's first official credited feature film debut?",
+"answ":"LEPRECHAUN",
+"answ2":"Leprechaun."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"Jennifer Aniston and Jason Bateman have appeared together in five films. What is the first film they appeared in together?",
+"answ":"THE BREAK UP",
+"answ2":"The Break-Up."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"Who directed 2005's Rumor Has It?",
+"answ":"ROB REINER",
+"answ2":"Rob Reiner."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"In what 2019 film do Jennifer Aniston and Adam Sandler star as a married couple who go on a European vacation to reinvigorate their marriage?",
+"answ":"MURDER MYSTERY",
+"answ2":"Murder Mystery."
+},
+{
+"cat":"Gene Hackman",
+"ques":"In what 1990s political action thriller does Hackman portray the President of the United States alongside Clint Eastwood and Ed Harris?",
+"answ":"ABSOLUTE POWER",
+"answ2":"Absolute Power."
+},
+{
+"cat":"Jennifer Connelly",
+"ques":"Connelly makes her theatrical debut as the young version of Elizabeth McGovern's Deborah in what epic crime film starring Robert De Niro and James Woods?",
+"answ":"ONCE UPON A TIME IN AMERICA",
+"answ2":"Once Upon a Time in America."
+},
+{
+"cat":"Jennifer Connelly",
+"ques":"In 1986's Labyrinth starring Jennifer Connelly, what is the name of the Goblin King, played by David Bowie?",
+"answ":"JARETH",
+"answ2":"Jareth."
+},
+{
+"cat":"Jennifer Connelly",
+"ques":"1996's Mulholland Falls, featuring Nick Nolte and Jennifer Connelly, follows a squad of LAPD detectives during what decade?",
+"answ":"1950S",
+"answ3":"50S",
+"answ2":"The 1950s."
+},
+{
+"cat":"Harrison Ford",
+"ques":"Sydney Pollack directed Harrison Ford and Julia Ormond in what 1990s romantic dramedy remake?",
+"answ":"SABRINA",
+"answ2":"Sabrina."
+},
+{
+"cat":"Samuel L. Jackson",
+"ques":"Which comedian played the lead role of Detective Zeke Banks opposite Samuel L. Jackson in 2021's Spiral: From the Book of Saw?",
+"answ":"CHRIS ROCK",
+"answ2":"Chris Rock."
+},
+{
+"cat":"Jack Nicholson",
+"ques":"In what film does Jack Nicholson play David Locke, a journalist who takes on the identity of a dead arms dealer who resembled him?",
+"answ":"THE PASSENGER",
+"answ2":"The Passenger."
+},
+{
+"cat":"Jack Nicholson",
+"ques":"Which actress plays Jack Nicholson's love interest Laura Alden in the 1994 horror film Wolf?",
+"answ":"MICHELLE PFEIFFER",
+"answ2":"Michelle Pfeiffer."
+},
+{
+"cat":"Jack Nicholson",
+"ques":"What was the former profession of Jack Nicholson's now retired character Garrett Breedlove in the film Terms of Endearment?",
+"answ":"ASTRONAUT",
+"answ2":"Astronaut."
+},
+{
+"cat":"Jack Nicholson",
+"ques":"Jack Nicholson co-starred with Adam Sandler in which 2003 comedy?",
+"answ":"ANGER MANAGEMENT",
+"answ2":"Anger Management."
+},
+{
+"cat":"Morgan Freeman",
+"ques":"Morgan Freeman plays God in what 2003 fantasy comedy that also featured Jim Carrey and Jennifer Aniston?",
+"answ":"BRUCE ALMIGHTY",
+"answ2":"Bruce Almighty."
+},
+{
+"cat":"Harrison Ford",
+"ques":"How many times did Harrison Ford play the role of Jack Ryan?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2."
+},
+{
+"cat":"Jack Nicholson",
+"ques":"What Oscar-winning film garnered Oscar wins for Shirley MacLaine and Jack Nicholson?",
+"answ":"TERMS OF ENDEARMENT",
+"answ2":"Terms of Endearment."
+},
+{
+"cat":"Margot Robbie",
+"ques":"For which film did Margot Robbie receive her only Oscar nomination for Best Actress?",
+"answ":"I TONYA",
+"answ2":"I, Tonya."
+},
+{
+"cat":"Margot Robbie",
+"ques":"What MCU actor plays George Washington Williams, an American entrepreneur who becomes Tarzan's ally in The Legend of Tarzan featuring Margot Robbie?",
+"answ":"SAMUEL L JACKSON",
+"answ2":"Samuel L. Jackson."
+},
+{
+"cat":"Margot Robbie",
+"ques":"Margot Robbie plays the character of Charlotte in this 2013 film about Tim Lake, who discovers at the age of 21 that the men in his family have a secret ability.",
+"answ":"ABOUT TIME",
+"answ2":"About Time."
+},
+{
+"cat":"Margot Robbie",
+"ques":"In what 2018 film does Margot Robbie play Queen Elizabeth I?",
+"answ":"MARY QUEEN OF SCOTS",
+"answ2":"Mary Queen of Scots."
+},
+{
+"cat":"Margot Robbie",
+"ques":"Margot Robbie narrates the 2018 film Peter Rabbit. Which rabbit does she also voice?",
+"answ":"FLOPSY RABBIT",
+"answ3":"FLOPSY",
+"answ2":"Flopsy Rabbit."
+},
+{
+"cat":"SCTV Alumni",
+"ques":"Rick Moranis made his big-screen debut as Bob McKenzie opposite Dave Thomas as Doug McKenzie in what 1980s comedy?",
+"answ":"STRANGE BREW",
+"answ2":"Strange Brew."
+},
+{
+"cat":"SCTV Alumni",
+"ques":"Catherine O'Hara plays Betty in what 1980s Mike Nichols film that stars Meryl Streep and Jack Nicholson?",
+"answ":"HEARTBURN",
+"answ2":"Heartburn."
+},
+{
+"cat":"SCTV Alumni",
+"ques":"Dave Thomas appears in what 1980s Ivan Reitman directed film, as M.C., that also featured Judge Reinhold, Bill Murray, and Harold Ramis?",
+"answ":"STRIPES",
+"answ2":"Stripes."
+},
+{
+"cat":"SCTV Alumni",
+"ques":"Eugene Levy has lent his voice to only one Pixar film, which is a sequel, as a character named Charlie. What is that film?",
+"answ":"FINDING DORY",
+"answ2":"Finding Dory."
+},
+{
+"cat":"SCTV Alumni",
+"ques":"What 1980s Martin Scorsese film features Catherine O'Hara as an ice cream truck driver named Gail?",
+"answ":"AFTER HOURS",
+"answ2":"After Hours."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"What Oscar-winning actress plays Rita Mosley, Jennifer Aniston's mother, in 1997's Picture Perfect?",
+"answ":"OLYMPIA DUKAKIS",
+"answ2":"Olympia Dukakis."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"In 2004's Along Came Polly, which kind of animal does Jennifer Aniston's Polly Prince keep as a pet?",
+"answ":"FERRET",
+"answ2":"Ferret."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"What 2011 rom-com featuring Keegan-Michael Key, Minka Kelly, and Kevin Nealon is a remake of the 1969 film Cactus Flower?",
+"answ":"JUST GO WITH IT",
+"answ2":"Just Go with It."
+},
+{
+"cat":"Jennifer Aniston",
+"ques":"In 2006's Friends with Money, what Oscar-winning actress plays fashion designer Jane, who is unhappy about growing old?",
+"answ":"FRANCES MCDORMAND",
+"answ2":"Frances McDormand."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Paul Newman appears as Dodge Blake in what 1990s romantic drama, alongside Robin Wright and Kevin Costner?",
+"answ":"MESSAGE IN A BOTTLE",
+"answ2":"Message in a Bottle."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"What famous comedian co-stars with Newman as Minnesota Fats in The Hustler?",
+"answ":"JACKIE GLEASON",
+"answ2":"Jackie Gleason."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Paul Newman played what famous real-life gunfighter in the 1958 western The Left Handed Gun?",
+"answ":"BILLY THE KID",
+"answ2":"Billy the Kid."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Who directed Paul Newman in the 1982 courtroom drama The Verdict?",
+"answ":"SIDNEY LUMET",
+"answ2":"Sidney Lumet."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Who plays Doyle Lonnegan, the target of an elaborate con put on by Paul Newman and Robert Redford's characters, in 1973's The Sting?",
+"answ":"ROBERT SHAW",
+"answ2":"Robert Shaw."
+},
+{
+"cat":"Harrison Ford",
+"ques":"You will find the characters of Hale Caesar, Lee Christmas, and Conrad Stonebanks in what 2010s action film featuring Harrison Ford and Antonio Banderas?",
+"answ":"THE EXPENDABLES 3",
+"answ2":"The Expendables 3."
+},
+{
+"cat":"Jackie Chan",
+"ques":"Jackie Chan provides the voice of a character called Monkey in what popular animated franchise?",
+"answ":"KUNG FU PANDA",
+"answ2":"Kung Fu Panda."
+},
+{
+"cat":"Jackie Chan",
+"ques":"Jackie Chan co-stars with which other martial arts legend in the 2008 film The Forbidden Kingdom?",
+"answ":"JET LI",
+"answ2":"Jet Li."
+},
+{
+"cat":"Jackie Chan",
+"ques":"Jackie Chan plays a man who searches the world for a set of 12 mystic bronze artifacts in what 2013 film?",
+"answ":"CHINESE ZODIAC",
+"answ2":"Chinese Zodiac."
+},
+{
+"cat":"Jackie Chan",
+"ques":"In which action comedy does Jackie Chan co-star with Owen Wilson and Lucy Liu?",
+"answ":"SHANGHAI NOON",
+"answ2":"Shanghai Noon."
+},
+{
+"cat":"Jackie Chan",
+"ques":"What is the name of Jackie Chan's character in the 2010 remake of The Karate Kid?",
+"answ":"MR HAN",
+"answ2":"Mr. Han."
+},
+{
+"cat":"Robert Zemeckis",
+"ques":"For which film did Robert Zemeckis win his only Best Director Oscar?",
+"answ":"FORREST GUMP",
+"answ2":"Forrest Gump."
+},
+{
+"cat":"Robert Zemeckis",
+"ques":"Robert Zemeckis co-wrote the screenplay for what 1979 war comedy featuring Christopher Lee, Robert Stack, and Toshiro Mifune?",
+"answ":"1941",
+"answ2":"1941."
+},
+{
+"cat":"Robert Zemeckis",
+"ques":"In how many films did Robert Zemeckis direct Tom Hanks to date?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4 (Forrest Gump, Cast Away, The Polar Express, Pinocchio)."
+},
+{
+"cat":"Morgan Freeman",
+"ques":"Morgan Freeman was in two films in 1995. One was Seven. What was the other?",
+"answ":"OUTBREAK",
+"answ2":"Outbreak."
+},
+{
+"cat":"Gene Hackman",
+"ques":"What 1990s western film from Sam Raimi features Hackman, Leonardo DiCaprio and Sharon Stone?",
+"answ":"THE QUICK AND THE DEAD",
+"answ2":"The Quick and the Dead."
+},
+{
+"cat":"Nicole Kidman",
+"ques":"Nicole Kidman and Tom Cruise co-star in what 1990 action drama directed by Tony Scott?",
+"answ":"DAYS OF THUNDER",
+"answ2":"Days of Thunder."
+},
+{
+"cat":"Nicole Kidman",
+"ques":"Nicole Kidman plays the role of Devlin Adams in which Adam Sandler film?",
+"answ":"JUST GO WITH IT",
+"answ2":"Just Go with It."
+},
+{
+"cat":"Nicole Kidman",
+"ques":"Who directed the 1995 crime drama To Die For, starring Kidman, Joaquin Phoenix, and Matt Dillon?",
+"answ":"GUS VAN SANT",
+"answ2":"Gus Van Sant."
+},
+{
+"cat":"Nicole Kidman",
+"ques":"Kidman received an Academy Award nomination for her role as a grieving mother in what film from director John Cameron Mitchell?",
+"answ":"RABBIT HOLE",
+"answ2":"Rabbit Hole."
+},
+{
+"cat":"Nicole Kidman",
+"ques":"What musical did Nicole Kidman receive her first Academy Award nomination for?",
+"answ":"MOULIN ROUGE",
+"answ2":"Moulin Rouge!."
+},
+{
+"cat":"Harrison Ford",
+"ques":"Ford was nominated for Best Actor for which 1985 crime drama about Detective John Book, who is protecting an Amish child?",
+"answ":"WITNESS",
+"answ2":"Witness."
+},
+{
+"cat":"Wayans Family",
+"ques":"Damon Wayans features alongside what comedic actor in the 1996 buddy cop action film Bulletproof?",
+"answ":"ADAM SANDLER",
+"answ2":"Adam Sandler."
+},
+{
+"cat":"Wayans Family",
+"ques":"Damon Wayans Jr. features in what 2010s buddy comedy with supporting performances from Rob Riggle, Andy García, and Keegan-Michael Key?",
+"answ":"LET'S BE COPS",
+"answ2":"Let's Be Cops."
+},
+{
+"cat":"Wayans Family",
+"ques":"Kim Wayans features in this 2000s comedy featuring supporting performances by Kevin Pollak, Tommy Davidson, Lil' Kim, and Ginuwine.",
+"answ":"JUWANNA MANN",
+"answ2":"Juwanna Mann."
+},
+{
+"cat":"Wayans Family",
+"ques":"Damon Wayans was credited as Banana Man in his feature film debut in what 1984 Eddie Murphy comedy?",
+"answ":"BEVERLY HILLS COP",
+"answ2":"Beverly Hills Cop."
+},
+{
+"cat":"Wayans Family",
+"ques":"What martial artist actor features as the titular character alongside Keenen Ivory Wayans in 1990s buddy cop action comedy The Glimmer Man?",
+"answ":"STEVEN SEAGAL",
+"answ2":"Steven Seagal."
+},
+{
+"cat":"David Fincher",
+"ques":"In Panic Room, which Oscar-winning actor plays Burnham, one of the robbers who is an employee of the home's security company?",
+"answ":"FOREST WHITAKER",
+"answ2":"Forest Whitaker."
+},
+{
+"cat":"David Fincher",
+"ques":"Who plays Eduardo Saverin in The Social Network?",
+"answ":"ANDREW GARFIELD",
+"answ2":"Andrew Garfield."
+},
+{
+"cat":"David Fincher",
+"ques":"Who is the only actress to appear in multiple David Fincher films?",
+"answ":"ROONEY MARA",
+"answ2":"Rooney Mara (in The Social Network, The Girl with the Dragon Tattoo)."
+},
+{
+"cat":"David Fincher",
+"ques":"Which actor plays the role of Amy's wealthy ex-boyfriend Desi Collings in the film Gone Girl?",
+"answ":"NEIL PATRICK HARRIS",
+"answ2":"Neil Patrick Harris."
+},
+{
+"cat":"Alfred Hitchcock",
+"ques":"In which Hitchcock film will you hear the line 'We have 12 vacancies. 12 cabins, 12 vacancies.'?",
+"answ":"PSYCHO",
+"answ2":"Psycho."
+},
+{
+"cat":"Alfred Hitchcock",
+"ques":"Which film marked the third collaboration between James Stewart and Alfred Hitchcock?",
+"answ":"THE MAN WHO KNEW TOO MUCH",
+"answ2":"The Man Who Knew Too Much."
+},
+{
+"cat":"Alfred Hitchcock",
+"ques":"What Casablanca actress starred in the Hitchcock films Spellbound, Notorious, and Under Capricorn?",
+"answ":"INGRID BERGMAN",
+"answ2":"Ingrid Bergman."
+},
+{
+"cat":"Alfred Hitchcock",
+"ques":"In which Hitchcock film is Christopher Emmanuel Balestrero wrongly arrested after being mistaken for an armed robber?",
+"answ":"THE WRONG MAN",
+"answ2":"The Wrong Man."
+},
+{
+"cat":"Coppolas",
+"ques":"Francis Ford Coppola won a Best Director Oscar for which gangster film?",
+"answ":"THE GODFATHER PART II",
+"answ2":"The Godfather Part II."
+},
+{
+"cat":"Coppolas",
+"ques":"Who plays Darrel Curtis, older brother of C. Thomas Howell and Rob Lowe's characters, in The Outsiders?",
+"answ":"PATRICK SWAYZE",
+"answ2":"Patrick Swayze."
+},
+{
+"cat":"Coppolas",
+"ques":"Which Godfather actor stars as Sgt. Clell Hazard in the 1987 military drama Gardens of Stone?",
+"answ":"JAMES CAAN",
+"answ2":"James Caan."
+},
+{
+"cat":"Coppolas",
+"ques":"What film from Sofia Coppola features supporting performances from Molly Shannon, Rip Torn, Rose Byrne, and Tom Hardy?",
+"answ":"MARIE ANTOINETTE",
+"answ2":"Marie Antoinette."
+},
+{
+"cat":"Coppolas",
+"ques":"Who plays the lead of Miss Martha Farnsworth in Sofia Coppola's The Beguiled?",
+"answ":"NICOLE KIDMAN",
+"answ2":"Nicole Kidman."
+},
+{
+"cat":"Coppolas",
+"ques":"Which Judd Apatow regular appears as Laurie Moore in The Bling Ring?",
+"answ":"LESLIE MANN",
+"answ2":"Leslie Mann."
+},
+{
+"cat":"Michael Keaton",
+"ques":"Michael Keaton, Andie MacDowell, and Eugene Levy star in what 1996 sci-fi comedy directed by Harold Ramis?",
+"answ":"MULTIPLICITY",
+"answ2":"Multiplicity."
+},
+{
+"cat":"Michael Keaton",
+"ques":"What character does Michael Keaton voice in 2010's Toy Story 3?",
+"answ":"KEN",
+"answ2":"Ken."
+},
+{
+"cat":"Michael Keaton",
+"ques":"In what 1990 thriller does Michael Keaton play a character called Carter Hayes, who rents a room from a new young couple in San Francisco?",
+"answ":"PACIFIC HEIGHTS",
+"answ2":"Pacific Heights."
+},
+{
+"cat":"Michael Keaton",
+"ques":"Which Law & Order franchise actor voices the narrator in the Adam McKay directed comedy The Other Guys?",
+"answ":"ICE T",
+"answ2":"Ice-T."
+},
+{
+"cat":"Michael Keaton",
+"ques":"Michael Keaton appears as Dogberry, opposite Emma Thompson, in what Shakespeare adaptation from director Kenneth Branagh?",
+"answ":"MUCH ADO ABOUT NOTHING",
+"answ2":"Much Ado About Nothing."
+},
+{
+"cat":"Michael Keaton",
+"ques":"Who plays Jack, a former advertising executive who believes he is Jesus Christ, opposite Keaton, in the film The Dream Team?",
+"answ":"PETER BOYLE",
+"answ2":"Peter Boyle."
+},
+{
+"cat":"Michael Keaton",
+"ques":"Michael Keaton plays a harmonica player who ends up dying in a car accident, before becoming a snowman, in what 1998 family comedy, also starring Kelly Preston?",
+"answ":"JACK FROST",
+"answ2":"Jack Frost."
+},
+{
+"cat":"Michael Keaton",
+"ques":"Michael Keaton appeared in three films released in 2014: Birdman, RoboCop, and what other film?",
+"answ":"NEED FOR SPEED",
+"answ2":"Need for Speed."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"Which actress plays Laura Kinney, wife to Michael Keaton's Doug Kinney, in the Harold Ramis directed Multiplicity?",
+"answ":"ANDIE MACDOWELL",
+"answ2":"Andie MacDowell."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"Which comedic actor plays Mark Loring, Vanessa's husband and the prospective adoptive father of Juno's child, in the film Juno?",
+"answ":"JASON BATEMAN",
+"answ2":"Jason Bateman."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"Which Academy Award winning actor, who is also in the MCU, plays Vice President Gary Nance, opposite Kevin Kline, in Dave?",
+"answ":"BEN KINGSLEY",
+"answ2":"Ben Kingsley."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"Which Ivan Reitman directed film features performances from Frank Langella, Arnold Schwarzenegger, and Christopher Meloni?",
+"answ":"JUNIOR",
+"answ2":"Junior."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"What Ivan Reitman film features supporting performances from Sean Combs, Chi McBride, Kevin Dunn, and Ellen Burstyn?",
+"answ":"DRAFT DAY",
+"answ2":"Draft Day."
+},
+{
+"cat":"Richard Donner",
+"ques":"Who plays the role of Isabeu of Anjou, opposite Matthew Broderick, in the film Ladyhawke?",
+"answ":"MICHELLE PFEIFFER",
+"answ2":"Michelle Pfeiffer."
+},
+{
+"cat":"Richard Donner",
+"ques":"What 2006 film, starring Bruce Willis and Mos Def, was Donner's final film as director?",
+"answ":"16 BLOCKS",
+"answ2":"16 Blocks."
+},
+{
+"cat":"Richard Donner",
+"ques":"In total, how many times did Richard Donner direct Mel Gibson?",
+"answ":"6",
+"answ3":"SIX",
+"answ2":"6 (Lethal Weapon, Lethal Weapon 2, Lethal Weapon 3, Maverick, Conspiracy Theory, Lethal Weapon 4)."
+},
+{
+"cat":"Richard Donner",
+"ques":"Who plays the role of Ulysses 'U.S.' Bates, a wealthy and ruthless businessman, opposite Richard Pryor in the film The Toy?",
+"answ":"JACKIE GLEASON",
+"answ2":"Jackie Gleason."
+},
+{
+"cat":"Richard Donner",
+"ques":"Patrick Stewart plays a CIA psychiatrist heading up Project MK Ultra in which Donner film?",
+"answ":"CONSPIRACY THEORY",
+"answ2":"Conspiracy Theory."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What musician makes a prominent cameo as himself judging a walk-off between Ben Stiller and Owen Wilson in the film Zoolander?",
+"answ":"DAVID BOWIE",
+"answ2":"David Bowie."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What 1980s horror film featured cameos from both Ozzy Osbourne as a strait-laced televangelist and Gene Simmons as a radio DJ named Nuke?",
+"answ":"TRICK OR TREAT",
+"answ2":"Trick or Treat."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What rock musician is featured in Crank, Crank: High Voltage, and, in his final movie role, Saw 3D?",
+"answ":"CHESTER BENNINGTON",
+"answ2":"Chester Bennington."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What musician portrays the prophetic Wanderer in the 2005 Tony Scott directed Domino, featuring Keira Knightley?",
+"answ":"TOM WAITS",
+"answ2":"Tom Waits."
+},
+{
+"cat":"Gene Hackman",
+"ques":"Gene Hackman plays Avery Tolar, the mentor to Tom Cruise's Mitch, in what 1990s Sydney Pollack thriller?",
+"answ":"THE FIRM",
+"answ2":"The Firm."
+},
+{
+"cat":"Harrison Ford",
+"ques":"What 2010s thriller with Harrison Ford featured supporting performances from Julian McMahon, Josh Holloway, and Richard Dreyfuss?",
+"answ":"PARANOIA",
+"answ2":"Paranoia."
+},
+{
+"cat":"Gene Hackman",
+"ques":"Gene Hackman stars as Harry Zimm, a debt-ridden B movie film director and producer in what 1990s Barry Sonnenfield gangster comedy opposite Bette Middler?",
+"answ":"GET SHORTY",
+"answ2":"Get Shorty."
+},
+{
+"cat":"Meg Ryan",
+"ques":"What is the profession of Meg Ryan's character Maggie in the romantic drama City of Angels?",
+"answ":"HEART SURGEON",
+"answ3":"SURGEON",
+"answ2":"Heart surgeon."
+},
+{
+"cat":"Meg Ryan",
+"ques":"What is the only film in which Meg Ryan plays three different characters, one of whom is named Angelica Graynamore?",
+"answ":"JOE VERSUS THE VOLCANO",
+"answ2":"Joe Versus the Volcano."
+},
+{
+"cat":"Meg Ryan",
+"ques":"Which Meg Ryan rom-com has the tagline 'If they lived in the same century they'd be perfect for each other.'?",
+"answ":"KATE AND LEOPOLD",
+"answ2":"Kate & Leopold."
+},
+{
+"cat":"Meg Ryan",
+"ques":"Which Godfather actor co-starred with Meg Ryan and Dennis Quaid in the 1993 drama Flesh and Bone?",
+"answ":"JAMES CAAN",
+"answ2":"James Caan."
+},
+{
+"cat":"Morgan Freeman",
+"ques":"Morgan Freeman won his first acting Oscar for what sports drama directed by and starring Clint Eastwood?",
+"answ":"MILLION DOLLAR BABY",
+"answ2":"Million Dollar Baby."
+},
+{
+"cat":"M. Night Shyamalan",
+"ques":"The film The Sixth Sense takes place in what Eastern United States city?",
+"answ":"PHILADELPHIA",
+"answ2":"Philadelphia."
+},
+{
+"cat":"M. Night Shyamalan",
+"ques":"Which Shyamalan film features the repeated phrase 'Swing away'?",
+"answ":"SIGNS",
+"answ2":"Signs."
+},
+{
+"cat":"M. Night Shyamalan",
+"ques":"Which early film in Shyamalan's career follows a 10-year-old boy who goes on a search for God after his grandfather dies?",
+"answ":"WIDE AWAKE",
+"answ2":"Wide Awake."
+},
+{
+"cat":"M. Night Shyamalan",
+"ques":"In the film Split, how many young women are abducted and held captive by Kevin Wendell Crumb throughout the film?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Paul Newman featured in what 1990s comedy that also featured supporting roles from John Goodman, Steve Buscemi, and Bruce Campbell?",
+"answ":"THE HUDSUCKER PROXY",
+"answ2":"The Hudsucker Proxy."
+},
+{
+"cat":"Wachowskis",
+"ques":"How many feature films are there in the Matrix saga?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Paul Newman plays the character of John Rooney opposite Tom Hanks in what 2000s period gangster film also featuring Daniel Craig?",
+"answ":"ROAD TO PERDITION",
+"answ2":"Road to Perdition."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Rooney Mara, Jason Segel, and Jesse Plemons appear opposite Redford in what 2017 Netflix film about Dr. Thomas Harbor, who has given definitive proof of the afterlife existing?",
+"answ":"THE DISCOVERY",
+"answ2":"The Discovery."
+},
+{
 "cat":"Amy Adams",
 "ques":"Amy Adams performs the song 'Me Party' when she feels neglected by her boyfriend, in what family musical?",
 "answ":"THE MUPPETS",

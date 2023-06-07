@@ -13,6 +13,464 @@ var speedquestion001 = [
 },
 {
 "cat":"Mixed Bag",
+"ques":"Who directed the film The Death of 'Superman Lives': What Happened?, a documentary chronicling an attempt by Tim Burton to bring Superman back to the silver screen in the 1990s?",
+"answ":"JON SCHNEPP",
+"answ2":"Jon Schnepp."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What is the first film released in the 1990s to feature a score from the legendary John Williams?",
+"answ":"STANLEY AND IRIS",
+"answ2":"Stanley & Iris."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the releases of the films Being There, Manhattan, and Apocalypse Now?",
+"answ":"1979",
+"answ2":"1979."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Of the following actresses, who did not appear in 2018's Halloween: Virginia Gardner, Judy Greer, Andi Matichak, or Danielle Harris?",
+"answ":"DANIELLE HARRIS",
+"answ2":"Danielle Harris."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What sci-fi film features the following characters: Joi, Lt. Joshi, Mariette, and K?",
+"answ":"BLADE RUNNER 2049",
+"answ2":"Blade Runner 2049."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What dogged buddy cop comedy from 1989 featured Ed O'Neill, William Sadler, Mel Harris, and Jim Belushi?",
+"answ":"K 9",
+"answ3":"K9",
+"answ2":"K-9."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the releases of the films Dumb and Dumber To, Night at the Museum: Secret of the Tomb, and Horrible Bosses 2?",
+"answ":"2014",
+"answ2":"2014."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the releases of Basic Instinct 2, The Santa Clause 3: The Escape Clause, and Clerks II?",
+"answ":"2006",
+"answ2":"2006."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor appeared in the films Man Down, The Company You Keep, Lawless, and A Guide to Recognizing Your Saints?",
+"answ":"SHIA LABEOUF",
+"answ2":"Shia LaBeouf."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What was the first film of the 1980s that was released with a John Williams score?",
+"answ":"THE EMPIRE STRIKES BACK",
+"answ3":"STAR WARS EPISODE V THE EMPIRE STRIKES BACK",
+"answ2":"The Empire Strikes Back."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the releases of The Secret of My Success, The Untouchables, and The Witches of Eastwick?",
+"answ":"1987",
+"answ2":"1987."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Of the following actresses, who did not provide a voice in Toy Story 3: Bonnie Hunt, Laurie Metcalf, Annie Potts, or Kristen Schaal?",
+"answ":"ANNIE POTTS",
+"answ2":"Annie Potts."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 1961 film features the characters Paul Varjak, Doc Golightly, O.J. Berman, and Rutherford 'Rusty' Trawler?",
+"answ":"BREAKFAST AT TIFFANY'S",
+"answ2":"Breakfast at Tiffany's."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which year saw second entries in the following series: Cars, The Hangover, and Kung Fu Panda?",
+"answ":"2011",
+"answ2":"2011."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which film from director Joe Carnahan features Chris Pine, Common, Jason Bateman, and Ray Liotta?",
+"answ":"SMOKIN ACES",
+"answ3":"SMOKIN' ACES",
+"answ2":"Smokin' Aces."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which film franchise features performances from Nicole Kidman, Anne Hathaway, Uma Thurman, and Michelle Pfeiffer?",
+"answ":"BATMAN",
+"answ2":"Batman."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the release of Hot Fuzz, Spider-Man 3, Ghost Rider, and Grindhouse?",
+"answ":"2007",
+"answ2":"2007."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What Tom Shadyac directed comedy features Morgan Freeman, Molly Shannon, John Goodman, and Steve Carell?",
+"answ":"EVAN ALMIGHTY",
+"answ2":"Evan Almighty."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which 1995 comic book film features supporting performances from Jim Carrey, Nicole Kidman, and Chris O'Donnell?",
+"answ":"BATMAN FOREVER",
+"answ2":"Batman Forever."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who directed Charlie's Angels: Full Throttle, This Means War, and Terminator Salvation?",
+"answ":"MCG",
+"answ2":"McG."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which film from director Mel Brooks features characters such as Lone Starr, Barf, Pizza the Hutt, and Princess Vespa?",
+"answ":"SPACEBALLS",
+"answ2":"Spaceballs."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which of the following films does not feature Jeff Daniels: The Social Network, Gettysburg, Steve Jobs, or Arachnophobia?",
+"answ":"THE SOCIAL NETWORK",
+"answ2":"The Social Network."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which 2019 horror thriller features supporting performances from Cliff Curtis, Bruce Greenwood, Henry Thomas, and Kyliegh Curran?",
+"answ":"DOCTOR SLEEP",
+"answ2":"Doctor Sleep."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which Harry Potter film features performances from Richard Harris, Toby Jones, and Kenneth Branagh?",
+"answ":"HARRY POTTER AND THE CHAMBER OF SECRETS",
+"answ3":"CHAMBER OF SECRETS",
+"answ2":"Harry Potter and the Chamber of Secrets."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What is the most recent film that Ridley Scott has directed Russell Crowe in?",
+"answ":"ROBIN HOOD",
+"answ2":"Robin Hood."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actress appears in these films: Stuck in Love, Dark City, The Rocketeer, and A Beautiful Mind?",
+"answ":"JENNIFER CONNELLY",
+"answ2":"Jennifer Connelly."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who portrays high school science teacher Elliot Moore alongside Zooey Deschanel in the M. Night Shyamalan directed film The Happening?",
+"answ":"MARK WAHLBERG",
+"answ2":"Mark Wahlberg."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 1990s Joel Schumacher film features supporting performances from Barbara Hershey, Tuesday Weld, and Robert Duvall?",
+"answ":"FALLING DOWN",
+"answ2":"Falling Down."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What film from Adam McKay features supporting roles from Kathryn Hahn, Seth Rogen, Adam Scott, and Richard Jenkins?",
+"answ":"STEP BROTHERS",
+"answ2":"Step Brothers."
+},
+{
+"cat":"Mixed Bag",
+"ques":"1978 saw the release of what sequel featuring Roy Scheider reprising his role as Chief Martin Brody?",
+"answ":"JAWS 2",
+"answ2":"Jaws 2."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Franco Nero plays Julius and Peter Serafinowicz plays the Sommelier in what 2010s action sequel?",
+"answ":"JOHN WICK CHAPTER 2",
+"answ3":"JOHN WICK 2",
+"answ2":"John Wick: Chapter 2."
+},
+{
+"cat":"Mixed Bag",
+"ques":"For which film was Jodie Foster NOT nominated for an Academy Award: Taxi Driver, The Accused, Little Man Tate, or Nell?",
+"answ":"LITTLE MAN TATE",
+"answ2":"Little Man Tate."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 1996 comedy features supporting performances from Christopher McDonald, Kevin Nealon, Ben Stiller, and Carl Weathers?",
+"answ":"HAPPY GILMORE",
+"answ2":"Happy Gilmore."
+},
+{
+"cat":"Mixed Bag",
+"ques":"To date, how many films in the Pirates of the Caribbean franchise have featured Geoffrey Rush as Captain Barbossa?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5 (The Curse of the Black Pearl, Dead Man's Chest, At World's End, On Stranger Tides, Dead Men Tell No Tales)."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Tony Todd, Jon Polito, and David Patrick Kelly feature in what 1990s comic film?",
+"answ":"THE CROW",
+"answ2":"The Crow."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor portrays the President of the United States in the following films: Kingsman: The Golden Circle, Thirteen Days, and National Treasure: Book of Secrets?",
+"answ":"BRUCE GREENWOOD",
+"answ2":"Bruce Greenwood."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor does NOT appear in the 2005 version of The Producers: Andrea Martin, Will Ferrell, Joan Cusack, or Jon Lovitz?",
+"answ":"JOAN CUSACK",
+"answ2":"Joan Cusack."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What Academy Award winning composer provided the scores for Hercules, Aladdin, and The Little Mermaid?",
+"answ":"ALAN MENKEN",
+"answ2":"Alan Menken."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What famous actor was NOT in 2012's Cloud Atlas: Hugo Weaving, Keith David, Eddie Redmayne, or Hugh Grant?",
+"answ":"EDDIE REDMAYNE",
+"answ2":"Eddie Redmayne."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Jackie Chan stars alongside Jaden Smith and Taraji P. Henson in what remake of a 1980s martial arts classic?",
+"answ":"THE KARATE KID",
+"answ2":"The Karate Kid."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What word is missing from the following movie titles: ___ of the Pink Panther, Jaws: The ___, and ___ of the Sith?",
+"answ":"REVENGE",
+"answ2":"Revenge."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Tom Cruise and Gwyneth Paltrow make cameo appearances in what film sequel starring Mike Myers and Michael Caine?",
+"answ":"AUSTIN POWERS IN GOLDMEMBER",
+"answ2":"Austin Powers in Goldmember."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the releases of the following films: Escape from New York, History of the World, Part I, and Rick Rosenthal's Halloween II?",
+"answ":"1981",
+"answ2":"1981."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What famous director wrote the screenplay for 1978's The Wiz?",
+"answ":"JOEL SCHUMACHER",
+"answ2":"Joel Schumacher."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor played the roles of Frank Bannister, Lewis Rothschild, Dr. Benjamin Stone, and Scott Howard?",
+"answ":"MICHAEL J FOX",
+"answ2":"Michael J. Fox."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 1990s action film features performances from Sean Connery, Ed Harris, Laurence Fishburne, and Blair Underwood?",
+"answ":"JUST CAUSE",
+"answ2":"Just Cause."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which of the following actresses did NOT appear in the 2011 Garry Marshall directed holiday film New Year's Eve: Sarah Jessica Parker, Jennifer Garner, Jessica Biel, or Carla Gugino?",
+"answ":"JENNIFER GARNER",
+"answ2":"Jennifer Garner."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What fantasy film series features characters named Urgl, Bastian, Rockbiter, and Falkor?",
+"answ":"THE NEVERENDING STORY",
+"answ2":"The NeverEnding Story."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Before she starred in The Post, what other Steven Spielberg directed film featured an appearance by Meryl Streep?",
+"answ":"AI ARTIFICIAL INTELLIGENCE",
+"answ2":"A.I. Artificial Intelligence."
+},
+{
+"cat":"Mixed Bag",
+"ques":"John Candy features in a small role as DJ Wink Wilkinson in what 1986 musical?",
+"answ":"LITTLE SHOP OF HORRORS",
+"answ2":"Little Shop of Horrors."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Fill in the blank: ___ to School, ___ to the Future, and Barbershop 2: ___ in Business.",
+"answ":"BACK",
+"answ2":"Back."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who directed the films Monkey Shines, Knightriders, Martin, and 1973's The Crazies?",
+"answ":"GEORGE A ROMERO",
+"answ2":"George A. Romero."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor played the roles of Martin Weir, George Shapiro, Bobby Ciaro, Owen Lift, and Vincent Benedict?",
+"answ":"DANNY DEVITO",
+"answ2":"Danny DeVito."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which of the following did NOT appear in the Star Wars franchise: Clint Howard, Daniel Craig, Keira Knightley, George Wendt, or John Ratzenberger?",
+"answ":"GEORGE WENDT",
+"answ2":"George Wendt."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 1980s fantasy film features the characters Vizzini, the Dread Pirate Roberts, Miracle Max, and Buttercup?",
+"answ":"THE PRINCESS BRIDE",
+"answ2":"The Princess Bride."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which Remember the Titans actor appears in the following films: Murder by Numbers, Fracture, Gangster Squad, and Only God Forgives?",
+"answ":"RYAN GOSLING",
+"answ2":"Ryan Gosling."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 2001 film features the fictional band Steel Dragon and includes supporting performances from Timothy Olyphant, Jasom Flemyng, and Dominic West?",
+"answ":"ROCK STAR",
+"answ2":"Rock Star."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What 1980s fantasy film directed by Russell Mulcahy features the following Queen songs in the film: 'A Kind of Magic' and 'Who Wants to Live Forever'?",
+"answ":"HIGHLANDER",
+"answ2":"Highlander."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor appeared in the following films: Enemy of the State, Heartbreakers, Stealing Harvard, and Almost Famous?",
+"answ":"JASON LEE",
+"answ2":"Jason Lee."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the releases of the following films: Murder by Death, Futureworld, Grizzly, and Marathon Man?",
+"answ":"1976",
+"answ2":"1976."
+},
+{
+"cat":"Mixed Bag",
+"ques":"What film franchise features performances from the following actors: Oscar Isaac, Riz Ahmed, Daniel Brühl, and Karl Urban?",
+"answ":"BOURNE",
+"answ3":"JASON BOURNE",
+"answ2":"Bourne."
+},
+{
+"cat":"Mixed Bag",
+"ques":"In what 1980s film will you hear John Cusack say the line 'She's gone. She gave me a pen. I gave her my heart and she gave me a pen.'?",
+"answ":"SAY ANYTHING",
+"answ2":"Say Anything...."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actress appears in the following films: The Christmas Chronicles 2, Snatched, Overboard, and Everyone Says I Love You?",
+"answ":"GOLDIE HAWN",
+"answ2":"Goldie Hawn."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Name the sports film featuring the following characters: Helen Haley, Shirley Baker, Doris Murphy, Marla Hooch, and Dottie Hinson.",
+"answ":"A LEAGUE OF THEIR OWN",
+"answ2":"A League of Their Own."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which 90s action movie features performances from Will Patton, Ving Rhames, Catherine Zeta-Jones, and Sean Connery?",
+"answ":"ENTRAPMENT",
+"answ2":"Entrapment."
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actor appears in The Mosquito Coast, My Own Private Idaho and Stand By Me?",
+"answ":"RIVER PHOENIX",
+"answ2":"River Phoenix.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Dick Van Dyke, Drew Barrymore and Will Ferrell feature in this 2006 animated film.",
+"answ":"CURIOUS GEORGE",
+"answ2":"Curious George.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who directed Used Cars, Beowulf and What Lies Beneath?",
+"answ":"ROBERT ZEMECKIS",
+"answ2":"Robert Zemeckis.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Which actress appears in The Faculty, GoldenEye and Taken?",
+"answ":"FAMKE JANSSEN",
+"answ2":"Famke Janssen.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Who played Mark 'Rent Boy' Renton in both Trainspotting films?",
+"answ":"EWAN MCGREGOR",
+"answ2":"Ewan McGregor.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What year saw the release of Joy Ride, The Hole and Frailty?",
+"answ":"2001",
+"answ2":"2001.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What comedy franchise features Kim Cattrall, David Spade and Bubba Smith?",
+"answ":"POLICE ACADEMY",
+"answ2":"Police Academy.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"What actress appears in Smokey & the Bandit, Lincoln and Forrest Gump?",
+"answ":"SALLY FIELD",
+"answ2":"Sally Field.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Julia Stiles plays Katarina 'Kat' Stratford in this 1999 rom-com.",
+"answ":"10 THINGS I HATE ABOUT YOU",
+"answ2":"10 Things I Hate About You.",
+},
+{
+"cat":"Mixed Bag",
+"ques":"Jason Voorhees appears in how many films in the 2000s?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3.",
+},
+{
+"cat":"Mixed Bag",
 "ques":"Which actress appears in the films: High Noon, High Society and Mogambo?",
 "answ":"GRACE KELLY",
 "answ2":"Grace Kelly.",

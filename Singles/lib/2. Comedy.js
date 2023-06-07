@@ -2871,12 +2871,6 @@ var comedy = [
 },
 {
 "cat":"Comedies",
-"ques":"Who played Mr. Wilson in 1993's Dennis the Menace?",
-"answ":"WALTER MATTHAU",
-"answ2":"Walter Matthau.",
-},
-{
-"cat":"Comedies",
 "ques":"Which comedy features characters named Smokey, Deebo and Big Worm?",
 "answ":"FRIDAY",
 "answ2":"Friday.",

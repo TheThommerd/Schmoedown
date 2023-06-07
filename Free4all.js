@@ -15,6 +15,3936 @@ var question001 = [
 "ques":"Who played the role of Mr. Smith in Mr. and Mrs. Smith?",
 "answ":"BRAD PITT",
 "answ2":"Brad Pitt.",
+},{
+"cat":"Action/Adventure",
+"ques":"Mel Gibson's Martin Riggs is reassigned and partnered with Danny Glover's Roger Murtaugh in what 1987 buddy cop comedy from director Richard Donner?",
+"answ":"LETHAL WEAPON",
+"answ2":"Lethal Weapon."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Jennifer Aniston and Adam Sandler star in what 2019 Netflix comedy about a couple on vacation who are framed for the murder of an elderly billionaire?",
+"answ":"MURDER MYSTERY",
+"answ2":"Murder Mystery."
+},
+{
+"cat":"Oscar Movies",
+"ques":"What comedy star was nominated for Best Actor for playing Parry, a homeless man whose mission is to find the Holy Grail, in the 1991 film The Fisher King?",
+"answ":"ROBIN WILLIAMS",
+"answ2":"Robin Williams."
+},
+{
+"cat":"Monster Movies",
+"ques":"What 2014 Gareth Edwards directed film has a 2019 sequel subtitled King of the Monsters?",
+"answ":"GODZILLA",
+"answ2":"Godzilla."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which famous actor appeared in the following four films: Taken, Men in Black: International, The Grey, and Love Actually?",
+"answ":"LIAM NEESON",
+"answ2":"Liam Neeson."
+},
+{
+"cat":"Black Cinema",
+"ques":"Who stars as Mabel 'Madea' Earlene Simmons and also directs the bulk of the movies in the Madea series?",
+"answ":"TYLER PERRY",
+"answ2":"Tyler Perry."
+},
+{
+"cat":"Dramas",
+"ques":"Which actress appears in the following three dramas: Pearl Harbor, Underworld, and The Aviator?",
+"answ":"KATE BECKINSALE",
+"answ2":"Kate Beckinsale."
+},
+{
+"cat":"Disney",
+"ques":"Which actress co-stars as Dr. Lily Houghton alongside Dwayne Johnson in the 2021 film Jungle Cruise?",
+"answ":"EMILY BLUNT",
+"answ2":"Emily Blunt."
+},
+{
+"cat":"Die Hard in a ___",
+"ques":"What Die Hard meets The Towering Inferno film stars Dwayne Johnson as Will Sawyer, a former Marine and HRT leader, who now assesses building security?",
+"answ":"SKYSCRAPER",
+"answ2":"Skyscraper."
+},
+{
+"cat":"Steven Spielberg",
+"ques":"What Spielberg film had the tagline 'He is afraid. He is alone. He is three million light years from home.'?",
+"answ":"ET THE EXTRA TERRESTRIAL",
+"answ3":"ET",
+"answ2":"E.T. the Extra-Terrestrial."
+},
+{
+"cat":"70s",
+"ques":"Who starred, produced, directed, and wrote the film Heaven Can Wait?",
+"answ":"WARREN BEATTY",
+"answ2":"Warren Beatty."
+},
+{
+"cat":"Sports",
+"ques":"Peter Landesman directed Will Smith in what sports drama?",
+"answ":"CONCUSSION",
+"answ2":"Concussion."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Jeff Wadlow directed what comic book movie sequel?",
+"answ":"KICK ASS 2",
+"answ2":"Kick-Ass 2."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Inkheart, Monkeybone, and The Mummy: Tomb of the Dragon Emperor all star which actor?",
+"answ":"BRENDAN FRASER",
+"answ2":"Brendan Fraser."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw the releases of the Steven Spielberg films War of the Worlds and Munich?",
+"answ":"2005",
+"answ2":"2005."
+},
+{
+"cat":"Monster Movies",
+"ques":"Matt Reeves directed what 2008 found footage creature feature starring Lizzy Caplan?",
+"answ":"CLOVERFIELD",
+"answ2":"Cloverfield."
+},
+{
+"cat":"Crime",
+"ques":"Which Academy Award winning actress appears in both My Cousin Vinny and The Lincoln Lawyer?",
+"answ":"MARISA TOMEI",
+"answ2":"Marisa Tomei."
+},
+{
+"cat":"80s",
+"ques":"Which famed sports drama became known for the line 'Hey... Dad? You wanna have a catch?'?",
+"answ":"FIELD OF DREAMS",
+"answ2":"Field of Dreams."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actor appears in the following movies: Synchronic, Real Steel, Ant-Man, and The Night Before?",
+"answ":"ANTHONY MACKIE",
+"answ2":"Anthony Mackie."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Gary Busey and Danny Glover appear in which film in the Predator franchise?",
+"answ":"PREDATOR 2",
+"answ2":"Predator 2."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Which of the following actors does not appear in Sam Raimi's Spider-Man 2: Joel McHale, Octavia Spencer, Bruce Campbell, or Cliff Robertson?",
+"answ":"OCTAVIA SPENCER",
+"answ2":"Octavia Spencer."
+},
+{
+"cat":"Oscar Movies",
+"ques":"Which actor received Oscar nominations for the films Dead Man Walking and I Am Sam?",
+"answ":"SEAN PENN",
+"answ2":"Sean Penn."
+},
+{
+"cat":"Oscar Movies",
+"ques":"This 2017 film won the Oscar for Best Picture at the 90th Academy Awards in 2018.",
+"answ":"THE SHAPE OF WATER",
+"answ2":"The Shape of Water."
+},
+{
+"cat":"Disney",
+"ques":"Which Disney animated film has an opening musical number in which townspeople repeatedly sing the word 'Bonjour'?",
+"answ":"BEAUTY AND THE BEAST",
+"answ2":"Beauty and the Beast."
+},
+{
+"cat":"80s",
+"ques":"In what 1988 film does a gangster named Ken hide the keys to a safety deposit box containing stolen diamonds inside an aquarium?",
+"answ":"A FISH CALLED WANDA",
+"answ2":"A Fish Called Wanda."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Which 2021 Netflix adventure film stars Dwayne Johnson, Ryan Reynolds, and Gal Gadot?",
+"answ":"RED NOTICE",
+"answ2":"Red Notice."
+},
+{
+"cat":"Dramas",
+"ques":"You'll find which Oscar-winning actress in the following films: Heat, Garden State, and Jackie?",
+"answ":"NATALIE PORTMAN",
+"answ2":"Natalie Portman."
+},
+{
+"cat":"Black Cinema",
+"ques":"Which 1995 modern classic from director F. Gary Gray featured the tagline 'a lot can go down between thursday and saturday...'?",
+"answ":"FRIDAY",
+"answ2":"Friday."
+},
+{
+"cat":"Pixar",
+"ques":"Which Pixar film features the vocal talents of Kaitlyn Dias, Bill Hader, Richard Kind, and Diane Lane?",
+"answ":"INSIDE OUT",
+"answ2":"Inside Out."
+},
+{
+"cat":"Westerns",
+"ques":"What 1988 western from Christopher Cain stars Emilio Estevez as Billy the Kid, alongside Charlie Sheen, Kiefer Sutherland, and Lou Diamond Phillips?",
+"answ":"YOUNG GUNS",
+"answ2":"Young Guns."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"What film directed by Edgar Wright features such songs as 'Bellbottoms', 'Harlem Shuffle', and 'Brighton Rock'?",
+"answ":"BABY DRIVER",
+"answ2":"Baby Driver."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"1964's Mary Poppins won the Academy Award for Best Original Song for which magical tune?",
+"answ":"CHIM CHIM CHER EE",
+"answ2":"Chim Chim Cher-ee."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who composed the score for the following Michael Mann films: Heat and Public Enemies?",
+"answ":"ELLIOT GOLDENTHAL",
+"answ2":"Elliot Goldenthal."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Madonna's 'Crazy for You' and Journey's 'Only the Young' are both featured in the soundtrack of what 1985 Matthew Modine movie?",
+"answ":"VISION QUEST",
+"answ2":"Vision Quest."
+},
+{
+"cat":"Wizarding World",
+"ques":"What is the last name of Harry's aunt and uncle that he lives with?",
+"answ":"DURSLEY",
+"answ2":"Dursley."
+},
+{
+"cat":"Westerns",
+"ques":"Who plays the title character, a homicidal singing cowboy, in The Ballad of Buster Scruggs?",
+"answ":"TIM BLAKE NELSON",
+"answ2":"Tim Blake Nelson."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Which Oscar winner plays the representative to the 'Life Extension' company in the film Vanilla Sky?",
+"answ":"TILDA SWINTON",
+"answ2":"Tilda Swinton."
+},
+{
+"cat":"Black Cinema",
+"ques":"George Tillman Jr. directed what 1997 dramedy featuring Vivica A. Fox and Nia Long, which is told through the eyes of 11-year-old Ahmad?",
+"answ":"SOUL FOOD",
+"answ2":"Soul Food."
+},
+{
+"cat":"Horror",
+"ques":"What horror franchise has featured performances from Mckenna Grace, Patrick Wilson, Anthony LaPaglia, and John Noble?",
+"answ":"THE CONJURING",
+"answ2":"The Conjuring."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What actor appears in the following films: To Wong Foo, Thanks for Everything! Julie Newmar, Donnie Darko, and The Outsiders?",
+"answ":"PATRICK SWAYZE",
+"answ2":"Patrick Swayze."
+},
+{
+"cat":"2000s",
+"ques":"What 2004 time travel film starring Ashton Kutcher and Amy Smart follows a man named Evan who attempts to fix his past to disastrous results?",
+"answ":"THE BUTTERFLY EFFECT",
+"answ2":"The Butterfly Effect."
+},
+{
+"cat":"Romance",
+"ques":"Which of the following actors did not appear in the 2011 film New Year's Eve: Josh Duhamel, Katherine Heigl, Bradley Cooper, or Nat Wolff?",
+"answ":"BRADLEY COOPER",
+"answ2":"Bradley Cooper."
+},
+{
+"cat":"Musicals",
+"ques":"Michelle Pfeiffer plays Stephanie, the leader of a girl gang, in what musical sequel?",
+"answ":"GREASE 2",
+"answ2":"Grease 2."
+},
+{
+"cat":"2000s",
+"ques":"Which comedian stars in the films Big Momma's House, Black Knight, and National Security?",
+"answ":"MARTIN LAWRENCE",
+"answ2":"Martin Lawrence."
+},
+{
+"cat":"Dramas",
+"ques":"Zach Braff wrote, directed, and starred in what 2004 romantic dramedy that also stars Natalie Portman and Peter Sarsgaard?",
+"answ":"GARDEN STATE",
+"answ2":"Garden State."
+},
+{
+"cat":"Action/Adventure",
+"ques":"In the 1993 thriller The Fugitive, which of the following actors did not appear: Joe Pantoliano, Cynthia Nixon, Jane Lynch, or Julianne Moore?",
+"answ":"CYNTHIA NIXON",
+"answ2":"Cynthia Nixon."
+},
+{
+"cat":"Comedies",
+"ques":"Which actress made her big screen debut as Tina Carlyle, opposite Jim Carrey, in the 1994 comedy The Mask?",
+"answ":"CAMERON DIAZ",
+"answ2":"Cameron Diaz."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Jennifer Lawrence stars as the courageous Katniss Everdeen in what dystopian science-fiction series with four films to date?",
+"answ":"THE HUNGER GAMES",
+"answ3":"HUNGER GAMES",
+"answ2":"The Hunger Games."
+},
+{
+"cat":"Horror",
+"ques":"Rose goes in search of her adopted daughter within the confines of a strange, desolate town in what 2006 film based on a video game?",
+"answ":"SILENT HILL",
+"answ2":"Silent Hill."
+},
+{
+"cat":"Rom-coms",
+"ques":"Who starred in and directed the 1993 version of Much Ado About Nothing, also featuring Emma Thompson, Michael Keaton, Keanu Reeves, and Kate Beckinsale?",
+"answ":"KENNETH BRANAGH",
+"answ2":"Kenneth Branagh."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actor appeared in the following four films: Child's Play, The Exorcist III, Rob Zombie's Halloween, and The Lord of the Rings: The Two Towers?",
+"answ":"BRAD DOURIF",
+"answ2":"Brad Dourif."
+},
+{
+"cat":"Biopics",
+"ques":"What 2016 film from Dexter Fletcher, which stars Taron Egerton and Hugh Jackman, follows the true life story of Michael Edwards and his journey to the 1988 Winter Olympics in Calgary, Alberta?",
+"answ":"EDDIE THE EAGLE",
+"answ2":"Eddie the Eagle."
+},
+{
+"cat":"Alien Invasion",
+"ques":"Aliens intercept video feeds of classic arcade games and misinterpret them as a declaration of war in what film starring Adam Sandler and Kevin James?",
+"answ":"PIXELS",
+"answ2":"Pixels."
+},
+{
+"cat":"Alien Invasion",
+"ques":"Stephen Herek made his directorial debut with what 1986 film where a group of dangerous aliens known as Krites appear in rural Kansas, terrifying the locals?",
+"answ":"CRITTERS",
+"answ2":"Critters."
+},
+{
+"cat":"Alien Invasion",
+"ques":"What 2010s alien invasion film features performances from Maika Monroe, William Fichtner, Liam Hemsworth, and Vivica A. Fox?",
+"answ":"INDEPENDENCE DAY RESURGENCE",
+"answ2":"Independence Day: Resurgence."
+},
+{
+"cat":"Tom Hanks",
+"ques":"Hanks stars in which 1980s comedy with the tagline 'A man's tradition every woman should know about.'?",
+"answ":"BACHELOR PARTY",
+"answ2":"Bachelor Party."
+},
+{
+"cat":"Tom Hanks",
+"ques":"In Steven Spielberg's The Post, what is the name of the U.S. military contractor whose employee copies classified reports on the progress in Vietnam?",
+"answ":"THE RAND CORPORATION",
+"answ2":"The RAND Corporation."
+},
+{
+"cat":"Tom Hanks",
+"ques":"Which actor plays the title character, a struggling magician, in the 2009 comedy The Great Buck Howard?",
+"answ":"JOHN MALKOVICH",
+"answ2":"John Malkovich."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Which actress plays the role of Jyn Erso, who is attempting to steal the Death Star plans for the Rebel Alliance in Rogue One: A Star Wars Story?",
+"answ":"FELICITY JONES",
+"answ2":"Felicity Jones."
+},
+{
+"cat":"Denzel Washington",
+"ques":"Who plays the role of Special Agent Paul Pryzwarra in Déjà Vu?",
+"answ":"VAL KILMER",
+"answ2":"Val Kilmer."
+},
+{
+"cat":"Scotts",
+"ques":"What historical epic from director Ridley Scott features performances from David Thewlis, Eva Green, Liam Neeson, and Edward Norton?",
+"answ":"KINGDOM OF HEAVEN",
+"answ2":"Kingdom of Heaven."
+},
+{
+"cat":"Morgan Freeman",
+"ques":"Morgan Freeman appears in what sci-fi film that features supporting performances from Andrea Riseborough, Nikolaj Coster-Waldau, and Melissa Leo?",
+"answ":"OBLIVION",
+"answ2":"Oblivion."
+},
+{
+"cat":"2020s",
+"ques":"Who plays the lead role of Rob Feld, a former Portland-based chef turned reclusive truffle forager with the help of his prized foraging pig, in 2021's Pig?",
+"answ":"NICOLAS CAGE",
+"answ2":"Nicolas Cage."
+},
+{
+"cat":"80s",
+"ques":"What 1988 comedy from director Ivan Reitman features performances from Arnold Schwarzenegger, Kelly Preston, Danny DeVito, and David Caruso?",
+"answ":"TWINS",
+"answ2":"Twins."
+},
+{
+"cat":"Family Films",
+"ques":"Who directed Steve Martin, Bonnie Hunt, and Piper Perabo in the 2003 family comedy Cheaper by the Dozen?",
+"answ":"SHAWN LEVY",
+"answ2":"Shawn Levy."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"J. J. Abrams' Super 8, Matthew Vaughn's X-Men: First Class, and Rupert Wyatt's Rise of the Planet of the Apes were released in what year?",
+"answ":"2011",
+"answ2":"2011."
+},
+{
+"cat":"Animated",
+"ques":"What 2010s animated Disney film features performances from Idris Elba, J. K. Simmons, Jason Bateman, and Ginnifer Goodwin?",
+"answ":"ZOOTOPIA",
+"answ2":"Zootopia."
+},
+{
+"cat":"Disney",
+"ques":"Oscar-winning actor George Sanders provided the voice of what classic Disney villain that is a Bengal tiger in the 1967 film The Jungle Book?",
+"answ":"SHERE KHAN",
+"answ2":"Shere Khan."
+},
+{
+"cat":"Classics",
+"ques":"What legendary actor appears in the films The Glenn Miller Story, Harvey, Rear Window, and Vertigo?",
+"answ":"JAMES STEWART",
+"answ2":"James Stewart."
+},
+{
+"cat":"Denzel Washington",
+"ques":"Don Cheadle, John Goodman, and Bruce Greenwood have supporting performances in what 2012 Denzel film?",
+"answ":"FLIGHT",
+"answ2":"Flight."
+},
+{
+"cat":"Comedies",
+"ques":"Will Ferrell, John C. Reilly, Adam Scott, and Richard Jenkins appear together in which comedy?",
+"answ":"STEP BROTHERS",
+"answ2":"Step Brothers."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"In what 2010s film, that he also directed, does Ivan Reitman make a cameo as a musical TV show director?",
+"answ":"NO STRINGS ATTACHED",
+"answ2":"No Strings Attached."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"What is the title of the second film in the Mad Max series?",
+"answ":"THE ROAD WARRIOR",
+"answ2":"The Road Warrior."
+},
+{
+"cat":"90s",
+"ques":"Joe Pesci has a cameo at the end of what 1993 crime drama as a man named Carmine that Chazz Palminteri's Sonny had protected early in the film?",
+"answ":"A BRONX TALE",
+"answ2":"A Bronx Tale."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 2014 sci-fi reboot featured Joel Kinnaman as Alex Murphy, a detective who is injured in an explosion and transformed into a cyborg?",
+"answ":"ROBOCOP",
+"answ2":"RoboCop."
+},
+{
+"cat":"2020s",
+"ques":"Joe Carnahan directed Frank Grillo and Naomi Watts in what 2021 action thriller about a former special forces agent trapped in a time loop?",
+"answ":"BOSS LEVEL",
+"answ2":"Boss Level."
+},
+{
+"cat":"Romance",
+"ques":"Which actress co-stars with Tom Cruise as Shannon Christie in Ron Howard's epic western romantic adventure film Far and Away?",
+"answ":"NICOLE KIDMAN",
+"answ2":"Nicole Kidman."
+},
+{
+"cat":"Comedies",
+"ques":"Who plays professional assassin Martin Blank, who goes back home to Michigan for his high school reunion, in Grosse Pointe Blank?",
+"answ":"JOHN CUSACK",
+"answ2":"John Cusack."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"In what year did Michael Bay's The Island, Tim Burton's Corpse Bride, and the Farrelly brothers' Fever Pitch release?",
+"answ":"2005",
+"answ2":"2005."
+},
+{
+"cat":"Romance",
+"ques":"What 2011 film was the first film in which Ryan Gosling and Emma Stone had an on-screen romance?",
+"answ":"CRAZY STUPID LOVE",
+"answ2":"Crazy, Stupid, Love."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Robert Redford plays the father of Bryce Dallas Howard in what 2010s Disney remake that also featured Karl Urban?",
+"answ":"PETE'S DRAGON",
+"answ2":"Pete's Dragon."
+},
+{
+"cat":"Animated",
+"ques":"Michael Caine, Maggie Smith, Ozzy Osbourne, and Stephen Merchant appeared in two computer-animated films in the 2010s. Name one.",
+"answ":"GNOMEO AND JULIET",
+"answ3":"SHERLOCK GNOMES",
+"answ2":"Gnomeo & Juliet / Sherlock Gnomes."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"Which actor appeared in 2012's Total Recall, 2002's Solaris, and 2009's Star Trek?",
+"answ":"JOHN CHO",
+"answ2":"John Cho."
+},
+{
+"cat":"2020s",
+"ques":"What is the title of the 2021 installment in the Halloween saga starring Jamie Lee Curtis and directed by David Gordon Green?",
+"answ":"HALLOWEEN KILLS",
+"answ2":"Halloween Kills."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actress stars in the films Our Brand Is Crisis, Ocean's 8, Speed, and A Time to Kill?",
+"answ":"SANDRA BULLOCK",
+"answ2":"Sandra Bullock."
+},
+{
+"cat":"Comedies",
+"ques":"What 1999 fantasy comedy features supporting performances from Chris Rock, George Carlin, Janeane Garofalo, and Alanis Morissette?",
+"answ":"DOGMA",
+"answ2":"Dogma."
+},
+{
+"cat":"2010s",
+"ques":"Which 2019 horror film stars Samara Weaving, Adam Brody, Henry Czerny, and Andie MacDowell, which follows a bride in a deadly game of hide and seek?",
+"answ":"READY OR NOT",
+"answ2":"Ready or Not."
+},
+{
+"cat":"Dramas",
+"ques":"Who directed the following films: Last Flag Flying, Me and Orson Welles, and Before Sunrise?",
+"answ":"RICHARD LINKLATER",
+"answ2":"Richard Linklater."
+},
+{
+"cat":"Directors",
+"ques":"Who directed the classic film Dial M for Murder?",
+"answ":"ALFRED HITCHCOCK",
+"answ2":"Alfred Hitchcock."
+},
+{
+"cat":"Crime",
+"ques":"Who stars as Rick Santoro, a shady detective caught in the middle of a murder conspiracy at a boxing match, in the 1998 crime thriller Snake Eyes?",
+"answ":"NICOLAS CAGE",
+"answ2":"Nicolas Cage."
+},
+{
+"cat":"90s",
+"ques":"What is the subtitle of the sixth film in the Halloween franchise, featuring Paul Rudd?",
+"answ":"THE CURSE OF MICHAEL MYERS",
+"answ2":"The Curse of Michael Myers."
+},
+{
+"cat":"Musicals",
+"ques":"What musical stars Rod Steiger and Shirley Jones, and features the song 'People Will Say We're In Love'?",
+"answ":"OKLAHOMA",
+"answ2":"Oklahoma!."
+},
+{
+"cat":"Horror",
+"ques":"What 2013 supernatural horror film was Fede Álvarez's directorial debut, and the fourth installment in a franchise, the first not to be directed by Sam Raimi?",
+"answ":"EVIL DEAD",
+"answ2":"Evil Dead."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Which action franchise features performances from Richard Crenna, Brian Dennehy, Martin Kove, Kurtwood Smith, and Sylvester Stallone?",
+"answ":"RAMBO",
+"answ2":"Rambo."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Of the following actors, which does not appear in 2003's Daredevil: Jennifer Garner, Kevin Smith, Jon Favreau, or Katherine Heigl?",
+"answ":"KATHERINE HEIGL",
+"answ2":"Katherine Heigl."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Matt Damon, Pedro Pascal, Jing Tian, and Willem Dafoe appear in what 2017 adventure film about a European mercenary imprisoned by Imperial Chinese forces?",
+"answ":"THE GREAT WALL",
+"answ2":"The Great Wall."
+},
+{
+"cat":"Rom-coms",
+"ques":"Will Ferrell and Nicole Kidman star in what 2005 Nora Ephron film, based on a sitcom, in which Kidman's Isabel Bigelow is revealed to be a real witch?",
+"answ":"BEWITCHED",
+"answ2":"Bewitched."
+},
+{
+"cat":"Tom Cruise",
+"ques":"What was Maverick's father's name in Top Gun?",
+"answ":"DUKE MITCHELL",
+"answ2":"Duke Mitchell."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Tom Cruise stars in what thriller that is based on a John Grisham novel?",
+"answ":"THE FIRM",
+"answ2":"The Firm."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Which film in the Mission: Impossible franchise is set largely in Australia?",
+"answ":"MISSION IMPOSSIBLE II",
+"answ3":"MISSION IMPOSSIBLE 2",
+"answ2":"Mission: Impossible 2."
+},
+{
+"cat":"Tom Cruise",
+"ques":"What is the name of the real-life character played by Tom Cruise in Born on the Fourth of July?",
+"answ":"RON KOVIC",
+"answ2":"Ron Kovic."
+},
+{
+"cat":"Tom Cruise",
+"ques":"How many times has Tom Cruise been nominated for the Best Lead Actor Oscar?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (for Born on the Fourth of July, Jerry Maguire)."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"Sofia Boutella stars as Ahmanet, alongside Tom Cruise and Jake Johnson, in what 2017 action remake?",
+"answ":"THE MUMMY",
+"answ2":"The Mummy."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Kevin Pollak plays Lt. Sam Weinberg, co-counsel of Tom Cruise's character, in what 1990s legal drama?",
+"answ":"A FEW GOOD MEN",
+"answ2":"A Few Good Men."
+},
+{
+"cat":"Denzel Washington",
+"ques":"Jovan Adepo plays Cory, the athletic son of Denzel Washington's character, in what acclaimed drama?",
+"answ":"FENCES",
+"answ2":"Fences."
+},
+{
+"cat":"Animated",
+"ques":"What 2016 animated Disney film featuring Dwayne Johnson includes these songs by Lin-Manuel Miranda: 'Shiny', 'You're Welcome', and 'How Far I'll Go'?",
+"answ":"MOANA",
+"answ2":"Moana."
+},
+{
+"cat":"Horror",
+"ques":"Which famed horror franchise features performances from Liev Schreiber, Kristen Bell, Jamie Kennedy, and David Arquette?",
+"answ":"SCREAM",
+"answ2":"Scream."
+},
+{
+"cat":"Action/Adventure",
+"ques":"How many films in the Bad Boys film series did Michael Bay direct?",
+"answ":"2",
+"answ":"TWO",
+"answ2":"2."
+},
+{
+"cat":"Biopics",
+"ques":"Which 1994 biopic directed by Tim Burton won two Academy Awards, including one for Martin Landau as Best Supporting Actor for his performance as famed horror icon Bela Lugosi?",
+"answ":"ED WOOD",
+"answ2":"Ed Wood."
+},
+{
+"cat":"90s",
+"ques":"Which actor appeared opposite Tom Hanks in the films Apollo 13, The Green Mile, and Forrest Gump?",
+"answ":"GARY SINISE",
+"answ2":"Gary Sinise."
+},
+{
+"cat":"90s",
+"ques":"James Ivory directed Anthony Hopkins and Emma Thopmson in two 90s films: Howards End and what other film?",
+"answ":"THE REMAINS OF THE DAY",
+"answ2":"The Remains of the Day."
+},
+{
+"cat":"90s",
+"ques":"What 1990s biopic features supporting performances from Angela Bassett, Delroy Lindo, Peter Boyle, and Spike Lee?",
+"answ":"MALCOLM X",
+"answ2":"Malcolm X."
+},
+{
+"cat":"Oscar Movies",
+"ques":"What 2020 Pixar film won the Academy Award for Best Animated Feature in 2021?",
+"answ":"SOUL",
+"answ2":"Soul."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Tom Cruise appears in what 2008 war comedy as movie producer Les Grossman opposite Ben Stiller and Robert Downey Jr.?",
+"answ":"TROPIC THUNDER",
+"answ2":"Tropic Thunder."
+},
+{
+"cat":"Animated",
+"ques":"You'll find Angus, a Highland bull voiced by David Tennant, in which 2017 animated film with Daveed Diggs, Anthony Anderson, and Peyton Manning?",
+"answ":"FERDINAND",
+"answ2":"Ferdinand."
+},
+{
+"cat":"Scotts",
+"ques":"Tony Scott directed Tom Cruise and Nicole Kidman in what film about a race car driver named Cole Trickle?",
+"answ":"DAYS OF THUNDER",
+"answ2":"Days of Thunder."
+},
+{
+"cat":"2000s",
+"ques":"Which 2000s crime film, directed by Guy Ritchie, features Jason Statham as Turkish and Brad Pitt as 'One Punch' Mickey O'Neil?",
+"answ":"SNATCH",
+"answ2":"Snatch."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What popular sci-fi action franchise features performances from Josh Brolin, Tony Shalhoub, Tommy Lee Jones, and Tessa Thompson?",
+"answ":"MEN IN BLACK",
+"answ2":"Men in Black."
+},
+{
+"cat":"Black Cinema",
+"ques":"What 1992 crime thriller features performances from Omar Epps, Tupac Shakur, Samuel L. Jackson, and Queen Latifah?",
+"answ":"JUICE",
+"answ2":"Juice."
+},
+{
+"cat":"2000s",
+"ques":"Who directed Keanu Reeves and Jennifer Connelly in 2008's The Day the Earth Stood Still?",
+"answ":"SCOTT DERRICKSON",
+"answ2":"Scott Derrickson."
+},
+{
+"cat":"Eastwoods",
+"ques":"Credited as Scott Reeves, Scott Eastwood made his debut in this war film directed by his father.",
+"answ":"FLAGS OF OUR FATHERS",
+"answ2":"Flags of Our Fathers."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Who appears in the following action films: The Meg, Ghosts of Mars, and The Italian Job?",
+"answ":"JASON STATHAM",
+"answ2":"Jason Statham."
+},
+{
+"cat":"Horror",
+"ques":"Which famed horror franchise features performances by Dennis Hopper, Matthew McConaughey, Jessica Biel, and R. Lee Ermey?",
+"answ":"TEXAS CHAINSAW MASSACRE",
+"answ2":"Texas Chainsaw Massacre."
+},
+{
+"cat":"2010s",
+"ques":"Which actor doesn't appear in Fantastic Beasts: The Crimes of Grindelwald: Dan Fogler, Eddie Redmayne, Jon Voight, or Zoë Kravitz?",
+"answ":"JON VOIGHT",
+"answ2":"Jon Voight."
+},
+{
+"cat":"Sports",
+"ques":"What 1992 hockey film featured the tagline 'He's never coached. They've never won. Together they'll learn everything about winning!'?",
+"answ":"THE MIGHTY DUCKS",
+"answ2":"The Mighty Ducks."
+},
+{
+"cat":"Crime",
+"ques":"What 1995 Martin Scorsese crime film features supporting performances from James Woods, Don Rickles, and Kevin Pollak?",
+"answ":"CASINO",
+"answ2":"Casino."
+},
+{
+"cat":"2020s",
+"ques":"What 2021 dramedy features supporting performances from Judi Dench, Ciarán Hinds, and Jamie Dornan?",
+"answ":"BELFAST",
+"answ2":"Belfast."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"Karl Urban is a law enforcer with the power of judge, jury, and executioner in a metropolis known as Mega-City One in what 2012 film?",
+"answ":"DREDD",
+"answ2":"Dredd."
+},
+{
+"cat":"Sports",
+"ques":"Which of the following baseball movies did Kevin Costner not appear in: Bull Durham, Field of Dreams, Major League, or For Love of the Game?",
+"answ":"MAJOR LEAGUE",
+"answ2":"Major League."
+},
+{
+"cat":"Crime",
+"ques":"Who plays Albert Sparma, a suspect in a string of serial murders that Denzel Washington is helping investigate, in 2021's The Little Things?",
+"answ":"JARED LETO",
+"answ2":"Jared Leto."
+},
+{
+"cat":"2010s",
+"ques":"Which of the following actors does not appear in The Expendables 3: Harrison Ford, Antonio Banderas, Glen Powell, or Bruce Willis?",
+"answ":"BRUCE WILLIS",
+"answ2":"Bruce Willis."
+},
+{
+"cat":"Directors",
+"ques":"Who directed the films Undercover Brother, Space Jam: A New Legacy, and The Best Man?",
+"answ":"MALCOLM D LEE",
+"answ2":"Malcolm D. Lee."
+},
+{
+"cat":"2020s",
+"ques":"What 2021 horror film follows Madison Lake Mitchell, played by Annabelle Wallis, who begins having terrifying visions of people being murdered?",
+"answ":"MALIGNANT",
+"answ2":"Malignant."
+},
+{
+"cat":"Movie Quotes",
+"ques":"In which popular comedy will you hear Jeff Daniels say 'She gave me a bunch of crap about me not listening to her, or something. I don't know, I wasn't really paying attention.'?",
+"answ":"DUMB AND DUMBER",
+"answ2":"Dumb and Dumber."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What famed rock and roll musician appeared in the films Wayne's World, Spice World, and Fight Club?",
+"answ":"MEAT LOAF",
+"answ2":"Meat Loaf."
+},
+{
+"cat":"Animated",
+"ques":"Which animated Disney film features the songs 'Once Upon a Time in New York City' and 'Streets of Gold'?",
+"answ":"OLIVER AND COMPANY",
+"answ2":"Oliver & Company."
+},
+{
+"cat":"Star Wars",
+"ques":"Who directed Mark Hamill, Carrie Fisher, and Harrison Ford in The Empire Strikes Back?",
+"answ":"IRVIN KERSHNER",
+"answ2":"Irvin Kershner."
+},
+{
+"cat":"Star Wars",
+"ques":"In Rogue One, what is the color designation of the starfighter squadron that makes it through the shield gate to assist Rebels on the ground?",
+"answ":"BLUE",
+"answ2":"Blue."
+},
+{
+"cat":"Star Wars",
+"ques":"Ian McDiarmid portrayed which Star Wars villain?",
+"answ":"SHEEV PALPATINE",
+"answ3":"PALPATINE",
+"answ2":"Sheev Palpatine."
+},
+{
+"cat":"Star Wars",
+"ques":"What is the name of the beast Jabba the Hutt uses to dispatch his enemies in the Dune Sea, which ultimately eats Boba Fett?",
+"answ":"SARLACC",
+"answ2":"Sarlacc."
+},
+{
+"cat":"Star Wars",
+"ques":"What species is Watto?",
+"answ":"TOYDARIAN",
+"answ2":"Toydarian."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Lori Petty stars in what 1995 film based on a British comic book?",
+"answ":"TANK GIRL",
+"answ2":"Tank Girl."
+},
+{
+"cat":"2000s",
+"ques":"How many films were theatrically released in the American Pie franchise during the 2000s?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (American Pie 2, American Wedding)."
+},
+{
+"cat":"Animated",
+"ques":"Dakota Fanning voices the title character in what 2000s animated film from director Henry Selick?",
+"answ":"CORALINE",
+"answ2":"Coraline."
+},
+{
+"cat":"80s",
+"ques":"Which 1980s sequel features supporting performances from Peter MacNicol, Kurt Fuller, Cheech Marin, and Bobby Brown?",
+"answ":"GHOSTBUSTERS II",
+"answ3":"GHOSTBUSTERS 2",
+"answ2":"Ghostbusters II."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Which film in the Terminator franchise features performances from Arnold Schwarzenegger, Linda Hamilton, and Mackenzie Davis?",
+"answ":"TERMINATOR DARK FATE",
+"answ3":"DARK FATE",
+"answ2":"Terminator: Dark Fate."
+},
+{
+"cat":"Rom-coms",
+"ques":"What 2003 Christmas-themed film features performances from Bill Nighy, Keira Knightley, Hugh Grant, Emma Thompson, and Liam Neeson?",
+"answ":"LOVE ACTUALLY",
+"answ2":"Love Actually."
+},
+{
+"cat":"Sports",
+"ques":"Tom Hanks, Madonna, Geena Davis, and Jon Lovitz appear in what 1992 baseball film directed by Penny Marshall?",
+"answ":"A LEAGUE OF THEIR OWN",
+"answ2":"A League of Their Own."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actress appears in the following films: Constantine, The Bourne Legacy, Black Widow, and 1999's The Mummy?",
+"answ":"RACHEL WEISZ",
+"answ2":"Rachel Weisz."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"In what 2010s film does Arnold play John 'Breacher' Wharton, the leader of the DEA's Special Operations Team?",
+"answ":"SABOTAGE",
+"answ2":"Sabotage."
+},
+{
+"cat":"Spy Movies",
+"ques":"What 2010s action spy film directed by David Leitch features supporting performances from John Goodman, Toby Jones, and Bill Skarsgård?",
+"answ":"ATOMIC BLONDE",
+"answ2":"Atomic Blonde."
+},
+{
+"cat":"DC Movies",
+"ques":"What DC film features the following characters: Dr. Sivana, Mary Bromfield, and Freddy Freeman?",
+"answ":"SHAZAM",
+"answ2":"Shazam!."
+},
+{
+"cat":"Martin Scorsese",
+"ques":"Sacha Baron Cohen portrays the relentless yet clumsy station inspector in what 2010s family film from director Martin Scorsese?",
+"answ":"HUGO",
+"answ2":"Hugo."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Who directed the 2017 supernatural crime thriller Death Note, featuring performances from Nat Wolff, Lakeith Stanfield, and Willem Dafoe?",
+"answ":"ADAM WINGARD",
+"answ2":"Adam Wingard."
+},
+{
+"cat":"Christopher Nolan",
+"ques":"Which actor appeared in the following Christopher Nolan films: Inception, Tenet, Interstellar, and The Prestige?",
+"answ":"MICHAEL CAINE",
+"answ2":"Michael Caine."
+},
+{
+"cat":"Horror",
+"ques":"What word is missing from the following movie titles: Night of the Living ___, The Return of the Living ___, and Day of the ___?",
+"answ":"DEAD",
+"answ2":"Dead."
+},
+{
+"cat":"80s",
+"ques":"What 80s film franchise features the characters Carey Mahoney, Thaddeus Harris, Moses Hightower, and Eugene Tackleberry?",
+"answ":"POLICE ACADEMY",
+"answ2":"Police Academy."
+},
+{
+"cat":"80s",
+"ques":"In 1980's 9 to 5, what actress portrays Violet Newstead, a widow with four kids who has been working at Consolidated for 12 years?",
+"answ":"LILY TOMLIN",
+"answ2":"Lily Tomlin."
+},
+{
+"cat":"80s",
+"ques":"In The Terminator, who plays police sergeant Hal Vukovich, the one who questions Sarah Connor?",
+"answ":"LANCE HENRIKSEN",
+"answ2":"Lance Henriksen."
+},
+{
+"cat":"2020s",
+"ques":"James Wan directed Annabelle Wallis, Mckenna Grace, and Jake Abel in this 2021 horror film.",
+"answ":"MALIGNANT",
+"answ2":"Malignant."
+},
+{
+"cat":"2020s",
+"ques":"Who plays Dennis Dannelly, alongside Anthony Mackie, in the film Synchronic?",
+"answ":"JAMIE DORNAN",
+"answ2":"Jamie Dornan."
+},
+{
+"cat":"2020s",
+"ques":"Who directed the Sopranos prequel The Many Saints of Newark, featuring Michael Gandolfini, Jon Bernthal, and Ray Liotta?",
+"answ":"ALAN TAYLOR",
+"answ2":"Alan Taylor."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"Which actor appeared in the following remakes: Cheaper by the Dozen, The Out-of-Towners, Father of the Bride, and The Pink Panther?",
+"answ":"STEVE MARTIN",
+"answ2":"Steve Martin."
+},
+{
+"cat":"Animated",
+"ques":"What animated franchise features the characters Bullseye the horse and stuntman Duke Caboom?",
+"answ":"TOY STORY",
+"answ2":"Toy Story."
+},
+{
+"cat":"Crime",
+"ques":"Steve McQueen stars in the 1968 crime film Bullitt, which has a famous car chase through what California city?",
+"answ":"SAN FRANCISCO",
+"answ2":"San Francisco."
+},
+{
+"cat":"Denzel Washington",
+"ques":"In total, how many times did Tony Scott direct Denzel Washington?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5 (Crimson Tide, Man on Fire, Déjà Vu, The Taking of Pelham 123, Unstoppable)."
+},
+{
+"cat":"Animated",
+"ques":"What 2018 superhero film featured vocal performances from Shameik Moore, Mahershala Ali, and Zoë Kravitz?",
+"answ":"SPIDER MAN INTO THE SPIDER VERSE",
+"answ2":"Spider-Man: Into the Spider-Verse."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"In what 1991 sci-fi action film will you hear the line 'I need your clothes, your boots and your motorcycle.'?",
+"answ":"TERMINATOR 2 JUDGMENT DAY",
+"answ2":"Terminator 2: Judgment Day."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Who directed Ryan Reynolds, Mélanie Laurent, and Corey Hawkins in the 2019 Netflix action film 6 Underground?",
+"answ":"MICHAEL BAY",
+"answ2":"Michael Bay."
+},
+{
+"cat":"Horror",
+"ques":"What 1956 classic horror film received remakes in 1978, 1994, and most recently in 2007 starring Daniel Craig?",
+"answ":"INVASION OF THE BODY SNATCHERS",
+"answ2":"Invasion of the Body Snatchers."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actress appeared in the following films: Charlie's Angels: Full Throttle, Mr. Brooks, and Indecent Proposal?",
+"answ":"DEMI MOORE",
+"answ2":"Demi Moore."
+},
+{
+"cat":"Comedies",
+"ques":"What 2003 comedy features characters nicknamed the Godfather, the Tank, Beanie, and Blue?",
+"answ":"OLD SCHOOL",
+"answ2":"Old School."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Who has directed all the films in the Kingsman series to date?",
+"answ":"MATTHEW VAUGHN",
+"answ2":"Matthew Vaughn."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Name one of the two actors who returned to the role of Peter Parker, alongside Tom Holland, in 2021's Spider-Man: No Way Home.",
+"answ":"ANDREW GARFIELD",
+"answ3":"TOBEY MAGUIRE",
+"answ2":"Andrew Garfield / Tobey Maguire."
+},
+{
+"cat":"Holiday Movies",
+"ques":"What 1989 modern classic, featuring Julia Louis-Dreyfus, Doris Roberts, and Brian Doyle-Murray, has the line 'I'm sorry. This is our family's first kidnapping.'?",
+"answ":"NATIONAL LAMPOON'S CHRISTMAS VACATION",
+"answ3":"CHRISTMAS VACATION",
+"answ2":"National Lampoon's Christmas Vacation."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 2002 film starring Adam Sandler, Winona Ryder, and John Turturro is a remake of a 1936 Frank Capra film?",
+"answ":"MR DEEDS",
+"answ2":"Mr. Deeds."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What actor appeared in the following films: Down with Love, Salmon Fishing in the Yemen, and Angels & Demons?",
+"answ":"EWAN MCGREGOR",
+"answ2":"Ewan McGregor."
+},
+{
+"cat":"Comedies",
+"ques":"Of the following actors, who did not appear in 22 Jump Street: Wyatt Russell, Peter Stormare, Jake Johnson, or Dave Franco?",
+"answ":"JAKE JOHNSON",
+"answ2":"Jake Johnson."
+},
+{
+"cat":"90s",
+"ques":"What 1997 disaster film set in Los Angeles stars Tommy Lee Jones, Anne Heche, and Don Cheadle with the tagline 'It's Hotter than Hell!'?",
+"answ":"VOLCANO",
+"answ2":"Volcano."
+},
+{
+"cat":"Black Cinema",
+"ques":"In Barbershop, who plays Calvin, who inherited a barbershop from his deceased father?",
+"answ":"ICE CUBE",
+"answ2":"Ice Cube."
+},
+{
+"cat":"Comedies",
+"ques":"After their high school basketball coach passes away, five friends reunite for Fourth of July Weekend in what film featuring Kevin James, Chris Rock, and Adam Sandler?",
+"answ":"GROWN UPS",
+"answ2":"Grown Ups."
+},
+{
+"cat":"2010s",
+"ques":"Which of the following actors did NOT appear in Dumb and Dumber To: Kathleen Turner, Rob Riggle, Emma Stone, or Bill Murray?",
+"answ":"EMMA STONE",
+"answ2":"Emma Stone."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"What Sam Raimi film features performances from Topher Grace, Bruce Campbell, Bryce Dallas Howard, and Kirsten Dunst?",
+"answ":"SPIDER MAN 3",
+"answ2":"Spider-Man 3."
+},
+{
+"cat":"Action/Adventure",
+"ques":"What is the title of the third film in the Bad Boys franchise?",
+"answ":"BAD BOYS FOR LIFE",
+"answ2":"Bad Boys for Life."
+},
+{
+"cat":"Family Films",
+"ques":"How many times did Richard Harris portray Albus Dumbledore in the Harry Potter series?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2."
+},
+{
+"cat":"Black Cinema",
+"ques":"Who directed Chi-Raq, a modern adaptation of the Greek play Lysistrata, set against the backdrop of gang violence in Chicago?",
+"answ":"SPIKE LEE",
+"answ2":"Spike Lee."
+},
+{
+"cat":"Black Cinema",
+"ques":"Rosario Dawson plays the character of Dina Lake in what 2000s Eddie Murphy film?",
+"answ":"THE ADVENTURES OF PLUTO NASH",
+"answ2":"The Adventures of Pluto Nash."
+},
+{
+"cat":"Black Cinema",
+"ques":"This sports film follows the true story of a high school basketball coach who suspended his undefeated team due to poor academics.",
+"answ":"COACH CARTER",
+"answ2":"Coach Carter."
+},
+{
+"cat":"Classics",
+"ques":"James Stewart stars in what 1950 film as Elwood P. Dowd, a man whose imaginary friend is a rabbit?",
+"answ":"HARVEY",
+"answ2":"Harvey."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Justin Hurwitz won an Academy Award for Best Original Score for which 2010s film?",
+"answ":"LA LA LAND",
+"answ2":"La La Land."
+},
+{
+"cat":"Comedies",
+"ques":"Which Ben Stiller film featured the line 'What is this? A center for ants? How can we be expected to teach children to learn how to read... if they can't even fit inside the building?'?",
+"answ":"ZOOLANDER",
+"answ2":"Zoolander."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Name one of the two actors who portrayed Anakin Skywalker in the Star Wars prequel trilogy.",
+"answ":"JAKE LLOYD",
+"answ3":"HAYDEN CHRISTENSEN",
+"answ2":"Jake Lloyd / Hayden Christensen."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Which 'Material Girl' singer played the role of 'All the Way Mae' Mordabito in the Penny Marshall directed A League of Their Own?",
+"answ":"MADONNA",
+"answ2":"Madonna."
+},
+{
+"cat":"Directors",
+"ques":"Which film in the Mission: Impossible franchise was the first directed by Christopher McQuarrie?",
+"answ":"MISSION IMPOSSIBLE ROGUE NATION",
+"answ3":"ROGUE NATION",
+"answ2":"Mission: Impossible Rogue Nation."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Of the following actors, which has NOT appeared in the Terminator franchise: Scott Glenn, Jason Clarke, Bill Paxton, or Lance Henriksen?",
+"answ":"SCOTT GLENN",
+"answ2":"Scott Glenn."
+},
+{
+"cat":"Holiday Movies",
+"ques":"What 1996 modern cult classic holiday movie featuring Phil Hartman, Sinbad, and Jake Lloyd, had the tagline 'Two Dads, One Toy, No Prisoners.'?",
+"answ":"JINGLE ALL THE WAY",
+"answ2":"Jingle All the Way."
+},
+{
+"cat":"Rom-coms",
+"ques":"Which actress was known as a pretty woman, went to my best friend's wedding, and then became a runaway bride?",
+"answ":"JULIA ROBERTS",
+"answ2":"Julia Roberts."
+},
+{
+"cat":"Streaming Movies",
+"ques":"David Ayer directed Will Smith and Joel Edgerton in what Netflix film where a detective must work with an orc to find a powerful wand before evil creatures do?",
+"answ":"BRIGHT",
+"answ2":"Bright."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Since Pitch Black, how many times to date has Vin Diesel reprised the role as Furyan alien Richard B. Riddick in the Riddick franchise?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (in The Chronicles of Riddick, Riddick)."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw Nicolas Cage look for a national treasure, while Shrek 2 took us to far, far away, and Zack Snyder unleashed the dawn of the dead?",
+"answ":"2004",
+"answ2":"2004."
+},
+{
+"cat":"Comedies",
+"ques":"What 2008 comedy remake featuring Alan Arkin and Dwayne 'The Rock' Johnson, featured the line 'Missed it by that much!'?",
+"answ":"GET SMART",
+"answ2":"Get Smart."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"Ivan Reitman directed what 1990s comedy that features supporting performances from David Schwimmer, Allison Janney, Temuera Morrison, and Amy Sedaris?",
+"answ":"SIX DAYS SEVEN NIGHTS",
+"answ2":"Six Days, Seven Nights."
+},
+{
+"cat":"Ramis & Reitmans",
+"ques":"Which Jason Reitman directed film featured supporting performances from J. K. Simmons, Judy Greer, and Adam Sandler?",
+"answ":"MEN WOMEN AND CHILDREN",
+"answ2":"Men, Women & Children."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Which Dan Aykroyd film, directed by John Landis, features performances from Aretha Franklin, James Brown, and Wilson Pickett?",
+"answ":"BLUES BROTHERS 2000",
+"answ2":"Blues Brothers 2000."
+},
+{
+"cat":"Animated",
+"ques":"Gilbert Gottfried voices a parrot named Iago in what 1992 Disney animated feature?",
+"answ":"ALADDIN",
+"answ2":"Aladdin."
+},
+{
+"cat":"2020s",
+"ques":"Ralph Fiennes plays the Duke of Oxford, opposite Rhys Ifans and Gemma Arterton, in what film from director Matthew Vaughn?",
+"answ":"THE KING'S MAN",
+"answ2":"The King's Man."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Pierre Morel directed what 2009 action thriller starring Liam Neeson as a former CIA operative who tracks down his kidnapped teenage daughter?",
+"answ":"TAKEN",
+"answ2":"Taken."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Dorothy finds the Yellow Brick Road is now a pile of rubble, and the Emerald City is in ruin, in what 1985 dark fantasy film?",
+"answ":"RETURN TO OZ",
+"answ2":"Return to Oz."
+},
+{
+"cat":"Biopics",
+"ques":"What 2018 biopic stars Rami Malek in an Oscar-winning performance, telling the story of the British rock group Queen?",
+"answ":"BOHEMIAN RHAPSODY",
+"answ2":"Bohemian Rhapsody."
+},
+{
+"cat":"Horror",
+"ques":"What is the title of the fourth film in the Purge franchise, featuring Lauren Vélez, Y'lan Noel, and Marisa Tomei?",
+"answ":"THE FIRST PURGE",
+"answ2":"The First Purge."
+},
+{
+"cat":"90s",
+"ques":"Adrien Lyne directed Robert Redford and Demi Moore in what 1993 romantic drama?",
+"answ":"INDECENT PROPOSAL",
+"answ2":"Indecent Proposal."
+},
+{
+"cat":"Tom Hanks",
+"ques":"Tom Hanks plays the head guard of a penitentiary's death row in what 1999 Frank Darabont film based on a Stephen King book?",
+"answ":"THE GREEN MILE",
+"answ2":"The Green Mile."
+},
+{
+"cat":"DC",
+"ques":"What year saw the releases of both Batman Begins and Constantine?",
+"answ":"2005",
+"answ2":"2005."
+},
+{
+"cat":"Dramas",
+"ques":"Mackenzie Davis features as a mysterious night nanny, alongside Charlize Theron, in what 2018 film from director Jason Reitman?",
+"answ":"TULLY",
+"answ2":"Tully."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"In what 2010s film featuring a performance from Michael Clarke Duncan will you find a fighter jet pilot with the callsign Hardball?",
+"answ":"GREEN LANTERN",
+"answ2":"Green Lantern."
+},
+{
+"cat":"Rom-coms",
+"ques":"Of the following films, which does NOT feature Matthew McConaughey: How to Lose a Guy in 10 Days, Maid in Manhattan, Ghosts of Girlfriends Past, or The Wedding Planner?",
+"answ":"MAID IN MANHATTAN",
+"answ2":"Maid in Manhattan."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What famous actor appears in the following films: The Great Gatsby, The Quick and the Dead, and Shutter Island?",
+"answ":"LEONARDO DICAPRIO",
+"answ2":"Leonardo DiCaprio."
+},
+{
+"cat":"Black Cinema",
+"ques":"What comedian played the roles of Sherman Klump, Buddy Love, and Papa Cletus Klump in 1996's The Nutty Professor?",
+"answ":"EDDIE MURPHY",
+"answ2":"Eddie Murphy."
+},
+{
+"cat":"Animated",
+"ques":"What 1999 film based on a TV show featured the Oscar-nominated song 'Blame Canada'?",
+"answ":"SOUTH PARK BIGGER LONGER AND UNCUT",
+"answ2":"South Park: Bigger, Longer & Uncut."
+},
+{
+"cat":"Comedies",
+"ques":"Which 2006 Will Ferrell comedy features performances from Gary Cole, Amy Adams, John C. Reilly, and Michael Clarke Duncan?",
+"answ":"TALLADEGA NIGHTS THE BALLAD OF RICKY BOBBY",
+"answ3":"TALLADEGA NIGHTS",
+"answ2":"Talladega Nights: The Ballad of Ricky Bobby."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Shane Black directed what sci-fi action sequel featuring Boyd Holbrook, Olivia Munn, Keegan-Michael Key, and Sterling K. Brown?",
+"answ":"THE PREDATOR",
+"answ2":"The Predator."
+},
+{
+"cat":"Talking Animal Movies",
+"ques":"Who plays Norville 'Shaggy' Rogers opposite Scooby-Doo in the James Gunn penned and Raja Gosnell directed Scooby-Doo?",
+"answ":"MATTHEW LILLARD",
+"answ2":"Matthew Lillard."
+},
+{
+"cat":"Talking Animal Movies",
+"ques":"Which SNL alumnus voices Lucky, a dog that Eddie Murphy's John adopts, in 1998's Dr. Dolittle?",
+"answ":"NORM MCDONALD",
+"answ2":"Norm McDonald."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Phil Collins makes a cameo as an English police inspector in what 1990s Steven Spielberg film in which he jokes that the missing children could all just be a prank?",
+"answ":"HOOK",
+"answ2":"Hook."
+},
+{
+"cat":"Marvel Movies",
+"ques":"Which MCU film featured the line 'You experience things and then they're over, and you still can't explain them. Gods, aliens, other dimensions. I'm just a man in a can.'?",
+"answ":"IRON MAN 3",
+"answ2":"Iron Man 3."
+},
+{
+"cat":"Wrestlers in Film",
+"ques":"John Carpenter directed Roddy Piper in what film with the line 'I have come here to chew bubblegum and kick ass... and I'm all out of bubblegum.'?",
+"answ":"THEY LIVE",
+"answ2":"They Live."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Robert Carlyle, Idris Elba, and Jeremy Renner star in what 2007 horror sequel following military forces attempting to salvage a safe zone in London?",
+"answ":"28 WEEKS LATER",
+"answ2":"28 Weeks Later."
+},
+{
+"cat":"Holiday Movies",
+"ques":"Meg Ryan's Annie wants to meet what actor as Sam at the top of the Empire State Building on Valentine's Day in the film Sleepless in Seattle?",
+"answ":"TOM HANKS",
+"answ2":"Tom Hanks."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which famous actor helped fight an armageddon, coached under the Friday night lights, and was a bad Santa twice?",
+"answ":"BILLY BOB THORNTON",
+"answ2":"Billy Bob Thornton."
+},
+{
+"cat":"Comedies",
+"ques":"Dustin Hoffman and Barbra Streisand joined Ben Stiller and Robert De Niro for the first time in what 2004 sequel directed by Jay Roach?",
+"answ":"MEET THE FOCKERS",
+"answ2":"Meet the Fockers."
+},
+{
+"cat":"Dramas",
+"ques":"Who did NOT appear in the 2021 film House of Gucci: Al Pacino, Lady Gaga, Jeremy Irons, or Penelope Cruz?",
+"answ":"PENELOPE CRUZ",
+"answ2":"Penélope Cruz."
+},
+{
+"cat":"Marvel",
+"ques":"What MCU film, directed by Alan Taylor, featured Idris Elba, Natalie Portman, Christopher Eccleston, and Tom Hiddleston?",
+"answ":"THOR THE DARK WORLD",
+"answ2":"Thor: The Dark World."
+},
+{
+"cat":"70s",
+"ques":"1975's Tommy, featuring Jack Nicholson and Elton John, is a rock fantasy based on the works of what famous British rock band?",
+"answ":"THE WHO",
+"answ2":"The Who."
+},
+{
+"cat":"Movies Involving Weddings",
+"ques":"In The Godfather, what actor says the line 'You come into my house on the day my daughter is to be married and you ask me to do murder - for money.'?",
+"answ":"MARLON BRANDO",
+"answ2":"Marlon Brando."
+},
+{
+"cat":"Movies Involving Weddings",
+"ques":"Who plays Grace Le Domas, whose wedding night takes a sinister turn when her new in-laws force her to take part in a terrifying game, in Ready or Not?",
+"answ":"SAMARA WEAVING",
+"answ2":"Samara Weaving."
+},
+{
+"cat":"Movies Involving Weddings",
+"ques":"In which of the Pirates of the Caribbean sequels do Will and Elizabeth get married at sea during the middle of a battle?",
+"answ":"PIRATES OF THE CARIBBEAN AT WORLD'S END",
+"answ3":"AT WORLD'S END",
+"answ2":"Pirates of the Caribbean: At World's End."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Bruce Willis, John Malkovich, and Anthony Hopkins star in what 2010s comic-based film from director Dean Parisot?",
+"answ":"RED 2",
+"answ2":"Red 2."
+},
+{
+"cat":"Comedies",
+"ques":"In what comedy does Steve Martin say the line 'You dirt-eating piece of slime! You scum-sucking pig! You son of a motherless goat!'?",
+"answ":"THREE AMIGOS",
+"answ2":"Three Amigos."
+},
+{
+"cat":"Wrestlers in Film",
+"ques":"Jake 'The Snake' Roberts appears as a local wrestler in what 2010s coming-of-age film featuring Jon Bernthal and Thomas Haden Church?",
+"answ":"THE PEANUT BUTTER FALCON",
+"answ2":"The Peanut Butter Falcon."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Which actor appeared in the following sci-fi films: Ender's Game, Cowboys & Aliens, and Blade Runner?",
+"answ":"HARRISON FORD",
+"answ2":"Harrison Ford."
+},
+{
+"cat":"Amblin",
+"ques":"What is the first film in the 1990s that Steven Spielberg directed?",
+"answ":"HOOK",
+"answ2":"Hook."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Alicia Vikander and Angelina Jolie have both portrayed what famous character in the Tomb Raider films?",
+"answ":"LARA CROFT",
+"answ2":"Lara Croft."
+},
+{
+"cat":"2000s",
+"ques":"What 2007 Edgar Wright comedy follows a skilled London police officer that is transferred to a small village where violent murders begin to occur?",
+"answ":"HOT FUZZ",
+"answ2":"Hot Fuzz."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which of the following actors did NOT appear in 2018's Game Night: Jason Bateman, Danny Huston, Jon Hamm, or Michael C. Hall?",
+"answ":"JON HAMM",
+"answ2":"Jon Hamm."
+},
+{
+"cat":"Dystopian Future & Time Travel",
+"ques":"Jonathan Groff and Neil Patrick Harris joined returning cast members Carrie-Anne Moss and Jada Pinkett Smith in what 2021 sci-fi film?",
+"answ":"THE MATRIX RESURRECTIONS",
+"answ2":"The Matrix Resurrections."
+},
+{
+"cat":"Star Trek",
+"ques":"In which Star Trek film does John Larroquette play a Klingon henchman named Maltz?",
+"answ":"STAR TREK III THE SEARCH FOR SPOCK",
+"answ3":"THE SEARCH FOR SPOCK",
+"answ2":"Star Trek III: The Search for Spock."
+},
+{
+"cat":"Star Trek",
+"ques":"Ben Cross plays the father of what well-known Star Trek character in 2009's Star Trek?",
+"answ":"SPOCK",
+"answ2":"Spock."
+},
+{
+"cat":"Star Trek",
+"ques":"How many Star Trek films did Leonard Nimoy direct?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (The Search for Spock, The Voyage Home)."
+},
+{
+"cat":"Star Trek",
+"ques":"In Star Trek II: The Wrath of Khan, Spock gives Kirk what Charles Dickens novel for his birthday?",
+"answ":"A TALE OF TWO CITIES",
+"answ2":"A Tale of Two Cities."
+},
+{
+"cat":"Star Trek",
+"ques":"In what Star Trek film will you see Kirk, Spock, and McCoy go camping at Yosemite National Park?",
+"answ":"STAR TREK V THE FINAL FRONTIER",
+"answ2":"Star Trek V: The Final Frontier."
+},
+{
+"cat":"2020s",
+"ques":"David Gordon Green directed Jamie Lee Curtis, Anthony Michael Hall, and Judy Greer in what 2021 slasher sequel?",
+"answ":"HALLOWEEN KILLS",
+"answ2":"Halloween Kills."
+},
+{
+"cat":"Sports",
+"ques":"In what 1985 coming-of-age film does Michael J. Fox play Scott Howard, a high school basketball player whose ordinary life is changed in drastic fashion?",
+"answ":"TEEN WOLF",
+"answ2":"Teen Wolf."
+},
+{
+"cat":"Family Films",
+"ques":"What 1995 family film features cameos from Clint Eastwood, Rodney Dangerfield, Mel Gibson, and Dan Aykroyd?",
+"answ":"CASPER",
+"answ2":"Casper."
+},
+{
+"cat":"Animated",
+"ques":"George Clooney, Meryl Streep, Jason Schwartzman, and Bill Murray provide voices in Fantastic Mr. Fox, released in what year?",
+"answ":"2009",
+"answ2":"2009."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Which actor appeared in the following sequels: Zoolander 2, Anchorman 2: The Legend Continues, and Austin Powers: The Spy Who Shagged Me?",
+"answ":"WILL FERRELL",
+"answ2":"Will Ferrell."
+},
+{
+"cat":"Holiday Movies",
+"ques":"In what 2007 David Dobkin directed film did Paul Giamatti feature as Santa Claus alongside Vince Vaughn, Elizabeth Banks, and Kathy Bates?",
+"answ":"FRED CLAUS",
+"answ2":"Fred Claus."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Mistress of Evil was the subtitle to the 2019 sequel to what 2014 dark fantasy starring Angelina Jolie, Elle Fanning, and Sharlto Copley?",
+"answ":"MALEFICENT",
+"answ2":"Maleficent."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which of the following actresses does NOT appear in the sci-fi sequel Blade Runner 2049: Ana de Armas, Rebecca Ferguson, Robin Wright, or Mackenzie Davis?",
+"answ":"REBECCA FERGUSON",
+"answ2":"Rebecca Ferguson."
+},
+{
+"cat":"Comedies",
+"ques":"What Saturday Night Live alumnus plays the lead role of Conner4Real, alongside Tim Meadows and Joan Cusack, in the 2016 mockumentary Popstar: Never Stop Never Stopping?",
+"answ":"ANDY SAMBERG",
+"answ2":"Andy Samberg."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"What Marvel film saw supporting performances from Dafne Keen, Boyd Holbrook, and Richard E. Grant?",
+"answ":"LOGAN",
+"answ2":"Logan."
+},
+{
+"cat":"Westerns",
+"ques":"What Middle-earth franchise actor features alongside Renée Zellweger, Jeremy Irons, and Lance Henriksen in the 2008 Ed Harris directed Appaloosa?",
+"answ":"VIGGO MORTENSEN",
+"answ2":"Viggo Mortensen."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Harry Connick Jr. features in a supporting role alongside Will Smith, Bill Pullman, and Jeff Goldblum in what 1996 sci-fi action film?",
+"answ":"INDEPENDENCE DAY",
+"answ2":"Independence Day."
+},
+{
+"cat":"Horror",
+"ques":"Ethan Hawke, Vincent D'Onofrio, and Fred Thompson star in what 2012 Scott Derrickson film about a novelist who moves into a house where a family was murdered?",
+"answ":"SINISTER",
+"answ2":"Sinister."
+},
+{
+"cat":"Star Trek",
+"ques":"Which film features a main villain played by Malcolm McDowell who is of the race El-Aurian?",
+"answ":"STAR TREK GENERATIONS",
+"answ2":"Star Trek Generations."
+},
+{
+"cat":"Star Trek",
+"ques":"Which Next Generation Trek film has the tagline 'The Battle For Paradise Has Begun'?",
+"answ":"STAR TREK INSURRECTION",
+"answ2":"Star Trek: Insurrection."
+},
+{
+"cat":"Sports",
+"ques":"Who stars as Jim Braddock in the 2005 Ron Howard directed boxing drama Cinderella Man?",
+"answ":"RUSSELL CROWE",
+"answ2":"Russell Crowe."
+},
+{
+"cat":"Directors",
+"ques":"Who directed the 1990s films A Simple Plan and For Love of the Game?",
+"answ":"SAM RAIMI",
+"answ2":"Sam Raimi."
+},
+{
+"cat":"Brad Pitt & George Clooney",
+"ques":"Brad Pitt voices Metro Man, a former hero who would rather pursue a career in music, in what 2010 DreamWorks animated film?",
+"answ":"MEGAMIND",
+"answ2":"Megamind."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Roselyn Sánchez and Don Cheadle join Jackie Chan and Chris Tucker in what 2000s action comedy sequel?",
+"answ":"RUSH HOUR 2",
+"answ2":"Rush Hour 2."
+},
+{
+"cat":"Marvel",
+"ques":"Which of the following actors has NOT lent their talents to a Marvel film: Alexander Skarsgård, William Hurt, Jeff Goldblum, or Bill Skarsgård?",
+"answ":"ALEXANDER SKARSGARD",
+"answ2":"Alexander Skarsgard."
+},
+{
+"cat":"Marvel Movies",
+"ques":"What is the title of the third film in the Blade franchise, which also features Ryan Reynolds and Jessica Biel?",
+"answ":"BLADE TRINITY",
+"answ2":"Blade: Trinity."
+},
+{
+"cat":"Musicals",
+"ques":"In the 1955 musical Guys and Dolls, which famed singer plays Nathan Detroit, alongside Marlon Brando's Sky Masterson?",
+"answ":"FRANK SINATRA",
+"answ2":"Frank Sinatra."
+},
+{
+"cat":"Classics",
+"ques":"Benny Hill co-stars with Michael Caine in what 1960s heist comedy film?",
+"answ":"THE ITALIAN JOB",
+"answ2":"The Italian Job."
+},
+{
+"cat":"Action/Adventure",
+"ques":"How many films in the Planet of the Apes franchise were directed by Matt Reeves?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Dave Grohl appears as Beelzeboss, a giant Satan-esque monster whom Jack Black and Kyle Gass must face off against, in what 2000s comedy?",
+"answ":"TENACIOUS D IN THE PICK OF DESTINY",
+"answ2":"Tenacious D in The Pick of Destiny."
+},
+{
+"cat":"90s",
+"ques":"In what year did a film have an asteroid threaten Earth in Armageddon, while a comet threatened Earth in Deep Impact?",
+"answ":"1998",
+"answ2":"1998."
+},
+{
+"cat":"Steven Spielberg",
+"ques":"In which Spielberg film does a cover-up spanning four U.S. Presidents push the country's first female newspaper publisher and her editor to make the information public?",
+"answ":"THE POST",
+"answ2":"The Post."
+},
+{
+"cat":"2010s",
+"ques":"Which actress appeared in the films Scott Pilgrim vs. the World, End of Watch, and A Simple Favor?",
+"answ":"ANNA KENDRICK",
+"answ2":"Anna Kendrick."
+},
+{
+"cat":"Martin Scorsese",
+"ques":"Which 1970s Martin Scorsese film was the first to be nominated for an Academy Award for Best Picture?",
+"answ":"TAXI DRIVER",
+"answ2":"Taxi Driver."
+},
+{
+"cat":"Classics",
+"ques":"What 1960s sci-fi film features supporting performances from Maurice Evans, Kim Hunter, Linda Harrison, and James Whitmore?",
+"answ":"PLANET OF THE APES",
+"answ2":"Planet of the Apes."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Dennis Quaid, Max von Sydow, and Christopher Plummer star in what 1984 film about psychics who use technology to enter people's dreams?",
+"answ":"DREAMSCAPE",
+"answ2":"Dreamscape."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"Anne Heche and Julianne Moore play sisters Marion and Lila Crane in what 1998 horror remake directed by Gus Van Sant?",
+"answ":"PSYCHO",
+"answ2":"Psycho."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Alfonso Cuarón won a Best Director Oscar for what 2018 semi-autobiographical Netflix film?",
+"answ":"ROMA",
+"answ2":"Roma."
+},
+{
+"cat":"Comedies",
+"ques":"Who starred in the 1980s comedies Spies Like Us, Caddyshack II, and Funny Farm?",
+"answ":"CHEVY CHASE",
+"answ2":"Chevy Chase."
+},
+{
+"cat":"Black Cinema",
+"ques":"Mo' Better Blues is the first collaboration between Spike Lee and what Academy Award winning actor?",
+"answ":"DENZEL WASHINGTON",
+"answ2":"Denzel Washington."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What sci-fi franchise features performances from Samuel L. Jackson, Ronny Cox, Gary Oldman, and Peter Weller?",
+"answ":"ROBOCOP",
+"answ2":"RoboCop."
+},
+{
+"cat":"2010s",
+"ques":"What famous actor won an Academy Award for Best Actor for his performance as Winston Churchill in the 2017 war drama Darkest Hour?",
+"answ":"GARY OLDMAN",
+"answ2":"Gary Oldman."
+},
+{
+"cat":"2010s",
+"ques":"In the biopic Trumbo, which Hollywood legend is the President of the Motion Picture Alliance for the Preservation of American Ideals?",
+"answ":"JOHN WAYNE",
+"answ2":"John Wayne."
+},
+{
+"cat":"2010s",
+"ques":"Which actor stars as the lead character Link in the 2016 action thriller Blood Father?",
+"answ":"MEL GIBSON",
+"answ2":"Mel Gibson."
+},
+{
+"cat":"2010s",
+"ques":"What MCU actor played English teacher Mr. Anderson in the 2012 adaptation of The Perks of Being a Wallflower?",
+"answ":"PAUL RUDD",
+"answ2":"Paul Rudd."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"In which 2010s Spider-Man film does Peter Parker have a crush on a schoolmate named Liz?",
+"answ":"SPIDER MAN HOMECOMING",
+"answ2":"Spider-Man: Homecoming."
+},
+{
+"cat":"Biopics",
+"ques":"What 1990s biopic co-stars Kyle MacLachlan, Frank Whaley, and Kevin Dillon?",
+"answ":"THE DOORS",
+"answ2":"The Doors."
+},
+{
+"cat":"80s",
+"ques":"Who plays hard-luck cabbie John Winger, who enlists in the U.S. Army with his close pal Russell Ziskey, in the comedy Stripes?",
+"answ":"BILL MURRAY",
+"answ2":"Bill Murray."
+},
+{
+"cat":"Comedies",
+"ques":"Which character, played by Jim Varney, was scared stupid, saved Christmas, and goes to jail?",
+"answ":"ERNEST P WORRELL",
+"answ3":"ERNEST",
+"answ2":"Ernest P. Worrell."
+},
+{
+"cat":"Black Cinema",
+"ques":"Who plays Carrie Carter, Kevin Hart's unorthodox teacher, in the 2018 film Night School?",
+"answ":"TIFFANY HADDISH",
+"answ2":"Tiffany Haddish."
+},
+{
+"cat":"2010s",
+"ques":"What 2010s film, featuring Oscar Isaac, Albert Brooks, and Carey Mulligan, featured the tagline 'There Are No Clean Getaways'?",
+"answ":"DRIVE",
+"answ2":"Drive."
+},
+{
+"cat":"Historical Epics & Dramas",
+"ques":"Of the following actors, who did NOT appear in Ridley Scott's Kingdom of Heaven: Liam Neeson, Cate Blanchett, Michael Sheen, or Eva Green?",
+"answ":"CATE BLANCHETT",
+"answ2":"Cate Blanchett."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which of the following movies does NOT feature Bradley Cooper: Limitless, The Mule, The Fighter, or Yes Man?",
+"answ":"THE FIGHTER",
+"answ2":"The Fighter."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Of the following, who does NOT appear in the 2019 action comedy Charlie's Angels: Jaclyn Smith, Demi Moore, Ella Balinska, or Elizabeth Banks?",
+"answ":"DEMI MOORE",
+"answ2":"Demi Moore."
+},
+{
+"cat":"Monster Movies",
+"ques":"In what 2013 sci-fi monster film will you find the characters Marshal Stacker Pentecost, Mako Mori, Raleigh Becket, and Hannibal Chau?",
+"answ":"PACIFIC RIM",
+"answ2":"Pacific Rim."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"How many times have both a Rocky and a Rambo movie been released in the same year?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (1982 had Rocky III, First Blood; 1985 had Rocky IV, Rambo: First Blood Part II)."
+},
+{
+"cat":"Streaming Movies",
+"ques":"What actor plays the character known as One in the 2019 Michael Bay directed Netflix action thriller 6 Underground?",
+"answ":"RYAN REYNOLDS",
+"answ2":"Ryan Reynolds."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"What is the title of the 2021 sequel to the 2002 DreamWorks animated film Spirit: Stallion of the Cimarron?",
+"answ":"SPIRIT UNTAMED",
+"answ2":"Spirit Untamed."
+},
+{
+"cat":"2000s",
+"ques":"What Fast & Furious franchise actress plays Eden, a surfer and best friend to Kate Bosworth's Anne Marie, in the 2002 film Blue Crush?",
+"answ":"MICHELLE RODRIGUEZ",
+"answ2":"Michelle Rodriguez."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw the releases of Iron Man 3 and Fast & Furious 6?",
+"answ":"2013",
+"answ2":"2013."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"Robert Downey Jr. appeared in the films Kiss Kiss Bang Bang and Good Night, and Good Luck in what year?",
+"answ":"2005",
+"answ2":"2005."
+},
+{
+"cat":"Jim Carrey",
+"ques":"How many movies did Jim Carrey star in in the year 1994?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3 (Ace Ventura: Pet Detective, The Mask, Dumb and Dumber)."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"The sci-fi films Blade Runner and Star Trek II: The Wrath of Khan were released in what year?",
+"answ":"1982",
+"answ2":"1982."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"What year saw the releases of the Mike Myers movies So I Married an Axe Murderer and Wayne's World 2?",
+"answ":"1993",
+"answ2":"1993."
+},
+{
+"cat":"2020s",
+"ques":"Which actor, who also co-directed the film, plays the lead role of U.S. Army Ranger Jackson Briggs in 2022's Dog?",
+"answ":"CHANNING TATUM",
+"answ2":"Channing Tatum."
+},
+{
+"cat":"Action/Adventure",
+"ques":"What actor appeared in the following movies: Johnny Mnemonic, I Come in Peace, Universal Soldier, and The Expendables?",
+"answ":"DOLPH LUNDGREN",
+"answ2":"Dolph Lundgren."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What famed musician dealt with her monster-in-law, was out of sight, made a U-turn, and in 2022 attempted to marry me?",
+"answ":"JENNIFER LOPEZ",
+"answ2":"Jennifer Lopez."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What famous actor has played roles with the names of Major William Cage, Stacee Jaxx, and Pete Mitchell?",
+"answ":"TOM CRUISE",
+"answ2":"Tom Cruise."
+},
+{
+"cat":"Comedies",
+"ques":"In what 2004 comedy starring Jon Heder does a family keep a pet llama named Tina?",
+"answ":"NAPOLEON DYNAMITE",
+"answ2":"Napoleon Dynamite."
+},
+{
+"cat":"Holiday Movies",
+"ques":"Who plays the role of Kate Andrich, who works a dead-end job as an elf at a year-round Christmas shop in Central London in the 2019 rom-com Last Christmas?",
+"answ":"EMILIA CLARKE",
+"answ2":"Emilia Clarke."
+},
+{
+"cat":"Directors",
+"ques":"What 1998 action film featuring Chow Yun-fat, Mira Sorvino, and Michael Rooker was Antoine Fuqua's feature film directorial debut?",
+"answ":"THE REPLACEMENT KILLERS",
+"answ2":"The Replacement Killers."
+},
+{
+"cat":"Wrestlers in Film",
+"ques":"Jerry 'The King' Lawler and Jim Ross appear opposite Jim Carrey in what 1999 biopic from director Miloš Forman?",
+"answ":"MAN ON THE MOON",
+"answ2":"Man on the Moon."
+},
+{
+"cat":"Oscar Movies",
+"ques":"Director Joe Johnston has won one Oscar in his career, though instead of winning for directing, he won for Visual Effects for what film?",
+"answ":"RAIDERS OF THE LOST ARK",
+"answ2":"Raiders of the Lost Ark."
+},
+{
+"cat":"Oscar Movies",
+"ques":"My Left Foot and Born on the Fourth of July were both nominated for Best Picture in what year?",
+"answ":"1990",
+"answ2":"1990."
+},
+{
+"cat":"Oscar Movies",
+"ques":"This 2017 film won the Oscar for Best Animated Feature at the 90th Academy Awards in 2018.",
+"answ":"COCO",
+"answ2":"Coco."
+},
+{
+"cat":"Oscar Movies",
+"ques":"The Elton John biopic Rocketman was nominated for a single Academy Award, which it won. What was that award?",
+"answ":"BEST ORIGINAL SONG",
+"answ2":"Best Original Song."
+},
+{
+"cat":"Oscar Movies",
+"ques":"Scott Neustadter and Michael H. Weber were nominated for an Academy Award writing which 2017 film?",
+"answ":"THE DISASTER ARTIST",
+"answ2":"The Disaster Artist."
+},
+{
+"cat":"Jamie Lee Curtis",
+"ques":"Which SNL actor plays Vic Frohmeyer, the Kranks' domineering neighbor, in 2004's Christmas with the Kranks, featuring Tim Allen and Jamie Lee Curtis?",
+"answ":"DAN AYKROYD",
+"answ2":"Dan Aykroyd."
+},
+{
+"cat":"Jamie Lee Curtis",
+"ques":"In what 1980 horror film does Jamie Lee Curtis appear with her mother Janet Leigh, who plays the character Kathy Williams?",
+"answ":"THE FOG",
+"answ2":"The Fog."
+},
+{
+"cat":"Jamie Lee Curtis",
+"ques":"Which actor plays Simon, a used car salesman pretending to be a covert agent, in 1994's True Lies?",
+"answ":"BILL PAXTON",
+"answ2":"Bill Paxton."
+},
+{
+"cat":"Morgan Freeman",
+"ques":"In how many Christopher Nolan films did Morgan Freeman portray Lucius Fox, alongside Christian Bale?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Which Academy Award winning actress plays the role of Padmé Amidala in the Star Wars prequel trilogy?",
+"answ":"NATALIE PORTMAN",
+"answ2":"Natalie Portman."
+},
+{
+"cat":"Scotts",
+"ques":"Ridley Scott had two films released in 2001. One was Black Hawk Down. Name the other.",
+"answ":"HANNIBAL",
+"answ2":"Hannibal."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"Tom Savini directed Tony Todd and Patricia Tallman in what 1990 horror remake, which begins in a remote Pennsylvania cemetery?",
+"answ":"NIGHT OF THE LIVING DEAD",
+"answ2":"Night of the Living Dead."
+},
+{
+"cat":"70s",
+"ques":"In the 1970s, what director had close encounters of the third kind, took us back to 1941, and made us scared of the water in Jaws?",
+"answ":"STEVEN SPIELBERG",
+"answ2":"Steven Spielberg."
+},
+{
+"cat":"Thrillers",
+"ques":"In 1998's U.S. Marshals, who reprises his Academy Award winning role of Sam Gerard from The Fugitive, alongside newcomers Wesley Snipes and Robert Downey Jr.?",
+"answ":"TOMMY LEE JONES",
+"answ2":"Tommy Lee Jones."
+},
+{
+"cat":"Black Cinema",
+"ques":"How many times has Samuel L. Jackson played the role of Detective John Shaft?",
+"answ":"2",
+"answ2":"2."
+},
+{
+"cat":"Rom-coms",
+"ques":"What actress famously fell in love three times with Tom Hanks, first when he was versus a volcano, then while feeling sleepless in Seattle, and finally when AOL said 'You've Got Mail'?",
+"answ":"MEG RYAN",
+"answ2":"Meg Ryan."
+},
+{
+"cat":"Family Films",
+"ques":"Christopher Lloyd appears as the Keeper of the Books and Guardian of the Written Word, opposite Macaulay Culkin as Richard Tyler, in what 1994 family adventure film?",
+"answ":"THE PAGEMASTER",
+"answ2":"The Pagemaster."
+},
+{
+"cat":"Comedies",
+"ques":"What famous stand-up comedian played a righteous dude in the Bill & Ted series and an inventive cardinal in Dogma, and voices a hippie van in Cars?",
+"answ":"GEORGE CARLIN",
+"answ2":"George Carlin."
+},
+{
+"cat":"Steven Spielberg",
+"ques":"What 2018 Spielberg film featuring Tye Sheridan opens with Van Halen's classic 'Jump'?",
+"answ":"READY PLAYER ONE",
+"answ2":"Ready Player One."
+},
+{
+"cat":"Animated",
+"ques":"Channing Tatum voices Migo, a young yeti that comes across a human being in what 2018 film also featuring Zendaya and LeBron James?",
+"answ":"SMALLFOOT",
+"answ2":"Smallfoot."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Who plays the lead role of Daryl Ward, a human LAPD officer working alongside Joel Edgerton's Nick Jakoby, the nation's first orc police officer, in the David Ayer film Bright?",
+"answ":"WILL SMITH",
+"answ2":"Will Smith."
+},
+{
+"cat":"2010s",
+"ques":"Ed Helms stars as Tim Lippe, a Wisconsin man who represents his company at an annual insurance convention in what 2010s comedy?",
+"answ":"CEDAR RAPIDS",
+"answ2":"Cedar Rapids."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"To date, how many films in the Indiana Jones franchise has John Williams composed the score for?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5 (Raiders of the Lost Ark, The Temple of Doom, The Last Crusade, The Kingdom of the Crystal Skull, Dial of Destiny)."
+},
+{
+"cat":"Family Films",
+"ques":"Peter Capaldi, Nicole Kidman, Jim Broadbent, and Sally Hawkins all feature as supporting roles in what 2015 family film from director Paul King?",
+"answ":"PADDINGTON",
+"answ2":"Paddington."
+},
+{
+"cat":"90s",
+"ques":"Name one of the two Academy Award winning films released by Steven Spielberg in 1993.",
+"answ":"SCHINDLER'S LIST",
+"answ3":"JURASSIC PARK",
+"answ2":"Jurassic Park / Schindler's List."
+},
+{
+"cat":"Rom-coms",
+"ques":"Sixteen Candles, featuring Molly Ringwald, is the feature film directorial debut of what famous coming-of-age director?",
+"answ":"JOHN HUGHES",
+"answ2":"John Hughes."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Who directed the following sci-fi horror films: Upgrade and The Invisible Man (2020)?",
+"answ":"LEIGH WHANNELL",
+"answ2":"Leigh Whannell."
+},
+{
+"cat":"Marvel Movies",
+"ques":"Who directed Andrew Garfield in The Amazing Spider-Man?",
+"answ":"MARC WEBB",
+"answ2":"Marc Webb."
+},
+{
+"cat":"Marvel Movies",
+"ques":"Which actor plays Dieter Reinhardt, a member of the Bloodpack who bears a particular grudge against Blade in Blade II?",
+"answ":"RON PERLMAN",
+"answ2":"Ron Perlman."
+},
+{
+"cat":"Marvel Movies",
+"ques":"Who played Stick in 2005's Elektra?",
+"answ":"TERENCE STAMP",
+"answ2":"Terence Stamp."
+},
+{
+"cat":"Marvel Movies",
+"ques":"Who played Bobby Drake a.k.a. Iceman in X-Men, X2, and X-Men: The Last Stand?",
+"answ":"SHAWN ASHMORE",
+"answ2":"Shawn Ashmore."
+},
+{
+"cat":"Marvel",
+"ques":"In X-Men: First Class, what did Magneto kill Sebastian Shaw with?",
+"answ":"A COIN",
+"answ3":"COIN",
+"answ2":"A coin."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"In what Rocky film will you see Sylvester Stallone go against Clubber Lang, played by Mr. T?",
+"answ":"ROCKY III",
+"answ2":"Rocky III."
+},
+{
+"cat":"Dramas",
+"ques":"Which Oscar-winning actress stars in the 1993 drama A Home of Our Own, as a single mother of six who struggles to find a permanent living situation for her family?",
+"answ":"KATHY BATES",
+"answ2":"Kathy Bates."
+},
+{
+"cat":"Horror",
+"ques":"David Gordon Green directed what 2018 horror film that featured the return of Jamie Lee Curtis to her iconic role of Laurie Strode?",
+"answ":"HALLOWEEN",
+"answ2":"Halloween."
+},
+{
+"cat":"Animated",
+"ques":"What Pirates of the Caribbean director also helmed 2011's Rango, which would go on to win the Academy Award for Best Animated Feature?",
+"answ":"GORE VERBINSKI",
+"answ2":"Gore Verbinski."
+},
+{
+"cat":"Musicals",
+"ques":"What Star Wars actor appeared in the musicals Velvet Goldmine, Moulin Rouge!, and 2017's Beauty and the Beast?",
+"answ":"EWAN MCGREGOR",
+"answ2":"Ewan McGregor."
+},
+{
+"cat":"Bill Murray",
+"ques":"What giant monster does Ray summon at the end of the original Ghostbusters, simply by thinking about it?",
+"answ":"STAY PUFT MARSHMALLOW MAN",
+"answ2":"Stay Puft Marshmallow Man."
+},
+{
+"cat":"2000s",
+"ques":"What actress played, captain of the East Compton Clovers, in 2000's Bring It On?",
+"answ":"GABRIELLE UNION",
+"answ2":"Gabrielle Union."
+},
+{
+"cat":"2000s",
+"ques":"In Almost Famous, who plays band manager Dennis Hope?",
+"answ":"JIMMY FALLON",
+"answ2":"Jimmy Fallon."
+},
+{
+"cat":"Pixar",
+"ques":"Which James Bond actor is the voice of the toy Mr. Pricklepants in Toy Story 3?",
+"answ":"TIMOTHY DALTON",
+"answ2":"Timothy Dalton."
+},
+{
+"cat":"Pixar",
+"ques":"In 2013's Monsters University, which Marvel villain actor voices Professor Derek Knight, the teacher of 'Scaring 101'?",
+"answ":"ALFRED MOLINA",
+"answ2":"Alfred Molina."
+},
+{
+"cat":"Pixar",
+"ques":"In what Pixar film will you find the characters Holley Shiftwell, Brent Mustangburger, and Rod Redline?",
+"answ":"CARS 2",
+"answ2":"Cars 2."
+},
+{
+"cat":"Pixar",
+"ques":"Which comedian provides the voice of the angry ladybug Francis in Pixar's A Bug's Life?",
+"answ":"DENIS LEARY",
+"answ2":"Denis Leary."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What is the title of the 2018 sequel to Pacific Rim, starring John Boyega?",
+"answ":"PACIFIC RIM UPRISING",
+"answ2":"Pacific Rim: Uprising."
+},
+{
+"cat":"Sigourney Weaver",
+"ques":"Which 1970s Best Picture winner was the film debut of Sigourney Weaver, opposite Diane Keaton, Paul Simon, and Shelley Duvall?",
+"answ":"ANNIE HALL",
+"answ2":"Annie Hall."
+},
+{
+"cat":"Paul Newman & Robert Redford",
+"ques":"Sidney Poitier, Dan Aykroyd, and Robert Redford star in what 1992 crime comedy directed by Phil Alden Robinson?",
+"answ":"SNEAKERS",
+"answ2":"Sneakers."
+},
+{
+"cat":"Comedies",
+"ques":"What 1980s comedy features Michael McKean, Ben Stein, Edie McClurg, and Kevin Bacon in cameo appearances?",
+"answ":"PLANES TRAINS AND AUTOMOBILES",
+"answ2":"Planes, Trains and Automobiles."
+},
+{
+"cat":"Sports",
+"ques":"Which actor appeared in the sports films Blue Chips, North Dallas Forty, and Warrior?",
+"answ":"NICK NOLTE",
+"answ2":"Nick Nolte."
+},
+{
+"cat":"Musicals",
+"ques":"What 2007 Disney musical with the songs 'True Love's Kiss' and 'That's How You Know' featured performances from Idina Menzel and Timothy Spall?",
+"answ":"ENCHANTED",
+"answ2":"Enchanted."
+},
+{
+"cat":"Holiday Movies",
+"ques":"Which comedian gave performances in the following holiday films: Hubie Halloween, Home Sweet Home Alone, and 2018's The Grinch?",
+"answ":"KENAN THOMPSON",
+"answ2":"Kenan Thompson."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"For which Avengers film did Alan Silvestri NOT compose the score?",
+"answ":"AVENGERS AGE OF ULTRON",
+"answ3":"AGE OF ULTRON",
+"answ2":"Avengers: Age of Ultron."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Which film in the Ocean's franchise features Rihanna as a tech-savvy hacker, Nine Ball?",
+"answ":"OCEAN'S 8",
+"answ2":"Ocean's 8."
+},
+{
+"cat":"2010s",
+"ques":"Andy Samberg and Tim Meadows are attacked by killer bees in what 2010s mockumentary?",
+"answ":"POPSTAR NEVER STOP NEVER STOPPING",
+"answ2":"Popstar: Never Stop Never Stopping."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"What year saw sequels in the Halloween, Men in Black, and Star Trek franchises?",
+"answ":"2002",
+"answ2":"2002 (with Halloween: Resurrection, Men in Black II, Star Trek: Nemesis)."
+},
+{
+"cat":"Thrillers",
+"ques":"Who did NOT appear in 2004's Collateral: Javier Barden, Jason Statham, Jada Pinkett Smith, or Regina King?",
+"answ":"REGINA KING",
+"answ2":"Regina King."
+},
+{
+"cat":"Directors",
+"ques":"What director, who acted in the Halloween series, directed the 1990s comedies Dennis the Menace and Major Payne?",
+"answ":"NICK CASTLE",
+"answ2":"Nick Castle."
+},
+{
+"cat":"Wizarding World",
+"ques":"What Oscar-winning actor plays the new Potions professor, Horace Slughorn, in Harry Potter and the Half-Blood Prince?",
+"answ":"JIM BROADBENT",
+"answ2":"Jim Broadbent."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"George Clooney was in Out of Sight and which other film in 1998?",
+"answ":"THE THIN RED LINE",
+"answ2":"The Thin Red Line."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actress played Snow White in Snow White and the Huntsman, was one of Charlie's Angels, and married a vampire in the Twilight franchise?",
+"answ":"KRISTEN STEWART",
+"answ2":"Kristen Stewart."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Who was nominated for an Academy Award for directing Gary Oldman as Herman J. Mankiewicz in the 2020 Netflix biopic Mank?",
+"answ":"DAVID FINCHER",
+"answ2":"David Fincher."
+},
+{
+"cat":"Wrestlers in Film",
+"ques":"Tyler Mane appears opposite James Marsden and Hugh Jackman in what 2000 comic book adaptation?",
+"answ":"X MEN",
+"answ2":"X-Men."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What 2001 sci-fi action film is the the third in a franchise and features performances from William H. Macy, Téa Leoni, and Laura Dern?",
+"answ":"JURASSIC PARK III",
+"answ2":"Jurassic Park III."
+},
+{
+"cat":"Sports",
+"ques":"Peyton Reed directed Kirsten Dunst and Gabrielle Union in what 2000 sports comedy about rival cheerleading teams?",
+"answ":"BRING IT ON",
+"answ2":"Bring It On."
+},
+{
+"cat":"Dramas",
+"ques":"What 2016 biographical crime drama features performances from Melissa Leo, Zachary Quinto, Nicolas Cage, and Timothy Olyphant?",
+"answ":"SNOWDEN",
+"answ2":"Snowden."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Of the following actors, who does NOT appear in the Mummy franchise: Michelle Yeoh, Paul Bettany, John Hannah, or Maria Bello?",
+"answ":"PAUL BETTANY",
+"answ2":"Paul Bettany."
+},
+{
+"cat":"Belated Sequels",
+"ques":"Which Oscar-winning director brought Ewan McGregor's Mark 'Rent Boy' Renton and Robert Carlyle's Francis 'Franco' Begbie back to the big screen in T2 Trainspotting?",
+"answ":"DANNY BOYLE",
+"answ2":"Danny Boyle."
+},
+{
+"cat":"Belated Sequels",
+"ques":"Which Mike Flanagan regular plays the bartender, an apparition who calls himself Lloyd but resembles Dan's late father Jack Torrance, in Doctor Sleep?",
+"answ":"HENRY THOMAS",
+"answ2":"Henry Thomas."
+},
+{
+"cat":"Belated Sequels",
+"ques":"What 1980s belated horror sequel from director Richard Franklin featured performances from Robert Loggia, Meg Tilly, Dennis Franz, and Vera Miles?",
+"answ":"PSYCHO II",
+"answ2":"Psycho II."
+},
+{
+"cat":"Belated Sequels",
+"ques":"Who was nominated for an Academy Award for the role of Vincenzo Corleone, Michael's nephew and the illegitimate son of Sonny, in The Godfather Part III?",
+"answ":"ANDY GARCÍA",
+"answ2":"Andy García."
+},
+{
+"cat":"Belated Sequels",
+"ques":"Who makes a cameo as Ivo Shandor, the leader of a Gozer-worshipping cult, who is quickly dispatched by the Sumerian god, in Ghostbusters: Afterlife? ",
+"answ":"J K SIMMONS",
+"answ3":"JK SIMMONS",
+"answ2":"J. K. Simmons."
+},
+{
+"cat":"Black Cinema",
+"ques":"Who received an Academy Award nomination for Best Supporting Actress for portrayal as Sofia in the Steven Spielberg directed film The Color Purple?",
+"answ":"OPRAH WINFREY",
+"answ2":"Oprah Winfrey."
+},
+{
+"cat":"Black Cinema",
+"ques":"Which actor had roles in Scary Movie 3, Along Came Polly, and About Last Night?",
+"answ":"KEVIN HART",
+"answ2":"Kevin Hart."
+},
+{
+"cat":"Black Cinema",
+"ques":"Forest Whitaker plays jazz musician Charlie Parker in what film?",
+"answ":"BIRD",
+"answ2":"Bird."
+},
+{
+"cat":"Horror",
+"ques":"The original versions of 13 Ghosts, The Haunting, and The Little Shop of Horrors were released during which decade?",
+"answ":"1960S",
+"answ3":"60S",
+"answ2":"1960s."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Peter Berg, Javier Bardem, and Jason Statham all appear in what 2000s Tom Cruise action thriller film?",
+"answ":"COLLATERAL",
+"answ2":"Collateral."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Queen Latifah features as the voice of Dispatcher Love in what psychological thriller featuring Nicolas Cage, John Goodman, and Cliff Curtis?",
+"answ":"BRINGING OUT THE DEAD",
+"answ2":"Bringing Out the Dead."
+},
+{
+"cat":"Action/Adventure",
+"ques":"How many films in the Pirates of the Caribbean franchise were directed by Gore Verbinski?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3."
+},
+{
+"cat":"Directors",
+"ques":"Which of the following sports films was NOT directed by John G. Avildsen: The Karate Kid Part II, Rocky II, The Karate Kid, or Rocky?",
+"answ":"ROCKY II",
+"answ2":"Rocky II."
+},
+{
+"cat":"Family Films",
+"ques":"Gene Wilder and Johnny Depp have both portrayed what children's book character?",
+"answ":"WILLY WONKA",
+"answ2":"Willy Wonka."
+},
+{
+"cat":"Thrillers",
+"ques":"David Fincher directed what famous actress alongside a young Kristen Stewart and Jared Leto in 2002's Panic Room?",
+"answ":"JODIE FOSTER",
+"answ2":"Jodie Foster."
+},
+{
+"cat":"Classics",
+"ques":"Fill in the missing word of the following films: Imitation of ___ and The Secret ___ of Walter Mitty.",
+"answ":"LIFE",
+"answ2":"Life."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"In which of the following films did Bruce Willis NOT appear: The Siege, True Romance, 16 Blocks, or Surrogates?",
+"answ":"TRUE ROMANCE",
+"answ2":"True Romance."
+},
+{
+"cat":"2000s",
+"ques":"How many films in the Fast & Furious saga were released in the decade of the 2000s?",
+"answ":"4",
+"answ3":"FOUR",
+"answ2":"4 (The Fast and the Furious, 2 Fast 2 Furious, Tokyo Drift, Fast & Furious)."
+},
+{
+"cat":"Batman",
+"ques":"In what film featuring Batman will you also find the characters the Joker, Katana, and Amanda Waller?",
+"answ":"SUICIDE SQUAD",
+"answ2":"Suicide Squad."
+},
+{
+"cat":"Batman",
+"ques":"Which late night talk show host voices Batman in Teen Titans Go! To the Movies?",
+"answ":"JIMMY KIMMEL",
+"answ2":"Jimmy Kimmel."
+},
+{
+"cat":"Batman",
+"ques":"In what post-2000 Batman film will you hear the line 'Are you so desperate to fight criminals that you lock yourself in to take them on one at a time?'?",
+"answ":"BATMAN BEGINS",
+"answ2":"Batman Begins."
+},
+{
+"cat":"Oscar Movies",
+"ques":"What 2021 psychological thriller from director Guillermo del Toro was nominated for four Academy Awards including Best Picture?",
+"answ":"NIGHTMARE ALLEY",
+"answ2":"Nightmare Alley."
+},
+{
+"cat":"Spy Movies",
+"ques":"Which actor plays the CIA assassin August Walker, tasked with observing Ethan and his team, in Mission: Impossible – Fallout?",
+"answ":"HENRY CAVILL",
+"answ2":"Henry Cavill."
+},
+{
+"cat":"Morgan Freeman",
+"ques":"Morgan Freeman appears as CIA Director Bill Cabot alongside Ciarán Hinds, Bruce McGill, and Ron Rifkin in what 2000s thriller?",
+"answ":"THE SUM OF ALL FEARS",
+"answ2":"The Sum of All Fears."
+},
+{
+"cat":"Scotts",
+"ques":"What 1980s action drama directed by Tony Scott has the characters Jester, Stinger, Iceman, and Viper?",
+"answ":"TOP GUN",
+"answ2":"Top Gun."
+},
+{
+"cat":"2020s",
+"ques":"Who stars in the titular role of the 2022 Matt Reeves directed The Batman?",
+"answ":"ROBERT PATTINSON",
+"answ2":"Robert Pattinson."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Of the following actors, who did NOT appear in The Mummy: Tomb of the Dragon Emperor: Jet Li, Maria Bello, Oded Fehr, or Michelle Yeoh?",
+"answ":"ODED FEHR",
+"answ2":"Oded Fehr."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"What 2013 film based on a DC comic featured supporting performances from Christopher Meloni, Diane Lane, Russell Crowe, and Amy Adams?",
+"answ":"MAN OF STEEL",
+"answ2":"Man of Steel."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What famous actor has played roles with the names of Tugg Speedman, Mr. Furious, Larry Daley, and Walter Mitty?",
+"answ":"BEN STILLER",
+"answ2":"Ben Stiller."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Who plays Adam Reed, a time pilot in a dystopian 2050 who risks his life to try and uncover the truth behind his wife's disappearance in Netflix's The Adam Project?",
+"answ":"RYAN REYNOLDS",
+"answ2":"Ryan Reynolds."
+},
+{
+"cat":"2020s",
+"ques":"This 2021 spy film features supporting performances from Naomie Harris, Lashana Lynch, and Ana de Armas.",
+"answ":"NO TIME TO DIE",
+"answ2":"No Time to Die."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Which 2002 slasher sequel from director Rick Rosenthal features performances from Katee Sackhoff, Sean Patrick Thomas, and Jamie Lee Curtis?",
+"answ":"HALLOWEEN RESURRECTION",
+"answ2":"Halloween: Resurrection."
+},
+{
+"cat":"Marvel Movies",
+"ques":"Which 2010s Marvel film featured performances from Idris Elba, Anthony Head, and Christopher Lambert?",
+"answ":"GHOST RIDER SPIRIT OF VENGEANCE",
+"answ2":"Ghost Rider: Spirit of Vengeance."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Director Richard Donner brought to life what famed DC hero played by Christopher Reeve in 1978.",
+"answ":"SUPERMAN",
+"answ2":"Superman."
+},
+{
+"cat":"Thrillers",
+"ques":"What 1990s thriller featured the tagline 'A murdered wife. A one-armed man. An obsessed detective. The chase begins.'?",
+"answ":"THE FUGITIVE",
+"answ2":"The Fugitive."
+},
+{
+"cat":"2020s",
+"ques":"What 2022 action film features performances from Yahya Abdul-Mateen II, Moses Ingram, Eiza González, and Garret Dillahunt?",
+"answ":"AMBULANCE",
+"answ2":"Ambulance."
+},
+{
+"cat":"Horror",
+"ques":"Which President of the United States is the titular vampire hunter in the 2012 fantasy horror film of the same name?",
+"answ":"ABRAHAM LINCOLN",
+"answ2":"Abraham Lincoln."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What famous actor has portrayed such roles as Don John, Jack Traven, and Johnny Utah?",
+"answ":"KEANU REEVES",
+"answ2":"Keanu Reeves."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"What 1980s comic book film featuring Lea Thompson had the tagline 'You will believe that a duck can talk.'?",
+"answ":"HOWARD THE DUCK",
+"answ2":"Howard the Duck."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"What 2013 fantasy prequel directed by Sam Raimi features performances from Mila Kunis, Bruce Campbell, Zach Braff, and Michelle Williams?",
+"answ":"OZ THE GREAT AND POWERFUL",
+"answ2":"Oz the Great and Powerful."
+},
+{
+"cat":"Animated",
+"ques":"Of the following actors, who did NOT voice a character in Kubo and the Two Strings: Matthew McConaughey, Kate Mara, Ralph Fiennes, or Charlize Theron?",
+"answ":"KATE MARA",
+"answ2":"Kate Mara."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What Remember the Titans actor appears in the following films: Unstoppable, John Q., Clerks II, and American History X?",
+"answ":"ETHAN SUPLEE",
+"answ2":"Ethan Suplee."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Which famed musician has portrayed Andy Warhol, a goblin king, and the man who fell to Earth?",
+"answ":"DAVID BOWIE",
+"answ2":"David Bowie."
+},
+{
+"cat":"Dramas",
+"ques":"Which of the following did NOT appear in 2004's Eternal Sunshine of the Mind: Tom Wilkinson, Linda Fiorentino, Elijah Wood, or Jane Adams?",
+"answ":"LINDA FIORENTINO",
+"answ2":"Linda Fiorentino."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"How many Star Trek films were directed by cast members of the franchise?",
+"answ":"5",
+"answ3":"FIVE",
+"answ2":"5 (The Search for Spock, The Voyage Home by Nimoy; The Final Frontier by Shatner; First Contact, Insurrection by Frakes)."
+},
+{
+"cat":"Wachowskis",
+"ques":"What 1990s action thriller featuring Sylvester Stallone was written by the Wachowskis and Brian Helgeland?",
+"answ":"ASSASSINS",
+"answ2":"Assassins."
+},
+{
+"cat":"Wachowskis",
+"ques":"Which film co-written by the Wachowskis begins on the Chatham Islands in 1849?",
+"answ":"CLOUD ATLAS",
+"answ2":"Cloud Atlas."
+},
+{
+"cat":"Wachowskis",
+"ques":"Lana and Lilly Wachowski directed Cloud Atlas alongside what other filmmaker, who is the film's third credited director?",
+"answ":"TOM TYKWER",
+"answ2":"Tom Tykwer."
+},
+{
+"cat":"Wachowskis",
+"ques":"In the Wachowskis-directed Speed Racer, Matthew Fox portrays a mysterious masked racer called what?",
+"answ":"RACER X",
+"answ2":"Racer X."
+},
+{
+"cat":"Coming of Age",
+"ques":"What Oscar winning actress had an early role as a store employee named Gina in the film Empire Records?",
+"answ":"RENEE ZELLWEGER",
+"answ2":"Renée Zellweger."
+},
+{
+"cat":"Coming of Age",
+"ques":"Kayla Day ends all her motivational YouTube videos by saying what word in the film Eighth Grade?",
+"answ":"GUCCI",
+"answ2":"Gucci."
+},
+{
+"cat":"Coming of Age",
+"ques":"What 2004 comedy takes place at a Christian high school and stars Jena Malone, Mandy Moore, and Macaulay Culkin?",
+"answ":"SAVED",
+"answ2":"Saved!."
+},
+{
+"cat":"Tim Burton",
+"ques":"Michael Clarke Duncan plays Colonel Attar, a military officer and former associate of Tim Roth's General Thade in what 2000s sci-fi film from director Tim Burton?",
+"answ":"PLANET OF THE APES",
+"answ2":"Planet of the Apes."
+},
+{
+"cat":"Comedies",
+"ques":"Jane Curtin co-stars with Dan Aykroyd as Prymaat, the wife of Aykroyd's Beldar, in what film based on an SNL sketch?",
+"answ":"CONEHEADS",
+"answ2":"Coneheads."
+},
+{
+"cat":"Disney",
+"ques":"What 2007 live-action Disney film, which was based on a book, features performances from Zooey Deschanel, AnnaSophia Robb, and Robert Patrick?",
+"answ":"BRIDGE TO TERABITHIA",
+"answ2":"Bridge to Terabithia."
+},
+{
+"cat":"Robert Rodriguez",
+"ques":"Lady Gaga appears as a sympathetic waitress named Bertha in what Robert Rodriguez film featuring Alexa Vega and Jessica Alba?",
+"answ":"SIN CITY A DAME TO KILL FOR",
+"answ2":"Sin City: A Dame to Kill For."
+},
+{
+"cat":"Rom-coms",
+"ques":"Which actress found love to be just like heaven, was legally blonde, and learned the importance of being earnest?",
+"answ":"REESE WITHERSPOON",
+"answ2":"Reese Witherspoon."
+},
+{
+"cat":"Modern Classics",
+"ques":"Who famously sang the song 'Hopelessly Devoted to You', which would go on to be nominated for Best Original Song at the Oscars in 1978's Grease?",
+"answ":"OLIVIA NEWTON JOHN",
+"answ2":"Olivia Newton-John."
+},
+{
+"cat":"Comedies",
+"ques":"From the Files of Police Squad, The Smell of Fear, and The Final Insult are all subtitles of films in what comedy franchise?",
+"answ":"THE NAKED GUN",
+"answ2":"The Naked Gun."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which Remember the Titans actress appears in the following films: The Rules of Attraction, Win a Date with Tad Hamilton!, Superman Returns, and 21?",
+"answ":"KATE BOSWORTH",
+"answ2":"Kate Bosworth."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Which comic book based film features supporting performances from Paul Sorvino, Timothy Dalton, Jennifer Connelly, and Alan Arkin?",
+"answ":"THE ROCKETEER",
+"answ2":"The Rocketeer."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Which Wizarding World actor voices Marvin, a chronically depressed robot, opposite Martin Freeman in The Hitchhiker's Guide to the Galaxy, based on the novel by Douglas Adams?",
+"answ":"ALAN RICKMAN",
+"answ2":"Alan Rickman."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Fantasy, the kingdom of Alagaësia, and the dragon Saphira can be found in this 2006 film.",
+"answ":"ERAGON",
+"answ2":"Eragon."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"You'll find the company known as NorthAm Robotics, which manufactured the robot that would eventually be called Andrew, in what 1990s film?",
+"answ":"BICENTENNIAL MAN",
+"answ2":"Bicentennial Man."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What is the subtitle of the third film in the Night at the Museum franchise?",
+"answ":"SECRET OF THE TOMB",
+"answ2":"Secret of the Tomb."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Who starred as a time traveling agent known as the Barkeep in the 2010s film Predestination?",
+"answ":"ETHAN HAWKE",
+"answ2":"Ethan Hawke."
+},
+{
+"cat":"Disney",
+"ques":"In Mary Poppins Returns, who plays the Balloon Lady at the end of the film?",
+"answ":"ANGELA LANSBURY",
+"answ2":"Angela Lansbury."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"The sci-fi films Real Steel, Paul, and Source Code were all released in what year?",
+"answ":"2011",
+"answ2":"2011."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"How many movies did Chris Farley appear in in the year 1995?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (Billy Madison, Tommy Boy)."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"The sequels Jaws 3-D, Amityville 3-D, and Return of the Jedi were released in what year?",
+"answ":"1983",
+"answ2":"1983."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"The Men in Black first hunted aliens on the big screen and Matt Damon was good Will Hunting in theaters in what year?",
+"answ":"1997",
+"answ2":"1997."
+},
+{
+"cat":"Movie Release Dates",
+"ques":"In what year were Terminator 2: Judgment Day and Hot Shots! released?",
+"answ":"1991",
+"answ2":"1991."
+},
+{
+"cat":"80s",
+"ques":"What 1987 teen vampire film featuring Corey Haim and Alex Winter became known for the song 'Cry Little Sister' by Gerald McMahon?",
+"answ":"THE LOST BOYS",
+"answ2":"The Lost Boys."
+},
+{
+"cat":"Comedies",
+"ques":"After Police Academy was released in 1984, what was the first year that did not have an installment in the series released?",
+"answ":"1990",
+"answ2":"1990."
+},
+{
+"cat":"Sports",
+"ques":"In which football film will you hear the line 'Water is for cowards. Water makes you weak. Water is for washing blood off that uniform and you don't get no blood on my uniform'?",
+"answ":"REMEMBER THE TITANS",
+"answ2":"Remember the Titans."
+},
+{
+"cat":"Monster Movies",
+"ques":"Which former WCW wrestling champion plays the lead role of Chris McCormick in the film Eight Legged Freaks?",
+"answ":"DAVID ARQUETTE",
+"answ2":"David Arquette."
+},
+{
+"cat":"Horror",
+"ques":"Nancy Stephens reprises her role as Marion Chambers most recently in which Halloween sequel alongside Charles Cyphers, Nick Castle, and Will Patton?",
+"answ":"HALLOWEEN KILLS",
+"answ2":"Halloween Kills."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Jerry Goldsmith composed the score for what 1980s dark comedy directed by Joe Dante that featured Rick Ducommun and Henry Gibson?",
+"answ":"THE BURBS",
+"answ2":"The 'Burbs."
+},
+{
+"cat":"Monster Movies",
+"ques":"Arnold Vosloo played what famous Universal monster in a series of films?",
+"answ":"IMHOTEP",
+"answ3":"THE MUMMY",
+"answ2":"Imhotep / the Mummy."
+},
+{
+"cat":"Monster Movies",
+"ques":"What screen legend platys Zeus in 1981's Clash of the Titans?",
+"answ":"LAURENCE OLIVIER",
+"answ2":"Laurence Olivier."
+},
+{
+"cat":"Monster Movies",
+"ques":"You'll find the Orca, a device that can emit frequencies to attract or alter Titan behavior in what 2010s monster film?",
+"answ":"GODZILLA KING OF THE MONSTERS",
+"answ2":"Godzilla: King of the Monsters."
+},
+{
+"cat":"Amblin",
+"ques":"Which legendary actor plays Ted Danson's father Jake Tremont, whom Danson must take care of in the 1989 film Dad?",
+"answ":"JACK LEMMON",
+"answ2":"Jack Lemmon."
+},
+{
+"cat":"Amblin",
+"ques":"Which Academy Award nominated actor voices the leader of the Commando Elite, Chip Hazard, in the 1990s family film Small Soldiers?",
+"answ":"TOMMY LEE JONES",
+"answ2":"Tommy Lee Jones."
+},
+{
+"cat":"Family Films",
+"ques":"Patrick Stewart voices Adventure, a swashbuckling gold adventure fiction book resembling a pirate with an eyepatch in which film opposite Macaulay Culkin?",
+"answ":"THE PAGEMASTER",
+"answ2":"The Pagemaster."
+},
+{
+"cat":"Quentin Tarantino",
+"ques":"In the film Once Upon a Time in Hollywood, who plays the role of Squeaky, a Manson girl watching over George on Spahn Ranch?",
+"answ":"DAKOTA FANNING",
+"answ2":"Dakota Fanning."
+},
+{
+"cat":"Amblin",
+"ques":"Which film in the Jurassic Park franchise features the line 'I have a theory that there's two kinds of boys. Those who want to be astronomers and those who want to be astronauts.'?",
+"answ":"JURASSIC PARK III",
+"answ3":"JURASSIC PARK 3",
+"answ2":"Jurassic Park III."
+},
+{
+"cat":"Amblin",
+"ques":"This 2010 Amblin film based on a novel received a total of 10 Academy Award nominations, including Best Picture, Best Actor, Best Supporting Actress, and Best Adapted Screenplay.",
+"answ":"TRUE GRIT",
+"answ2":"True Grit."
+},
+{
+"cat":"Cusacks",
+"ques":"This 1997 comedy crime film features John with Joan as his assistant respectively, and also features Dan Aykroyd and Jeremy Piven.",
+"answ":"GROSSE POINTE BLANK",
+"answ2":"Grosse Pointe Blank."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which sitcom actor appeared in the following films: Wagons East, Highlander II: The Quickening, Wild Hogs, and The Rock?",
+"answ":"JOHN C MCGINLEY",
+"answ2":"John C. McGinley."
+},
+{
+"cat":"Animated",
+"ques":"What 2020s animated film follows Katie, an aspiring filmmaker who goes on a road trip with her family, and features the vocal talents of Abbi Jacobson, Doug the Pug, and Olivia Colman?",
+"answ":"THE MITCHELLS VS THE MACHINES",
+"answ2":"The Mitchells vs. the Machines."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"1964's A Shot in the Dark is the second film in what famous comedy franchise following the misadventures of a bumbling inspector originally played by Peter Sellers?",
+"answ":"THE PINK PANTHER",
+"answ2":"The Pink Panther."
+},
+{
+"cat":"Brad Pitt & George Clooney",
+"ques":"Joel Schumacher directed George Clooney and Arnold Schwarzenegger in what 1997 comic book film?",
+"answ":"BATMAN AND ROBIN",
+"answ2":"Batman & Robin."
+},
+{
+"cat":"Oscar Movies",
+"ques":"Ellen Burstyn won an Academy Award for Best Actress for her portrayal of Alice Hyatt alongside Kris Kristofferson and a young Jodie Foster in what 1974 Scorsese drama?",
+"answ":"ALICE DOESN'T LIVE HERE ANYMORE",
+"answ2":"Alice Doesn't Live Here Anymore."
+},
+{
+"cat":"Martin Scorsese",
+"ques":"What actor plays the lead role of Jesus in Martin Scorsese's The Last Temptation of Christ?",
+"answ":"WILLEM DAFOE",
+"answ2":"Willem Dafoe."
+},
+{
+"cat":"Disney",
+"ques":"You'll find the characters of Dr. Facilier, Louis, Mama Odie, and Eli 'Big Daddy' La Bouff in what 2000s animated Disney film?",
+"answ":"THE PRINCESS AND THE FROG",
+"answ3":"PRINCESS AND THE FROG",
+"answ2":"The Princess and the Frog."
+},
+{
+"cat":"2000s",
+"ques":"What 2001 Frank Darabont film features supporting performances from Bob Balaban, Martin Landau, Bruce Campbell, and James Whitmore?",
+"answ":"THE MAJESTIC",
+"answ2":"The Majestic."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"In what film in the Terminator franchise featuring Linda Hamilton is Arnold's T-800 known simply by the name of Carl?",
+"answ":"TERMINATOR DARK FATE",
+"answ3":"DARK FATE",
+"answ2":"Terminator: Dark Fate."
+},
+{
+"cat":"Coming of Age",
+"ques":"Who plays Janis Ian, the goth girl who befriends Cady in Mean Girls?",
+"answ":"LIZZY CAPLAN",
+"answ2":"Lizzy Caplan."
+},
+{
+"cat":"Coming of Age",
+"ques":"1980's Fame depicts a performing arts high school located in what United States city?",
+"answ":"NEW YORK CITY",
+"answ3":"NEW YORK",
+"answ2":"New York City."
+},
+{
+"cat":"Wachowskis",
+"ques":"Which Law & Order franchise actor portrays Johnnie, the son of mafia boss Ginio Marzzone in the film Bound?",
+"answ":"CHRISTOPHER MELONI",
+"answ2":"Christopher Meloni."
+},
+{
+"cat":"Remakes & Reboots",
+"ques":"What 2010s Universal Monster horror remake featured supporting performances from Emily Blunt, Hugo Weaving, and Anthony Hopkins?",
+"answ":"THE WOLFMAN",
+"answ2":"The Wolfman."
+},
+{
+"cat":"Action/Adventure",
+"ques":"In what 1990s action film will you hear Ed Harris say the following to Michael Biehn: 'You're down there, we're up here! You walked into the wrong goddamn room, Commander!'?",
+"answ":"THE ROCK",
+"answ2":"The Rock."
+},
+{
+"cat":"Horror",
+"ques":"Frank Henenlotter directed this 1982 cult favorite horror film, the first in a trilogy, about a deformed conjoined twin brother named Belial and his brother Duane.",
+"answ":"BASKET CASE",
+"answ2":"Basket Case."
+},
+{
+"cat":"Martin Scorsese",
+"ques":"What famous actor has Martin Scorsese collaborated the most with, directing him in nine feature films?",
+"answ":"ROBERT DE NIRO",
+"answ2":"Robert De Niro (in Mean Streets; Taxi Driver; New York, New York; Raging Bull; The King of Comedy; Goodfellas; Cape Fear; Casino; The Irishman)."
+},
+{
+"cat":"Sports",
+"ques":"Who plays the lead role of Daniel 'Rudy' Ruettiger, who harbored dreams of playing football at the University of Notre Dame in Rudy?",
+"answ":"SEAN ASTIN",
+"answ2":"Sean Astin."
+},
+{
+"cat":"Wrestlers in Film",
+"ques":"Diamond Dallas Page appears as Billy Ray Snapper in what film directed by Rob Zombie?",
+"answ":"THE DEVIL'S REJECTS",
+"answ2":"The Devil's Rejects."
+},
+{
+"cat":"Nicolas Cage",
+"ques":"What 2021 action comedy horror film stars Nicolas Cage as a quiet drifter who is haunted by eight murderous animatronic characters?",
+"answ":"WILLY'S WONDERLAND",
+"answ2":"Willy's Wonderland."
+},
+{
+"cat":"Horror",
+"ques":"Mel Gibson, Rory Culkin, and Joaquin Phoenix star in what 2000s horror thriller from director M. Night Shyamalan?",
+"answ":"SIGNS",
+"answ2":"Signs."
+},
+{
+"cat":"Horror",
+"ques":"Who plays the lead role of Madison Lake Mitchell in James Wan's 2021 horror film Malignant?",
+"answ":"ANNABELLE WALLIS",
+"answ2":"Annabelle Wallis."
+},
+{
+"cat":"Horror",
+"ques":"What 2021 horror film from Nia DaCosta features supporting performances from Vanessa Williams, Nathan Stewart-Jarrett, and Teyonah Parris?",
+"answ":"CANDYMAN",
+"answ2":"Candyman."
+},
+{
+"cat":"Musicals",
+"ques":"In Les Misérables, Russell Crowe's Javert refers to Hugh Jackman's Jean Valjean as what prisoner number?",
+"answ":"24601",
+"answ2":"24601."
+},
+{
+"cat":"2000s",
+"ques":"Two middle-aged men played by Thomas Haden Church and Paul Giamatti embark on a weeklong trip through California's wine country in what 2004 film?",
+"answ":"SIDEWAYS",
+"answ2":"Sideways."
+},
+{
+"cat":"Wrestlers in Film",
+"ques":"Jesse Ventura plays a character named Blain Cooper, who brandishes his gun Old Painless, alongside Bill Duke in what 1980s action film?",
+"answ":"PREDATOR",
+"answ2":"Predator."
+},
+{
+"cat":"Modern Classics",
+"ques":"In what film will you hear the line 'I have to get back to work. It's part of the wedding. No Sicilian can ever refuse a request on his daughter's wedding day.'?",
+"answ":"THE GODFATHER",
+"answ2":"The Godfather."
+},
+{
+"cat":"2000s",
+"ques":"What film in the Ocean's franchise featured performances from Andy García, Carl Reiner, Elliott Gould, and Al Pacino?",
+"answ":"OCEAN'S THIRTEEN",
+"answ2":"Ocean's Thirteen."
+},
+{
+"cat":"Horror",
+"ques":"What 2021 horror reboot from director Nia DaCosta featured the tagline 'Dare to Say His Name.'?",
+"answ":"CANDYMAN",
+"answ2":"Candyman."
+},
+{
+"cat":"Comedies",
+"ques":"In what 1998 comedy based on a novel by Hunter S. Thompson will you hear the quote 'What? No. We can't stop here. This is bat country.'?",
+"answ":"FEAR AND LOATHING IN LAS VEGAS",
+"answ2":"Fear and Loathing in Las Vegas."
+},
+{
+"cat":"Black Cinema",
+"ques":"Who plays Nino Brown, an arrogant, smart drug kingpin, in 1991's New Jack City?",
+"answ":"WESLEY SNIPES",
+"answ2":"Wesley Snipes."
+},
+{
+"cat":"Black Cinema",
+"ques":"Don Cheadle starred in, co-wrote, and directed this 2016 biographical drama that also co-starred Ewan McGregor and Emayatzy Corinealdi.",
+"answ":"MILES AHEAD",
+"answ2":"Miles Ahead."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"Who plays the role of Poison Ivy, opposite Arnold and George Clooney, in Batman & Robin?",
+"answ":"UMA THURMAN",
+"answ2":"Uma Thurman."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who composed the scores for the films Days of Thunder, Man of Steel, and Backdraft?",
+"answ":"HANS ZIMMER",
+"answ2":"Hans Zimmer."
+},
+{
+"cat":"Wizarding World",
+"ques":"What character does Hermione punch after calling him a 'foul, loathsome, evil little cockroach' in Harry Potter and the Prisoner of Azkaban?",
+"answ":"DRACO MALFOY",
+"answ3":"DRACO",
+"answ2":"Draco Malfoy."
+},
+{
+"cat":"Wizarding World",
+"ques":"In which film was Luna Lovegood, played by Evanna Lynch, first introduced?",
+"answ":"HARRY POTTER AND THE ORDER OF THE PHOENIX",
+"answ3":"ORDER OF THE PHOENIX",
+"answ2":"Harry Potter and the Order of the Phoenix."
+},
+{
+"cat":"Wizarding World",
+"ques":"What is the name of Voldemart's symbol: a skull with a snake coming out of the mouth, which is branded on the left forearms of Voldemort's closest followers and cast into the sky when a Death Eater murders someone?",
+"answ":"THE DARK MARK",
+"answ3":"DARK MARK",
+"answ2":"The Dark Mark."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Kelsey Grammer, Antonio Banderas, and Harrison Ford all appear with Sylvester Stallone in the third film in what 2010s action franchise?",
+"answ":"THE EXPENDABLES",
+"answ2":"The Expendables."
+},
+{
+"cat":"70s",
+"ques":"Meat Loaf plays the part of Eddie and sings 'Hot Patootie' alongside Tim Curry and Susan Sarandon in what 1970s cult musical?",
+"answ":"THE ROCKY HORROR PICTURE SHOW",
+"answ2":"The Rocky Horror Picture Show."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Rob Reiner directed what 1987 fantasy film featuring Cary Elwes, Robin Wright, and Billy Crystal?",
+"answ":"THE PRINCESS BRIDE",
+"answ2":"The Princess Bride."
+},
+{
+"cat":"Horror",
+"ques":"What 1990s David Koepp written and directed horror film features supporting performances from Jennifer Morrison and Kevin Dunn?",
+"answ":"STIR OF ECHOES",
+"answ2":"Stir of Echoes."
+},
+{
+"cat":"Pixar",
+"ques":"Which Pixar film series has the characters Tex Dinoco, Luigi, Chick Hicks, and Sally Carrera?",
+"answ":"CARS",
+"answ2":"Cars."
+},
+{
+"cat":"Streaming Movies",
+"ques":"The 2019 Netflix musical biopic The Dirt, from Jackass director Jeff Tremaine, follows the exploits of what famous glam metal band?",
+"answ":"MOTLEY CRUE",
+"answ3":"MÖTLEY CRÜE",
+"answ2":"Mötley Crüe."
+},
+{
+"cat":"Oscar Movies",
+"ques":"What actor won an Academy Award for Best Supporting Actor for his portrayal of famous pianist Dr. Don Shirley in 2018's Green Book?",
+"answ":"MAHERSHALA ALI",
+"answ2":"Mahershala Ali."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Of the following actors, who did NOT voice a character in Ralph Breaks the Internet: Jack McBrayer, Gal Gadot, Willem Dafoe, or Taraji P. Henson?",
+"answ":"WILLEM DAFOE",
+"answ2":"Willem Dafoe."
+},
+{
+"cat":"Historical Epics & Dramas",
+"ques":"Ben Affleck, Josh Hartnett, and Kate Beckinsale feature in what historical drama directed by Michael Bay that takes place in World War II?",
+"answ":"PEARL HARBOR",
+"answ2":"Pearl Harbor."
+},
+{
+"cat":"Amblin",
+"ques":"Amblin's second film was what 1982 horror film, from director Tobe Hooper, that would spawn two sequels and featured JoBeth Williams and Craig T. Nelson?",
+"answ":"POLTERGEIST",
+"answ2":"Poltergeist."
+},
+{
+"cat":"Streaming Movies",
+"ques":"What 2021 horror trilogy that premiered on Netflix was based on a book series by R. L. Stine, with all three installments directed by Leigh Janiak?",
+"answ":"FEAR STREET",
+"answ2":"Fear Street."
+},
+{
+"cat":"Marvel",
+"ques":"Which film marked the first time we met Tom Holland as Peter Parker?",
+"answ":"CAPTAIN AMERICA CIVIL WAR",
+"answ2":"Captain America: Civil War."
+},
+{
+"cat":"Action/Adventure",
+"ques":"What 1995 action sequel follows two men who attempt to stop bomb threats across New York City carried out by a mysterious man named Simon?",
+"answ":"DIE HARD WITH A VENGEANCE",
+"answ2":"Die Hard with a Vengeance."
+},
+{
+"cat":"Sports",
+"ques":"Which of the following did NOT appear in the 2000 film The Replacements: Faizon Love, Rhys Ifans, Michael Irvin, or Jon Favreau?",
+"answ":"MICHAEL IRVIN",
+"answ2":"Michael Irvin."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Chris Hemsworth plays Tyler Rake, a black market mercenary who is enlisted to rescue the kidnapped son of an imprisoned international crime lord, in what 2020 Netflix action thriller?",
+"answ":"EXTRACTION",
+"answ2":"Extraction."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Which one of the following was NOT in Mission: Impossible Ghost Protocol: Jeremy Renner, Simon Pegg, Rebecca Ferguson, or Paula Patton?",
+"answ":"REBECCA FERGUSON",
+"answ2":"Rebecca Ferguson."
+},
+{
+"cat":"Horror",
+"ques":"Joel Schumacher directed Julia Roberts, Kiefer Sutherland, and Kevin Bacon in what 1990 horror film?",
+"answ":"FLATLINERS",
+"answ2":"Flatliners."
+},
+{
+"cat":"Musicals",
+"ques":"What 1982 musical comedy featuring the song 'I Think I'm Gonna Like It Here' showcased performances from Tim Curry, Carol Burnett, and Bernadette Peters?",
+"answ":"ANNIE",
+"answ2":"Annie."
+},
+{
+"cat":"Holiday Movies",
+"ques":"The films Lethal Weapon and Iron Man 3 all primarily take place around what holiday?",
+"answ":"CHRISTMAS",
+"answ2":"Christmas."
+},
+{
+"cat":"Animated",
+"ques":"Which Academy Award winning actor voiced characters in the movies FernGully: The Last Rainforest, Happy Feet Two, and Robots?",
+"answ":"ROBIN WILLIAMS",
+"answ2":"Robin Williams."
+},
+{
+"cat":"Biopics",
+"ques":"In the 1997 Howard Stern biographical comedy Private Parts, who plays program director Kenny Rushton, whom Stern dubs Pig Vomit?",
+"answ":"PAUL GIAMATTI",
+"answ2":"Paul Giamatti."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Which actor does NOT appear in the 2002 action comedy Showtime: Eddie Murphy, Bruce Greenwood, Robert De Niro, or William Shatner?",
+"answ":"BRUCE GREENWOOD",
+"answ2":"Bruce Greenwood."
+},
+{
+"cat":"Hepburns",
+"ques":"Which film earned Katharine Hepburn her first Oscar for Best Actress in a Leading Role?",
+"answ":"MORNING GLORY",
+"answ2":"Morning Glory."
+},
+{
+"cat":"Hepburns",
+"ques":"What James Bond actor made his film debut in 1968's The Lion in Winter?",
+"answ":"TIMOTHY DALTON",
+"answ2":"Timothy Dalton."
+},
+{
+"cat":"Biopics",
+"ques":"Which Oscar-winning actor plays Skip Engblom, who helped create the Z-Boys skateboard team, in the 2005 biographical drama Lords of Dogtown?",
+"answ":"HEATH LEDGER",
+"answ2":"Heath Ledger."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actor appeared in the following three films: Jack Ryan: Shadow Recruit, 3000 Miles to Graceland, and Mr. Brooks?",
+"answ":"KEVIN COSTNER",
+"answ2":"Kevin Costner."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Mary J. Blige portrays Venus Club owner Justice Charlier in what 2010s musical featuring Catherine Zeta-Jones and Paul Giamatti?",
+"answ":"ROCK OF AGES",
+"answ2":"Rock of Ages."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Tom Cruise featured in two films released in 2012. Name one of them.",
+"answ":"ROCK OF AGES",
+"answ3":"JACK REACHER",
+"answ2":"Rock of Ages / Jack Reacher."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Jerry Goldsmith provided the score for what 1990s horror reboot that featured Oded Fehr and Kevin J. O'Connor?",
+"answ":"THE MUMMY",
+"answ2":"The Mummy."
+},
+{
+"cat":"Scotts",
+"ques":"What 2010s Ridley Scott film features supporting performances from Natalie Dormer, John Leguizamo, and Rosie Perez?",
+"answ":"THE COUNSELOR",
+"answ2":"The Counselor."
+},
+{
+"cat":"Star Trek",
+"ques":"In Star Trek II: The Wrath of Khan, Kirk tells Saavik that he doesn't believe in what kind of scenario?",
+"answ":"NO WIN SCENARIO",
+"answ2":"No-win scenario."
+},
+{
+"cat":"Star Trek",
+"ques":"In which Next Generation film will you hear Worf say the line 'Captain, I do not think it is appropriate for a Starfleet officer to appear... naked.'?",
+"answ":"STAR TREK NEMESIS",
+"answ2":"Star Trek: Nemesis."
+},
+{
+"cat":"Star Trek",
+"ques":"In Star Trek Beyond, it is revealed which character has been planning to leave Starfleet and devote themselves to another cause?",
+"answ":"SPOCK",
+"answ2":"Spock."
+},
+{
+"cat":"Musicians in Film",
+"ques":"Which 'Love Don't Cost a Thing' singer appears in the following films: Anaconda, Monster-in-Law, and Gigli?",
+"answ":"JENNIFER LOPEZ",
+"answ2":"Jennifer Lopez."
+},
+{
+"cat":"Thrillers",
+"ques":"Which 2010s Oscar-nominated Steven Spielberg thriller features performances from Tom Hanks, Mark Rylance, and Jesse Plemons?",
+"answ":"BRIDGE OF SPIES",
+"answ2":"Bridge of Spies."
+},
+{
+"cat":"Dramas",
+"ques":"What 2017 drama directed by Marc Webb stars Chris Evans and McKenna Grace as an exceptionally smart seven-year-old who is the subject of a custody battle?",
+"answ":"GIFTED",
+"answ2":"Gifted."
+},
+{
+"cat":"Animated",
+"ques":"What 2010 animated adventure features the voice talents of Mandy Moore, Zachary Levi, Brad Garrett, and Ron Perlman?",
+"answ":"TANGLED",
+"answ2":"Tangled."
+},
+{
+"cat":"Movies Involving Weddings",
+"ques":"Alan Arkin and Peter Falk star in what 1979 comedy revolving around their children's wedding, later remade in 2003 with Michael Douglas and Albert Brooks?",
+"answ":"THE IN LAWS",
+"answ2":"The In-Laws."
+},
+{
+"cat":"Brat Pack",
+"ques":"Which film starring Anthony Michael Hall features performances from Robert Downey Jr., Paul Gleason, and Uma Thurman?",
+"answ":"JOHNNY BE GOOD",
+"answ2":"Johnny Be Good."
+},
+{
+"cat":"Brat Pack",
+"ques":"What rock star provides the soundtrack for Young Guns II and has a cameo in the film?",
+"answ":"JON BON JOVI",
+"answ3":"BON JOVI",
+"answ2":"Jon Bon Jovi."
+},
+{
+"cat":"Talking Animal Movies",
+"ques":"What 1990s film about a farm pig who wants to be a sheepdog was nominated for 7 Oscars, including Best Picture and Supporting Actor for James Cromwell?",
+"answ":"BABE",
+"answ2":"Babe."
+},
+{
+"cat":"Talking Animal Movies",
+"ques":"Which British actor voices everyone's favorite marmalade-loving bear Paddington in both of the Paul King directed Paddington films?",
+"answ":"BEN WHISHAW",
+"answ2":"Ben Whishaw."
+},
+{
+"cat":"Talking Animal Movies",
+"ques":"Which Ghostbusters actor voices the comic strip feline Garfield in the 2004 live-action adaptation Garfield?",
+"answ":"BILL MURRAY",
+"answ2":"Bill Murray."
+},
+{
+"cat":"Disney",
+"ques":"Lily James, Richard Madden, and Cate Blanchett star in what 2015 Disney film directed by Kenneth Branagh?",
+"answ":"CINDERELLA",
+"answ2":"Cinderella."
+},
+{
+"cat":"Musicians in Film",
+"ques":"What famous musician starred in the following films: Blue Hawaii, Jailhouse Rock, and Viva Las Vegas?",
+"answ":"ELVIS PRESLEY",
+"answ2":"Elvis Presley."
+},
+{
+"cat":"Horror",
+"ques":"Anthony Hopkins and Jodie Foster won Academy Awards for what 1991 psychological horror film?",
+"answ":"THE SILENCE OF THE LAMBS",
+"answ2":"The Silence of the Lambs."
+},
+{
+"cat":"90s",
+"ques":"What is the name of the film that Bobby Bowfinger is trying to make in Bowfinger?",
+"answ":"CHUBBY RAIN",
+"answ2":"Chubby Rain."
+},
+{
+"cat":"90s",
+"ques":"Who appeared in the following 90s action films: Hudson Hawk, The Last Boy Scout, Last Man Standing, and Striking Distance? ",
+"answ":"BRUCE WILLIS",
+"answ2":"Bruce Willis."
+},
+{
+"cat":"90s",
+"ques":"In what 1992 thriller does Bill Paxton star as Dale 'Hurricane' Dixon, a small-town police chief who awaits the arrival of a gang of killers?",
+"answ":"ONE FALSE MOVE",
+"answ2":"One False Move."
+},
+{
+"cat":"Batman",
+"ques":"Ted Lasso actress Juno Temple features as a friend of Selina Kyle in what entry in the Batman franchise?",
+"answ":"THE DARK KNIGHT RISES",
+"answ2":"The Dark Knight Rises."
+},
+{
+"cat":"Martin Scorsese",
+"ques":"Cristin Milioti plays Jordan Belfort's first wife Teresa in what 2013 film starring Leonardo DiCaprio?",
+"answ":"THE WOLF OF WALL STREET",
+"answ2":"The Wolf of Wall Street."
+},
+{
+"cat":"Batman",
+"ques":"Abe Vigoda, Dick Miller, and Dana Delany lent their voices to what animated film featuring Batman?",
+"answ":"BATMAN MASK OF THE PHANTASM",
+"answ2":"Batman: Mask of the Phantasm."
+},
+{
+"cat":"Batman",
+"ques":"Who plays Commissioner Gordon in Justice League?",
+"answ":"JK SIMMONS",
+"answ3":"J K SIMMONS",
+"answ2":"J.K. Simmons."
+},
+{
+"cat":"Batman",
+"ques":"The Red Triangle Gang is a disgraced former circus troupe turned to crime in which Batman film?",
+"answ":"BATMAN RETURNS",
+"answ2":"Batman Returns."
+},
+{
+"cat":"Comic Book Movies",
+"ques":"Matthew Vaughn directed what actor as Eggsy, a young man recruited into the spy game, in the 2015 action spy comedy Kingsman: The Secret Service?",
+"answ":"TARON EGERTON",
+"answ2":"Taron Egerton."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Which of the following actors did NOT appear in the Jurassic Park franchise: Sam Neill, William H. Macy, Bill Paxton, or BD Wong?",
+"answ":"BILL PAXTON",
+"answ2":"Bill Paxton."
+},
+{
+"cat":"Horror",
+"ques":"How many films in the Halloween franchise were released in the 1970s?",
+"answ":"1",
+"answ3":"ONE",
+"answ2":"1 (1978's Halloween)."
+},
+{
+"cat":"Musicals",
+"ques":"Tim Curry, Susan Sarandon, and Barry Bostwick feature in this 1975 musical comedy horror film.",
+"answ":"THE ROCKY HORROR PICTURE SHOW",
+"answ2":"The Rocky Horror Picture Show."
+},
+{
+"cat":"Animated",
+"ques":"In what Shrek film will you hear the line 'Things just seem bad because it's dark and rainy and Fiona's father hired a sleazy hitman to whack you.'?",
+"answ":"SHREK 2",
+"answ2":"Shrek 2."
+},
+{
+"cat":"Horror",
+"ques":"What 2000 horror film follows a crew marooned on a planet full of bloodthirsty creatures that come out to feast only at night?",
+"answ":"PITCH BLACK",
+"answ2":"Pitch Black."
+},
+{
+"cat":"Oscar Movies",
+"ques":"Clint Eastwood and Hilary Swank both won Academy Awards for what 2004 boxing film?",
+"answ":"MILLION DOLLAR BABY",
+"answ2":"Million Dollar Baby."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What fantasy character, created by Robert E. Howard, has been played by both Jason Momoa and Arnold Schwarzenegger?",
+"answ":"CONAN THE BARBARIAN",
+"answ2":"Conan the Barbarian."
+},
+{
+"cat":"Biopics",
+"ques":"Love & Mercy, which stars both Paul Dano and John Cusack as Brian Wilson, follows the co-founder and leader of what famous rock band?",
+"answ":"THE BEACH BOYS",
+"answ2":"The Beach Boys."
+},
+{
+"cat":"Thrillers",
+"ques":"What 2000s thriller, featuring Robert Downey Jr. and Jake Gyllenhaal, follows the real-life investigation of a serial killer in Northern California?",
+"answ":"ZODIAC",
+"answ2":"Zodiac."
+},
+{
+"cat":"Crime",
+"ques":"What 2009 biographical comedy film directed by Steven Soderbergh features performances by Matt Damon, Joel McHale, and Patton Oswalt?",
+"answ":"THE INFORMANT",
+"answ2":"The Informant!."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Jason Statham stars as mercenary Danny Bryce alongside Clive Owen and Robert De Niro in what film?",
+"answ":"KILLER ELITE",
+"answ2":"Killer Elite."
+},
+{
+"cat":"Thrillers",
+"ques":"Kathryn Bigelow directed what famous actress as a rookie police officer alongside Ron Silver and Clancy Brown in the 1990 action thriller Blue Steel?",
+"answ":"JAMIE LEE CURTIS",
+"answ2":"Jamie Lee Curtis."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"David Cronenberg directed Geena Davis in the 1986 remake of what famous 1958 sci-fi horror film?",
+"answ":"THE FLY",
+"answ2":"The Fly."
+},
+{
+"cat":"Scores & Soundtracks",
+"ques":"Who composed the score for Steven Spielberg's Ready Player One?",
+"answ":"ALAN SILVESTRI",
+"answ2":"Alan Silvestri."
+},
+{
+"cat":"2020s",
+"ques":"Joe Carnahan directed this 2021 action thriller set in a small-town police station and that features Frank Grillo, Gerard Butler, and Alexis Louder.",
+"answ":"COPSHOP",
+"answ2":"Copshop."
+},
+{
+"cat":"2020s",
+"ques":"Which Brat Pack actor appears as Tommy Doyle in Halloween Kills?",
+"answ":"ANTHONY MICHAEL HALL",
+"answ2":"Anthony Michael Hall."
+},
+{
+"cat":"Pixar",
+"ques":"What did Monsters, Inc. win its sole Academy Award for?",
+"answ":"ORIGINAL SONG",
+"answ3":"BEST ORIGINAL SONG",
+"answ2":"Best Original Song."
+},
+{
+"cat":"Holiday Movies",
+"ques":"What 2006 disaster film remake, starring Kurt Russell, Richard Dreyfuss, and Emmy Rossum, is set on a cruise ship on New Year's Eve?",
+"answ":"POSEIDON",
+"answ2":"Poseidon."
+},
+{
+"cat":"80s",
+"ques":"What well-known director wrote the screenplays for the films Gremlins and The Goonies?",
+"answ":"CHRIS COLUMBUS",
+"answ2":"Chris Columbus."
+},
+{
+"cat":"Tom Cruise",
+"ques":"Neal McDonough, Colin Farrell, and Samantha Morton appear opposite Tom Cruise in what 2002 sci-fi film?",
+"answ":"MINORITY REPORT",
+"answ2":"Minority Report."
+},
+{
+"cat":"Westerns",
+"ques":"What 2003 western, starring Kevin Costner and Robert Duvall, follows a former gunslinger who is forced to take up arms again against a corrupt lawman?",
+"answ":"OPEN RANGE",
+"answ2":"Open Range."
+},
+{
+"cat":"Pixar",
+"ques":"What Pixar movie features vocal performances from Willem Dafoe, Albert Brooks, Eugene Levy, and Idris Elba?",
+"answ":"FINDING DORY",
+"answ2":"Finding Dory."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"What 2021 sci-fi film features supporting performances from Javier Bardem, Jason Momoa, and Zendaya?",
+"answ":"DUNE",
+"answ2":"Dune."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"What actress features in the following films: The Curse of La Llorona, Hunter Killer, and Avengers: Age of Ultron?",
+"answ":"LINDA CARDELLINI",
+"answ2":"Linda Cardellini."
+},
+{
+"cat":"Comedies",
+"ques":"Which of the following actors was not in 2018's Tag: Jake Johnson, Rashida Jones, Hannibal Buress, or Chelsea Peretti?",
+"answ":"CHELSEA PERETTI",
+"answ2":"Chelsea Peretti."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"Arnold and what other actor, who plays Dr. Larry Arbogast, star in the film Junior?",
+"answ":"DANNY DEVITO",
+"answ2":"Danny DeVito."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"In Rocky II, what holiday does the Rocky vs. Apollo Creed rematch take place on?",
+"answ":"THANKSGIVING",
+"answ2":"Thanksgiving."
+},
+{
+"cat":"Sly & Arnie",
+"ques":"Which famous action star played the villain of The Expendables 2 named Vilain?",
+"answ":"JEAN CLAUDE VAN DAMME",
+"answ2":"Jean-Claude Van Damme."
+},
+{
+"cat":"2020s",
+"ques":"Who directed Mckenna Grace, Paul Rudd, Finn Wolfhard, and Carrie Coon in Ghostbusters: Afterlife?",
+"answ":"JASON REITMAN",
+"answ2":"Jason Reitman."
+},
+{
+"cat":"2010s",
+"ques":"What famous actor was in the following movies: Kick-Ass, Mandy, Color Out of Space, and Teen Titans Go! To the Movies?",
+"answ":"NICOLAS CAGE",
+"answ2":"Nicolas Cage."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Joe Cornish directed Louis Ashbourne Serkis, Patrick Stewart, and Rebecca Ferguson in what 2019 film about a young boy who finds the Excalibur sword?",
+"answ":"THE KID WHO WOULD BE KING",
+"answ2":"The Kid Who Would Be King."
+},
+{
+"cat":"2020s",
+"ques":"Taylor Sheridan directed what actress as smokejumper Hannah alongside Jon Bernthal, Aidan Gillen, and Nicholas Hoult in 2021's Those Who Wish Me Dead?",
+"answ":"ANGELINA JOLIE",
+"answ2":"Angelina Jolie."
+},
+{
+"cat":"Fantasy/Sci-Fi",
+"ques":"Julia Roberts and Lily Collins star opposite each other in this 2012 fantasy based on Snow White.",
+"answ":"MIRROR MIRROR",
+"answ2":"Mirror Mirror."
+},
+{
+"cat":"Comedies",
+"ques":"What 2009 comedy featuring Rashida Jones and J. K. Simmons marked the third collaboration of Paul Rudd and Jason Segel after Knocked Up and Forgetting Sarah Marshall?",
+"answ":"I LOVE YOU MAN",
+"answ2":"I Love You, Man."
+},
+{
+"cat":"2000s",
+"ques":"In the 2002 American remake Solaris, who stars as Rheya opposite George Clooney?",
+"answ":"NATASCHA MCELHONE",
+"answ2":"Natascha McElhone."
+},
+{
+"cat":"2000s",
+"ques":"Who played Lureen Newsome Twist, Jack's wife, in Brokeback Mountain?",
+"answ":"ANNE HATHAWAY",
+"answ2":"Anne Hathaway."
+},
+{
+"cat":"2000s",
+"ques":"Who plays Joseph Sullivan a.k.a. Sky Captain in the film Sky Captain and the World of Tomorrow?",
+"answ":"JUDE LAW",
+"answ2":"Jude Law."
+},
+{
+"cat":"2020s",
+"ques":"Who was nominated for an Academy Award for their performance as Jonathan Larson in the 2021 musical biopic Tick, Tick... Boom!?",
+"answ":"ANDREW GARFIELD",
+"answ2":"Andrew Garfield."
+},
+{
+"cat":"Sequels & Prequels",
+"ques":"Of the following, who does not appear in Ridley Scott's Alien: Covenant: Danny McBride, Patrick Wilson, Katherine Waterston, or Guy Pearce?",
+"answ":"PATRICK WILSON",
+"answ2":"Patrick Wilson."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actress appears in the following films: The Sixth Sense, 2011's Fright Night, 2000's Shaft, and Hereditary?",
+"answ":"TONI COLLETTE",
+"answ2":"Toni Collette."
+},
+{
+"cat":"Streaming Movies",
+"ques":"What 2019 Netflix rom-com featuring Ali Wong, Randall Park, and Keanu Reeves follows childhood friends who lost touch after a brief teenage fling ended badly?",
+"answ":"ALWAYS BE MY MAYBE",
+"answ2":"Always Be My Maybe."
+},
+{
+"cat":"Angelina Jolie",
+"ques":"Of the following films, which does not feature Angelina Jolie: Gone in 60 Seconds, Troy, Sky Captain and the World of Tomorrow, or Pushing Tin?",
+"answ":"TROY",
+"answ2":"Troy."
+},
+{
+"cat":"Amblin",
+"ques":"Which actress stars as Kat Harvey, the daughter of Bill Pullman's James Harvey and Casper's love interest and new friend in 1995's Casper?",
+"answ":"CHRISTINA RICCI",
+"answ2":"Christina Ricci."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Michael Keaton appears as the villain Vulture in which Spider-Man film?",
+"answ":"SPIDER MAN HOMECOMING",
+"answ2":"Spider-Man: Homecoming."
+},
+{
+"cat":"2010s",
+"ques":"Spike Lee directed Josh Brolin, Elizabeth Olsen, and Samuel L. Jackson in what 2013 psychological action thriller, a remake of a 2005 South Korean film?",
+"answ":"OLDBOY",
+"answ2":"Oldboy."
+},
+{
+"cat":"Sports",
+"ques":"Which of the following four sports films was not directed by Gavin O'Connor: Warrior, Miracle, The Way Back, or Radio?",
+"answ":"RADIO",
+"answ2":"Radio."
+},
+{
+"cat":"Comedies",
+"ques":"Eddie Murphy and Martin Lawrence share the screen as loudmouth Harlem grifter Ray and the no-nonsense Claude in what 1999 film?",
+"answ":"LIFE",
+"answ2":"Life."
+},
+{
+"cat":"Comedies",
+"ques":"What 2003 comedy featuring Christopher Walken and Anthony Anderson deals with two guys on a trip to Australia to deliver a package?",
+"answ":"KANGAROO JACK",
+"answ2":"Kangaroo Jack."
+},
+{
+"cat":"Comedies",
+"ques":"Which 2010s horror comedy features performances by Adam Driver, Danny Glover, Bill Murray, and Tilda Swinton?",
+"answ":"THE DEAD DON'T DIE",
+"answ2":"The Dead Don't Die."
+},
+{
+"cat":"Action/Adventure",
+"ques":"In which installment of the Mission: Impossible franchise do Laurence Fishburne, Keri Russell, and Maggie Q appear?",
+"answ":"MISSION IMPOSSIBLE III",
+"answ3":"MISSION IMPOSSIBLE 3",
+"answ2":"Mission: Impossible III."
+},
+{
+"cat":"Horror",
+"ques":"Prey at Night was the subtitle to the 2018 sequel to what 2008 psychological horror film starring Liv Tyler and Scott Speedman?",
+"answ":"THE STRANGERS",
+"answ2":"The Strangers."
+},
+{
+"cat":"2000s",
+"ques":"Chris Columbus directed Hayden Panettiere, Paul Rust, and Alan Ruck in what rom-com about a valedictorian confessing his love to a cheerleader at graduation?",
+"answ":"I LOVE YOU BETH COOPER",
+"answ2":"I Love You, Beth Cooper."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which of the following films did Kate Hudson not appear in: Almost Famous, Wish I Was Here, Failure to Launch, or Rock the Kasbah?",
+"answ":"FAILURE TO LAUNCH",
+"answ2":"Failure to Launch."
+},
+{
+"cat":"90s",
+"ques":"What 1990 horror comedy, set in Perfection, Nevada, follows Val McKee and Earl Bassett, who fight for survival against prehistoric wormlike monsters?",
+"answ":"TREMORS",
+"answ2":"Tremors."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Sandra Bullock stars in which Netflix film, about a mysterious force that decimates the population, where if you see it, you die?",
+"answ":"BIRD BOX",
+"answ2":"Bird Box."
+},
+{
+"cat":"Disney",
+"ques":"Andrew Davis directed what 2003 film about a boy played by Shia LaBeouf, who is wrongfully sent to a brutal camp where children are forced to dig in the desert all day long?",
+"answ":"HOLES",
+"answ2":"Holes."
+},
+{
+"cat":"Disney",
+"ques":"Which MCU actress voices Namaari, the warrior princess of Fang, and Raya's rival, in the film Raya and the Last Dragon?",
+"answ":"GEMMA CHAN",
+"answ2":"Gemma Chan."
+},
+{
+"cat":"Disney",
+"ques":"Meredith Salenger stars opposite which famous actor who plays a young traveler named Harry in the 1985 adventure film The Journey of Natty Gann?",
+"answ":"JOHN CUSACK",
+"answ2":"John Cusack."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actress appears in the following films: A Monster Calls, On the Basis of Sex, Rogue One: A Star Wars Story, and The Theory of Everything?",
+"answ":"FELICITY JONES",
+"answ2":"Felicity Jones."
+},
+{
+"cat":"2010s",
+"ques":"Jake Gyllenhaal stars as Louis Bloom, a stringer who records violent events and sells the footage to an L.A. TV station, in what 2014 Dan Gilroy film?",
+"answ":"NIGHTCRAWLER",
+"answ2":"Nightcrawler."
+},
+{
+"cat":"Action/Adventure",
+"ques":"Which of the following actors has not appeared in the Mission: Impossible franchise: Emilio Estevez, Léa Seydoux, Halle Berry, or Anthony Hopkins?",
+"answ":"HALLE BERRY",
+"answ2":"Halle Berry."
+},
+{
+"cat":"Pixar",
+"ques":"Which film features the vocal talents of Bruce Campbell, Emily Mortimer, Michael Caine, and Cheech Marin?",
+"answ":"CARS 2",
+"answ2":"Cars 2."
+},
+{
+"cat":"Dramas",
+"ques":"Jacob Tremblay plays the son of which actress, who received an Oscar for her role as Joy, in the film Room?",
+"answ":"BRIE LARSON",
+"answ2":"Brie Larson."
+},
+{
+"cat":"Coming of Age",
+"ques":"Which 1980s film features the characters Stacy Hamilton, Mark Ratner, Brad Hamilton, and Jeff Spicoli?",
+"answ":"FAST TIMES AT RIDGEMONT HIGH",
+"answ2":"Fast Times at Ridgemont High."
+},
+{
+"cat":"Wizarding World",
+"ques":"Luna Lovegood's father is the editor of what magazine?",
+"answ":"THE QUIBBLER",
+"answ2":"The Quibbler."
+},
+{
+"cat":"Wizarding World",
+"ques":"Emma Thompson portrays Professor Sybill Trelawney in how many Harry Potter films?",
+"answ":"3",
+"answ3":"THREE",
+"answ2":"3 (The Prisoner of Azkaban, The Order of the Phoenix, The Deathly Hallows – Part 2)."
+},
+{
+"cat":"Wizarding World",
+"ques":"Who killed Voldemort's pet snake that held a piece of his soul in The Deathly Hallows – Part 2?",
+"answ":"NEVILLE LONGBOTTOM",
+"answ3":"NEVILLE",
+"answ2":"Neville Longbottom."
+},
+{
+"cat":"Spoof",
+"ques":"Which legendary spoof movie star plays the role of President Baxter Harris in Scary Movie 3?",
+"answ":"LESLIE NIELSEN",
+"answ2":"Leslie Nielsen."
+},
+{
+"cat":"Biopics",
+"ques":"Pablo Larraín's Spencer is led by which actress as Diana, Princess of Wales?",
+"answ":"KRISTEN STEWART",
+"answ2":"Kristen Stewart."
+},
+{
+"cat":"Musicals",
+"ques":"What 2005 film involves Max Bialystock and Leo Bloom, who want to make a Broadway flop with the offensive musical Springtime for Hitler?",
+"answ":"THE PRODUCERS",
+"answ2":"The Producers."
+},
+{
+"cat":"Oscar Movies",
+"ques":"How many times has Matt Damon been nominated for Best Actor?",
+"answ":"2",
+"answ3":"TWO",
+"answ2":"2 (for Good Will Hunting, The Martian)."
+},
+{
+"cat":"Oscar Movies",
+"ques":"Which actor received Best Supporting Actor nominations for the films Apollo 13 and The Truman Show?",
+"answ":"ED HARRIS",
+"answ2":"Ed Harris."
+},
+{
+"cat":"Oscar Movies",
+"ques":"What was the first film Steven Spielberg directed that received a Best Picture nomination?",
+"answ":"JAWS",
+"answ2":"Jaws."
+},
+{
+"cat":"Family Films",
+"ques":"What 2014 comedy, starring Chris Pratt and Elizabeth Banks, featured the Oscar-nominated song 'Everything Is Awesome'?",
+"answ":"THE LEGO MOVIE",
+"answ2":"The Lego Movie."
+},
+{
+"cat":"Streaming Movies",
+"ques":"Which 2017 Netflix remake from director Adam Wingard follows high schooler Light Turner, who stumbles across a mysterious notebook and its owner Ryuk?",
+"answ":"DEATH NOTE",
+"answ2":"Death Note."
+},
+{
+"cat":"Sports",
+"ques":"Which 2004 Peter Berg film stars Billy Bob Thornton and follows a small, turbulent town in Texas that obsesses over their high school football team?",
+"answ":"FRIDAY NIGHT LIGHTS",
+"answ2":"Friday Night Lights."
+},
+{
+"cat":"Die Hard in a ___",
+"ques":"Who directed the Die Hard on a plane riff Air Force One, which starred Harrison Ford as President James Marshall, who famously quips 'Get off my plane!'?",
+"answ":"WOLFGANG PETERSEN",
+"answ2":"Wolfgang Petersen."
+},
+{
+"cat":"Die Hard in a ___",
+"ques":"In Olympus Has Fallen, one of two Die Hard in the White House riffs, who plays the POTUS that Gerard Butler's Mike Banning must try and rescue?",
+"answ":"AARON ECKHART",
+"answ2":"Aaron Eckhart."
+},
+{
+"cat":"Die Hard in a ___",
+"ques":"Which Jean-Claude Van Damme action film, which riffs as Die Hard in a hockey rink, is set in a Pittsburgh hockey stadium?",
+"answ":"SUDDEN DEATH",
+"answ2":"Sudden Death."
+},
+{
+"cat":"Steven Spielberg",
+"ques":"Which Spielberg film is known for coining the line 'Life finds a way.'?",
+"answ":"JURASSIC PARK",
+"answ2":"Jurassic Park."
+},
+{
+"cat":"Famous Actors & Actresses",
+"ques":"Which actor played the real-life individuals Jake LaMotta and Al Capone?",
+"answ":"ROBERT DE NIRO",
+"answ2":"Robert De Niro."
+},
+{
+"cat":"Romance",
+"ques":"Name one of the two leads in the 1973 romance film The Way We Were.",
+"answ":"BARBRA STREISAND",
+"answ3":"ROBERT REDFORD",
+"answ2":"Barbra Streisand / Robert Redford."
+},
+{
+"cat":"Spy Movies",
+"ques":"Benjamin Bratt plays Capt. Ricardo Ramírez, part of the U.S. Special Forces group fighting the Colombian drug cartel, in what 1994 film featuring Willem Dafoe?",
+"answ":"CLEAR AND PRESENT DANGER",
+"answ2":"Clear and Present Danger."
+},
+{
+"cat":"2000s",
+"ques":"Who plays Laurie Strode in 2007's Halloween?",
+"answ":"SCOUT TAYLOR COMPTON",
+"answ2":"Scout Taylor-Compton."
 },
 {
 "cat":"Woody Harrelson",
@@ -3906,7 +7836,7 @@ var question001 = [
 },
 {
 "cat":"Black Cinema",
-"ques":"which actress appears in the films: Ray, Django Unchained and Miracle at St. Anna?",
+"ques":"Which actress appears in the films: Ray, Django Unchained and Miracle at St. Anna?",
 "answ":"KERRY WASHINGTON",
 "answ2":"Kerry Washington.",
 },

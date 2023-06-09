@@ -1,4 +1,4 @@
-var r2Q64 = [
+var r2Q71 = [
 {
 "cat":"Kurt Russell",
 "ques":"In what film will you find Bill Paxton and Sam Elliott playing Kurt Russell's brothers?",
@@ -223,4 +223,4 @@ var r2Q64 = [
 "option":["The Hateful Eight", "Once Upon a Time in Hollywood", "Django Unchained", "Jackie Brown"],
 },
 ];
-r2Q64 = shuffle(r2Q64);
+r2Q71 = shuffle(r2Q71);
